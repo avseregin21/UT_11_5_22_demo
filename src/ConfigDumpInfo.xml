@@ -38902,7 +38902,7 @@
 		<Metadata name="DefinedType.ШаблонСообщенияБИП" id="62c00b76-e938-418f-9168-487ae33afc39" configVersion="ed3f67411af67646b86155e77ff1df3300000000"/>
 		<Metadata name="DefinedType.ШаблонЭтикеткиИС" id="40246b75-be6a-4526-889d-8ac9a78af78d" configVersion="74356974c030704ea27ba8aac01379cb00000000"/>
 		<Metadata name="DefinedType.ШтрихкодУпаковкиИС" id="e5f4f8d5-99a1-48ed-b001-afc17b48aa3a" configVersion="12dcccc9c5987d43a9a85568b4535a3100000000"/>
-		<Metadata name="Document.АвансовыйОтчет" id="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd" configVersion="2e7def1c8b0c484da59b1d6c96990a4600000000">
+		<Metadata name="Document.АвансовыйОтчет" id="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd" configVersion="32f4b96d9879134291452c4b7c59bc4700000000">
 			<Metadata name="Document.АвансовыйОтчет.TabularSection.ПрочиеРасходы.Attribute.ПредъявленСФ" id="02d89b20-f9ba-4d1e-9f6d-98521f58f528"/>
 			<Metadata name="Document.АвансовыйОтчет.TabularSection.КонвертацияВалюты.Attribute.СуммаКонвертации" id="03f92d32-b524-42a1-8bdd-bde62c63c2d7"/>
 			<Metadata name="Document.АвансовыйОтчет.TabularSection.ОплатаПоставщикам.Attribute.СтатьяДвиженияДенежныхСредств" id="045cf292-f00e-4e8e-a6d2-d642ebc37e06"/>
@@ -39009,7 +39009,7 @@
 		<Metadata name="Document.АвансовыйОтчет.Form.ФормаСписка.Help" id="3bcf20ac-c67f-4b36-8b4d-203525d62f5a.1" configVersion="8870f823e9bf73448895f0352ae1b94c00000000"/>
 		<Metadata name="Document.АвансовыйОтчет.Help" id="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd.1" configVersion="02ffefd34ee04c409d160197f32fe34200000000"/>
 		<Metadata name="Document.АвансовыйОтчет.ManagerModule" id="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd.2" configVersion="0939254d5fc05a4db540847c3944889b00000000"/>
-		<Metadata name="Document.АвансовыйОтчет.ObjectModule" id="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd.0" configVersion="f0249657ae04eb4a84e219a3d835b88300000000"/>
+		<Metadata name="Document.АвансовыйОтчет.ObjectModule" id="9de71b46-e9bf-4b0b-8f3c-4abcd6a385dd.0" configVersion="0462e76dd42ca248bf9037975a39a0a500000000"/>
 		<Metadata name="Document.АвансовыйОтчет.Template.ПФ_MXL_АвансовыйОтчет_ru" id="fd40bcf7-6eac-431e-9820-2564dfa813cd" configVersion="da10d7a9a8635a46991a8c28fdeaf4b900000000"/>
 		<Metadata name="Document.АвансовыйОтчет.Template.ПФ_MXL_АвансовыйОтчет_ru.Template" id="fd40bcf7-6eac-431e-9820-2564dfa813cd.0" configVersion="e1b27ea83ad2fe4993efe8cd2b72480600000000"/>
 		<Metadata name="Document.АвансовыйОтчет.Template.ПФ_MXL_АвансовыйОтчетВИностраннойВалюте_ru" id="b10876c8-a621-4e8e-8c4b-fae266db3257" configVersion="6d89b444414f4c499836e3633f8e735700000000"/>
