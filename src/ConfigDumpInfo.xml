@@ -2642,7 +2642,7 @@
 		<Metadata name="BusinessProcess.ТиповаяПродажа.Form.ФормаСписка.Form" id="8666df0c-0407-40a1-8d8f-3e18bde5bd25.0" configVersion="c2cc48abd0e9aa468546915a326c1f6b00000000"/>
 		<Metadata name="BusinessProcess.ТиповаяПродажа.ManagerModule" id="cc105e92-5a19-43d7-91d1-f5cc6742aa31.8" configVersion="1b75ffb69e8142469e77d8715c8046bf00000000"/>
 		<Metadata name="BusinessProcess.ТиповаяПродажа.ObjectModule" id="cc105e92-5a19-43d7-91d1-f5cc6742aa31.6" configVersion="117ec4d0e581da4e94c0598932a3fc3c00000000"/>
-		<Metadata name="Catalog.АвансовыйОтчетПрисоединенныеФайлы" id="d11b89e1-90a2-47e7-b43f-7f231ec64b2f" configVersion="a5ac5bea0f6b5248a754765f4a565e1800000000">
+		<Metadata name="Catalog.АвансовыйОтчетПрисоединенныеФайлы" id="d11b89e1-90a2-47e7-b43f-7f231ec64b2f" configVersion="feb6f13229652b44af156e10d82b037400000000">
 			<Metadata name="Catalog.АвансовыйОтчетПрисоединенныеФайлы.Attribute.ДатаЗаема" id="019c22f0-ef2b-4c7e-9119-f00348435604"/>
 			<Metadata name="Catalog.АвансовыйОтчетПрисоединенныеФайлы.Attribute.ФайлХранилище" id="021d7ed2-c534-4b6b-ad1d-2130935209dc"/>
 			<Metadata name="Catalog.АвансовыйОтчетПрисоединенныеФайлы.Attribute.ТипХраненияФайла" id="2430cb15-e739-4449-b846-71f4aa57b5e1"/>
