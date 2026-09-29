@@ -28245,7 +28245,7 @@
 		<Metadata name="CommonTemplate.ШтампЭлектроннойПодписиOfficeOpen.Template" id="faf89779-2290-4d37-b1ea-e81b1b79f74c.0" configVersion="4ea9b8f1980e1d489ccc6e857cbdf61d00000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС" id="97197400-b866-48fa-a789-a2d0fe2906a0" configVersion="b963d7806c12da469183e9bfb3e4a98a00000000"/>
 		<Metadata name="CommonTemplate.ЭталонИС.Template" id="97197400-b866-48fa-a789-a2d0fe2906a0.0" configVersion="3d8f76f7c103c14dab1f0a327ff63c8b00000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="4bef67d665a55b4989cf0f7cd7b4a34e00000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей" id="61ee2494-c14a-4992-8c93-8e78b20bea27" configVersion="d5d669abcdb5184ead60c938ea014a0100000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ClientApplicationInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.b" configVersion="d0b55fc267ebba4b8fb553728326591e00000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.CommandInterface" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.a" configVersion="fcded1dfb68c8d4c9c98cbab05a0bc5b00000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ExternalConnectionModule" id="c5546fcc-f2dc-43dd-8d40-a6cc2a81b865.5" configVersion="68979574246c9347b4a710032c7f6e7800000000"/>
