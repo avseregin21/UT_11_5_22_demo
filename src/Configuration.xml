@@ -39,7 +39,7 @@
 					<v8:content>Управление торговлей, редакция 11</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>dev01</Comment>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
