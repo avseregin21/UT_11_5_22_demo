@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<Group>Horizontal</Group>
 	<AutoFillCheck>false</AutoFillCheck>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -932,7 +933,6 @@
 												<CheckBoxField name="ИспользоватьРозничныеПродажи" id="296">
 													<DataPath>ИспользоватьРозничныеПродажи</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьРозничныеПродажиКонтекстноеМеню" id="297"/>
 													<ExtendedTooltip name="ИспользоватьРозничныеПродажиРасширеннаяПодсказка" id="977"/>
 													<Events>
@@ -973,14 +973,12 @@
 																	<DataPath>РозничнаяТорговляОблагаетсяЕНВД</DataPath>
 																	<Enabled>false</Enabled>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="РозничнаяТорговляОблагаетсяЕНВДКонтекстноеМеню" id="301"/>
 																	<ExtendedTooltip name="РозничнаяТорговляОблагаетсяЕНВДРасширеннаяПодсказка" id="980"/>
 																</CheckBoxField>
 																<CheckBoxField name="ПрименяетсяПСН" id="1137">
 																	<DataPath>ПрименяетсяПСН</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПрименяетсяПСНКонтекстноеМеню" id="1138"/>
 																	<ExtendedTooltip name="ПрименяетсяПСНРасширеннаяПодсказка" id="1139"/>
 																	<Events>
@@ -990,7 +988,6 @@
 																<CheckBoxField name="ПрименяетсяАУСН" id="1140">
 																	<DataPath>ПрименяетсяАУСН</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПрименяетсяАУСНКонтекстноеМеню" id="1141"/>
 																	<ExtendedTooltip name="ПрименяетсяАУСНРасширеннаяПодсказка" id="1142"/>
 																	<Events>
@@ -1332,7 +1329,6 @@
 														<CheckBoxField name="ИзменитьТекущийОстатокБезналичныхДенежныхСредств" id="1132">
 															<DataPath>ИзменитьТекущийОстатокБезналичныхДенежныхСредств</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИзменитьТекущийОстатокБезналичныхДенежныхСредствКонтекстноеМеню" id="1133"/>
 															<ExtendedTooltip name="ИзменитьТекущийОстатокБезналичныхДенежныхСредствРасширеннаяПодсказка" id="1134"/>
 															<Events>
@@ -1379,7 +1375,6 @@
 												<CheckBoxField name="ИспользуетсяБанкДляРасчетов" id="380">
 													<DataPath>ИспользуетсяБанкДляРасчетов</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользуетсяБанкДляРасчетовКонтекстноеМеню" id="381"/>
 													<ExtendedTooltip name="ИспользуетсяБанкДляРасчетовРасширеннаяПодсказка" id="1011"/>
 													<Events>
@@ -1515,7 +1510,6 @@
 														<CheckBoxField name="ИзменитьТекущийОстатокНаличныхДенежныхСредств" id="1129">
 															<DataPath>ИзменитьТекущийОстатокНаличныхДенежныхСредств</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИзменитьТекущийОстатокНаличныхДенежныхСредствКонтекстноеМеню" id="1130"/>
 															<ExtendedTooltip name="ИзменитьТекущийОстатокНаличныхДенежныхСредствРасширеннаяПодсказка" id="1131"/>
 															<Events>
@@ -1724,7 +1718,6 @@
 													<DataPath>ЦенаВключаетНДС</DataPath>
 													<TitleLocation>Right</TitleLocation>
 													<TitleHeight>1</TitleHeight>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="414"/>
 													<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="1042"/>
 												</CheckBoxField>

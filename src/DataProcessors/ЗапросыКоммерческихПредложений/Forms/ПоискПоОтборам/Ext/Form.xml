@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoTitle>false</AutoTitle>
 	<Group>HorizontalIfPossible</Group>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -699,9 +700,9 @@
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<AutoMaxRowsCount>false</AutoMaxRowsCount>
-									<HorizontalLines>false</HorizontalLines>
-									<VerticalLines>false</VerticalLines>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<HorizontalLinesBWA>false</HorizontalLinesBWA>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -833,6 +834,7 @@
 																							<EditMode>EnterOnInput</EditMode>
 																							<ShowInHeader>false</ShowInHeader>
 																							<ShowInFooter>false</ShowInFooter>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ValuesPicture>
 																								<xr:Ref>CommonPicture.СтатусыДокументовКоммерческиеПредложения</xr:Ref>
 																								<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -850,6 +852,7 @@
 																								</v8:item>
 																							</Title>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ContextMenu name="СписокПокупательНаименованиеКонтекстноеМеню" id="472"/>
 																							<ExtendedTooltip name="СписокПокупательНаименованиеРасширеннаяПодсказка" id="473"/>
 																						</InputField>
@@ -864,6 +867,7 @@
 																						</v8:item>
 																					</Title>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="СписокКатегорииЗапросаКонтекстноеМеню" id="491"/>
 																					<ExtendedTooltip name="СписокКатегорииЗапросаРасширеннаяПодсказка" id="492"/>
 																				</InputField>
@@ -875,6 +879,7 @@
 																			<AutoCellHeight>true</AutoCellHeight>
 																			<ShowInHeader>false</ShowInHeader>
 																			<ShowInFooter>false</ShowInFooter>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>10</Width>
 																			<HorizontalStretch>false</HorizontalStretch>
 																			<TextColor>style:ПоясняющийТекст</TextColor>
@@ -902,6 +907,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="СписокВсегоПозицийКонтекстноеМеню" id="475"/>
 																			<ExtendedTooltip name="СписокВсегоПозицийРасширеннаяПодсказка" id="476"/>
 																		</InputField>
@@ -916,6 +922,7 @@
 																			<EditMode>EnterOnInput</EditMode>
 																			<ShowInHeader>false</ShowInHeader>
 																			<ShowInFooter>false</ShowInFooter>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="СписокКоличествоКонтекстноеМеню" id="538"/>
 																			<ExtendedTooltip name="СписокКоличествоРасширеннаяПодсказка" id="539"/>
 																		</InputField>
@@ -939,6 +946,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="СписокОбщаяСуммаКонтекстноеМеню" id="478"/>
 																			<ExtendedTooltip name="СписокОбщаяСуммаРасширеннаяПодсказка" id="479"/>
 																		</InputField>
@@ -947,6 +955,7 @@
 																			<EditMode>EnterOnInput</EditMode>
 																			<ShowInHeader>false</ShowInHeader>
 																			<ShowInFooter>false</ShowInFooter>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="СписокСуммаКонтекстноеМеню" id="543"/>
 																			<ExtendedTooltip name="СписокСуммаРасширеннаяПодсказка" id="544"/>
 																		</InputField>
@@ -955,6 +964,7 @@
 																<InputField name="СписокДействуетДо" id="482">
 																	<DataPath>Список.ДатаОкончанияСбора</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Format>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -979,6 +989,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="СписокРегионКонтекстноеМеню" id="486"/>
 																	<ExtendedTooltip name="СписокРегионРасширеннаяПодсказка" id="487"/>
 																</InputField>
@@ -993,6 +1004,9 @@
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Hiperlink>true</Hiperlink>
 													<TextColor>style:ГиперссылкаЦвет</TextColor>
 													<ContextMenu name="СписокПредставлениеПродолжитьКонтекстноеМеню" id="559"/>
@@ -1235,6 +1249,7 @@
 																<InputField name="КатегорииНаименование" id="667">
 																	<DataPath>Категории.Наименование</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="КатегорииНаименованиеКонтекстноеМеню" id="668"/>
 																	<ExtendedTooltip name="КатегорииНаименованиеРасширеннаяПодсказка" id="669"/>
 																</InputField>
@@ -1272,6 +1287,7 @@
 																<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
 															</Border>
 															<FileDragMode>AsFile</FileDragMode>
+															<PictureColor>style:НедоступныеДанныеЭДЦвет</PictureColor>
 															<ContextMenu name="ДекорацияПустойРубрикаторКонтекстноеМеню" id="748"/>
 															<ExtendedTooltip name="ДекорацияПустойРубрикаторРасширеннаяПодсказка" id="749"/>
 														</PictureDecoration>
@@ -1524,13 +1540,14 @@
 														<CheckBoxField name="ДеревоОтборовОтбор" id="712">
 															<DataPath>ДеревоОтборов.Отбор</DataPath>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДеревоОтборовОтборКонтекстноеМеню" id="713"/>
 															<ExtendedTooltip name="ДеревоОтборовОтборРасширеннаяПодсказка" id="714"/>
 														</CheckBoxField>
 														<LabelField name="ДеревоОтборовПредставление" id="691">
 															<DataPath>ДеревоОтборов.Представление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДеревоОтборовПредставлениеКонтекстноеМеню" id="692"/>
 															<ExtendedTooltip name="ДеревоОтборовПредставлениеРасширеннаяПодсказка" id="693"/>
 														</LabelField>
@@ -1540,6 +1557,9 @@
 													<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="ДеревоОтборовПредставлениеОтбораГиперссылкаКонтекстноеМеню" id="716"/>
 													<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораГиперссылкаРасширеннаяПодсказка" id="717"/>
 													<Events>
@@ -1551,6 +1571,7 @@
 												<InputField name="ДеревоОтборовПредставлениеОтбора" id="840">
 													<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоОтборовПредставлениеОтбораКонтекстноеМеню" id="841"/>
 													<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораРасширеннаяПодсказка" id="842"/>
 													<Events>

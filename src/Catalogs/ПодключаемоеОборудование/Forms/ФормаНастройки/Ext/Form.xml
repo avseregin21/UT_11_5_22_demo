@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -278,7 +278,7 @@
 								</v8:item>
 							</Title>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ДрайверОсновнаяПоставкаРасширеннаяПодсказка" id="193"/>
 							<ChildItems>
@@ -407,7 +407,7 @@
 					<ChangeRowOrder>false</ChangeRowOrder>
 					<HeightInTableRows>3</HeightInTableRows>
 					<SelectionMode>SingleRow</SelectionMode>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -450,12 +450,14 @@
 							<DataPath>ПараметрыДорожек.НомерДорожки</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПараметрыДорожекНомерДорожкиКонтекстноеМеню" id="177"/>
 							<ExtendedTooltip name="ПараметрыДорожекНомерДорожкиРасширеннаяПодсказка" id="178"/>
 						</InputField>
 						<InputField name="ПараметрыДорожекПрефикс" id="179">
 							<DataPath>ПараметрыДорожек.Префикс</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ClearButton>true</ClearButton>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -466,6 +468,7 @@
 						<InputField name="ПараметрыДорожекСуффикс" id="182">
 							<DataPath>ПараметрыДорожек.Суффикс</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ClearButton>true</ClearButton>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -477,7 +480,7 @@
 							<DataPath>ПараметрыДорожек.Использовать</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПараметрыДорожекИспользоватьКонтекстноеМеню" id="186"/>
 							<ExtendedTooltip name="ПараметрыДорожекИспользоватьРасширеннаяПодсказка" id="187"/>
 						</CheckBoxField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
@@ -207,6 +207,7 @@
 							<DataPath>Объект.Соглашение</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<DropListButton>false</DropListButton>
@@ -241,6 +242,7 @@
 							<DataPath>Объект.Договор</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<OpenButton>false</OpenButton>
@@ -272,6 +274,7 @@
 							<DataPath>Объект.Контрагент</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ClearButton>false</ClearButton>
@@ -463,6 +466,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.LineNumber</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ВозвращаемыеТоварыНомерСтрокиКонтекстноеМеню" id="34"/>
@@ -481,6 +485,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>7</Width>
 									<ContextMenu name="ВозвращаемыеТоварыТипНоменклатурыКонтекстноеМеню" id="90"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыТипНоменклатурыРасширеннаяПодсказка" id="177"/>
@@ -489,6 +494,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.Артикул</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ВозвращаемыеТоварыАртикулКонтекстноеМеню" id="92"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыАртикулРасширеннаяПодсказка" id="178"/>
@@ -497,6 +503,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.Номенклатура</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ВозвращаемыеТоварыНоменклатураКонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыНоменклатураРасширеннаяПодсказка" id="179"/>
@@ -505,6 +512,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.Характеристика</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ВозвращаемыеТоварыХарактеристикаКонтекстноеМеню" id="38"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыХарактеристикаРасширеннаяПодсказка" id="180"/>
@@ -528,6 +536,7 @@
 												<xr:Ref>CommonPicture.СерииНоменклатурыКолонкаСтатусов</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -539,6 +548,7 @@
 										<InputField name="ВозвращаемыеТоварыСерия" id="210">
 											<DataPath>Объект.ВозвращаемыеТовары.Серия</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -562,6 +572,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ВозвращаемыеТоварыКоличествоУпаковокКонтекстноеМеню" id="42"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыКоличествоУпаковокРасширеннаяПодсказка" id="181"/>
@@ -584,6 +595,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -609,6 +621,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.Цена</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ВозвращаемыеТоварыЦенаКонтекстноеМеню" id="44"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыЦенаРасширеннаяПодсказка" id="185"/>
@@ -617,6 +630,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.Сумма</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ВозвращаемыеТоварыСуммаКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыСуммаРасширеннаяПодсказка" id="186"/>
@@ -625,6 +639,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.СтавкаНДС</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>11</Width>
 									<ContextMenu name="ВозвращаемыеТоварыСтавкаНДСКонтекстноеМеню" id="48"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыСтавкаНДСРасширеннаяПодсказка" id="187"/>
@@ -639,6 +654,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ВозвращаемыеТоварыСуммаНДСКонтекстноеМеню" id="50"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыСуммаНДСРасширеннаяПодсказка" id="188"/>
@@ -647,6 +663,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.СуммаСНДС</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВозвращаемыеТоварыСуммаСНДСКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ВозвращаемыеТоварыСуммаСНДСРасширеннаяПодсказка" id="189"/>
 								</InputField>
@@ -654,6 +671,7 @@
 									<DataPath>Объект.ВозвращаемыеТовары.ДокументРеализации</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -695,7 +713,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоступлениеОднойДатойКонтекстноеМеню" id="109"/>
 									<ExtendedTooltip name="ПоступлениеОднойДатойРасширеннаяПодсказка" id="193"/>
 								</CheckBoxField>

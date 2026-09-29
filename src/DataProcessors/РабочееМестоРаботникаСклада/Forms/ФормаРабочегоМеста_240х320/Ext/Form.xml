@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Width>25</Width>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<ChildItemsWidth>Equal</ChildItemsWidth>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -236,8 +237,8 @@
 							<HeightInTableRows>1</HeightInTableRows>
 							<Header>false</Header>
 							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-							<VerticalLines>false</VerticalLines>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Задания</DataPath>
 							<Title>
@@ -304,6 +305,7 @@
 												<InputField name="ЗаданияНомер" id="731">
 													<DataPath>Задания.Номер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ЗаданияНомерКонтекстноеМеню" id="732"/>
 													<ExtendedTooltip name="ЗаданияНомерРасширеннаяПодсказка" id="733"/>
@@ -311,6 +313,7 @@
 												<InputField name="ЗаданияПорядокДоставки" id="734">
 													<DataPath>Задания.ПорядокДоставки</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ЗаданияПорядокДоставкиКонтекстноеМеню" id="735"/>
 													<ExtendedTooltip name="ЗаданияПорядокДоставкиРасширеннаяПодсказка" id="736"/>
@@ -332,6 +335,7 @@
 												<InputField name="ЗаданияИсполнитель" id="728">
 													<DataPath>Задания.НаименованиеИсполнителя</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<ContextMenu name="ЗаданияИсполнительКонтекстноеМеню" id="729"/>
 													<ExtendedTooltip name="ЗаданияИсполнительРасширеннаяПодсказка" id="730"/>
@@ -350,6 +354,7 @@
 														<InputField name="ЗаданияВес" id="722">
 															<DataPath>Задания.Вес</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<Format>
 																<v8:item>
@@ -363,6 +368,7 @@
 														<InputField name="ЗаданияЕдиницаИзмерения" id="725">
 															<DataPath>Задания.НаименованиеЕдиницыИзмерения</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<ContextMenu name="ЗаданияЕдиницаИзмеренияКонтекстноеМеню" id="726"/>
 															<ExtendedTooltip name="ЗаданияЕдиницаИзмеренияРасширеннаяПодсказка" id="727"/>
@@ -1560,7 +1566,7 @@
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<HeightInTableRows>4</HeightInTableRows>
 							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ЗоныПриемкиОтгрузки</DataPath>
 							<Title>
@@ -1826,6 +1832,7 @@
 									<DataPath>Объект.Назначения.Назначение</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НазначенияНазначениеКонтекстноеМеню" id="656"/>
 									<ExtendedTooltip name="НазначенияНазначениеРасширеннаяПодсказка" id="657"/>
 								</InputField>
@@ -1833,6 +1840,7 @@
 									<DataPath>Объект.Назначения.Остаток</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>7</Width>
 									<Format>
 										<v8:item>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -14,6 +14,7 @@
 		<InputField name="Наименование" id="3">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="23"/>
@@ -56,7 +57,7 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НеОграниченаПоРазмерамКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="НеОграниченаПоРазмерамРасширеннаяПодсказка" id="26"/>
 							<Events>
@@ -92,6 +93,7 @@
 										<InputField name="Высота" id="5">
 											<DataPath>Объект.Высота</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="ВысотаКонтекстноеМеню" id="6"/>
 											<ExtendedTooltip name="ВысотаРасширеннаяПодсказка" id="27"/>
@@ -127,6 +129,7 @@
 										<InputField name="Ширина" id="17">
 											<DataPath>Объект.Ширина</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="ШиринаКонтекстноеМеню" id="18"/>
 											<ExtendedTooltip name="ШиринаРасширеннаяПодсказка" id="28"/>
@@ -162,6 +165,7 @@
 										<InputField name="Глубина" id="7">
 											<DataPath>Объект.Глубина</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="ГлубинаКонтекстноеМеню" id="8"/>
 											<ExtendedTooltip name="ГлубинаРасширеннаяПодсказка" id="29"/>
@@ -197,6 +201,7 @@
 										<InputField name="Объем" id="15">
 											<DataPath>Объект.Объем</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="ОбъемКонтекстноеМеню" id="16"/>
 											<ExtendedTooltip name="ОбъемРасширеннаяПодсказка" id="30"/>
@@ -240,7 +245,7 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НеОграниченаПоГрузоподъемностиКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="НеОграниченаПоГрузоподъемностиРасширеннаяПодсказка" id="32"/>
 							<Events>
@@ -263,6 +268,7 @@
 								<InputField name="Грузоподъемность" id="9">
 									<DataPath>Объект.Грузоподъемность</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ГрузоподъемностьКонтекстноеМеню" id="10"/>
 									<ExtendedTooltip name="ГрузоподъемностьРасширеннаяПодсказка" id="33"/>
 								</InputField>

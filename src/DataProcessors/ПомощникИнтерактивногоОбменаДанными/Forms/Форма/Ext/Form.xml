@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Синхронизация данных с "%1"</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>None</CommandBarLocation>
@@ -22,6 +22,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -571,6 +572,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДеревоИнформацииСтатистикиКартинкаКонтекстноеМеню" id="415"/>
 											<ExtendedTooltip name="ДеревоИнформацииСтатистикиКартинкаРасширеннаяПодсказка" id="774"/>
@@ -584,6 +586,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДеревоИнформацииСтатистикиСинонимКонтекстноеМеню" id="413"/>
 											<ExtendedTooltip name="ДеревоИнформацииСтатистикиСинонимРасширеннаяПодсказка" id="775"/>
 										</InputField>
@@ -596,6 +599,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДеревоИнформацииСтатистикиКоличествоОбъектовВИсточникеКонтекстноеМеню" id="426"/>
 											<ExtendedTooltip name="ДеревоИнформацииСтатистикиКоличествоОбъектовВИсточникеРасширеннаяПодсказка" id="776"/>
 										</InputField>
@@ -615,6 +619,7 @@
 										<xr:Ref>StdPicture.Information</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.СтатусыСопоставленияОбъектов</xr:Ref>
@@ -650,6 +655,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>13</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДеревоИнформацииСтатистикиКоличествоОбъектовВПриемникеКонтекстноеМеню" id="421"/>
@@ -664,6 +670,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДеревоИнформацииСтатистикиКоличествоОбъектовНесопоставленныхКонтекстноеМеню" id="423"/>
@@ -678,6 +685,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>4</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Format>
@@ -721,7 +729,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗакончитьСопоставлениеДанныхКонтекстноеМеню" id="989"/>
 									<ExtendedTooltip name="ЗакончитьСопоставлениеДанныхРасширеннаяПодсказка" id="990"/>
 									<Events>
@@ -737,7 +744,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗагрузитьСообщениеПослеСопоставленияКонтекстноеМеню" id="994"/>
 									<ExtendedTooltip name="ЗагрузитьСообщениеПослеСопоставленияРасширеннаяПодсказка" id="995"/>
 									<Events>
@@ -2295,7 +2301,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УдалитьСообщениеДляСопоставленияКонтекстноеМеню" id="1009"/>
 											<ExtendedTooltip name="УдалитьСообщениеДляСопоставленияРасширеннаяПодсказка" id="1010"/>
 										</CheckBoxField>

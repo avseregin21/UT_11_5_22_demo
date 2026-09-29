@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -257,6 +257,7 @@
 									<DataPath>Объект.Number</DataPath>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>9</MaxWidth>
 									<Wrap>false</Wrap>
@@ -273,6 +274,7 @@
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Wrap>false</Wrap>
@@ -288,6 +290,7 @@
 							<DataPath>Объект.Организация</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>30</MaxWidth>
 							<Wrap>false</Wrap>
@@ -452,6 +455,7 @@
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>22</MaxWidth>
 											<Wrap>false</Wrap>
@@ -582,6 +586,7 @@
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>22</MaxWidth>
 											<Wrap>false</Wrap>
@@ -1018,6 +1023,7 @@
 												<InputField name="ДебиторскаяЗадолженностьНомерСтроки" id="18">
 													<DataPath>Объект.ДебиторскаяЗадолженность.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>3</Width>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ДебиторскаяЗадолженностьНомерСтрокиКонтекстноеМеню" id="19"/>
@@ -1026,6 +1032,7 @@
 												<InputField name="ДебиторскаяЗадолженностьПартнер" id="79">
 													<DataPath>Объект.ДебиторскаяЗадолженность.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1035,6 +1042,7 @@
 												<InputField name="ДебиторскаяЗадолженностьОбъектРасчетов" id="24">
 													<DataPath>Объект.ДебиторскаяЗадолженность.ОбъектРасчетов</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1055,6 +1063,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1077,6 +1086,7 @@
 														</v8:item>
 													</WarningOnEdit>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДебиторскаяЗадолженностьСуммаВзаиморасчетовКонтекстноеМеню" id="70"/>
 													<ExtendedTooltip name="ДебиторскаяЗадолженностьСуммаВзаиморасчетовРасширеннаяПодсказка" id="143"/>
 													<Events>
@@ -1100,6 +1110,7 @@
 														</v8:item>
 													</WarningOnEdit>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ДебиторскаяЗадолженностьВалютаВзаиморасчетовКонтекстноеМеню" id="27"/>
 													<ExtendedTooltip name="ДебиторскаяЗадолженностьВалютаВзаиморасчетовРасширеннаяПодсказка" id="144"/>
@@ -1114,6 +1125,7 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ДебиторскаяЗадолженностьСуммаРеглКонтекстноеМеню" id="29"/>
 													<ExtendedTooltip name="ДебиторскаяЗадолженностьСуммаРеглРасширеннаяПодсказка" id="142"/>
@@ -1127,6 +1139,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДебиторскаяЗадолженностьСуммаУпрКонтекстноеМеню" id="412"/>
 													<ExtendedTooltip name="ДебиторскаяЗадолженностьСуммаУпрРасширеннаяПодсказка" id="413"/>
 												</InputField>
@@ -1140,6 +1153,7 @@
 														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДебиторскаяЗадолженностьОрганизацияКонтекстноеМеню" id="193"/>
 													<ExtendedTooltip name="ДебиторскаяЗадолженностьОрганизацияРасширеннаяПодсказка" id="194"/>
 												</InputField>
@@ -1453,6 +1467,7 @@
 												<InputField name="КредиторскаяЗадолженностьНомерСтроки" id="36">
 													<DataPath>Объект.КредиторскаяЗадолженность.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>3</Width>
 													<Wrap>false</Wrap>
 													<ContextMenu name="КредиторскаяЗадолженностьНомерСтрокиКонтекстноеМеню" id="37"/>
@@ -1461,6 +1476,7 @@
 												<InputField name="КредиторскаяЗадолженностьПартнер" id="81">
 													<DataPath>Объект.КредиторскаяЗадолженность.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1470,6 +1486,7 @@
 												<InputField name="КредиторскаяЗадолженностьОбъектРасчетов" id="326">
 													<DataPath>Объект.КредиторскаяЗадолженность.ОбъектРасчетов</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1490,6 +1507,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1512,6 +1530,7 @@
 														</v8:item>
 													</WarningOnEdit>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КредиторскаяЗадолженностьСуммаВзаиморасчетовКонтекстноеМеню" id="68"/>
 													<ExtendedTooltip name="КредиторскаяЗадолженностьСуммаВзаиморасчетовРасширеннаяПодсказка" id="154"/>
 													<Events>
@@ -1535,6 +1554,7 @@
 														</v8:item>
 													</WarningOnEdit>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<ContextMenu name="КредиторскаяЗадолженностьВалютаВзаиморасчетовКонтекстноеМеню" id="45"/>
 													<ExtendedTooltip name="КредиторскаяЗадолженностьВалютаВзаиморасчетовРасширеннаяПодсказка" id="155"/>
@@ -1549,6 +1569,7 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<ContextMenu name="КредиторскаяЗадолженностьСуммаРеглКонтекстноеМеню" id="47"/>
 													<ExtendedTooltip name="КредиторскаяЗадолженностьСуммаРеглРасширеннаяПодсказка" id="153"/>
@@ -1562,6 +1583,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КредиторскаяЗадолженностьСуммаУпрКонтекстноеМеню" id="409"/>
 													<ExtendedTooltip name="КредиторскаяЗадолженностьСуммаУпрРасширеннаяПодсказка" id="410"/>
 												</InputField>
@@ -1575,6 +1597,7 @@
 														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КредиторскаяЗадолженностьОрганизацияКонтекстноеМеню" id="196"/>
 													<ExtendedTooltip name="КредиторскаяЗадолженностьОрганизацияРасширеннаяПодсказка" id="197"/>
 												</InputField>

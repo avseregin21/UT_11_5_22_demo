@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -495,7 +495,7 @@
 														<xr:Ref>CommonPicture.ВидыЦенТолькоПросмотр</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</HeaderPicture>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВыбранныеЦеныВыбранаКонтекстноеМеню" id="112"/>
 													<ExtendedTooltip name="ВыбранныеЦеныВыбранаРасширеннаяПодсказка" id="274"/>
 													<Events>
@@ -509,7 +509,6 @@
 														<xr:Ref>CommonPicture.УстановитьЦены</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</HeaderPicture>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ВыбранныеЦеныРедактироватьКонтекстноеМеню" id="413"/>
 													<ExtendedTooltip name="ВыбранныеЦеныРедактироватьРасширеннаяПодсказка" id="414"/>
 													<Events>
@@ -520,6 +519,7 @@
 													<DataPath>ВыбранныеЦены.Ссылка</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ВыбранныеЦеныСсылкаКонтекстноеМеню" id="108"/>
 													<ExtendedTooltip name="ВыбранныеЦеныСсылкаРасширеннаяПодсказка" id="275"/>
@@ -532,6 +532,7 @@
 													<DataPath>ВыбранныеЦены.Валюта</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>7</Width>
 													<ContextMenu name="ВыбранныеЦеныВалютаКонтекстноеМеню" id="148"/>
 													<ExtendedTooltip name="ВыбранныеЦеныВалютаРасширеннаяПодсказка" id="276"/>
@@ -540,18 +541,21 @@
 													<DataPath>ВыбранныеЦены.СпособЗаданияЦены</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВыбранныеЦеныСпособЗаданияЦеныКонтекстноеМеню" id="110"/>
 													<ExtendedTooltip name="ВыбранныеЦеныСпособЗаданияЦеныРасширеннаяПодсказка" id="277"/>
 												</InputField>
 												<InputField name="ВыбранныеЦеныЗависимыеЦены" id="200">
 													<DataPath>ВыбранныеЦены.ЗависимыеЦены</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВыбранныеЦеныЗависимыеЦеныКонтекстноеМеню" id="201"/>
 													<ExtendedTooltip name="ВыбранныеЦеныЗависимыеЦеныРасширеннаяПодсказка" id="278"/>
 												</InputField>
 												<InputField name="ВыбранныеЦеныВлияющиеЦены" id="198">
 													<DataPath>ВыбранныеЦены.ВлияющиеЦены</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВыбранныеЦеныВлияющиеЦеныКонтекстноеМеню" id="199"/>
 													<ExtendedTooltip name="ВыбранныеЦеныВлияющиеЦеныРасширеннаяПодсказка" id="279"/>
 												</InputField>
@@ -575,6 +579,7 @@
 															<DataPath>ВыбранныеЦены.Параметры</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ВыбранныеЦеныПараметрыКонтекстноеМеню" id="225"/>
 															<ExtendedTooltip name="ВыбранныеЦеныПараметрыРасширеннаяПодсказка" id="281"/>
 														</InputField>
@@ -1086,6 +1091,7 @@
 															<DataPath>ДеревоЦен.Номенклатура</DataPath>
 															<SkipOnInput>false</SkipOnInput>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>16</Width>
 															<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 															<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1124,6 +1130,7 @@
 															<ReadOnly>true</ReadOnly>
 															<SkipOnInput>true</SkipOnInput>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>8</Width>
 															<ContextMenu name="ДеревоЦенНоменклатураКодКонтекстноеМеню" id="241"/>
 															<ExtendedTooltip name="ДеревоЦенНоменклатураКодРасширеннаяПодсказка" id="345"/>
@@ -1136,6 +1143,7 @@
 															<ReadOnly>true</ReadOnly>
 															<SkipOnInput>true</SkipOnInput>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>8</Width>
 															<ContextMenu name="ДеревоЦенНоменклатураАртикулКонтекстноеМеню" id="243"/>
 															<ExtendedTooltip name="ДеревоЦенНоменклатураАртикулРасширеннаяПодсказка" id="346"/>
@@ -1144,6 +1152,7 @@
 															<DataPath>ДеревоЦен.Характеристика</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>16</Width>
 															<ChoiceParameterLinks>
 																<xr:Link>
@@ -1186,6 +1195,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Номенклатура</xr:Name>
@@ -1206,6 +1216,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Номенклатура</xr:Name>
@@ -1226,6 +1237,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Номенклатура</xr:Name>
@@ -1245,6 +1257,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоЦенЦеноваяГруппаКонтекстноеМеню" id="203"/>
 													<ExtendedTooltip name="ДеревоЦенЦеноваяГруппаРасширеннаяПодсказка" id="349"/>
 												</InputField>

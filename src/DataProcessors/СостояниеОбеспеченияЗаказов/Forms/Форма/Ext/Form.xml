@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -308,7 +308,7 @@
 							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<ChangeRowSet>false</ChangeRowSet>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>
@@ -579,7 +579,7 @@
 							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<ChangeRowSet>false</ChangeRowSet>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокЗаказы</DataPath>
@@ -898,6 +898,7 @@
 										<InputField name="НаборНоменклатура" id="423">
 											<DataPath>Набор.Номенклатура</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="НаборНоменклатураКонтекстноеМеню" id="424"/>
 											<ExtendedTooltip name="НаборНоменклатураРасширеннаяПодсказка" id="425"/>
@@ -905,6 +906,7 @@
 										<InputField name="НаборХарактеристика" id="426">
 											<DataPath>Набор.Характеристика</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="НаборХарактеристикаКонтекстноеМеню" id="427"/>
 											<ExtendedTooltip name="НаборХарактеристикаРасширеннаяПодсказка" id="428"/>
@@ -912,6 +914,7 @@
 										<InputField name="НаборЕдиницаИзмерения" id="429">
 											<DataPath>Набор.ЕдиницаИзмерения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>4</Width>
 											<ContextMenu name="НаборЕдиницаИзмеренияКонтекстноеМеню" id="430"/>
 											<ExtendedTooltip name="НаборЕдиницаИзмеренияРасширеннаяПодсказка" id="431"/>
@@ -919,6 +922,7 @@
 										<InputField name="НаборСклад" id="432">
 											<DataPath>Набор.Склад</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="НаборСкладКонтекстноеМеню" id="433"/>
 											<ExtendedTooltip name="НаборСкладРасширеннаяПодсказка" id="434"/>
@@ -928,6 +932,7 @@
 								<InputField name="НаборЖелаемаяДатаОтгрузки" id="435">
 									<DataPath>Набор.ЖелаемаяДатаОтгрузки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>17</Width>
 									<MaxWidth>14</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -937,6 +942,7 @@
 								<InputField name="НаборДействие" id="438">
 									<DataPath>Набор.Действие</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НаборДействиеКонтекстноеМеню" id="439"/>
 									<ExtendedTooltip name="НаборДействиеРасширеннаяПодсказка" id="440"/>
 								</InputField>
@@ -944,6 +950,7 @@
 									<DataPath>Набор.Обособленно</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.ДваФлажкаУТ</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -955,6 +962,7 @@
 								<InputField name="НаборКоличество" id="444">
 									<DataPath>Набор.Количество</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<MaxWidth>10</MaxWidth>
 									<ContextMenu name="НаборКоличествоКонтекстноеМеню" id="445"/>
@@ -963,6 +971,7 @@
 								<InputField name="НаборСостояние" id="447">
 									<DataPath>Набор.Состояние</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НаборСостояниеКонтекстноеМеню" id="448"/>
@@ -971,6 +980,7 @@
 								<InputField name="НаборДатаПоступления" id="450">
 									<DataPath>Набор.ДатаПоступления</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<ContextMenu name="НаборДатаПоступленияКонтекстноеМеню" id="451"/>
 									<ExtendedTooltip name="НаборДатаПоступленияРасширеннаяПодсказка" id="452"/>
@@ -991,6 +1001,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<MaxWidth>15</MaxWidth>
 											<ContextMenu name="НаборЗаказНаПоступлениеКонтекстноеМеню" id="454"/>
 											<ExtendedTooltip name="НаборЗаказНаПоступлениеРасширеннаяПодсказка" id="455"/>
@@ -1000,6 +1011,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="НаборСпособОбеспеченияНаименованиеКонтекстноеМеню" id="457"/>
 											<ExtendedTooltip name="НаборСпособОбеспеченияНаименованиеРасширеннаяПодсказка" id="458"/>
 										</InputField>
@@ -1011,6 +1023,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<MaxWidth>15</MaxWidth>
 									<ContextMenu name="НаборНазначениеКонтекстноеМеню" id="460"/>

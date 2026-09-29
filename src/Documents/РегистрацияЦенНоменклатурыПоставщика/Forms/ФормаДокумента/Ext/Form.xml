@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -407,7 +407,7 @@
 									<DataPath>ВыбранныеЦены.Выбрана</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыбранныеЦеныВыбранаКонтекстноеМеню" id="314"/>
 									<ExtendedTooltip name="ВыбранныеЦеныВыбранаРасширеннаяПодсказка" id="315"/>
 									<Events>
@@ -418,6 +418,7 @@
 									<DataPath>ВыбранныеЦены.Ссылка</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<TextEdit>false</TextEdit>
 									<ContextMenu name="ВыбранныеЦеныСсылкаКонтекстноеМеню" id="317"/>
 									<ExtendedTooltip name="ВыбранныеЦеныСсылкаРасширеннаяПодсказка" id="318"/>
@@ -430,6 +431,7 @@
 									<DataPath>ВыбранныеЦены.Валюта</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>7</Width>
 									<ContextMenu name="ВыбранныеЦеныВалютаКонтекстноеМеню" id="320"/>
 									<ExtendedTooltip name="ВыбранныеЦеныВалютаРасширеннаяПодсказка" id="321"/>
@@ -750,6 +752,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>7</Width>
 									<ContextMenu name="ДеревоЦенНоменклатураТипНоменклатурыКонтекстноеМеню" id="246"/>
 									<ExtendedTooltip name="ДеревоЦенНоменклатураТипНоменклатурыРасширеннаяПодсказка" id="247"/>
@@ -760,6 +763,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДеревоЦенАртикулКонтекстноеМеню" id="232"/>
 									<ExtendedTooltip name="ДеревоЦенАртикулРасширеннаяПодсказка" id="233"/>
 								</LabelField>
@@ -769,6 +773,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ДеревоЦенНоменклатураКодКонтекстноеМеню" id="255"/>
 									<ExtendedTooltip name="ДеревоЦенНоменклатураКодРасширеннаяПодсказка" id="256"/>
@@ -776,6 +781,7 @@
 								<InputField name="ДеревоЦенНоменклатура" id="213">
 									<DataPath>ДеревоЦен.Номенклатура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<ChoiceParameters>
@@ -795,6 +801,7 @@
 								<InputField name="ДеревоЦенХарактеристика" id="216">
 									<DataPath>ДеревоЦен.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ChoiceParameterLinks>
 										<xr:Link>
@@ -829,6 +836,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>18</Width>
 									<ContextMenu name="ДеревоЦенНоменклатураПартнераКодКонтекстноеМеню" id="249"/>
 									<ExtendedTooltip name="ДеревоЦенНоменклатураПартнераКодРасширеннаяПодсказка" id="250"/>
@@ -845,6 +853,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>18</Width>
 									<ContextMenu name="ДеревоЦенНоменклатураПартнераАртикулКонтекстноеМеню" id="252"/>
 									<ExtendedTooltip name="ДеревоЦенНоменклатураПартнераАртикулРасширеннаяПодсказка" id="253"/>
@@ -858,6 +867,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<ChoiceParameterLinks>
 										<xr:Link>

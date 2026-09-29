@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -189,6 +189,7 @@
 									<DataPath>Объект.Партнер</DataPath>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>28</MaxWidth>
 									<ChoiceParameters>
@@ -229,6 +230,7 @@
 									<DataPath>Объект.Description</DataPath>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>44</MaxWidth>
 									<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
@@ -250,6 +252,7 @@
 							<DataPath>Объект.ОписаниеПретензии</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>70</MaxWidth>
 							<Height>2</Height>
@@ -294,6 +297,7 @@
 											<DataPath>Объект.ПричинаВозникновения</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -346,6 +350,7 @@
 											<DataPath>Объект.Ответственный</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОтветственныйКонтекстноеМеню" id="6"/>
@@ -355,6 +360,7 @@
 											<DataPath>Объект.ДатаРегистрации</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>14</MaxWidth>
 											<ContextMenu name="ДатаРегистрацииКонтекстноеМеню" id="8"/>
@@ -367,6 +373,7 @@
 											<DataPath>Объект.ДатаОкончания</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>14</MaxWidth>
 											<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="10"/>
@@ -410,6 +417,7 @@
 							<DataPath>Объект.РезультатыОтработки</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MultiLine>true</MultiLine>
 							<ContextMenu name="ДополнительнаяИнформацияКонтекстноеМеню" id="16"/>
@@ -476,6 +484,7 @@
 								<LabelField name="ПартнерыИКонтактныеЛицаНомерСтроки" id="28">
 									<DataPath>Объект.ПартнерыИКонтактныеЛица.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="ПартнерыИКонтактныеЛицаНомерСтрокиКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="ПартнерыИКонтактныеЛицаНомерСтрокиРасширеннаяПодсказка" id="78"/>
@@ -483,18 +492,21 @@
 								<InputField name="ПартнерыИКонтактныеЛицаПартнер" id="30">
 									<DataPath>Объект.ПартнерыИКонтактныеЛица.Партнер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПартнерыИКонтактныеЛицаПартнерКонтекстноеМеню" id="31"/>
 									<ExtendedTooltip name="ПартнерыИКонтактныеЛицаПартнерРасширеннаяПодсказка" id="79"/>
 								</InputField>
 								<InputField name="ПартнерыИКонтактныеЛицаРольПартнера" id="32">
 									<DataPath>Объект.ПартнерыИКонтактныеЛица.РольПартнера</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПартнерыИКонтактныеЛицаРольПартнераКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="ПартнерыИКонтактныеЛицаРольПартнераРасширеннаяПодсказка" id="80"/>
 								</InputField>
 								<InputField name="ПартнерыИКонтактныеЛицаКонтактноеЛицо" id="34">
 									<DataPath>Объект.ПартнерыИКонтактныеЛица.КонтактноеЛицо</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceParameterLinks>
 										<xr:Link>
 											<xr:Name>Отбор.Владелец</xr:Name>
@@ -508,12 +520,14 @@
 								<InputField name="ПартнерыИКонтактныеЛицаРольКонтактногоЛица" id="57">
 									<DataPath>Объект.ПартнерыИКонтактныеЛица.РольКонтактногоЛица</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПартнерыИКонтактныеЛицаРольКонтактногоЛицаКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ПартнерыИКонтактныеЛицаРольКонтактногоЛицаРасширеннаяПодсказка" id="82"/>
 								</InputField>
 								<InputField name="ПартнерыИКонтактныеЛицаКомментарий" id="36">
 									<DataPath>Объект.ПартнерыИКонтактныеЛица.Комментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПартнерыИКонтактныеЛицаКомментарийКонтекстноеМеню" id="37"/>
 									<ExtendedTooltip name="ПартнерыИКонтактныеЛицаКомментарийРасширеннаяПодсказка" id="83"/>
 								</InputField>

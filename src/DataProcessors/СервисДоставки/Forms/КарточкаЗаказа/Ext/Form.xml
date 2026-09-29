@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -3410,8 +3411,8 @@
 																					<AutoMaxWidth>false</AutoMaxWidth>
 																					<MaxWidth>50</MaxWidth>
 																					<Header>false</Header>
-																					<HorizontalLines>false</HorizontalLines>
-																					<VerticalLines>false</VerticalLines>
+																					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+																					<VerticalLinesBWA>false</VerticalLinesBWA>
 																					<InitialTreeView>ExpandTopLevel</InitialTreeView>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<EnableStartDrag>true</EnableStartDrag>
@@ -3459,7 +3460,7 @@
 																							<DataPath>ОтборыТарифов.ТребуетсяЗначение</DataPath>
 																							<Visible>false</Visible>
 																							<EditMode>EnterOnInput</EditMode>
-																							<CheckBoxType>Auto</CheckBoxType>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ContextMenu name="ОтборыТарифовТребуетсяЗначениеКонтекстноеМеню" id="935"/>
 																							<ExtendedTooltip name="ОтборыТарифовТребуетсяЗначениеРасширеннаяПодсказка" id="936"/>
 																						</CheckBoxField>
@@ -3467,6 +3468,7 @@
 																							<DataPath>ОтборыТарифов.Идентификатор</DataPath>
 																							<Visible>false</Visible>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ContextMenu name="ОтборыТарифовИдентификаторКонтекстноеМеню" id="923"/>
 																							<ExtendedTooltip name="ОтборыТарифовИдентификаторРасширеннаяПодсказка" id="924"/>
 																						</InputField>
@@ -3485,7 +3487,7 @@
 																									<TitleLocation>None</TitleLocation>
 																									<EditMode>EnterOnInput</EditMode>
 																									<ShowInHeader>false</ShowInHeader>
-																									<CheckBoxType>Auto</CheckBoxType>
+																									<AutoEditMode>true</AutoEditMode>
 																									<ContextMenu name="ОтборыТарифовИспользоватьКонтекстноеМеню" id="920"/>
 																									<ExtendedTooltip name="ОтборыТарифовИспользоватьРасширеннаяПодсказка" id="921"/>
 																									<Events>
@@ -3504,6 +3506,7 @@
 																									<TitleLocation>None</TitleLocation>
 																									<EditMode>EnterOnInput</EditMode>
 																									<ShowInHeader>false</ShowInHeader>
+																									<AutoEditMode>true</AutoEditMode>
 																									<MultiLine>true</MultiLine>
 																									<TextEdit>false</TextEdit>
 																									<ContextMenu name="ОтборыТарифовНаименованиеКонтекстноеМеню" id="917"/>
@@ -3517,6 +3520,7 @@
 																							<HorizontalAlign>Center</HorizontalAlign>
 																							<EditMode>EnterOnInput</EditMode>
 																							<ShowInHeader>false</ShowInHeader>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>10</Width>
 																							<AutoMaxWidth>false</AutoMaxWidth>
 																							<MaxWidth>10</MaxWidth>
@@ -3533,6 +3537,7 @@
 																							<DataPath>ОтборыТарифов.ЕдиницаИзмерения</DataPath>
 																							<Enabled>false</Enabled>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>5</Width>
 																							<AutoMaxWidth>false</AutoMaxWidth>
 																							<MaxWidth>5</MaxWidth>
@@ -3544,6 +3549,8 @@
 																							<CellHyperlink>true</CellHyperlink>
 																							<ShowInHeader>false</ShowInHeader>
 																							<ShowInFooter>false</ShowInFooter>
+																							<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																							<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																							<ValuesPicture>
 																								<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
 																								<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -4000,12 +4007,14 @@
 																<InputField name="ТарифыГрузоперевозчикНаименование" id="14">
 																	<DataPath>Тарифы.ГрузоперевозчикНаименование</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыГрузоперевозчикНаименованиеКонтекстноеМеню" id="15"/>
 																	<ExtendedTooltip name="ТарифыГрузоперевозчикНаименованиеРасширеннаяПодсказка" id="16"/>
 																</InputField>
 																<InputField name="ТарифыТарифПредставление" id="1439">
 																	<DataPath>Тарифы.ТарифПредставление</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыТарифПредставлениеКонтекстноеМеню" id="1440"/>
 																	<ExtendedTooltip name="ТарифыТарифПредставлениеРасширеннаяПодсказка" id="1441"/>
 																</InputField>
@@ -4013,6 +4022,7 @@
 																	<DataPath>Тарифы.ТарифНаименование</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыТарифНаименованиеКонтекстноеМеню" id="18"/>
 																	<ExtendedTooltip name="ТарифыТарифНаименованиеРасширеннаяПодсказка" id="19"/>
 																</InputField>
@@ -4020,6 +4030,7 @@
 																	<DataPath>Тарифы.ГрузоперевозчикИдентификатор</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыГрузоперевозчикИдентификаторКонтекстноеМеню" id="21"/>
 																	<ExtendedTooltip name="ТарифыГрузоперевозчикИдентификаторРасширеннаяПодсказка" id="22"/>
 																</InputField>
@@ -4027,6 +4038,7 @@
 																	<DataPath>Тарифы.ТарифИдентификатор</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыТарифИдентификаторКонтекстноеМеню" id="24"/>
 																	<ExtendedTooltip name="ТарифыТарифИдентификаторРасширеннаяПодсказка" id="25"/>
 																</InputField>
@@ -4048,6 +4060,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТарифыТочкаОтправленияПредставлениеКонтекстноеМеню" id="1385"/>
 																			<ExtendedTooltip name="ТарифыТочкаОтправленияПредставлениеРасширеннаяПодсказка" id="1386"/>
 																		</InputField>
@@ -4060,6 +4073,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТарифыТочкаДоставкиПредставлениеКонтекстноеМеню" id="1388"/>
 																			<ExtendedTooltip name="ТарифыТочкаДоставкиПредставлениеРасширеннаяПодсказка" id="1389"/>
 																		</InputField>
@@ -4069,6 +4083,7 @@
 																	<DataPath>Тарифы.МинимальныйСрок</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыМинимальныйСрокКонтекстноеМеню" id="30"/>
 																	<ExtendedTooltip name="ТарифыМинимальныйСрокРасширеннаяПодсказка" id="31"/>
 																</InputField>
@@ -4076,12 +4091,14 @@
 																	<DataPath>Тарифы.МаксимальныйСрок</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыМаксимальныйСрокКонтекстноеМеню" id="33"/>
 																	<ExtendedTooltip name="ТарифыМаксимальныйСрокРасширеннаяПодсказка" id="34"/>
 																</InputField>
 																<InputField name="ТарифыСрок" id="42">
 																	<DataPath>Тарифы.Срок</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>7</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<ContextMenu name="ТарифыСрокКонтекстноеМеню" id="43"/>
@@ -4100,6 +4117,7 @@
 																		<InputField name="ТарифыСуммаСкидки" id="1399">
 																			<DataPath>Тарифы.СуммаСкидки</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТарифыСуммаСкидкиКонтекстноеМеню" id="1400"/>
 																			<ExtendedTooltip name="ТарифыСуммаСкидкиРасширеннаяПодсказка" id="1401"/>
 																		</InputField>
@@ -4112,6 +4130,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>7</Width>
 																			<ContextMenu name="ТарифыЦенаКонтекстноеМеню" id="27"/>
 																			<ExtendedTooltip name="ТарифыЦенаРасширеннаяПодсказка" id="28"/>
@@ -4678,8 +4697,8 @@
 																	<ChangeRowOrder>false</ChangeRowOrder>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Header>false</Header>
-																	<HorizontalLines>false</HorizontalLines>
-																	<VerticalLines>false</VerticalLines>
+																	<HorizontalLinesBWA>false</HorizontalLinesBWA>
+																	<VerticalLinesBWA>false</VerticalLinesBWA>
 																	<InitialTreeView>ExpandTopLevel</InitialTreeView>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<DataPath>ТарифДополнительныеУслуги</DataPath>
@@ -4723,7 +4742,7 @@
 																			<DataPath>ТарифДополнительныеУслуги.ТребуетсяЗначение</DataPath>
 																			<Visible>false</Visible>
 																			<EditMode>EnterOnInput</EditMode>
-																			<CheckBoxType>Auto</CheckBoxType>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ОборотыДопУслугТребуетсяЗначениеКонтекстноеМеню" id="1322"/>
 																			<ExtendedTooltip name="ОборотыДопУслугТребуетсяЗначениеРасширеннаяПодсказка" id="1323"/>
 																			<Events>
@@ -4734,6 +4753,7 @@
 																			<DataPath>ТарифДополнительныеУслуги.Идентификатор</DataPath>
 																			<Visible>false</Visible>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ОборотыДопУслугИдентификаторКонтекстноеМеню" id="1316"/>
 																			<ExtendedTooltip name="ОборотыДопУслугИдентификаторРасширеннаяПодсказка" id="1317"/>
 																		</InputField>
@@ -4751,7 +4771,7 @@
 																					<DataPath>ТарифДополнительныеУслуги.Использовать</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
 																					<ShowInHeader>false</ShowInHeader>
-																					<CheckBoxType>Auto</CheckBoxType>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ОборотыДопУслугИспользоватьКонтекстноеМеню" id="1313"/>
 																					<ExtendedTooltip name="ОборотыДопУслугИспользоватьРасширеннаяПодсказка" id="1314"/>
 																					<Events>
@@ -4761,6 +4781,7 @@
 																				<InputField name="ОборотыДопУслугНаименование" id="1309">
 																					<DataPath>ТарифДополнительныеУслуги.Наименование</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<Width>35</Width>
 																					<ContextMenu name="ОборотыДопУслугНаименованиеКонтекстноеМеню" id="1310"/>
 																					<ExtendedTooltip name="ОборотыДопУслугНаименованиеРасширеннаяПодсказка" id="1311"/>
@@ -4771,6 +4792,7 @@
 																			<DataPath>ТарифДополнительныеУслуги.Значение</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ShowInHeader>false</ShowInHeader>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>10</Width>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>10</MaxWidth>
@@ -4790,6 +4812,7 @@
 																		<InputField name="ОборотыДопУслугЕдиницаИзмерения" id="1327">
 																			<DataPath>ТарифДополнительныеУслуги.ЕдиницаИзмерения</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ОборотыДопУслугЕдиницаИзмеренияКонтекстноеМеню" id="1328"/>
 																			<ExtendedTooltip name="ОборотыДопУслугЕдиницаИзмеренияРасширеннаяПодсказка" id="1329"/>
 																		</InputField>
@@ -4797,6 +4820,9 @@
 																			<DataPath>ТарифДополнительныеУслуги.ПоказыватьИнформацию</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<CellHyperlink>true</CellHyperlink>
+																			<AutoEditMode>true</AutoEditMode>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<ValuesPicture>
 																				<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
 																				<xr:LoadTransparent>false</xr:LoadTransparent>

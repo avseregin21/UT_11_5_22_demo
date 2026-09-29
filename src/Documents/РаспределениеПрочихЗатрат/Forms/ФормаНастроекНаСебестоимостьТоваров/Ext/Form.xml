@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
@@ -225,6 +225,7 @@
 													<DataPath>Объект.Number</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<ContextMenu name="НомерПоБазеКонтекстноеМеню" id="36"/>
@@ -240,6 +241,7 @@
 													</Title>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<ContextMenu name="ДатаПоБазеКонтекстноеМеню" id="39"/>
 													<ExtendedTooltip name="ДатаПоБазеРасширеннаяПодсказка" id="40"/>
@@ -254,6 +256,7 @@
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<TextEdit>false</TextEdit>
@@ -285,6 +288,7 @@
 											<DataPath>Объект.Ответственный</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<ContextMenu name="ОтветственныйПоБазеКонтекстноеМеню" id="48"/>
@@ -354,7 +358,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УправленческийУчетКонтекстноеМеню" id="689"/>
 															<ExtendedTooltip name="УправленческийУчетРасширеннаяПодсказка" id="690"/>
 															<Events>
@@ -370,7 +373,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="РегламентированныйУчетКонтекстноеМеню" id="686"/>
 															<ExtendedTooltip name="РегламентированныйУчетРасширеннаяПодсказка" id="687"/>
 															<Events>
@@ -387,7 +389,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НалоговыйУчетКонтекстноеМеню" id="700"/>
 															<ExtendedTooltip name="НалоговыйУчетРасширеннаяПодсказка" id="701"/>
 															<Events>
@@ -403,7 +404,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НДДКонтекстноеМеню" id="703"/>
 															<ExtendedTooltip name="НДДРасширеннаяПодсказка" id="704"/>
 															<Events>
@@ -491,6 +491,7 @@
 							</Title>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>70</MaxWidth>
 							<VerticalStretch>false</VerticalStretch>

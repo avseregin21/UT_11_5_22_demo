@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -238,7 +238,7 @@
 							<Representation>List</Representation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<SelectionMode>SingleRow</SelectionMode>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -419,6 +419,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюХозяйственнаяОперацияКонтекстноеМеню" id="158"/>
 									<ExtendedTooltip name="КОформлениюХозяйственнаяОперацияРасширеннаяПодсказка" id="235"/>
@@ -426,6 +427,7 @@
 								<InputField name="КОформлениюДатаОформления" id="159">
 									<DataPath>КОформлению.ДатаОформления</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюДатаОформленияКонтекстноеМеню" id="160"/>
 									<ExtendedTooltip name="КОформлениюДатаОформленияРасширеннаяПодсказка" id="236"/>
@@ -433,6 +435,7 @@
 								<InputField name="КОформлениюОтправитель" id="161">
 									<DataPath>КОформлению.Отправитель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюОтправительКонтекстноеМеню" id="162"/>
 									<ExtendedTooltip name="КОформлениюОтправительРасширеннаяПодсказка" id="237"/>
@@ -440,6 +443,7 @@
 								<InputField name="КОформлениюПолучатель" id="163">
 									<DataPath>КОформлению.Получатель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюПолучательКонтекстноеМеню" id="164"/>
 									<ExtendedTooltip name="КОформлениюПолучательРасширеннаяПодсказка" id="238"/>
@@ -447,6 +451,7 @@
 								<InputField name="КОформлениюСклад" id="165">
 									<DataPath>КОформлению.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюСкладКонтекстноеМеню" id="166"/>
 									<ExtendedTooltip name="КОформлениюСкладРасширеннаяПодсказка" id="239"/>
@@ -454,6 +459,7 @@
 								<InputField name="КОформлениюТипЗапасов" id="167">
 									<DataPath>КОформлению.ТипЗапасов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюТипЗапасовКонтекстноеМеню" id="168"/>
 									<ExtendedTooltip name="КОформлениюТипЗапасовРасширеннаяПодсказка" id="240"/>
@@ -461,6 +467,7 @@
 								<InputField name="КОформлениюПередачаПодДеятельность" id="169">
 									<DataPath>КОформлению.ПередачаПодДеятельность</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюПередачаПодДеятельностьКонтекстноеМеню" id="170"/>
 									<ExtendedTooltip name="КОформлениюПередачаПодДеятельностьРасширеннаяПодсказка" id="241"/>
@@ -468,6 +475,7 @@
 								<InputField name="КОформлениюДатаПоследнейПродажи" id="171">
 									<DataPath>КОформлению.ДатаПоследнейПродажи</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюДатаПоследнейПродажиКонтекстноеМеню" id="172"/>
 									<ExtendedTooltip name="КОформлениюДатаПоследнейПродажиРасширеннаяПодсказка" id="242"/>
@@ -478,6 +486,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="КОформлениюСтрокТоваровКонтекстноеМеню" id="174"/>
 									<ExtendedTooltip name="КОформлениюСтрокТоваровРасширеннаяПодсказка" id="243"/>
@@ -488,6 +497,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОформлениюДоговорКонтекстноеМеню" id="414"/>
 									<ExtendedTooltip name="КОформлениюДоговорРасширеннаяПодсказка" id="415"/>
 								</InputField>
@@ -497,6 +507,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОформлениюВалютаВзаиморасчетовКонтекстноеМеню" id="463"/>
 									<ExtendedTooltip name="КОформлениюВалютаВзаиморасчетовРасширеннаяПодсказка" id="464"/>
 								</InputField>
@@ -506,6 +517,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОформлениюВидЦеныКонтекстноеМеню" id="417"/>
 									<ExtendedTooltip name="КОформлениюВидЦеныРасширеннаяПодсказка" id="418"/>
 								</InputField>
@@ -526,7 +538,7 @@
 							<Representation>List</Representation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<SelectionMode>SingleRow</SelectionMode>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>

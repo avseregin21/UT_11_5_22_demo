@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Планирование поставки</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -139,6 +139,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>35</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ТаблицаОстатковПредставлениеКонтекстноеМеню" id="21"/>
@@ -150,6 +151,7 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>15</Width>
 					<ContextMenu name="ТаблицаОстатковИдентификаторПубликацииКонтекстноеМеню" id="110"/>
 					<ExtendedTooltip name="ТаблицаОстатковИдентификаторПубликацииРасширеннаяПодсказка" id="111"/>
@@ -164,6 +166,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>7</Width>
 					<MaxWidth>10</MaxWidth>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -174,6 +177,7 @@
 					<DataPath>ТаблицаОстатков.Остаток</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ТаблицаОстатковОстатокКонтекстноеМеню" id="33"/>
@@ -183,6 +187,7 @@
 					<DataPath>ТаблицаОстатков.Зарезервировано</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>10</MaxWidth>
@@ -194,6 +199,7 @@
 					<DataPath>ТаблицаОстатков.Доступно</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ТаблицаОстатковДоступноКонтекстноеМеню" id="39"/>
@@ -215,6 +221,9 @@
 							<CellHyperlink>true</CellHyperlink>
 							<ShowInHeader>false</ShowInHeader>
 							<ShowInFooter>false</ShowInFooter>
+							<AutoEditMode>true</AutoEditMode>
+							<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+							<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 							<Height>1</Height>
 							<HorizontalStretch>false</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
@@ -229,6 +238,7 @@
 						<InputField name="ТаблицаОстатковЗапланироватьКПоставке" id="41">
 							<DataPath>ТаблицаОстатков.ЗапланироватьКПоставке</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ClearButton>true</ClearButton>
@@ -296,6 +306,7 @@
 				<InputField name="ДанныеТорговойПлощадкиНаименованиеСкладаТорговойПлощадки" id="125">
 					<DataPath>ДанныеТорговойПлощадки.НаименованиеСкладаТорговойПлощадки</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>30</Width>
 					<ContextMenu name="ДанныеТорговойПлощадкиНаименованиеСкладаТорговойПлощадкиКонтекстноеМеню" id="126"/>
 					<ExtendedTooltip name="ДанныеТорговойПлощадкиНаименованиеСкладаТорговойПлощадкиРасширеннаяПодсказка" id="127"/>
@@ -303,6 +314,7 @@
 				<InputField name="ДанныеТорговойПлощадкиУпаковка" id="128">
 					<DataPath>ДанныеТорговойПлощадки.Упаковка</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>8</Width>
 					<ContextMenu name="ДанныеТорговойПлощадкиУпаковкаКонтекстноеМеню" id="129"/>
 					<ExtendedTooltip name="ДанныеТорговойПлощадкиУпаковкаРасширеннаяПодсказка" id="130"/>
@@ -321,6 +333,7 @@
 						<InputField name="ДанныеТорговойПлощадкиЗаказано" id="131">
 							<DataPath>ДанныеТорговойПлощадки.Заказано</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ДанныеТорговойПлощадкиЗаказаноКонтекстноеМеню" id="132"/>
 							<ExtendedTooltip name="ДанныеТорговойПлощадкиЗаказаноРасширеннаяПодсказка" id="133"/>
@@ -328,6 +341,7 @@
 						<InputField name="ДанныеТорговойПлощадкиОтменено" id="134">
 							<DataPath>ДанныеТорговойПлощадки.Отменено</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ДанныеТорговойПлощадкиОтмененоКонтекстноеМеню" id="135"/>
 							<ExtendedTooltip name="ДанныеТорговойПлощадкиОтмененоРасширеннаяПодсказка" id="136"/>
@@ -335,6 +349,7 @@
 						<InputField name="ДанныеТорговойПлощадкиДнейВНаличии" id="137">
 							<DataPath>ДанныеТорговойПлощадки.ДнейВНаличии</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ДанныеТорговойПлощадкиДнейВНаличииКонтекстноеМеню" id="138"/>
 							<ExtendedTooltip name="ДанныеТорговойПлощадкиДнейВНаличииРасширеннаяПодсказка" id="139"/>
@@ -342,6 +357,7 @@
 						<InputField name="ДанныеТорговойПлощадкиСреднийЗаказВДень" id="140">
 							<DataPath>ДанныеТорговойПлощадки.СреднийЗаказВДень</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ДанныеТорговойПлощадкиСреднийЗаказВДеньКонтекстноеМеню" id="141"/>
 							<ExtendedTooltip name="ДанныеТорговойПлощадкиСреднийЗаказВДеньРасширеннаяПодсказка" id="142"/>
@@ -362,6 +378,7 @@
 						<InputField name="ДанныеТорговойПлощадкиВНаличии" id="153">
 							<DataPath>ДанныеТорговойПлощадки.ВНаличии</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ДанныеТорговойПлощадкиВНаличииКонтекстноеМеню" id="154"/>
 							<ExtendedTooltip name="ДанныеТорговойПлощадкиВНаличииРасширеннаяПодсказка" id="155"/>
@@ -369,6 +386,7 @@
 						<InputField name="ДанныеТорговойПлощадкиЗапасДней" id="143">
 							<DataPath>ДанныеТорговойПлощадки.ЗапасДней</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ДанныеТорговойПлощадкиЗапасДнейКонтекстноеМеню" id="144"/>
 							<ExtendedTooltip name="ДанныеТорговойПлощадкиЗапасДнейРасширеннаяПодсказка" id="145"/>
@@ -430,6 +448,7 @@
 										<xr:Ref>CommonPicture.СтатусРаспознаванияДокументаОшибка</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<PictureColor>style:ПоясняющийТекст</PictureColor>
 									<ContextMenu name="КартинкаОшибкаКонтекстноеМеню" id="94"/>
 									<ExtendedTooltip name="КартинкаОшибкаРасширеннаяПодсказка" id="95"/>
 								</PictureDecoration>
@@ -475,6 +494,7 @@
 										<xr:Ref>CommonPicture.СтатусРаспознаванияДокументаОбработан</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<PictureColor>style:ПоясняющийТекст</PictureColor>
 									<ContextMenu name="КартинкаОшибокНетКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="КартинкаОшибокНетРасширеннаяПодсказка" id="80"/>
 								</PictureDecoration>
@@ -520,6 +540,7 @@
 										<xr:Ref>CommonPicture.ПредупреждениеСНачалаСтроки</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<PictureColor>style:ПоясняющийТекст</PictureColor>
 									<ContextMenu name="КартинкаПредупреждениеКонтекстноеМеню" id="86"/>
 									<ExtendedTooltip name="КартинкаПредупреждениеРасширеннаяПодсказка" id="87"/>
 								</PictureDecoration>

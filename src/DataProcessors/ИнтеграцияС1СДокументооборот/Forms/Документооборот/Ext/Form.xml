@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
 	<ShowTitle>false</ShowTitle>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -377,7 +378,6 @@
 																<xr:Ref>StdPicture.ExecuteTask</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</HeaderPicture>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ДеревоБизнесПроцессовИЗадачВыполненоКонтекстноеМеню" id="117"/>
 															<ExtendedTooltip name="ДеревоБизнесПроцессовИЗадачВыполненоРасширеннаяПодсказка" id="240"/>
 														</CheckBoxField>
@@ -389,6 +389,7 @@
 																<xr:Ref>CommonPicture.РезультатыВыполненияПроцессовИЗадачЗаголовок</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</HeaderPicture>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<ValuesPicture>
 																<xr:Ref>CommonPicture.РезультатыВыполненияПроцессовИЗадачКоллекция</xr:Ref>
@@ -473,7 +474,6 @@
 												<CheckBoxField name="ПоказыватьВыполненные" id="87">
 													<DataPath>ПоказыватьВыполненные</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПоказыватьВыполненныеКонтекстноеМеню" id="88"/>
 													<ExtendedTooltip name="ПоказыватьВыполненныеРасширеннаяПодсказка" id="248"/>
 													<Events>
@@ -907,6 +907,7 @@
 																<xr:Ref>CommonPicture.ПодписанЭП</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</HeaderPicture>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<ValuesPicture>
 																<xr:Ref>CommonPicture.СтатусПроверкиЭП</xr:Ref>
@@ -919,18 +920,21 @@
 														<InputField name="ВизыСогласованияИсполнитель" id="505">
 															<DataPath>ВизыСогласования.СогласующееЛицо</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ВизыСогласованияИсполнительКонтекстноеМеню" id="506"/>
 															<ExtendedTooltip name="ВизыСогласованияИсполнительРасширеннаяПодсказка" id="507"/>
 														</InputField>
 														<InputField name="ВизыСогласованияРезультат" id="508">
 															<DataPath>ВизыСогласования.Результат</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ВизыСогласованияРезультатКонтекстноеМеню" id="509"/>
 															<ExtendedTooltip name="ВизыСогласованияРезультатРасширеннаяПодсказка" id="510"/>
 														</InputField>
 														<InputField name="ВизыСогласованияДата" id="511">
 															<DataPath>ВизыСогласования.Дата</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<Format>
 																<v8:item>
@@ -951,6 +955,7 @@
 															<DataPath>ВизыСогласования.Комментарий</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<AutoCellHeight>true</AutoCellHeight>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ВизыСогласованияКомментарийКонтекстноеМеню" id="515"/>
 															<ExtendedTooltip name="ВизыСогласованияКомментарийРасширеннаяПодсказка" id="516"/>
 														</InputField>
@@ -1188,6 +1193,7 @@
 														<InputField name="ДеревоПисемПисьмо" id="211">
 															<DataPath>ДеревоПисем.Письмо</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>40</Width>
 															<ContextMenu name="ДеревоПисемПисьмоКонтекстноеМеню" id="212"/>
 															<ExtendedTooltip name="ДеревоПисемПисьмоРасширеннаяПодсказка" id="315"/>
@@ -1202,6 +1208,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="ДеревоПисемНомерКонтекстноеМеню" id="424"/>
 															<ExtendedTooltip name="ДеревоПисемНомерРасширеннаяПодсказка" id="425"/>
@@ -1209,6 +1216,7 @@
 														<InputField name="ДеревоПисемАдресаты" id="217">
 															<DataPath>ДеревоПисем.Адресаты</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>15</Width>
 															<ContextMenu name="ДеревоПисемАдресатыКонтекстноеМеню" id="218"/>
 															<ExtendedTooltip name="ДеревоПисемАдресатыРасширеннаяПодсказка" id="316"/>
@@ -1216,6 +1224,7 @@
 														<InputField name="ДеревоПисемДата" id="219">
 															<DataPath>ДеревоПисем.Дата</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="ДеревоПисемДатаКонтекстноеМеню" id="220"/>
 															<ExtendedTooltip name="ДеревоПисемДатаРасширеннаяПодсказка" id="317"/>
@@ -1327,6 +1336,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаботыРаботаКонтекстноеМеню" id="356"/>
 															<ExtendedTooltip name="РаботыРаботаРасширеннаяПодсказка" id="357"/>
 														</InputField>
@@ -1341,6 +1351,7 @@
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="РаботыДлительностьКонтекстноеМеню" id="359"/>
 															<ExtendedTooltip name="РаботыДлительностьРасширеннаяПодсказка" id="360"/>
@@ -1349,6 +1360,7 @@
 															<DataPath>Работы.ВидРабот</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаботыВидРаботКонтекстноеМеню" id="362"/>
 															<ExtendedTooltip name="РаботыВидРаботРасширеннаяПодсказка" id="363"/>
 														</InputField>
@@ -1356,6 +1368,7 @@
 															<DataPath>Работы.ПроектЗадача</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаботыПроектЗадачаКонтекстноеМеню" id="377"/>
 															<ExtendedTooltip name="РаботыПроектЗадачаРасширеннаяПодсказка" id="378"/>
 														</InputField>
@@ -1363,6 +1376,7 @@
 															<DataPath>Работы.Пользователь</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаботыПользовательКонтекстноеМеню" id="413"/>
 															<ExtendedTooltip name="РаботыПользовательРасширеннаяПодсказка" id="414"/>
 														</InputField>
@@ -1370,6 +1384,7 @@
 															<DataPath>Работы.ДатаДобавления</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<Format>
 																<v8:item>

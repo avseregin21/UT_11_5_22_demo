@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -58,7 +58,6 @@
 				<CheckBoxField name="РазрешитьРедактированиеТипСклада" id="35">
 					<DataPath>РазрешитьРедактированиеТипСклада</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РазрешитьРедактированиеТипСкладаКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="РазрешитьРедактированиеТипСкладаРасширеннаяПодсказка" id="83"/>
 				</CheckBoxField>
@@ -78,7 +77,6 @@
 				<CheckBoxField name="РазрешитьРедактированиеЦеховуюКладовую" id="120">
 					<DataPath>РазрешитьРедактированиеЦеховойКладовой</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РазрешитьРедактированиеЦеховуюКладовуюКонтекстноеМеню" id="121"/>
 					<ExtendedTooltip name="РазрешитьРедактированиеЦеховуюКладовуюРасширеннаяПодсказка" id="122"/>
 				</CheckBoxField>
@@ -98,7 +96,6 @@
 				<CheckBoxField name="РазрешитьРедактироватьПодразделение" id="126">
 					<DataPath>РазрешитьРедактированиеПодразделения</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РазрешитьРедактироватьПодразделениеКонтекстноеМеню" id="127"/>
 					<ExtendedTooltip name="РазрешитьРедактироватьПодразделениеРасширеннаяПодсказка" id="128"/>
 				</CheckBoxField>
@@ -134,7 +131,6 @@
 				<CheckBoxField name="РазрешитьРедактированиеРодитель" id="38">
 					<DataPath>РазрешитьРедактированиеРодитель</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РазрешитьРедактированиеРодительКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="РазрешитьРедактированиеРодительРасширеннаяПодсказка" id="86"/>
 				</CheckBoxField>
@@ -183,7 +179,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриПоступлении" id="3">
 							<DataPath>РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриПоступлении</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриПоступленииКонтекстноеМеню" id="4"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриПоступленииРасширеннаяПодсказка" id="90"/>
 						</CheckBoxField>
@@ -204,7 +199,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриПоступлении" id="55">
 							<DataPath>РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриПоступлении</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриПоступленииКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриПоступленииРасширеннаяПодсказка" id="92"/>
 						</CheckBoxField>
@@ -225,7 +219,6 @@
 						<CheckBoxField name="РазрешитьИспользоватьСтатусыПриходныхОрдеров" id="49">
 							<DataPath>РазрешитьИспользоватьСтатусыПриходныхОрдеров</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьИспользоватьСтатусыПриходныхОрдеровКонтекстноеМеню" id="50"/>
 							<ExtendedTooltip name="РазрешитьИспользоватьСтатусыПриходныхОрдеровРасширеннаяПодсказка" id="94"/>
 						</CheckBoxField>
@@ -261,7 +254,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОтгрузке" id="1">
 							<DataPath>РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОтгрузке</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОтгрузкеКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОтгрузкеРасширеннаяПодсказка" id="97"/>
 						</CheckBoxField>
@@ -282,7 +274,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтгрузке" id="57">
 							<DataPath>РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтгрузке</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтгрузкеКонтекстноеМеню" id="58"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтгрузкеРасширеннаяПодсказка" id="99"/>
 						</CheckBoxField>
@@ -303,7 +294,6 @@
 						<CheckBoxField name="РазрешитьИспользоватьСтатусыРасходныхОрдеров" id="51">
 							<DataPath>РазрешитьИспользоватьСтатусыРасходныхОрдеров</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьИспользоватьСтатусыРасходныхОрдеровКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="РазрешитьИспользоватьСтатусыРасходныхОрдеровРасширеннаяПодсказка" id="101"/>
 						</CheckBoxField>
@@ -338,7 +328,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОформленииИзлишковНедостач" id="30">
 							<DataPath>РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОформленииИзлишковНедостач</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОформленииИзлишковНедостачКонтекстноеМеню" id="31"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеИспользоватьОрдернуюСхемуПриОформленииИзлишковНедостачРасширеннаяПодсказка" id="104"/>
 						</CheckBoxField>
@@ -358,7 +347,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач" id="53">
 							<DataPath>РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостачКонтекстноеМеню" id="54"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостачРасширеннаяПодсказка" id="106"/>
 						</CheckBoxField>
@@ -394,7 +382,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеИспользоватьСкладскиеПомещения" id="21">
 							<DataPath>РазрешитьРедактированиеИспользоватьСкладскиеПомещения</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеИспользоватьСкладскиеПомещенияКонтекстноеМеню" id="22"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеИспользоватьСкладскиеПомещенияРасширеннаяПодсказка" id="109"/>
 						</CheckBoxField>
@@ -415,7 +402,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач1" id="70">
 							<DataPath>РазрешитьРедактированиеДатаНачалаИспользованияСкладскихПомещений</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач1КонтекстноеМеню" id="71"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач1РасширеннаяПодсказка" id="111"/>
 						</CheckBoxField>
@@ -451,7 +437,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеНастройкаАдресногоХранения" id="16">
 							<DataPath>РазрешитьРедактированиеНастройкаАдресногоХранения</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеНастройкаАдресногоХраненияКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеНастройкаАдресногоХраненияРасширеннаяПодсказка" id="114"/>
 						</CheckBoxField>
@@ -472,7 +457,6 @@
 						<CheckBoxField name="РазрешитьРедактированиеДатаНачалаАдресногоХраненияОстатков" id="74">
 							<DataPath>РазрешитьРедактированиеДатаНачалаАдресногоХраненияОстатков</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РазрешитьРедактированиеДатаНачалаАдресногоХраненияОстатковКонтекстноеМеню" id="75"/>
 							<ExtendedTooltip name="РазрешитьРедактированиеДатаНачалаАдресногоХраненияОстатковРасширеннаяПодсказка" id="116"/>
 						</CheckBoxField>
@@ -510,7 +494,6 @@
 				<CheckBoxField name="РазрешитьРедактированиеРозничныйВидЦены" id="47">
 					<DataPath>РазрешитьРедактированиеРозничныйВидЦены</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РазрешитьРедактированиеРозничныйВидЦеныКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="РазрешитьРедактированиеРозничныйВидЦеныРасширеннаяПодсказка" id="119"/>
 				</CheckBoxField>
@@ -546,7 +529,6 @@
 				<CheckBoxField name="РазрешитьРедактированиеИндивидуальныйВидЦены" id="137">
 					<DataPath>РазрешитьРедактированиеИндивидуальныйВидЦены</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="РазрешитьРедактированиеИндивидуальныйВидЦеныКонтекстноеМеню" id="138"/>
 					<ExtendedTooltip name="РазрешитьРедактированиеИндивидуальныйВидЦеныРасширеннаяПодсказка" id="139"/>
 				</CheckBoxField>

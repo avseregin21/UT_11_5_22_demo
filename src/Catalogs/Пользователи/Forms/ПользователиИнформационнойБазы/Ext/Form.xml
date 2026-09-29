@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -16,7 +17,6 @@
 				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПоказатьТолькоОбработанныеВКонфигуратореКонтекстноеМеню" id="92"/>
 			<ExtendedTooltip name="ПоказатьТолькоОбработанныеВКонфигуратореРасширеннаяПодсказка" id="93"/>
 			<Events>
@@ -138,7 +138,7 @@
 			<SelectionMode>SingleRow</SelectionMode>
 			<RowSelectionMode>Row</RowSelectionMode>
 			<HeaderHeight>2</HeaderHeight>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -242,6 +242,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<TextEdit>false</TextEdit>
 					<ContextMenu name="ПолноеИмяКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="ПолноеИмяРасширеннаяПодсказка" id="67"/>
@@ -262,6 +263,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<TextEdit>false</TextEdit>
 					<ContextMenu name="ИмяКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="68"/>
@@ -285,6 +287,7 @@
 					</ToolTip>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -314,6 +317,7 @@ OpenID</v8:content>
 					</ToolTip>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -343,6 +347,7 @@ OpenID-Connect</v8:content>
 					</ToolTip>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -371,6 +376,7 @@ OpenID-Connect</v8:content>
 					</ToolTip>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -409,6 +415,7 @@ OpenID-Connect</v8:content>
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="АутентификацияОСКонтекстноеМеню" id="13"/>
 							<ExtendedTooltip name="АутентификацияОСРасширеннаяПодсказка" id="71"/>
 						</LabelField>
@@ -429,6 +436,7 @@ OpenID-Connect</v8:content>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПользовательОСКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="ПользовательОСРасширеннаяПодсказка" id="72"/>
 						</LabelField>
@@ -449,6 +457,7 @@ OpenID-Connect</v8:content>
 					</Title>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -473,6 +482,7 @@ OpenID-Connect</v8:content>
 					</Title>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -497,6 +507,7 @@ OpenID-Connect</v8:content>
 					</Title>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -521,6 +532,7 @@ OpenID-Connect</v8:content>
 					</Title>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Format>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

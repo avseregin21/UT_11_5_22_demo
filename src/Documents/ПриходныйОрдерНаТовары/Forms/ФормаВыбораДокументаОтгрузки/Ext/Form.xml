@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Выберите документы отгрузки</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -182,6 +182,7 @@
 				<LabelField name="ДокументыОтгрузкиНомер" id="95">
 					<DataPath>ДокументыОтгрузки.Номер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ДокументыОтгрузкиНомерКонтекстноеМеню" id="96"/>
@@ -190,6 +191,7 @@
 				<LabelField name="ДокументыОтгрузкиДата" id="98">
 					<DataPath>ДокументыОтгрузки.Дата</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>8</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ДокументыОтгрузкиДатаКонтекстноеМеню" id="99"/>
@@ -198,6 +200,7 @@
 				<LabelField name="ДокументыОтгрузкиТипДокумента" id="101">
 					<DataPath>ДокументыОтгрузки.ТипДокумента</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>16</Width>
 					<ContextMenu name="ДокументыОтгрузкиТипДокументаКонтекстноеМеню" id="102"/>
 					<ExtendedTooltip name="ДокументыОтгрузкиТипДокументаРасширеннаяПодсказка" id="103"/>
@@ -205,12 +208,14 @@
 				<LabelField name="ДокументыОтгрузкиПолучатель" id="104">
 					<DataPath>ДокументыОтгрузки.Получатель</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыОтгрузкиПолучательКонтекстноеМеню" id="105"/>
 					<ExtendedTooltip name="ДокументыОтгрузкиПолучательРасширеннаяПодсказка" id="106"/>
 				</LabelField>
 				<LabelField name="ДокументыОтгрузкиЗаданиеНаПеревозку" id="107">
 					<DataPath>ДокументыОтгрузки.ЗаданиеНаПеревозку</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыОтгрузкиЗаданиеНаПеревозкуКонтекстноеМеню" id="108"/>
 					<ExtendedTooltip name="ДокументыОтгрузкиЗаданиеНаПеревозкуРасширеннаяПодсказка" id="109"/>
 				</LabelField>
@@ -220,6 +225,7 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыОтгрузкиСсылкаКонтекстноеМеню" id="111"/>
 					<ExtendedTooltip name="ДокументыОтгрузкиСсылкаРасширеннаяПодсказка" id="112"/>
 				</LabelField>

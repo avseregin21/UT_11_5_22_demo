@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -807,7 +807,7 @@
 							<AutoMaxRowsCount>false</AutoMaxRowsCount>
 							<RowInputMode>AfterCurrentRow</RowInputMode>
 							<SelectionMode>SingleRow</SelectionMode>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>
 							<Title>
@@ -893,6 +893,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="СписокАртикулКонтекстноеМеню" id="126"/>
 									<ExtendedTooltip name="СписокАртикулРасширеннаяПодсказка" id="127"/>
@@ -903,6 +904,7 @@
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>50</Width>
 									<ContextMenu name="СписокНаименованиеНоменклатурыКонтекстноеМеню" id="50"/>
 									<ExtendedTooltip name="СписокНаименованиеНоменклатурыРасширеннаяПодсказка" id="51"/>
@@ -913,6 +915,7 @@
 									<HorizontalAlign>Left</HorizontalAlign>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="СписокЕдиницаИзмеренияКонтекстноеМеню" id="129"/>
 									<ExtendedTooltip name="СписокЕдиницаИзмеренияРасширеннаяПодсказка" id="130"/>
@@ -962,7 +965,7 @@
 											<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СписокЦенаВключаетНДСКонтекстноеМеню" id="637"/>
 											<ExtendedTooltip name="СписокЦенаВключаетНДСРасширеннаяПодсказка" id="638"/>
 										</CheckBoxField>
@@ -986,6 +989,7 @@
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ContextMenu name="СписокПредставлениеЦеныКонтекстноеМеню" id="56"/>
@@ -1012,6 +1016,7 @@
 											<ReadOnly>true</ReadOnly>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>7</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ContextMenu name="СписокСуммаНДСКонтекстноеМеню" id="936"/>
@@ -1026,6 +1031,7 @@
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ContextMenu name="СписокСтавкаНДСКонтекстноеМеню" id="634"/>
@@ -1063,6 +1069,9 @@
 											<ShowInHeader>false</ShowInHeader>
 											<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>5</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -1083,6 +1092,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="СписокИдентификаторКонтрагентаКонтекстноеМеню" id="59"/>
 									<ExtendedTooltip name="СписокИдентификаторКонтрагентаРасширеннаяПодсказка" id="60"/>
@@ -1093,6 +1103,7 @@
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>15</Width>
 									<Height>2</Height>
 									<AutoMaxHeight>false</AutoMaxHeight>
@@ -1109,6 +1120,7 @@
 									<EditMode>EnterOnInput</EditMode>
 									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="СписокСрокПоставкиКонтекстноеМеню" id="478"/>
 									<ExtendedTooltip name="СписокСрокПоставкиРасширеннаяПодсказка" id="479"/>
@@ -1122,6 +1134,9 @@
 									<ShowInHeader>false</ShowInHeader>
 									<ShowInFooter>false</ShowInFooter>
 									<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<MaxWidth>1</MaxWidth>
 									<Hiperlink>true</Hiperlink>
 									<TextColor>style:ЦветГиперссылкиБЭД</TextColor>
@@ -1156,6 +1171,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.ОстаткиТорговыеПредложения</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1171,6 +1187,7 @@
 											<ShowInHeader>false</ShowInHeader>
 											<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СписокНаличиеТекстомКонтекстноеМеню" id="640"/>
 											<ExtendedTooltip name="СписокНаличиеТекстомРасширеннаяПодсказка" id="641"/>
 										</InputField>
@@ -1392,6 +1409,7 @@
 														<LabelField name="КатегорииНаименование" id="739">
 															<DataPath>Категории.Наименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КатегорииНаименованиеКонтекстноеМеню" id="740"/>
 															<ExtendedTooltip name="КатегорииНаименованиеРасширеннаяПодсказка" id="741"/>
 														</LabelField>
@@ -1429,6 +1447,7 @@
 														<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
 													</Border>
 													<FileDragMode>AsFile</FileDragMode>
+													<PictureColor>style:НедоступныеДанныеЭДЦвет</PictureColor>
 													<ContextMenu name="ДекорацияПустойРубрикаторКонтекстноеМеню" id="832"/>
 													<ExtendedTooltip name="ДекорацияПустойРубрикаторРасширеннаяПодсказка" id="833"/>
 												</PictureDecoration>
@@ -1597,7 +1616,7 @@
 												<CheckBoxField name="ДеревоОтборовОтбор" id="769">
 													<DataPath>ДеревоОтборов.Отбор</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоОтборовОтборКонтекстноеМеню" id="770"/>
 													<ExtendedTooltip name="ДеревоОтборовОтборРасширеннаяПодсказка" id="771"/>
 												</CheckBoxField>
@@ -1605,6 +1624,7 @@
 													<DataPath>ДеревоОтборов.Представление</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоОтборовПредставлениеКонтекстноеМеню" id="749"/>
 													<ExtendedTooltip name="ДеревоОтборовПредставлениеРасширеннаяПодсказка" id="750"/>
 												</InputField>
@@ -1614,6 +1634,9 @@
 											<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<ContextMenu name="ДеревоОтборовПредставлениеОтбораГиперссылкаКонтекстноеМеню" id="764"/>
 											<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораГиперссылкаРасширеннаяПодсказка" id="765"/>
 											<Events>
@@ -1624,6 +1647,7 @@
 										<InputField name="ДеревоОтборовПредставлениеОтбора" id="924">
 											<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ClearButton>true</ClearButton>
 											<InputHint>
 												<v8:item>
@@ -1746,6 +1770,7 @@
 										</v8:item>
 									</NonselectedPictureText>
 									<TextColor>style:НедоступныеДанныеЭДЦвет</TextColor>
+									<PictureColor>style:НедоступныеДанныеЭДЦвет</PictureColor>
 									<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="993"/>
 									<ExtendedTooltip name="АдресКартинкиРасширеннаяПодсказка" id="994"/>
 									<Events>

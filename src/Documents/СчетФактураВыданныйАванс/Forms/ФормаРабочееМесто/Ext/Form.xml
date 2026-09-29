@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -11,6 +11,7 @@
 	<Customizable>false</Customizable>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -437,7 +438,7 @@
 									<DataPath>ПолученныеАвансы.Выбран</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПолученныеАвансыВыбранКонтекстноеМеню" id="642"/>
 									<ExtendedTooltip name="ПолученныеАвансыВыбранРасширеннаяПодсказка" id="643"/>
 									<Events>
@@ -447,6 +448,7 @@
 								<InputField name="ПолученныеАвансыДатаВыписки" id="457">
 									<DataPath>ПолученныеАвансы.ДатаВыписки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ПолученныеАвансыДатаВыпискиКонтекстноеМеню" id="458"/>
@@ -467,13 +469,14 @@
 											<DataPath>ПолученныеАвансы.СФСформирован</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПолученныеАвансыСФСформированКонтекстноеМеню" id="446"/>
 											<ExtendedTooltip name="ПолученныеАвансыСФСформированРасширеннаяПодсказка" id="501"/>
 										</CheckBoxField>
 										<InputField name="ПолученныеАвансыСФСумма" id="468">
 											<DataPath>ПолученныеАвансы.СуммаСчетаФактуры</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ПолученныеАвансыСФСуммаКонтекстноеМеню" id="469"/>
 											<ExtendedTooltip name="ПолученныеАвансыСФСуммаРасширеннаяПодсказка" id="502"/>
@@ -483,12 +486,14 @@
 								<InputField name="ПолученныеАвансыКонтрагент" id="447">
 									<DataPath>ПолученныеАвансы.Контрагент</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПолученныеАвансыКонтрагентКонтекстноеМеню" id="448"/>
 									<ExtendedTooltip name="ПолученныеАвансыКонтрагентРасширеннаяПодсказка" id="503"/>
 								</InputField>
 								<InputField name="ПолученныеАвансыСумма" id="449">
 									<DataPath>ПолученныеАвансы.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ПолученныеАвансыСуммаКонтекстноеМеню" id="450"/>
 									<ExtendedTooltip name="ПолученныеАвансыСуммаРасширеннаяПодсказка" id="504"/>
@@ -499,6 +504,7 @@
 								<InputField name="ПолученныеАвансыСтавкаНДС" id="451">
 									<DataPath>ПолученныеАвансы.СтавкаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -511,6 +517,7 @@
 								<InputField name="ПолученныеАвансыСуммаНДС" id="453">
 									<DataPath>ПолученныеАвансы.СуммаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ПолученныеАвансыСуммаНДСКонтекстноеМеню" id="454"/>
 									<ExtendedTooltip name="ПолученныеАвансыСуммаНДСРасширеннаяПодсказка" id="506"/>
@@ -524,6 +531,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -534,6 +542,7 @@
 								<InputField name="ПолученныеАвансыОбъектРасчетов" id="686">
 									<DataPath>ПолученныеАвансы.ОбъектРасчетов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПолученныеАвансыОбъектРасчетовКонтекстноеМеню" id="687"/>
 									<ExtendedTooltip name="ПолученныеАвансыОбъектРасчетовРасширеннаяПодсказка" id="688"/>
 								</InputField>
@@ -551,6 +560,7 @@
 										<InputField name="ПолученныеАвансыВалютнаяСумма" id="461">
 											<DataPath>ПолученныеАвансы.ВалютнаяСумма</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>9</MaxWidth>
 											<ContextMenu name="ПолученныеАвансыВалютнаяСуммаКонтекстноеМеню" id="462"/>
@@ -563,6 +573,7 @@
 											<DataPath>ПолученныеАвансы.ВалютаДокумента</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>4</MaxWidth>
 											<ContextMenu name="ПолученныеАвансыВалютаДокументаКонтекстноеМеню" id="460"/>
@@ -573,6 +584,7 @@
 								<InputField name="ПолученныеАвансыСчетФактура" id="465">
 									<DataPath>ПолученныеАвансы.СчетФактура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПолученныеАвансыСчетФактураКонтекстноеМеню" id="466"/>
 									<ExtendedTooltip name="ПолученныеАвансыСчетФактураРасширеннаяПодсказка" id="510"/>
 								</InputField>
@@ -629,7 +641,7 @@
 					<TitleLocation>Auto</TitleLocation>
 					<CommandBarLocation>None</CommandBarLocation>
 					<ChangeRowSet>false</ChangeRowSet>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<EnableStartDrag>true</EnableStartDrag>
 					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>ТаблицаНеиспользуемыеСчетаФактуры</DataPath>

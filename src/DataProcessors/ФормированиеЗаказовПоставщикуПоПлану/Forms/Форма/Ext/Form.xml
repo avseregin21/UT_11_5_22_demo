@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
@@ -275,7 +276,6 @@
 																<CheckBoxField name="ОтборПодразделения" id="667">
 																	<DataPath>ОтборПодразделения</DataPath>
 																	<TitleLocation>None</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ОтборПодразделенияКонтекстноеМеню" id="668"/>
 																	<ExtendedTooltip name="ОтборПодразделенияРасширеннаяПодсказка" id="669"/>
 																	<Events>
@@ -473,6 +473,7 @@
 														<ExcludedCommand>Tree</ExcludedCommand>
 													</CommandSet>
 													<ViewMode>All</ViewMode>
+													<ComplexSettingsViewMode>Show</ComplexSettingsViewMode>
 													<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиКонтекстноеМеню" id="187"/>
 													<AutoCommandBar name="КомпоновщикНастроекПользовательскиеНастройкиКоманднаяПанель" id="188">
 														<ChildItems>
@@ -773,6 +774,7 @@
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="ФормированиеЗаказовНомерСтрокиКонтекстноеМеню" id="120"/>
 									<ExtendedTooltip name="ФормированиеЗаказовНомерСтрокиРасширеннаяПодсказка" id="498"/>
@@ -785,6 +787,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>11</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовАртикулКонтекстноеМеню" id="122"/>
@@ -797,6 +800,7 @@
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>11</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовКодКонтекстноеМеню" id="124"/>
@@ -824,6 +828,7 @@
 												<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</HeaderPicture>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ChoiceButton>false</ChoiceButton>
@@ -836,6 +841,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<FixingInTable>Left</FixingInTable>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ФормированиеЗаказовХарактеристикаКонтекстноеМеню" id="128"/>
@@ -847,6 +853,7 @@
 									<DataPath>Объект.ФормированиеЗаказов.Назначение</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -867,6 +874,7 @@
 											<DataPath>Объект.ФормированиеЗаказов.Упаковка</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ФормированиеЗаказовУпаковкаКонтекстноеМеню" id="585"/>
 											<ExtendedTooltip name="ФормированиеЗаказовУпаковкаРасширеннаяПодсказка" id="586"/>
@@ -883,6 +891,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ФормированиеЗаказовНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="588"/>
 											<ExtendedTooltip name="ФормированиеЗаказовНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="589"/>
@@ -896,6 +905,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ФормированиеЗаказовПодразделениеКонтекстноеМеню" id="674"/>
 									<ExtendedTooltip name="ФормированиеЗаказовПодразделениеРасширеннаяПодсказка" id="675"/>
 									<Events>
@@ -911,6 +921,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ФормированиеЗаказовПартнерКонтекстноеМеню" id="168"/>
 									<ExtendedTooltip name="ФормированиеЗаказовПартнерРасширеннаяПодсказка" id="505"/>
@@ -926,6 +937,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ФормированиеЗаказовСоглашениеКонтекстноеМеню" id="170"/>
 									<ExtendedTooltip name="ФормированиеЗаказовСоглашениеРасширеннаяПодсказка" id="506"/>
@@ -940,6 +952,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>13</Width>
 									<ContextMenu name="ФормированиеЗаказовВидЦеныПоставщикаКонтекстноеМеню" id="172"/>
 									<ExtendedTooltip name="ФормированиеЗаказовВидЦеныПоставщикаРасширеннаяПодсказка" id="507"/>
@@ -954,6 +967,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ФормированиеЗаказовСкладКонтекстноеМеню" id="396"/>
 									<ExtendedTooltip name="ФормированиеЗаказовСкладРасширеннаяПодсказка" id="508"/>
@@ -981,7 +995,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ФормированиеЗаказовОтметитьКЗаказуКонтекстноеМеню" id="161"/>
 											<ExtendedTooltip name="ФормированиеЗаказовОтметитьКЗаказуРасширеннаяПодсказка" id="510"/>
 											<Events>
@@ -992,6 +1006,7 @@
 											<DataPath>Объект.ФормированиеЗаказов.КоличествоУпаковок</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>6</Width>
 											<ContextMenu name="ФормированиеЗаказовКоличествоУпаковокКонтекстноеМеню" id="138"/>
 											<ExtendedTooltip name="ФормированиеЗаказовКоличествоУпаковокРасширеннаяПодсказка" id="511"/>
@@ -1007,6 +1022,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>6</Width>
 									<ContextMenu name="ФормированиеЗаказовДатаЗаказаКонтекстноеМеню" id="403"/>
 									<ExtendedTooltip name="ФормированиеЗаказовДатаЗаказаРасширеннаяПодсказка" id="512"/>
@@ -1020,6 +1036,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ФормированиеЗаказовДнейДоЗаказаКонтекстноеМеню" id="405"/>
 									<ExtendedTooltip name="ФормированиеЗаказовДнейДоЗаказаРасширеннаяПодсказка" id="513"/>
@@ -1027,6 +1044,7 @@
 								<InputField name="ФормированиеЗаказовДатаПоступления" id="648">
 									<DataPath>Объект.ФормированиеЗаказов.ДатаПоступления</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ФормированиеЗаказовДатаПоступленияКонтекстноеМеню" id="649"/>
 									<ExtendedTooltip name="ФормированиеЗаказовДатаПоступленияРасширеннаяПодсказка" id="650"/>
 									<Events>
@@ -1046,6 +1064,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>15</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовПериодКонтекстноеМеню" id="159"/>
@@ -1064,6 +1083,7 @@
 										<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>false</ChoiceButton>
@@ -1090,6 +1110,7 @@
 										<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>false</ChoiceButton>
@@ -1147,6 +1168,7 @@
 											<DataPath>Объект.ФормированиеЗаказов.Цена</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>6</Width>
 											<ContextMenu name="ФормированиеЗаказовЦенаКонтекстноеМеню" id="389"/>
 											<ExtendedTooltip name="ФормированиеЗаказовЦенаРасширеннаяПодсказка" id="518"/>
@@ -1160,6 +1182,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>3</Width>
 											<ContextMenu name="ФормированиеЗаказовВалютаКонтекстноеМеню" id="418"/>
 											<ExtendedTooltip name="ФормированиеЗаказовВалютаРасширеннаяПодсказка" id="519"/>
@@ -1170,6 +1193,7 @@
 									<DataPath>Объект.ФормированиеЗаказов.Сумма</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ФормированиеЗаказовСуммаКонтекстноеМеню" id="391"/>
 									<ExtendedTooltip name="ФормированиеЗаказовСуммаРасширеннаяПодсказка" id="520"/>
@@ -1249,6 +1273,7 @@
 										<InputField name="КорзинаЗаказовПартнер" id="359">
 											<DataPath>КорзинаЗаказов.Партнер</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ContextMenu name="КорзинаЗаказовПартнерКонтекстноеМеню" id="360"/>
 											<ExtendedTooltip name="КорзинаЗаказовПартнерРасширеннаяПодсказка" id="523"/>
@@ -1256,6 +1281,7 @@
 										<InputField name="КорзинаЗаказовСоглашение" id="369">
 											<DataPath>КорзинаЗаказов.Соглашение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ChoiceParameterLinks>
 												<xr:Link>
@@ -1271,6 +1297,7 @@
 											<DataPath>КорзинаЗаказов.СпособОбеспечения</DataPath>
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ContextMenu name="КорзинаЗаказовСпособОбеспеченияКонтекстноеМеню" id="358"/>
 											<ExtendedTooltip name="КорзинаЗаказовСпособОбеспеченияРасширеннаяПодсказка" id="525"/>
@@ -1279,6 +1306,7 @@
 											<DataPath>КорзинаЗаказов.Назначение</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1302,6 +1330,7 @@
 													<TitleHeight>1</TitleHeight>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<Height>1</Height>
 													<ContextMenu name="КорзинаЗаказовДатаПоставкиКонтекстноеМеню" id="354"/>
@@ -1311,6 +1340,7 @@
 													<DataPath>КорзинаЗаказов.Склад</DataPath>
 													<TitleHeight>1</TitleHeight>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<Height>1</Height>
 													<ContextMenu name="КорзинаЗаказовСкладКонтекстноеМеню" id="398"/>
@@ -1322,6 +1352,7 @@
 											<DataPath>КорзинаЗаказов.Валюта</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="КорзинаЗаказовВалютаКонтекстноеМеню" id="368"/>
 											<ExtendedTooltip name="КорзинаЗаказовВалютаРасширеннаяПодсказка" id="529"/>
@@ -1338,6 +1369,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="КорзинаЗаказовСуммаКонтекстноеМеню" id="356"/>
 											<ExtendedTooltip name="КорзинаЗаказовСуммаРасширеннаяПодсказка" id="530"/>
@@ -1361,6 +1393,7 @@
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.Приблизительно</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1375,6 +1408,7 @@
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КорзинаЗаказовСуммаУпрУчетКонтекстноеМеню" id="362"/>
 													<ExtendedTooltip name="КорзинаЗаказовСуммаУпрУчетРасширеннаяПодсказка" id="533"/>
 												</InputField>
@@ -1391,6 +1425,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="КорзинаЗаказовВсегоСтрокКонтекстноеМеню" id="380"/>
 											<ExtendedTooltip name="КорзинаЗаказовВсегоСтрокРасширеннаяПодсказка" id="534"/>
@@ -1413,6 +1448,7 @@
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.Приблизительно</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1427,6 +1463,7 @@
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="КорзинаЗаказовОбщийВесКонтекстноеМеню" id="374"/>
 													<ExtendedTooltip name="КорзинаЗаказовОбщийВесРасширеннаяПодсказка" id="537"/>
@@ -1436,6 +1473,7 @@
 										<InputField name="КорзинаЗаказовПодразделение" id="678">
 											<DataPath>КорзинаЗаказов.Подразделение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КорзинаЗаказовПодразделениеКонтекстноеМеню" id="679"/>
 											<ExtendedTooltip name="КорзинаЗаказовПодразделениеРасширеннаяПодсказка" id="680"/>
 										</InputField>
@@ -1458,7 +1496,7 @@
 							<Representation>List</Representation>
 							<SkipOnInput>false</SkipOnInput>
 							<DefaultItem>true</DefaultItem>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>

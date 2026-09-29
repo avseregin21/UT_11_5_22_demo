@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<VerticalSpacing>Double</VerticalSpacing>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -344,6 +344,7 @@
 						<InputField name="СписокУслугНаименование" id="57">
 							<DataPath>СписокУслуг.Наименование</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>25</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СписокУслугНаименованиеКонтекстноеМеню" id="58"/>
@@ -353,6 +354,7 @@
 							<DataPath>СписокУслуг.Количество</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<FooterDataPath>ИтогКоличество</FooterDataPath>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СписокУслугКоличествоКонтекстноеМеню" id="61"/>
@@ -362,6 +364,7 @@
 							<DataPath>СписокУслуг.Сумма</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<FooterDataPath>ИтогСумма</FooterDataPath>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СписокУслугСуммаКонтекстноеМеню" id="67"/>
@@ -371,6 +374,7 @@
 							<DataPath>СписокУслуг.СуммаНДС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<FooterDataPath>ИтогСуммаНДС</FooterDataPath>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СписокУслугСуммаНДСКонтекстноеМеню" id="70"/>
@@ -379,6 +383,7 @@
 						<InputField name="СписокУслугСтавкаНДС" id="72">
 							<DataPath>СписокУслуг.СтавкаНДС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СписокУслугСтавкаНДСКонтекстноеМеню" id="73"/>
@@ -395,6 +400,7 @@
 							<DataPath>СписокУслуг.СуммаСНДС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<FooterDataPath>ИтогСуммаСНДС</FooterDataPath>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="СписокУслугСуммаСНДСКонтекстноеМеню" id="76"/>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Ветеринарно-сопроводительные документы к оформлению</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
@@ -20,6 +20,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -157,19 +158,21 @@
 					<DataPath>ДоступныеВСД.Пометка</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДПометкаКонтекстноеМеню" id="292"/>
 					<ExtendedTooltip name="ДоступныеВСДПометкаРасширеннаяПодсказка" id="293"/>
 				</CheckBoxField>
 				<InputField name="ДоступныеВСДПродукция" id="297">
 					<DataPath>ДоступныеВСД.Продукция</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДПродукцияКонтекстноеМеню" id="298"/>
 					<ExtendedTooltip name="ДоступныеВСДПродукцияРасширеннаяПодсказка" id="299"/>
 				</InputField>
 				<InputField name="ДоступныеВСДКоличествоВЕТИС" id="300">
 					<DataPath>ДоступныеВСД.КоличествоВЕТИС</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДКоличествоВЕТИСКонтекстноеМеню" id="301"/>
 					<ExtendedTooltip name="ДоступныеВСДКоличествоВЕТИСРасширеннаяПодсказка" id="302"/>
 				</InputField>
@@ -182,102 +185,119 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДЕдиницаИзмеренияВЕТИСКонтекстноеМеню" id="304"/>
 					<ExtendedTooltip name="ДоступныеВСДЕдиницаИзмеренияВЕТИСРасширеннаяПодсказка" id="305"/>
 				</InputField>
 				<InputField name="ДоступныеВСДДатаПроизводстваПредставление" id="312">
 					<DataPath>ДоступныеВСД.ДатаПроизводстваПредставление</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДДатаПроизводстваПредставлениеКонтекстноеМеню" id="313"/>
 					<ExtendedTooltip name="ДоступныеВСДДатаПроизводстваПредставлениеРасширеннаяПодсказка" id="314"/>
 				</InputField>
 				<InputField name="ДоступныеВСДСрокГодностиСтрока" id="306">
 					<DataPath>ДоступныеВСД.СрокГодностиПредставление</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДСрокГодностиСтрокаКонтекстноеМеню" id="307"/>
 					<ExtendedTooltip name="ДоступныеВСДСрокГодностиСтрокаРасширеннаяПодсказка" id="308"/>
 				</InputField>
 				<InputField name="ДоступныеВСДГрузоотправительХозяйствующийСубъект" id="337">
 					<DataPath>ДоступныеВСД.ГрузоотправительХозяйствующийСубъект</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДГрузоотправительХозяйствующийСубъектКонтекстноеМеню" id="338"/>
 					<ExtendedTooltip name="ДоступныеВСДГрузоотправительХозяйствующийСубъектРасширеннаяПодсказка" id="339"/>
 				</InputField>
 				<InputField name="ДоступныеВСДГрузоотправительПредприятие" id="340">
 					<DataPath>ДоступныеВСД.ГрузоотправительПредприятие</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДГрузоотправительПредприятиеКонтекстноеМеню" id="341"/>
 					<ExtendedTooltip name="ДоступныеВСДГрузоотправительПредприятиеРасширеннаяПодсказка" id="342"/>
 				</InputField>
 				<InputField name="ДоступныеВСДГрузополучательХозяйствующийСубъект" id="343">
 					<DataPath>ДоступныеВСД.ГрузополучательХозяйствующийСубъект</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДГрузополучательХозяйствующийСубъектКонтекстноеМеню" id="344"/>
 					<ExtendedTooltip name="ДоступныеВСДГрузополучательХозяйствующийСубъектРасширеннаяПодсказка" id="345"/>
 				</InputField>
 				<InputField name="ДоступныеВСДГрузополучательПредприятие" id="346">
 					<DataPath>ДоступныеВСД.ГрузополучательПредприятие</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДГрузополучательПредприятиеКонтекстноеМеню" id="347"/>
 					<ExtendedTooltip name="ДоступныеВСДГрузополучательПредприятиеРасширеннаяПодсказка" id="348"/>
 				</InputField>
 				<InputField name="ДоступныеВСДПеревозчикХозяйствующийСубъект" id="349">
 					<DataPath>ДоступныеВСД.ПеревозчикХозяйствующийСубъект</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДПеревозчикХозяйствующийСубъектКонтекстноеМеню" id="350"/>
 					<ExtendedTooltip name="ДоступныеВСДПеревозчикХозяйствующийСубъектРасширеннаяПодсказка" id="351"/>
 				</InputField>
 				<InputField name="ДоступныеВСДСпособХранения" id="352">
 					<DataPath>ДоступныеВСД.СпособХранения</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДСпособХраненияКонтекстноеМеню" id="353"/>
 					<ExtendedTooltip name="ДоступныеВСДСпособХраненияРасширеннаяПодсказка" id="354"/>
 				</InputField>
 				<InputField name="ДоступныеВСДТипТТН" id="355">
 					<DataPath>ДоступныеВСД.ТипТТН</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДТипТТНКонтекстноеМеню" id="356"/>
 					<ExtendedTooltip name="ДоступныеВСДТипТТНРасширеннаяПодсказка" id="357"/>
 				</InputField>
 				<InputField name="ДоступныеВСДСерияТТН" id="358">
 					<DataPath>ДоступныеВСД.СерияТТН</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДСерияТТНКонтекстноеМеню" id="359"/>
 					<ExtendedTooltip name="ДоступныеВСДСерияТТНРасширеннаяПодсказка" id="360"/>
 				</InputField>
 				<InputField name="ДоступныеВСДНомерТТН" id="361">
 					<DataPath>ДоступныеВСД.НомерТТН</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДНомерТТНКонтекстноеМеню" id="362"/>
 					<ExtendedTooltip name="ДоступныеВСДНомерТТНРасширеннаяПодсказка" id="363"/>
 				</InputField>
 				<InputField name="ДоступныеВСДДатаТТН" id="364">
 					<DataPath>ДоступныеВСД.ДатаТТН</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДДатаТТНКонтекстноеМеню" id="365"/>
 					<ExtendedTooltip name="ДоступныеВСДДатаТТНРасширеннаяПодсказка" id="366"/>
 				</InputField>
 				<InputField name="ДоступныеВСДТипТранспорта" id="382">
 					<DataPath>ДоступныеВСД.ТипТранспорта</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДТипТранспортаКонтекстноеМеню" id="383"/>
 					<ExtendedTooltip name="ДоступныеВСДТипТранспортаРасширеннаяПодсказка" id="384"/>
 				</InputField>
 				<InputField name="ДоступныеВСДНомерТранспортногоСредства" id="385">
 					<DataPath>ДоступныеВСД.НомерТранспортногоСредства</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДНомерТранспортногоСредстваКонтекстноеМеню" id="386"/>
 					<ExtendedTooltip name="ДоступныеВСДНомерТранспортногоСредстваРасширеннаяПодсказка" id="387"/>
 				</InputField>
 				<InputField name="ДоступныеВСДНомерАвтомобильногоПрицепа" id="388">
 					<DataPath>ДоступныеВСД.НомерАвтомобильногоПрицепа</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДНомерАвтомобильногоПрицепаКонтекстноеМеню" id="389"/>
 					<ExtendedTooltip name="ДоступныеВСДНомерАвтомобильногоПрицепаРасширеннаяПодсказка" id="390"/>
 				</InputField>
 				<InputField name="ДоступныеВСДНомерАвтомобильногоКонтейнера" id="391">
 					<DataPath>ДоступныеВСД.НомерАвтомобильногоКонтейнера</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДоступныеВСДНомерАвтомобильногоКонтейнераКонтекстноеМеню" id="392"/>
 					<ExtendedTooltip name="ДоступныеВСДНомерАвтомобильногоКонтейнераРасширеннаяПодсказка" id="393"/>
 				</InputField>

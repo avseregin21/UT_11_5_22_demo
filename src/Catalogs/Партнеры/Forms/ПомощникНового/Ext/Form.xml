@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -317,7 +317,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="УказыватьЮридическиеРеквизитыКонтекстноеМеню" id="137"/>
 																	<ExtendedTooltip name="УказыватьЮридическиеРеквизитыРасширеннаяПодсказка" id="650"/>
 																	<Events>
@@ -1193,7 +1192,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказатьДанныеКонтактногоЛицаКонтекстноеМеню" id="141"/>
 													<ExtendedTooltip name="УказатьДанныеКонтактногоЛицаРасширеннаяПодсказка" id="663"/>
 													<Events>
@@ -1521,7 +1519,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="УказыватьЮридическиеРеквизитыЧастноеЛицоКонтекстноеМеню" id="342"/>
 																	<ExtendedTooltip name="УказыватьЮридическиеРеквизитыЧастноеЛицоРасширеннаяПодсказка" id="687"/>
 																	<Events>
@@ -1629,7 +1626,6 @@
 																<CheckBoxField name="УказатьДокументУдостоверяющийЛичность" id="615">
 																	<DataPath>УказатьДокументУдостоверяющийЛичность</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="УказатьДокументУдостоверяющийЛичностьКонтекстноеМеню" id="616"/>
 																	<ExtendedTooltip name="УказатьДокументУдостоверяющийЛичностьРасширеннаяПодсказка" id="695"/>
 																	<Events>
@@ -1898,6 +1894,7 @@
 													<DataPath>ТаблицаНайдено.ПредставлениеПартнер</DataPath>
 													<DefaultItem>true</DefaultItem>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТаблицаНайденоПредставлениеПартнерКонтекстноеМеню" id="177"/>
 													<ExtendedTooltip name="ТаблицаНайденоПредставлениеПартнерРасширеннаяПодсказка" id="712"/>
 												</InputField>
@@ -2120,6 +2117,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоСравненияПартнеровРеквизитКонтекстноеМеню" id="1119"/>
 													<ExtendedTooltip name="ДеревоСравненияПартнеровРеквизитРасширеннаяПодсказка" id="1120"/>
 												</InputField>
@@ -2132,6 +2130,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоСравненияПартнеровЗначениеНайденногоКонтекстноеМеню" id="1122"/>
 													<ExtendedTooltip name="ДеревоСравненияПартнеровЗначениеНайденногоРасширеннаяПодсказка" id="1123"/>
 												</InputField>
@@ -2144,6 +2143,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоСравненияПартнеровЗначениеТекущегоКонтекстноеМеню" id="1125"/>
 													<ExtendedTooltip name="ДеревоСравненияПартнеровЗначениеТекущегоРасширеннаяПодсказка" id="1126"/>
 												</InputField>
@@ -2159,7 +2159,7 @@
 											<Group>Horizontal</Group>
 											<Behavior>Collapsible</Behavior>
 											<Collapsed>true</Collapsed>
-											<ControlRepresentation>Picture</ControlRepresentation>
+											<ControlRepresentation>Button</ControlRepresentation>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ГруппаЛегендаРасширеннаяПодсказка" id="1134"/>
 											<ChildItems>
@@ -2589,7 +2589,6 @@
 								<CheckBoxField name="Клиент" id="64">
 									<DataPath>Клиент</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КлиентКонтекстноеМеню" id="65"/>
 									<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="743"/>
 									<Events>
@@ -2599,7 +2598,6 @@
 								<CheckBoxField name="Конкурент" id="66">
 									<DataPath>Конкурент</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонкурентКонтекстноеМеню" id="67"/>
 									<ExtendedTooltip name="КонкурентРасширеннаяПодсказка" id="744"/>
 									<Events>
@@ -2609,7 +2607,6 @@
 								<CheckBoxField name="Поставщик" id="68">
 									<DataPath>Поставщик</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоставщикКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="745"/>
 									<Events>
@@ -2619,7 +2616,6 @@
 								<CheckBoxField name="ПрочиеОтношения" id="70">
 									<DataPath>ПрочиеОтношения</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПрочиеОтношенияКонтекстноеМеню" id="71"/>
 									<ExtendedTooltip name="ПрочиеОтношенияРасширеннаяПодсказка" id="746"/>
 									<Events>
@@ -2650,14 +2646,12 @@
 								<CheckBoxField name="ОбслуживаетсяТорговымиПредставителями" id="585">
 									<DataPath>ОбслуживаетсяТорговымиПредставителями</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОбслуживаетсяТорговымиПредставителямиКонтекстноеМеню" id="586"/>
 									<ExtendedTooltip name="ОбслуживаетсяТорговымиПредставителямиРасширеннаяПодсказка" id="748"/>
 								</CheckBoxField>
 								<CheckBoxField name="Перевозчик" id="576">
 									<DataPath>Перевозчик</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПеревозчикКонтекстноеМеню" id="577"/>
 									<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="749"/>
 								</CheckBoxField>
@@ -3025,7 +3019,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УказатьБанковскийСчетКонтрагентаКонтекстноеМеню" id="322"/>
 							<ExtendedTooltip name="УказатьБанковскийСчетКонтрагентаРасширеннаяПодсказка" id="775"/>
 							<Events>
@@ -3123,7 +3116,6 @@
 										<CheckBoxField name="ЭтоIBAN" id="1356">
 											<DataPath>ЭтоIBAN</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЭтоIBANКонтекстноеМеню" id="1357"/>
 											<ExtendedTooltip name="ЭтоIBANРасширеннаяПодсказка" id="1358"/>
 											<Events>
@@ -3498,7 +3490,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользуетсяБанкДляРасчетовКонтекстноеМеню" id="306"/>
 									<ExtendedTooltip name="ИспользуетсяБанкДляРасчетовРасширеннаяПодсказка" id="789"/>
 									<Events>
@@ -3938,25 +3929,27 @@
 									<DataPath>ОбособленныеПодразделения.Выбран</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>Directly</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОбособленныеПодразделенияВыбранКонтекстноеМеню" id="931"/>
 									<ExtendedTooltip name="ОбособленныеПодразделенияВыбранРасширеннаяПодсказка" id="932"/>
 								</CheckBoxField>
 								<InputField name="ОбособленныеПодразделенияПредставление" id="924">
 									<DataPath>ОбособленныеПодразделения.Представление</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбособленныеПодразделенияПредставлениеКонтекстноеМеню" id="925"/>
 									<ExtendedTooltip name="ОбособленныеПодразделенияПредставлениеРасширеннаяПодсказка" id="926"/>
 								</InputField>
 								<InputField name="ОбособленныеПодразделенияКПП" id="927">
 									<DataPath>ОбособленныеПодразделения.КПП</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбособленныеПодразделенияКППКонтекстноеМеню" id="928"/>
 									<ExtendedTooltip name="ОбособленныеПодразделенияКППРасширеннаяПодсказка" id="929"/>
 								</InputField>
 								<InputField name="ОбособленныеПодразделенияЮридическийАдрес" id="933">
 									<DataPath>ОбособленныеПодразделения.ЮридическийАдрес</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбособленныеПодразделенияЮридическийАдресКонтекстноеМеню" id="934"/>
 									<ExtendedTooltip name="ОбособленныеПодразделенияЮридическийАдресРасширеннаяПодсказка" id="935"/>
 								</InputField>
@@ -4508,7 +4501,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УказатьБанковскийСчетГоловногоКонтрагентаКонтекстноеМеню" id="1040"/>
 							<ExtendedTooltip name="УказатьБанковскийСчетГоловногоКонтрагентаРасширеннаяПодсказка" id="1041"/>
 							<Events>
@@ -4606,7 +4598,6 @@
 										<CheckBoxField name="ЭтоIBANГоловнойКонтрагент" id="1512">
 											<DataPath>ЭтоIBANГоловнойКонтрагент</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЭтоIBANГоловнойКонтрагентКонтекстноеМеню" id="1513"/>
 											<ExtendedTooltip name="ЭтоIBANГоловнойКонтрагентРасширеннаяПодсказка" id="1514"/>
 											<Events>
@@ -4981,7 +4972,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользуетсяБанкДляРасчетовГоловнойКонтрагентКонтекстноеМеню" id="1585"/>
 									<ExtendedTooltip name="ИспользуетсяБанкДляРасчетовГоловнойКонтрагентРасширеннаяПодсказка" id="1586"/>
 									<Events>
@@ -5365,7 +5355,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОткрытьПослеСозданияКонтекстноеМеню" id="182"/>
 							<ExtendedTooltip name="ОткрытьПослеСозданияРасширеннаяПодсказка" id="802"/>
 						</CheckBoxField>

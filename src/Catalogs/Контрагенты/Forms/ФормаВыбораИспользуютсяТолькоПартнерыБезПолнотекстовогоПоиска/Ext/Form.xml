@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Контрагенты</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -157,7 +157,7 @@
 									<CommandBarLocation>Top</CommandBarLocation>
 									<DefaultItem>true</DefaultItem>
 									<ChoiceMode>true</ChoiceMode>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<FileDragMode>AsFile</FileDragMode>
@@ -364,7 +364,7 @@
 							</Title>
 							<Group>Horizontal</Group>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЛокализацияГруппаЛегендаРасширеннаяПодсказка" id="275"/>
@@ -645,7 +645,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьФильтрКонтекстноеМеню" id="80"/>
 											<ExtendedTooltip name="ИспользоватьФильтрРасширеннаяПодсказка" id="178"/>
 											<Events>
@@ -672,7 +671,6 @@
 								<CheckBoxField name="ТолькоЗначимые" id="83">
 									<DataPath>ТолькоЗначимые</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоЗначимыеКонтекстноеМеню" id="84"/>
 									<ExtendedTooltip name="ТолькоЗначимыеРасширеннаяПодсказка" id="180"/>
 									<Events>
@@ -703,7 +701,7 @@
 										<Table name="БизнесРегионы" id="87">
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -788,7 +786,7 @@
 											<Representation>Tree</Representation>
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -873,7 +871,7 @@
 											<Representation>Tree</Representation>
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -1034,12 +1032,14 @@
 														<InputField name="СвойстваПредставление" id="145">
 															<DataPath>Свойства.Представление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СвойстваПредставлениеКонтекстноеМеню" id="146"/>
 															<ExtendedTooltip name="СвойстваПредставлениеРасширеннаяПодсказка" id="194"/>
 														</InputField>
 														<InputField name="СвойстваНомерКартинки" id="143">
 															<DataPath>Свойства.НомерКартинки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СвойстваНомерКартинкиКонтекстноеМеню" id="144"/>
 															<ExtendedTooltip name="СвойстваНомерКартинкиРасширеннаяПодсказка" id="195"/>
 														</InputField>
@@ -1064,7 +1064,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<RowSelectionMode>Row</RowSelectionMode>
 											<Header>false</Header>
-											<HorizontalLines>false</HorizontalLines>
+											<HorizontalLinesBWA>false</HorizontalLinesBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -1143,12 +1143,14 @@
 														<InputField name="КатегорииПредставление" id="133">
 															<DataPath>Категории.Представление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КатегорииПредставлениеКонтекстноеМеню" id="134"/>
 															<ExtendedTooltip name="КатегорииПредставлениеРасширеннаяПодсказка" id="199"/>
 														</InputField>
 														<InputField name="КатегорииНомерКартинки" id="137">
 															<DataPath>Категории.НомерКартинки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КатегорииНомерКартинкиКонтекстноеМеню" id="138"/>
 															<ExtendedTooltip name="КатегорииНомерКартинкиРасширеннаяПодсказка" id="200"/>
 														</InputField>
@@ -1176,7 +1178,6 @@
 								<CheckBoxField name="ТолькоМои" id="123">
 									<DataPath>ТолькоМои</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоМоиКонтекстноеМеню" id="124"/>
 									<ExtendedTooltip name="ТолькоМоиРасширеннаяПодсказка" id="202"/>
 									<Events>
@@ -1214,7 +1215,6 @@
 									<DataPath>ТолькоГоловнойКонтрагентИФилиалы</DataPath>
 									<Visible>false</Visible>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоГоловнойКонтрагентИФилиалыКонтекстноеМеню" id="314"/>
 									<ExtendedTooltip name="ТолькоГоловнойКонтрагентИФилиалыРасширеннаяПодсказка" id="315"/>
 									<Events>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
 		<ExcludedCommand>Delete</ExcludedCommand>
@@ -53,6 +53,7 @@
 				<InputField name="Наименование" id="1">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="158"/>
 				</InputField>
@@ -76,6 +77,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -112,6 +114,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<TextEdit>false</TextEdit>
 									<ContextMenu name="ПредставлениеИсточникаДанныхКонтекстноеМеню" id="6"/>
@@ -167,6 +170,7 @@
 													<DataPath>Объект.Приход</DataPath>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChoiceButton>false</ChoiceButton>
 													<ContextMenu name="ПриходКонтекстноеМеню" id="8"/>
 													<ExtendedTooltip name="ПриходРасширеннаяПодсказка" id="169">
@@ -210,6 +214,7 @@
 													<DataPath>Объект.Расход</DataPath>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChoiceButton>false</ChoiceButton>
 													<ContextMenu name="РасходКонтекстноеМеню" id="10"/>
 													<ExtendedTooltip name="РасходРасширеннаяПодсказка" id="174">
@@ -246,7 +251,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьВБюджетированииКонтекстноеМеню" id="210"/>
 											<ExtendedTooltip name="ИспользоватьВБюджетированииРасширеннаяПодсказка" id="211"/>
 										</CheckBoxField>
@@ -259,7 +263,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьВМеждународномУчетеКонтекстноеМеню" id="249"/>
 											<ExtendedTooltip name="ИспользоватьВМеждународномУчетеРасширеннаяПодсказка" id="250"/>
 										</CheckBoxField>
@@ -272,7 +275,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьДляВыбораКонтекстноеМеню" id="216"/>
 											<ExtendedTooltip name="ИспользоватьДляВыбораРасширеннаяПодсказка" id="217"/>
 										</CheckBoxField>
@@ -285,7 +287,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьВРеестреДокументовКонтекстноеМеню" id="225"/>
 											<ExtendedTooltip name="ИспользоватьВРеестреДокументовРасширеннаяПодсказка" id="226"/>
 										</CheckBoxField>
@@ -298,7 +299,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьДляОграниченийДоступаКонтекстноеМеню" id="267"/>
 											<ExtendedTooltip name="ИспользоватьДляОграниченийДоступаРасширеннаяПодсказка" id="268"/>
 										</CheckBoxField>
@@ -361,11 +361,13 @@
 										<LabelField name="ДокументыНомерСтроки" id="140">
 											<DataPath>Объект.Документы.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДокументыНомерСтрокиКонтекстноеМеню" id="141"/>
 											<ExtendedTooltip name="ДокументыНомерСтрокиРасширеннаяПодсказка" id="180"/>
 										</LabelField>
 										<InputField name="ДокументыПредставлениеДокумента" id="148">
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<TextEdit>false</TextEdit>
 											<ChoiceListButton>true</ChoiceListButton>
 											<ContextMenu name="ДокументыПредставлениеДокументаКонтекстноеМеню" id="149"/>
@@ -374,6 +376,7 @@
 										<InputField name="ДокументыИдентификаторОбъектаМетаданных" id="218">
 											<DataPath>Объект.Документы.ИдентификаторОбъектаМетаданных</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -462,13 +465,14 @@
 											<DataPath>Объект.ПоказателиРегистра.Использование</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПоказателиРегистраИспользованиеКонтекстноеМеню" id="109"/>
 											<ExtendedTooltip name="ПоказателиРегистраИспользованиеРасширеннаяПодсказка" id="184"/>
 										</CheckBoxField>
 										<InputField name="ПоказателиРегистраПоказатель" id="186">
 											<DataPath>Объект.ПоказателиРегистра.Показатель</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПоказателиРегистраПоказательКонтекстноеМеню" id="187"/>
 											<ExtendedTooltip name="ПоказателиРегистраПоказательРасширеннаяПодсказка" id="188"/>
 										</InputField>
@@ -532,12 +536,14 @@
 										<LabelField name="ФункциональныеОпцииНомерСтроки" id="240">
 											<DataPath>Объект.ФункциональныеОпции.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ФункциональныеОпцииНомерСтрокиКонтекстноеМеню" id="241"/>
 											<ExtendedTooltip name="ФункциональныеОпцииНомерСтрокиРасширеннаяПодсказка" id="242"/>
 										</LabelField>
 										<InputField name="ФункциональныеОпцииИмяФункциональнойОпции" id="243">
 											<DataPath>Объект.ФункциональныеОпции.ИмяФункциональнойОпции</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ListChoiceMode>true</ListChoiceMode>
 											<ContextMenu name="ФункциональныеОпцииИмяФункциональнойОпцииКонтекстноеМеню" id="244"/>
 											<ExtendedTooltip name="ФункциональныеОпцииИмяФункциональнойОпцииРасширеннаяПодсказка" id="245"/>

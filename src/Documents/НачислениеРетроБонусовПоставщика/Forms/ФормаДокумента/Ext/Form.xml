@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -218,6 +218,7 @@
 				<InputField name="Номер" id="124">
 					<DataPath>Объект.Number</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>9</MaxWidth>
 					<ContextMenu name="НомерКонтекстноеМеню" id="125"/>
@@ -232,6 +233,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>14</MaxWidth>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="128"/>
@@ -242,6 +244,7 @@
 		<InputField name="Организация" id="130">
 			<DataPath>Объект.Организация</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MaxWidth>29</MaxWidth>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="131"/>
@@ -265,6 +268,7 @@
 				<InputField name="ДокументУсловий" id="141">
 					<DataPath>Объект.ДокументУсловий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>29</MaxWidth>
 					<DropListButton>false</DropListButton>
@@ -286,6 +290,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>10</MaxWidth>
 					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="145"/>
@@ -303,6 +308,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>10</MaxWidth>
 					<ContextMenu name="ОкончаниеПериодаКонтекстноеМеню" id="148"/>
@@ -390,6 +396,7 @@
 							<DataPath>Объект.Контрагент</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>29</MaxWidth>
 							<DropListButton>false</DropListButton>
@@ -502,12 +509,14 @@
 				<LabelField name="НачисленияНомерСтроки" id="47">
 					<DataPath>Объект.Начисления.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НачисленияНомерСтрокиКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="НачисленияНомерСтрокиРасширеннаяПодсказка" id="49"/>
 				</LabelField>
 				<InputField name="НачисленияКонтрагент" id="50">
 					<DataPath>Объект.Начисления.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НачисленияКонтрагентКонтекстноеМеню" id="51"/>
 					<ExtendedTooltip name="НачисленияКонтрагентРасширеннаяПодсказка" id="52"/>
 					<Events>
@@ -517,6 +526,7 @@
 				<InputField name="НачисленияПартнер" id="53">
 					<DataPath>Объект.Начисления.Партнер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НачисленияПартнерКонтекстноеМеню" id="54"/>
 					<ExtendedTooltip name="НачисленияПартнерРасширеннаяПодсказка" id="55"/>
 					<Events>
@@ -582,12 +592,14 @@
 				<InputField name="НачисленияВыручка" id="56">
 					<DataPath>Объект.Начисления.Выручка</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НачисленияВыручкаКонтекстноеМеню" id="57"/>
 					<ExtendedTooltip name="НачисленияВыручкаРасширеннаяПодсказка" id="58"/>
 				</InputField>
 				<InputField name="НачисленияРасчетнаяБаза" id="59">
 					<DataPath>Объект.Начисления.РасчетнаяБаза</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НачисленияРасчетнаяБазаКонтекстноеМеню" id="60"/>
 					<ExtendedTooltip name="НачисленияРасчетнаяБазаРасширеннаяПодсказка" id="61"/>
 				</InputField>
@@ -607,6 +619,7 @@
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НачисленияСуммаБонусРасчетныйКонтекстноеМеню" id="63"/>
 							<ExtendedTooltip name="НачисленияСуммаБонусРасчетныйРасширеннаяПодсказка" id="64"/>
 						</InputField>
@@ -614,6 +627,7 @@
 							<DataPath>Объект.Начисления.СуммаБонусНачисленный</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НачисленияСуммаБонусНачисленныйКонтекстноеМеню" id="66"/>
 							<ExtendedTooltip name="НачисленияСуммаБонусНачисленныйРасширеннаяПодсказка" id="67"/>
 							<Events>
@@ -625,6 +639,7 @@
 				<InputField name="НачисленияКомментарий" id="68">
 					<DataPath>Объект.Начисления.Комментарий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НачисленияКомментарийКонтекстноеМеню" id="69"/>
 					<ExtendedTooltip name="НачисленияКомментарийРасширеннаяПодсказка" id="70"/>
 				</InputField>
@@ -695,6 +710,7 @@
 				<InputField name="Ответственный" id="108">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>29</MaxWidth>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="109"/>
@@ -703,6 +719,7 @@
 				<InputField name="Комментарий" id="111">
 					<DataPath>Объект.Комментарий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>70</MaxWidth>
 					<AutoMaxHeight>false</AutoMaxHeight>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,6 +8,7 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -267,6 +268,7 @@
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуТипДокумента" id="279">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.ТипДокумента</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуТипДокументаКонтекстноеМеню" id="280"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуТипДокументаРасширеннаяПодсказка" id="281"/>
@@ -274,6 +276,7 @@
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуКомитент" id="285">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.Комитент</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуКомитентКонтекстноеМеню" id="286"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуКомитентРасширеннаяПодсказка" id="287"/>
@@ -281,6 +284,7 @@
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуКомиссионер" id="288">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.Комиссионер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуКомиссионерКонтекстноеМеню" id="289"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуКомиссионерРасширеннаяПодсказка" id="290"/>
@@ -288,6 +292,7 @@
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуВалюта" id="309">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.Валюта</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуВалютаКонтекстноеМеню" id="310"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуВалютаРасширеннаяПодсказка" id="311"/>
@@ -295,18 +300,21 @@
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуДоговор" id="303">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.Договор</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуДоговорКонтекстноеМеню" id="304"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуДоговорРасширеннаяПодсказка" id="305"/>
 						</InputField>
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуВидЦены" id="306">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.ВидЦены</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуВидЦеныКонтекстноеМеню" id="307"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуВидЦеныРасширеннаяПодсказка" id="308"/>
 						</InputField>
 						<InputField name="ТоварыКОформлениюОтчетовКомитентуНалогообложениеНДС" id="312">
 							<DataPath>ТоварыКОформлениюОтчетовКомитенту.НалогообложениеНДС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыКОформлениюОтчетовКомитентуНалогообложениеНДСКонтекстноеМеню" id="313"/>
 							<ExtendedTooltip name="ТоварыКОформлениюОтчетовКомитентуНалогообложениеНДСРасширеннаяПодсказка" id="314"/>
 						</InputField>

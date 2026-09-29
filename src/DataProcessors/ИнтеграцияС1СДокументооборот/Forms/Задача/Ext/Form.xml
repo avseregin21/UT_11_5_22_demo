@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Width>90</Width>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Top</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗаписатьИЗакрыть" id="171">
@@ -366,7 +367,7 @@
 																			<ChangeRowOrder>false</ChangeRowOrder>
 																			<Height>4</Height>
 																			<Header>false</Header>
-																			<VerticalLines>false</VerticalLines>
+																			<VerticalLinesBWA>false</VerticalLinesBWA>
 																			<AutoInsertNewRow>true</AutoInsertNewRow>
 																			<InitialTreeView>ExpandAllLevels</InitialTreeView>
 																			<EnableStartDrag>true</EnableStartDrag>
@@ -487,6 +488,7 @@
 																					<DataPath>ДеревоПриложений.Представление</DataPath>
 																					<ReadOnly>true</ReadOnly>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<Height>1</Height>
 																					<ContextMenu name="ДеревоПриложенийПредставлениеКонтекстноеМеню" id="26"/>
 																					<ExtendedTooltip name="ДеревоПриложенийПредставлениеРасширеннаяПодсказка" id="332"/>
@@ -632,6 +634,7 @@
 																					<DataPath>Свойства.Свойство</DataPath>
 																					<ReadOnly>true</ReadOnly>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="СвойстваСвойствоКонтекстноеМеню" id="529"/>
 																					<ExtendedTooltip name="СвойстваСвойствоРасширеннаяПодсказка" id="530"/>
 																				</InputField>
@@ -676,7 +679,7 @@
 																	<Group>Vertical</Group>
 																	<Behavior>Collapsible</Behavior>
 																	<Collapsed>true</Collapsed>
-																	<ControlRepresentation>Picture</ControlRepresentation>
+																	<ControlRepresentation>Button</ControlRepresentation>
 																	<Representation>None</Representation>
 																	<ExtendedTooltip name="ГруппаПроектРасширеннаяПодсказка" id="440"/>
 																	<ChildItems>
@@ -1157,6 +1160,7 @@
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<EditFormat>
 														<v8:item>
@@ -1172,6 +1176,7 @@
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>5</Width>
 													<ChoiceButton>false</ChoiceButton>
 													<EditFormat>
@@ -1204,6 +1209,7 @@
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<EditFormat>
 														<v8:item>
@@ -1219,6 +1225,7 @@
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>5</Width>
 													<ChoiceButton>false</ChoiceButton>
 													<EditFormat>
@@ -1406,6 +1413,7 @@
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.КоллекцияПиктограммСостоянияЗадач</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1420,6 +1428,7 @@
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>StdPicture.User</xr:Ref>
 														<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -1438,6 +1447,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>5</Width>
 													<HorizontalStretch>true</HorizontalStretch>
 													<ContextMenu name="ИсполнителиИсполнительКонтекстноеМеню" id="119"/>
@@ -1448,6 +1458,7 @@
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>5</Width>
 													<HorizontalStretch>true</HorizontalStretch>
 													<ContextMenu name="ИсполнителиОсновнойОбъектАдресацииКонтекстноеМеню" id="176"/>
@@ -1458,6 +1469,7 @@
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>5</Width>
 													<HorizontalStretch>true</HorizontalStretch>
 													<ContextMenu name="ИсполнителиДополнительныйОбъектАдресацииКонтекстноеМеню" id="178"/>
@@ -1476,6 +1488,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>true</HorizontalStretch>
 											<Format>
@@ -1498,6 +1511,7 @@
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ValuesPicture>
 												<xr:Ref>StdPicture.ExecuteTask</xr:Ref>
@@ -1512,6 +1526,7 @@
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ИсполнителиРезультатКонтекстноеМеню" id="269"/>
 											<ExtendedTooltip name="ИсполнителиРезультатРасширеннаяПодсказка" id="383"/>
@@ -1526,6 +1541,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>true</HorizontalStretch>
 											<Format>
@@ -1553,6 +1569,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<HorizontalStretch>true</HorizontalStretch>
 											<ContextMenu name="ИсполнителиКомментарийКонтекстноеМеню" id="125"/>
 											<ExtendedTooltip name="ИсполнителиКомментарийРасширеннаяПодсказка" id="385"/>
@@ -1562,6 +1579,7 @@
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<Format>
 												<v8:item>
@@ -1589,6 +1607,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<Format>
 												<v8:item>
@@ -1609,7 +1628,6 @@
 											<DataPath>Исполнители.ОтправленоНаДоработку</DataPath>
 											<Visible>false</Visible>
 											<EditMode>Directly</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИсполнителиОтправленоНаДоработкуКонтекстноеМеню" id="142"/>
 											<ExtendedTooltip name="ИсполнителиОтправленоНаДоработкуРасширеннаяПодсказка" id="388"/>
 											<Events>
@@ -1620,6 +1638,7 @@
 											<DataPath>Исполнители.КомментарийПроверяющего</DataPath>
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<HorizontalStretch>true</HorizontalStretch>
 											<ContextMenu name="ИсполнителиКомментарийПроверяющегоКонтекстноеМеню" id="144"/>
 											<ExtendedTooltip name="ИсполнителиКомментарийПроверяющегоРасширеннаяПодсказка" id="389"/>
@@ -1632,7 +1651,7 @@
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ИсполнителиЯвкаОбязательнаКонтекстноеМеню" id="271"/>
 											<ExtendedTooltip name="ИсполнителиЯвкаОбязательнаРасширеннаяПодсказка" id="390"/>
 										</CheckBoxField>
@@ -1760,6 +1779,7 @@
 										<InputField name="ЭтапыНомерСтроки" id="219">
 											<DataPath>Этапы.НомерСтроки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>3</Width>
 											<ContextMenu name="ЭтапыНомерСтрокиКонтекстноеМеню" id="220"/>
 											<ExtendedTooltip name="ЭтапыНомерСтрокиРасширеннаяПодсказка" id="394"/>
@@ -1772,6 +1792,7 @@
 												<xr:Ref>CommonPicture.ВосклицательныйЗнакСерый</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>2</Width>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.КоллекцияВариантыВажности</xr:Ref>
@@ -1794,6 +1815,7 @@
 													<DataPath>Этапы.ЗадачаВыполнена</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>StdPicture.ExecuteTask</xr:Ref>
 														<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -1811,6 +1833,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>35</Width>
 													<ContextMenu name="ЭтапыШаблонБизнесПроцессаКонтекстноеМеню" id="222"/>
 													<ExtendedTooltip name="ЭтапыШаблонБизнесПроцессаРасширеннаяПодсказка" id="397"/>
@@ -1820,6 +1843,7 @@
 										<InputField name="ЭтапыСрок" id="223">
 											<DataPath>Этапы.Срок</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ЭтапыСрокКонтекстноеМеню" id="224"/>
 											<ExtendedTooltip name="ЭтапыСрокРасширеннаяПодсказка" id="398"/>
@@ -1827,6 +1851,7 @@
 										<InputField name="ЭтапыИсполнителиЭтапаСтрокой" id="227">
 											<DataPath>Этапы.ИсполнителиЭтапаСтрокой</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="ЭтапыИсполнителиЭтапаСтрокойКонтекстноеМеню" id="228"/>
 											<ExtendedTooltip name="ЭтапыИсполнителиЭтапаСтрокойРасширеннаяПодсказка" id="399"/>
@@ -1840,6 +1865,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<ContextMenu name="ЭтапыПредшественникиЭтапаСтрокойКонтекстноеМеню" id="226"/>
 											<ExtendedTooltip name="ЭтапыПредшественникиЭтапаСтрокойРасширеннаяПодсказка" id="400"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoURL>false</AutoURL>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -87,7 +88,6 @@
 						</v8:item>
 					</ToolTip>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЕстьВиртуальныеСкладыКонтекстноеМеню" id="544"/>
 					<ExtendedTooltip name="ЕстьВиртуальныеСкладыРасширеннаяПодсказка" id="545"/>
 					<Events>
@@ -1333,6 +1333,7 @@
 																							<DataPath>ТаблицаСкладовFBS.НаименованиеОбъектаМаркетплейса</DataPath>
 																							<ReadOnly>true</ReadOnly>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>20</Width>
 																							<ContextMenu name="ТаблицаСкладовFBSНаименованиеОбъектаМаркетплейсаКонтекстноеМеню" id="830"/>
 																							<ExtendedTooltip name="ТаблицаСкладовFBSНаименованиеОбъектаМаркетплейсаРасширеннаяПодсказка" id="831"/>
@@ -1343,6 +1344,7 @@
 																							<EditMode>EnterOnInput</EditMode>
 																							<ShowInHeader>false</ShowInHeader>
 																							<ShowInFooter>false</ShowInFooter>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Format>
 																								<v8:item>
 																									<v8:lang>ru</v8:lang>
@@ -1356,6 +1358,7 @@
 																							<DataPath>ТаблицаСкладовFBS.ДоверительнаяПриемка</DataPath>
 																							<TitleLocation>None</TitleLocation>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 																							<Format>
 																								<v8:item>
@@ -1378,6 +1381,7 @@
 																							<EditMode>EnterOnInput</EditMode>
 																							<ShowInHeader>false</ShowInHeader>
 																							<ShowInFooter>false</ShowInFooter>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ListChoiceMode>true</ListChoiceMode>
 																							<ContextMenu name="ТаблицаСкладовFBSСтатусКонтекстноеМеню" id="1123"/>
 																							<ExtendedTooltip name="ТаблицаСкладовFBSСтатусРасширеннаяПодсказка" id="1124"/>
@@ -1387,6 +1391,7 @@
 																				<InputField name="ТаблицаСкладовFBSСклад1С" id="360">
 																					<DataPath>ТаблицаСкладовFBS.Склад1С</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<Width>20</Width>
 																					<DropListButton>false</DropListButton>
 																					<ChoiceButton>true</ChoiceButton>
@@ -1429,6 +1434,9 @@
 																					<ReadOnly>true</ReadOnly>
 																					<EditMode>EnterOnInput</EditMode>
 																					<CellHyperlink>true</CellHyperlink>
+																					<AutoEditMode>true</AutoEditMode>
+																					<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																					<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 																					<ContextMenu name="ТаблицаСкладовFBSСпособДоставкиКонтекстноеМеню" id="1497"/>
 																					<ExtendedTooltip name="ТаблицаСкладовFBSСпособДоставкиРасширеннаяПодсказка" id="1498"/>
@@ -1647,7 +1655,7 @@
 																			<HeightInTableRows>5</HeightInTableRows>
 																			<AutoMaxRowsCount>false</AutoMaxRowsCount>
 																			<MaxRowsCount>5</MaxRowsCount>
-																			<UseAlternationRowColor>true</UseAlternationRowColor>
+																			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 																			<EnableStartDrag>true</EnableStartDrag>
 																			<DataPath>РегистрОграничениеОстатка</DataPath>
 																			<RowPictureDataPath>РегистрОграничениеОстатка.DefaultPicture</RowPictureDataPath>
@@ -2383,7 +2391,7 @@
 																								<UsualGroup name="ГруппаСведенияОРозничномПокупателе2" id="1410">
 																									<Group>Vertical</Group>
 																									<Collapsed>true</Collapsed>
-																									<ControlRepresentation>Picture</ControlRepresentation>
+																									<ControlRepresentation>Button</ControlRepresentation>
 																									<Representation>None</Representation>
 																									<ShowTitle>false</ShowTitle>
 																									<ExtendedTooltip name="ГруппаСведенияОРозничномПокупателе2РасширеннаяПодсказка" id="1411"/>
@@ -2952,7 +2960,6 @@
 																							<v8:content>Для раздельного контроля продаж товаров со складов торговой площадки и с собственных складов при одновременном использовании схем FBO и FBS / RealFBS.</v8:content>
 																						</v8:item>
 																					</ToolTip>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="ПродажиРазделяютсяПоДоговорамКонтекстноеМеню" id="1126"/>
 																					<ExtendedTooltip name="ПродажиРазделяютсяПоДоговорамРасширеннаяПодсказка" id="1127"/>
 																					<Events>
@@ -3431,7 +3438,6 @@
 																						</v8:item>
 																					</ToolTip>
 																					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="СоздаватьЗадачуОповещениеКонтекстноеМеню" id="1555"/>
 																					<ExtendedTooltip name="СоздаватьЗадачуОповещениеРасширеннаяПодсказка" id="1556">
 																						<AutoMaxWidth>false</AutoMaxWidth>
@@ -3520,7 +3526,6 @@
 																			<DataPath>РучнаяЗагрузкаДанныхОРеализованныхТоварах</DataPath>
 																			<ReadOnly>true</ReadOnly>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="РучнаяЗагрузкаДанныхОРеализованныхТоварахКонтекстноеМеню" id="1109"/>
 																			<ExtendedTooltip name="РучнаяЗагрузкаДанныхОРеализованныхТоварахРасширеннаяПодсказка" id="1110"/>
 																			<Events>
@@ -3531,7 +3536,6 @@
 																			<DataPath>АвтоматическаяЗагрузкаДанныхОРеализованныхТоварах</DataPath>
 																			<ReadOnly>true</ReadOnly>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="АвтоматическаяЗагрузкаДанныхОРеализованныхТоварахКонтекстноеМеню" id="1106"/>
 																			<ExtendedTooltip name="АвтоматическаяЗагрузкаДанныхОРеализованныхТоварахРасширеннаяПодсказка" id="1107"/>
 																			<Events>
@@ -3568,7 +3572,6 @@
 																							</Title>
 																							<TitleLocation>Right</TitleLocation>
 																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																							<CheckBoxType>Auto</CheckBoxType>
 																							<ContextMenu name="АвтоматическаяЗагрузкаДанныхОРеализованныхТоварахЗаПредыдущийМесяцКонтекстноеМеню" id="1112"/>
 																							<ExtendedTooltip name="АвтоматическаяЗагрузкаДанныхОРеализованныхТоварахЗаПредыдущийМесяцРасширеннаяПодсказка" id="1113">
 																								<AutoMaxWidth>false</AutoMaxWidth>
@@ -3594,7 +3597,6 @@
 																							</Title>
 																							<TitleLocation>Right</TitleLocation>
 																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																							<CheckBoxType>Auto</CheckBoxType>
 																							<ContextMenu name="АвтоматическаяЗагрузкаДанныхЗаТекущийМесяцКонтекстноеМеню" id="1019"/>
 																							<ExtendedTooltip name="АвтоматическаяЗагрузкаДанныхЗаТекущийМесяцРасширеннаяПодсказка" id="1020">
 																								<AutoMaxWidth>false</AutoMaxWidth>
@@ -3732,7 +3734,7 @@
 																			<Group>Vertical</Group>
 																			<Behavior>Collapsible</Behavior>
 																			<Collapsed>true</Collapsed>
-																			<ControlRepresentation>Picture</ControlRepresentation>
+																			<ControlRepresentation>Button</ControlRepresentation>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ГруппаСписокСкладовFBOРасширеннаяПодсказка" id="851"/>
 																			<ChildItems>
@@ -3848,6 +3850,7 @@
 																								</v8:item>
 																							</Title>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>35</Width>
 																							<ContextMenu name="ТаблицаСкладовFBOНаименованиеОбъектаМаркетплейсаКонтекстноеМеню" id="869"/>
 																							<ExtendedTooltip name="ТаблицаСкладовFBOНаименованиеОбъектаМаркетплейсаРасширеннаяПодсказка" id="870"/>
@@ -3861,6 +3864,7 @@
 																								</v8:item>
 																							</Title>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>25</Width>
 																							<ContextMenu name="ТаблицаСкладовFBOИдентификаторОбъектаМаркетплейсаКонтекстноеМеню" id="866"/>
 																							<ExtendedTooltip name="ТаблицаСкладовFBOИдентификаторОбъектаМаркетплейсаРасширеннаяПодсказка" id="867"/>
@@ -3868,6 +3872,7 @@
 																						<InputField name="ТаблицаСкладовFBOДополнительныеСведения" id="871">
 																							<DataPath>ТаблицаСкладовFBO.ДополнительныеСведения</DataPath>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>50</Width>
 																							<ContextMenu name="ТаблицаСкладовFBOДополнительныеСведенияКонтекстноеМеню" id="872"/>
 																							<ExtendedTooltip name="ТаблицаСкладовFBOДополнительныеСведенияРасширеннаяПодсказка" id="873"/>
@@ -3904,7 +3909,7 @@
 															<Group>Vertical</Group>
 															<Behavior>Collapsible</Behavior>
 															<Collapsed>true</Collapsed>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<Representation>None</Representation>
 															<ExtendedTooltip name="ГруппаНастройкиОформленияРасходныхОрдеров2РасширеннаяПодсказка" id="1030"/>
 															<ChildItems>
@@ -4055,7 +4060,6 @@
 																							<DataPath>АвтоматическоеФормированиеРасходныхОрдеровНаТовары</DataPath>
 																							<TitleLocation>Right</TitleLocation>
 																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																							<CheckBoxType>Auto</CheckBoxType>
 																							<ContextMenu name="АвтоматическоеФормированиеРасходныхОрдеровНаТоварыКонтекстноеМеню" id="1048"/>
 																							<ExtendedTooltip name="АвтоматическоеФормированиеРасходныхОрдеровНаТоварыРасширеннаяПодсказка" id="1049">
 																								<AutoMaxWidth>false</AutoMaxWidth>

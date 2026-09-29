@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -81,7 +81,6 @@
 				<CheckBoxField name="ФормироватьТолькоВложенныеЕдиницы" id="55">
 					<DataPath>ФормироватьТолькоВложенныеЕдиницы</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ФормироватьТолькоВложенныеЕдиницыКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="ФормироватьТолькоВложенныеЕдиницыРасширеннаяПодсказка" id="57"/>
 					<Events>
@@ -205,21 +204,18 @@
 				<CheckBoxField name="ДеревоУпаковокВерхнийУровень" id="47">
 					<DataPath>ДеревоУпаковок.ВерхнийУровень</DataPath>
 					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ДеревоУпаковокВерхнийУровеньКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="ДеревоУпаковокВерхнийУровеньРасширеннаяПодсказка" id="49"/>
 				</CheckBoxField>
 				<CheckBoxField name="ДеревоУпаковокТолькоПросмотр" id="61">
 					<DataPath>ДеревоУпаковок.ТолькоПросмотр</DataPath>
 					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ДеревоУпаковокТолькоПросмотрКонтекстноеМеню" id="62"/>
 					<ExtendedTooltip name="ДеревоУпаковокТолькоПросмотрРасширеннаяПодсказка" id="63"/>
 				</CheckBoxField>
 				<CheckBoxField name="ДеревоУпаковокТребуетсяУказаниеПараметровГенерацииШтрихкодов" id="64">
 					<DataPath>ДеревоУпаковок.ТребуетсяУказаниеПараметровГенерацииШтрихкодов</DataPath>
 					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ДеревоУпаковокТребуетсяУказаниеПараметровГенерацииШтрихкодовКонтекстноеМеню" id="65"/>
 					<ExtendedTooltip name="ДеревоУпаковокТребуетсяУказаниеПараметровГенерацииШтрихкодовРасширеннаяПодсказка" id="66"/>
 				</CheckBoxField>

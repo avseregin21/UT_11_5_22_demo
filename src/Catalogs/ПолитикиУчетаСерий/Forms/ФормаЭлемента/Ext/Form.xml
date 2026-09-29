@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -28,6 +28,7 @@
 				<InputField name="Наименование" id="1">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>36</Width>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="100"/>
@@ -84,7 +85,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УчетСерийВНеотфактурованныхПоставкахТоваровКонтекстноеМеню" id="240"/>
 							<ExtendedTooltip name="УчетСерийВНеотфактурованныхПоставкахТоваровРасширеннаяПодсказка" id="241"/>
 						</CheckBoxField>
@@ -97,7 +97,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УчетТоваровВПутиОтПоставщикаПоСериямКонтекстноеМеню" id="243"/>
 							<ExtendedTooltip name="УчетТоваровВПутиОтПоставщикаПоСериямРасширеннаяПодсказка" id="244"/>
 						</CheckBoxField>
@@ -110,7 +109,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УчетСерийВПереданныхНаХранениеТоварахКонтекстноеМеню" id="246"/>
 							<ExtendedTooltip name="УчетСерийВПереданныхНаХранениеТоварахРасширеннаяПодсказка" id="247"/>
 						</CheckBoxField>
@@ -123,7 +121,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УчетСерийПереданныхПереработчикуТоваровКонтекстноеМеню" id="260"/>
 							<ExtendedTooltip name="УчетСерийПереданныхПереработчикуТоваровРасширеннаяПодсказка" id="253"/>
 						</CheckBoxField>
@@ -136,7 +133,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УчетСерийВПереданныхНаКомиссиюТоваровКонтекстноеМеню" id="249"/>
 							<ExtendedTooltip name="УчетСерийВПереданныхНаКомиссиюТоваровРасширеннаяПодсказка" id="250"/>
 						</CheckBoxField>
@@ -193,7 +189,7 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="УказыватьПриПриемкеКонтекстноеМеню" id="4"/>
 											<ExtendedTooltip name="УказыватьПриПриемкеРасширеннаяПодсказка" id="106"/>
 											<Events>
@@ -240,7 +236,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеОтПоставщикаКонтекстноеМеню" id="33"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеОтПоставщикаРасширеннаяПодсказка" id="110"/>
 														</CheckBoxField>
@@ -253,7 +248,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеПоВозвратуОтКлиентаКонтекстноеМеню" id="38"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеПоВозвратуОтКлиентаРасширеннаяПодсказка" id="111"/>
 														</CheckBoxField>
@@ -266,7 +260,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеПоПеремещениюКонтекстноеМеню" id="42"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеПоПеремещениюРасширеннаяПодсказка" id="112"/>
 														</CheckBoxField>
@@ -279,7 +272,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеСобранныхКомплектовКонтекстноеМеню" id="40"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеСобранныхКомплектовРасширеннаяПодсказка" id="113"/>
 														</CheckBoxField>
@@ -292,7 +284,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеКомплектующихПослеРазборкиКонтекстноеМеню" id="65"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеКомплектующихПослеРазборкиРасширеннаяПодсказка" id="114"/>
 														</CheckBoxField>
@@ -305,7 +296,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеПродукцииИзПроизводстваКонтекстноеМеню" id="98"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеПродукцииИзПроизводстваРасширеннаяПодсказка" id="115"/>
 														</CheckBoxField>
@@ -318,7 +308,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриПриемкеПоПрочемуОприходованиюКонтекстноеМеню" id="83"/>
 															<ExtendedTooltip name="УказыватьПриПриемкеПоПрочемуОприходованиюРасширеннаяПодсказка" id="116"/>
 														</CheckBoxField>
@@ -331,7 +320,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриВозвратеНепринятыхПолучателемТоваровКонтекстноеМеню" id="138"/>
 															<ExtendedTooltip name="УказыватьПриВозвратеНепринятыхПолучателемТоваровРасширеннаяПодсказка" id="139"/>
 														</CheckBoxField>
@@ -364,7 +352,7 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="УказыватьПриОтгрузкеКонтекстноеМеню" id="194"/>
 											<ExtendedTooltip name="УказыватьПриОтгрузкеРасширеннаяПодсказка" id="195"/>
 											<Events>
@@ -413,7 +401,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеКлиентуКонтекстноеМеню" id="204"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеКлиентуРасширеннаяПодсказка" id="205"/>
 														</CheckBoxField>
@@ -426,7 +413,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеВРозницуКонтекстноеМеню" id="207"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеВРозницуРасширеннаяПодсказка" id="208"/>
 														</CheckBoxField>
@@ -439,7 +425,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеПоВозвратуПоставщикуКонтекстноеМеню" id="210"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеПоВозвратуПоставщикуРасширеннаяПодсказка" id="211"/>
 														</CheckBoxField>
@@ -452,7 +437,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеПоПеремещениюКонтекстноеМеню" id="213"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеПоПеремещениюРасширеннаяПодсказка" id="214"/>
 														</CheckBoxField>
@@ -465,7 +449,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеКомплектующихДляСборкиКонтекстноеМеню" id="216"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеКомплектующихДляСборкиРасширеннаяПодсказка" id="217"/>
 														</CheckBoxField>
@@ -478,7 +461,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеКомплектовДляРазборкиКонтекстноеМеню" id="219"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеКомплектовДляРазборкиРасширеннаяПодсказка" id="220"/>
 														</CheckBoxField>
@@ -491,7 +473,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УказыватьПриОтгрузкеНаВнутренниеНуждыКонтекстноеМеню" id="222"/>
 															<ExtendedTooltip name="УказыватьПриОтгрузкеНаВнутренниеНуждыРасширеннаяПодсказка" id="223"/>
 														</CheckBoxField>
@@ -578,7 +559,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УказыватьПриПересчетеТоваровКонтекстноеМеню" id="96"/>
 							<ExtendedTooltip name="УказыватьПриПересчетеТоваровРасширеннаяПодсказка" id="131"/>
 						</CheckBoxField>
@@ -591,7 +571,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УказыватьПриОтраженииИзлишковКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="УказыватьПриОтраженииИзлишковРасширеннаяПодсказка" id="132"/>
 						</CheckBoxField>
@@ -605,7 +584,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УказыватьПриОтраженииНедостачКонтекстноеМеню" id="135"/>
 							<ExtendedTooltip name="УказыватьПриОтраженииНедостачРасширеннаяПодсказка" id="136"/>
 						</CheckBoxField>
@@ -618,7 +596,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УказыватьПриПеремещенииМеждуПомещениямиКонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="УказыватьПриПеремещенииМеждуПомещениямиРасширеннаяПодсказка" id="133"/>
 						</CheckBoxField>
@@ -660,7 +637,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="УказыватьПриДвиженииМатериаловКонтекстноеМеню" id="148"/>
 									<ExtendedTooltip name="УказыватьПриДвиженииМатериаловРасширеннаяПодсказка" id="149"/>
 									<Events>
@@ -707,7 +683,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказыватьПриПолученииМатериаловКонтекстноеМеню" id="158"/>
 													<ExtendedTooltip name="УказыватьПриПолученииМатериаловРасширеннаяПодсказка" id="159"/>
 												</CheckBoxField>
@@ -720,7 +695,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказыватьПриВозвратеНаСкладКонтекстноеМеню" id="161"/>
 													<ExtendedTooltip name="УказыватьПриВозвратеНаСкладРасширеннаяПодсказка" id="162"/>
 												</CheckBoxField>
@@ -733,7 +707,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказыватьПриРасходеМатериаловКонтекстноеМеню" id="164"/>
 													<ExtendedTooltip name="УказыватьПриРасходеМатериаловРасширеннаяПодсказка" id="165"/>
 													<Events>
@@ -749,7 +722,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказыватьПриОтраженииЗатратНаПроизводствоКонтекстноеМеню" id="167"/>
 													<ExtendedTooltip name="УказыватьПриОтраженииЗатратНаПроизводствоРасширеннаяПодсказка" id="168"/>
 												</CheckBoxField>
@@ -781,7 +753,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="УказыватьПриДвиженииПродукцииКонтекстноеМеню" id="185"/>
 									<ExtendedTooltip name="УказыватьПриДвиженииПродукцииРасширеннаяПодсказка" id="186"/>
 									<Events>
@@ -828,7 +799,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказыватьПриПроизводствеПродукцииКонтекстноеМеню" id="170"/>
 													<ExtendedTooltip name="УказыватьПриПроизводствеПродукцииРасширеннаяПодсказка" id="171"/>
 													<Events>
@@ -844,7 +814,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УказыватьПриВыпускеВПодразделениеКонтекстноеМеню" id="173"/>
 													<ExtendedTooltip name="УказыватьПриВыпускеВПодразделениеРасширеннаяПодсказка" id="174"/>
 												</CheckBoxField>
@@ -875,7 +844,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УчитыватьСерииТМЦВЭксплуатацииКонтекстноеМеню" id="257"/>
 							<ExtendedTooltip name="УчитыватьСерииТМЦВЭксплуатацииРасширеннаяПодсказка" id="258"/>
 						</CheckBoxField>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -25,6 +25,7 @@
 		<InputField name="Наименование" id="1">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
@@ -43,6 +44,7 @@
 				<InputField name="Список" id="4">
 					<DataPath>Объект.Список</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
 				</InputField>
@@ -50,7 +52,7 @@
 					<DataPath>Объект.ДляВнешнихПользователей</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДляВнешнихПользователейКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ДляВнешнихПользователейРасширеннаяПодсказка" id="9"/>
 				</CheckBoxField>
@@ -71,6 +73,7 @@
 				<InputField name="Хеш" id="13">
 					<DataPath>Объект.Хеш</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ХешКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="ХешРасширеннаяПодсказка" id="15"/>
 				</InputField>
@@ -97,6 +100,7 @@
 				<InputField name="СоставПолей" id="10">
 					<DataPath>Объект.СоставПолей</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СоставПолейКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="СоставПолейРасширеннаяПодсказка" id="12"/>
 				</InputField>
@@ -139,30 +143,35 @@
 						<InputField name="Значение1" id="16">
 							<DataPath>Объект.Значение1</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Значение1КонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="Значение1РасширеннаяПодсказка" id="18"/>
 						</InputField>
 						<InputField name="Значение2" id="19">
 							<DataPath>Объект.Значение2</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Значение2КонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="Значение2РасширеннаяПодсказка" id="21"/>
 						</InputField>
 						<InputField name="Значение3" id="22">
 							<DataPath>Объект.Значение3</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Значение3КонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="Значение3РасширеннаяПодсказка" id="24"/>
 						</InputField>
 						<InputField name="Значение4" id="25">
 							<DataPath>Объект.Значение4</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Значение4КонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="Значение4РасширеннаяПодсказка" id="27"/>
 						</InputField>
 						<InputField name="Значение5" id="28">
 							<DataPath>Объект.Значение5</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Значение5КонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="Значение5РасширеннаяПодсказка" id="30"/>
 						</InputField>
@@ -222,36 +231,42 @@
 								<LabelField name="ШапкаНомерСтроки" id="48">
 									<DataPath>Объект.Шапка.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШапкаНомерСтрокиКонтекстноеМеню" id="49"/>
 									<ExtendedTooltip name="ШапкаНомерСтрокиРасширеннаяПодсказка" id="50"/>
 								</LabelField>
 								<InputField name="ШапкаЗначение6" id="51">
 									<DataPath>Объект.Шапка.Значение6</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШапкаЗначение6КонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ШапкаЗначение6РасширеннаяПодсказка" id="53"/>
 								</InputField>
 								<InputField name="ШапкаЗначение7" id="54">
 									<DataPath>Объект.Шапка.Значение7</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШапкаЗначение7КонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="ШапкаЗначение7РасширеннаяПодсказка" id="56"/>
 								</InputField>
 								<InputField name="ШапкаЗначение8" id="57">
 									<DataPath>Объект.Шапка.Значение8</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШапкаЗначение8КонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ШапкаЗначение8РасширеннаяПодсказка" id="59"/>
 								</InputField>
 								<InputField name="ШапкаЗначение9" id="60">
 									<DataPath>Объект.Шапка.Значение9</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШапкаЗначение9КонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="ШапкаЗначение9РасширеннаяПодсказка" id="62"/>
 								</InputField>
 								<InputField name="ШапкаЗначение10" id="63">
 									<DataPath>Объект.Шапка.Значение10</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШапкаЗначение10КонтекстноеМеню" id="64"/>
 									<ExtendedTooltip name="ШапкаЗначение10РасширеннаяПодсказка" id="65"/>
 								</InputField>
@@ -313,36 +328,42 @@
 								<LabelField name="ТабличнаяЧасть1НомерСтроки" id="81">
 									<DataPath>Объект.ТабличнаяЧасть1.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть1НомерСтрокиКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="ТабличнаяЧасть1НомерСтрокиРасширеннаяПодсказка" id="83"/>
 								</LabelField>
 								<InputField name="ТабличнаяЧасть1Значение1" id="84">
 									<DataPath>Объект.ТабличнаяЧасть1.Значение1</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть1Значение1КонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="ТабличнаяЧасть1Значение1РасширеннаяПодсказка" id="86"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть1Значение2" id="87">
 									<DataPath>Объект.ТабличнаяЧасть1.Значение2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть1Значение2КонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="ТабличнаяЧасть1Значение2РасширеннаяПодсказка" id="89"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть1Значение3" id="90">
 									<DataPath>Объект.ТабличнаяЧасть1.Значение3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть1Значение3КонтекстноеМеню" id="91"/>
 									<ExtendedTooltip name="ТабличнаяЧасть1Значение3РасширеннаяПодсказка" id="92"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть1Значение4" id="93">
 									<DataPath>Объект.ТабличнаяЧасть1.Значение4</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть1Значение4КонтекстноеМеню" id="94"/>
 									<ExtendedTooltip name="ТабличнаяЧасть1Значение4РасширеннаяПодсказка" id="95"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть1Значение5" id="96">
 									<DataPath>Объект.ТабличнаяЧасть1.Значение5</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть1Значение5КонтекстноеМеню" id="97"/>
 									<ExtendedTooltip name="ТабличнаяЧасть1Значение5РасширеннаяПодсказка" id="98"/>
 								</InputField>
@@ -404,36 +425,42 @@
 								<LabelField name="ТабличнаяЧасть2НомерСтроки" id="114">
 									<DataPath>Объект.ТабличнаяЧасть2.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть2НомерСтрокиКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="ТабличнаяЧасть2НомерСтрокиРасширеннаяПодсказка" id="116"/>
 								</LabelField>
 								<InputField name="ТабличнаяЧасть2Значение1" id="117">
 									<DataPath>Объект.ТабличнаяЧасть2.Значение1</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть2Значение1КонтекстноеМеню" id="118"/>
 									<ExtendedTooltip name="ТабличнаяЧасть2Значение1РасширеннаяПодсказка" id="119"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть2Значение2" id="120">
 									<DataPath>Объект.ТабличнаяЧасть2.Значение2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть2Значение2КонтекстноеМеню" id="121"/>
 									<ExtendedTooltip name="ТабличнаяЧасть2Значение2РасширеннаяПодсказка" id="122"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть2Значение3" id="123">
 									<DataPath>Объект.ТабличнаяЧасть2.Значение3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть2Значение3КонтекстноеМеню" id="124"/>
 									<ExtendedTooltip name="ТабличнаяЧасть2Значение3РасширеннаяПодсказка" id="125"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть2Значение4" id="126">
 									<DataPath>Объект.ТабличнаяЧасть2.Значение4</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть2Значение4КонтекстноеМеню" id="127"/>
 									<ExtendedTooltip name="ТабличнаяЧасть2Значение4РасширеннаяПодсказка" id="128"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть2Значение5" id="129">
 									<DataPath>Объект.ТабличнаяЧасть2.Значение5</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть2Значение5КонтекстноеМеню" id="130"/>
 									<ExtendedTooltip name="ТабличнаяЧасть2Значение5РасширеннаяПодсказка" id="131"/>
 								</InputField>
@@ -495,36 +522,42 @@
 								<LabelField name="ТабличнаяЧасть3НомерСтроки" id="147">
 									<DataPath>Объект.ТабличнаяЧасть3.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть3НомерСтрокиКонтекстноеМеню" id="148"/>
 									<ExtendedTooltip name="ТабличнаяЧасть3НомерСтрокиРасширеннаяПодсказка" id="149"/>
 								</LabelField>
 								<InputField name="ТабличнаяЧасть3Значение1" id="150">
 									<DataPath>Объект.ТабличнаяЧасть3.Значение1</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть3Значение1КонтекстноеМеню" id="151"/>
 									<ExtendedTooltip name="ТабличнаяЧасть3Значение1РасширеннаяПодсказка" id="152"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть3Значение2" id="153">
 									<DataPath>Объект.ТабличнаяЧасть3.Значение2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть3Значение2КонтекстноеМеню" id="154"/>
 									<ExtendedTooltip name="ТабличнаяЧасть3Значение2РасширеннаяПодсказка" id="155"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть3Значение3" id="156">
 									<DataPath>Объект.ТабличнаяЧасть3.Значение3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть3Значение3КонтекстноеМеню" id="157"/>
 									<ExtendedTooltip name="ТабличнаяЧасть3Значение3РасширеннаяПодсказка" id="158"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть3Значение4" id="159">
 									<DataPath>Объект.ТабличнаяЧасть3.Значение4</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть3Значение4КонтекстноеМеню" id="160"/>
 									<ExtendedTooltip name="ТабличнаяЧасть3Значение4РасширеннаяПодсказка" id="161"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть3Значение5" id="162">
 									<DataPath>Объект.ТабличнаяЧасть3.Значение5</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть3Значение5КонтекстноеМеню" id="163"/>
 									<ExtendedTooltip name="ТабличнаяЧасть3Значение5РасширеннаяПодсказка" id="164"/>
 								</InputField>
@@ -586,36 +619,42 @@
 								<LabelField name="ТабличнаяЧасть4НомерСтроки" id="180">
 									<DataPath>Объект.ТабличнаяЧасть4.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть4НомерСтрокиКонтекстноеМеню" id="181"/>
 									<ExtendedTooltip name="ТабличнаяЧасть4НомерСтрокиРасширеннаяПодсказка" id="182"/>
 								</LabelField>
 								<InputField name="ТабличнаяЧасть4Значение1" id="183">
 									<DataPath>Объект.ТабличнаяЧасть4.Значение1</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть4Значение1КонтекстноеМеню" id="184"/>
 									<ExtendedTooltip name="ТабличнаяЧасть4Значение1РасширеннаяПодсказка" id="185"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть4Значение2" id="186">
 									<DataPath>Объект.ТабличнаяЧасть4.Значение2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть4Значение2КонтекстноеМеню" id="187"/>
 									<ExtendedTooltip name="ТабличнаяЧасть4Значение2РасширеннаяПодсказка" id="188"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть4Значение3" id="189">
 									<DataPath>Объект.ТабличнаяЧасть4.Значение3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть4Значение3КонтекстноеМеню" id="190"/>
 									<ExtendedTooltip name="ТабличнаяЧасть4Значение3РасширеннаяПодсказка" id="191"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть4Значение4" id="192">
 									<DataPath>Объект.ТабличнаяЧасть4.Значение4</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть4Значение4КонтекстноеМеню" id="193"/>
 									<ExtendedTooltip name="ТабличнаяЧасть4Значение4РасширеннаяПодсказка" id="194"/>
 								</InputField>
 								<InputField name="ТабличнаяЧасть4Значение5" id="195">
 									<DataPath>Объект.ТабличнаяЧасть4.Значение5</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТабличнаяЧасть4Значение5КонтекстноеМеню" id="196"/>
 									<ExtendedTooltip name="ТабличнаяЧасть4Значение5РасширеннаяПодсказка" id="197"/>
 								</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -241,7 +241,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИсправлениеКонтекстноеМеню" id="198"/>
 											<ExtendedTooltip name="ИсправлениеРасширеннаяПодсказка" id="199"/>
 											<Events>
@@ -308,6 +307,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>12</MaxWidth>
 															<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -322,6 +322,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 															<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="97"/>
 															<Events>
@@ -354,6 +355,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>12</MaxWidth>
 															<ContextMenu name="НомерПриИсправленииКонтекстноеМеню" id="226"/>
@@ -369,6 +371,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>15</MaxWidth>
 															<HorizontalStretch>true</HorizontalStretch>
@@ -407,6 +410,7 @@
 																</v8:item>
 															</WarningOnEdit>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>12</MaxWidth>
 															<HorizontalStretch>true</HorizontalStretch>
@@ -423,6 +427,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДатаИсправленияКонтекстноеМеню" id="211"/>
 															<ExtendedTooltip name="ДатаИсправленияРасширеннаяПодсказка" id="212"/>
 															<Events>
@@ -664,7 +669,6 @@
 																			<v8:content>Счета-фактуры выставлен покупателю.</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ВыставленКонтекстноеМеню" id="76"/>
 																	<ExtendedTooltip name="ВыставленРасширеннаяПодсказка" id="112"/>
 																	<Events>
@@ -844,6 +848,7 @@
 								<LabelField name="АвансыНомерСтроки" id="32">
 									<DataPath>Объект.Авансы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="АвансыНомерСтрокиКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="АвансыНомерСтрокиРасширеннаяПодсказка" id="117"/>
@@ -856,6 +861,7 @@
 										<xr:Ref>CommonPicture.Набор</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ValuesPicture>
@@ -888,6 +894,7 @@
 												<InputField name="АвансыНоменклатура" id="34">
 													<DataPath>Объект.Авансы.Номенклатура</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="АвансыНоменклатураКонтекстноеМеню" id="35"/>
 													<ExtendedTooltip name="АвансыНоменклатураРасширеннаяПодсказка" id="118"/>
@@ -900,6 +907,7 @@
 										<InputField name="АвансыХарактеристика" id="303">
 											<DataPath>Объект.Авансы.Характеристика</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="АвансыХарактеристикаКонтекстноеМеню" id="304"/>
 											<ExtendedTooltip name="АвансыХарактеристикаРасширеннаяПодсказка" id="305"/>
 										</InputField>
@@ -908,6 +916,7 @@
 								<InputField name="АвансыСодержание" id="36">
 									<DataPath>Объект.Авансы.Содержание</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="АвансыСодержаниеКонтекстноеМеню" id="37"/>
 									<ExtendedTooltip name="АвансыСодержаниеРасширеннаяПодсказка" id="119"/>
 								</InputField>
@@ -923,6 +932,7 @@
 										<InputField name="АвансыТипЗапасов" id="144">
 											<DataPath>Объект.Авансы.ТипЗапасов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ListChoiceMode>true</ListChoiceMode>
@@ -932,6 +942,7 @@
 										<InputField name="АвансыНаправлениеДеятельности" id="312">
 											<DataPath>Объект.Авансы.НаправлениеДеятельности</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="АвансыНаправлениеДеятельностиКонтекстноеМеню" id="313"/>
 											<ExtendedTooltip name="АвансыНаправлениеДеятельностиРасширеннаяПодсказка" id="314"/>
 										</InputField>
@@ -940,6 +951,7 @@
 								<InputField name="АвансыСумма" id="38">
 									<DataPath>Объект.Авансы.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="АвансыСуммаКонтекстноеМеню" id="39"/>
 									<ExtendedTooltip name="АвансыСуммаРасширеннаяПодсказка" id="120"/>
@@ -950,6 +962,7 @@
 								<InputField name="АвансыСтавкаНДС" id="40">
 									<DataPath>Объект.Авансы.СтавкаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<OpenButton>false</OpenButton>
 									<ContextMenu name="АвансыСтавкаНДСКонтекстноеМеню" id="41"/>
@@ -967,6 +980,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="АвансыСуммаНДСКонтекстноеМеню" id="43"/>
 									<ExtendedTooltip name="АвансыСуммаНДСРасширеннаяПодсказка" id="122"/>

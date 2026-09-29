@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -90,7 +90,6 @@
 				<CheckBoxField name="СообщениеПриИспользовании" id="130">
 					<DataPath>Объект.СообщениеПриИспользовании</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СообщениеПриИспользованииКонтекстноеМеню" id="131"/>
 					<ExtendedTooltip name="СообщениеПриИспользованииРасширеннаяПодсказка" id="132"/>
 				</CheckBoxField>
@@ -177,6 +176,7 @@
 		<InputField name="Наименование" id="1">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
@@ -193,6 +193,7 @@
 			<DataPath>Объект.ИдентификаторОбъекта</DataPath>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="ИдентификаторОбъектаКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ИдентификаторОбъектаРасширеннаяПодсказка" id="9">
@@ -220,7 +221,6 @@
 				<CheckBoxField name="БезопасноеПодключение" id="125">
 					<DataPath>Объект.БезопасноеПодключение</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="БезопасноеПодключениеКонтекстноеМеню" id="126"/>
 					<ExtendedTooltip name="БезопасноеПодключениеРасширеннаяПодсказка" id="127"/>
 				</CheckBoxField>
@@ -250,7 +250,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЛокальныйКонтекстноеМеню" id="79"/>
 					<ExtendedTooltip name="ЛокальныйРасширеннаяПодсказка" id="80"/>
 				</CheckBoxField>
@@ -264,7 +263,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СетевойРежимКонтекстноеМеню" id="82"/>
 					<ExtendedTooltip name="СетевойРежимРасширеннаяПодсказка" id="83"/>
 				</CheckBoxField>
@@ -278,7 +276,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СерверныйРежимКонтекстноеМеню" id="85"/>
 					<ExtendedTooltip name="СерверныйРежимРасширеннаяПодсказка" id="86"/>
 				</CheckBoxField>

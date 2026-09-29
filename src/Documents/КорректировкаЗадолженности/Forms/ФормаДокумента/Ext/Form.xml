@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -241,6 +241,7 @@
 								<InputField name="Номер" id="1">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Wrap>false</Wrap>
@@ -256,6 +257,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Wrap>false</Wrap>
@@ -267,6 +269,7 @@
 						<InputField name="Организация" id="5">
 							<DataPath>Объект.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>28</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Wrap>false</Wrap>
@@ -776,6 +779,7 @@
 												<InputField name="ЗадолженностьНомерСтроки" id="24">
 													<DataPath>Объект.Задолженность.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>1</Width>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ЗадолженностьНомерСтрокиКонтекстноеМеню" id="25"/>
@@ -784,6 +788,7 @@
 												<InputField name="ЗадолженностьТипРасчетов" id="26">
 													<DataPath>Объект.Задолженность.ТипРасчетов</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<Wrap>false</Wrap>
 													<ListChoiceMode>true</ListChoiceMode>
@@ -814,6 +819,7 @@
 												<InputField name="ЗадолженностьПартнер" id="63">
 													<DataPath>Объект.Задолженность.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<ContextMenu name="ЗадолженностьПартнерКонтекстноеМеню" id="64"/>
 													<ExtendedTooltip name="ЗадолженностьПартнерРасширеннаяПодсказка" id="92"/>
@@ -821,6 +827,7 @@
 												<InputField name="ЗадолженностьОбъектРасчетов" id="30">
 													<DataPath>Объект.Задолженность.ОбъектРасчетов</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>30</Width>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
@@ -839,6 +846,7 @@
 												<InputField name="ЗадолженностьСумма" id="34">
 													<DataPath>Объект.Задолженность.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ЗадолженностьСуммаКонтекстноеМеню" id="35"/>
@@ -848,6 +856,7 @@
 													<DataPath>Объект.Задолженность.ВалютаВзаиморасчетов</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>5</Width>
 													<Wrap>false</Wrap>
 													<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -960,6 +969,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1054,6 +1064,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1201,12 +1212,14 @@
 												<LabelField name="РасходыАктивыПассивыНомерСтроки" id="282">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасходыАктивыПассивыНомерСтрокиКонтекстноеМеню" id="283"/>
 													<ExtendedTooltip name="РасходыАктивыПассивыНомерСтрокиРасширеннаяПодсказка" id="284"/>
 												</LabelField>
 												<InputField name="РасходыАктивыПассивыСтатья" id="285">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Статья</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 													<ContextMenu name="РасходыАктивыПассивыСтатьяКонтекстноеМеню" id="286"/>
@@ -1230,6 +1243,7 @@
 															<DataPath>Объект.ДоходыРасходыАктивыПассивы.АналитикаРасходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РасходыАктивыПассивыАналитикаРасходовКонтекстноеМеню" id="292"/>
 															<ExtendedTooltip name="РасходыАктивыПассивыАналитикаРасходовРасширеннаяПодсказка" id="293"/>
 															<Events>
@@ -1243,6 +1257,7 @@
 															<Visible>false</Visible>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РасходыАктивыПассивыАналитикаАктивовПассивовКонтекстноеМеню" id="295"/>
 															<ExtendedTooltip name="РасходыАктивыПассивыАналитикаАктивовПассивовРасширеннаяПодсказка" id="296"/>
 														</InputField>
@@ -1253,12 +1268,16 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="РасходыАктивыПассивыПредставлениеОтраженияВРеглУчетеКонтекстноеМеню" id="374"/>
 													<ExtendedTooltip name="РасходыАктивыПассивыПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="375"/>
 												</InputField>
 												<InputField name="РасходыАктивыПассивыСумма" id="395">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасходыАктивыПассивыСуммаКонтекстноеМеню" id="396"/>
 													<ExtendedTooltip name="РасходыАктивыПассивыСуммаРасширеннаяПодсказка" id="397"/>
 												</InputField>
@@ -1266,12 +1285,14 @@
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Валюта</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасходыАктивыПассивыВалютаКонтекстноеМеню" id="399"/>
 													<ExtendedTooltip name="РасходыАктивыПассивыВалютаРасширеннаяПодсказка" id="400"/>
 												</InputField>
 												<InputField name="РасходыАктивыПассивыПодразделение" id="297">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Подразделение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасходыАктивыПассивыПодразделениеКонтекстноеМеню" id="298"/>
 													<ExtendedTooltip name="РасходыАктивыПассивыПодразделениеРасширеннаяПодсказка" id="299"/>
 												</InputField>
@@ -1385,6 +1406,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Wrap>false</Wrap>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -1479,6 +1501,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Wrap>false</Wrap>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -1619,12 +1642,14 @@
 												<LabelField name="ДоходыАктивыПассивыНомерСтроки" id="348">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоходыАктивыПассивыНомерСтрокиКонтекстноеМеню" id="349"/>
 													<ExtendedTooltip name="ДоходыАктивыПассивыНомерСтрокиРасширеннаяПодсказка" id="350"/>
 												</LabelField>
 												<InputField name="ДоходыАктивыПассивыСтатья" id="351">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Статья</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 													<ContextMenu name="ДоходыАктивыПассивыСтатьяКонтекстноеМеню" id="352"/>
@@ -1648,6 +1673,7 @@
 															<DataPath>Объект.ДоходыРасходыАктивыПассивы.АналитикаДоходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДоходыАктивыПассивыАналитикаДоходовКонтекстноеМеню" id="355"/>
 															<ExtendedTooltip name="ДоходыАктивыПассивыАналитикаДоходовРасширеннаяПодсказка" id="356"/>
 														</InputField>
@@ -1655,6 +1681,7 @@
 															<DataPath>Объект.ДоходыРасходыАктивыПассивы.АналитикаАктивовПассивов</DataPath>
 															<Visible>false</Visible>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДоходыАктивыПассивыАналитикаАктивовПассивовКонтекстноеМеню" id="361"/>
 															<ExtendedTooltip name="ДоходыАктивыПассивыАналитикаАктивовПассивовРасширеннаяПодсказка" id="362"/>
 														</InputField>
@@ -1665,12 +1692,16 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="ДоходыАктивыПассивыПредставлениеОтраженияВРеглУчетеКонтекстноеМеню" id="377"/>
 													<ExtendedTooltip name="ДоходыАктивыПассивыПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="378"/>
 												</InputField>
 												<InputField name="ДоходыАктивыПассивыСумма" id="404">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоходыАктивыПассивыСуммаКонтекстноеМеню" id="405"/>
 													<ExtendedTooltip name="ДоходыАктивыПассивыСуммаРасширеннаяПодсказка" id="406"/>
 												</InputField>
@@ -1678,12 +1709,14 @@
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Валюта</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоходыАктивыПассивыВалютаКонтекстноеМеню" id="402"/>
 													<ExtendedTooltip name="ДоходыАктивыПассивыВалютаРасширеннаяПодсказка" id="403"/>
 												</InputField>
 												<InputField name="ДоходыАктивыПассивыПодразделение" id="363">
 													<DataPath>Объект.ДоходыРасходыАктивыПассивы.Подразделение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоходыАктивыПассивыПодразделениеКонтекстноеМеню" id="364"/>
 													<ExtendedTooltip name="ДоходыАктивыПассивыПодразделениеРасширеннаяПодсказка" id="365"/>
 												</InputField>

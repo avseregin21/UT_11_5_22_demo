@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Width>100</Width>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
 		<ExcludedCommand>CustomizeForm</ExcludedCommand>
@@ -110,6 +110,7 @@
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДеревоЗависимостейКартинкаКонтекстноеМеню" id="24"/>
 							<ExtendedTooltip name="ДеревоЗависимостейКартинкаРасширеннаяПодсказка" id="25"/>
 						</PictureField>
@@ -122,6 +123,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>45</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ДеревоЗависимостейИмяОбработчикаКонтекстноеМеню" id="15"/>
@@ -144,6 +146,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>5</Width>
 					<ContextMenu name="ДеревоЗависимостейВсегоОбъектовКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ДеревоЗависимостейВсегоОбъектовРасширеннаяПодсказка" id="22"/>
@@ -163,6 +166,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>5</Width>
 					<ContextMenu name="ДеревоЗависимостейОсталосьОбработатьКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ДеревоЗависимостейОсталосьОбработатьРасширеннаяПодсказка" id="31"/>
@@ -182,6 +186,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>5</Width>
 					<ContextMenu name="ДеревоЗависимостейОбщийПрогрессКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ДеревоЗависимостейОбщийПрогрессРасширеннаяПодсказка" id="34"/>
@@ -201,6 +206,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>5</Width>
 					<ContextMenu name="ДеревоЗависимостейОбработаноЗаИнтервалКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ДеревоЗависимостейОбработаноЗаИнтервалРасширеннаяПодсказка" id="28"/>

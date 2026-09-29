@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -18,7 +18,7 @@
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="404"/>
 		</UsualGroup>
 		<Table name="Список" id="1">
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
@@ -110,7 +110,6 @@
 							<ChildItems>
 								<CheckBoxField name="Активность" id="4">
 									<DataPath>Список.Активность</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АктивностьКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="АктивностьРасширеннаяПодсказка" id="118"/>
 								</CheckBoxField>
@@ -176,13 +175,11 @@
 					<ChildItems>
 						<CheckBoxField name="Сторно" id="407">
 							<DataPath>Список.Сторно</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СторноКонтекстноеМеню" id="408"/>
 							<ExtendedTooltip name="СторноРасширеннаяПодсказка" id="409"/>
 						</CheckBoxField>
 						<CheckBoxField name="РасчетСебестоимости" id="301">
 							<DataPath>Список.РасчетСебестоимости</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РасчетСебестоимостиКонтекстноеМеню" id="302"/>
 							<ExtendedTooltip name="РасчетСебестоимостиРасширеннаяПодсказка" id="303"/>
 						</CheckBoxField>
@@ -199,7 +196,6 @@
 					<ChildItems>
 						<CheckBoxField name="РасчетНеЗавершен" id="400">
 							<DataPath>Список.РасчетНеЗавершен</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РасчетНеЗавершенКонтекстноеМеню" id="401"/>
 							<ExtendedTooltip name="РасчетНеЗавершенРасширеннаяПодсказка" id="402"/>
 						</CheckBoxField>
@@ -216,7 +212,6 @@
 					<ChildItems>
 						<CheckBoxField name="РасчетПартий" id="341">
 							<DataPath>Список.РасчетПартий</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РасчетПартийКонтекстноеМеню" id="342"/>
 							<ExtendedTooltip name="РасчетПартийРасширеннаяПодсказка" id="343"/>
 						</CheckBoxField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -20,7 +20,7 @@
 			<ExtendedTooltip name="ДекорацияПредупреждениеРасширеннаяПодсказка" id="55"/>
 		</LabelDecoration>
 		<Table name="Список" id="1">
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -160,7 +160,6 @@
 							<v8:content>Использовать в бюджетировании</v8:content>
 						</v8:item>
 					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокИспользоватьВБюджетированииКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="СписокИспользоватьВБюджетированииРасширеннаяПодсказка" id="37"/>
 				</CheckBoxField>
@@ -178,7 +177,6 @@
 							<v8:content>Использовать в международном учете</v8:content>
 						</v8:item>
 					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокИспользоватьВМеждународномУчетеКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="СписокИспользоватьВМеждународномУчетеРасширеннаяПодсказка" id="40"/>
 				</CheckBoxField>
@@ -196,7 +194,6 @@
 							<v8:content>Использовать для выбора</v8:content>
 						</v8:item>
 					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокИспользоватьДляВыбораКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="СписокИспользоватьДляВыбораРасширеннаяПодсказка" id="43"/>
 				</CheckBoxField>
@@ -214,7 +211,6 @@
 							<v8:content>Использовать в реестре документов</v8:content>
 						</v8:item>
 					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокИспользоватьВРеестреДокументовКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="СписокИспользоватьВРеестреДокументовРасширеннаяПодсказка" id="46"/>
 				</CheckBoxField>
@@ -232,7 +228,6 @@
 							<v8:content>Использовать для ограничений доступа</v8:content>
 						</v8:item>
 					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокИспользоватьДляОграниченийДоступаКонтекстноеМеню" id="57"/>
 					<ExtendedTooltip name="СписокИспользоватьДляОграниченийДоступаРасширеннаяПодсказка" id="58"/>
 				</CheckBoxField>

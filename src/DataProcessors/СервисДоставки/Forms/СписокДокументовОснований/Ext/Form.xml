@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,6 +8,7 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 	</AutoCommandBar>
@@ -97,6 +98,7 @@
 					<DataPath>Список.Ссылка</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокДокументСсылкаКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="СписокДокументСсылкаРасширеннаяПодсказка" id="28"/>
 				</InputField>
@@ -104,6 +106,7 @@
 					<DataPath>Список.СуммаДокумента</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокСуммаКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="СписокСуммаРасширеннаяПодсказка" id="31"/>
 				</InputField>
@@ -128,6 +131,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ValuesPicture>
 								<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -138,6 +142,7 @@
 						<InputField name="СписокДатаОтгрузки" id="55">
 							<DataPath>Список.ДатаОтгрузки</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СписокДатаОтгрузкиКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="СписокДатаОтгрузкиРасширеннаяПодсказка" id="57"/>
 						</InputField>
@@ -173,6 +178,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -183,6 +189,7 @@
 								<InputField name="СписокОтправитель" id="39">
 									<DataPath>Список.Отправитель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокОтправительКонтекстноеМеню" id="40"/>
 									<ExtendedTooltip name="СписокОтправительРасширеннаяПодсказка" id="41"/>
 								</InputField>
@@ -209,6 +216,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -219,6 +227,7 @@
 								<InputField name="СписокПолучатель" id="42">
 									<DataPath>Список.Получатель</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокПолучательКонтекстноеМеню" id="43"/>
 									<ExtendedTooltip name="СписокПолучательРасширеннаяПодсказка" id="44"/>
 								</InputField>
@@ -256,6 +265,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -266,6 +276,7 @@
 								<InputField name="СписокСпособОтгрузки" id="60">
 									<DataPath>Список.СпособОтгрузкиПредставление</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокСпособОтгрузкиКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="СписокСпособОтгрузкиРасширеннаяПодсказка" id="62"/>
 								</InputField>
@@ -292,6 +303,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -302,6 +314,7 @@
 								<InputField name="СписокСпособДоставки" id="63">
 									<DataPath>Список.СпособДоставкиПредставление</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокСпособДоставкиКонтекстноеМеню" id="64"/>
 									<ExtendedTooltip name="СписокСпособДоставкиРасширеннаяПодсказка" id="65"/>
 								</InputField>
@@ -339,6 +352,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -349,6 +363,7 @@
 								<InputField name="СписокОтправительАдрес" id="45">
 									<DataPath>Список.ОтправительАдрес</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокОтправительАдресКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="СписокОтправительАдресРасширеннаяПодсказка" id="47"/>
 								</InputField>
@@ -375,6 +390,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -385,6 +401,7 @@
 								<InputField name="СписокПолучательАдрес" id="48">
 									<DataPath>Список.ПолучательАдрес</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокПолучательАдресКонтекстноеМеню" id="49"/>
 									<ExtendedTooltip name="СписокПолучательАдресРасширеннаяПодсказка" id="50"/>
 								</InputField>
@@ -396,6 +413,7 @@
 					<DataPath>Список.Валюта</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокВалютаКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="СписокВалютаРасширеннаяПодсказка" id="34"/>
 				</InputField>

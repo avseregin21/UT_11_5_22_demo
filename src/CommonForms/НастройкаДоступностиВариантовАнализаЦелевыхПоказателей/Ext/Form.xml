@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -85,9 +85,9 @@
 									<ChangeRowSet>false</ChangeRowSet>
 									<ChangeRowOrder>false</ChangeRowOrder>
 									<SelectionMode>SingleRow</SelectionMode>
-									<HorizontalLines>false</HorizontalLines>
-									<VerticalLines>false</VerticalLines>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<HorizontalLinesBWA>false</HorizontalLinesBWA>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
@@ -172,6 +172,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиДоступностиПодразделениеКонтекстноеМеню" id="9"/>
 															<ExtendedTooltip name="НастройкиДоступностиПодразделениеРасширеннаяПодсказка" id="89"/>
 														</InputField>
@@ -200,6 +201,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Items.ДеревоПользователей.CurrentData.НестандартнаяКартинка</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<ValuesPicture>
 																<xr:Ref>CommonPicture.КоллекцияПиктограммСтруктураПредприятияПользователи</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -218,6 +220,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиДоступностиПользовательКонтекстноеМеню" id="15"/>
 															<ExtendedTooltip name="НастройкиДоступностиПользовательРасширеннаяПодсказка" id="92"/>
 														</InputField>
@@ -388,6 +391,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ThreeState>true</ThreeState>
 																	<ContextMenu name="ДеревоВариантовАнализаДоступностьПоЦелиКонтекстноеМеню" id="44"/>
 																	<ExtendedTooltip name="ДеревоВариантовАнализаДоступностьПоЦелиРасширеннаяПодсказка" id="103"/>
@@ -405,6 +409,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ДеревоВариантовАнализаЦельКонтекстноеМеню" id="40"/>
 																	<ExtendedTooltip name="ДеревоВариантовАнализаЦельРасширеннаяПодсказка" id="104"/>
 																</InputField>
@@ -430,6 +435,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ThreeState>true</ThreeState>
 																	<ContextMenu name="ДеревоВариантовАнализаДоступностьКонтекстноеМеню" id="46"/>
 																	<ExtendedTooltip name="ДеревоВариантовАнализаДоступностьРасширеннаяПодсказка" id="106"/>
@@ -447,6 +453,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ДеревоВариантовАнализаВариантАнализаКонтекстноеМеню" id="42"/>
 																	<ExtendedTooltip name="ДеревоВариантовАнализаВариантАнализаРасширеннаяПодсказка" id="107"/>
 																</InputField>
@@ -461,6 +468,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ДеревоВариантовАнализаТипАнализаКонтекстноеМеню" id="55"/>
 																	<ExtendedTooltip name="ДеревоВариантовАнализаТипАнализаРасширеннаяПодсказка" id="108"/>
 																</InputField>

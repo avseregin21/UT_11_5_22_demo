@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 	</CommandSet>
@@ -255,6 +255,7 @@
 												<InputField name="Номер" id="1">
 													<DataPath>Объект.Number</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -269,6 +270,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>15</Width>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 													<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
@@ -459,6 +461,7 @@
 														<InputField name="ПодтверждающиеДокументыБезРазбиенияПодтверждающийДокумент" id="78">
 															<DataPath>Items.ПодтверждающиеДокументы.CurrentData.ПодтверждающийДокумент</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>40</Width>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -478,6 +481,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>12</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияНомерДокументаКонтекстноеМеню" id="117"/>
@@ -492,6 +496,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияДатаДокументаКонтекстноеМеню" id="120"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыБезРазбиенияДатаДокументаРасширеннаяПодсказка" id="121"/>
@@ -533,6 +538,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияСуммаКонтекстноеМеню" id="125"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыБезРазбиенияСуммаРасширеннаяПодсказка" id="126"/>
 														</InputField>
@@ -545,6 +551,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<OpenButton>false</OpenButton>
@@ -569,6 +576,7 @@
 														<InputField name="ПодтверждающиеДокументыБезРазбиенияСуммаВВалютеДоговора" id="132">
 															<DataPath>Items.ПодтверждающиеДокументы.CurrentData.СуммаВВалютеДоговора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияСуммаВВалютеДоговораКонтекстноеМеню" id="133"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыБезРазбиенияСуммаВВалютеДоговораРасширеннаяПодсказка" id="134"/>
 														</InputField>
@@ -581,6 +589,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<OpenButton>false</OpenButton>
@@ -592,6 +601,7 @@
 												<InputField name="ПодтверждающиеДокументыБезРазбиенияПризнакПоставки" id="138">
 													<DataPath>Items.ПодтверждающиеДокументы.CurrentData.ПризнакПоставки</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>50</Width>
 													<DropListButton>true</DropListButton>
 													<ListChoiceMode>true</ListChoiceMode>
@@ -655,6 +665,7 @@
 												<InputField name="ПодтверждающиеДокументыБезРазбиенияОжидаемыйСрок" id="141">
 													<DataPath>Items.ПодтверждающиеДокументы.CurrentData.ОжидаемыйСрок</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияОжидаемыйСрокКонтекстноеМеню" id="142"/>
 													<ExtendedTooltip name="ПодтверждающиеДокументыБезРазбиенияОжидаемыйСрокРасширеннаяПодсказка" id="143"/>
 												</InputField>
@@ -668,6 +679,7 @@
 													</Title>
 													<TitleHeight>2</TitleHeight>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияСтранаКонтекстноеМеню" id="145"/>
 													<ExtendedTooltip name="ПодтверждающиеДокументыБезРазбиенияСтранаРасширеннаяПодсказка" id="146"/>
@@ -698,7 +710,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПодтверждающиеДокументыБезРазбиенияПризнакКорректировкиКонтекстноеМеню" id="220"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыБезРазбиенияПризнакКорректировкиРасширеннаяПодсказка" id="221"/>
 															<Events>
@@ -735,6 +746,7 @@
 													</Title>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>74</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<Height>2</Height>
@@ -800,12 +812,14 @@
 														<LabelField name="ПодтверждающиеДокументыНомерСтроки" id="75">
 															<DataPath>Объект.ПодтверждающиеДокументы.LineNumber</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыНомерСтрокиКонтекстноеМеню" id="76"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыНомерСтрокиРасширеннаяПодсказка" id="77"/>
 														</LabelField>
 														<InputField name="ПодтверждающиеДокументыПодтверждающийДокумент" id="213">
 															<DataPath>Объект.ПодтверждающиеДокументы.ПодтверждающийДокумент</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<CreateButton>false</CreateButton>
 															<ContextMenu name="ПодтверждающиеДокументыПодтверждающийДокументКонтекстноеМеню" id="214"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыПодтверждающийДокументРасширеннаяПодсказка" id="215"/>
@@ -813,48 +827,56 @@
 														<InputField name="ПодтверждающиеДокументыНомерДокумента" id="81">
 															<DataPath>Объект.ПодтверждающиеДокументы.НомерДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыНомерДокументаКонтекстноеМеню" id="82"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыНомерДокументаРасширеннаяПодсказка" id="83"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыДатаДокумента" id="84">
 															<DataPath>Объект.ПодтверждающиеДокументы.ДатаДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыДатаДокументаКонтекстноеМеню" id="85"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыДатаДокументаРасширеннаяПодсказка" id="86"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыКодВидаДокумента" id="87">
 															<DataPath>Объект.ПодтверждающиеДокументы.КодВидаДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыКодВидаДокументаКонтекстноеМеню" id="88"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыКодВидаДокументаРасширеннаяПодсказка" id="89"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыСумма" id="90">
 															<DataPath>Объект.ПодтверждающиеДокументы.СуммаДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыСуммаКонтекстноеМеню" id="91"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыСуммаРасширеннаяПодсказка" id="92"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыВалюта" id="93">
 															<DataPath>Объект.ПодтверждающиеДокументы.ВалютаДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыВалютаКонтекстноеМеню" id="94"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыВалютаРасширеннаяПодсказка" id="95"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыСуммаВВалютеДоговора" id="96">
 															<DataPath>Объект.ПодтверждающиеДокументы.СуммаВВалютеДоговора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыСуммаВВалютеДоговораКонтекстноеМеню" id="97"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыСуммаВВалютеДоговораРасширеннаяПодсказка" id="98"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыВалютаДоговора" id="99">
 															<DataPath>Объект.ПодтверждающиеДокументы.ВалютаДоговора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыВалютаДоговораКонтекстноеМеню" id="100"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыВалютаДоговораРасширеннаяПодсказка" id="101"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыПризнакПоставки" id="102">
 															<DataPath>Объект.ПодтверждающиеДокументы.ПризнакПоставки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ListChoiceMode>true</ListChoiceMode>
 															<ChoiceList>
 																<xr:Item>
@@ -916,12 +938,14 @@
 														<InputField name="ПодтверждающиеДокументыОжидаемыйСрок" id="105">
 															<DataPath>Объект.ПодтверждающиеДокументы.ОжидаемыйСрок</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыОжидаемыйСрокКонтекстноеМеню" id="106"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыОжидаемыйСрокРасширеннаяПодсказка" id="107"/>
 														</InputField>
 														<InputField name="ПодтверждающиеДокументыСтрана" id="108">
 															<DataPath>Объект.ПодтверждающиеДокументы.Страна</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыСтранаКонтекстноеМеню" id="109"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыСтранаРасширеннаяПодсказка" id="110"/>
 														</InputField>
@@ -934,7 +958,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыПризнакКорректировкиКонтекстноеМеню" id="228"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыПризнакКорректировкиРасширеннаяПодсказка" id="229"/>
 															<Events>
@@ -955,6 +979,7 @@
 														<InputField name="ПодтверждающиеДокументыКомментарий" id="111">
 															<DataPath>Объект.ПодтверждающиеДокументы.Комментарий</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПодтверждающиеДокументыКомментарийКонтекстноеМеню" id="112"/>
 															<ExtendedTooltip name="ПодтверждающиеДокументыКомментарийРасширеннаяПодсказка" id="113"/>
 														</InputField>

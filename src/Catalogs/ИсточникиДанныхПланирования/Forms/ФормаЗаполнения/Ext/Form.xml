@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗаполнитьДокументСохранить" id="23">
@@ -107,7 +107,7 @@
 				<Table name="ПравилоЗаполнения" id="41">
 					<Representation>Tree</Representation>
 					<SkipOnInput>false</SkipOnInput>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<InitialTreeView>ExpandAllLevels</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -356,7 +356,7 @@
 							<DataPath>ПравилоЗаполнения.Использование</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПравилоЗаполненияИспользованиеКонтекстноеМеню" id="90"/>
 							<ExtendedTooltip name="ПравилоЗаполненияИспользованиеРасширеннаяПодсказка" id="179"/>
 						</CheckBoxField>
@@ -374,6 +374,7 @@
 									<DataPath>ПравилоЗаполнения.Исключать</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.ПлюсМинус</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -392,6 +393,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Abs>ValuesPicture.bmp</xr:Abs>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -426,6 +428,7 @@
 											<DataPath>ПравилоЗаполнения.ТипЭлемента</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.ЭлементПапка</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -437,6 +440,7 @@
 										<InputField name="ПравилоЗаполненияВариантПреобразования" id="95">
 											<DataPath>ПравилоЗаполнения.ВариантПреобразования</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПравилоЗаполненияВариантПреобразованияКонтекстноеМеню" id="96"/>
 											<ExtendedTooltip name="ПравилоЗаполненияВариантПреобразованияРасширеннаяПодсказка" id="186"/>
 											<Events>
@@ -459,6 +463,7 @@
 											<DataPath>ПравилоЗаполнения.ТипЭлемента</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.ЭлементПапка</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -470,6 +475,7 @@
 										<InputField name="ПравилоЗаполненияИсточник" id="99">
 											<DataPath>ПравилоЗаполнения.Источник</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ChoiceForm>Catalog.ИсточникиДанныхПланирования.Form.ФормаВыбораДополнительная</ChoiceForm>
@@ -486,6 +492,7 @@
 						<LabelField name="ПравилоЗаполненияИсточники" id="101">
 							<DataPath>ПравилоЗаполнения.Источники</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПравилоЗаполненияИсточникиКонтекстноеМеню" id="102"/>
 							<ExtendedTooltip name="ПравилоЗаполненияИсточникиРасширеннаяПодсказка" id="190"/>
 						</LabelField>
@@ -502,12 +509,14 @@
 								<InputField name="ПравилоЗаполненияПериод" id="103">
 									<DataPath>ПравилоЗаполнения.Период</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПравилоЗаполненияПериодКонтекстноеМеню" id="104"/>
 									<ExtendedTooltip name="ПравилоЗаполненияПериодРасширеннаяПодсказка" id="192"/>
 								</InputField>
 								<InputField name="ПравилоЗаполненияДата" id="105">
 									<DataPath>ПравилоЗаполнения.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПравилоЗаполненияДатаКонтекстноеМеню" id="106"/>
 									<ExtendedTooltip name="ПравилоЗаполненияДатаРасширеннаяПодсказка" id="193"/>
 								</InputField>
@@ -532,6 +541,7 @@
 								<xr:Ref>CommonPicture.ИзменитьНаПроцент</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</HeaderPicture>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>5</Width>
 							<ChoiceButton>false</ChoiceButton>
 							<ClearButton>false</ClearButton>
@@ -556,6 +566,7 @@
 								<xr:Ref>StdPicture.ReportSettings</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</HeaderPicture>
+							<AutoEditMode>true</AutoEditMode>
 							<ValuesPicture>
 								<xr:Ref>StdPicture.ReportSettings</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -567,6 +578,7 @@
 						<InputField name="ПравилоЗаполненияПоляЗаполнения" id="118">
 							<DataPath>ПравилоЗаполнения.ПоляЗаполнения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<TextEdit>false</TextEdit>
 							<ContextMenu name="ПравилоЗаполненияПоляЗаполненияКонтекстноеМеню" id="119"/>
@@ -710,6 +722,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>17</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ПравилоЗаполненияКоличествоПериодКонтекстноеМеню" id="132"/>
@@ -727,6 +740,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>17</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ПравилоЗаполненияКоличествоДатаКонтекстноеМеню" id="134"/>
@@ -743,6 +757,7 @@
 											<Autofill>true</Autofill>
 											<DataPath>КомпоновщикНастроекИсточникаКоличества.UserSettings</DataPath>
 											<ViewMode>All</ViewMode>
+											<ComplexSettingsViewMode>Show</ComplexSettingsViewMode>
 											<ContextMenu name="КомпоновщикНастроекИсточникаКоличестваПользовательскиеНастройкиКонтекстноеМеню" id="329"/>
 											<AutoCommandBar name="КомпоновщикНастроекИсточникаКоличестваПользовательскиеНастройкиКоманднаяПанель" id="328"/>
 											<ExtendedTooltip name="КомпоновщикНастроекИсточникаКоличестваПользовательскиеНастройкиРасширеннаяПодсказка" id="330"/>
@@ -813,7 +828,6 @@
 																	<v8:content>Результат данных из источника будет изменен на отношение сезонного коэффициента планируемого периода к сезонному коэффициенту выбранному в источнике.</v8:content>
 																</v8:item>
 															</ToolTip>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИзменитьСезонныйКоэффициентКоличествоКонтекстноеМеню" id="361"/>
 															<ExtendedTooltip name="ИзменитьСезонныйКоэффициентКоличествоРасширеннаяПодсказка" id="362"/>
 															<Events>
@@ -918,6 +932,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>17</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ПравилоЗаполненияЦенаПериодКонтекстноеМеню" id="137"/>
@@ -935,6 +950,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>17</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ПравилоЗаполненияЦенаДатаКонтекстноеМеню" id="139"/>
@@ -951,6 +967,7 @@
 											<Autofill>true</Autofill>
 											<DataPath>КомпоновщикНастроекИсточникаЦены.UserSettings</DataPath>
 											<ViewMode>All</ViewMode>
+											<ComplexSettingsViewMode>Show</ComplexSettingsViewMode>
 											<ContextMenu name="КомпоновщикНастроекИсточникаЦеныПользовательскиеНастройкиКонтекстноеМеню" id="342"/>
 											<AutoCommandBar name="КомпоновщикНастроекИсточникаЦеныПользовательскиеНастройкиКоманднаяПанель" id="341"/>
 											<ExtendedTooltip name="КомпоновщикНастроекИсточникаЦеныПользовательскиеНастройкиРасширеннаяПодсказка" id="343"/>
@@ -1021,7 +1038,6 @@
 																	<v8:content>Результат данных из источника будет изменен на отношение сезонного коэффициента планируемого периода к сезонному коэффициенту выбранному в источнике.</v8:content>
 																</v8:item>
 															</ToolTip>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИзменитьСезонныйКоэффициентЦенаКонтекстноеМеню" id="382"/>
 															<ExtendedTooltip name="ИзменитьСезонныйКоэффициентЦенаРасширеннаяПодсказка" id="383"/>
 															<Events>
@@ -1208,6 +1224,7 @@
 						<ExcludedCommand>Tree</ExcludedCommand>
 					</CommandSet>
 					<ViewMode>All</ViewMode>
+					<ComplexSettingsViewMode>Show</ComplexSettingsViewMode>
 					<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиКонтекстноеМеню" id="110"/>
 					<AutoCommandBar name="КомпоновщикНастроекПользовательскиеНастройкиКоманднаяПанель" id="111"/>
 					<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="216"/>
@@ -1244,7 +1261,6 @@
 		</UsualGroup>
 		<CheckBoxField name="РаспределитьПоРабочимДням" id="17">
 			<DataPath>РаспределитьПоРабочимДням</DataPath>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="РаспределитьПоРабочимДнямКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="РаспределитьПоРабочимДнямРасширеннаяПодсказка" id="217"/>
 		</CheckBoxField>

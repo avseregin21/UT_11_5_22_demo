@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -39,6 +39,7 @@
 		<InputField name="Наименование" id="3">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="74"/>
 		</InputField>
@@ -105,6 +106,7 @@
 						<InputField name="БыстрыеТоварыНоменклатура" id="29">
 							<DataPath>БыстрыеТовары.Номенклатура</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="БыстрыеТоварыНоменклатураКонтекстноеМеню" id="30"/>
 							<ExtendedTooltip name="БыстрыеТоварыНоменклатураРасширеннаяПодсказка" id="77"/>
@@ -115,6 +117,7 @@
 						<InputField name="БыстрыеТоварыХарактеристика" id="31">
 							<DataPath>БыстрыеТовары.Характеристика</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ChoiceParameterLinks>
 								<xr:Link>
@@ -143,6 +146,7 @@
 									<DataPath>БыстрыеТовары.Упаковка</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceParameterLinks>
 										<xr:Link>
 											<xr:Name>Номенклатура</xr:Name>
@@ -165,6 +169,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="БыстрыеТоварыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="72"/>
@@ -175,6 +180,7 @@
 						<InputField name="БыстрыеТоварыНаименование" id="35">
 							<DataPath>БыстрыеТовары.Заголовок</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="БыстрыеТоварыНаименованиеКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="БыстрыеТоварыНаименованиеРасширеннаяПодсказка" id="82"/>
 						</InputField>
@@ -182,6 +188,7 @@
 							<DataPath>БыстрыеТовары.СочетаниеКлавиш</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="БыстрыеТоварыСочетаниеКлавишКонтекстноеМеню" id="46"/>
 							<ExtendedTooltip name="БыстрыеТоварыСочетаниеКлавишРасширеннаяПодсказка" id="83"/>
 						</InputField>
@@ -276,19 +283,21 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КомандыФормыЗаголовокКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="КомандыФормыЗаголовокРасширеннаяПодсказка" id="89"/>
 						</InputField>
 						<InputField name="КомандыФормыСочетаниеКлавиш" id="60">
 							<DataPath>КомандыФормы.СочетаниеКлавиш</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КомандыФормыСочетаниеКлавишКонтекстноеМеню" id="61"/>
 							<ExtendedTooltip name="КомандыФормыСочетаниеКлавишРасширеннаяПодсказка" id="90"/>
 						</InputField>
 						<CheckBoxField name="КомандыФормыСкрывать" id="67">
 							<DataPath>КомандыФормы.Скрывать</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КомандыФормыСкрыватьКонтекстноеМеню" id="68"/>
 							<ExtendedTooltip name="КомандыФормыСкрыватьРасширеннаяПодсказка" id="91"/>
 						</CheckBoxField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -264,6 +264,7 @@
 													<DataPath>Объект.Number</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>9</MaxWidth>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -279,6 +280,7 @@
 													</Title>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
@@ -293,6 +295,7 @@
 											<DataPath>Объект.Организация</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>27</MaxWidth>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
@@ -305,6 +308,7 @@
 											<DataPath>Объект.Подразделение</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>27</MaxWidth>
 											<ContextMenu name="ПодразделениеКонтекстноеМеню" id="8"/>
@@ -334,6 +338,7 @@
 													<DataPath>Объект.СтатьяРасходов</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>27</MaxWidth>
 													<DropListButton>false</DropListButton>
@@ -350,6 +355,7 @@
 													<DataPath>Объект.АналитикаРасходов</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>27</MaxWidth>
 													<DropListButton>false</DropListButton>
@@ -444,6 +450,7 @@
 														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>27</MaxWidth>
 													<DropListButton>false</DropListButton>
@@ -571,6 +578,7 @@
 											<DataPath>Объект.Ответственный</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>27</MaxWidth>
 											<ContextMenu name="ОтветственныйКонтекстноеМеню" id="20"/>
@@ -622,7 +630,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УправленческийУчетКонтекстноеМеню" id="432"/>
 													<ExtendedTooltip name="УправленческийУчетРасширеннаяПодсказка" id="433"/>
 													<Events>
@@ -638,7 +645,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РегламентированныйУчетКонтекстноеМеню" id="435"/>
 													<ExtendedTooltip name="РегламентированныйУчетРасширеннаяПодсказка" id="436"/>
 													<Events>
@@ -654,7 +660,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЛокализацияНалоговыйУчетКонтекстноеМеню" id="438"/>
 													<ExtendedTooltip name="ЛокализацияНалоговыйУчетРасширеннаяПодсказка" id="439"/>
 													<Events>
@@ -664,7 +669,6 @@
 												<CheckBoxField name="НДД" id="445">
 													<DataPath>Объект.НДД</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="НДДКонтекстноеМеню" id="446"/>
 													<ExtendedTooltip name="НДДРасширеннаяПодсказка" id="447"/>
 													<Events>
@@ -1090,6 +1094,7 @@
 								<LabelField name="РаспределениеРасходовНомерСтроки" id="24">
 									<DataPath>Объект.РаспределениеРасходов.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РаспределениеРасходовНомерСтрокиКонтекстноеМеню" id="25"/>
@@ -1098,6 +1103,7 @@
 								<InputField name="РаспределениеРасходовДата" id="26">
 									<DataPath>Объект.РаспределениеРасходов.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РаспределениеРасходовДатаКонтекстноеМеню" id="27"/>
@@ -1115,12 +1121,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РаспределениеРасходовПодразделениеКонтекстноеМеню" id="253"/>
 									<ExtendedTooltip name="РаспределениеРасходовПодразделениеРасширеннаяПодсказка" id="254"/>
 								</InputField>
 								<InputField name="РаспределениеРасходовСтатьяРасходов" id="54">
 									<DataPath>Объект.РаспределениеРасходов.СтатьяРасходов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1134,6 +1142,7 @@
 								<InputField name="РаспределениеРасходовАналитикаРасходов" id="56">
 									<DataPath>Объект.РаспределениеРасходов.АналитикаРасходов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1149,6 +1158,7 @@
 								<InputField name="РаспределениеРасходовДоляСтоимости" id="346">
 									<DataPath>Объект.РаспределениеРасходов.ДоляСтоимости</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>11</MaxWidth>
 									<ContextMenu name="РаспределениеРасходовДоляСтоимостиКонтекстноеМеню" id="347"/>
@@ -1173,6 +1183,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>15</MaxWidth>
 											<ContextMenu name="РаспределениеРасходовСуммаКонтекстноеМеню" id="372"/>
@@ -1187,6 +1198,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>15</MaxWidth>
 											<ContextMenu name="РаспределениеРасходовСуммаУпрКонтекстноеМеню" id="375"/>
@@ -1213,6 +1225,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>13</MaxWidth>
 											<ContextMenu name="РаспределениеРасходовСуммаРеглКонтекстноеМеню" id="363"/>
@@ -1224,6 +1237,7 @@
 										<InputField name="РаспределениеРасходовСуммаНУ" id="387">
 											<DataPath>Объект.РаспределениеРасходов.СуммаНУ</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>13</MaxWidth>
 											<ContextMenu name="РаспределениеРасходовСуммаНУКонтекстноеМеню" id="388"/>
@@ -1235,6 +1249,7 @@
 										<InputField name="РаспределениеРасходовПостояннаяРазница" id="365">
 											<DataPath>Объект.РаспределениеРасходов.ПостояннаяРазница</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>13</MaxWidth>
 											<ContextMenu name="РаспределениеРасходовПостояннаяРазницаКонтекстноеМеню" id="366"/>
@@ -1247,6 +1262,7 @@
 											<DataPath>Объект.РаспределениеРасходов.ВременнаяРазница</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>13</MaxWidth>
 											<ContextMenu name="РаспределениеРасходовВременнаяРазницаКонтекстноеМеню" id="369"/>
@@ -1266,7 +1282,7 @@
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РаспределениеРасходовИзменениеЗапрещеноКонтекстноеМеню" id="382"/>
 									<ExtendedTooltip name="РаспределениеРасходовИзменениеЗапрещеноРасширеннаяПодсказка" id="383"/>
 								</CheckBoxField>

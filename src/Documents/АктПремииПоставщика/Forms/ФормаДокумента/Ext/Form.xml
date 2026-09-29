@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -213,6 +213,7 @@
 				<InputField name="Номер" id="104">
 					<DataPath>Объект.Number</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>9</MaxWidth>
 					<ContextMenu name="НомерКонтекстноеМеню" id="105"/>
@@ -227,6 +228,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>14</MaxWidth>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="108"/>
@@ -240,6 +242,7 @@
 		<InputField name="Организация" id="7">
 			<DataPath>Объект.Организация</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MaxWidth>29</MaxWidth>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
@@ -263,6 +266,7 @@
 				<InputField name="Контрагент" id="120">
 					<DataPath>Объект.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>29</MaxWidth>
 					<ContextMenu name="КонтрагентКонтекстноеМеню" id="121"/>
@@ -274,6 +278,7 @@
 				<InputField name="Договор" id="123">
 					<DataPath>Объект.Договор</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>29</MaxWidth>
 					<ContextMenu name="ДоговорКонтекстноеМеню" id="124"/>
@@ -299,6 +304,7 @@
 				<InputField name="Партнер" id="128">
 					<DataPath>Объект.Партнер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>29</MaxWidth>
 					<ContextMenu name="ПартнерКонтекстноеМеню" id="129"/>
@@ -539,6 +545,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РетроБонусыКурсЧислительВзаиморасчетовКонтекстноеМеню" id="223"/>
 											<ExtendedTooltip name="РетроБонусыКурсЧислительВзаиморасчетовРасширеннаяПодсказка" id="224"/>
@@ -550,6 +557,7 @@
 											<DataPath>Объект.РетроБонусы.КурсЧислительВзаиморасчетовТекст</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>12</MaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -658,12 +666,14 @@
 						<InputField name="Подразделение" id="143">
 							<DataPath>Объект.Подразделение</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="144"/>
 							<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="145"/>
 						</InputField>
 						<InputField name="ГруппаФинансовогоУчета" id="146">
 							<DataPath>Объект.ГруппаФинансовогоУчета</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ГруппаФинансовогоУчетаКонтекстноеМеню" id="147"/>
 							<ExtendedTooltip name="ГруппаФинансовогоУчетаРасширеннаяПодсказка" id="148"/>
 						</InputField>
@@ -687,6 +697,7 @@
 								<InputField name="НомерВходящегоДокумента" id="52">
 									<DataPath>Объект.НомерВходящегоДокумента</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>15</MaxWidth>
 									<ContextMenu name="НомерВходящегоДокументаКонтекстноеМеню" id="53"/>
@@ -701,6 +712,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДатаВходящегоДокументаКонтекстноеМеню" id="56"/>
 									<ExtendedTooltip name="ДатаВходящегоДокументаРасширеннаяПодсказка" id="57"/>
 								</InputField>
@@ -726,12 +738,14 @@
 				<InputField name="Ответственный" id="112">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="113"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="114"/>
 				</InputField>
 				<InputField name="Комментарий" id="115">
 					<DataPath>Объект.Комментарий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>70</MaxWidth>
 					<AutoMaxHeight>false</AutoMaxHeight>

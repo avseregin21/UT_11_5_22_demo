@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -396,6 +396,7 @@
 																	<DataPath>ТоварыКОтгрузке.Номенклатура</DataPath>
 																	<HorizontalAlign>Left</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="162"/>
 																	<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="163"/>
@@ -404,6 +405,7 @@
 																	<DataPath>ТоварыКОтгрузке.Характеристика</DataPath>
 																	<HorizontalAlign>Left</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>style:ЦветТекстаДополнительныйСборкаИДоставка</TextColor>
 																	<ContextMenu name="ТоварыХарактеристикаКонтекстноеМеню" id="165"/>
 																	<ExtendedTooltip name="ТоварыХарактеристикаРасширеннаяПодсказка" id="166"/>
@@ -412,6 +414,7 @@
 																	<DataPath>ТоварыКОтгрузке.Серия</DataPath>
 																	<HorizontalAlign>Left</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТоварыСерияКонтекстноеМеню" id="168"/>
 																	<ExtendedTooltip name="ТоварыСерияРасширеннаяПодсказка" id="169"/>
 																</InputField>
@@ -429,6 +432,7 @@
 																<InputField name="ТоварыКоличествоУпаковок" id="241">
 																	<DataPath>ТоварыКОтгрузке.КоличествоУпаковок</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>#6AD26E</TextColor>
 																	<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="242"/>
@@ -438,6 +442,7 @@
 																	<DataPath>ТоварыКОтгрузке.Упаковка</DataPath>
 																	<HorizontalAlign>Right</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>style:ЦветТекстаДополнительныйСборкаИДоставка</TextColor>
 																	<ContextMenu name="ТоварыУпаковкаКонтекстноеМеню" id="245"/>
 																	<ExtendedTooltip name="ТоварыУпаковкаРасширеннаяПодсказка" id="246"/>
@@ -557,6 +562,7 @@
 																<InputField name="ТоварыОтобраноНоменклатура" id="304">
 																	<DataPath>ТоварыОтобрано.Номенклатура</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="ТоварыОтобраноНоменклатураКонтекстноеМеню" id="305"/>
 																	<ExtendedTooltip name="ТоварыОтобраноНоменклатураРасширеннаяПодсказка" id="306"/>
@@ -564,6 +570,7 @@
 																<InputField name="ТоварыОтобраноХарактеристика" id="307">
 																	<DataPath>ТоварыОтобрано.Характеристика</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>style:ЦветТекстаДополнительныйСборкаИДоставка</TextColor>
 																	<ContextMenu name="ТоварыОтобраноХарактеристикаКонтекстноеМеню" id="308"/>
 																	<ExtendedTooltip name="ТоварыОтобраноХарактеристикаРасширеннаяПодсказка" id="309"/>
@@ -571,6 +578,7 @@
 																<InputField name="ТоварыОтобраноСерия" id="310">
 																	<DataPath>ТоварыОтобрано.Серия</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТоварыОтобраноСерияКонтекстноеМеню" id="311"/>
 																	<ExtendedTooltip name="ТоварыОтобраноСерияРасширеннаяПодсказка" id="312"/>
 																</InputField>
@@ -588,6 +596,7 @@
 																<InputField name="ТоварыОтобраноКоличествоУпаковок" id="298">
 																	<DataPath>ТоварыОтобрано.КоличествоУпаковок</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>#6AD26E</TextColor>
 																	<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="ТоварыОтобраноКоличествоУпаковокКонтекстноеМеню" id="299"/>
@@ -597,6 +606,7 @@
 																	<DataPath>ТоварыОтобрано.Упаковка</DataPath>
 																	<HorizontalAlign>Right</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>style:ЦветТекстаДополнительныйСборкаИДоставка</TextColor>
 																	<ContextMenu name="ТоварыОтобраноУпаковкаКонтекстноеМеню" id="302"/>
 																	<ExtendedTooltip name="ТоварыОтобраноУпаковкаРасширеннаяПодсказка" id="303"/>
@@ -718,6 +728,7 @@
 																<InputField name="ТоварыПринятоНоменклатура" id="198">
 																	<DataPath>ТоварыОтгружено.Номенклатура</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="ТоварыПринятоНоменклатураКонтекстноеМеню" id="199"/>
 																	<ExtendedTooltip name="ТоварыПринятоНоменклатураРасширеннаяПодсказка" id="200"/>
@@ -725,6 +736,7 @@
 																<InputField name="ТоварыПринятоХарактеристика" id="201">
 																	<DataPath>ТоварыОтгружено.Характеристика</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>#7E7E7E</TextColor>
 																	<ContextMenu name="ТоварыПринятоХарактеристикаКонтекстноеМеню" id="202"/>
 																	<ExtendedTooltip name="ТоварыПринятоХарактеристикаРасширеннаяПодсказка" id="203"/>
@@ -732,6 +744,7 @@
 																<InputField name="ТоварыПринятоСерия" id="204">
 																	<DataPath>ТоварыОтгружено.Серия</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТоварыПринятоСерияКонтекстноеМеню" id="205"/>
 																	<ExtendedTooltip name="ТоварыПринятоСерияРасширеннаяПодсказка" id="206"/>
 																</InputField>
@@ -749,6 +762,7 @@
 																<InputField name="ТоварыПринятоКоличествоУпаковок" id="207">
 																	<DataPath>ТоварыОтгружено.КоличествоУпаковок</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>#6AD26E</TextColor>
 																	<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="ТоварыПринятоКоличествоУпаковокКонтекстноеМеню" id="208"/>
@@ -758,6 +772,7 @@
 																	<DataPath>ТоварыОтгружено.Упаковка</DataPath>
 																	<HorizontalAlign>Right</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>#7E7E7E</TextColor>
 																	<ContextMenu name="ТоварыПринятоУпаковкаКонтекстноеМеню" id="211"/>
 																	<ExtendedTooltip name="ТоварыПринятоУпаковкаРасширеннаяПодсказка" id="212"/>
@@ -905,6 +920,7 @@
 														<InputField name="ТоварыПоРаспоряжениямРаспоряжение" id="356">
 															<DataPath>ТоварыПоРаспоряжениям.Распоряжение</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ТоварыПоРаспоряжениямРаспоряжениеКонтекстноеМеню" id="357"/>
 															<ExtendedTooltip name="ТоварыПоРаспоряжениямРаспоряжениеРасширеннаяПодсказка" id="358"/>
 														</InputField>
@@ -930,6 +946,7 @@
 																		<InputField name="ТоварыПоРаспоряжениямНоменклатура" id="341">
 																			<DataPath>ТоварыПоРаспоряжениям.Номенклатура</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																			<ContextMenu name="ТоварыПоРаспоряжениямНоменклатураКонтекстноеМеню" id="342"/>
 																			<ExtendedTooltip name="ТоварыПоРаспоряжениямНоменклатураРасширеннаяПодсказка" id="343"/>
@@ -937,6 +954,7 @@
 																		<InputField name="ТоварыПоРаспоряжениямХарактеристика" id="344">
 																			<DataPath>ТоварыПоРаспоряжениям.Характеристика</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<TextColor>#7E7E7E</TextColor>
 																			<ContextMenu name="ТоварыПоРаспоряжениямХарактеристикаКонтекстноеМеню" id="345"/>
 																			<ExtendedTooltip name="ТоварыПоРаспоряжениямХарактеристикаРасширеннаяПодсказка" id="346"/>
@@ -944,6 +962,7 @@
 																		<InputField name="ТоварыПоРаспоряжениямСерия" id="347">
 																			<DataPath>ТоварыПоРаспоряжениям.Серия</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТоварыПоРаспоряжениямСерияКонтекстноеМеню" id="348"/>
 																			<ExtendedTooltip name="ТоварыПоРаспоряжениямСерияРасширеннаяПодсказка" id="349"/>
 																		</InputField>
@@ -961,6 +980,7 @@
 																		<InputField name="ТоварыПоРаспоряжениямКоличествоУпаковок" id="350">
 																			<DataPath>ТоварыПоРаспоряжениям.Количество</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<TextColor>#6AD26E</TextColor>
 																			<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
 																			<ContextMenu name="ТоварыПоРаспоряжениямКоличествоУпаковокКонтекстноеМеню" id="351"/>
@@ -970,6 +990,7 @@
 																			<DataPath>ТоварыПоРаспоряжениям.Упаковка</DataPath>
 																			<HorizontalAlign>Right</HorizontalAlign>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<TextColor>style:ЦветТекстаДополнительныйСборкаИДоставка</TextColor>
 																			<ContextMenu name="ТоварыПоРаспоряжениямУпаковкаКонтекстноеМеню" id="354"/>
 																			<ExtendedTooltip name="ТоварыПоРаспоряжениямУпаковкаРасширеннаяПодсказка" id="355"/>

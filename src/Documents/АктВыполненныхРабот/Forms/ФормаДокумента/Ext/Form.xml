@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -318,7 +318,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="АктВыполненныхРаботПоЗаказуКонтекстноеМеню" id="536"/>
 													<ExtendedTooltip name="АктВыполненныхРаботПоЗаказуРасширеннаяПодсказка" id="618"/>
 													<Events>
@@ -359,7 +358,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="АктВыполненныхРаботПоЗаказамКонтекстноеМеню" id="541"/>
 													<ExtendedTooltip name="АктВыполненныхРаботПоЗаказамРасширеннаяПодсказка" id="621"/>
 													<Events>
@@ -1325,6 +1323,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="УслугиНоменклатураКодКонтекстноеМеню" id="575"/>
 									<ExtendedTooltip name="УслугиНоменклатураКодРасширеннаяПодсказка" id="672"/>
@@ -1341,6 +1340,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="УслугиНоменклатураАртикулКонтекстноеМеню" id="577"/>
 									<ExtendedTooltip name="УслугиНоменклатураАртикулРасширеннаяПодсказка" id="673"/>
@@ -1353,6 +1353,7 @@
 										<xr:Ref>CommonPicture.Набор</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Наборы</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1380,6 +1381,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="УслугиНоменклатураНабораКонтекстноеМеню" id="792"/>
 											<ExtendedTooltip name="УслугиНоменклатураНабораРасширеннаяПодсказка" id="793"/>
 										</InputField>
@@ -1388,6 +1390,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="УслугиХарактеристикаНабораКонтекстноеМеню" id="795"/>
 											<ExtendedTooltip name="УслугиХарактеристикаНабораРасширеннаяПодсказка" id="796"/>
 										</InputField>
@@ -1438,7 +1441,6 @@
 											<v8:content>Отгружать номенклатуру обособленно по направлению деятельности</v8:content>
 										</v8:item>
 									</ToolTip>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="УслугиОбособленноКонтекстноеМеню" id="1150"/>
 									<ExtendedTooltip name="УслугиОбособленноРасширеннаяПодсказка" id="1151"/>
 									<Events>
@@ -1448,6 +1450,7 @@
 								<InputField name="УслугиСодержание" id="526">
 									<DataPath>Объект.Услуги.Содержание</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Height>1</Height>
 									<MultiLine>true</MultiLine>
 									<ChoiceButton>true</ChoiceButton>
@@ -1466,6 +1469,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="УслугиНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="373"/>
 									<ExtendedTooltip name="УслугиНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="677"/>
@@ -1672,6 +1676,7 @@
 									<DataPath>Объект.Услуги.СуммаСНДС</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="УслугиСуммаСНДСКонтекстноеМеню" id="520"/>
 									<ExtendedTooltip name="УслугиСуммаСНДСРасширеннаяПодсказка" id="688"/>
@@ -1679,12 +1684,14 @@
 								<InputField name="УслугиСуммаВзаиморасчетов" id="522">
 									<DataPath>Объект.Услуги.СуммаВзаиморасчетов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="УслугиСуммаВзаиморасчетовКонтекстноеМеню" id="523"/>
 									<ExtendedTooltip name="УслугиСуммаВзаиморасчетовРасширеннаяПодсказка" id="689"/>
 								</InputField>
 								<InputField name="УслугиПодразделение" id="1135">
 									<DataPath>Объект.Услуги.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="УслугиПодразделениеКонтекстноеМеню" id="1136"/>
 									<ExtendedTooltip name="УслугиПодразделениеРасширеннаяПодсказка" id="1137"/>
 								</InputField>
@@ -1703,6 +1710,9 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1963,7 +1973,6 @@
 													<v8:content>Все виды цен в документе будут очищены.</v8:content>
 												</v8:item>
 											</WarningOnEdit>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="345"/>
 											<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="709"/>
 											<Events>

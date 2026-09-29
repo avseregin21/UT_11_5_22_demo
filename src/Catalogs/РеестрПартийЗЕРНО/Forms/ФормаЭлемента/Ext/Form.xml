@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -34,6 +34,7 @@
 		<LabelField name="Статус" id="40">
 			<DataPath>Объект.Статус</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="СтатусКонтекстноеМеню" id="41"/>
 			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="42"/>
 		</LabelField>
@@ -69,6 +70,7 @@
 								<InputField name="Идентификатор" id="1">
 									<DataPath>Объект.Идентификатор</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>15</MaxWidth>
 									<ContextMenu name="ИдентификаторКонтекстноеМеню" id="2"/>
@@ -83,6 +85,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="47"/>
 									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="48"/>
 								</InputField>
@@ -108,6 +111,7 @@
 								<InputField name="ВладелецПартии" id="4">
 									<DataPath>Объект.ВладелецПартии</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВладелецПартииКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="ВладелецПартииРасширеннаяПодсказка" id="6"/>
 								</InputField>
@@ -121,6 +125,7 @@
 						<InputField name="НазначениеПартии" id="10">
 							<DataPath>Объект.НазначениеПартии</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<OpenButton>false</OpenButton>
 							<CreateButton>false</CreateButton>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -161,6 +166,7 @@
 						<InputField name="ЦельИспользования" id="13">
 							<DataPath>Объект.ЦельИспользования</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<OpenButton>false</OpenButton>
 							<CreateButton>false</CreateButton>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -170,6 +176,7 @@
 						<InputField name="ГодУрожая" id="7">
 							<DataPath>Объект.ГодУрожая</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ГодУрожаяКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ГодУрожаяРасширеннаяПодсказка" id="9"/>
 						</InputField>
@@ -200,7 +207,7 @@
 						<CheckBoxField name="ТребуетсяЗагрузка" id="43">
 							<DataPath>Объект.ТребуетсяЗагрузка</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТребуетсяЗагрузкаКонтекстноеМеню" id="44"/>
 							<ExtendedTooltip name="ТребуетсяЗагрузкаРасширеннаяПодсказка" id="45"/>
 						</CheckBoxField>
@@ -283,6 +290,7 @@
 						<InputField name="Местоположение" id="19">
 							<DataPath>Объект.Местоположение</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="МестоположениеКонтекстноеМеню" id="20"/>
@@ -292,6 +300,7 @@
 							<DataPath>Остаток</DataPath>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КоличествоКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="24">
 								<Title formatted="false">
@@ -312,6 +321,7 @@
 							</Title>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КоличествоНачальноеКонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="КоличествоНачальноеРасширеннаяПодсказка" id="27">
 								<Title formatted="false">
@@ -325,6 +335,7 @@
 						<InputField name="РезультатИсследования" id="28">
 							<DataPath>Объект.РезультатИсследования</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="РезультатИсследованияКонтекстноеМеню" id="29"/>
@@ -441,6 +452,7 @@
 												<LabelField name="ПотребительскиеСвойстваНомерСтроки" id="93">
 													<DataPath>Объект.ПотребительскиеСвойства.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>3</MaxWidth>
 													<ContextMenu name="ПотребительскиеСвойстваНомерСтрокиКонтекстноеМеню" id="94"/>
@@ -459,6 +471,7 @@
 														<InputField name="ПотребительскиеСвойстваПотребительскоеСвойство" id="96">
 															<DataPath>Объект.ПотребительскиеСвойства.ПотребительскоеСвойство</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>28</MaxWidth>
 															<ContextMenu name="ПотребительскиеСвойстваПотребительскоеСвойствоКонтекстноеМеню" id="97"/>
@@ -483,6 +496,7 @@
 													<DataPath>Объект.ПотребительскиеСвойства.Значение</DataPath>
 													<HorizontalAlign>Right</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>22</MaxWidth>
 													<ContextMenu name="ПотребительскиеСвойстваЗначениеКонтекстноеМеню" id="100"/>

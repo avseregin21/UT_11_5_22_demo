@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -18,6 +18,7 @@
 		<InputField name="Организация" id="4">
 			<DataPath>Объект.Организация</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MaxWidth>34</MaxWidth>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="5"/>
@@ -41,6 +42,7 @@
 				<InputField name="ДокументУсловий" id="1">
 					<DataPath>Объект.ДокументУсловий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>34</MaxWidth>
 					<DropListButton>false</DropListButton>
@@ -62,6 +64,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>10</MaxWidth>
 					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="8"/>
@@ -79,6 +82,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>10</MaxWidth>
 					<ContextMenu name="ОкончаниеПериодаКонтекстноеМеню" id="11"/>
@@ -101,6 +105,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>7</MaxWidth>
 					<ContextMenu name="ВалютаКонтекстноеМеню" id="14"/>
@@ -127,6 +132,7 @@
 		<InputField name="ДатаСозданияДокументов" id="16">
 			<DataPath>Объект.ДатаСозданияДокументов</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ДатаСозданияДокументовКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ДатаСозданияДокументовРасширеннаяПодсказка" id="18"/>
 		</InputField>
@@ -205,13 +211,14 @@
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
 					<FixingInTable>Left</FixingInTable>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыНачисленияПометкаКонтекстноеМеню" id="40"/>
 					<ExtendedTooltip name="ДокументыНачисленияПометкаРасширеннаяПодсказка" id="41"/>
 				</CheckBoxField>
 				<InputField name="ДокументыНачисленияКонтрагент" id="42">
 					<DataPath>Объект.ДокументыНачисления.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыНачисленияКонтрагентКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="ДокументыНачисленияКонтрагентРасширеннаяПодсказка" id="44"/>
 					<Events>
@@ -221,6 +228,7 @@
 				<InputField name="ДокументыНачисленияПартнер" id="45">
 					<DataPath>Объект.ДокументыНачисления.Партнер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыНачисленияПартнерКонтекстноеМеню" id="46"/>
 					<ExtendedTooltip name="ДокументыНачисленияПартнерРасширеннаяПодсказка" id="47"/>
 					<Events>
@@ -254,6 +262,7 @@
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДокументыНачисленияДокументНачисленияКонтекстноеМеню" id="49"/>
 							<ExtendedTooltip name="ДокументыНачисленияДокументНачисленияРасширеннаяПодсказка" id="50"/>
 						</InputField>
@@ -281,6 +290,7 @@
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДокументыНачисленияСуммаРасчетнаяКонтекстноеМеню" id="58"/>
 							<ExtendedTooltip name="ДокументыНачисленияСуммаРасчетнаяРасширеннаяПодсказка" id="59"/>
 						</InputField>
@@ -295,6 +305,7 @@
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДокументыНачисленияСуммаНачисленнаяКонтекстноеМеню" id="55"/>
 							<ExtendedTooltip name="ДокументыНачисленияСуммаНачисленнаяРасширеннаяПодсказка" id="56"/>
 						</InputField>
@@ -308,6 +319,7 @@
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<Font ref="style:ЖирныйШрифт" kind="StyleItem"/>
 							<ContextMenu name="ДокументыНачисленияСуммаКНачислениюКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="ДокументыНачисленияСуммаКНачислениюРасширеннаяПодсказка" id="53"/>

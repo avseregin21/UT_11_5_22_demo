@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -93,6 +93,7 @@
 										<InputField name="ТипСертификата" id="22">
 											<DataPath>Объект.ТипСертификата</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>true</DropListButton>
 											<ContextMenu name="ТипСертификатаКонтекстноеМеню" id="23"/>
 											<ExtendedTooltip name="ТипСертификатаРасширеннаяПодсказка" id="24"/>
@@ -104,6 +105,7 @@
 										<InputField name="Статус" id="7">
 											<DataPath>Объект.Статус</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="СтатусКонтекстноеМеню" id="8"/>
@@ -114,6 +116,7 @@
 								<InputField name="Номер" id="25">
 									<DataPath>Объект.Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<EditTextUpdate>OnValueChange</EditTextUpdate>
 									<ContextMenu name="НомерКонтекстноеМеню" id="26"/>
@@ -144,6 +147,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<EditTextUpdate>OnValueChange</EditTextUpdate>
 											<ContextMenu name="ДатаНачалаСрокаДействияКонтекстноеМеню" id="11"/>
 											<ExtendedTooltip name="ДатаНачалаСрокаДействияРасширеннаяПодсказка" id="12"/>
@@ -160,6 +164,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<EditTextUpdate>OnValueChange</EditTextUpdate>
 											<ContextMenu name="ДатаОкончанияСрокаДействияКонтекстноеМеню" id="14"/>
 											<ExtendedTooltip name="ДатаОкончанияСрокаДействияРасширеннаяПодсказка" id="15"/>
@@ -171,7 +176,7 @@
 											<DataPath>Объект.Бессрочный</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="БессрочныйКонтекстноеМеню" id="17"/>
 											<ExtendedTooltip name="БессрочныйРасширеннаяПодсказка" id="18"/>
 											<Events>
@@ -190,6 +195,7 @@
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MultiLine>true</MultiLine>
 									<ContextMenu name="ОрганВыдавшийДокументКонтекстноеМеню" id="20"/>
@@ -220,6 +226,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<DropListButton>true</DropListButton>
 									<DropListWidth>50</DropListWidth>
@@ -679,6 +686,7 @@
 														<InputField name="ОбластьДействияВидНоменклатуры" id="97">
 															<DataPath>ОбластьДействия.ВидНоменклатуры</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>true</HorizontalStretch>
 															<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 															<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -699,6 +707,7 @@
 														<InputField name="ОбластьДействияНоменклатура" id="100">
 															<DataPath>ОбластьДействия.Номенклатура</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>true</HorizontalStretch>
 															<ChoiceForm>Catalog.Номенклатура.Form.ФормаВыбора</ChoiceForm>
 															<ChoiceParameterLinks>
@@ -725,6 +734,7 @@
 														<InputField name="ОбластьДействияХарактеристика" id="103">
 															<DataPath>ОбластьДействия.Характеристика</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Номенклатура</xr:Name>
@@ -747,6 +757,7 @@
 														<InputField name="ОбластьДействияСерия" id="106">
 															<DataPath>ОбластьДействия.Серия</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Номенклатура</xr:Name>
@@ -861,6 +872,7 @@
 							<TextColor>style:ЦветТекстаНевыбраннойКартинки</TextColor>
 							<Font ref="sys:DefaultGUIFont" height="12" kind="WindowsFont"/>
 							<FileDragMode>AsFile</FileDragMode>
+							<PictureColor>style:ЦветТекстаНевыбраннойКартинки</PictureColor>
 							<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="39">
 								<Autofill>false</Autofill>
 								<ChildItems>

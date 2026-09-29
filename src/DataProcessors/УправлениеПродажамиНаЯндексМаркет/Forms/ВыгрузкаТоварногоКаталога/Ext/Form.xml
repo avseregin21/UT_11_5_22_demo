@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -26,6 +26,7 @@
 	</CommandSet>
 	<ShowTitle>false</ShowTitle>
 	<ShowCloseButton>false</ShowCloseButton>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -543,7 +544,7 @@
 								</UsualGroup>
 								<Table name="ЗагружаемыеТовары" id="795">
 									<ChangeRowOrder>false</ChangeRowOrder>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>ЗагружаемыеТовары</DataPath>
@@ -740,7 +741,7 @@
 						</UsualGroup>
 						<Table name="Ассортимент" id="255">
 							<Height>5</Height>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>СтатусыПубликацииТоваровЯндексМаркет</DataPath>
 							<AutoRefresh>false</AutoRefresh>
@@ -1117,6 +1118,8 @@
 										<xr:Ref>StdPicture.GetURL</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<Width>2</Width>
 									<Hyperlink>true</Hyperlink>
 									<ValuesPicture>
@@ -1239,7 +1242,7 @@
 						</UsualGroup>
 						<Table name="УтверждениеАссортимента" id="517">
 							<Height>5</Height>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>УтверждениеАссортимента</DataPath>
 							<AutoRefresh>false</AutoRefresh>
@@ -1425,6 +1428,8 @@
 										<xr:Ref>StdPicture.GetURL</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<Width>2</Width>
 									<Hyperlink>true</Hyperlink>
 									<ValuesPicture>
@@ -1569,7 +1574,7 @@
 						</UsualGroup>
 						<Table name="ИсправлениеОшибок" id="579">
 							<Height>5</Height>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>ИсправлениеОшибок</DataPath>
 							<AutoRefresh>false</AutoRefresh>
@@ -1755,6 +1760,8 @@
 										<xr:Ref>StdPicture.GetURL</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<Width>2</Width>
 									<Hyperlink>true</Hyperlink>
 									<ValuesPicture>
@@ -1868,7 +1875,7 @@
 						<Table name="АктуальныеЦены" id="706">
 							<ReadOnly>true</ReadOnly>
 							<Height>5</Height>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>АктуальныеЦены</DataPath>
 							<CommandSet>
@@ -2021,6 +2028,7 @@
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="АктуальныеЦеныМинимальнаяСредиВсехПредложенийКонтекстноеМеню" id="743"/>
 									<ExtendedTooltip name="АктуальныеЦеныМинимальнаяСредиВсехПредложенийРасширеннаяПодсказка" id="744"/>
 								</InputField>
@@ -2029,6 +2037,7 @@
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="АктуальныеЦеныМаксимальнаяБезСкидкиКонтекстноеМеню" id="746"/>
 									<ExtendedTooltip name="АктуальныеЦеныМаксимальнаяБезСкидкиРасширеннаяПодсказка" id="747"/>
 								</InputField>
@@ -2037,6 +2046,7 @@
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="АктуальныеЦеныМаксимальнаяДляПоказовКонтекстноеМеню" id="749"/>
 									<ExtendedTooltip name="АктуальныеЦеныМаксимальнаяДляПоказовРасширеннаяПодсказка" id="750"/>
 								</InputField>
@@ -2044,6 +2054,7 @@
 									<DataPath>АктуальныеЦены.ДатаОбновления</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="АктуальныеЦеныДатаОбновленияКонтекстноеМеню" id="752"/>
 									<ExtendedTooltip name="АктуальныеЦеныДатаОбновленияРасширеннаяПодсказка" id="753"/>
 								</InputField>

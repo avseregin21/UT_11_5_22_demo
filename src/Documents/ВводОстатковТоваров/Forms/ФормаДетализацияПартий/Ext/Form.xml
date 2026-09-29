@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаПеренестиВДокумент" id="45">
@@ -114,6 +114,7 @@
 				<InputField name="ДетализацияПартийПартнер" id="50">
 					<DataPath>ДетализацияПартий.Партнер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДетализацияПартийПартнерКонтекстноеМеню" id="51"/>
 					<ExtendedTooltip name="ДетализацияПартийПартнерРасширеннаяПодсказка" id="52"/>
 					<Events>
@@ -123,6 +124,7 @@
 				<InputField name="ДетализацияПартийКонтрагент" id="23">
 					<DataPath>ДетализацияПартий.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ChooseType>false</ChooseType>
 					<ContextMenu name="ДетализацияПартийКонтрагентКонтекстноеМеню" id="24"/>
@@ -131,6 +133,7 @@
 				<InputField name="ДетализацияПартийДокументПоступления" id="14">
 					<DataPath>ДетализацияПартий.ДокументПоступления</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<DropListButton>false</DropListButton>
 					<ChoiceButton>true</ChoiceButton>
 					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -166,6 +169,7 @@
 				<InputField name="ДетализацияПартийВидЦенности" id="26">
 					<DataPath>ДетализацияПартий.ВидЦенности</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ListChoiceMode>true</ListChoiceMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ChoiceList>
@@ -296,6 +300,7 @@
 				<InputField name="ДетализацияПартийСтавкаНДС" id="47">
 					<DataPath>ДетализацияПартий.СтавкаНДС</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>11</Width>
 					<OpenButton>false</OpenButton>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -321,6 +326,7 @@
 					<DataPath>ДетализацияПартий.СуммаРегл</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<FooterDataPath>ИтогСуммаРегл</FooterDataPath>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>12</Width>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>12</MaxWidth>
@@ -336,6 +342,7 @@
 					<DataPath>ДетализацияПартий.НДСРегл</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<FooterDataPath>ИтогНДСРегл</FooterDataPath>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>12</Width>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>12</MaxWidth>
@@ -345,6 +352,7 @@
 				<InputField name="ДетализацияПартийСуммаУпр" id="53">
 					<DataPath>ДетализацияПартий.СуммаУпр</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДетализацияПартийСуммаУпрКонтекстноеМеню" id="54"/>
 					<ExtendedTooltip name="ДетализацияПартийСуммаУпрРасширеннаяПодсказка" id="55"/>
 					<Events>
@@ -354,6 +362,7 @@
 				<InputField name="ДетализацияПартийНДСУпр" id="32">
 					<DataPath>ДетализацияПартий.НДСУпр</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДетализацияПартийНДСУпрКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ДетализацияПартийНДСУпрРасширеннаяПодсказка" id="34"/>
 				</InputField>

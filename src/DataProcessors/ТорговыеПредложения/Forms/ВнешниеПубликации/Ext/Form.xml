@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -158,42 +158,49 @@
 				<InputField name="СписокНаименование" id="14">
 					<DataPath>Список.Наименование</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокНаименованиеКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="СписокНаименованиеРасширеннаяПодсказка" id="16"/>
 				</InputField>
 				<InputField name="СписокОрганизация" id="32">
 					<DataPath>Список.Организация</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокОрганизацияКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="СписокОрганизацияРасширеннаяПодсказка" id="34"/>
 				</InputField>
 				<InputField name="СписокДатаНачала" id="17">
 					<DataPath>Список.ДатаНачала</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокДатаНачалаКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="СписокДатаНачалаРасширеннаяПодсказка" id="19"/>
 				</InputField>
 				<InputField name="СписокДатаОкончания" id="20">
 					<DataPath>Список.ДатаОкончания</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокДатаОкончанияКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="СписокДатаОкончанияРасширеннаяПодсказка" id="22"/>
 				</InputField>
 				<InputField name="СписокКонтактноеЛицо" id="23">
 					<DataPath>Список.КонтактноеЛицо</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокКонтактноеЛицоКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="СписокКонтактноеЛицоРасширеннаяПодсказка" id="25"/>
 				</InputField>
 				<InputField name="СписокТелефон" id="26">
 					<DataPath>Список.Телефон</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокТелефонКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="СписокТелефонРасширеннаяПодсказка" id="28"/>
 				</InputField>
 				<InputField name="СписокЭлектроннаяПочта" id="29">
 					<DataPath>Список.ЭлектроннаяПочта</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокЭлектроннаяПочтаКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="СписокЭлектроннаяПочтаРасширеннаяПодсказка" id="31"/>
 				</InputField>

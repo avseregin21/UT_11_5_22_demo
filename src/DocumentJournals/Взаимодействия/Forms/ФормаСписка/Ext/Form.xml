@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -130,7 +130,7 @@
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаФильтрыРасширеннаяПодсказка" id="416"/>
@@ -997,7 +997,7 @@
 													<Representation>Tree</Representation>
 													<ReadOnly>true</ReadOnly>
 													<RowSelectionMode>Row</RowSelectionMode>
-													<HorizontalLines>false</HorizontalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
@@ -1274,7 +1274,7 @@
 											<ExtendedTooltip name="СтраницаПредметРасширеннаяПодсказка" id="447"/>
 											<ChildItems>
 												<Table name="ПредметыПанельНавигации" id="690">
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<EnableDrag>true</EnableDrag>
 													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ПредметыПанельНавигации</DataPath>
@@ -1559,8 +1559,8 @@
 													<Representation>Tree</Representation>
 													<SelectionMode>SingleRow</SelectionMode>
 													<Header>false</Header>
-													<HorizontalLines>false</HorizontalLines>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<InitialTreeView>ExpandAllLevels</InitialTreeView>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -1734,7 +1734,7 @@
 													<ReadOnly>true</ReadOnly>
 													<SelectionMode>SingleRow</SelectionMode>
 													<Header>false</Header>
-													<HorizontalLines>false</HorizontalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -1926,6 +1926,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="СвойстваПредставлениеКонтекстноеМеню" id="134"/>
 																	<ExtendedTooltip name="СвойстваПредставлениеРасширеннаяПодсказка" id="487"/>
 																</InputField>
@@ -1940,6 +1941,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ValuesPicture>
 																		<xr:Ref>CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</xr:Ref>
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1969,7 +1971,7 @@
 													<RowSelectionMode>Row</RowSelectionMode>
 													<Header>false</Header>
 													<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-													<HorizontalLines>false</HorizontalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -2210,6 +2212,7 @@
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПапкиНомерКартинкиКонтекстноеМеню" id="183"/>
 																	<ExtendedTooltip name="ПапкиНомерКартинкиРасширеннаяПодсказка" id="524"/>
@@ -2225,6 +2228,7 @@
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextEdit>false</TextEdit>
 																	<ContextMenu name="ПапкиПредставлениеКонтекстноеМеню" id="185"/>
 																	<ExtendedTooltip name="ПапкиПредставлениеРасширеннаяПодсказка" id="525"/>
@@ -2249,7 +2253,7 @@
 													<SelectionMode>SingleRow</SelectionMode>
 													<RowSelectionMode>Row</RowSelectionMode>
 													<Header>false</Header>
-													<HorizontalLines>false</HorizontalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -2435,6 +2439,7 @@
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ValuesPicture>
 																		<xr:Ref>CommonPicture.КоллекцияДеревоАнкеты</xr:Ref>
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2454,6 +2459,7 @@
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="КатегорииПредставлениеКонтекстноеМеню" id="310"/>
 																	<ExtendedTooltip name="КатегорииПредставлениеРасширеннаяПодсказка" id="540"/>
 																</InputField>
@@ -2484,7 +2490,7 @@
 									<HeightInTableRows>3</HeightInTableRows>
 									<RowInputMode>AfterCurrentRow</RowInputMode>
 									<RowSelectionMode>Row</RowSelectionMode>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<InitialListView>Beginning</InitialListView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>

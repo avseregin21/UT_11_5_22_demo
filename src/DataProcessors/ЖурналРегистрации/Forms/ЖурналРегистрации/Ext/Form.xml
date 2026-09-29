@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -22,6 +22,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -263,7 +264,7 @@
 							<SkipOnInput>false</SkipOnInput>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<InitialListView>End</InitialListView>
 							<Output>Enable</Output>
 							<FileDragMode>AsFile</FileDragMode>
@@ -641,6 +642,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="ВажностьКонтекстноеМеню" id="530"/>
 									<ExtendedTooltip name="ВажностьРасширеннаяПодсказка" id="531"/>
@@ -654,6 +656,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПредставлениеРазделенияДанныхСеансаКонтекстноеМеню" id="120"/>
 									<ExtendedTooltip name="ПредставлениеРазделенияДанныхСеансаРасширеннаяПодсказка" id="147"/>
 								</LabelField>
@@ -716,6 +719,7 @@
 													<HorizontalAlign>Right</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>2</Width>
 													<ContextMenu name="ОбластьДанныхКонтекстноеМеню" id="515"/>
 													<ExtendedTooltip name="ОбластьДанныхРасширеннаяПодсказка" id="516"/>
@@ -991,6 +995,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="ДатаНаСервереКонтекстноеМеню" id="207"/>
 									<ExtendedTooltip name="ДатаНаСервереРасширеннаяПодсказка" id="208"/>
@@ -1003,7 +1008,7 @@
 							<SkipOnInput>false</SkipOnInput>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<InitialListView>End</InitialListView>
 							<Output>Enable</Output>
 							<FileDragMode>AsFile</FileDragMode>
@@ -1357,6 +1362,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="Важность2КонтекстноеМеню" id="533"/>
 									<ExtendedTooltip name="Важность2РасширеннаяПодсказка" id="534"/>
@@ -1379,6 +1385,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПредставлениеРазделенияДанныхСеанса2КонтекстноеМеню" id="369"/>
 											<ExtendedTooltip name="ПредставлениеРазделенияДанныхСеанса2РасширеннаяПодсказка" id="370"/>
 										</LabelField>
@@ -1392,6 +1399,7 @@
 											</Title>
 											<HorizontalAlign>Right</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>3</Width>
 											<ContextMenu name="ОбластьДанных3КонтекстноеМеню" id="527"/>
 											<ExtendedTooltip name="ОбластьДанных3РасширеннаяПодсказка" id="528"/>
@@ -1460,6 +1468,7 @@
 													<HorizontalAlign>Right</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>2</Width>
 													<ContextMenu name="ОбластьДанных2КонтекстноеМеню" id="522"/>
 													<ExtendedTooltip name="ОбластьДанных2РасширеннаяПодсказка" id="523"/>
@@ -1750,6 +1759,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="ДатаНаСервере2КонтекстноеМеню" id="428"/>
 									<ExtendedTooltip name="ДатаНаСервере2РасширеннаяПодсказка" id="429"/>

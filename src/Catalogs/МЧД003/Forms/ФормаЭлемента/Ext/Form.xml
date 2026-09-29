@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -42,57 +42,63 @@
 						<InputField name="Наименование" id="1">
 							<DataPath>Объект.Description</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 						</InputField>
 						<InputField name="НомерДоверенности" id="4">
 							<DataPath>Объект.НомерДоверенности</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НомерДоверенностиКонтекстноеМеню" id="5"/>
 							<ExtendedTooltip name="НомерДоверенностиРасширеннаяПодсказка" id="6"/>
 						</InputField>
 						<InputField name="ДатаВыдачи" id="7">
 							<DataPath>Объект.ДатаВыдачи</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаВыдачиКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ДатаВыдачиРасширеннаяПодсказка" id="9"/>
 						</InputField>
 						<InputField name="СрокДействия" id="10">
 							<DataPath>Объект.СрокДействия</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СрокДействияКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="СрокДействияРасширеннаяПодсказка" id="12"/>
 						</InputField>
 						<InputField name="ДатаПрекращения" id="13">
 							<DataPath>Объект.ДатаПрекращения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаПрекращенияКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ДатаПрекращенияРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<InputField name="СтатусВРеестреФНС" id="16">
 							<DataPath>Объект.СтатусВРеестреФНС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СтатусВРеестреФНСКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="СтатусВРеестреФНСРасширеннаяПодсказка" id="18"/>
 						</InputField>
 						<CheckBoxField name="ПроверкаВыполнена" id="19">
 							<DataPath>Объект.ПроверкаВыполнена</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПроверкаВыполненаКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ПроверкаВыполненаРасширеннаяПодсказка" id="21"/>
 						</CheckBoxField>
 						<CheckBoxField name="Верна" id="22">
 							<DataPath>Объект.Верна</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ВернаКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="ВернаРасширеннаяПодсказка" id="24"/>
 						</CheckBoxField>
 						<CheckBoxField name="ПолномочияОграничены" id="25">
 							<DataPath>Объект.ПолномочияОграничены</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПолномочияОграниченыКонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="ПолномочияОграниченыРасширеннаяПодсказка" id="27"/>
 						</CheckBoxField>
@@ -153,6 +159,7 @@
 												<LabelField name="ПодписиНомерСтроки" id="45">
 													<DataPath>Объект.Подписи.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПодписиНомерСтрокиКонтекстноеМеню" id="46"/>
 													<ExtendedTooltip name="ПодписиНомерСтрокиРасширеннаяПодсказка" id="47"/>
 												</LabelField>
@@ -207,36 +214,42 @@
 												<LabelField name="ДоверителиНомерСтроки" id="63">
 													<DataPath>Объект.Доверители.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоверителиНомерСтрокиКонтекстноеМеню" id="64"/>
 													<ExtendedTooltip name="ДоверителиНомерСтрокиРасширеннаяПодсказка" id="65"/>
 												</LabelField>
 												<InputField name="ДоверителиТипДоверителя" id="66">
 													<DataPath>Объект.Доверители.ТипДоверителя</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоверителиТипДоверителяКонтекстноеМеню" id="67"/>
 													<ExtendedTooltip name="ДоверителиТипДоверителяРасширеннаяПодсказка" id="68"/>
 												</InputField>
 												<InputField name="ДоверителиИНН" id="69">
 													<DataPath>Объект.Доверители.ИНН</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоверителиИННКонтекстноеМеню" id="70"/>
 													<ExtendedTooltip name="ДоверителиИННРасширеннаяПодсказка" id="71"/>
 												</InputField>
 												<InputField name="ДоверителиКПП" id="72">
 													<DataPath>Объект.Доверители.КПП</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоверителиКППКонтекстноеМеню" id="73"/>
 													<ExtendedTooltip name="ДоверителиКППРасширеннаяПодсказка" id="74"/>
 												</InputField>
 												<InputField name="ДоверителиОГРН" id="75">
 													<DataPath>Объект.Доверители.ОГРН</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоверителиОГРНКонтекстноеМеню" id="76"/>
 													<ExtendedTooltip name="ДоверителиОГРНРасширеннаяПодсказка" id="77"/>
 												</InputField>
 												<InputField name="ДоверителиСНИЛС" id="78">
 													<DataPath>Объект.Доверители.СНИЛС</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДоверителиСНИЛСКонтекстноеМеню" id="79"/>
 													<ExtendedTooltip name="ДоверителиСНИЛСРасширеннаяПодсказка" id="80"/>
 												</InputField>
@@ -291,36 +304,42 @@
 												<LabelField name="ПредставителиНомерСтроки" id="96">
 													<DataPath>Объект.Представители.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредставителиНомерСтрокиКонтекстноеМеню" id="97"/>
 													<ExtendedTooltip name="ПредставителиНомерСтрокиРасширеннаяПодсказка" id="98"/>
 												</LabelField>
 												<InputField name="ПредставителиТипПредставителя" id="99">
 													<DataPath>Объект.Представители.ТипПредставителя</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредставителиТипПредставителяКонтекстноеМеню" id="100"/>
 													<ExtendedTooltip name="ПредставителиТипПредставителяРасширеннаяПодсказка" id="101"/>
 												</InputField>
 												<InputField name="ПредставителиИНН" id="102">
 													<DataPath>Объект.Представители.ИНН</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредставителиИННКонтекстноеМеню" id="103"/>
 													<ExtendedTooltip name="ПредставителиИННРасширеннаяПодсказка" id="104"/>
 												</InputField>
 												<InputField name="ПредставителиКПП" id="105">
 													<DataPath>Объект.Представители.КПП</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредставителиКППКонтекстноеМеню" id="106"/>
 													<ExtendedTooltip name="ПредставителиКППРасширеннаяПодсказка" id="107"/>
 												</InputField>
 												<InputField name="ПредставителиОГРН" id="108">
 													<DataPath>Объект.Представители.ОГРН</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредставителиОГРНКонтекстноеМеню" id="109"/>
 													<ExtendedTooltip name="ПредставителиОГРНРасширеннаяПодсказка" id="110"/>
 												</InputField>
 												<InputField name="ПредставителиСНИЛС" id="111">
 													<DataPath>Объект.Представители.СНИЛС</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредставителиСНИЛСКонтекстноеМеню" id="112"/>
 													<ExtendedTooltip name="ПредставителиСНИЛСРасширеннаяПодсказка" id="113"/>
 												</InputField>
@@ -552,8 +571,8 @@
 									<RowInputMode>AfterCurrentRow</RowInputMode>
 									<SelectionMode>SingleRow</SelectionMode>
 									<Header>false</Header>
-									<HorizontalLines>false</HorizontalLines>
-									<VerticalLines>false</VerticalLines>
+									<HorizontalLinesBWA>false</HorizontalLinesBWA>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<DataPath>ДеревоОтбора</DataPath>
 									<RowPictureDataPath>ДеревоОтбора.Картинка</RowPictureDataPath>
@@ -640,6 +659,7 @@
 										<InputField name="ДеревоОтбораДанные" id="149">
 											<DataPath>ДеревоОтбора.Данные</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>60</Width>
 											<MaxWidth>40</MaxWidth>
 											<ChooseType>false</ChooseType>

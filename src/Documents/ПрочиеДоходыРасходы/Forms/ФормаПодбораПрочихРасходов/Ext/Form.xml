@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -117,7 +117,7 @@
 					<ChangeRowOrder>false</ChangeRowOrder>
 					<HeightInTableRows>10</HeightInTableRows>
 					<SelectionMode>SingleRow</SelectionMode>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<InitialTreeView>ExpandAllLevels</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
@@ -195,7 +195,7 @@
 							<DataPath>ТаблицаРасходов.СтрокаВыбрана</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаРасходовВыбранКонтекстноеМеню" id="133"/>
 							<ExtendedTooltip name="ТаблицаРасходовВыбранРасширеннаяПодсказка" id="283"/>
 						</CheckBoxField>
@@ -203,6 +203,7 @@
 							<DataPath>ТаблицаРасходов.Подразделение</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="ТаблицаРасходовПодразделениеКонтекстноеМеню" id="135"/>
 							<ExtendedTooltip name="ТаблицаРасходовПодразделениеРасширеннаяПодсказка" id="285"/>
@@ -211,6 +212,7 @@
 							<DataPath>ТаблицаРасходов.НаправлениеДеятельности</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаРасходовНаправлениеДеятельностиКонтекстноеМеню" id="356"/>
 							<ExtendedTooltip name="ТаблицаРасходовНаправлениеДеятельностиРасширеннаяПодсказка" id="357"/>
 						</InputField>
@@ -218,6 +220,7 @@
 							<DataPath>ТаблицаРасходов.СтатьяРасходов</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="ТаблицаРасходовСтатьяРасходовКонтекстноеМеню" id="137"/>
 							<ExtendedTooltip name="ТаблицаРасходовСтатьяРасходовРасширеннаяПодсказка" id="286"/>
@@ -235,6 +238,7 @@
 									<DataPath>ТаблицаРасходов.АналитикаРасходов</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаРасходовАналитикаРасходовКонтекстноеМеню" id="299"/>
 									<ExtendedTooltip name="ТаблицаРасходовАналитикаРасходовРасширеннаяПодсказка" id="300"/>
@@ -251,6 +255,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ТаблицаРасходовСуммаКонтекстноеМеню" id="273"/>
@@ -266,6 +271,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<ContextMenu name="ТаблицаРасходовСуммаБезНДСКонтекстноеМеню" id="344"/>
 							<ExtendedTooltip name="ТаблицаРасходовСуммаБезНДСРасширеннаяПодсказка" id="345"/>
@@ -286,6 +292,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<ContextMenu name="ТаблицаРасходовСуммаРеглКонтекстноеМеню" id="347"/>
 							<ExtendedTooltip name="ТаблицаРасходовСуммаРеглРасширеннаяПодсказка" id="348"/>
@@ -293,6 +300,7 @@
 						<InputField name="ТаблицаРасходовСуммаНУ" id="358">
 							<DataPath>ТаблицаРасходов.СуммаНУ</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаРасходовСуммаНУКонтекстноеМеню" id="359"/>
 							<ExtendedTooltip name="ТаблицаРасходовСуммаНУРасширеннаяПодсказка" id="360"/>
 						</InputField>
@@ -306,6 +314,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<ContextMenu name="ТаблицаРасходовПостояннаяРазницаКонтекстноеМеню" id="350"/>
 							<ExtendedTooltip name="ТаблицаРасходовПостояннаяРазницаРасширеннаяПодсказка" id="351"/>
@@ -320,6 +329,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<ContextMenu name="ТаблицаРасходовВременнаяРазницаКонтекстноеМеню" id="353"/>
 							<ExtendedTooltip name="ТаблицаРасходовВременнаяРазницаРасширеннаяПодсказка" id="354"/>
@@ -334,6 +344,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<ContextMenu name="ТаблицаРасходовСуммаНДДКонтекстноеМеню" id="362"/>
 							<ExtendedTooltip name="ТаблицаРасходовСуммаНДДРасширеннаяПодсказка" id="363"/>

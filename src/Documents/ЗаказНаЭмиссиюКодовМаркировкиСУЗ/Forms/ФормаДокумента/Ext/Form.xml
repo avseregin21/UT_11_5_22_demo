@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -327,6 +327,7 @@
 												<InputField name="Номер" id="1">
 													<DataPath>Объект.Number</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>9</MaxWidth>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -341,6 +342,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>14</MaxWidth>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
@@ -351,6 +353,7 @@
 										<InputField name="Организация" id="7">
 											<DataPath>Объект.Организация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
@@ -362,6 +365,7 @@
 										<InputField name="ВидПродукции" id="19">
 											<DataPath>Объект.ВидПродукции</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ListChoiceMode>true</ListChoiceMode>
@@ -517,7 +521,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БезУчетаНоменклатурыКонтекстноеМеню" id="400"/>
 													<ExtendedTooltip name="БезУчетаНоменклатурыРасширеннаяПодсказка" id="401"/>
 													<Events>
@@ -534,14 +537,12 @@
 												<CheckBoxField name="ВвезенПослеДатыОбязательнойМаркировки" id="402">
 													<DataPath>Объект.ВвезенПослеДатыОбязательнойМаркировки</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ВвезенПослеДатыОбязательнойМаркировкиКонтекстноеМеню" id="403"/>
 													<ExtendedTooltip name="ВвезенПослеДатыОбязательнойМаркировкиРасширеннаяПодсказка" id="404"/>
 												</CheckBoxField>
 												<CheckBoxField name="ПриобретенПроизведенПослеДатыОбязательнойМаркировки" id="405">
 													<DataPath>Объект.ПриобретенПроизведенПослеДатыОбязательнойМаркировки</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПриобретенПроизведенПослеДатыОбязательнойМаркировкиКонтекстноеМеню" id="406"/>
 													<ExtendedTooltip name="ПриобретенПроизведенПослеДатыОбязательнойМаркировкиРасширеннаяПодсказка" id="407"/>
 												</CheckBoxField>
@@ -1107,6 +1108,7 @@
 								<LabelField name="ТоварыНомерСтроки" id="39">
 									<DataPath>Объект.Товары.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>6</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="40"/>
@@ -1115,6 +1117,7 @@
 								<InputField name="ТоварыНоменклатура" id="45">
 									<DataPath>Объект.Товары.Номенклатура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="47"/>
@@ -1126,6 +1129,7 @@
 								<InputField name="ТоварыХарактеристика" id="48">
 									<DataPath>Объект.Товары.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТоварыХарактеристикаКонтекстноеМеню" id="49"/>
 									<ExtendedTooltip name="ТоварыХарактеристикаРасширеннаяПодсказка" id="50"/>
@@ -1255,6 +1259,7 @@
 									<DataPath>Объект.Товары.Шаблон</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ListChoiceMode>true</ListChoiceMode>
@@ -1269,6 +1274,7 @@
 									<DataPath>Объект.Товары.GTIN</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ListChoiceMode>true</ListChoiceMode>
@@ -1400,7 +1406,6 @@
 								<CheckBoxField name="ТоварыХарактеристикиИспользуются" id="480">
 									<DataPath>Объект.Товары.ХарактеристикиИспользуются</DataPath>
 									<Visible>false</Visible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТоварыХарактеристикиИспользуютсяКонтекстноеМеню" id="486"/>
 									<ExtendedTooltip name="ТоварыХарактеристикиИспользуютсяРасширеннаяПодсказка" id="487"/>
 								</CheckBoxField>
@@ -1419,14 +1424,12 @@
 								<CheckBoxField name="ТоварыЭтоНабор" id="472">
 									<DataPath>Объект.Товары.ЭтоНабор</DataPath>
 									<Visible>false</Visible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТоварыЭтоНаборКонтекстноеМеню" id="473"/>
 									<ExtendedTooltip name="ТоварыЭтоНаборРасширеннаяПодсказка" id="474"/>
 								</CheckBoxField>
 								<CheckBoxField name="ТоварыЭтоГрупповаяУпаковка" id="469">
 									<DataPath>Объект.Товары.ЭтоГрупповаяУпаковка</DataPath>
 									<Visible>false</Visible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТоварыЭтоГрупповаяУпаковкаКонтекстноеМеню" id="470"/>
 									<ExtendedTooltip name="ТоварыЭтоГрупповаяУпаковкаРасширеннаяПодсказка" id="471"/>
 								</CheckBoxField>
@@ -1498,18 +1501,21 @@
 								<LabelField name="СерийныеНомераНомерСтроки" id="90">
 									<DataPath>Объект.СерийныеНомера.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СерийныеНомераНомерСтрокиКонтекстноеМеню" id="91"/>
 									<ExtendedTooltip name="СерийныеНомераНомерСтрокиРасширеннаяПодсказка" id="92"/>
 								</LabelField>
 								<InputField name="СерийныеНомераИдентификаторСтроки" id="93">
 									<DataPath>Объект.СерийныеНомера.ИдентификаторСтроки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СерийныеНомераИдентификаторСтрокиКонтекстноеМеню" id="94"/>
 									<ExtendedTooltip name="СерийныеНомераИдентификаторСтрокиРасширеннаяПодсказка" id="95"/>
 								</InputField>
 								<InputField name="СерийныеНомераСерийныйНомер" id="96">
 									<DataPath>Объект.СерийныеНомера.СерийныйНомер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СерийныеНомераСерийныйНомерКонтекстноеМеню" id="97"/>
 									<ExtendedTooltip name="СерийныеНомераСерийныйНомерРасширеннаяПодсказка" id="98"/>
 								</InputField>
@@ -1548,6 +1554,7 @@
 						<InputField name="Ответственный" id="16">
 							<DataPath>Объект.Ответственный</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="17"/>

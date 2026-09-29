@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -49,8 +49,8 @@
 						<Table name="СписокГруппПродукции" id="1">
 							<Representation>List</Representation>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокГруппПродукции</DataPath>
@@ -93,6 +93,7 @@
 								<InputField name="СписокГруппПродукцииЗначение" id="4">
 									<DataPath>СписокГруппПродукции.Value</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<ContextMenu name="СписокГруппПродукцииЗначениеКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="СписокГруппПродукцииЗначениеРасширеннаяПодсказка" id="16"/>
@@ -113,8 +114,8 @@
 						<Table name="СписокМатериалов" id="37">
 							<Representation>List</Representation>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокМатериалов</DataPath>
@@ -157,6 +158,7 @@
 								<InputField name="СписокМатериаловЗначение" id="56">
 									<DataPath>СписокМатериалов.Value</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокМатериаловЗначениеКонтекстноеМеню" id="57"/>
 									<ExtendedTooltip name="СписокМатериаловЗначениеРасширеннаяПодсказка" id="58"/>
 								</InputField>
@@ -176,8 +178,8 @@
 						<Table name="СписокВидовРабот" id="59">
 							<Representation>List</Representation>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокВидовРабот</DataPath>
@@ -220,6 +222,7 @@
 								<InputField name="СписокВидовРаботЗначение" id="78">
 									<DataPath>СписокВидовРабот.Value</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<ContextMenu name="СписокВидовРаботЗначениеКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="СписокВидовРаботЗначениеРасширеннаяПодсказка" id="80"/>
@@ -240,8 +243,8 @@
 						<Table name="СписокПодразделений" id="83">
 							<Representation>List</Representation>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокПодразделений</DataPath>
@@ -284,6 +287,7 @@
 								<InputField name="СписокПодразделенийЗначение" id="102">
 									<DataPath>СписокПодразделений.Value</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокПодразделенийЗначениеКонтекстноеМеню" id="103"/>
 									<ExtendedTooltip name="СписокПодразделенийЗначениеРасширеннаяПодсказка" id="104"/>
 								</InputField>
@@ -303,8 +307,8 @@
 						<Table name="СписокПродукции" id="110">
 							<Representation>List</Representation>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокПродукции</DataPath>
@@ -347,6 +351,7 @@
 								<InputField name="СписокПродукцииЗначение" id="123">
 									<DataPath>СписокПродукции.Value</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокПродукцииЗначениеКонтекстноеМеню" id="124"/>
 									<ExtendedTooltip name="СписокПродукцииЗначениеРасширеннаяПодсказка" id="125"/>
 								</InputField>
@@ -366,8 +371,8 @@
 						<Table name="СписокНаправленийДеятельности" id="128">
 							<Representation>List</Representation>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокНаправленийДеятельности</DataPath>
@@ -404,6 +409,7 @@
 								<InputField name="СписокНаправленийДеятельностиЗначение" id="141">
 									<DataPath>СписокНаправленийДеятельности.Value</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокНаправленийДеятельностиЗначениеКонтекстноеМеню" id="142"/>
 									<ExtendedTooltip name="СписокНаправленийДеятельностиЗначениеРасширеннаяПодсказка" id="143"/>
 								</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -172,7 +172,7 @@
 						<xr:Ref>CommonPicture.ДоставкаКолонкаДоставлено</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</HeaderPicture>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="РаспоряженияДоставленоКонтекстноеМеню" id="90"/>
 					<ExtendedTooltip name="РаспоряженияДоставленоРасширеннаяПодсказка" id="91"/>
 				</CheckBoxField>
@@ -205,6 +205,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="РаспоряженияОтправительКонтекстноеМеню" id="200"/>
 									<ExtendedTooltip name="РаспоряженияОтправительРасширеннаяПодсказка" id="201"/>
@@ -213,6 +214,7 @@
 									<DataPath>Распоряжения.Склад</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="РаспоряженияСкладКонтекстноеМеню" id="93"/>
 									<ExtendedTooltip name="РаспоряженияСкладРасширеннаяПодсказка" id="94"/>
@@ -227,6 +229,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="РаспоряженияПолучательКонтекстноеМеню" id="87"/>
 									<ExtendedTooltip name="РаспоряженияПолучательРасширеннаяПодсказка" id="88"/>
@@ -238,6 +241,9 @@
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<CellHyperlink>true</CellHyperlink>
+							<AutoEditMode>true</AutoEditMode>
+							<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+							<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 							<ContextMenu name="РаспоряженияРаспоряжениеКонтекстноеМеню" id="69"/>
 							<ExtendedTooltip name="РаспоряженияРаспоряжениеРасширеннаяПодсказка" id="70"/>
 						</InputField>
@@ -247,6 +253,7 @@
 					<DataPath>Распоряжения.Время</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="РаспоряженияВремяКонтекстноеМеню" id="197"/>
@@ -256,6 +263,7 @@
 					<DataPath>Распоряжения.Вес</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>7</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Format>
@@ -271,6 +279,7 @@
 					<DataPath>Распоряжения.Объем</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>7</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Format>
@@ -286,6 +295,7 @@
 					<DataPath>Распоряжения.ДополнительнаяИнформация</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="РаспоряженияДополнительнаяИнформацияКонтекстноеМеню" id="81"/>
 					<ExtendedTooltip name="РаспоряженияДополнительнаяИнформацияРасширеннаяПодсказка" id="82"/>
 				</InputField>
@@ -391,6 +401,7 @@
 							<DataPath>ТоварыКДоставке.Номенклатура</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ТоварыКДоставкеНоменклатураКонтекстноеМеню" id="142"/>
 							<ExtendedTooltip name="ТоварыКДоставкеНоменклатураРасширеннаяПодсказка" id="143"/>
@@ -399,6 +410,7 @@
 							<DataPath>ТоварыКДоставке.Характеристика</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>7</Width>
 							<ContextMenu name="ТоварыКДоставкеХарактеристикаКонтекстноеМеню" id="145"/>
 							<ExtendedTooltip name="ТоварыКДоставкеХарактеристикаРасширеннаяПодсказка" id="146"/>
@@ -407,6 +419,7 @@
 							<DataPath>ТоварыКДоставке.Назначение</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>5</Width>
 							<ContextMenu name="ТоварыКДоставкеНазначениеКонтекстноеМеню" id="160"/>
 							<ExtendedTooltip name="ТоварыКДоставкеНазначениеРасширеннаяПодсказка" id="161"/>
@@ -415,6 +428,7 @@
 							<DataPath>ТоварыКДоставке.Серия</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>5</Width>
 							<ContextMenu name="ТоварыКДоставкеСерияКонтекстноеМеню" id="148"/>
 							<ExtendedTooltip name="ТоварыКДоставкеСерияРасширеннаяПодсказка" id="149"/>
@@ -424,6 +438,7 @@
 				<InputField name="ТоварыКДоставкеВес" id="153">
 					<DataPath>ТоварыКДоставке.Вес</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>7</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Format>
@@ -441,6 +456,7 @@
 				<InputField name="ТоварыКДоставкеОбъем" id="156">
 					<DataPath>ТоварыКДоставке.Объем</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>7</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Format>
@@ -468,6 +484,7 @@
 						<InputField name="ТоварыКДоставкеКоличество" id="150">
 							<DataPath>ТоварыКДоставке.Количество</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ТоварыКДоставкеКоличествоКонтекстноеМеню" id="151"/>
@@ -486,6 +503,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ТоварыКДоставкеНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="182"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 	</CommandSet>
@@ -823,6 +823,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>1</Height>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -862,6 +863,7 @@
 																			<DataPath>Объект.ТитулГрузоотправителяТранспортнаяНакладнаяНомер</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>1</Height>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -904,6 +906,7 @@
 																			<DataPath>Объект.ТитулГрузоотправителяТранспортнаяНакладнаяДата</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>8</Width>
 																			<Height>1</Height>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -994,6 +997,7 @@
 																			</ToolTip>
 																			<ToolTipRepresentation>Button</ToolTipRepresentation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<InputHint>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
@@ -1045,6 +1049,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузоотправителяЗаказДатаКонтекстноеМеню" id="30"/>
 																			<ExtendedTooltip name="ТитулГрузоотправителяЗаказДатаРасширеннаяПодсказка" id="31"/>
 																			<Events>
@@ -1122,7 +1127,6 @@
 																				</v8:item>
 																			</ToolTip>
 																			<ToolTipRepresentation>Button</ToolTipRepresentation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ВариантПоДоверенностиКонтекстноеМеню" id="1827"/>
 																			<ExtendedTooltip name="ВариантПоДоверенностиРасширеннаяПодсказка" id="1828"/>
 																			<Events>
@@ -1168,6 +1172,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяГрузоотправительКонтекстноеМеню" id="57"/>
@@ -1239,7 +1244,6 @@
 																							<v8:content>Статус грузоотправителя (грузоотправитель является / не является экспедитором)</v8:content>
 																						</v8:item>
 																					</ToolTip>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="ТитулГрузоотправителяЭкспедиторКонтекстноеМеню" id="38"/>
 																					<ExtendedTooltip name="ТитулГрузоотправителяЭкспедиторРасширеннаяПодсказка" id="39"/>
 																					<Events>
@@ -1267,7 +1271,6 @@
 																							<v8:content>Грузоотправитель является грузополучателем</v8:content>
 																						</v8:item>
 																					</ToolTip>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="ГрузоотправительЯвляетсяГрузополучателемКонтекстноеМеню" id="1120"/>
 																					<ExtendedTooltip name="ГрузоотправительЯвляетсяГрузополучателемРасширеннаяПодсказка" id="1722"/>
 																					<Events>
@@ -1368,6 +1371,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяЗаказчикКонтекстноеМеню" id="72"/>
@@ -1428,6 +1432,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяСоставительКонтекстноеМеню" id="1835"/>
@@ -1598,6 +1603,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяГрузополучательКонтекстноеМеню" id="98"/>
@@ -1663,6 +1669,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<DropListButton>true</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
@@ -1942,6 +1949,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяПеревозчикКонтекстноеМеню" id="157"/>
@@ -2047,7 +2055,6 @@
 																							<v8:content>Статус грузоотправителя (грузоотправитель является / не является экспедитором)</v8:content>
 																						</v8:item>
 																					</ToolTip>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="ТитулГрузоотправителяОтправлятьQRКонтекстноеМеню" id="1812"/>
 																					<ExtendedTooltip name="ТитулГрузоотправителяОтправлятьQRРасширеннаяПодсказка" id="1813"/>
 																					<Events>
@@ -2104,6 +2111,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<DropListButton>false</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
 																			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -2371,6 +2379,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПрибытияКонтекстноеМеню" id="201"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПрибытияРасширеннаяПодсказка" id="202"/>
 																			<Events>
@@ -2416,6 +2425,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяУбытияКонтекстноеМеню" id="209"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяУбытияРасширеннаяПодсказка" id="210"/>
 																			<Events>
@@ -2461,6 +2471,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПостановкиНаПогрузкуКонтекстноеМеню" id="217"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПостановкиНаПогрузкуРасширеннаяПодсказка" id="218"/>
 																			<Events>
@@ -2506,6 +2517,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииФактическогоСостояниеГрузаКонтекстноеМеню" id="225"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииФактическогоСостояниеГрузаРасширеннаяПодсказка" id="226"/>
@@ -2552,6 +2564,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииМассыГрузаКонтекстноеМеню" id="233"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииМассыГрузаРасширеннаяПодсказка" id="234"/>
@@ -2598,6 +2611,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииКоличестваГрузовыхМестКонтекстноеМеню" id="241"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииКоличестваГрузовыхМестРасширеннаяПодсказка" id="242"/>
@@ -2644,6 +2658,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииПроведенияПогрузочныхРаботКонтекстноеМеню" id="249"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииПроведенияПогрузочныхРаботРасширеннаяПодсказка" id="250"/>
@@ -2862,6 +2877,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxHeight>false</AutoMaxHeight>
 																			<MaxHeight>3</MaxHeight>
 																			<MultiLine>true</MultiLine>
@@ -2945,6 +2961,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<SpinButton>true</SpinButton>
 																			<ContextMenu name="ТитулГрузополучателяФактическиеДатаВремяПрибытияКонтекстноеМеню" id="290"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяФактическиеДатаВремяПрибытияРасширеннаяПодсказка" id="291"/>
@@ -2992,6 +3009,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<SpinButton>true</SpinButton>
 																			<ContextMenu name="ТитулГрузополучателяФактическиеДатаВремяУбытияКонтекстноеМеню" id="298"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяФактическиеДатаВремяУбытияРасширеннаяПодсказка" id="299"/>
@@ -3039,6 +3057,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<SpinButton>true</SpinButton>
 																			<ContextMenu name="ТитулГрузополучателяЗаявленныеДатаВремяПрибытияКонтекстноеМеню" id="306"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяЗаявленныеДатаВремяПрибытияРасширеннаяПодсказка" id="307"/>
@@ -3207,6 +3226,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузополучателяОбщееКоличествоПринятыхГрузовыхМестКонтекстноеМеню" id="333"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяОбщееКоличествоПринятыхГрузовыхМестРасширеннаяПодсказка" id="334"/>
 																			<Events>
@@ -3252,6 +3272,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулГрузополучателяФактическоеСостояниеГрузаКонтекстноеМеню" id="341"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяФактическоеСостояниеГрузаРасширеннаяПодсказка" id="342"/>
@@ -3298,6 +3319,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузополучателяМассаБруттоПринятогоГрузаКонтекстноеМеню" id="349"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяМассаБруттоПринятогоГрузаРасширеннаяПодсказка" id="350"/>
 																			<Events>
@@ -3343,6 +3365,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузополучателяМассаНеттоПринятогоГрузаКонтекстноеМеню" id="357"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяМассаНеттоПринятогоГрузаРасширеннаяПодсказка" id="358"/>
 																			<Events>
@@ -3388,6 +3411,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузополучателяОбъемГрузовыхМестКонтекстноеМеню" id="365"/>
 																			<ExtendedTooltip name="ТитулГрузополучателяОбъемГрузовыхМестРасширеннаяПодсказка" id="366"/>
 																			<Events>
@@ -3474,6 +3498,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<DropListButton>true</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
@@ -3780,6 +3805,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаВыдачаДатаВремяПрибытияКонтекстноеМеню" id="424"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаВыдачаДатаВремяПрибытияРасширеннаяПодсказка" id="425"/>
 																			<Events>
@@ -3825,6 +3851,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаВыдачаДатаВремяУбытияКонтекстноеМеню" id="432"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаВыдачаДатаВремяУбытияРасширеннаяПодсказка" id="433"/>
 																			<Events>
@@ -3870,6 +3897,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаВыдачаДатаИВремяПостановкиНаВыгрузкуКонтекстноеМеню" id="440"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаВыдачаДатаИВремяПостановкиНаВыгрузкуРасширеннаяПодсказка" id="441"/>
 																			<Events>
@@ -3915,6 +3943,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииФактическогоСостоянияГрузаКонтекстноеМеню" id="448"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииФактическогоСостоянияГрузаРасширеннаяПодсказка" id="449"/>
@@ -3961,6 +3990,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииПроведенияРаботПоВыгрузкеКонтекстноеМеню" id="456"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииПроведенияРаботПоВыгрузкеРасширеннаяПодсказка" id="457"/>
@@ -4109,6 +4139,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>12</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулУказаниеПереадресНовыеДатаВремяПодачиПодВыгрузкуКонтекстноеМеню" id="1883"/>
@@ -4156,6 +4187,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -4206,6 +4238,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>3</Height>
 																			<AutoMaxHeight>false</AutoMaxHeight>
@@ -4291,6 +4324,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ContextMenu name="СсылкаТитулУказаниеПереадресСведенияОНовомГрузополучателеКонтекстноеМеню" id="1875"/>
 																			<ExtendedTooltip name="СсылкаТитулУказаниеПереадресСведенияОНовомГрузополучателеРасширеннаяПодсказка" id="1876"/>
@@ -4337,6 +4371,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ContextMenu name="СсылкаТитулУказаниеПереадресЛицоКонтекстноеМеню" id="1867"/>
 																			<ExtendedTooltip name="СсылкаТитулУказаниеПереадресЛицоРасширеннаяПодсказка" id="1868"/>
@@ -4564,6 +4599,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПереадресовкаДатаВремяКонтекстноеМеню" id="478"/>
 																			<ExtendedTooltip name="ТитулПереадресовкаДатаВремяРасширеннаяПодсказка" id="479"/>
 																			<Events>
@@ -4644,6 +4680,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПереадресовкаНовыеДатаВремяПодачиПодВыгрузкуКонтекстноеМеню" id="592"/>
 																			<ExtendedTooltip name="ТитулПереадресовкаНовыеДатаВремяПодачиПодВыгрузкуРасширеннаяПодсказка" id="593"/>
 																			<Events>
@@ -4794,6 +4831,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулПереадресовкаНовыйГрузополучательКонтекстноеМеню" id="547"/>
@@ -4859,6 +4897,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -4963,6 +5002,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<DropListButton>true</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
@@ -5062,6 +5102,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПереадресовкаОснованиеНаименованиеКонтекстноеМеню" id="497"/>
 																			<ExtendedTooltip name="ТитулПереадресовкаОснованиеНаименованиеРасширеннаяПодсказка" id="498"/>
 																			<Events>
@@ -5107,6 +5148,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПереадресовкаОснованиеНомерКонтекстноеМеню" id="505"/>
 																			<ExtendedTooltip name="ТитулПереадресовкаОснованиеНомерРасширеннаяПодсказка" id="506"/>
 																			<Events>
@@ -5152,6 +5194,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПереадресовкаОснованиеДатаКонтекстноеМеню" id="513"/>
 																			<ExtendedTooltip name="ТитулПереадресовкаОснованиеДатаРасширеннаяПодсказка" id="514"/>
 																			<Events>
@@ -5197,6 +5240,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПереадресовкаОснованиеДополнительныеСведенияКонтекстноеМеню" id="521"/>
 																			<ExtendedTooltip name="ТитулПереадресовкаОснованиеДополнительныеСведенияРасширеннаяПодсказка" id="522"/>
 																			<Events>
@@ -5570,6 +5614,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаЗаменыДатаВремяЗаменыКонтекстноеМеню" id="630"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаЗаменыДатаВремяЗаменыРасширеннаяПодсказка" id="631"/>
 																			<Events>
@@ -5714,6 +5759,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаЗаменыПричинаЗаменыПроизвольныйТекстКонтекстноеМеню" id="638"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаЗаменыПричинаЗаменыПроизвольныйТекстРасширеннаяПодсказка" id="639"/>
 																			<Events>
@@ -5759,6 +5805,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулПеревозчикаЗаменыДокументНаименованиеКонтекстноеМеню" id="657"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаЗаменыДокументНаименованиеРасширеннаяПодсказка" id="658"/>
@@ -5805,6 +5852,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулПеревозчикаЗаменыДокументНомерКонтекстноеМеню" id="665"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаЗаменыДокументНомерРасширеннаяПодсказка" id="666"/>
@@ -5851,6 +5899,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулПеревозчикаЗаменыДокументДатаКонтекстноеМеню" id="673"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаЗаменыДокументДатаРасширеннаяПодсказка" id="674"/>
@@ -5897,6 +5946,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулПеревозчикаЗаменыДокументДополнительныеСведенияКонтекстноеМеню" id="681"/>
 																			<ExtendedTooltip name="ТитулПеревозчикаЗаменыДокументДополнительныеСведенияРасширеннаяПодсказка" id="682"/>
 																			<Events>
@@ -6202,6 +6252,7 @@
 																			<DataPath>СсылкаТитулПеревозчикаФХЖВалютаСтоимости</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>10</MaxWidth>
 																			<InputHint>
@@ -6255,6 +6306,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>10</MaxWidth>
 																			<ContextMenu name="ТитулПеревозчикаФХЖСтоимостьПеревозкиБезНалогаКонтекстноеМеню" id="743"/>
@@ -6482,6 +6534,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>10</MaxWidth>
 																			<ContextMenu name="ТитулПеревозчикаФХЖСуммаНДСКонтекстноеМеню" id="775"/>
@@ -6529,6 +6582,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>10</MaxWidth>
 																			<ContextMenu name="ТитулПеревозчикаФХЖСтоимостьПеревозкиСНалогомКонтекстноеМеню" id="759"/>
@@ -6576,6 +6630,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxHeight>false</AutoMaxHeight>
 																			<MaxHeight>5</MaxHeight>
 																			<MultiLine>true</MultiLine>
@@ -6685,6 +6740,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяФХЖБанковскиеРеквизитыКонтекстноеМеню" id="837"/>
@@ -6767,6 +6823,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузоотправителяФХЖГрузоотправительОКПОКонтекстноеМеню" id="805"/>
 																			<ExtendedTooltip name="ТитулГрузоотправителяФХЖГрузоотправительОКПОРасширеннаяПодсказка" id="806"/>
 																			<Events>
@@ -6812,6 +6869,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузоотправителяФХЖГрузоотправительКраткоеНаименованиеКонтекстноеМеню" id="829"/>
 																			<ExtendedTooltip name="ТитулГрузоотправителяФХЖГрузоотправительКраткоеНаименованиеРасширеннаяПодсказка" id="830"/>
 																			<Events>
@@ -6857,6 +6915,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулГрузоотправителяФХЖГрузоотправительСтруктурноеПодразделениеКонтекстноеМеню" id="813"/>
 																			<ExtendedTooltip name="ТитулГрузоотправителяФХЖГрузоотправительСтруктурноеПодразделениеРасширеннаяПодсказка" id="814"/>
 																			<Events>
@@ -6969,6 +7028,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>12</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ДопТитулУказаниеПереадресНовыеДатаВремяПодачиПодВыгрузкуКонтекстноеМеню" id="1946"/>
@@ -7022,6 +7082,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -7078,6 +7139,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>3</Height>
 																			<AutoMaxHeight>false</AutoMaxHeight>
@@ -7175,6 +7237,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ContextMenu name="СсылкаДопТитулУказаниеПереадресСведенияОНовомГрузополучателеКонтекстноеМеню" id="1981"/>
 																			<ExtendedTooltip name="СсылкаДопТитулУказаниеПереадресСведенияОНовомГрузополучателеРасширеннаяПодсказка" id="1982"/>
@@ -7227,6 +7290,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ContextMenu name="СсылкаДопТитулУказаниеПереадресЛицоКонтекстноеМеню" id="1989"/>
 																			<ExtendedTooltip name="СсылкаДопТитулУказаниеПереадресЛицоРасширеннаяПодсказка" id="1990"/>
@@ -7460,6 +7524,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПереадресовкаДатаВремяКонтекстноеМеню" id="1112"/>
 																			<ExtendedTooltip name="ДопТитулПереадресовкаДатаВремяРасширеннаяПодсказка" id="1723"/>
 																			<Events>
@@ -7540,6 +7605,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПереадресовкаНовыеДатаВремяПодачиПодВыгрузкуКонтекстноеМеню" id="1131"/>
 																			<ExtendedTooltip name="ДопТитулПереадресовкаНовыеДатаВремяПодачиПодВыгрузкуРасширеннаяПодсказка" id="1130"/>
 																			<Events>
@@ -7690,6 +7756,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаДопТитулПереадресовкаНовыйГрузополучательКонтекстноеМеню" id="1211"/>
@@ -7755,6 +7822,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -7859,6 +7927,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<DropListButton>true</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
@@ -7958,6 +8027,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПереадресовкаОснованиеНаименованиеКонтекстноеМеню" id="1161"/>
 																			<ExtendedTooltip name="ДопТитулПереадресовкаОснованиеНаименованиеРасширеннаяПодсказка" id="1160"/>
 																			<Events>
@@ -8003,6 +8073,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПереадресовкаОснованиеНомерКонтекстноеМеню" id="1169"/>
 																			<ExtendedTooltip name="ДопТитулПереадресовкаОснованиеНомерРасширеннаяПодсказка" id="1168"/>
 																			<Events>
@@ -8048,6 +8119,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПереадресовкаОснованиеДатаКонтекстноеМеню" id="1177"/>
 																			<ExtendedTooltip name="ДопТитулПереадресовкаОснованиеДатаРасширеннаяПодсказка" id="1176"/>
 																			<Events>
@@ -8093,6 +8165,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПереадресовкаОснованиеДополнительныеСведенияКонтекстноеМеню" id="1185"/>
 																			<ExtendedTooltip name="ДопТитулПереадресовкаОснованиеДополнительныеСведенияРасширеннаяПодсказка" id="1184"/>
 																			<Events>
@@ -8466,6 +8539,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПеревозчикаЗаменыДатаВремяЗаменыКонтекстноеМеню" id="1278"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаЗаменыДатаВремяЗаменыРасширеннаяПодсказка" id="1277"/>
 																			<Events>
@@ -8616,6 +8690,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПеревозчикаЗаменыПричинаЗаменыПроизвольныйТекстКонтекстноеМеню" id="1286"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаЗаменыПричинаЗаменыПроизвольныйТекстРасширеннаяПодсказка" id="1285"/>
 																			<Events>
@@ -8661,6 +8736,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ДопТитулПеревозчикаЗаменыДокументНаименованиеКонтекстноеМеню" id="1305"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаЗаменыДокументНаименованиеРасширеннаяПодсказка" id="1304"/>
@@ -8707,6 +8783,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ДопТитулПеревозчикаЗаменыДокументНомерКонтекстноеМеню" id="1313"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаЗаменыДокументНомерРасширеннаяПодсказка" id="1312"/>
@@ -8753,6 +8830,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ДопТитулПеревозчикаЗаменыДокументДатаКонтекстноеМеню" id="1321"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаЗаменыДокументДатаРасширеннаяПодсказка" id="1320"/>
@@ -8799,6 +8877,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПеревозчикаЗаменыДокументДополнительныеСведенияКонтекстноеМеню" id="1329"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаЗаменыДокументДополнительныеСведенияРасширеннаяПодсказка" id="1328"/>
 																			<Events>
@@ -9180,6 +9259,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxHeight>false</AutoMaxHeight>
 																			<MaxHeight>3</MaxHeight>
 																			<MultiLine>true</MultiLine>
@@ -9263,6 +9343,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<SpinButton>true</SpinButton>
 																			<ContextMenu name="ДопТитулГрузополучателяФактическиеДатаВремяПрибытияКонтекстноеМеню" id="1416"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяФактическиеДатаВремяПрибытияРасширеннаяПодсказка" id="1415"/>
@@ -9310,6 +9391,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<SpinButton>true</SpinButton>
 																			<ContextMenu name="ДопТитулГрузополучателяФактическиеДатаВремяУбытияКонтекстноеМеню" id="1424"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяФактическиеДатаВремяУбытияРасширеннаяПодсказка" id="1423"/>
@@ -9357,6 +9439,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<SpinButton>true</SpinButton>
 																			<ContextMenu name="ДопТитулГрузополучателяЗаявленныеДатаВремяПрибытияКонтекстноеМеню" id="1432"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяЗаявленныеДатаВремяПрибытияРасширеннаяПодсказка" id="1431"/>
@@ -9525,6 +9608,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулГрузополучателяОбщееКоличествоПринятыхГрузовыхМестКонтекстноеМеню" id="1459"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяОбщееКоличествоПринятыхГрузовыхМестРасширеннаяПодсказка" id="1458"/>
 																			<Events>
@@ -9570,6 +9654,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ДопТитулГрузополучателяФактическоеСостояниеГрузаКонтекстноеМеню" id="1467"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяФактическоеСостояниеГрузаРасширеннаяПодсказка" id="1466"/>
@@ -9616,6 +9701,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулГрузополучателяМассаБруттоПринятогоГрузаКонтекстноеМеню" id="1475"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяМассаБруттоПринятогоГрузаРасширеннаяПодсказка" id="1474"/>
 																			<Events>
@@ -9661,6 +9747,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулГрузополучателяМассаНеттоПринятогоГрузаКонтекстноеМеню" id="1483"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяМассаНеттоПринятогоГрузаРасширеннаяПодсказка" id="1482"/>
 																			<Events>
@@ -9706,6 +9793,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулГрузополучателяОбъемГрузовыхМестКонтекстноеМеню" id="1491"/>
 																			<ExtendedTooltip name="ДопТитулГрузополучателяОбъемГрузовыхМестРасширеннаяПодсказка" id="1490"/>
 																			<Events>
@@ -9792,6 +9880,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<DropListButton>true</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
@@ -10098,6 +10187,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПеревозчикаВыдачаДатаВремяПрибытияКонтекстноеМеню" id="1563"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаВыдачаДатаВремяПрибытияРасширеннаяПодсказка" id="1562"/>
 																			<Events>
@@ -10143,6 +10233,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПеревозчикаВыдачаДатаВремяУбытияКонтекстноеМеню" id="1571"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаВыдачаДатаВремяУбытияРасширеннаяПодсказка" id="1570"/>
 																			<Events>
@@ -10188,6 +10279,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДопТитулПеревозчикаВыдачаДатаИВремяПостановкиНаВыгрузкуКонтекстноеМеню" id="1579"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаВыдачаДатаИВремяПостановкиНаВыгрузкуРасширеннаяПодсказка" id="1578"/>
 																			<Events>
@@ -10233,6 +10325,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ДопТитулПеревозчикаВыдачаЗамечанияВОтношенииФактическогоСостоянияГрузаКонтекстноеМеню" id="1587"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаВыдачаЗамечанияВОтношенииФактическогоСостоянияГрузаРасширеннаяПодсказка" id="1586"/>
@@ -10279,6 +10372,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<MultiLine>true</MultiLine>
 																			<ContextMenu name="ДопТитулПеревозчикаВыдачаЗамечанияВОтношенииПроведенияРаботПоВыгрузкеКонтекстноеМеню" id="1595"/>
 																			<ExtendedTooltip name="ДопТитулПеревозчикаВыдачаЗамечанияВОтношенииПроведенияРаботПоВыгрузкеРасширеннаяПодсказка" id="1594"/>

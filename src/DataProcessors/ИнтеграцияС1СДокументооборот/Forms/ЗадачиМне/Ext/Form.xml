@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -433,6 +434,7 @@
 															<DataPath>Задачи.Задача</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>30</Width>
 															<ContextMenu name="ЗадачиЗадачаКонтекстноеМеню" id="12"/>
 															<ExtendedTooltip name="ЗадачиЗадачаРасширеннаяПодсказка" id="117"/>
@@ -449,6 +451,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<Format>
 														<v8:item>
@@ -484,6 +487,7 @@
 															<DataPath>Задачи.Автор</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>14</Width>
 															<ContextMenu name="ЗадачиАвторКонтекстноеМеню" id="22"/>
 															<ExtendedTooltip name="ЗадачиАвторРасширеннаяПодсказка" id="120"/>
@@ -492,6 +496,7 @@
 															<DataPath>Задачи.Записана</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<Format>
 																<v8:item>
@@ -519,6 +524,7 @@
 														<xr:Ref>CommonPicture.ВосклицательныйЗнакСерый</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</HeaderPicture>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>2</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ValuesPicture>
@@ -697,7 +703,7 @@
 																			<HeightInTableRows>3</HeightInTableRows>
 																			<SelectionMode>SingleRow</SelectionMode>
 																			<Header>false</Header>
-																			<HorizontalLines>false</HorizontalLines>
+																			<HorizontalLinesBWA>false</HorizontalLinesBWA>
 																			<AutoInsertNewRow>true</AutoInsertNewRow>
 																			<AutoAddIncomplete>false</AutoAddIncomplete>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -803,6 +809,7 @@
 																				<InputField name="ДеревоПриложенийПредставление" id="334">
 																					<DataPath>ДеревоПриложений.Представление</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<Height>1</Height>
 																					<HorizontalStretch>true</HorizontalStretch>
 																					<Wrap>false</Wrap>

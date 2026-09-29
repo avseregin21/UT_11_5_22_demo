@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<ScalingMode>Normal</ScalingMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -31,7 +31,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаПродажиРасширеннаяПодсказка" id="375"/>
 			<ChildItems>
@@ -71,7 +71,6 @@
 									<v8:content>Отключать возможность использования договоров после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьДоговорыСКлиентамиКонтекстноеМеню" id="295"/>
 							<ExtendedTooltip name="ИспользоватьДоговорыСКлиентамиРасширеннаяПодсказка" id="296"/>
 							<Events>
@@ -201,7 +200,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="АвтоПостановкаКлиентовНаМониторингСПАРККонтекстноеМеню" id="492"/>
 							<ExtendedTooltip name="АвтоПостановкаКлиентовНаМониторингСПАРКРасширеннаяПодсказка" id="493"/>
 							<Events>
@@ -270,7 +268,6 @@
 											<v8:content>Отключать возможность использования соглашений после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСоглашенияСКлиентамиКонтекстноеМеню" id="379"/>
 									<ExtendedTooltip name="ИспользоватьСоглашенияСКлиентамиРасширеннаяПодсказка" id="380"/>
 									<Events>
@@ -330,7 +327,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьКомиссиюПриПродажахКонтекстноеМеню" id="237"/>
 							<ExtendedTooltip name="ИспользоватьКомиссиюПриПродажахРасширеннаяПодсказка" id="238"/>
 							<Events>
@@ -481,7 +477,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьРозничныеПродажиКонтекстноеМеню" id="300"/>
 					<ExtendedTooltip name="ИспользоватьРозничныеПродажиРасширеннаяПодсказка" id="301"/>
 					<Events>
@@ -640,7 +635,6 @@
 									<DataPath>НаборКонстант.ОпределятьПринадлежностьТовараИСтавкуНДСПриПодборе</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОпределятьПринадлежностьТовараИСтавкуНДСПриПодбореКонтекстноеМеню" id="796"/>
 									<ExtendedTooltip name="ОпределятьПринадлежностьТовараИСтавкуНДСПриПодбореРасширеннаяПодсказка" id="797">
 										<Title formatted="true">
@@ -805,7 +799,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьЗаказыКлиентовКонтекстноеМеню" id="109"/>
 											<ExtendedTooltip name="ИспользоватьЗаказыКлиентовРасширеннаяПодсказка" id="110"/>
 											<Events>
@@ -866,7 +859,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьЗаявкиНаВозвратТоваровОтКлиентовКонтекстноеМеню" id="277"/>
 									<ExtendedTooltip name="ИспользоватьЗаявкиНаВозвратТоваровОтКлиентовРасширеннаяПодсказка" id="278"/>
 									<Events>
@@ -893,7 +885,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьКорректировкиРеализацийКонтекстноеМеню" id="413"/>
 					<ExtendedTooltip name="ИспользоватьКорректировкиРеализацийРасширеннаяПодсказка" id="414"/>
 					<Events>
@@ -910,7 +901,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПродажаТоваровОблагаемыхНДСУПокупателяКонтекстноеМеню" id="532"/>
 					<ExtendedTooltip name="ПродажаТоваровОблагаемыхНДСУПокупателяРасширеннаяПодсказка" id="533"/>
 					<Events>
@@ -966,7 +956,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтправкаЭлектронныхЧековПослеПробитияЧекаКонтекстноеМеню" id="501"/>
 							<ExtendedTooltip name="ОтправкаЭлектронныхЧековПослеПробитияЧекаРасширеннаяПодсказка" id="502">
 								<Height>3</Height>
@@ -994,7 +983,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтправлятьЭлектронныеЧекиПоSMSЧерезОФДКонтекстноеМеню" id="504"/>
 							<ExtendedTooltip name="ОтправлятьЭлектронныеЧекиПоSMSЧерезОФДРасширеннаяПодсказка" id="505">
 								<Title formatted="false">
@@ -1020,7 +1008,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтправкаSMSРасширеннаяПодсказка" id="528"/>
@@ -1051,7 +1039,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="АвтоматическиСоздаватьПартнеровПриОтправкеЭлектронногоЧекаПокупателюКонтекстноеМеню" id="507"/>
 							<ExtendedTooltip name="АвтоматическиСоздаватьПартнеровПриОтправкеЭлектронногоЧекаПокупателюРасширеннаяПодсказка" id="508">
 								<Height>6</Height>
@@ -1103,7 +1090,6 @@
 									<DataPath>НаборКонстант.ОбновлятьКонтактнуюИнформациюПартнеровПриОтправкеЭлектронныхЧеков</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОбновлятьКонтактнуюИнформациюПартнеровПриОтправкеЭлектронныхЧековКонтекстноеМеню" id="546"/>
 									<ExtendedTooltip name="ОбновлятьКонтактнуюИнформациюПартнеровПриОтправкеЭлектронныхЧековРасширеннаяПодсказка" id="547">
 										<Title formatted="false">
@@ -1188,7 +1174,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтправлятьЭлектронныеЧекиПоEmailЧерезОФДКонтекстноеМеню" id="514"/>
 							<ExtendedTooltip name="ОтправлятьЭлектронныеЧекиПоEmailЧерезОФДРасширеннаяПодсказка" id="515">
 								<Title formatted="false">
@@ -1262,7 +1247,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НеПечататьФискальныйЧекПриОтправкеЭлектронногоЧекаПокупателюКонтекстноеМеню" id="519"/>
 									<ExtendedTooltip name="НеПечататьФискальныйЧекПриОтправкеЭлектронногоЧекаПокупателюРасширеннаяПодсказка" id="520">
 										<Height>6</Height>
@@ -1297,7 +1281,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowLeftMargin>false</ShowLeftMargin>
 							<ThroughAlign>DontUse</ThroughAlign>
@@ -1313,7 +1297,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОплатаЭлектроннымиСертификатамиФССКонтекстноеМеню" id="629"/>
 									<ExtendedTooltip name="ОплатаЭлектроннымиСертификатамиФССРасширеннаяПодсказка" id="630">
 										<Title formatted="false">
@@ -1400,7 +1383,7 @@
 											<Group>Vertical</Group>
 											<Behavior>Collapsible</Behavior>
 											<Collapsed>true</Collapsed>
-											<ControlRepresentation>Picture</ControlRepresentation>
+											<ControlRepresentation>Button</ControlRepresentation>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ГруппаПараметрыПроксиНСПКРасширеннаяПодсказка" id="753"/>
 											<ChildItems>
@@ -1458,7 +1441,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьКорневыеСертификатыНСПККонтекстноеМеню" id="640"/>
 											<ExtendedTooltip name="ИспользоватьКорневыеСертификатыНСПКРасширеннаяПодсказка" id="641"/>
 											<Events>
@@ -1483,7 +1465,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаАлкогольРасширеннаяПодсказка" id="439"/>
 			<ChildItems>
@@ -1533,7 +1515,6 @@
 											<v8:content>Отключать ведение сведений по алкогольной (спиртосодержащей) продукции после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВестиСведенияДляДекларацийПоАлкогольнойПродукцииКонтекстноеМеню" id="445"/>
 									<ExtendedTooltip name="ВестиСведенияДляДекларацийПоАлкогольнойПродукцииРасширеннаяПодсказка" id="446">
 										<Title formatted="false">
@@ -1710,7 +1691,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РазрешатьПродажуАлкогольнойПродукцииБезСопоставленияЕГАИСКонтекстноеМеню" id="481"/>
 									<ExtendedTooltip name="РазрешатьПродажуАлкогольнойПродукцииБезСопоставленияЕГАИСРасширеннаяПодсказка" id="482"/>
 									<Events>
@@ -1796,7 +1776,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаЦенообразованиеРасширеннаяПодсказка" id="368"/>
 			<ChildItems>
@@ -1842,7 +1822,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьНесколькоВидовЦенКонтекстноеМеню" id="84"/>
 									<ExtendedTooltip name="ИспользоватьНесколькоВидовЦенРасширеннаяПодсказка" id="85"/>
 									<Events>
@@ -1924,7 +1903,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьРучныеСкидкиВПродажахКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ИспользоватьРучныеСкидкиВПродажахРасширеннаяПодсказка" id="9"/>
 							<Events>
@@ -1962,7 +1940,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьАвтоматическиеСкидкиВПродажахКонтекстноеМеню" id="358"/>
 							<ExtendedTooltip name="ИспользоватьАвтоматическиеСкидкиВПродажахРасширеннаяПодсказка" id="359"/>
 							<Events>
@@ -2016,7 +1993,6 @@
 											<v8:content>Отключать возможность использования бонусных программ лояльности после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьБонусныеПрограммыКонтекстноеМеню" id="611"/>
 									<ExtendedTooltip name="ИспользоватьБонусныеПрограммыРасширеннаяПодсказка" id="612">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2070,7 +2046,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьКартыЛояльностиКонтекстноеМеню" id="365"/>
 							<ExtendedTooltip name="ИспользоватьКартыЛояльностиРасширеннаяПодсказка" id="366"/>
 							<Events>
@@ -2091,7 +2066,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиОборудованияРасширеннаяПодсказка" id="343"/>
 			<ChildItems>
@@ -2137,7 +2112,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьПодключаемоеОборудованиеКонтекстноеМеню" id="319"/>
 									<ExtendedTooltip name="ИспользоватьПодключаемоеОборудованиеРасширеннаяПодсказка" id="320"/>
 									<Events>
@@ -2212,7 +2186,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОбменСПодключаемымОборудованиемOfflineКонтекстноеМеню" id="330"/>
 									<ExtendedTooltip name="ИспользоватьОбменСПодключаемымОборудованиемOfflineРасширеннаяПодсказка" id="331"/>
 									<Events>
@@ -2228,7 +2201,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользуетсяПротоколRDPвБПОКонтекстноеМеню" id="750"/>
 									<ExtendedTooltip name="ИспользуетсяПротоколRDPвБПОРасширеннаяПодсказка" id="751"/>
 									<Events>
@@ -2401,7 +2373,7 @@
 					<Width>42</Width>
 					<Group>AlwaysHorizontal</Group>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВнешниеКомпонентыРасширеннаяПодсказка" id="767"/>
@@ -2418,7 +2390,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>NormalSeparation</Representation>
 							<ChildItemsWidth>Equal</ChildItemsWidth>
 							<ShowTitle>false</ShowTitle>
@@ -2610,7 +2582,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ExtendedTooltip name="ГруппаУправлениеЖурналамиОперацийРасширеннаяПодсказка" id="672"/>
@@ -2916,7 +2888,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ХранитьУспешныеОперацииРазрешенияКонтекстноеМеню" id="732"/>
 															<ExtendedTooltip name="ХранитьУспешныеОперацииРазрешенияРасширеннаяПодсказка" id="733"/>
 															<Events>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -13,6 +13,7 @@
 	<Customizable>false</Customizable>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<ChildItems>
@@ -419,6 +420,7 @@
 												<InputField name="СписокРаспоряженийОтправитель" id="496">
 													<DataPath>СписокОрдеров.Отправитель</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Font ref="style:РазделВариантовОтчетовШрифт" kind="StyleItem"/>
 													<ContextMenu name="СписокРаспоряженийОтправительКонтекстноеМеню" id="497"/>
 													<ExtendedTooltip name="СписокРаспоряженийОтправительРасширеннаяПодсказка" id="498"/>
@@ -428,6 +430,7 @@
 										<InputField name="СписокОрдеровРаспоряжение" id="546">
 											<DataPath>СписокОрдеров.Распоряжение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СписокОрдеровРаспоряжениеКонтекстноеМеню" id="547"/>
 											<ExtendedTooltip name="СписокОрдеровРаспоряжениеРасширеннаяПодсказка" id="548"/>
 										</InputField>
@@ -444,6 +447,7 @@
 												<InputField name="СписокОрдеровИсполнительЗаголовок" id="543">
 													<DataPath>СписокОрдеров.ИсполнительЗаголовок</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<TextColor>style:ButtonBorderColor</TextColor>
 													<ContextMenu name="СписокОрдеровИсполнительЗаголовокКонтекстноеМеню" id="544"/>
@@ -452,6 +456,7 @@
 												<InputField name="СписокОрдеровИсполнитель" id="537">
 													<DataPath>СписокОрдеров.Исполнитель</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="СписокОрдеровИсполнительКонтекстноеМеню" id="538"/>
 													<ExtendedTooltip name="СписокОрдеровИсполнительРасширеннаяПодсказка" id="539"/>
 												</InputField>
@@ -474,6 +479,7 @@
 													<VerticalAlign>Top</VerticalAlign>
 													<EditMode>EnterOnInput</EditMode>
 													<AutoCellHeight>true</AutoCellHeight>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<Height>1</Height>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -485,6 +491,7 @@
 													<DataPath>СписокОрдеров.ДатаВходящегоДокумента</DataPath>
 													<HorizontalAlign>Left</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 													<ContextMenu name="СписокОрдеровДатаВходящегоДокументаКонтекстноеМеню" id="531"/>
 													<ExtendedTooltip name="СписокОрдеровДатаВходящегоДокументаРасширеннаяПодсказка" id="532"/>
@@ -493,6 +500,7 @@
 													<DataPath>СписокОрдеров.Статус</DataPath>
 													<HorizontalAlign>Left</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 													<ContextMenu name="СписокРаспоряженийСостояниеПоступленияКонтекстноеМеню" id="505"/>
 													<ExtendedTooltip name="СписокРаспоряженийСостояниеПоступленияРасширеннаяПодсказка" id="506"/>

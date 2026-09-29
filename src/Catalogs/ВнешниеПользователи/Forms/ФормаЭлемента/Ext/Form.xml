@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>WriteAndClose</ExcludedCommand>
@@ -247,7 +247,6 @@
 							<DataPath>Объект.Недействителен</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НедействителенКонтекстноеМеню" id="191"/>
 							<ExtendedTooltip name="НедействителенРасширеннаяПодсказка" id="203"/>
 							<Events>
@@ -286,7 +285,6 @@
 указанными способами аутентификации.</v8:content>
 						</v8:item>
 					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВходВПрограммуРазрешенКонтекстноеМеню" id="100"/>
 					<ExtendedTooltip name="ВходВПрограммуРазрешенРасширеннаяПодсказка" id="204"/>
 					<Events>
@@ -586,7 +584,6 @@
 														</v8:item>
 													</ToolTip>
 													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПользовательИБАутентификацияСтандартнаяКонтекстноеМеню" id="195"/>
 													<ExtendedTooltip name="ПользовательИБАутентификацияСтандартнаяРасширеннаяПодсказка" id="209"/>
 													<Events>
@@ -669,7 +666,6 @@
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTipRepresentation>Button</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПотребоватьСменуПароляПриВходеКонтекстноеМеню" id="327"/>
 																	<ExtendedTooltip name="ПотребоватьСменуПароляПриВходеРасширеннаяПодсказка" id="328">
 																		<Events>
@@ -696,7 +692,6 @@
 внешнему пользователю.</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПользовательИБЗапрещеноИзменятьПарольКонтекстноеМеню" id="52"/>
 																	<ExtendedTooltip name="ПользовательИБЗапрещеноИзменятьПарольРасширеннаяПодсказка" id="213"/>
 																	<Events>
@@ -712,7 +707,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПользовательИБЗапрещеноВосстанавливатьПарольКонтекстноеМеню" id="362"/>
 																	<ExtendedTooltip name="ПользовательИБЗапрещеноВосстанавливатьПарольРасширеннаяПодсказка" id="363"/>
 																	<Events>
@@ -755,7 +749,6 @@
 Используется только при подключении через веб-сервер (адрес службы должен быть настроен).</v8:content>
 														</v8:item>
 													</ToolTip>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПользовательИБАутентификацияOpenIDКонтекстноеМеню" id="198"/>
 													<ExtendedTooltip name="ПользовательИБАутентификацияOpenIDРасширеннаяПодсказка" id="214"/>
 													<Events>
@@ -771,7 +764,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПользовательИБАутентификацияOpenIDConnectКонтекстноеМеню" id="369"/>
 													<ExtendedTooltip name="ПользовательИБАутентификацияOpenIDConnectРасширеннаяПодсказка" id="370">
 														<Title formatted="false">
@@ -796,7 +788,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПользовательИБАутентификацияТокеномДоступаКонтекстноеМеню" id="372"/>
 													<ExtendedTooltip name="ПользовательИБАутентификацияТокеномДоступаРасширеннаяПодсказка" id="373">
 														<Title formatted="false">
@@ -869,7 +860,6 @@
 						<CheckBoxField name="УстановитьРолиНепосредственно" id="166">
 							<DataPath>Объект.УстановитьРолиНепосредственно</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="УстановитьРолиНепосредственноКонтекстноеМеню" id="167"/>
 							<ExtendedTooltip name="УстановитьРолиНепосредственноРасширеннаяПодсказка" id="218"/>
 							<Events>
@@ -895,7 +885,7 @@
 									<ChangeRowSet>false</ChangeRowSet>
 									<ChangeRowOrder>false</ChangeRowOrder>
 									<Header>false</Header>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -1065,7 +1055,6 @@
 													</Title>
 													<EditMode>Directly</EditMode>
 													<ShowInHeader>false</ShowInHeader>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РолиПометкаКонтекстноеМеню" id="186"/>
 													<ExtendedTooltip name="РолиПометкаРасширеннаяПодсказка" id="226"/>
 													<Events>
@@ -1082,6 +1071,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РолиСинонимКонтекстноеМеню" id="188"/>
 													<ExtendedTooltip name="РолиСинонимРасширеннаяПодсказка" id="227"/>
 												</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -380,6 +380,7 @@
 								<InputField name="Номер" id="1">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 									<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
@@ -387,6 +388,7 @@
 								<InputField name="Дата" id="4">
 									<DataPath>Объект.Date</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 								</InputField>
@@ -430,6 +432,7 @@
 						<InputField name="Организация" id="7">
 							<DataPath>Объект.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
 							<Events>
@@ -516,12 +519,14 @@
 				<LabelField name="КонтрагентыНомерСтроки" id="39">
 					<DataPath>Объект.Контрагенты.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="КонтрагентыНомерСтрокиКонтекстноеМеню" id="40"/>
 					<ExtendedTooltip name="КонтрагентыНомерСтрокиРасширеннаяПодсказка" id="41"/>
 				</LabelField>
 				<InputField name="КонтрагентыКонтрагент" id="42">
 					<DataPath>Объект.Контрагенты.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="КонтрагентыКонтрагентКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="КонтрагентыКонтрагентРасширеннаяПодсказка" id="44"/>
 					<Events>
@@ -533,6 +538,9 @@
 					<SkipOnInput>true</SkipOnInput>
 					<EditMode>EnterOnInput</EditMode>
 					<CellHyperlink>true</CellHyperlink>
+					<AutoEditMode>true</AutoEditMode>
+					<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+					<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 					<ChoiceButton>true</ChoiceButton>
 					<TextEdit>false</TextEdit>
 					<TextColor>style:ГиперссылкаЦвет</TextColor>
@@ -595,6 +603,7 @@
 						<LabelField name="ТоварыНомерСтроки" id="63">
 							<DataPath>Объект.Товары.LineNumber</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="65"/>
 						</LabelField>
@@ -603,6 +612,7 @@
 				<InputField name="ТоварыНоменклатура" id="66">
 					<DataPath>Объект.Товары.Номенклатура</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="67"/>
 					<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="68"/>
 					<Events>
@@ -612,6 +622,7 @@
 				<InputField name="ТоварыКодТНВЭД" id="72">
 					<DataPath>Объект.Товары.КодТНВЭД</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварыКодТНВЭДКонтекстноеМеню" id="73"/>
 					<ExtendedTooltip name="ТоварыКодТНВЭДРасширеннаяПодсказка" id="74"/>
 				</InputField>
@@ -627,12 +638,14 @@
 						<InputField name="ТоварыЕдиницаИзмерения" id="75">
 							<DataPath>Объект.Товары.ЕдиницаИзмерения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыЕдиницаИзмеренияКонтекстноеМеню" id="76"/>
 							<ExtendedTooltip name="ТоварыЕдиницаИзмеренияРасширеннаяПодсказка" id="77"/>
 						</InputField>
 						<InputField name="ТоварыЕдиницаПрослеживаемости" id="78">
 							<DataPath>Объект.Товары.ЕдиницаПрослеживаемости</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыЕдиницаПрослеживаемостиКонтекстноеМеню" id="79"/>
 							<ExtendedTooltip name="ТоварыЕдиницаПрослеживаемостиРасширеннаяПодсказка" id="80"/>
 						</InputField>
@@ -650,6 +663,7 @@
 						<InputField name="ТоварыКоличество" id="81">
 							<DataPath>Объект.Товары.Количество</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="82"/>
 							<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="83"/>
 							<Events>
@@ -659,6 +673,7 @@
 						<InputField name="ТоварыКоличествоПрослеживаемости" id="84">
 							<DataPath>Объект.Товары.КоличествоПрослеживаемости</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыКоличествоПрослеживаемостиКонтекстноеМеню" id="85"/>
 							<ExtendedTooltip name="ТоварыКоличествоПрослеживаемостиРасширеннаяПодсказка" id="86"/>
 						</InputField>
@@ -667,6 +682,7 @@
 				<InputField name="ТоварыСумма" id="87">
 					<DataPath>Объект.Товары.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="88"/>
 					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="89"/>
 				</InputField>
@@ -682,6 +698,7 @@
 						<InputField name="ТоварыСопроводительныйДокумент" id="173">
 							<DataPath>Объект.Товары.СопроводительныйДокумент</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыСопроводительныйДокументКонтекстноеМеню" id="174"/>
 							<ExtendedTooltip name="ТоварыСопроводительныйДокументРасширеннаяПодсказка" id="175"/>
 							<Events>
@@ -697,6 +714,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварыПорядковыйНомерКонтекстноеМеню" id="169"/>
 							<ExtendedTooltip name="ТоварыПорядковыйНомерРасширеннаяПодсказка" id="170"/>
 						</InputField>
@@ -705,6 +723,7 @@
 				<InputField name="ТоварыРНПТ" id="90">
 					<DataPath>Объект.Товары.РНПТ</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварыРНПТКонтекстноеМеню" id="91"/>
 					<ExtendedTooltip name="ТоварыРНПТРасширеннаяПодсказка" id="92"/>
 					<Events>
@@ -716,6 +735,7 @@
 		<InputField name="Комментарий" id="13">
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
 		</InputField>

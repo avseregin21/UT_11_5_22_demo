@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Сведения о ветеринарных мероприятиях</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -253,6 +254,7 @@
 												<InputField name="ЛабораторныеИсследованияТипПоказателя" id="224">
 													<DataPath>ЛабораторныеИсследования.ТипПоказателя</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ListChoiceMode>true</ListChoiceMode>
 													<ChoiceList>
 														<xr:Item>
@@ -288,6 +290,7 @@
 												<InputField name="ЛабораторныеИсследованияНаименованиеПоказателя" id="185">
 													<DataPath>ЛабораторныеИсследования.НаименованиеПоказателя</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЛабораторныеИсследованияНаименованиеПоказателяКонтекстноеМеню" id="186"/>
 													<ExtendedTooltip name="ЛабораторныеИсследованияНаименованиеПоказателяРасширеннаяПодсказка" id="187"/>
 												</InputField>
@@ -300,6 +303,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ListChoiceMode>true</ListChoiceMode>
 													<ChoiceList>
 														<xr:Item>
@@ -484,6 +488,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ListChoiceMode>true</ListChoiceMode>
 													<ChoiceList>
 														<xr:Item>
@@ -525,6 +530,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИммунизацияДатаПроведенияИммунизацииОбработкиКонтекстноеМеню" id="208"/>
 													<ExtendedTooltip name="ИммунизацияДатаПроведенияИммунизацииОбработкиРасширеннаяПодсказка" id="209"/>
 												</InputField>
@@ -537,6 +543,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИммунизацияНаименованиеБолезниПаразитаКонтекстноеМеню" id="211"/>
 													<ExtendedTooltip name="ИммунизацияНаименованиеБолезниПаразитаРасширеннаяПодсказка" id="212"/>
 												</InputField>
@@ -562,18 +569,21 @@
 												<InputField name="ИммунизацияНазваниеИПроизводительВакциныПрепарата" id="215">
 													<DataPath>Items.Иммунизация.CurrentData.НазваниеИПроизводительВакциныПрепарата</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИммунизацияНазваниеИПроизводительВакциныПрепаратаКонтекстноеМеню" id="216"/>
 													<ExtendedTooltip name="ИммунизацияНазваниеИПроизводительВакциныПрепаратаРасширеннаяПодсказка" id="217"/>
 												</InputField>
 												<InputField name="ИммунизацияНомерСерииВакциныПрепарата" id="218">
 													<DataPath>Items.Иммунизация.CurrentData.НомерСерииВакциныПрепарата</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИммунизацияНомерСерииВакциныПрепаратаКонтекстноеМеню" id="219"/>
 													<ExtendedTooltip name="ИммунизацияНомерСерииВакциныПрепаратаРасширеннаяПодсказка" id="220"/>
 												</InputField>
 												<InputField name="ИммунизацияДатаОкончанияДействияВакциныПрепарата" id="221">
 													<DataPath>Items.Иммунизация.CurrentData.ДатаОкончанияДействияВакциныПрепарата</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИммунизацияДатаОкончанияДействияВакциныПрепаратаКонтекстноеМеню" id="222"/>
 													<ExtendedTooltip name="ИммунизацияДатаОкончанияДействияВакциныПрепаратаРасширеннаяПодсказка" id="223"/>
 												</InputField>

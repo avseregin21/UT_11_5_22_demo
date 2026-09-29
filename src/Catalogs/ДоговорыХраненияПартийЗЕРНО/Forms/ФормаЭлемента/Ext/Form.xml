@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -42,6 +42,7 @@
 						<InputField name="Организация" id="8">
 							<DataPath>Объект.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="9"/>
@@ -92,6 +93,7 @@
 								<InputField name="НомерДоговора" id="14">
 									<DataPath>Объект.НомерДоговора</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>15</MaxWidth>
 									<ContextMenu name="НомерДоговораКонтекстноеМеню" id="15"/>
@@ -106,6 +108,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>10</MaxWidth>
 									<ContextMenu name="ДатаДоговораКонтекстноеМеню" id="12"/>
@@ -131,6 +134,7 @@
 						<InputField name="ТипХранения" id="17">
 							<DataPath>Объект.ТипХранения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<OpenButton>false</OpenButton>
 							<CreateButton>false</CreateButton>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -171,18 +175,21 @@
 						<InputField name="ЗакрепленнаяПлощадь" id="20">
 							<DataPath>Объект.ЗакрепленнаяПлощадь</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ЗакрепленнаяПлощадьКонтекстноеМеню" id="21"/>
 							<ExtendedTooltip name="ЗакрепленнаяПлощадьРасширеннаяПодсказка" id="22"/>
 						</InputField>
 						<InputField name="СрокХранения" id="25">
 							<DataPath>Объект.СрокХранения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СрокХраненияКонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="СрокХраненияРасширеннаяПодсказка" id="27"/>
 						</InputField>
 						<InputField name="УсловияХранения" id="28">
 							<DataPath>Объект.УсловияХранения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="УсловияХраненияКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="УсловияХраненияРасширеннаяПодсказка" id="30"/>
 						</InputField>
@@ -241,12 +248,14 @@
 				<LabelField name="УслугиЭлеватораНомерСтроки" id="53">
 					<DataPath>Объект.УслугиЭлеватора.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="УслугиЭлеватораНомерСтрокиКонтекстноеМеню" id="54"/>
 					<ExtendedTooltip name="УслугиЭлеватораНомерСтрокиРасширеннаяПодсказка" id="55"/>
 				</LabelField>
 				<InputField name="УслугиЭлеватораУслугаЭлеватора" id="56">
 					<DataPath>Объект.УслугиЭлеватора.УслугаЭлеватора</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="УслугиЭлеватораУслугаЭлеватораКонтекстноеМеню" id="57"/>
 					<ExtendedTooltip name="УслугиЭлеватораУслугаЭлеватораРасширеннаяПодсказка" id="58"/>
 				</InputField>

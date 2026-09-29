@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -83,6 +83,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>false</AutoMarkIncomplete>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="265"/>
@@ -97,6 +98,7 @@
 					</ToolTip>
 					<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>false</AutoMarkIncomplete>
 					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="266"/>
@@ -150,7 +152,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбменТоварамиКонтекстноеМеню" id="6"/>
 									<ExtendedTooltip name="ОбменТоварамиРасширеннаяПодсказка" id="270"/>
 									<Events>
@@ -167,7 +169,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбменЗаказамиКонтекстноеМеню" id="8"/>
 									<ExtendedTooltip name="ОбменЗаказамиРасширеннаяПодсказка" id="271"/>
 									<Events>
@@ -191,14 +193,12 @@
 								<CheckBoxField name="ОжидатьЗавершенияИмпортаФайловСервером" id="514">
 									<DataPath>Объект.ВыгружатьФайлыБезОжиданияПодтвержденияИмпортаСервером</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОжидатьЗавершенияИмпортаФайловСерверомКонтекстноеМеню" id="515"/>
 									<ExtendedTooltip name="ОжидатьЗавершенияИмпортаФайловСерверомРасширеннаяПодсказка" id="516"/>
 								</CheckBoxField>
 								<CheckBoxField name="ВыполнятьОбменБезИдентификатораСессии" id="519">
 									<DataPath>Объект.ВыполнятьОбменБезИдентификатораСессии</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыполнятьОбменБезИдентификатораСессииКонтекстноеМеню" id="520"/>
 									<ExtendedTooltip name="ВыполнятьОбменБезИдентификатораСессииРасширеннаяПодсказка" id="521"/>
 								</CheckBoxField>
@@ -402,6 +402,7 @@
 												<InputField name="КаталогВыгрузки" id="17">
 													<DataPath>Объект.КаталогВыгрузки</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>35</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ChoiceButton>true</ChoiceButton>
@@ -461,7 +462,6 @@
 								<CheckBoxField name="ИспользоватьРегламентныеЗадания" id="45">
 									<DataPath>Объект.ИспользоватьРегламентноеЗадание</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьРегламентныеЗаданияКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="ИспользоватьРегламентныеЗаданияРасширеннаяПодсказка" id="286"/>
 									<Events>
@@ -810,7 +810,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыгружатьТоварыКонтекстноеМеню" id="409"/>
 															<ExtendedTooltip name="ВыгружатьТоварыРасширеннаяПодсказка" id="410"/>
 															<Events>
@@ -863,7 +862,6 @@
 																				</v8:item>
 																			</Title>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ВыгружатьКартинкиКонтекстноеМеню" id="437"/>
 																			<ExtendedTooltip name="ВыгружатьКартинкиРасширеннаяПодсказка" id="438"/>
 																		</CheckBoxField>
@@ -876,7 +874,6 @@
 																				</v8:item>
 																			</Title>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ВыгружатьХарактеристикиВКаталогТоваровКонтекстноеМеню" id="512"/>
 																			<ExtendedTooltip name="ВыгружатьХарактеристикиВКаталогТоваровРасширеннаяПодсказка" id="513"/>
 																		</CheckBoxField>
@@ -969,7 +966,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ВыгружатьЦеныОстаткиКонтекстноеМеню" id="412"/>
 													<ExtendedTooltip name="ВыгружатьЦеныОстаткиРасширеннаяПодсказка" id="413"/>
 													<Events>
@@ -995,7 +991,6 @@
 														<CheckBoxField name="ОграничитьКаталогДоступнымиПредложениями" id="522">
 															<DataPath>Объект.ОграничитьКаталогДоступнымиПредложениями</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОграничитьКаталогДоступнымиПредложениямиКонтекстноеМеню" id="523"/>
 															<ExtendedTooltip name="ОграничитьКаталогДоступнымиПредложениямиРасширеннаяПодсказка" id="524"/>
 														</CheckBoxField>
@@ -1188,6 +1183,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТаблицаКаталоговКаталогКонтекстноеМеню" id="97"/>
 											<ExtendedTooltip name="ТаблицаКаталоговКаталогРасширеннаяПодсказка" id="307"/>
@@ -1201,6 +1197,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
 											<ChooseType>false</ChooseType>
 											<TextEdit>false</TextEdit>
@@ -1226,6 +1223,7 @@
 												</v8:item>
 											</WarningOnEdit>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаКаталоговИдентификаторКаталогаКонтекстноеМеню" id="101"/>
 											<ExtendedTooltip name="ТаблицаКаталоговИдентификаторКаталогаРасширеннаяПодсказка" id="309"/>
 										</InputField>
@@ -1238,6 +1236,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>45</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<ClearButton>true</ClearButton>

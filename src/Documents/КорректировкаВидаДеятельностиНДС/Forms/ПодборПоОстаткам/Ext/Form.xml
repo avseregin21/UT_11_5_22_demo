@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Подбор товаров по остаткам</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
@@ -57,7 +57,7 @@
 					<SkipOnInput>false</SkipOnInput>
 					<ChangeRowSet>false</ChangeRowSet>
 					<ChangeRowOrder>false</ChangeRowOrder>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<InitialTreeView>ExpandAllLevels</InitialTreeView>
 					<EnableStartDrag>true</EnableStartDrag>
@@ -137,7 +137,7 @@
 						<CheckBoxField name="ТаблицаТоваровВыбран" id="134">
 							<DataPath>ТаблицаТоваров.Выбран</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаТоваровВыбранКонтекстноеМеню" id="135"/>
 							<ExtendedTooltip name="ТаблицаТоваровВыбранРасширеннаяПодсказка" id="230"/>
 						</CheckBoxField>
@@ -155,6 +155,7 @@
 									<DataPath>ТаблицаТоваров.Номенклатура</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровНоменклатураКонтекстноеМеню" id="170"/>
 									<ExtendedTooltip name="ТаблицаТоваровНоменклатураРасширеннаяПодсказка" id="232"/>
 								</InputField>
@@ -162,12 +163,14 @@
 									<DataPath>ТаблицаТоваров.Характеристика</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровХарактеристикаКонтекстноеМеню" id="172"/>
 									<ExtendedTooltip name="ТаблицаТоваровХарактеристикаРасширеннаяПодсказка" id="233"/>
 								</InputField>
 								<InputField name="ТаблицаТоваровСерия" id="237">
 									<DataPath>ТаблицаТоваров.Серия</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>15</Width>
 									<ContextMenu name="ТаблицаТоваровСерияКонтекстноеМеню" id="238"/>
 									<ExtendedTooltip name="ТаблицаТоваровСерияРасширеннаяПодсказка" id="239"/>
@@ -175,6 +178,7 @@
 								<InputField name="ТаблицаТоваровНазначение" id="249">
 									<DataPath>ТаблицаТоваров.Назначение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровНазначениеКонтекстноеМеню" id="250"/>
 									<ExtendedTooltip name="ТаблицаТоваровНазначениеРасширеннаяПодсказка" id="251"/>
 								</InputField>
@@ -183,6 +187,7 @@
 						<InputField name="ТаблицаТоваровКоличество" id="180">
 							<DataPath>ТаблицаТоваров.Количество</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<MarkNegatives>true</MarkNegatives>
 							<ContextMenu name="ТаблицаТоваровКоличествоКонтекстноеМеню" id="181"/>
 							<ExtendedTooltip name="ТаблицаТоваровКоличествоРасширеннаяПодсказка" id="234"/>
@@ -194,6 +199,7 @@
 							<DataPath>ТаблицаТоваров.КоличествоОстаток</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<MarkNegatives>true</MarkNegatives>
 							<ContextMenu name="ТаблицаТоваровКоличествоОстатокКонтекстноеМеню" id="176"/>
 							<ExtendedTooltip name="ТаблицаТоваровКоличествоОстатокРасширеннаяПодсказка" id="236"/>

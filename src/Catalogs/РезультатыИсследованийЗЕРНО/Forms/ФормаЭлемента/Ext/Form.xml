@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
 		<ExcludedCommand>Delete</ExcludedCommand>
@@ -48,6 +48,7 @@
 		<LabelField name="Статус" id="37">
 			<DataPath>Объект.Статус</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="СтатусКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="39"/>
 		</LabelField>
@@ -68,6 +69,7 @@
 						<InputField name="Товаропроизводитель" id="25">
 							<DataPath>Объект.Товаропроизводитель</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="ТоваропроизводительКонтекстноеМеню" id="26"/>
@@ -76,6 +78,7 @@
 						<InputField name="Идентификатор" id="4">
 							<DataPath>Объект.Идентификатор</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="ИдентификаторКонтекстноеМеню" id="5"/>
@@ -91,6 +94,7 @@
 						<InputField name="ЦельИспользования" id="28">
 							<DataPath>Объект.ЦельИспользования</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="ЦельИспользованияКонтекстноеМеню" id="29"/>
@@ -99,6 +103,7 @@
 						<InputField name="МестоФормированияПартии" id="16">
 							<DataPath>Объект.МестоФормированияПартии</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="МестоФормированияПартииКонтекстноеМеню" id="17"/>
@@ -133,6 +138,7 @@
 							</Title>
 							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КоличествоКонтекстноеМеню" id="32"/>
 							<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="33">
 								<Title formatted="false">
@@ -147,7 +153,7 @@
 							<DataPath>Объект.ТребуетсяЗагрузка</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТребуетсяЗагрузкаКонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="ТребуетсяЗагрузкаРасширеннаяПодсказка" id="42"/>
 						</CheckBoxField>
@@ -212,6 +218,7 @@
 								<InputField name="НомерПробы" id="22">
 									<DataPath>Объект.НомерПробы</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>28</MaxWidth>
 									<ContextMenu name="НомерПробыКонтекстноеМеню" id="23"/>
@@ -354,6 +361,7 @@
 					<DataPath>Объект.ПотребительскиеСвойства.Значение</DataPath>
 					<HorizontalAlign>Right</HorizontalAlign>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>22</MaxWidth>
 					<ContextMenu name="ПотребительскиеСвойстваЗначениеКонтекстноеМеню" id="63"/>

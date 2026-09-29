@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -209,6 +209,7 @@
 										<InputField name="Номер" id="1">
 											<DataPath>Объект.Number</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<MaxWidth>12</MaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -224,6 +225,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>14</Width>
 											<MaxWidth>15</MaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -281,7 +283,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтражатьВОперативномУчетеКонтекстноеМеню" id="138"/>
 											<ExtendedTooltip name="ОтражатьВОперативномУчетеРасширеннаяПодсказка" id="139"/>
 											<Events>
@@ -297,7 +298,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтражатьВБУиНУКонтекстноеМеню" id="141"/>
 											<ExtendedTooltip name="ОтражатьВБУиНУРасширеннаяПодсказка" id="142"/>
 											<Events>
@@ -313,7 +313,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтражатьВУУКонтекстноеМеню" id="144"/>
 											<ExtendedTooltip name="ОтражатьВУУРасширеннаяПодсказка" id="145"/>
 											<Events>
@@ -329,6 +328,7 @@
 				<InputField name="Организация" id="7">
 					<DataPath>Объект.Организация</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>29</MaxWidth>
 					<QuickChoice>false</QuickChoice>
@@ -450,12 +450,14 @@
 								<LabelField name="КассыНомерСтроки" id="22">
 									<DataPath>Объект.Кассы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КассыНомерСтрокиКонтекстноеМеню" id="23"/>
 									<ExtendedTooltip name="КассыНомерСтрокиРасширеннаяПодсказка" id="65"/>
 								</LabelField>
 								<InputField name="КассыКасса" id="24">
 									<DataPath>Объект.Кассы.Касса</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<QuickChoice>false</QuickChoice>
 									<ContextMenu name="КассыКассаКонтекстноеМеню" id="25"/>
 									<ExtendedTooltip name="КассыКассаРасширеннаяПодсказка" id="66"/>
@@ -466,6 +468,7 @@
 								<InputField name="КассыСумма" id="26">
 									<DataPath>Объект.Кассы.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КассыСуммаКонтекстноеМеню" id="27"/>
@@ -483,6 +486,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<QuickChoice>false</QuickChoice>
@@ -492,6 +496,7 @@
 								<InputField name="КассыСуммаРегл" id="28">
 									<DataPath>Объект.Кассы.СуммаРегл</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КассыСуммаРеглКонтекстноеМеню" id="29"/>
@@ -500,6 +505,7 @@
 								<InputField name="КассыСуммаУпр" id="146">
 									<DataPath>Объект.Кассы.СуммаУпр</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="КассыСуммаУпрКонтекстноеМеню" id="147"/>
 									<ExtendedTooltip name="КассыСуммаУпрРасширеннаяПодсказка" id="148"/>
@@ -568,12 +574,14 @@
 								<LabelField name="КассыККМНомерСтроки" id="34">
 									<DataPath>Объект.КассыККМ.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КассыККМНомерСтрокиКонтекстноеМеню" id="35"/>
 									<ExtendedTooltip name="КассыККМНомерСтрокиРасширеннаяПодсказка" id="72"/>
 								</LabelField>
 								<InputField name="КассыККМКассаККМ" id="36">
 									<DataPath>Объект.КассыККМ.КассаККМ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<QuickChoice>false</QuickChoice>
 									<ContextMenu name="КассыККМКассаККМКонтекстноеМеню" id="37"/>
 									<ExtendedTooltip name="КассыККМКассаККМРасширеннаяПодсказка" id="73"/>
@@ -584,6 +592,7 @@
 								<InputField name="КассыККМСумма" id="38">
 									<DataPath>Объект.КассыККМ.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КассыККМСуммаКонтекстноеМеню" id="39"/>
@@ -601,6 +610,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<QuickChoice>false</QuickChoice>
@@ -610,6 +620,7 @@
 								<InputField name="КассыККМСуммаРегл" id="40">
 									<DataPath>Объект.КассыККМ.СуммаРегл</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КассыККМСуммаРеглКонтекстноеМеню" id="41"/>
@@ -618,6 +629,7 @@
 								<InputField name="КассыККМСуммаУпр" id="155">
 									<DataPath>Объект.КассыККМ.СуммаУпр</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КассыККМСуммаУпрКонтекстноеМеню" id="156"/>
 									<ExtendedTooltip name="КассыККМСуммаУпрРасширеннаяПодсказка" id="157"/>
 								</InputField>
@@ -657,6 +669,7 @@
 				<InputField name="Ответственный" id="9">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>28</Width>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>28</MaxWidth>

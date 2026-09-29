@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -169,6 +169,7 @@
 				<InputField name="Номер" id="204">
 					<DataPath>Объект.Number</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<MaxWidth>12</MaxWidth>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -184,6 +185,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>14</Width>
 					<MaxWidth>12</MaxWidth>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -288,12 +290,14 @@
 										<LabelField name="РасходыПриУСНПрочиеРасходыНомерСтроки" id="187">
 											<DataPath>Объект.РасходыПриУСН.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыНомерСтрокиКонтекстноеМеню" id="188"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыНомерСтрокиРасширеннаяПодсказка" id="189"/>
 										</LabelField>
 										<InputField name="РасходыПриУСНПрочиеРасходыПартнер" id="184">
 											<DataPath>Объект.РасходыПриУСН.Партнер</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыПартнерКонтекстноеМеню" id="185"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыПартнерРасширеннаяПодсказка" id="186"/>
 											<Events>
@@ -303,6 +307,7 @@
 										<InputField name="РасходыПриУСНПрочиеРасходыКонтрагент" id="164">
 											<DataPath>Объект.РасходыПриУСН.Контрагент</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChooseType>false</ChooseType>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыКонтрагентКонтекстноеМеню" id="165"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыКонтрагентРасширеннаяПодсказка" id="166"/>
@@ -310,6 +315,7 @@
 										<InputField name="РасходыПриУСНПрочиеРасходыДокументВозникновенияРасходов" id="75">
 											<DataPath>Объект.РасходыПриУСН.ДокументВозникновенияРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -319,6 +325,7 @@
 										<InputField name="РасходыПриУСНПрочиеРасходыВидРасходов" id="196">
 											<DataPath>Объект.РасходыПриУСН.ВидРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ListChoiceMode>true</ListChoiceMode>
 											<TextEdit>false</TextEdit>
 											<ChoiceList>
@@ -348,12 +355,14 @@
 										<InputField name="РасходыПриУСНПрочиеРасходыСтатьяРасходов" id="78">
 											<DataPath>Объект.РасходыПриУСН.СтатьяРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыСтатьяРасходовКонтекстноеМеню" id="79"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыСтатьяРасходовРасширеннаяПодсказка" id="80"/>
 										</InputField>
 										<InputField name="РасходыПриУСНПрочиеРасходыСуммаРасходов" id="84">
 											<DataPath>Объект.РасходыПриУСН.СуммаРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыСуммаРасходовКонтекстноеМеню" id="85"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыСуммаРасходовРасширеннаяПодсказка" id="86"/>
 										</InputField>
@@ -366,24 +375,28 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыНДСКонтекстноеМеню" id="88"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыНДСРасширеннаяПодсказка" id="89"/>
 										</InputField>
 										<InputField name="РасходыПриУСНПрочиеРасходыСуммаОплаты" id="216">
 											<DataPath>Объект.РасходыПриУСН.СуммаОплаты</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыСуммаОплатыКонтекстноеМеню" id="217"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыСуммаОплатыРасширеннаяПодсказка" id="218"/>
 										</InputField>
 										<InputField name="РасходыПриУСНПрочиеРасходыПризнано" id="210">
 											<DataPath>Объект.РасходыПриУСН.Признано</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыПризнаноКонтекстноеМеню" id="211"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыПризнаноРасширеннаяПодсказка" id="212"/>
 										</InputField>
 										<InputField name="РасходыПриУСНПрочиеРасходыНеПризнано" id="213">
 											<DataPath>Объект.РасходыПриУСН.НеПризнано</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНПрочиеРасходыНеПризнаноКонтекстноеМеню" id="214"/>
 											<ExtendedTooltip name="РасходыПриУСНПрочиеРасходыНеПризнаноРасширеннаяПодсказка" id="215"/>
 										</InputField>
@@ -448,12 +461,14 @@
 										<LabelField name="РасходыПриУСНМатериалыНомерСтроки" id="93">
 											<DataPath>Объект.РасходыПриУСН.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыНомерСтрокиКонтекстноеМеню" id="94"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыНомерСтрокиРасширеннаяПодсказка" id="95"/>
 										</LabelField>
 										<InputField name="РасходыПриУСНМатериалыПартнер" id="190">
 											<DataPath>Объект.РасходыПриУСН.Партнер</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыПартнерКонтекстноеМеню" id="191"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыПартнерРасширеннаяПодсказка" id="192"/>
 											<Events>
@@ -463,6 +478,7 @@
 										<InputField name="РасходыПриУСНМатериалыКонтрагент" id="167">
 											<DataPath>Объект.РасходыПриУСН.Контрагент</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChooseType>false</ChooseType>
 											<ContextMenu name="РасходыПриУСНМатериалыКонтрагентКонтекстноеМеню" id="168"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыКонтрагентРасширеннаяПодсказка" id="169"/>
@@ -470,6 +486,7 @@
 										<InputField name="РасходыПриУСНМатериалыДокументВозникновенияРасходов" id="96">
 											<DataPath>Объект.РасходыПриУСН.ДокументВозникновенияРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -522,6 +539,7 @@
 										<InputField name="РасходыПриУСНМатериалыСуммаРасходов" id="99">
 											<DataPath>Объект.РасходыПриУСН.СуммаРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыСуммаРасходовКонтекстноеМеню" id="100"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыСуммаРасходовРасширеннаяПодсказка" id="101"/>
 										</InputField>
@@ -534,30 +552,35 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыНДСКонтекстноеМеню" id="103"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыНДСРасширеннаяПодсказка" id="104"/>
 										</InputField>
 										<InputField name="РасходыПриУСНМатериалыСуммаОплаты" id="219">
 											<DataPath>Объект.РасходыПриУСН.СуммаОплаты</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыСуммаОплатыКонтекстноеМеню" id="220"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыСуммаОплатыРасширеннаяПодсказка" id="221"/>
 										</InputField>
 										<InputField name="РасходыПриУСНМатериалыСуммаОтгрузки" id="222">
 											<DataPath>Объект.РасходыПриУСН.СуммаОтгрузки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыСуммаОтгрузкиКонтекстноеМеню" id="223"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыСуммаОтгрузкиРасширеннаяПодсказка" id="224"/>
 										</InputField>
 										<InputField name="РасходыПриУСНМатериалыПризнано" id="225">
 											<DataPath>Объект.РасходыПриУСН.Признано</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыПризнаноКонтекстноеМеню" id="226"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыПризнаноРасширеннаяПодсказка" id="227"/>
 										</InputField>
 										<InputField name="РасходыПриУСНМатериалыНеПризнано" id="228">
 											<DataPath>Объект.РасходыПриУСН.НеПризнано</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНМатериалыНеПризнаноКонтекстноеМеню" id="229"/>
 											<ExtendedTooltip name="РасходыПриУСНМатериалыНеПризнаноРасширеннаяПодсказка" id="230"/>
 										</InputField>
@@ -622,12 +645,14 @@
 										<LabelField name="РасходыПриУСНТоварыНомерСтроки" id="123">
 											<DataPath>Объект.РасходыПриУСН.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыНомерСтрокиКонтекстноеМеню" id="124"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыНомерСтрокиРасширеннаяПодсказка" id="125"/>
 										</LabelField>
 										<InputField name="РасходыПриУСНТоварыПартнер" id="193">
 											<DataPath>Объект.РасходыПриУСН.Партнер</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыПартнерКонтекстноеМеню" id="194"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыПартнерРасширеннаяПодсказка" id="195"/>
 											<Events>
@@ -637,6 +662,7 @@
 										<InputField name="РасходыПриУСНТоварыКонтрагент" id="170">
 											<DataPath>Объект.РасходыПриУСН.Контрагент</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChooseType>false</ChooseType>
 											<ContextMenu name="РасходыПриУСНТоварыКонтрагентКонтекстноеМеню" id="171"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыКонтрагентРасширеннаяПодсказка" id="172"/>
@@ -644,6 +670,7 @@
 										<InputField name="РасходыПриУСНТоварыДокументВозникновенияРасходов" id="108">
 											<DataPath>Объект.РасходыПриУСН.ДокументВозникновенияРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -696,6 +723,7 @@
 										<InputField name="РасходыПриУСНТоварыСуммаРасходов" id="111">
 											<DataPath>Объект.РасходыПриУСН.СуммаРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыСуммаРасходовКонтекстноеМеню" id="112"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыСуммаРасходовРасширеннаяПодсказка" id="113"/>
 										</InputField>
@@ -708,6 +736,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыНДСКонтекстноеМеню" id="115"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыНДСРасширеннаяПодсказка" id="116"/>
 										</InputField>
@@ -720,6 +749,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыСуммаОплатыКонтекстноеМеню" id="118"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыСуммаОплатыРасширеннаяПодсказка" id="119"/>
 										</InputField>
@@ -732,18 +762,21 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыСуммаОтгрузкиКонтекстноеМеню" id="121"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыСуммаОтгрузкиРасширеннаяПодсказка" id="122"/>
 										</InputField>
 										<InputField name="РасходыПриУСНТоварыПризнано" id="231">
 											<DataPath>Объект.РасходыПриУСН.Признано</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыПризнаноКонтекстноеМеню" id="232"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыПризнаноРасширеннаяПодсказка" id="233"/>
 										</InputField>
 										<InputField name="РасходыПриУСНТоварыНеПризнано" id="234">
 											<DataPath>Объект.РасходыПриУСН.НеПризнано</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыПриУСНТоварыНеПризнаноКонтекстноеМеню" id="235"/>
 											<ExtendedTooltip name="РасходыПриУСНТоварыНеПризнаноРасширеннаяПодсказка" id="236"/>
 										</InputField>
@@ -759,6 +792,7 @@
 			<DataPath>Объект.Комментарий</DataPath>
 			<TitleLocation>Left</TitleLocation>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>1</Height>
 			<MultiLine>true</MultiLine>
@@ -785,6 +819,7 @@
 				<InputField name="Ответственный" id="178">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<MaxWidth>28</MaxWidth>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="179"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="180"/>

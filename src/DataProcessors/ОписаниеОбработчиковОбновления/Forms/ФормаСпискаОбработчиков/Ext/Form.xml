@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -663,6 +663,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="НомерСтрокиКонтекстноеМеню" id="15"/>
 									<ExtendedTooltip name="НомерСтрокиРасширеннаяПодсказка" id="16"/>
@@ -674,6 +675,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияСсылкаКонтекстноеМеню" id="101"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияСсылкаРасширеннаяПодсказка" id="102"/>
 								</LabelField>
@@ -681,6 +683,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.Подсистема</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>30</Width>
 									<ContextMenu name="ОбработчикиОбновленияПодсистемаКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПодсистемаРасширеннаяПодсказка" id="19"/>
@@ -689,6 +692,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.Версия</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>7</Width>
 									<ContextMenu name="ОбработчикиОбновленияВерсияКонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияВерсияРасширеннаяПодсказка" id="28"/>
@@ -700,6 +704,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияМодульОбновленияКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияМодульОбновленияРасширеннаяПодсказка" id="22"/>
 								</InputField>
@@ -710,6 +715,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияРежимВыполненияОтложенныхОбработчиковКонтекстноеМеню" id="167"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияРежимВыполненияОтложенныхОбработчиковРасширеннаяПодсказка" id="168"/>
 								</InputField>
@@ -717,6 +723,9 @@
 									<DataPath>Объект.ОбработчикиОбновления.СтатусПроблемы</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<Width>17</Width>
 									<ContextMenu name="ОбработчикиОбновленияСтатусПроблемыКонтекстноеМеню" id="141"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияСтатусПроблемыРасширеннаяПодсказка" id="142"/>
@@ -725,6 +734,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.Процедура</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияПроцедураКонтекстноеМеню" id="30"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПроцедураРасширеннаяПодсказка" id="31"/>
 								</InputField>
@@ -735,6 +745,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияПроцедураЗаполненияДанныхОбновленияКонтекстноеМеню" id="57"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПроцедураЗаполненияДанныхОбновленияРасширеннаяПодсказка" id="58"/>
 								</InputField>
@@ -745,6 +756,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияПроцедураПроверкиКонтекстноеМеню" id="54"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПроцедураПроверкиРасширеннаяПодсказка" id="55"/>
 								</InputField>
@@ -755,6 +767,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="ОбработчикиОбновленияОчередьОтложеннойОбработкиКонтекстноеМеню" id="60"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияОчередьОтложеннойОбработкиРасширеннаяПодсказка" id="61"/>
@@ -766,6 +779,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="ОбработчикиОбновленияНоваяОчередьКонтекстноеМеню" id="164"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияНоваяОчередьРасширеннаяПодсказка" id="165"/>
@@ -774,6 +788,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.РежимВыполнения</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>13</Width>
 									<ContextMenu name="ОбработчикиОбновленияРежимВыполненияКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияРежимВыполненияРасширеннаяПодсказка" id="34"/>
@@ -792,7 +807,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияНачальноеЗаполнениеКонтекстноеМеню" id="24"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияНачальноеЗаполнениеРасширеннаяПодсказка" id="25"/>
 								</CheckBoxField>
@@ -814,7 +829,7 @@
 										<xr:Ref>StdPicture.AddToFavorites</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияВыполнятьВГруппеОбязательныхКонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияВыполнятьВГруппеОбязательныхРасширеннаяПодсказка" id="37"/>
 								</CheckBoxField>
@@ -832,7 +847,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияМногопоточныйКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияМногопоточныйРасширеннаяПодсказка" id="70"/>
 								</CheckBoxField>
@@ -843,7 +858,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияЗапускатьТолькоВГлавномУзлеКонтекстноеМеню" id="63"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияЗапускатьТолькоВГлавномУзлеРасширеннаяПодсказка" id="64"/>
 								</CheckBoxField>
@@ -854,7 +869,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияЗапускатьИВПодчиненномУзлеРИБСФильтрамиКонтекстноеМеню" id="66"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияЗапускатьИВПодчиненномУзлеРИБСФильтрамиРасширеннаяПодсказка" id="67"/>
 								</CheckBoxField>
@@ -865,7 +880,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияОбщиеДанныеКонтекстноеМеню" id="42"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияОбщиеДанныеРасширеннаяПодсказка" id="43"/>
 								</CheckBoxField>
@@ -876,7 +891,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияУправлениеОбработчикамиКонтекстноеМеню" id="45"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияУправлениеОбработчикамиРасширеннаяПодсказка" id="46"/>
 								</CheckBoxField>
@@ -884,6 +899,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.Комментарий</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияКомментарийКонтекстноеМеню" id="48"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияКомментарийРасширеннаяПодсказка" id="49"/>
 								</InputField>
@@ -891,6 +907,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.Идентификатор</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>15</Width>
 									<ContextMenu name="ОбработчикиОбновленияИдентификаторКонтекстноеМеню" id="51"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияИдентификаторРасширеннаяПодсказка" id="52"/>
@@ -914,7 +931,7 @@
 										<xr:Ref>StdPicture.AppearanceExclamationMark</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияЗаписьЧитаемыхКонтекстноеМеню" id="144"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияЗаписьЧитаемыхРасширеннаяПодсказка" id="145"/>
 								</CheckBoxField>
@@ -936,7 +953,7 @@
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияПовторнаяЗаписьКонтекстноеМеню" id="147"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПовторнаяЗаписьРасширеннаяПодсказка" id="148"/>
 								</CheckBoxField>
@@ -958,7 +975,7 @@
 										<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияЗаданПорядокВыполненияКонтекстноеМеню" id="150"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияЗаданПорядокВыполненияРасширеннаяПодсказка" id="151"/>
 								</CheckBoxField>
@@ -980,7 +997,7 @@
 										<xr:Ref>StdPicture.AppearanceFlagRed</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияИзмененаПроцедураПроверкиКонтекстноеМеню" id="263"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияИзмененаПроцедураПроверкиРасширеннаяПодсказка" id="264"/>
 								</CheckBoxField>
@@ -996,7 +1013,7 @@
 										<xr:Ref>CommonPicture.ЗнакСтоп</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияЧтениеНизкогоПорядкаКонтекстноеМеню" id="266"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияЧтениеНизкогоПорядкаРасширеннаяПодсказка" id="267"/>
 								</CheckBoxField>
@@ -1018,7 +1035,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияИзмененКонтекстноеМеню" id="199"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияИзмененРасширеннаяПодсказка" id="200"/>
 								</CheckBoxField>
@@ -1033,7 +1050,7 @@
 										<xr:Ref>StdPicture.InputFieldChooseType</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияТехПроектКонтекстноеМеню" id="212"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияТехПроектРасширеннаяПодсказка" id="213"/>
 									<Events>
@@ -1047,6 +1064,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>3</MaxWidth>
 									<ContextMenu name="ОбработчикиОбновленияИмяБиблиотекиКонтекстноеМеню" id="237"/>
@@ -1059,6 +1077,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияПорядокБиблиотекиКонтекстноеМеню" id="249"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПорядокБиблиотекиРасширеннаяПодсказка" id="250"/>
 								</InputField>
@@ -1066,6 +1085,7 @@
 									<DataPath>Объект.ОбработчикиОбновления.Порядок</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияПорядокКонтекстноеМеню" id="260"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияПорядокРасширеннаяПодсказка" id="261"/>
 								</InputField>
@@ -1076,6 +1096,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиОбновленияИмяОбъектаКонтекстноеМеню" id="240"/>
 									<ExtendedTooltip name="ОбработчикиОбновленияИмяОбъектаРасширеннаяПодсказка" id="241"/>
 								</InputField>

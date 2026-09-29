@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,6 +8,7 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Center</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -573,7 +574,6 @@
 												<CheckBoxField name="ДоступныеДокументыПометка" id="422">
 													<DataPath>ДоступныеДокументы.Пометка</DataPath>
 													<TitleLocation>None</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ДоступныеДокументыПометкаКонтекстноеМеню" id="423"/>
 													<ExtendedTooltip name="ДоступныеДокументыПометкаРасширеннаяПодсказка" id="424"/>
 													<Events>
@@ -584,7 +584,6 @@
 													<DataPath>ДоступныеДокументы.ПометкаПриОтправке</DataPath>
 													<Visible>false</Visible>
 													<TitleLocation>None</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ДоступныеДокументыПометкаПриОтправкеКонтекстноеМеню" id="555"/>
 													<ExtendedTooltip name="ДоступныеДокументыПометкаПриОтправкеРасширеннаяПодсказка" id="556"/>
 													<Events>
@@ -610,6 +609,8 @@
 										<InputField name="ДоступныеДокументыСтатусОтправки" id="689">
 											<DataPath>ДоступныеДокументы.СтатусОтправки</DataPath>
 											<CellHyperlink>true</CellHyperlink>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>12</Width>
 											<TextColor>style:ГиперссылкаЦвет</TextColor>
 											<ContextMenu name="ДоступныеДокументыСтатусОтправкиКонтекстноеМеню" id="690"/>
@@ -942,6 +943,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -996,6 +998,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -1121,6 +1124,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулМедосмотрДатаИВремяПроведенияКонтекстноеМеню" id="57"/>
@@ -1207,7 +1211,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПерезаполнитьПоляКонтекстноеМеню" id="758"/>
 													<ExtendedTooltip name="ПерезаполнитьПоляРасширеннаяПодсказка" id="759"/>
 												</CheckBoxField>
@@ -1341,6 +1344,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулВыпускДатаИВремяПредрейсовогоКонтроляКонтекстноеМеню" id="87"/>
@@ -1385,6 +1389,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<ContextMenu name="ТитулВыпускДатаИВремяВыпускаНаЛиниюКонтекстноеМеню" id="95"/>
 											<ExtendedTooltip name="ТитулВыпускДатаИВремяВыпускаНаЛиниюРасширеннаяПодсказка" id="96"/>
@@ -1428,6 +1433,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -1675,6 +1681,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулВыездДатаИВремяВыездаКонтекстноеМеню" id="143"/>
@@ -1719,6 +1726,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулВыездПоказанияОдометраПриВыездеКонтекстноеМеню" id="151"/>
@@ -1763,6 +1771,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулВыездДатаИВремяПриемаКонтекстноеМеню" id="159"/>
@@ -1807,6 +1816,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулВыездПоказанияОдометраПриПриемеКонтекстноеМеню" id="167"/>
@@ -1851,6 +1861,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -2027,6 +2038,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулЗаездДатаИВремяЗаездаКонтекстноеМеню" id="199"/>
@@ -2071,6 +2083,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулЗаездПоказанияОдометраПриЗаездеКонтекстноеМеню" id="207"/>
@@ -2115,6 +2128,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулЗаездДатаИВремяСдачиКонтекстноеМеню" id="215"/>
@@ -2159,6 +2173,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулЗаездПоказанияОдометраПриСдачеКонтекстноеМеню" id="223"/>
@@ -2203,6 +2218,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -2471,6 +2487,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -2525,6 +2542,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<OpenButton>true</OpenButton>
@@ -2651,6 +2669,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулМедосмотрПослеДатаИВремяПроведенияКонтекстноеМеню" id="287"/>
@@ -2860,6 +2879,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПрибытияКонтекстноеМеню" id="492"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПрибытияРасширеннаяПодсказка" id="493"/>
 											<Events>
@@ -2911,6 +2931,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяУбытияКонтекстноеМеню" id="500"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяУбытияРасширеннаяПодсказка" id="501"/>
 											<Events>
@@ -2962,6 +2983,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПостановкиНаПогрузкуКонтекстноеМеню" id="508"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияДатаВремяПостановкиНаПогрузкуРасширеннаяПодсказка" id="509"/>
 											<Events>
@@ -3007,6 +3029,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииФактическогоСостояниеГрузаКонтекстноеМеню" id="516"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииФактическогоСостояниеГрузаРасширеннаяПодсказка" id="517"/>
@@ -3053,6 +3076,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииМассыГрузаКонтекстноеМеню" id="524"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииМассыГрузаРасширеннаяПодсказка" id="525"/>
@@ -3099,6 +3123,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииКоличестваГрузовыхМестКонтекстноеМеню" id="532"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииКоличестваГрузовыхМестРасширеннаяПодсказка" id="533"/>
@@ -3145,6 +3170,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииПроведенияПогрузочныхРаботКонтекстноеМеню" id="540"/>
 											<ExtendedTooltip name="ТитулПеревозчикаПриемкаЗамечанияВОтношенииПроведенияПогрузочныхРаботРасширеннаяПодсказка" id="541"/>
@@ -3345,6 +3371,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаВыдачаДатаВремяПрибытияКонтекстноеМеню" id="582"/>
 											<ExtendedTooltip name="ТитулПеревозчикаВыдачаДатаВремяПрибытияРасширеннаяПодсказка" id="583"/>
 											<Events>
@@ -3396,6 +3423,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаВыдачаДатаВремяУбытияКонтекстноеМеню" id="590"/>
 											<ExtendedTooltip name="ТитулПеревозчикаВыдачаДатаВремяУбытияРасширеннаяПодсказка" id="591"/>
 											<Events>
@@ -3447,6 +3475,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаВыдачаДатаИВремяПостановкиНаВыгрузкуКонтекстноеМеню" id="598"/>
 											<ExtendedTooltip name="ТитулПеревозчикаВыдачаДатаИВремяПостановкиНаВыгрузкуРасширеннаяПодсказка" id="599"/>
 											<Events>
@@ -3492,6 +3521,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииФактическогоСостоянияГрузаКонтекстноеМеню" id="606"/>
 											<ExtendedTooltip name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииФактическогоСостоянияГрузаРасширеннаяПодсказка" id="607"/>
@@ -3538,6 +3568,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииПроведенияРаботПоВыгрузкеКонтекстноеМеню" id="614"/>
 											<ExtendedTooltip name="ТитулПеревозчикаВыдачаЗамечанияВОтношенииПроведенияРаботПоВыгрузкеРасширеннаяПодсказка" id="615"/>

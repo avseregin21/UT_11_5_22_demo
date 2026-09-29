@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -273,7 +273,6 @@
 			<ChildItems>
 				<CheckBoxField name="ТаблицаНастроекИспользование" id="23">
 					<DataPath>ТаблицаНастроек.Использование</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ТаблицаНастроекИспользованиеКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="ТаблицаНастроекИспользованиеРасширеннаяПодсказка" id="25"/>
 					<Events>
@@ -296,6 +295,8 @@
 					<DataPath>ТаблицаНастроек.РасписаниеСтрокой</DataPath>
 					<EditMode>Directly</EditMode>
 					<CellHyperlink>true</CellHyperlink>
+					<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+					<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 					<Hiperlink>true</Hiperlink>
 					<ContextMenu name="ТаблицаНастроекРасписаниеСтрокойКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ТаблицаНастроекРасписаниеСтрокойРасширеннаяПодсказка" id="37"/>
@@ -303,14 +304,12 @@
 				<CheckBoxField name="ТаблицаНастроекПометкаУдаления" id="29">
 					<DataPath>ТаблицаНастроек.ПометкаУдаления</DataPath>
 					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ТаблицаНастроекПометкаУдаленияКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ТаблицаНастроекПометкаУдаленияРасширеннаяПодсказка" id="31"/>
 				</CheckBoxField>
 				<CheckBoxField name="ТаблицаНастроекСостояниеОшибка" id="44">
 					<DataPath>ТаблицаНастроек.СостояниеОшибка</DataPath>
 					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ТаблицаНастроекСостояниеОшибкаКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="ТаблицаНастроекСостояниеОшибкаРасширеннаяПодсказка" id="46"/>
 				</CheckBoxField>

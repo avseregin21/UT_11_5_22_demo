@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -211,6 +211,7 @@
 								<InputField name="Номер" id="61">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="62"/>
@@ -226,6 +227,7 @@
 									</Title>
 									<HorizontalAlign>Left</HorizontalAlign>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="64"/>
@@ -238,6 +240,7 @@
 							<DefaultItem>true</DefaultItem>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<ContextMenu name="КассаККМКонтекстноеМеню" id="66"/>
@@ -279,6 +282,7 @@
 								</v8:item>
 							</WarningOnEdit>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>28</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="СкладКонтекстноеМеню" id="71"/>
@@ -359,12 +363,14 @@
 								<LabelField name="ПодарочныеСертификатыНомерСтроки" id="30">
 									<DataPath>Объект.ПодарочныеСертификаты.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПодарочныеСертификатыНомерСтрокиКонтекстноеМеню" id="31"/>
 									<ExtendedTooltip name="ПодарочныеСертификатыНомерСтрокиРасширеннаяПодсказка" id="166"/>
 								</LabelField>
 								<InputField name="ПодарочныеСертификатыПодарочныйСертификат" id="32">
 									<DataPath>Объект.ПодарочныеСертификаты.ПодарочныйСертификат</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceParameters>
 										<app:item name="Статус">
 											<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -379,12 +385,14 @@
 								<LabelField name="ПодарочныеСертификатыПодарочныйСертификатВладелецНоминал" id="135">
 									<DataPath>Объект.ПодарочныеСертификаты.ПодарочныйСертификат.Owner.Номинал</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПодарочныеСертификатыПодарочныйСертификатВладелецНоминалКонтекстноеМеню" id="136"/>
 									<ExtendedTooltip name="ПодарочныеСертификатыПодарочныйСертификатВладелецНоминалРасширеннаяПодсказка" id="168"/>
 								</LabelField>
 								<LabelField name="ПодарочныеСертификатыПодарочныйСертификатВладелецВалюта" id="137">
 									<DataPath>Объект.ПодарочныеСертификаты.ПодарочныйСертификат.Owner.Валюта</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПодарочныеСертификатыПодарочныйСертификатВладелецВалютаКонтекстноеМеню" id="138"/>
 									<ExtendedTooltip name="ПодарочныеСертификатыПодарочныйСертификатВладелецВалютаРасширеннаяПодсказка" id="169"/>
 								</LabelField>
@@ -392,6 +400,7 @@
 									<DataPath>Объект.ПодарочныеСертификаты.Сумма</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПодарочныеСертификатыСуммаКонтекстноеМеню" id="35"/>
 									<ExtendedTooltip name="ПодарочныеСертификатыСуммаРасширеннаяПодсказка" id="170"/>
 								</InputField>
@@ -462,6 +471,7 @@
 								<LabelField name="ОплатаПлатежнымиКартамиНомерСтроки" id="93">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиНомерСтрокиКонтекстноеМеню" id="94"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиНомерСтрокиРасширеннаяПодсказка" id="174"/>
 								</LabelField>
@@ -526,43 +536,49 @@
 								<InputField name="ОплатаПлатежнымиКартамиЭквайринговыйТерминал" id="95">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.ЭквайринговыйТерминал</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиЭквайринговыйТерминалКонтекстноеМеню" id="96"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиЭквайринговыйТерминалРасширеннаяПодсказка" id="175"/>
 								</InputField>
 								<CheckBoxField name="ОплатаПлатежнымиКартамиОплатаОтменена" id="107">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.ОплатаОтменена</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиОплатаОтмененаКонтекстноеМеню" id="108"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиОплатаОтмененаРасширеннаяПодсказка" id="176"/>
 								</CheckBoxField>
 								<InputField name="ОплатаПлатежнымиКартамиНомерПлатежнойКарты" id="99">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.НомерПлатежнойКарты</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиНомерПлатежнойКартыКонтекстноеМеню" id="100"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиНомерПлатежнойКартыРасширеннаяПодсказка" id="178"/>
 								</InputField>
 								<InputField name="ОплатаПлатежнымиКартамиСумма" id="101">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиСуммаКонтекстноеМеню" id="102"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиСуммаРасширеннаяПодсказка" id="179"/>
 								</InputField>
 								<InputField name="ОплатаПлатежнымиКартамиСсылочныйНомер" id="103">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.СсылочныйНомер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиСсылочныйНомерКонтекстноеМеню" id="104"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиСсылочныйНомерРасширеннаяПодсказка" id="180"/>
 								</InputField>
 								<InputField name="ОплатаПлатежнымиКартамиНомерЧекаЭТ" id="105">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.НомерЧекаЭТ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиНомерЧекаЭТКонтекстноеМеню" id="106"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиНомерЧекаЭТРасширеннаяПодсказка" id="181"/>
 								</InputField>
 								<InputField name="ОплатаПлатежнымиКартамиКодАвторизации" id="221">
 									<DataPath>Объект.ОплатаПлатежнымиКартами.КодАвторизации</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатаПлатежнымиКартамиКодАвторизацииКонтекстноеМеню" id="222"/>
 									<ExtendedTooltip name="ОплатаПлатежнымиКартамиКодАвторизацииРасширеннаяПодсказка" id="223"/>
 								</InputField>
@@ -692,6 +708,7 @@
 										<InputField name="Кассир" id="114">
 											<DataPath>Объект.Кассир</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>

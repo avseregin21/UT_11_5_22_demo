@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -366,6 +366,7 @@
 										<InputField name="ОрганизацияСАТУРН" id="573">
 											<DataPath>Объект.ОрганизацияСАТУРН</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>31</MaxWidth>
 											<ContextMenu name="ОрганизацияСАТУРНКонтекстноеМеню" id="574"/>
@@ -518,6 +519,7 @@
 						<InputField name="Ответственный" id="224">
 							<DataPath>Объект.Ответственный</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>31</MaxWidth>
 							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="225"/>
@@ -527,6 +529,7 @@
 							<DataPath>Объект.Комментарий</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>60</MaxWidth>
 							<AutoMaxHeight>false</AutoMaxHeight>
@@ -668,6 +671,7 @@
 										<LabelField name="ОстаткиПоДаннымСАТУРННомерСтроки" id="284">
 											<DataPath>Объект.ОстаткиПоДаннымСАТУРН.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиПоДаннымСАТУРННомерСтрокиКонтекстноеМеню" id="285"/>
 											<ExtendedTooltip name="ОстаткиПоДаннымСАТУРННомерСтрокиРасширеннаяПодсказка" id="286"/>
 										</LabelField>
@@ -725,6 +729,7 @@
 										<InputField name="ОстаткиПоДаннымСАТУРННоменклатура" id="290">
 											<DataPath>Объект.ОстаткиПоДаннымСАТУРН.Номенклатура</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиПоДаннымСАТУРННоменклатураКонтекстноеМеню" id="291"/>
 											<ExtendedTooltip name="ОстаткиПоДаннымСАТУРННоменклатураРасширеннаяПодсказка" id="292"/>
 											<Events>
@@ -735,6 +740,7 @@
 										<InputField name="ОстаткиПоДаннымСАТУРНХарактеристика" id="293">
 											<DataPath>Объект.ОстаткиПоДаннымСАТУРН.Характеристика</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиПоДаннымСАТУРНХарактеристикаКонтекстноеМеню" id="294"/>
 											<ExtendedTooltip name="ОстаткиПоДаннымСАТУРНХарактеристикаРасширеннаяПодсказка" id="295"/>
 											<Events>
@@ -761,12 +767,14 @@
 													<DataPath>Объект.ОстаткиПоДаннымСАТУРН.СтатусУказанияСерий</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ОстаткиПоДаннымСАТУРНСтатусУказанияСерийКонтекстноеМеню" id="299"/>
 													<ExtendedTooltip name="ОстаткиПоДаннымСАТУРНСтатусУказанияСерийРасширеннаяПодсказка" id="300"/>
 												</InputField>
 												<InputField name="ОстаткиПоДаннымСАТУРНСерия" id="301">
 													<DataPath>Объект.ОстаткиПоДаннымСАТУРН.Серия</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -788,6 +796,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиПоДаннымСАТУРНКоличествоУпаковокКонтекстноеМеню" id="308"/>
 											<ExtendedTooltip name="ОстаткиПоДаннымСАТУРНКоличествоУпаковокРасширеннаяПодсказка" id="309"/>
 											<Events>
@@ -827,6 +836,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ОстаткиПоДаннымСАТУРННоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="316"/>
 													<ExtendedTooltip name="ОстаткиПоДаннымСАТУРННоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="317"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -209,6 +209,7 @@
 										<InputField name="Номер" id="1">
 											<DataPath>Объект.Number</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<MaxWidth>12</MaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -224,6 +225,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>14</Width>
 											<MaxWidth>12</MaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -235,6 +237,7 @@
 								<InputField name="Организация" id="7">
 									<DataPath>Объект.Организация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>29</MaxWidth>
 									<QuickChoice>false</QuickChoice>
@@ -294,7 +297,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтражатьВОперативномУчетеКонтекстноеМеню" id="151"/>
 											<ExtendedTooltip name="ОтражатьВОперативномУчетеРасширеннаяПодсказка" id="152"/>
 											<Events>
@@ -310,7 +312,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтражатьВБУиНУКонтекстноеМеню" id="154"/>
 											<ExtendedTooltip name="ОтражатьВБУиНУРасширеннаяПодсказка" id="155"/>
 											<Events>
@@ -326,7 +327,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтражатьВУУКонтекстноеМеню" id="157"/>
 											<ExtendedTooltip name="ОтражатьВУУРасширеннаяПодсказка" id="158"/>
 											<Events>
@@ -418,6 +418,7 @@
 								<LabelField name="РасчетыПоЭквайрингуНомерСтроки" id="51">
 									<DataPath>Объект.РасчетыПоЭквайрингу.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасчетыПоЭквайрингуНомерСтрокиКонтекстноеМеню" id="52"/>
@@ -426,6 +427,7 @@
 								<InputField name="РасчетыПоЭквайрингуДатаПлатежа" id="63">
 									<DataPath>Объект.РасчетыПоЭквайрингу.ДатаПлатежа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасчетыПоЭквайрингуДатаПлатежаКонтекстноеМеню" id="64"/>
@@ -434,6 +436,7 @@
 								<InputField name="РасчетыПоЭквайрингуТипДенежныхСредств" id="53">
 									<DataPath>Объект.РасчетыПоЭквайрингу.ТипДенежныхСредств</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="РасчетыПоЭквайрингуТипДенежныхСредствКонтекстноеМеню" id="54"/>
 									<ExtendedTooltip name="РасчетыПоЭквайрингуТипДенежныхСредствРасширеннаяПодсказка" id="81"/>
@@ -441,6 +444,7 @@
 								<InputField name="РасчетыПоЭквайрингуДоговорЭквайринга" id="168">
 									<DataPath>Объект.РасчетыПоЭквайрингу.ДоговорЭквайринга</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасчетыПоЭквайрингуДоговорЭквайрингаКонтекстноеМеню" id="169"/>
 									<ExtendedTooltip name="РасчетыПоЭквайрингуДоговорЭквайрингаРасширеннаяПодсказка" id="170"/>
 									<Events>
@@ -459,6 +463,7 @@
 										<InputField name="РасчетыПоЭквайрингуЭквайринговыйТерминал" id="57">
 											<DataPath>Объект.РасчетыПоЭквайрингу.ЭквайринговыйТерминал</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ContextMenu name="РасчетыПоЭквайрингуЭквайринговыйТерминалКонтекстноеМеню" id="58"/>
 											<ExtendedTooltip name="РасчетыПоЭквайрингуЭквайринговыйТерминалРасширеннаяПодсказка" id="82"/>
@@ -480,6 +485,7 @@
 										<InputField name="РасчетыПоЭквайрингуНомерПлатежнойКарты" id="61">
 											<DataPath>Объект.РасчетыПоЭквайрингу.НомерПлатежнойКарты</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ContextMenu name="РасчетыПоЭквайрингуНомерПлатежнойКартыКонтекстноеМеню" id="62"/>
 											<ExtendedTooltip name="РасчетыПоЭквайрингуНомерПлатежнойКартыРасширеннаяПодсказка" id="85"/>
@@ -489,6 +495,7 @@
 								<InputField name="РасчетыПоЭквайрингуСумма" id="65">
 									<DataPath>Объект.РасчетыПоЭквайрингу.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="РасчетыПоЭквайрингуСуммаКонтекстноеМеню" id="66"/>
 									<ExtendedTooltip name="РасчетыПоЭквайрингуСуммаРасширеннаяПодсказка" id="86"/>
@@ -505,6 +512,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<QuickChoice>false</QuickChoice>
 									<ContextMenu name="РасчетыПоЭквайрингуВалютаКонтекстноеМеню" id="56"/>
 									<ExtendedTooltip name="РасчетыПоЭквайрингуВалютаРасширеннаяПодсказка" id="87"/>
@@ -512,6 +520,7 @@
 								<InputField name="РасчетыПоЭквайрингуСуммаРегл" id="102">
 									<DataPath>Объект.РасчетыПоЭквайрингу.СуммаРегл</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="РасчетыПоЭквайрингуСуммаРеглКонтекстноеМеню" id="103"/>
 									<ExtendedTooltip name="РасчетыПоЭквайрингуСуммаРеглРасширеннаяПодсказка" id="104"/>
@@ -519,6 +528,7 @@
 								<InputField name="РасчетыПоЭквайрингуСуммаУпр" id="159">
 									<DataPath>Объект.РасчетыПоЭквайрингу.СуммаУпр</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="РасчетыПоЭквайрингуСуммаУпрКонтекстноеМеню" id="160"/>
 									<ExtendedTooltip name="РасчетыПоЭквайрингуСуммаУпрРасширеннаяПодсказка" id="161"/>
@@ -533,6 +543,7 @@
 			<DataPath>Объект.Комментарий</DataPath>
 			<TitleLocation>Left</TitleLocation>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>1</Height>
 			<MultiLine>true</MultiLine>
@@ -559,6 +570,7 @@
 				<InputField name="Ответственный" id="9">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<MaxWidth>28</MaxWidth>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="10"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="90"/>

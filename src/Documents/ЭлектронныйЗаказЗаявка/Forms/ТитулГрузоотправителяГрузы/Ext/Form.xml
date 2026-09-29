@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -159,6 +160,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулГрузоотправителяГрузыОтгрузочноеНаименованиеГрузаКонтекстноеМеню" id="34"/>
@@ -180,6 +182,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулГрузоотправителяГрузыСостояниеГрузаКонтекстноеМеню" id="37"/>
@@ -201,6 +204,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>2</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -226,6 +230,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулГрузоотправителяГрузыКоличествоГрузовыхМестКонтекстноеМеню" id="46"/>
@@ -309,6 +314,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулГрузоотправителяГрузыОбъемГрузаКонтекстноеМеню" id="52"/>
@@ -347,6 +353,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулГрузоотправителяГрузыМассаНеттоКонтекстноеМеню" id="65"/>
 													<ExtendedTooltip name="ТитулГрузоотправителяГрузыМассаНеттоРасширеннаяПодсказка" id="66"/>
@@ -367,6 +374,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулГрузоотправителяГрузыМассаБруттоКонтекстноеМеню" id="68"/>
@@ -388,6 +396,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулГрузоотправителяГрузыКоличествоПаллетКонтекстноеМеню" id="71"/>
 													<ExtendedTooltip name="ТитулГрузоотправителяГрузыКоличествоПаллетРасширеннаяПодсказка" id="72"/>
@@ -408,6 +417,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулГрузоотправителяГрузыМассаТарыКонтекстноеМеню" id="74"/>
 													<ExtendedTooltip name="ТитулГрузоотправителяГрузыМассаТарыРасширеннаяПодсказка" id="75"/>
@@ -445,6 +455,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулГрузоотправителяГрузыВысотаКонтекстноеМеню" id="79"/>
@@ -466,6 +477,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулГрузоотправителяГрузыДлинаКонтекстноеМеню" id="82"/>
@@ -487,6 +499,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулГрузоотправителяГрузыШиринаКонтекстноеМеню" id="85"/>
@@ -505,6 +518,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -525,6 +540,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ContextMenu name="СсылкаСведенияОбОпасномГрузеКонтекстноеМеню" id="88"/>
 											<ExtendedTooltip name="СсылкаСведенияОбОпасномГрузеРасширеннаяПодсказка" id="89"/>
@@ -557,6 +573,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>30</Width>
 													<ContextMenu name="СсылкаТитулГрузоотправителяЗаказчикКонтекстноеМеню" id="93"/>
 													<ExtendedTooltip name="СсылкаТитулГрузоотправителяЗаказчикРасширеннаяПодсказка" id="94"/>
@@ -577,6 +594,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<TextEdit>false</TextEdit>
@@ -596,7 +615,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулГрузоотправителяГрузыВозможностьРаспределенияПоДлинеПлатформыКонтекстноеМеню" id="102"/>
 											<ExtendedTooltip name="ТитулГрузоотправителяГрузыВозможностьРаспределенияПоДлинеПлатформыРасширеннаяПодсказка" id="55"/>
 										</CheckBoxField>
@@ -610,7 +629,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулГрузоотправителяГрузыДелимостьГрузаКонтекстноеМеню" id="103"/>
 											<ExtendedTooltip name="ТитулГрузоотправителяГрузыДелимостьГрузаРасширеннаяПодсказка" id="57"/>
 										</CheckBoxField>
@@ -624,7 +643,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулГрузоотправителяГрузыУчастиеВодителяВПогрузкеГрузаВКонтейнерКонтекстноеМеню" id="104"/>
 											<ExtendedTooltip name="ТитулГрузоотправителяГрузыУчастиеВодителяВПогрузкеГрузаВКонтейнерРасширеннаяПодсказка" id="59"/>
 										</CheckBoxField>
@@ -638,7 +657,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулГрузоотправителяГрузыПриемГруженогоКонтейнераКонтекстноеМеню" id="105"/>
 											<ExtendedTooltip name="ТитулГрузоотправителяГрузыПриемГруженогоКонтейнераРасширеннаяПодсказка" id="61"/>
 										</CheckBoxField>
@@ -658,6 +677,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТитулГрузоотправителяГрузыДругаяИнформацияКонтекстноеМеню" id="43"/>
 											<ExtendedTooltip name="ТитулГрузоотправителяГрузыДругаяИнформацияРасширеннаяПодсказка" id="44"/>

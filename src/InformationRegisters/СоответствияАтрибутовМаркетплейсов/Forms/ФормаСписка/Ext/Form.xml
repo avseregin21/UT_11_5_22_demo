@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -19,7 +19,7 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
@@ -125,7 +125,6 @@
 				<CheckBoxField name="ОбязательныйАтрибут" id="43">
 					<DataPath>Список.ОбязательныйАтрибут</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОбязательныйАтрибутКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="ОбязательныйАтрибутРасширеннаяПодсказка" id="45"/>
 				</CheckBoxField>
@@ -138,7 +137,6 @@
 				<CheckBoxField name="ЯвляетсяКоллекциейЗначений" id="46">
 					<DataPath>Список.ЯвляетсяКоллекциейЗначений</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЯвляетсяКоллекциейЗначенийКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="ЯвляетсяКоллекциейЗначенийРасширеннаяПодсказка" id="48"/>
 				</CheckBoxField>
@@ -149,14 +147,12 @@
 				</LabelField>
 				<CheckBoxField name="АспектныйАтрибут" id="79">
 					<DataPath>Список.АспектныйАтрибут</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="АспектныйАтрибутКонтекстноеМеню" id="80"/>
 					<ExtendedTooltip name="АспектныйАтрибутРасширеннаяПодсказка" id="81"/>
 				</CheckBoxField>
 				<CheckBoxField name="ДоступенВыборЗначенияИзСписка" id="49">
 					<DataPath>Список.ДоступенВыборЗначенияИзСписка</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ДоступенВыборЗначенияИзСпискаКонтекстноеМеню" id="50"/>
 					<ExtendedTooltip name="ДоступенВыборЗначенияИзСпискаРасширеннаяПодсказка" id="51"/>
 				</CheckBoxField>

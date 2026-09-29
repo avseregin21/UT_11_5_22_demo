@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -310,7 +310,7 @@
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыОтметкаКонтекстноеМеню" id="251"/>
 									<ExtendedTooltip name="ДокументыОплатыОтметкаРасширеннаяПодсказка" id="252"/>
 									<Events>
@@ -326,6 +326,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыКонтрагентКонтекстноеМеню" id="224"/>
 									<ExtendedTooltip name="ДокументыОплатыКонтрагентРасширеннаяПодсказка" id="225"/>
 									<Events>
@@ -341,6 +342,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыПартнерКонтекстноеМеню" id="227"/>
 									<ExtendedTooltip name="ДокументыОплатыПартнерРасширеннаяПодсказка" id="228"/>
 									<Events>
@@ -356,6 +358,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыБанковскийСчетКонтрагентаКонтекстноеМеню" id="236"/>
 									<ExtendedTooltip name="ДокументыОплатыБанковскийСчетКонтрагентаРасширеннаяПодсказка" id="237"/>
 									<Events>
@@ -365,6 +368,7 @@
 								<InputField name="ДокументыОплатыДоговор" id="229">
 									<DataPath>Объект.ДокументыОплаты.Договор</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыДоговорКонтекстноеМеню" id="230"/>
 									<ExtendedTooltip name="ДокументыОплатыДоговорРасширеннаяПодсказка" id="231"/>
 									<Events>
@@ -374,6 +378,7 @@
 								<InputField name="ДокументыОплатыОбъектРасчетов" id="232">
 									<DataPath>Объект.ДокументыОплаты.ОбъектРасчетов</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыОбъектРасчетовКонтекстноеМеню" id="233"/>
 									<ExtendedTooltip name="ДокументыОплатыОбъектРасчетовРасширеннаяПодсказка" id="234"/>
 									<Events>
@@ -383,6 +388,7 @@
 								<InputField name="ДокументыОплатыДатаПлатежа" id="241">
 									<DataPath>Объект.ДокументыОплаты.ДатаПлатежа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыДатаПлатежаКонтекстноеМеню" id="242"/>
 									<ExtendedTooltip name="ДокументыОплатыДатаПлатежаРасширеннаяПодсказка" id="243"/>
 									<Events>
@@ -398,6 +404,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыБанковскийСчетОрганизацииКонтекстноеМеню" id="248"/>
 									<ExtendedTooltip name="ДокументыОплатыБанковскийСчетОрганизацииРасширеннаяПодсказка" id="249"/>
 									<Events>
@@ -413,6 +420,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыОплатыСуммаКонтекстноеМеню" id="239"/>
 									<ExtendedTooltip name="ДокументыОплатыСуммаРасширеннаяПодсказка" id="240"/>
 									<Events>
@@ -435,6 +443,7 @@
 											<DataPath>Объект.ДокументыОплаты.Состояние</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.КартинкаСтрокиСпискаДокументов</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -446,6 +455,7 @@
 											<DataPath>Объект.ДокументыОплаты.ДокументОплаты</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceButton>false</ChoiceButton>
 											<ContextMenu name="ДокументыОплатыДокументОплатыКонтекстноеМеню" id="257"/>
 											<ExtendedTooltip name="ДокументыОплатыДокументОплатыРасширеннаяПодсказка" id="258"/>
@@ -470,7 +480,7 @@
 					<ChildItems>
 						<Table name="ДокументыПриобретения" id="67">
 							<Representation>List</Representation>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -628,6 +638,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыПриобретенияКонтрагентКонтекстноеМеню" id="269"/>
 									<ExtendedTooltip name="ДокументыПриобретенияКонтрагентРасширеннаяПодсказка" id="270"/>
 								</InputField>
@@ -641,18 +652,21 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыПриобретенияПартнерКонтекстноеМеню" id="272"/>
 									<ExtendedTooltip name="ДокументыПриобретенияПартнерРасширеннаяПодсказка" id="273"/>
 								</InputField>
 								<InputField name="ДокументыПриобретенияДоговор" id="274">
 									<DataPath>Объект.ДокументыПриобретения.Договор</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыПриобретенияДоговорКонтекстноеМеню" id="275"/>
 									<ExtendedTooltip name="ДокументыПриобретенияДоговорРасширеннаяПодсказка" id="276"/>
 								</InputField>
 								<InputField name="ДокументыПриобретенияСумма" id="280">
 									<DataPath>Объект.ДокументыПриобретения.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДокументыПриобретенияСуммаКонтекстноеМеню" id="281"/>
 									<ExtendedTooltip name="ДокументыПриобретенияСуммаРасширеннаяПодсказка" id="282"/>
 								</InputField>
@@ -677,6 +691,9 @@
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<ContextMenu name="ДокументыПриобретенияНомерЧекаКонтекстноеМеню" id="295"/>
 											<ExtendedTooltip name="ДокументыПриобретенияНомерЧекаРасширеннаяПодсказка" id="296"/>
 										</InputField>
@@ -691,6 +708,9 @@
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<ContextMenu name="ДокументыПриобретенияЗагрузитьЧекСамозанятогоКонтекстноеМеню" id="292"/>
 											<ExtendedTooltip name="ДокументыПриобретенияЗагрузитьЧекСамозанятогоРасширеннаяПодсказка" id="293"/>
 										</InputField>
@@ -711,6 +731,7 @@
 											<DataPath>Объект.ДокументыПриобретения.Состояние</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.КартинкаСтрокиСпискаДокументов</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -722,6 +743,7 @@
 											<DataPath>Объект.ДокументыПриобретения.ДокументПриобретения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceButton>false</ChoiceButton>
 											<ContextMenu name="ДокументыПриобретенияДокументПриобретенияКонтекстноеМеню" id="287"/>
 											<ExtendedTooltip name="ДокументыПриобретенияДокументПриобретенияРасширеннаяПодсказка" id="288"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -240,7 +240,6 @@
 						<CheckBoxField name="Корректировочный" id="710">
 							<DataPath>Объект.Корректировочный</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="КорректировочныйКонтекстноеМеню" id="711"/>
 							<ExtendedTooltip name="КорректировочныйРасширеннаяПодсказка" id="712"/>
 							<Events>
@@ -498,7 +497,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПолученВЭлектронномВидеКонтекстноеМеню" id="221"/>
 													<ExtendedTooltip name="ПолученВЭлектронномВидеРасширеннаяПодсказка" id="328"/>
 												</CheckBoxField>
@@ -900,6 +898,7 @@
 													<DataPath>Объект.ДокументыОснования.ДокументОснование</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>25</Width>
 													<ContextMenu name="ДокументыОснованияДокументОснованиеКонтекстноеМеню" id="670"/>
 													<ExtendedTooltip name="ДокументыОснованияДокументОснованиеРасширеннаяПодсказка" id="671"/>
@@ -907,6 +906,7 @@
 												<InputField name="ДокументыОснованияИсходныйДокумент" id="672">
 													<DataPath>Объект.ДокументыОснования.ИсходныйДокумент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияИсходныйДокументКонтекстноеМеню" id="673"/>
 													<ExtendedTooltip name="ДокументыОснованияИсходныйДокументРасширеннаяПодсказка" id="674"/>
 													<Events>
@@ -933,6 +933,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаКонтекстноеМеню" id="578"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаРасширеннаяПодсказка" id="579"/>
 													<Events>
@@ -948,6 +949,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаУвеличениеКонтекстноеМеню" id="581"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаУвеличениеРасширеннаяПодсказка" id="582"/>
 													<Events>
@@ -963,6 +965,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаУменьшениеКонтекстноеМеню" id="584"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаУменьшениеРасширеннаяПодсказка" id="585"/>
 													<Events>
@@ -974,6 +977,7 @@
 										<InputField name="ДокументыОснованияСтавкаНДС" id="658">
 											<DataPath>Объект.ДокументыОснования.СтавкаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<MaxWidth>8</MaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -1001,6 +1005,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаНДСКонтекстноеМеню" id="589"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаНДСРасширеннаяПодсказка" id="590"/>
 													<Events>
@@ -1016,6 +1021,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаНДСУвеличениеКонтекстноеМеню" id="592"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаНДСУвеличениеРасширеннаяПодсказка" id="593"/>
 													<Events>
@@ -1031,6 +1037,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаНДСУменьшениеКонтекстноеМеню" id="595"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаНДСУменьшениеРасширеннаяПодсказка" id="596"/>
 													<Events>
@@ -1057,6 +1064,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаКомиссияКонтекстноеМеню" id="695"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаКомиссияРасширеннаяПодсказка" id="696"/>
 													<Events>
@@ -1072,6 +1080,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаУвеличениеКомиссияКонтекстноеМеню" id="697"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаУвеличениеКомиссияРасширеннаяПодсказка" id="698"/>
 													<Events>
@@ -1087,6 +1096,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаУменьшениеКомиссияКонтекстноеМеню" id="678"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаУменьшениеКомиссияРасширеннаяПодсказка" id="679"/>
 													<Events>
@@ -1113,6 +1123,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаНДСКомиссияКонтекстноеМеню" id="683"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаНДСКомиссияРасширеннаяПодсказка" id="684"/>
 													<Events>
@@ -1128,6 +1139,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаНДСУвеличениеКомиссияКонтекстноеМеню" id="686"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаНДСУвеличениеКомиссияРасширеннаяПодсказка" id="687"/>
 													<Events>
@@ -1143,6 +1155,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСуммаНДСУменьшениеКомиссияКонтекстноеМеню" id="689"/>
 													<ExtendedTooltip name="ДокументыОснованияСуммаНДСУменьшениеКомиссияРасширеннаяПодсказка" id="690"/>
 													<Events>
@@ -1165,6 +1178,7 @@
 												<InputField name="ДокументыОснованияПринятоКВычетуНДСДоВводаОстатков" id="713">
 													<DataPath>Объект.ДокументыОснования.ПринятоКВычетуНДСДоВводаОстатков</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияПринятоКВычетуНДСДоВводаОстатковКонтекстноеМеню" id="714"/>
 													<ExtendedTooltip name="ДокументыОснованияПринятоКВычетуНДСДоВводаОстатковРасширеннаяПодсказка" id="715"/>
 													<Events>
@@ -1174,6 +1188,7 @@
 												<InputField name="ДокументыОснованияСтавкаНДСДоВводаОстатков" id="721">
 													<DataPath>Объект.ДокументыОснования.СтавкаНДСДоВводаОстатков</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияСтавкаНДСДоВводаОстатковКонтекстноеМеню" id="722"/>
 													<ExtendedTooltip name="ДокументыОснованияСтавкаНДСДоВводаОстатковРасширеннаяПодсказка" id="723"/>
 													<Events>
@@ -1183,6 +1198,7 @@
 												<InputField name="ДокументыОснованияВидЦенности" id="718">
 													<DataPath>Объект.ДокументыОснования.ВидЦенности</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументыОснованияВидЦенностиКонтекстноеМеню" id="719"/>
 													<ExtendedTooltip name="ДокументыОснованияВидЦенностиРасширеннаяПодсказка" id="720"/>
 													<Events>
@@ -1512,7 +1528,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СоставленКомиссионеромОтИмениПродавцаКонтекстноеМеню" id="499"/>
 							<ExtendedTooltip name="СоставленКомиссионеромОтИмениПродавцаРасширеннаяПодсказка" id="500"/>
 							<Events>

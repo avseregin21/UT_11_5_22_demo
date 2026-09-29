@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -113,7 +113,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ЗаголовокГруппаУправлениеОбменомЭДРасширеннаяПодсказка" id="1951"/>
 			<ChildItems>
@@ -161,7 +161,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьЭлектронныеПодписиКонтекстноеМеню" id="1707"/>
 									<ExtendedTooltip name="ИспользоватьЭлектронныеПодписиРасширеннаяПодсказка" id="1744"/>
 									<Events>
@@ -252,7 +251,7 @@
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<ExtendedTooltip name="ГруппаТипыПодписейРасширеннаяПодсказка" id="2399"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаТипПодписиЭДЛево" id="2406">
@@ -391,7 +390,7 @@
 			<HorizontalAlign>Left</HorizontalAlign>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиОбменаСБанкамиРасширеннаяПодсказка" id="1949"/>
 			<ChildItems>
@@ -426,7 +425,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьОбменСБанкамиКонтекстноеМеню" id="1717"/>
 							<ExtendedTooltip name="ИспользоватьОбменСБанкамиРасширеннаяПодсказка" id="1748"/>
 							<Events>
@@ -495,7 +493,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиОбменаСКонтрагентамиРасширеннаяПодсказка" id="1891"/>
 			<ChildItems>
@@ -556,7 +554,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОбменЭДКонтекстноеМеню" id="2118"/>
 											<ExtendedTooltip name="ИспользоватьОбменЭДРасширеннаяПодсказка" id="2119"/>
 											<Events>
@@ -638,7 +635,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтключитьЗаполнениеТекстовыхПолномочийПоУмолчаниюКонтекстноеМеню" id="2449"/>
 											<ExtendedTooltip name="ОтключитьЗаполнениеТекстовыхПолномочийПоУмолчаниюРасширеннаяПодсказка" id="2450"/>
 											<Events>
@@ -655,7 +651,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтключитьАвтоматическоеДовериеПолнымПолномочиямКонтекстноеМеню" id="2590"/>
 											<ExtendedTooltip name="ОтключитьАвтоматическоеДовериеПолнымПолномочиямРасширеннаяПодсказка" id="2435"/>
 											<Events>
@@ -714,7 +709,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОбменЭДМеждуОрганизациямиКонтекстноеМеню" id="2138"/>
 											<ExtendedTooltip name="ИспользоватьОбменЭДМеждуОрганизациямиРасширеннаяПодсказка" id="2139"/>
 											<Events>
@@ -751,7 +745,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПрямойОбменКонтекстноеМеню" id="2143"/>
 											<ExtendedTooltip name="ИспользоватьПрямойОбменРасширеннаяПодсказка" id="2144"/>
 											<Events>
@@ -834,7 +827,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОбезличенныеСертификатыКонтекстноеМеню" id="2382"/>
 											<ExtendedTooltip name="ИспользоватьОбезличенныеСертификатыРасширеннаяПодсказка" id="2383"/>
 											<Events>
@@ -875,7 +867,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Константа_СоздаватьКонтрагентовАвтоматическиКонтекстноеМеню" id="2123"/>
 									<ExtendedTooltip name="Константа_СоздаватьКонтрагентовАвтоматическиРасширеннаяПодсказка" id="2124"/>
 									<Events>
@@ -899,7 +890,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Константа_ПриниматьПриглашенияЭДОАвтоматическиКонтекстноеМеню" id="2464"/>
 									<ExtendedTooltip name="Константа_ПриниматьПриглашенияЭДОАвтоматическиРасширеннаяПодсказка" id="2465"/>
 									<Events>
@@ -925,7 +915,7 @@
 							<v8:content>Регламентные задания</v8:content>
 						</v8:item>
 					</CollapsedRepresentationTitle>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>None</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -963,7 +953,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьАвтоматическуюОтправкуЭДКонтекстноеМеню" id="1879"/>
 									<ExtendedTooltip name="ИспользоватьАвтоматическуюОтправкуЭДРасширеннаяПодсказка" id="1880"/>
 									<Events>
@@ -1071,7 +1060,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьАвтоматическоеПолучениеЭДКонтекстноеМеню" id="1886"/>
 											<ExtendedTooltip name="ИспользоватьАвтоматическоеПолучениеЭДРасширеннаяПодсказка" id="1887"/>
 											<Events>
@@ -1144,7 +1132,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьАвтоматическоеПолучениеЭДПоТокенамКонтекстноеМеню" id="2597"/>
 											<ExtendedTooltip name="ИспользоватьАвтоматическоеПолучениеЭДПоТокенамРасширеннаяПодсказка" id="2598"/>
 											<Events>
@@ -1245,7 +1232,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОповещатьОСобытияхЭДОКонтекстноеМеню" id="1930"/>
 									<ExtendedTooltip name="ОповещатьОСобытияхЭДОРасширеннаяПодсказка" id="1931"/>
 									<Events>
@@ -1319,7 +1305,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПомечатьНаУдалениеТранспортныеКонтейнерыЭДОКонтекстноеМеню" id="2082"/>
 									<ExtendedTooltip name="ПомечатьНаУдалениеТранспортныеКонтейнерыЭДОРасширеннаяПодсказка" id="2083"/>
 									<Events>
@@ -1416,7 +1401,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОзнакомлениеСЭлектроннымиДокументамиКонтекстноеМеню" id="2067"/>
 									<ExtendedTooltip name="ИспользоватьОзнакомлениеСЭлектроннымиДокументамиРасширеннаяПодсказка" id="2068"/>
 									<Events>
@@ -1456,7 +1440,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОтложеннуюОтправкуЭлектронныхДокументовКонтекстноеМеню" id="1690"/>
 									<ExtendedTooltip name="ИспользоватьОтложеннуюОтправкуЭлектронныхДокументовРасширеннаяПодсказка" id="1777"/>
 									<Events>
@@ -1510,7 +1493,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтправлятьВходящиеДокументыНаУтверждениеКонтекстноеМеню" id="2109"/>
 									<ExtendedTooltip name="ОтправлятьВходящиеДокументыНаУтверждениеРасширеннаяПодсказка" id="2110"/>
 									<Events>
@@ -1549,7 +1531,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьВнутренниеДокументыЭДОКонтекстноеМеню" id="2221"/>
 									<ExtendedTooltip name="ИспользоватьВнутренниеДокументыЭДОРасширеннаяПодсказка" id="2222"/>
 									<Events>
@@ -1594,7 +1575,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗапретитьФормированиеОтветногоТитулаБезДокументовУчетаКонтекстноеМеню" id="2330"/>
 									<ExtendedTooltip name="ЗапретитьФормированиеОтветногоТитулаБезДокументовУчетаРасширеннаяПодсказка" id="2331"/>
 									<Events>
@@ -1640,7 +1620,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Константа_ИспользоватьПрочтениеДокументовЭДОКонтекстноеМеню" id="2337"/>
 									<ExtendedTooltip name="Константа_ИспользоватьПрочтениеДокументовЭДОРасширеннаяПодсказка" id="2338"/>
 									<Events>
@@ -1670,7 +1649,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Константа_ИспользоватьРазделениеДокументовПоОтветственнымЭДОКонтекстноеМеню" id="2454"/>
 									<ExtendedTooltip name="Константа_ИспользоватьРазделениеДокументовПоОтветственнымЭДОРасширеннаяПодсказка" id="2455"/>
 									<Events>
@@ -1712,7 +1690,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСервис1СШтампКонтекстноеМеню" id="2426"/>
 							<ExtendedTooltip name="ИспользоватьСервис1СШтампРасширеннаяПодсказка" id="2427">
 								<Title formatted="true">
@@ -1799,7 +1776,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<ExtendedTooltip name="ГруппаНастройкиОбменаСЕИСРасширеннаяПодсказка" id="2319"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаНастройкиОбменаЕИСПоставщики" id="2320">
@@ -1825,7 +1802,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="Константа_ИспользоватьЭлектронноеАктированиеВЕИСКонтекстноеМеню" id="2328"/>
 							<ExtendedTooltip name="Константа_ИспользоватьЭлектронноеАктированиеВЕИСРасширеннаяПодсказка" id="2329">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1873,7 +1849,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="Константа_ИспользоватьЭлектронноеАктированиеЗаказчикаВЕИСКонтекстноеМеню" id="2305"/>
 							<ExtendedTooltip name="Константа_ИспользоватьЭлектронноеАктированиеЗаказчикаВЕИСРасширеннаяПодсказка" id="2306">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1911,7 +1886,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаНастройкиБизнесСетьРасширеннаяПодсказка" id="1919"/>
@@ -1932,7 +1907,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьОбменБизнесСетьКонтекстноеМеню" id="2016"/>
 					<ExtendedTooltip name="ИспользоватьОбменБизнесСетьРасширеннаяПодсказка" id="2017">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -2144,7 +2118,6 @@
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПоказыватьРекомендацииБизнесСетьКонтекстноеМеню" id="2256"/>
 																	<ExtendedTooltip name="ПоказыватьРекомендацииБизнесСетьРасширеннаяПодсказка" id="2257">
 																		<Width>80</Width>
@@ -2216,7 +2189,6 @@
 															</Title>
 															<TitleLocation>Right</TitleLocation>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="Константа_ВыводитьQRКодНаПечатныхФормахДокументовКонтекстноеМеню" id="2269"/>
 															<ExtendedTooltip name="Константа_ВыводитьQRКодНаПечатныхФормахДокументовРасширеннаяПодсказка" id="2270">
 																<Width>80</Width>
@@ -2360,7 +2332,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="Константа_ИспользоватьОбменEDIКонтекстноеМеню" id="2234"/>
 											<ExtendedTooltip name="Константа_ИспользоватьОбменEDIРасширеннаяПодсказка" id="2235"/>
 											<Events>
@@ -2530,7 +2501,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьАвтоматическуюПубликациюТорговыхПредложенийКонтекстноеМеню" id="1995"/>
 											<ExtendedTooltip name="ИспользоватьАвтоматическуюПубликациюТорговыхПредложенийРасширеннаяПодсказка" id="1996"/>
 											<Events>
@@ -2558,7 +2528,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="Константа_НеВыгружатьИзображенияТорговыхПредложенийКонтекстноеМеню" id="2156"/>
 											<ExtendedTooltip name="Константа_НеВыгружатьИзображенияТорговыхПредложенийРасширеннаяПодсказка" id="2157"/>
 											<Events>
@@ -2687,7 +2656,7 @@
 													<EditMode>EnterOnInput</EditMode>
 													<FixingInTable>Left</FixingInTable>
 													<ShowInHeader>false</ShowInHeader>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="СервисыДоставкиИспользоватьСервисДоставкиКонтекстноеМеню" id="2521"/>
 													<ExtendedTooltip name="СервисыДоставкиИспользоватьСервисДоставкиРасширеннаяПодсказка" id="2522"/>
 												</CheckBoxField>
@@ -2705,6 +2674,8 @@
 													<ShowInHeader>false</ShowInHeader>
 													<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
 													<ShowInFooter>false</ShowInFooter>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Width>2</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>2</MaxWidth>
@@ -2728,6 +2699,9 @@
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Width>30</Width>
 													<MaxWidth>30</MaxWidth>
 													<HorizontalStretch>true</HorizontalStretch>
@@ -2746,7 +2720,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СервисыДоставкиИспользоватьНаложенныеПлатежиКонтекстноеМеню" id="2524"/>
 											<ExtendedTooltip name="СервисыДоставкиИспользоватьНаложенныеПлатежиРасширеннаяПодсказка" id="2525"/>
 										</CheckBoxField>
@@ -2758,7 +2732,6 @@
 													<v8:content>Частичная доставка</v8:content>
 												</v8:item>
 											</Title>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СервисыДоставкиИспользоватьЧастичнуюДоставкуКонтекстноеМеню" id="2587"/>
 											<ExtendedTooltip name="СервисыДоставкиИспользоватьЧастичнуюДоставкуРасширеннаяПодсказка" id="2588"/>
 										</CheckBoxField>
@@ -2821,7 +2794,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьАвтоматическоеОбновлениеДанныхСервисДоставкиКонтекстноеМеню" id="2286"/>
 													<ExtendedTooltip name="ИспользоватьАвтоматическоеОбновлениеДанныхСервисДоставкиРасширеннаяПодсказка" id="2287"/>
 													<Events>
@@ -2920,7 +2892,7 @@
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиИнтеграцииОблачногоЭДОРасширеннаяПодсказка" id="2410"/>
 			<ChildItems>
@@ -2960,7 +2932,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьИнтеграциюОблачногоЭДОКонтекстноеМеню" id="2360"/>
 									<ExtendedTooltip name="ИспользоватьИнтеграциюОблачногоЭДОРасширеннаяПодсказка" id="2361"/>
 									<Events>

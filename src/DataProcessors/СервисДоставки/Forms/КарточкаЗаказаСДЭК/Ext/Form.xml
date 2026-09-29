@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -2144,6 +2145,7 @@
 															<DataPath>РазмещениеГруза.Наименование</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="РазмещениеГрузаНаименованиеКонтекстноеМеню" id="2131"/>
 															<ExtendedTooltip name="РазмещениеГрузаНаименованиеРасширеннаяПодсказка" id="2132"/>
@@ -2164,6 +2166,7 @@
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 																	<ContextMenu name="РазмещениеГрузаОписаниеКонтекстноеМеню" id="2134"/>
 																	<ExtendedTooltip name="РазмещениеГрузаОписаниеРасширеннаяПодсказка" id="2135"/>
@@ -2174,6 +2177,7 @@
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 																	<ContextMenu name="РазмещениеГрузаКоличествоКонтекстноеМеню" id="2143"/>
 																	<ExtendedTooltip name="РазмещениеГрузаКоличествоРасширеннаяПодсказка" id="2144"/>
@@ -2196,6 +2200,7 @@
 																<xr:Ref>StdPicture.Calculator</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</HeaderPicture>
+															<AutoEditMode>true</AutoEditMode>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<AutoMarkIncomplete>true</AutoMarkIncomplete>
 															<ContextMenu name="РазмещениеГрузаВесКонтекстноеМеню" id="2146"/>
@@ -2208,6 +2213,7 @@
 																<xr:Ref>StdPicture.Calculator</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</HeaderPicture>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="РазмещениеГрузаДлинаКонтекстноеМеню" id="2149"/>
 															<ExtendedTooltip name="РазмещениеГрузаДлинаРасширеннаяПодсказка" id="2150"/>
@@ -2219,6 +2225,7 @@
 																<xr:Ref>StdPicture.Calculator</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</HeaderPicture>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="РазмещениеГрузаШиринаКонтекстноеМеню" id="2152"/>
 															<ExtendedTooltip name="РазмещениеГрузаШиринаРасширеннаяПодсказка" id="2153"/>
@@ -2230,6 +2237,7 @@
 																<xr:Ref>StdPicture.Calculator</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</HeaderPicture>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="РазмещениеГрузаВысотаКонтекстноеМеню" id="2155"/>
 															<ExtendedTooltip name="РазмещениеГрузаВысотаРасширеннаяПодсказка" id="2156"/>
@@ -2250,6 +2258,7 @@
 																	<ReadOnly>true</ReadOnly>
 																	<SkipOnInput>true</SkipOnInput>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 																	<ContextMenu name="РазмещениеГрузаСуммаНДСКонтекстноеМеню" id="2161"/>
 																	<ExtendedTooltip name="РазмещениеГрузаСуммаНДСРасширеннаяПодсказка" id="2162"/>
@@ -2259,6 +2268,7 @@
 																	<ReadOnly>true</ReadOnly>
 																	<SkipOnInput>true</SkipOnInput>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 																	<ContextMenu name="РазмещениеГрузаСуммаКонтекстноеМеню" id="2164"/>
 																	<ExtendedTooltip name="РазмещениеГрузаСуммаРасширеннаяПодсказка" id="2165"/>
@@ -2268,6 +2278,7 @@
 														<InputField name="РазмещениеГрузаСтоимость" id="2642">
 															<DataPath>РазмещениеГруза.Стоимость</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="РазмещениеГрузаСтоимостьКонтекстноеМеню" id="2643"/>
 															<ExtendedTooltip name="РазмещениеГрузаСтоимостьРасширеннаяПодсказка" id="2644"/>
@@ -3067,6 +3078,7 @@
 																						</v8:item>
 																					</Title>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ТарифыТарифНаименованиеКонтекстноеМеню" id="18"/>
 																					<ExtendedTooltip name="ТарифыТарифНаименованиеРасширеннаяПодсказка" id="19"/>
 																				</InputField>
@@ -3074,6 +3086,7 @@
 																					<DataPath>Тарифы.Идентификатор</DataPath>
 																					<Visible>false</Visible>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ТарифыТарифИдентификаторКонтекстноеМеню" id="24"/>
 																					<ExtendedTooltip name="ТарифыТарифИдентификаторРасширеннаяПодсказка" id="25"/>
 																				</InputField>
@@ -3081,6 +3094,7 @@
 																					<DataPath>Тарифы.МинимальныйСрок</DataPath>
 																					<Visible>false</Visible>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ТарифыМинимальныйСрокКонтекстноеМеню" id="30"/>
 																					<ExtendedTooltip name="ТарифыМинимальныйСрокРасширеннаяПодсказка" id="31"/>
 																				</InputField>
@@ -3088,12 +3102,14 @@
 																					<DataPath>Тарифы.МаксимальныйСрок</DataPath>
 																					<Visible>false</Visible>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ТарифыМаксимальныйСрокКонтекстноеМеню" id="33"/>
 																					<ExtendedTooltip name="ТарифыМаксимальныйСрокРасширеннаяПодсказка" id="34"/>
 																				</InputField>
 																				<InputField name="ТарифыСрок" id="42">
 																					<DataPath>Тарифы.Срок</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<Width>7</Width>
 																					<AutoMaxWidth>false</AutoMaxWidth>
 																					<ContextMenu name="ТарифыСрокКонтекстноеМеню" id="43"/>
@@ -3113,6 +3129,7 @@
 																							<DataPath>Тарифы.СуммаСкидки</DataPath>
 																							<Visible>false</Visible>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ContextMenu name="ТарифыСуммаСкидкиКонтекстноеМеню" id="1400"/>
 																							<ExtendedTooltip name="ТарифыСуммаСкидкиРасширеннаяПодсказка" id="1401"/>
 																						</InputField>
@@ -3125,6 +3142,7 @@
 																								</v8:item>
 																							</ToolTip>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>15</Width>
 																							<ContextMenu name="ТарифыЦенаКонтекстноеМеню" id="27"/>
 																							<ExtendedTooltip name="ТарифыЦенаРасширеннаяПодсказка" id="28"/>
@@ -3136,6 +3154,8 @@
 																					<FixingInTable>Right</FixingInTable>
 																					<CellHyperlink>true</CellHyperlink>
 																					<ShowInHeader>false</ShowInHeader>
+																					<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																					<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																					<Hyperlink>true</Hyperlink>
 																					<ValuesPicture>
 																						<xr:Ref>StdPicture.Refresh</xr:Ref>
@@ -3169,8 +3189,8 @@
 																					<ChangeRowOrder>false</ChangeRowOrder>
 																					<AutoMaxWidth>false</AutoMaxWidth>
 																					<Header>false</Header>
-																					<HorizontalLines>false</HorizontalLines>
-																					<VerticalLines>false</VerticalLines>
+																					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+																					<VerticalLinesBWA>false</VerticalLinesBWA>
 																					<InitialTreeView>ExpandTopLevel</InitialTreeView>
 																					<EnableStartDrag>true</EnableStartDrag>
 																					<EnableDrag>true</EnableDrag>
@@ -3224,6 +3244,7 @@
 																							<DataPath>ДеревоУслугТарифов.Идентификатор</DataPath>
 																							<Visible>false</Visible>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ContextMenu name="ДеревоУслугТарифовИдентификаторКонтекстноеМеню" id="2615"/>
 																							<ExtendedTooltip name="ДеревоУслугТарифовИдентификаторРасширеннаяПодсказка" id="2616"/>
 																						</InputField>
@@ -3248,7 +3269,7 @@
 																									<TitleLocation>None</TitleLocation>
 																									<EditMode>EnterOnInput</EditMode>
 																									<ShowInHeader>false</ShowInHeader>
-																									<CheckBoxType>Auto</CheckBoxType>
+																									<AutoEditMode>true</AutoEditMode>
 																									<ContextMenu name="ДеревоУслугТарифовИспользоватьКонтекстноеМеню" id="2620"/>
 																									<ExtendedTooltip name="ДеревоУслугТарифовИспользоватьРасширеннаяПодсказка" id="2621"/>
 																									<Events>
@@ -3267,6 +3288,7 @@
 																									<TitleLocation>None</TitleLocation>
 																									<EditMode>EnterOnInput</EditMode>
 																									<ShowInHeader>false</ShowInHeader>
+																									<AutoEditMode>true</AutoEditMode>
 																									<MultiLine>true</MultiLine>
 																									<TextEdit>false</TextEdit>
 																									<ContextMenu name="ДеревоУслугТарифовНаименованиеКонтекстноеМеню" id="2623"/>
@@ -3280,6 +3302,7 @@
 																							<HorizontalAlign>Center</HorizontalAlign>
 																							<EditMode>EnterOnInput</EditMode>
 																							<ShowInHeader>false</ShowInHeader>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>10</Width>
 																							<AutoMaxWidth>false</AutoMaxWidth>
 																							<MaxWidth>10</MaxWidth>
@@ -3296,6 +3319,7 @@
 																							<DataPath>ДеревоУслугТарифов.ЕдиницаИзмерения</DataPath>
 																							<Enabled>false</Enabled>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<Width>5</Width>
 																							<AutoMaxWidth>false</AutoMaxWidth>
 																							<MaxWidth>5</MaxWidth>
@@ -3307,6 +3331,8 @@
 																							<CellHyperlink>true</CellHyperlink>
 																							<ShowInHeader>false</ShowInHeader>
 																							<ShowInFooter>false</ShowInFooter>
+																							<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																							<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																							<ValuesPicture>
 																								<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
 																								<xr:LoadTransparent>false</xr:LoadTransparent>

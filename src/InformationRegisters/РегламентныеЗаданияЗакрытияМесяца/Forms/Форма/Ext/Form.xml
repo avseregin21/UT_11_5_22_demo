@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -20,6 +20,7 @@
 			<DataPath>Организация</DataPath>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<Width>31</Width>
 			<HorizontalStretch>false</HorizontalStretch>
 			<ListChoiceMode>true</ListChoiceMode>
@@ -108,7 +109,6 @@
 								<CheckBoxField name="ЗакрыватьОУВПрошломПериоде" id="19">
 									<DataPath>ЗакрыватьОперативныйУчетВПрошломПериоде</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗакрыватьОУВПрошломПериодеКонтекстноеМеню" id="20"/>
 									<ExtendedTooltip name="ЗакрыватьОУВПрошломПериодеРасширеннаяПодсказка" id="21">
 										<Title formatted="false">
@@ -157,7 +157,6 @@
 								<CheckBoxField name="ЗакрыватьРегламентированныйУчетВПрошломПериоде" id="24">
 									<DataPath>ЗакрыватьРегламентированныйУчетВПрошломПериоде</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗакрыватьРегламентированныйУчетВПрошломПериодеКонтекстноеМеню" id="25"/>
 									<ExtendedTooltip name="ЗакрыватьРегламентированныйУчетВПрошломПериодеРасширеннаяПодсказка" id="26"/>
 									<Events>
@@ -199,7 +198,6 @@
 								<CheckBoxField name="ЗакрыватьМеждународныйУчетВПрошломПериоде" id="32">
 									<DataPath>ЗакрыватьМеждународныйУчетВПрошломПериоде</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗакрыватьМеждународныйУчетВПрошломПериодеКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="ЗакрыватьМеждународныйУчетВПрошломПериодеРасширеннаяПодсказка" id="34"/>
 									<Events>
@@ -265,7 +263,6 @@
 						<CheckBoxField name="ЗакрыватьОперативныйУчетВТекущемПериоде" id="75">
 							<DataPath>ЗакрыватьОперативныйУчетВТекущемПериоде</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗакрыватьОперативныйУчетВТекущемПериодеКонтекстноеМеню" id="76"/>
 							<ExtendedTooltip name="ЗакрыватьОперативныйУчетВТекущемПериодеРасширеннаяПодсказка" id="77"/>
 							<Events>
@@ -275,7 +272,6 @@
 						<CheckBoxField name="ЗакрыватьРегламентированныйУчетВТекущемПериоде" id="80">
 							<DataPath>ЗакрыватьРегламентированныйУчетВТекущемПериоде</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗакрыватьРегламентированныйУчетВТекущемПериодеКонтекстноеМеню" id="81"/>
 							<ExtendedTooltip name="ЗакрыватьРегламентированныйУчетВТекущемПериодеРасширеннаяПодсказка" id="82"/>
 							<Events>

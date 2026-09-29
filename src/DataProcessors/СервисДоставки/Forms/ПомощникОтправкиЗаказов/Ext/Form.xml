@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -96,7 +96,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОбъединитьЗаказыВМультизаказыКонтекстноеМеню" id="927"/>
 									<ExtendedTooltip name="ОбъединитьЗаказыВМультизаказыРасширеннаяПодсказка" id="928"/>
 									<Events>
@@ -571,7 +570,6 @@
 															<DataPath>Заказы.Использовать</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>Directly</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЗаказыИспользоватьКонтекстноеМеню" id="549"/>
 															<ExtendedTooltip name="ЗаказыИспользоватьРасширеннаяПодсказка" id="550"/>
 															<Events>
@@ -587,6 +585,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыПредставлениеЗаказаКонтекстноеМеню" id="269"/>
 															<ExtendedTooltip name="ЗаказыПредставлениеЗаказаРасширеннаяПодсказка" id="270"/>
@@ -595,6 +594,7 @@
 															<DataPath>Заказы.НомерЗаказа</DataPath>
 															<Visible>false</Visible>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>15</Width>
 															<ContextMenu name="ЗаказыНомерЗаказаКонтекстноеМеню" id="110"/>
 															<ExtendedTooltip name="ЗаказыНомерЗаказаРасширеннаяПодсказка" id="111"/>
@@ -603,6 +603,7 @@
 															<DataPath>Заказы.ДатаЗаказа</DataPath>
 															<Visible>false</Visible>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>10</MaxWidth>
@@ -612,6 +613,7 @@
 														<InputField name="ЗаказыДатаОтгрузки" id="256">
 															<DataPath>Заказы.ДатаОтгрузки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -631,6 +633,7 @@
 														<InputField name="ЗаказыСумма" id="247">
 															<DataPath>Заказы.Сумма</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыСуммаКонтекстноеМеню" id="248"/>
 															<ExtendedTooltip name="ЗаказыСуммаРасширеннаяПодсказка" id="249"/>
@@ -638,6 +641,7 @@
 														<InputField name="ЗаказыОтправитель" id="250">
 															<DataPath>Заказы.ОтправительКонтрагентНаименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыОтправительКонтекстноеМеню" id="251"/>
 															<ExtendedTooltip name="ЗаказыОтправительРасширеннаяПодсказка" id="252"/>
@@ -645,6 +649,7 @@
 														<InputField name="ЗаказыПолучатель" id="115">
 															<DataPath>Заказы.ПолучательНаименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>30</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыПолучательКонтекстноеМеню" id="116"/>
@@ -659,6 +664,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыДокументОснованиеКонтекстноеМеню" id="245"/>
 															<ExtendedTooltip name="ЗаказыДокументОснованиеРасширеннаяПодсказка" id="246"/>
@@ -666,6 +672,7 @@
 														<InputField name="ЗаказыАдресОтгрузкиПредставление" id="253">
 															<DataPath>Заказы.АдресОтгрузкиПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыАдресОтгрузкиПредставлениеКонтекстноеМеню" id="254"/>
 															<ExtendedTooltip name="ЗаказыАдресОтгрузкиПредставлениеРасширеннаяПодсказка" id="255"/>
@@ -673,6 +680,7 @@
 														<InputField name="ЗаказыАдресДоставкиПредставление" id="574">
 															<DataPath>Заказы.АдресДоставкиПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыАдресДоставкиПредставлениеКонтекстноеМеню" id="575"/>
 															<ExtendedTooltip name="ЗаказыАдресДоставкиПредставлениеРасширеннаяПодсказка" id="576"/>
@@ -680,6 +688,7 @@
 														<InputField name="ЗаказыПеревозчикНаименование" id="259">
 															<DataPath>Заказы.ГрузоперевозчикНаименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыПеревозчикНаименованиеКонтекстноеМеню" id="260"/>
 															<ExtendedTooltip name="ЗаказыПеревозчикНаименованиеРасширеннаяПодсказка" id="261"/>
@@ -687,6 +696,7 @@
 														<InputField name="ЗаказыТариф" id="262">
 															<DataPath>Заказы.ТарифНаименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыТарифКонтекстноеМеню" id="263"/>
 															<ExtendedTooltip name="ЗаказыТарифРасширеннаяПодсказка" id="264"/>
@@ -694,6 +704,7 @@
 														<InputField name="ЗаказыКонтактноеЛицо" id="143">
 															<DataPath>Заказы.ПолучательКонтактноеЛицоНаименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыКонтактноеЛицоКонтекстноеМеню" id="144"/>
 															<ExtendedTooltip name="ЗаказыКонтактноеЛицоРасширеннаяПодсказка" id="145"/>
@@ -701,6 +712,7 @@
 														<InputField name="ЗаказыКонтактноеЛицоТелефон" id="146">
 															<DataPath>Заказы.ПолучательКонтактноеЛицоТелефонПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыКонтактноеЛицоТелефонКонтекстноеМеню" id="147"/>
 															<ExtendedTooltip name="ЗаказыКонтактноеЛицоТелефонРасширеннаяПодсказка" id="148"/>
@@ -708,6 +720,7 @@
 														<InputField name="ЗаказыВес" id="121">
 															<DataPath>Заказы.ГрузВес</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыВесКонтекстноеМеню" id="122"/>
@@ -716,6 +729,7 @@
 														<InputField name="ЗаказыОбъем" id="124">
 															<DataPath>Заказы.ГрузОбъем</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыОбъемКонтекстноеМеню" id="125"/>
@@ -724,6 +738,7 @@
 														<InputField name="ЗаказыКоличествоМест" id="127">
 															<DataPath>Заказы.КоличествоГрузовыхМест</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыКоличествоМестКонтекстноеМеню" id="128"/>
@@ -1155,7 +1170,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ЗаказыСГруппировкамиИспользоватьКонтекстноеМеню" id="539"/>
 																	<ExtendedTooltip name="ЗаказыСГруппировкамиИспользоватьРасширеннаяПодсказка" id="540"/>
 																	<Events>
@@ -1168,6 +1183,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ValuesPicture>
 																		<xr:Ref>CommonPicture.СтатусСинхронизацииТорговыеПредложения</xr:Ref>
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1197,6 +1213,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<MaxWidth>1</MaxWidth>
@@ -1215,6 +1232,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextEdit>false</TextEdit>
 																	<ContextMenu name="ЗаказыСГруппировкамиПредставлениеЗаказаКонтекстноеМеню" id="416"/>
 																	<ExtendedTooltip name="ЗаказыСГруппировкамиПредставлениеЗаказаРасширеннаяПодсказка" id="417"/>
@@ -1226,6 +1244,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1246,6 +1265,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиНомерЗаказаКонтекстноеМеню" id="359"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиНомерЗаказаРасширеннаяПодсказка" id="360"/>
 														</InputField>
@@ -1254,6 +1274,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиДатаЗаказаКонтекстноеМеню" id="362"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиДатаЗаказаРасширеннаяПодсказка" id="363"/>
 														</InputField>
@@ -1261,6 +1282,7 @@
 															<DataPath>ЗаказыСГруппировками.ПолучательНаименование</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>18</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыСГруппировкамиПолучательКонтекстноеМеню" id="365"/>
@@ -1270,6 +1292,7 @@
 															<DataPath>ЗаказыСГруппировками.ГрузВес</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>3</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыСГруппировкамиВесКонтекстноеМеню" id="371"/>
@@ -1279,6 +1302,7 @@
 															<DataPath>ЗаказыСГруппировками.ГрузОбъем</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>3</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыСГруппировкамиОбъемКонтекстноеМеню" id="374"/>
@@ -1288,6 +1312,7 @@
 															<DataPath>ЗаказыСГруппировками.КоличествоГрузовыхМест</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>3</Width>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="ЗаказыСГруппировкамиКоличествоМестКонтекстноеМеню" id="377"/>
@@ -1298,6 +1323,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиПолучательКонтактноеЛицоКонтекстноеМеню" id="380"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиПолучательКонтактноеЛицоРасширеннаяПодсказка" id="381"/>
 														</InputField>
@@ -1306,6 +1332,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиПолучательКонтактноеЛицоТелефонКонтекстноеМеню" id="383"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиПолучательКонтактноеЛицоТелефонРасширеннаяПодсказка" id="384"/>
 														</InputField>
@@ -1314,6 +1341,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиДокументОснованиеКонтекстноеМеню" id="389"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиДокументОснованиеРасширеннаяПодсказка" id="390"/>
 														</InputField>
@@ -1322,6 +1350,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиСуммаКонтекстноеМеню" id="392"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиСуммаРасширеннаяПодсказка" id="393"/>
 														</InputField>
@@ -1330,6 +1359,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиТарифКонтекстноеМеню" id="431"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиТарифРасширеннаяПодсказка" id="432"/>
 														</InputField>
@@ -1338,6 +1368,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиОтправительНаименованиеКонтекстноеМеню" id="398"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиОтправительНаименованиеРасширеннаяПодсказка" id="399"/>
 														</InputField>
@@ -1346,6 +1377,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиПеревозчикНаименованиеКонтекстноеМеню" id="407"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиПеревозчикНаименованиеРасширеннаяПодсказка" id="408"/>
 														</InputField>
@@ -1354,20 +1386,19 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиОтправительКонтактноеЛицоТелефонКонтекстноеМеню" id="419"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиОтправительКонтактноеЛицоТелефонРасширеннаяПодсказка" id="420"/>
 														</InputField>
 														<CheckBoxField name="ЗаказыСГруппировкамиОформлен" id="788">
 															<DataPath>ЗаказыСГруппировками.Оформлен</DataPath>
 															<Visible>false</Visible>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЗаказыСГруппировкамиОформленКонтекстноеМеню" id="789"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиОформленРасширеннаяПодсказка" id="790"/>
 														</CheckBoxField>
 														<CheckBoxField name="ЗаказыСГруппировкамиЕстьОшибка" id="794">
 															<DataPath>ЗаказыСГруппировками.ЕстьОшибка</DataPath>
 															<Visible>false</Visible>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЗаказыСГруппировкамиЕстьОшибкаКонтекстноеМеню" id="795"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиЕстьОшибкаРасширеннаяПодсказка" id="796"/>
 														</CheckBoxField>
@@ -1380,7 +1411,6 @@
 														<CheckBoxField name="ЗаказыСГруппировкамиПроверен" id="791">
 															<DataPath>ЗаказыСГруппировками.Проверен</DataPath>
 															<Visible>false</Visible>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЗаказыСГруппировкамиПроверенКонтекстноеМеню" id="792"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиПроверенРасширеннаяПодсказка" id="793"/>
 														</CheckBoxField>
@@ -1389,6 +1419,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиОтправительКонтактноеЛицоКонтекстноеМеню" id="422"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиОтправительКонтактноеЛицоРасширеннаяПодсказка" id="423"/>
 														</InputField>
@@ -1397,6 +1428,7 @@
 															<Visible>false</Visible>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ЗаказыСГруппировкамиМультизаказКонтекстноеМеню" id="425"/>
 															<ExtendedTooltip name="ЗаказыСГруппировкамиМультизаказРасширеннаяПодсказка" id="426"/>
 														</InputField>
@@ -1632,8 +1664,8 @@
 																	<ChangeRowOrder>false</ChangeRowOrder>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Header>false</Header>
-																	<HorizontalLines>false</HorizontalLines>
-																	<VerticalLines>false</VerticalLines>
+																	<HorizontalLinesBWA>false</HorizontalLinesBWA>
+																	<VerticalLinesBWA>false</VerticalLinesBWA>
 																	<InitialTreeView>ExpandTopLevel</InitialTreeView>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<DataPath>ТребованияКТС</DataPath>
@@ -1676,7 +1708,6 @@
 																		<CheckBoxField name="ТребованияКТСТребуетсяЗначение" id="741">
 																			<DataPath>ТребованияКТС.ТребуетсяЗначение</DataPath>
 																			<Visible>false</Visible>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ТребованияКТСТребуетсяЗначениеКонтекстноеМеню" id="742"/>
 																			<ExtendedTooltip name="ТребованияКТСТребуетсяЗначениеРасширеннаяПодсказка" id="743"/>
 																		</CheckBoxField>
@@ -1698,7 +1729,6 @@
 																			<ChildItems>
 																				<CheckBoxField name="ТребованияКТСИспользовать" id="732">
 																					<DataPath>ТребованияКТС.Использовать</DataPath>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="ТребованияКТСИспользоватьКонтекстноеМеню" id="733"/>
 																					<ExtendedTooltip name="ТребованияКТСИспользоватьРасширеннаяПодсказка" id="734"/>
 																					<Events>
@@ -1728,6 +1758,8 @@
 																		<PictureField name="ТребованияКТСПоказыватьИнформацию" id="765">
 																			<DataPath>ТребованияКТС.ПоказыватьИнформацию</DataPath>
 																			<CellHyperlink>true</CellHyperlink>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<ValuesPicture>
 																				<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
 																				<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2121,18 +2153,21 @@
 																		<InputField name="ТарифыТарифНаименование" id="197">
 																			<DataPath>Тарифы.ТарифНаименование</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТарифыТарифНаименованиеКонтекстноеМеню" id="198"/>
 																			<ExtendedTooltip name="ТарифыТарифНаименованиеРасширеннаяПодсказка" id="199"/>
 																		</InputField>
 																		<InputField name="ТарифыСрок" id="215">
 																			<DataPath>Тарифы.Срок</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТарифыСрокКонтекстноеМеню" id="216"/>
 																			<ExtendedTooltip name="ТарифыСрокРасширеннаяПодсказка" id="217"/>
 																		</InputField>
 																		<InputField name="ТарифыСтоимость" id="206">
 																			<DataPath>Тарифы.Стоимость</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТарифыСтоимостьКонтекстноеМеню" id="207"/>
 																			<ExtendedTooltip name="ТарифыСтоимостьРасширеннаяПодсказка" id="208"/>
 																		</InputField>
@@ -2188,8 +2223,8 @@
 																	<ChangeRowSet>false</ChangeRowSet>
 																	<ChangeRowOrder>false</ChangeRowOrder>
 																	<Header>false</Header>
-																	<HorizontalLines>false</HorizontalLines>
-																	<VerticalLines>false</VerticalLines>
+																	<HorizontalLinesBWA>false</HorizontalLinesBWA>
+																	<VerticalLinesBWA>false</VerticalLinesBWA>
 																	<InitialTreeView>ExpandTopLevel</InitialTreeView>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<DataPath>ДополнительныеТребования</DataPath>
@@ -2232,7 +2267,6 @@
 																		<CheckBoxField name="ДополнительныеТребованияТребуетсяЗначение" id="886">
 																			<DataPath>ДополнительныеТребования.ТребуетсяЗначение</DataPath>
 																			<Visible>false</Visible>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ДополнительныеТребованияТребуетсяЗначениеКонтекстноеМеню" id="887"/>
 																			<ExtendedTooltip name="ДополнительныеТребованияТребуетсяЗначениеРасширеннаяПодсказка" id="888"/>
 																		</CheckBoxField>
@@ -2254,7 +2288,6 @@
 																			<ChildItems>
 																				<CheckBoxField name="ДополнительныеТребованияИспользовать" id="877">
 																					<DataPath>ДополнительныеТребования.Использовать</DataPath>
-																					<CheckBoxType>Auto</CheckBoxType>
 																					<ContextMenu name="ДополнительныеТребованияИспользоватьКонтекстноеМеню" id="878"/>
 																					<ExtendedTooltip name="ДополнительныеТребованияИспользоватьРасширеннаяПодсказка" id="879"/>
 																					<Events>
@@ -2284,6 +2317,8 @@
 																		<PictureField name="ДополнительныеТребованияПоказыватьИнформацию" id="907">
 																			<DataPath>ДополнительныеТребования.ПоказыватьИнформацию</DataPath>
 																			<CellHyperlink>true</CellHyperlink>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<ValuesPicture>
 																				<xr:Ref>CommonPicture.УдалитьИнформация</xr:Ref>
 																				<xr:LoadTransparent>false</xr:LoadTransparent>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗагрузить" id="10">
@@ -79,6 +79,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаНачКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="ДатаНачРасширеннаяПодсказка" id="3"/>
 						</InputField>
@@ -91,6 +92,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаКонКонтекстноеМеню" id="5"/>
 							<ExtendedTooltip name="ДатаКонРасширеннаяПодсказка" id="6"/>
 						</InputField>
@@ -158,7 +160,6 @@
 				<CheckBoxField name="ПроводитьДокументыПриЗагрузке" id="22">
 					<DataPath>Объект.ПроводитьДокументыПриЗагрузке</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПроводитьДокументыПриЗагрузкеКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПроводитьДокументыПриЗагрузкеРасширеннаяПодсказка" id="24"/>
 				</CheckBoxField>
@@ -243,7 +244,7 @@
 							<DataPath>Объект.НастройкиПодключения.Пометка</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НастройкиПодключенияПометкаКонтекстноеМеню" id="51"/>
 							<ExtendedTooltip name="НастройкиПодключенияПометкаРасширеннаяПодсказка" id="52"/>
 						</CheckBoxField>
@@ -256,7 +257,7 @@
 								<xr:Ref>StdPicture.AppearanceCheckIcon</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</HeaderPicture>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НастройкиПодключенияЗагруженБезОшибкиКонтекстноеМеню" id="42"/>
 							<ExtendedTooltip name="НастройкиПодключенияЗагруженБезОшибкиРасширеннаяПодсказка" id="43"/>
 						</CheckBoxField>
@@ -269,7 +270,7 @@
 								<xr:Ref>StdPicture.AppearanceCrossIcon</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</HeaderPicture>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НастройкиПодключенияЗагруженСОшибкойКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="НастройкиПодключенияЗагруженСОшибкойРасширеннаяПодсказка" id="46"/>
 						</CheckBoxField>
@@ -291,6 +292,7 @@
 								<InputField name="НастройкиПодключенияНастройкаПодключения" id="38">
 									<DataPath>Объект.НастройкиПодключения.НастройкаПодключения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="НастройкиПодключенияНастройкаПодключенияКонтекстноеМеню" id="39"/>
 									<ExtendedTooltip name="НастройкиПодключенияНастройкаПодключенияРасширеннаяПодсказка" id="40"/>
@@ -298,6 +300,7 @@
 								<InputField name="НастройкиПодключенияМагазин" id="47">
 									<DataPath>Объект.НастройкиПодключения.Магазин</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="НастройкиПодключенияМагазинКонтекстноеМеню" id="48"/>
 									<ExtendedTooltip name="НастройкиПодключенияМагазинРасширеннаяПодсказка" id="49"/>
@@ -344,6 +347,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>11</MaxWidth>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -359,6 +363,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>11</MaxWidth>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -374,6 +379,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>11</MaxWidth>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -406,6 +412,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>11</MaxWidth>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -421,6 +428,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>11</MaxWidth>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -436,6 +444,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>11</MaxWidth>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -495,6 +504,7 @@
 						<LabelField name="ДетальныеДанныеСверкиНомерСтроки" id="182">
 							<DataPath>Объект.ДетальныеДанныеСверки.LineNumber</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДетальныеДанныеСверкиНомерСтрокиКонтекстноеМеню" id="183"/>
 							<ExtendedTooltip name="ДетальныеДанныеСверкиНомерСтрокиРасширеннаяПодсказка" id="184"/>
 						</LabelField>
@@ -502,6 +512,7 @@
 							<DataPath>Объект.ДетальныеДанныеСверки.НастройкаПодключения</DataPath>
 							<Visible>false</Visible>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ДетальныеДанныеСверкиНастройкаПодключенияКонтекстноеМеню" id="186"/>
 							<ExtendedTooltip name="ДетальныеДанныеСверкиНастройкаПодключенияРасширеннаяПодсказка" id="187"/>
@@ -509,6 +520,7 @@
 						<InputField name="ДетальныеДанныеСверкиДатаОперации" id="188">
 							<DataPath>Объект.ДетальныеДанныеСверки.ДатаОперации</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>13</MaxWidth>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -518,6 +530,7 @@
 						<InputField name="ДетальныеДанныеСверкиИдентификаторОплатыСБП" id="191">
 							<DataPath>Объект.ДетальныеДанныеСверки.ИдентификаторОплатыСБП</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>31</MaxWidth>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -548,6 +561,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>9</MaxWidth>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -563,6 +577,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>9</MaxWidth>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -595,6 +610,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>9</MaxWidth>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
@@ -610,6 +626,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>9</MaxWidth>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>

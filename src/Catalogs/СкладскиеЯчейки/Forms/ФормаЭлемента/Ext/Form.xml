@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -149,6 +149,7 @@
 						<InputField name="Родитель" id="5">
 							<DataPath>Объект.Parent</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>30</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
@@ -158,6 +159,7 @@
 							<DataPath>Объект.Owner</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>30</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ВладелецКонтекстноеМеню" id="4"/>
@@ -187,6 +189,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>30</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ТипСкладскойЯчейкиКонтекстноеМеню" id="8"/>
@@ -237,6 +240,7 @@
 						<InputField name="Код" id="1">
 							<DataPath>Объект.Code</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>23</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<DropListButton>true</DropListButton>
@@ -277,6 +281,7 @@
 						<InputField name="Секция" id="11">
 							<DataPath>Объект.Секция</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="СекцияКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="СекцияРасширеннаяПодсказка" id="76"/>
@@ -287,6 +292,7 @@
 						<InputField name="Линия" id="13">
 							<DataPath>Объект.Линия</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ЛинияКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ЛинияРасширеннаяПодсказка" id="77"/>
@@ -297,6 +303,7 @@
 						<InputField name="Стеллаж" id="15">
 							<DataPath>Объект.Стеллаж</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="СтеллажКонтекстноеМеню" id="16"/>
 							<ExtendedTooltip name="СтеллажРасширеннаяПодсказка" id="78"/>
@@ -307,6 +314,7 @@
 						<InputField name="Ярус" id="17">
 							<DataPath>Объект.Ярус</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ЯрусКонтекстноеМеню" id="18"/>
 							<ExtendedTooltip name="ЯрусРасширеннаяПодсказка" id="79"/>
@@ -317,6 +325,7 @@
 						<InputField name="Позиция" id="19">
 							<DataPath>Объект.Позиция</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ПозицияКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ПозицияРасширеннаяПодсказка" id="80"/>
@@ -450,6 +459,7 @@
 								<InputField name="УровеньДоступности" id="25">
 									<DataPath>Объект.УровеньДоступности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<SpinButton>true</SpinButton>
 									<ContextMenu name="УровеньДоступностиКонтекстноеМеню" id="26"/>
 									<ExtendedTooltip name="УровеньДоступностиРасширеннаяПодсказка" id="84"/>
@@ -457,6 +467,7 @@
 								<InputField name="ОбластьХранения" id="21">
 									<DataPath>Объект.ОбластьХранения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ОбластьХраненияКонтекстноеМеню" id="22"/>
 									<ExtendedTooltip name="ОбластьХраненияРасширеннаяПодсказка" id="85"/>
@@ -467,6 +478,7 @@
 								<InputField name="РабочийУчасток" id="23">
 									<DataPath>Объект.РабочийУчасток</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РабочийУчастокКонтекстноеМеню" id="24"/>
 									<ExtendedTooltip name="РабочийУчастокРасширеннаяПодсказка" id="86"/>
@@ -493,6 +505,7 @@
 								<InputField name="Типоразмер" id="9">
 									<DataPath>Объект.Типоразмер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТипоразмерКонтекстноеМеню" id="10"/>
 									<ExtendedTooltip name="ТипоразмерРасширеннаяПодсказка" id="89"/>

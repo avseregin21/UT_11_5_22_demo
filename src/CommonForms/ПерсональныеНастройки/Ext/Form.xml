@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -32,7 +33,7 @@
 					</Title>
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ОбщиеРасширеннаяПодсказка" id="100"/>
 					<ChildItems>
@@ -156,7 +157,6 @@
 												<CheckBoxField name="ЗапрашиватьПодтверждениеПриЗавершенииПрограммы" id="84">
 													<DataPath>ЗапрашиватьПодтверждениеПриЗавершенииПрограммы</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапрашиватьПодтверждениеПриЗавершенииПрограммыКонтекстноеМеню" id="85"/>
 													<ExtendedTooltip name="ЗапрашиватьПодтверждениеПриЗавершенииПрограммыРасширеннаяПодсказка" id="115"/>
 													<Events>
@@ -166,7 +166,6 @@
 												<CheckBoxField name="ПоказыватьПредупреждениеОбУстановленныхОбновленияхПрограммы" id="190">
 													<DataPath>ПоказыватьПредупреждениеОбУстановленныхОбновленияхПрограммы</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПоказыватьПредупреждениеОбУстановленныхОбновленияхПрограммыКонтекстноеМеню" id="191"/>
 													<ExtendedTooltip name="ПоказыватьПредупреждениеОбУстановленныхОбновленияхПрограммыРасширеннаяПодсказка" id="192"/>
 												</CheckBoxField>
@@ -188,7 +187,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="РаботаСФайламиРасширеннаяПодсказка" id="116"/>
 					<ChildItems>
@@ -236,7 +235,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="СпрашиватьРежимРедактированияПриОткрытииФайлаКонтекстноеМеню" id="14"/>
 													<ExtendedTooltip name="СпрашиватьРежимРедактированияПриОткрытииФайлаРасширеннаяПодсказка" id="122"/>
 													<Events>
@@ -252,7 +250,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПоказыватьПодсказкиПриРедактированииФайловКонтекстноеМеню" id="12"/>
 													<ExtendedTooltip name="ПоказыватьПодсказкиПриРедактированииФайловРасширеннаяПодсказка" id="123"/>
 													<Events>
@@ -262,7 +259,6 @@
 												<CheckBoxField name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботы" id="42">
 													<DataPath>ПоказыватьЗанятыеФайлыПриЗавершенииРаботы</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботыКонтекстноеМеню" id="43"/>
 													<ExtendedTooltip name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботыРасширеннаяПодсказка" id="124"/>
 													<Events>
@@ -284,7 +280,6 @@
 															<v8:content>Показывать в списках файлов колонку "Размер текущей версии"</v8:content>
 														</v8:item>
 													</ToolTip>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПоказыватьКолонкуРазмерКонтекстноеМеню" id="45"/>
 													<ExtendedTooltip name="ПоказыватьКолонкуРазмерРасширеннаяПодсказка" id="125"/>
 													<Events>
@@ -294,7 +289,6 @@
 												<CheckBoxField name="ПоказыватьИнформациюЧтоФайлНеБылИзменен" id="90">
 													<DataPath>ПоказыватьИнформациюЧтоФайлНеБылИзменен</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПоказыватьИнформациюЧтоФайлНеБылИзмененКонтекстноеМеню" id="91"/>
 													<ExtendedTooltip name="ПоказыватьИнформациюЧтоФайлНеБылИзмененРасширеннаяПодсказка" id="126"/>
 													<Events>
@@ -467,7 +461,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="135"/>
 					<ChildItems>
@@ -480,7 +474,6 @@
 						<CheckBoxField name="ЗапрашиватьПодтверждениеПриПечатиКомплектаДокументов" id="97">
 							<DataPath>ЗапрашиватьПодтверждениеПриПечатиКомплектаДокументов</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗапрашиватьПодтверждениеПриПечатиКомплектаДокументовКонтекстноеМеню" id="98"/>
 							<ExtendedTooltip name="ЗапрашиватьПодтверждениеПриПечатиКомплектаДокументовРасширеннаяПодсказка" id="139"/>
 							<Events>
@@ -499,7 +492,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ИнтеграцияС1СДокументооборотРасширеннаяПодсказка" id="140"/>
 					<ChildItems>
@@ -520,7 +513,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="УчетТоваровРасширеннаяПодсказка" id="156"/>
 					<ChildItems>
@@ -576,7 +569,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="УчетРетроБонусовРасширеннаяПодсказка" id="173"/>
 					<ChildItems>
@@ -612,14 +605,13 @@
 					<Group>Horizontal</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ЗаполнениеРеквизитовДокументовПоСтатистикеРасширеннаяПодсказка" id="160"/>
 					<ChildItems>
 						<CheckBoxField name="ЗаполнятьРеквизитыДокументовПоСтатистике" id="163">
 							<DataPath>ЗаполнятьРеквизитыДокументовПоСтатистике</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьРеквизитыДокументовПоСтатистикеКонтекстноеМеню" id="164"/>
 							<ExtendedTooltip name="ЗаполнятьРеквизитыДокументовПоСтатистикеРасширеннаяПодсказка" id="165"/>
 						</CheckBoxField>
@@ -635,7 +627,7 @@
 					<Group>Vertical</Group>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="УчетЗарплатыИКадровРасширеннаяПодсказка" id="167"/>
 					<ChildItems>

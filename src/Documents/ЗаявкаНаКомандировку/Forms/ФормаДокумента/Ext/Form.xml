@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -179,6 +179,7 @@
 				<InputField name="Статус" id="28">
 					<DataPath>Объект.Статус</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>15</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="СтатусКонтекстноеМеню" id="29"/>
@@ -295,6 +296,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СотрудникКонтекстноеМеню" id="11"/>
 											<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="12"/>
 											<Events>
@@ -319,6 +321,7 @@
 										<InputField name="Организация" id="7">
 											<DataPath>Объект.Организация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
 											<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
 										</InputField>
@@ -352,7 +355,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СписокФизЛицКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="СписокФизЛицРасширеннаяПодсказка" id="70"/>
 									<Events>
@@ -465,6 +467,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="14"/>
 											<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="15"/>
 											<Events>
@@ -480,6 +483,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="17"/>
 											<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="18"/>
 											<Events>
@@ -522,12 +526,14 @@
 									</Title>
 									<TitleHeight>2</TitleHeight>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПартнерКонтекстноеМеню" id="23"/>
 									<ExtendedTooltip name="ПартнерРасширеннаяПодсказка" id="24"/>
 								</InputField>
 								<InputField name="МестоНазначения" id="19">
 									<DataPath>Объект.МестоНазначения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="МестоНазначенияКонтекстноеМеню" id="20"/>
 									<ExtendedTooltip name="МестоНазначенияРасширеннаяПодсказка" id="21"/>
@@ -542,6 +548,7 @@
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>2</Height>
 									<MaxHeight>2</MaxHeight>
@@ -905,7 +912,6 @@
 										<CheckBoxField name="СверхЛимита" id="364">
 											<DataPath>Объект.СверхЛимита</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СверхЛимитаКонтекстноеМеню" id="365"/>
 											<ExtendedTooltip name="СверхЛимитаРасширеннаяПодсказка" id="366"/>
 											<Events>
@@ -920,7 +926,6 @@
 										<CheckBoxField name="Закрыта" id="606">
 											<DataPath>Объект.Закрыта</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗакрытаКонтекстноеМеню" id="607"/>
 											<ExtendedTooltip name="ЗакрытаРасширеннаяПодсказка" id="608"/>
 										</CheckBoxField>
@@ -988,7 +993,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="БронироватьБилетыТудаКонтекстноеМеню" id="374"/>
 											<ExtendedTooltip name="БронироватьБилетыТудаРасширеннаяПодсказка" id="375"/>
 											<Events>
@@ -1016,7 +1020,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БронироватьСамолетТудаКонтекстноеМеню" id="392"/>
 													<ExtendedTooltip name="БронироватьСамолетТудаРасширеннаяПодсказка" id="393"/>
 													<Events>
@@ -1032,7 +1035,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БронироватьПоездТудаКонтекстноеМеню" id="395"/>
 													<ExtendedTooltip name="БронироватьПоездТудаРасширеннаяПодсказка" id="396"/>
 													<Events>
@@ -1158,7 +1160,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БронироватьТрансферТудаКонтекстноеМеню" id="398"/>
 													<ExtendedTooltip name="БронироватьТрансферТудаРасширеннаяПодсказка" id="399"/>
 													<Events>
@@ -1202,7 +1203,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="БронироватьБилетыОбратноКонтекстноеМеню" id="377"/>
 											<ExtendedTooltip name="БронироватьБилетыОбратноРасширеннаяПодсказка" id="378"/>
 											<Events>
@@ -1230,7 +1230,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БронироватьСамолетОбратноКонтекстноеМеню" id="416"/>
 													<ExtendedTooltip name="БронироватьСамолетОбратноРасширеннаяПодсказка" id="417"/>
 													<Events>
@@ -1246,7 +1245,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БронироватьПоездОбратноКонтекстноеМеню" id="419"/>
 													<ExtendedTooltip name="БронироватьПоездОбратноРасширеннаяПодсказка" id="420"/>
 													<Events>
@@ -1372,7 +1370,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="БронироватьТрансферОбратноКонтекстноеМеню" id="422"/>
 													<ExtendedTooltip name="БронироватьТрансферОбратноРасширеннаяПодсказка" id="423"/>
 													<Events>
@@ -1418,7 +1415,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="БронироватьПроживаниеКонтекстноеМеню" id="428"/>
 									<ExtendedTooltip name="БронироватьПроживаниеРасширеннаяПодсказка" id="429"/>
 									<Events>
@@ -1612,6 +1608,7 @@
 					<DataPath>Объект.Комментарий</DataPath>
 					<TitleLocation>Left</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<Height>1</Height>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -1622,6 +1619,7 @@
 				<InputField name="Ответственный" id="37">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="39"/>
 				</InputField>

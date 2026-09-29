@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -91,6 +92,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ContextMenu name="ТитулПеревозчикаСтоимостьГрузаКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ТитулПеревозчикаСтоимостьГрузаРасширеннаяПодсказка" id="21"/>
@@ -128,6 +130,7 @@
 							<DataPath>СсылкаТитулПеревозчикаВалютаСтоимости</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>10</MaxWidth>
@@ -242,6 +245,7 @@
 											<DataPath>ТитулПеревозчикаОписаниеГруза.ХранимыеДанныеГруз</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<CreateButton>false</CreateButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -270,6 +274,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ТитулПеревозчикаОписаниеГрузаСостояниеГрузаКонтекстноеМеню" id="53"/>
@@ -285,7 +290,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТитулПеревозчикаОписаниеГрузаДелимостьГрузаКонтекстноеМеню" id="101"/>
 											<ExtendedTooltip name="ТитулПеревозчикаОписаниеГрузаДелимостьГрузаРасширеннаяПодсказка" id="56"/>
 										</CheckBoxField>
@@ -300,6 +305,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -329,6 +336,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаОбъемКонтейнеровКонтекстноеМеню" id="58"/>
@@ -350,6 +358,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаМассаБруттоНеттоКонтейнеровКонтекстноеМеню" id="61"/>
@@ -376,6 +385,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаОбъемГрузаВКубическихМетрахКонтекстноеМеню" id="67"/>
 													<ExtendedTooltip name="ТитулПеревозчикаОписаниеГрузаОбъемГрузаВКубическихМетрахРасширеннаяПодсказка" id="68"/>
@@ -396,6 +406,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаПланируемоеКоличествоГрузовыхМестКонтекстноеМеню" id="70"/>
 													<ExtendedTooltip name="ТитулПеревозчикаОписаниеГрузаПланируемоеКоличествоГрузовыхМестРасширеннаяПодсказка" id="71"/>
@@ -433,6 +444,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаВысотаКонтекстноеМеню" id="78"/>
@@ -454,6 +466,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаДлинаКонтекстноеМеню" id="81"/>
@@ -475,6 +488,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаШиринаКонтекстноеМеню" id="84"/>
@@ -513,6 +527,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаМассаНеттоКонтекстноеМеню" id="92"/>
 													<ExtendedTooltip name="ТитулПеревозчикаОписаниеГрузаМассаНеттоРасширеннаяПодсказка" id="93"/>
@@ -533,6 +548,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаМассаБруттоКонтекстноеМеню" id="95"/>
@@ -554,6 +570,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ТитулПеревозчикаОписаниеГрузаКоличествоПаллетКонтекстноеМеню" id="98"/>
 													<ExtendedTooltip name="ТитулПеревозчикаОписаниеГрузаКоличествоПаллетРасширеннаяПодсказка" id="99"/>
@@ -571,6 +588,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<TextEdit>false</TextEdit>
@@ -596,6 +615,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТитулПеревозчикаОписаниеГрузаДругаяНеобходимаяИнформацияОГрузеКонтекстноеМеню" id="64"/>
 											<ExtendedTooltip name="ТитулПеревозчикаОписаниеГрузаДругаяНеобходимаяИнформацияОГрузеРасширеннаяПодсказка" id="65"/>

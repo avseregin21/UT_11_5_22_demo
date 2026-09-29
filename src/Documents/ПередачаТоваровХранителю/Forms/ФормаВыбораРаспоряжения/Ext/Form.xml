@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Заказы клиентов</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -115,12 +115,14 @@
 					<DataPath>СписокРаспоряжений.Ссылка</DataPath>
 					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийСсылкаКонтекстноеМеню" id="74"/>
 					<ExtendedTooltip name="СписокРаспоряженийСсылкаРасширеннаяПодсказка" id="75"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийТипРаспоряжения" id="127">
 					<DataPath>СписокРаспоряжений.ТипРаспоряжения</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>20</Width>
 					<ContextMenu name="СписокРаспоряженийТипРаспоряженияКонтекстноеМеню" id="128"/>
 					<ExtendedTooltip name="СписокРаспоряженийТипРаспоряженияРасширеннаяПодсказка" id="129"/>
@@ -128,60 +130,70 @@
 				<InputField name="СписокРаспоряженийНомер" id="97">
 					<DataPath>СписокРаспоряжений.Номер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийНомерКонтекстноеМеню" id="98"/>
 					<ExtendedTooltip name="СписокРаспоряженийНомерРасширеннаяПодсказка" id="99"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийДата" id="82">
 					<DataPath>СписокРаспоряжений.Дата</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийДатаКонтекстноеМеню" id="83"/>
 					<ExtendedTooltip name="СписокРаспоряженийДатаРасширеннаяПодсказка" id="84"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийСуммаДокумента" id="121">
 					<DataPath>СписокРаспоряжений.СуммаДокумента</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийСуммаДокументаКонтекстноеМеню" id="122"/>
 					<ExtendedTooltip name="СписокРаспоряженийСуммаДокументаРасширеннаяПодсказка" id="123"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийВалюта" id="76">
 					<DataPath>СписокРаспоряжений.Валюта</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийВалютаКонтекстноеМеню" id="77"/>
 					<ExtendedTooltip name="СписокРаспоряженийВалютаРасширеннаяПодсказка" id="78"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийПартнер" id="103">
 					<DataPath>СписокРаспоряжений.Партнер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийПартнерКонтекстноеМеню" id="104"/>
 					<ExtendedTooltip name="СписокРаспоряженийПартнерРасширеннаяПодсказка" id="105"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийСоглашение" id="115">
 					<DataPath>СписокРаспоряжений.Соглашение</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийСоглашениеКонтекстноеМеню" id="116"/>
 					<ExtendedTooltip name="СписокРаспоряженийСоглашениеРасширеннаяПодсказка" id="117"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийСклад" id="112">
 					<DataPath>СписокРаспоряжений.Склад</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийСкладКонтекстноеМеню" id="113"/>
 					<ExtendedTooltip name="СписокРаспоряженийСкладРасширеннаяПодсказка" id="114"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийСтатус" id="118">
 					<DataPath>СписокРаспоряжений.Статус</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийСтатусКонтекстноеМеню" id="119"/>
 					<ExtendedTooltip name="СписокРаспоряженийСтатусРасширеннаяПодсказка" id="120"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийКонтрагент" id="88">
 					<DataPath>СписокРаспоряжений.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийКонтрагентКонтекстноеМеню" id="89"/>
 					<ExtendedTooltip name="СписокРаспоряженийКонтрагентРасширеннаяПодсказка" id="90"/>
 				</InputField>
 				<InputField name="СписокРаспоряженийОрганизация" id="100">
 					<DataPath>СписокРаспоряжений.Организация</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СписокРаспоряженийОрганизацияКонтекстноеМеню" id="101"/>
 					<ExtendedTooltip name="СписокРаспоряженийОрганизацияРасширеннаяПодсказка" id="102"/>
 				</InputField>

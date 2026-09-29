@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -368,7 +368,6 @@
 														<CheckBoxField name="ОбособленноСтандартныйПоискНоменклатура" id="1233">
 															<DataPath>Обособленно</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОбособленноСтандартныйПоискНоменклатураКонтекстноеМеню" id="1234"/>
 															<ExtendedTooltip name="ОбособленноСтандартныйПоискНоменклатураРасширеннаяПодсказка" id="1235"/>
 															<Events>
@@ -394,7 +393,7 @@
 													<ChangeRowSet>false</ChangeRowSet>
 													<ChangeRowOrder>false</ChangeRowOrder>
 													<VerticalScrollBar>DontUse</VerticalScrollBar>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<SearchOnInput>Use</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
 													<FileDragMode>AsFile</FileDragMode>
@@ -687,7 +686,6 @@
 														<CheckBoxField name="ОбособленноСтандартныйПоискХарактеристики" id="1244">
 															<DataPath>Обособленно</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОбособленноСтандартныйПоискХарактеристикиКонтекстноеМеню" id="1245"/>
 															<ExtendedTooltip name="ОбособленноСтандартныйПоискХарактеристикиРасширеннаяПодсказка" id="1246"/>
 															<Events>
@@ -713,7 +711,7 @@
 													<ChangeRowSet>false</ChangeRowSet>
 													<ChangeRowOrder>false</ChangeRowOrder>
 													<VerticalScrollBar>DontUse</VerticalScrollBar>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<SearchOnInput>Use</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
 													<FileDragMode>AsFile</FileDragMode>
@@ -973,7 +971,6 @@
 															<DataPath>НайтиНоменклатуруПоТочномуСоответствию</DataPath>
 															<SkipOnInput>true</SkipOnInput>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НайтиНоменклатуруПоТочномуСоответствиюКонтекстноеМеню" id="597"/>
 															<ExtendedTooltip name="НайтиНоменклатуруПоТочномуСоответствиюРасширеннаяПодсказка" id="850"/>
 															<Events>
@@ -983,7 +980,6 @@
 														<CheckBoxField name="ОбособленноРасширенныйПоискНоменклатура" id="1247">
 															<DataPath>Обособленно</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОбособленноРасширенныйПоискНоменклатураКонтекстноеМеню" id="1248"/>
 															<ExtendedTooltip name="ОбособленноРасширенныйПоискНоменклатураРасширеннаяПодсказка" id="1249"/>
 															<Events>
@@ -1070,7 +1066,7 @@
 													<Representation>List</Representation>
 													<SkipOnInput>false</SkipOnInput>
 													<VerticalScrollBar>DontUse</VerticalScrollBar>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
 													<FileDragMode>AsFile</FileDragMode>
@@ -1370,7 +1366,6 @@
 															<DataPath>НайтиХарактеристикиПоТочномуСоответствию</DataPath>
 															<SkipOnInput>true</SkipOnInput>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НайтиХарактеристикиПоТочномуСоответствиюКонтекстноеМеню" id="708"/>
 															<ExtendedTooltip name="НайтиХарактеристикиПоТочномуСоответствиюРасширеннаяПодсказка" id="877"/>
 															<Events>
@@ -1379,7 +1374,6 @@
 														</CheckBoxField>
 														<CheckBoxField name="ОбособленноРасширенныйПоискХарактеристики" id="1250">
 															<DataPath>Обособленно</DataPath>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОбособленноРасширенныйПоискХарактеристикиКонтекстноеМеню" id="1251"/>
 															<ExtendedTooltip name="ОбособленноРасширенныйПоискХарактеристикиРасширеннаяПодсказка" id="1252"/>
 															<Events>
@@ -1436,7 +1430,7 @@
 													<ChangeRowSet>false</ChangeRowSet>
 													<ChangeRowOrder>false</ChangeRowOrder>
 													<VerticalScrollBar>DontUse</VerticalScrollBar>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<EnableStartDrag>true</EnableStartDrag>
 													<FileDragMode>AsFile</FileDragMode>
@@ -1694,7 +1688,7 @@
 									<ReadOnly>true</ReadOnly>
 									<ChangeRowSet>false</ChangeRowSet>
 									<ChangeRowOrder>false</ChangeRowOrder>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<FileDragMode>AsFile</FileDragMode>
@@ -1749,24 +1743,28 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиТоваровСкладОписаниеКонтекстноеМеню" id="504"/>
 											<ExtendedTooltip name="ОстаткиТоваровСкладОписаниеРасширеннаяПодсказка" id="895"/>
 										</InputField>
 										<InputField name="ОстаткиТоваровПериодОписание" id="505">
 											<DataPath>ОстаткиТоваров.ПериодОписание</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиТоваровПериодОписаниеКонтекстноеМеню" id="506"/>
 											<ExtendedTooltip name="ОстаткиТоваровПериодОписаниеРасширеннаяПодсказка" id="896"/>
 										</InputField>
 										<InputField name="ОстаткиТоваровЗапасОписание" id="1255">
 											<DataPath>ОстаткиТоваров.ЗапасОписание</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиТоваровЗапасОписаниеКонтекстноеМеню" id="1256"/>
 											<ExtendedTooltip name="ОстаткиТоваровЗапасОписаниеРасширеннаяПодсказка" id="1257"/>
 										</InputField>
 										<InputField name="ОстаткиТоваровДоступноОписание" id="483">
 											<DataPath>ОстаткиТоваров.ДоступноОписание</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОстаткиТоваровДоступноОписаниеКонтекстноеМеню" id="484"/>
 											<ExtendedTooltip name="ОстаткиТоваровДоступноОписаниеРасширеннаяПодсказка" id="897"/>
 										</InputField>
@@ -1804,7 +1802,6 @@
 										<CheckBoxField name="ИспользоватьФильтры" id="522">
 											<DataPath>ИспользоватьФильтры</DataPath>
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьФильтрыКонтекстноеМеню" id="523"/>
 											<ExtendedTooltip name="ИспользоватьФильтрыРасширеннаяПодсказка" id="902"/>
 											<Events>
@@ -2061,7 +2058,7 @@
 													<SelectionMode>SingleRow</SelectionMode>
 													<Header>false</Header>
 													<VerticalScrollBar>DontUse</VerticalScrollBar>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
 													<FileDragMode>AsFile</FileDragMode>
@@ -2208,8 +2205,8 @@
 													<Representation>Tree</Representation>
 													<ChangeRowSet>false</ChangeRowSet>
 													<Header>false</Header>
-													<HorizontalLines>false</HorizontalLines>
-													<VerticalLines>false</VerticalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
+													<VerticalLinesBWA>false</VerticalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<InitialTreeView>ExpandAllLevels</InitialTreeView>
 													<FileDragMode>AsFile</FileDragMode>
@@ -2285,7 +2282,7 @@
 																<CheckBoxField name="ДеревоОтборовОтбор" id="513">
 																	<DataPath>ДеревоОтборов.Отбор</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ДеревоОтборовОтборКонтекстноеМеню" id="514"/>
 																	<ExtendedTooltip name="ДеревоОтборовОтборРасширеннаяПодсказка" id="915"/>
 																	<Events>
@@ -2296,6 +2293,7 @@
 																	<DataPath>ДеревоОтборов.Представление</DataPath>
 																	<ReadOnly>true</ReadOnly>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ДеревоОтборовПредставлениеКонтекстноеМеню" id="516"/>
 																	<ExtendedTooltip name="ДеревоОтборовПредставлениеРасширеннаяПодсказка" id="916"/>
 																</InputField>
@@ -2305,6 +2303,9 @@
 															<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<CellHyperlink>true</CellHyperlink>
+															<AutoEditMode>true</AutoEditMode>
+															<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+															<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 															<Width>15</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ДеревоОтборовПредставлениеОтбораКонтекстноеМеню" id="518"/>
@@ -2403,6 +2404,7 @@
 																	<ReadOnly>true</ReadOnly>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТаблицаНоменклатураПродаваемаяСовместноПредпосылкаХарактеристикаКонтекстноеМеню" id="628"/>
 																	<ExtendedTooltip name="ТаблицаНоменклатураПродаваемаяСовместноПредпосылкаХарактеристикаРасширеннаяПодсказка" id="921"/>
 																</InputField>
@@ -2411,6 +2413,7 @@
 																	<ReadOnly>true</ReadOnly>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТаблицаНоменклатураПродаваемаяСовместноПредпосылкаНоменклатураКонтекстноеМеню" id="626"/>
 																	<ExtendedTooltip name="ТаблицаНоменклатураПродаваемаяСовместноПредпосылкаНоменклатураРасширеннаяПодсказка" id="922"/>
 																</InputField>
@@ -2450,7 +2453,7 @@
 													<Representation>List</Representation>
 													<ChangeRowSet>false</ChangeRowSet>
 													<Header>false</Header>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокКачества</DataPath>
 													<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
@@ -2511,7 +2514,7 @@
 															<DataPath>СписокКачества.Check</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СписокКачестваПометкаКонтекстноеМеню" id="651"/>
 															<ExtendedTooltip name="СписокКачестваПометкаРасширеннаяПодсказка" id="926"/>
 															<Events>
@@ -2623,7 +2626,6 @@
 								<CheckBoxField name="ТолькоВНаличии" id="538">
 									<DataPath>ТолькоВНаличии</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоВНаличииКонтекстноеМеню" id="539"/>
 									<ExtendedTooltip name="ТолькоВНаличииРасширеннаяПодсказка" id="933"/>
 									<Events>
@@ -2839,6 +2841,7 @@
 								<LabelField name="КорзинаНомерСтроки" id="118">
 									<DataPath>Объект.Корзина.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="КорзинаНомерСтрокиКонтекстноеМеню" id="119"/>
 									<ExtendedTooltip name="КорзинаНомерСтрокиРасширеннаяПодсказка" id="943"/>
@@ -2858,6 +2861,7 @@
 										<xr:Ref>CommonPicture.НоменклатураПродаваемаяСовместно</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.СостояниеНоменклатурыПродаваемойСовместно</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2878,6 +2882,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="КорзинаНоменклатураТипНоменклатурыКонтекстноеМеню" id="673"/>
 									<ExtendedTooltip name="КорзинаНоменклатураТипНоменклатурыРасширеннаяПодсказка" id="945"/>
@@ -2885,6 +2890,7 @@
 								<InputField name="КорзинаАртикул" id="1204">
 									<DataPath>Объект.Корзина.Артикул</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<ContextMenu name="КорзинаАртикулКонтекстноеМеню" id="1205"/>
 									<ExtendedTooltip name="КорзинаАртикулРасширеннаяПодсказка" id="1206"/>
@@ -2897,6 +2903,7 @@
 										<xr:Ref>CommonPicture.Набор</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Наборы</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2923,6 +2930,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТоварыНоменклатураНабораКонтекстноеМеню" id="979"/>
 											<ExtendedTooltip name="ТоварыНоменклатураНабораРасширеннаяПодсказка" id="980"/>
 										</InputField>
@@ -2931,6 +2939,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТоварыХарактеристикаНабораКонтекстноеМеню" id="982"/>
 											<ExtendedTooltip name="ТоварыХарактеристикаНабораРасширеннаяПодсказка" id="983"/>
 										</InputField>
@@ -2939,6 +2948,7 @@
 								<InputField name="КорзинаНоменклатура" id="120">
 									<DataPath>Объект.Корзина.Номенклатура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<ContextMenu name="КорзинаНоменклатураКонтекстноеМеню" id="121"/>
 									<ExtendedTooltip name="КорзинаНоменклатураРасширеннаяПодсказка" id="946"/>
@@ -2949,6 +2959,7 @@
 								<InputField name="КорзинаХарактеристика" id="122">
 									<DataPath>Объект.Корзина.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<ContextMenu name="КорзинаХарактеристикаКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="КорзинаХарактеристикаРасширеннаяПодсказка" id="947"/>
@@ -2965,6 +2976,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<TextEdit>false</TextEdit>
 									<ContextMenu name="КорзинаВариантОбеспеченияКонтекстноеМеню" id="1199"/>
@@ -2978,7 +2990,7 @@
 								<CheckBoxField name="КорзинаОбособленно" id="1211">
 									<DataPath>Объект.Корзина.Обособленно</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КорзинаОбособленноКонтекстноеМеню" id="1212"/>
 									<ExtendedTooltip name="КорзинаОбособленноРасширеннаяПодсказка" id="1213"/>
 									<Events>
@@ -2988,6 +3000,7 @@
 								<InputField name="КорзинаСерия" id="1201">
 									<DataPath>Объект.Корзина.Серия</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КорзинаСерияКонтекстноеМеню" id="1202"/>
 									<ExtendedTooltip name="КорзинаСерияРасширеннаяПодсказка" id="1203"/>
 									<Events>
@@ -3014,6 +3027,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>17</Width>
 											<ContextMenu name="КорзинаКоличествоУпаковокКонтекстноеМеню" id="129"/>
 											<ExtendedTooltip name="КорзинаКоличествоУпаковокРасширеннаяПодсказка" id="949"/>
@@ -3035,6 +3049,7 @@
 													<DataPath>Объект.Корзина.Упаковка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="КорзинаУпаковкаКонтекстноеМеню" id="125"/>
 													<ExtendedTooltip name="КорзинаУпаковкаРасширеннаяПодсказка" id="951"/>
@@ -3051,6 +3066,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="КорзинаНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="346"/>
 													<ExtendedTooltip name="КорзинаНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="952"/>
@@ -3060,6 +3076,7 @@
 										<InputField name="КорзинаВидЦены" id="324">
 											<DataPath>Объект.Корзина.ВидЦены</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ClearButton>true</ClearButton>
 											<ChoiceParameterLinks>
@@ -3107,6 +3124,7 @@
 										<InputField name="КорзинаЦена" id="126">
 											<DataPath>Объект.Корзина.Цена</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="КорзинаЦенаКонтекстноеМеню" id="127"/>
 											<ExtendedTooltip name="КорзинаЦенаРасширеннаяПодсказка" id="954"/>
@@ -3117,6 +3135,7 @@
 										<InputField name="КорзинаПроцентРучнойСкидки" id="637">
 											<DataPath>Объект.Корзина.ПроцентРучнойСкидки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="КорзинаПроцентРучнойСкидкиКонтекстноеМеню" id="638"/>
 											<ExtendedTooltip name="КорзинаПроцентРучнойСкидкиРасширеннаяПодсказка" id="955"/>
@@ -3127,6 +3146,7 @@
 										<InputField name="КорзинаСуммаРучнойСкидки" id="639">
 											<DataPath>Объект.Корзина.СуммаРучнойСкидки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="КорзинаСуммаРучнойСкидкиКонтекстноеМеню" id="640"/>
 											<ExtendedTooltip name="КорзинаСуммаРучнойСкидкиРасширеннаяПодсказка" id="956"/>
@@ -3138,6 +3158,7 @@
 											<DataPath>Объект.Корзина.Сумма</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="КорзинаСуммаКонтекстноеМеню" id="131"/>
 											<ExtendedTooltip name="КорзинаСуммаРасширеннаяПодсказка" id="957"/>
@@ -3155,6 +3176,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="КорзинаСкладКонтекстноеМеню" id="480"/>
 											<ExtendedTooltip name="КорзинаСкладРасширеннаяПодсказка" id="958"/>
@@ -3169,6 +3191,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="КорзинаДатаОтгрузкиКонтекстноеМеню" id="492"/>
 											<ExtendedTooltip name="КорзинаДатаОтгрузкиРасширеннаяПодсказка" id="959"/>

@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<CommandSet>
 		<ExcludedCommand>CustomizeForm</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<ChildItems>
@@ -142,6 +143,7 @@
 						<InputField name="ПереченьСопроводительныхДокументов" id="9">
 							<DataPath>ПереченьСопроводительныхДокументов</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Height>4</Height>
 							<VerticalStretch>false</VerticalStretch>
@@ -182,6 +184,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>23</MaxWidth>
 									<DropListButton>true</DropListButton>
@@ -241,6 +244,7 @@
 									<DataPath>ВидДокументаВызоваПредставителяПартнера</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>true</DropListButton>
 									<ChoiceButton>false</ChoiceButton>
 									<ClearButton>false</ClearButton>
@@ -321,6 +325,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НомерДокументаОВызовеПредставителяПартнераКонтекстноеМеню" id="16"/>
 									<ExtendedTooltip name="НомерДокументаОВызовеПредставителяПартнераРасширеннаяПодсказка" id="338"/>
 								</InputField>
@@ -339,6 +344,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДатаДокументаОВызовеПредставителяПартнераКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="ДатаДокументаОВызовеПредставителяПартнераРасширеннаяПодсказка" id="339"/>
 								</InputField>
@@ -380,6 +386,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="ПроизводительКонтекстноеМеню" id="22"/>
@@ -394,6 +401,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="ГрузоотправительКонтекстноеМеню" id="20"/>
@@ -408,6 +416,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ChoiceParameters>
@@ -488,6 +497,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="НомерДоговораПоставкиКонтекстноеМеню" id="28"/>
@@ -502,6 +512,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаДоговораПоставкиКонтекстноеМеню" id="30"/>
 											<ExtendedTooltip name="ДатаДоговораПоставкиРасширеннаяПодсказка" id="350"/>
 										</InputField>
@@ -535,6 +546,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="НомерКоммерческогоАктаКонтекстноеМеню" id="34"/>
@@ -555,6 +567,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаКоммерческогоАктаКонтекстноеМеню" id="36"/>
 											<ExtendedTooltip name="ДатаКоммерческогоАктаРасширеннаяПодсказка" id="353"/>
 										</InputField>
@@ -588,6 +601,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="НомерВетеринарногоСвидетельстваКонтекстноеМеню" id="38"/>
@@ -608,6 +622,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаВетеринарногоСвидетельстваКонтекстноеМеню" id="40"/>
 											<ExtendedTooltip name="ДатаВетеринарногоСвидетельстваРасширеннаяПодсказка" id="356"/>
 										</InputField>
@@ -641,6 +656,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="НомерЖелезнодорожнойНакладнойКонтекстноеМеню" id="42"/>
@@ -661,6 +677,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаЖелезнодорожнойНакладнойКонтекстноеМеню" id="44"/>
 											<ExtendedTooltip name="ДатаЖелезнодорожнойНакладнойРасширеннаяПодсказка" id="359"/>
 										</InputField>
@@ -798,6 +815,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>30</MaxWidth>
 									<ContextMenu name="ДокументУдостоверяющийПолномочияПредставителяПартнераКонтекстноеМеню" id="88"/>
@@ -819,6 +837,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="НомерДокументаУдостоверяющегоПолномочияПредставителяПартнераКонтекстноеМеню" id="90"/>
 									<ExtendedTooltip name="НомерДокументаУдостоверяющегоПолномочияПредставителяПартнераРасширеннаяПодсказка" id="368"/>
@@ -869,6 +888,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ДатаДоставкиТоваровКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ДатаДоставкиТоваровРасширеннаяПодсказка" id="371"/>
@@ -882,6 +902,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ChoiceButton>false</ChoiceButton>
 							<ContextMenu name="КладовщикПринявшийТоварКонтекстноеМеню" id="98"/>
@@ -896,6 +917,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Height>6</Height>
 							<VerticalStretch>false</VerticalStretch>
@@ -955,6 +977,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаПрибытияВПунктНазначенияКонтекстноеМеню" id="494"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаПрибытияВПунктНазначенияРасширеннаяПодсказка" id="495"/>
 								</InputField>
@@ -967,6 +990,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаВскрытияКонтекстноеМеню" id="497"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаВскрытияРасширеннаяПодсказка" id="498"/>
 								</InputField>
@@ -979,6 +1003,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаВыдачиОрганизациейТранспортаКонтекстноеМеню" id="500"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаВыдачиОрганизациейТранспортаРасширеннаяПодсказка" id="501"/>
 								</InputField>
@@ -991,6 +1016,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаДоставкиНаСкладПолучателяКонтекстноеМеню" id="503"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаДоставкиНаСкладПолучателяРасширеннаяПодсказка" id="504"/>
 								</InputField>
@@ -1003,6 +1029,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаНачалаРазгрузкиКонтекстноеМеню" id="506"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаНачалаРазгрузкиРасширеннаяПодсказка" id="507"/>
 								</InputField>
@@ -1015,6 +1042,7 @@
 											<v8:content>Дата начала приемки</v8:content>
 										</v8:item>
 									</FooterText>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаНачалаПриемкиКонтекстноеМеню" id="509"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаНачалаПриемкиРасширеннаяПодсказка" id="510"/>
 								</InputField>
@@ -1027,6 +1055,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаПриостановленияПриемкиКонтекстноеМеню" id="512"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаПриостановленияПриемкиРасширеннаяПодсказка" id="513"/>
 								</InputField>
@@ -1039,6 +1068,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаВозобновленияПриемкиКонтекстноеМеню" id="515"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаВозобновленияПриемкиРасширеннаяПодсказка" id="516"/>
 								</InputField>
@@ -1051,6 +1081,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриемкаТоваровДатаОкончанияПриемкиКонтекстноеМеню" id="518"/>
 									<ExtendedTooltip name="ПриемкаТоваровДатаОкончанияПриемкиРасширеннаяПодсказка" id="519"/>
 								</InputField>
@@ -1095,6 +1126,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СпособДоставкиКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="СпособДоставкиРасширеннаяПодсказка" id="387"/>
 								</InputField>
@@ -1107,6 +1139,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НомерТранспортногоСредстваКонтекстноеМеню" id="48"/>
 									<ExtendedTooltip name="НомерТранспортногоСредстваРасширеннаяПодсказка" id="388"/>
 								</InputField>
@@ -1127,6 +1160,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДатаОтправленияТоваровКонтекстноеМеню" id="50"/>
 									<ExtendedTooltip name="ДатаОтправленияТоваровРасширеннаяПодсказка" id="389"/>
 								</InputField>
@@ -1139,6 +1173,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПунктОтправленияКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ПунктОтправленияРасширеннаяПодсказка" id="390"/>
 								</InputField>
@@ -1151,6 +1186,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СкладОтправителяТовараКонтекстноеМеню" id="54"/>
 									<ExtendedTooltip name="СкладОтправителяТовараРасширеннаяПодсказка" id="391"/>
 								</InputField>
@@ -1208,6 +1244,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<MaxHeight>5</MaxHeight>
@@ -1232,6 +1269,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<MaxHeight>5</MaxHeight>
@@ -1288,6 +1326,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<Height>5</Height>
 											<VerticalStretch>false</VerticalStretch>
@@ -1304,6 +1343,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<Height>5</Height>
 											<VerticalStretch>false</VerticalStretch>
@@ -1329,6 +1369,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<Height>5</Height>
 											<VerticalStretch>false</VerticalStretch>
@@ -1345,6 +1386,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<Height>5</Height>
 											<VerticalStretch>false</VerticalStretch>
@@ -1404,6 +1446,7 @@
 														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>2</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="СведенияОТемпературеПриРазгрузкеКонтекстноеМеню" id="62"/>
@@ -1431,6 +1474,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДатаВскрытияТарыКонтекстноеМеню" id="68"/>
 											<ExtendedTooltip name="ДатаВскрытияТарыРасширеннаяПодсказка" id="408"/>
 										</InputField>
@@ -1496,6 +1540,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОрганизацияВзвесившаяИОпломбировавшаяТоварКонтекстноеМеню" id="70"/>
 											<ExtendedTooltip name="ОрганизацияВзвесившаяИОпломбировавшаяТоварРасширеннаяПодсказка" id="407"/>
 										</InputField>
@@ -1526,6 +1571,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Height>4</Height>
 									<VerticalStretch>false</VerticalStretch>
 									<MultiLine>true</MultiLine>
@@ -1541,6 +1587,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Height>4</Height>
 									<VerticalStretch>false</VerticalStretch>
 									<MultiLine>true</MultiLine>
@@ -1563,6 +1610,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Height>4</Height>
 									<VerticalStretch>false</VerticalStretch>
 									<MultiLine>true</MultiLine>
@@ -1697,6 +1745,7 @@
 												</v8:item>
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ChoiceButton>true</ChoiceButton>
@@ -1768,6 +1817,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<MultiLine>true</MultiLine>
@@ -2014,6 +2064,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Height>4</Height>
 							<VerticalStretch>false</VerticalStretch>
@@ -2030,6 +2081,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Height>4</Height>
 							<VerticalStretch>false</VerticalStretch>
@@ -2046,6 +2098,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КоличествоЛистовПриложенияКонтекстноеМеню" id="94"/>
 							<ExtendedTooltip name="КоличествоЛистовПриложенияРасширеннаяПодсказка" id="445"/>
 						</InputField>
@@ -2070,6 +2123,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<MultiLine>true</MultiLine>
@@ -2097,6 +2151,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<MultiLine>true</MultiLine>

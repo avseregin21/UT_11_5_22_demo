@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<AutoFillCheck>false</AutoFillCheck>
@@ -16,6 +16,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -319,6 +320,9 @@
 															<DataPath>УчетныеЗаписи.Наименование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<CellHyperlink>true</CellHyperlink>
+															<AutoEditMode>true</AutoEditMode>
+															<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+															<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 															<TextColor>style:ГиперссылкаЦвет</TextColor>
 															<ContextMenu name="УчетныеЗаписиНаименованиеКонтекстноеМеню" id="1150"/>
 															<ExtendedTooltip name="УчетныеЗаписиНаименованиеРасширеннаяПодсказка" id="1151"/>
@@ -400,18 +404,21 @@
 														<InputField name="ТаблицаОшибокВидОперации" id="1110">
 															<DataPath>ТаблицаОшибок.ВидОперации</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ТаблицаОшибокВидОперацииКонтекстноеМеню" id="1111"/>
 															<ExtendedTooltip name="ТаблицаОшибокВидОперацииРасширеннаяПодсказка" id="1112"/>
 														</InputField>
 														<InputField name="ТаблицаОшибокУчетнаяЗапись" id="1119">
 															<DataPath>ТаблицаОшибок.УчетнаяЗапись</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ТаблицаОшибокУчетнаяЗаписьКонтекстноеМеню" id="1120"/>
 															<ExtendedTooltip name="ТаблицаОшибокУчетнаяЗаписьРасширеннаяПодсказка" id="1121"/>
 														</InputField>
 														<InputField name="ТаблицаОшибокКраткоеПредставлениеОшибки" id="1113">
 															<DataPath>ТаблицаОшибок.КраткоеПредставлениеОшибки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ТаблицаОшибокКраткоеПредставлениеОшибкиКонтекстноеМеню" id="1114"/>
 															<ExtendedTooltip name="ТаблицаОшибокКраткоеПредставлениеОшибкиРасширеннаяПодсказка" id="1115"/>
 														</InputField>
@@ -667,7 +674,7 @@
 																<CheckBoxField name="УчетныеЗаписиКомплекснаяДиагностикаПометка" id="1170">
 																	<DataPath>УчетныеЗаписи.Пометка</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="УчетныеЗаписиКомплекснаяДиагностикаПометкаКонтекстноеМеню" id="1171"/>
 																	<ExtendedTooltip name="УчетныеЗаписиКомплекснаяДиагностикаПометкаРасширеннаяПодсказка" id="1172"/>
 																</CheckBoxField>
@@ -675,6 +682,7 @@
 																	<DataPath>УчетныеЗаписи.Наименование</DataPath>
 																	<ReadOnly>true</ReadOnly>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="УчетныеЗаписиКомплекснаяДиагностикаНаименованиеКонтекстноеМеню" id="1174"/>
 																	<ExtendedTooltip name="УчетныеЗаписиКомплекснаяДиагностикаНаименованиеРасширеннаяПодсказка" id="1175"/>
 																</InputField>
@@ -729,7 +737,7 @@
 							</Title>
 							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРезультатыИнтернетСоединениеГоризонтальнаяРасширеннаяПодсказка" id="299"/>
@@ -1729,6 +1737,7 @@
 																		<InputField name="КорневыеСертификатыГУЦПредставление" id="1512">
 																			<DataPath>КорневыеСертификатыГУЦ.Представление</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>25</Width>
 																			<ContextMenu name="КорневыеСертификатыГУЦПредставлениеКонтекстноеМеню" id="1513"/>
 																			<ExtendedTooltip name="КорневыеСертификатыГУЦПредставлениеРасширеннаяПодсказка" id="1514"/>
@@ -1737,6 +1746,9 @@
 																			<DataPath>КорневыеСертификатыГУЦ.Установить</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<CellHyperlink>true</CellHyperlink>
+																			<AutoEditMode>true</AutoEditMode>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<Width>10</Width>
 																			<ContextMenu name="КорневыеСертификатыГУЦУстановитьКонтекстноеМеню" id="1499"/>
 																			<ExtendedTooltip name="КорневыеСертификатыГУЦУстановитьРасширеннаяПодсказка" id="1500"/>
@@ -1745,6 +1757,9 @@
 																			<DataPath>КорневыеСертификатыГУЦ.Посмотреть</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<CellHyperlink>true</CellHyperlink>
+																			<AutoEditMode>true</AutoEditMode>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<ContextMenu name="КорневыеСертификатыГУЦПосмотретьКонтекстноеМеню" id="1502"/>
 																			<ExtendedTooltip name="КорневыеСертификатыГУЦПосмотретьРасширеннаяПодсказка" id="1503"/>
 																		</InputField>
@@ -1752,6 +1767,9 @@
 																			<DataPath>КорневыеСертификатыГУЦ.Сохранить</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<CellHyperlink>true</CellHyperlink>
+																			<AutoEditMode>true</AutoEditMode>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<ContextMenu name="КорневыеСертификатыГУЦСохранитьКонтекстноеМеню" id="1540"/>
 																			<ExtendedTooltip name="КорневыеСертификатыГУЦСохранитьРасширеннаяПодсказка" id="1541"/>
 																		</InputField>
@@ -2056,6 +2074,7 @@
 																		<InputField name="ОшибкиСертификатовСертификат" id="590">
 																			<DataPath>ОшибкиСертификатов.Сертификат</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<DropListButton>false</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
 																			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -2066,6 +2085,9 @@
 																			<DataPath>ОшибкиСертификатов.Ошибки</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<CellHyperlink>true</CellHyperlink>
+																			<AutoEditMode>true</AutoEditMode>
+																			<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																			<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																			<TextColor>style:ГиперссылкаЦвет</TextColor>
 																			<ContextMenu name="ОшибкиСертификатовОшибкиКонтекстноеМеню" id="594"/>
 																			<ExtendedTooltip name="ОшибкиСертификатовОшибкиРасширеннаяПодсказка" id="595"/>
@@ -2074,6 +2096,7 @@
 																			<DataPath>ОшибкиСертификатов.ОшибкиНаСервере</DataPath>
 																			<Visible>false</Visible>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ОшибкиСертификатовОшибкиНаСервереКонтекстноеМеню" id="1203"/>
 																			<ExtendedTooltip name="ОшибкиСертификатовОшибкиНаСервереРасширеннаяПодсказка" id="1204"/>
 																		</InputField>
@@ -2945,8 +2968,8 @@
 																					<AutoMaxHeight>false</AutoMaxHeight>
 																					<MaxHeight>4</MaxHeight>
 																					<Header>false</Header>
-																					<HorizontalLines>false</HorizontalLines>
-																					<VerticalLines>false</VerticalLines>
+																					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+																					<VerticalLinesBWA>false</VerticalLinesBWA>
 																					<AutoInsertNewRow>true</AutoInsertNewRow>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<EnableStartDrag>true</EnableStartDrag>
@@ -2999,6 +3022,9 @@
 																							<DataPath>УчетныеЗаписи.Наименование</DataPath>
 																							<EditMode>EnterOnInput</EditMode>
 																							<CellHyperlink>true</CellHyperlink>
+																							<AutoEditMode>true</AutoEditMode>
+																							<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																							<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																							<TextColor>style:ГиперссылкаЦвет</TextColor>
 																							<ContextMenu name="УчетныеЗаписиКорректностьДанныхИнтернетПоддержкиНаименованиеКонтекстноеМеню" id="1194"/>
 																							<ExtendedTooltip name="УчетныеЗаписиКорректностьДанныхИнтернетПоддержкиНаименованиеРасширеннаяПодсказка" id="1195"/>
@@ -3833,12 +3859,14 @@
 																				<InputField name="ОшибкиТестаАутентификацииУчетнаяЗапись" id="1320">
 																					<DataPath>ОшибкиТестаАутентификации.УчетнаяЗапись</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ОшибкиТестаАутентификацииУчетнаяЗаписьКонтекстноеМеню" id="1321"/>
 																					<ExtendedTooltip name="ОшибкиТестаАутентификацииУчетнаяЗаписьРасширеннаяПодсказка" id="1322"/>
 																				</InputField>
 																				<InputField name="ОшибкиТестаАутентификацииСертификат" id="1459">
 																					<DataPath>ОшибкиТестаАутентификации.Сертификат</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<DropListButton>false</DropListButton>
 																					<ChoiceButton>true</ChoiceButton>
 																					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -3850,6 +3878,7 @@
 																		<InputField name="ОшибкиТестаАутентификацииОшибка" id="1326">
 																			<DataPath>ОшибкиТестаАутентификации.Ошибка</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ОшибкиТестаАутентификацииОшибкаКонтекстноеМеню" id="1327"/>
 																			<ExtendedTooltip name="ОшибкиТестаАутентификацииОшибкаРасширеннаяПодсказка" id="1328"/>
 																		</InputField>

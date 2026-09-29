@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
@@ -1637,6 +1637,7 @@
 					<DataPath>ТаблицаДокумента.ПорядокСтроки</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>1</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ТаблицаДокументаПорядокСтрокиКонтекстноеМеню" id="364"/>
@@ -1654,6 +1655,7 @@
 						<InputField name="Номенклатура" id="282">
 							<DataPath>ТаблицаДокумента.Номенклатура</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<CreateButton>false</CreateButton>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1672,6 +1674,7 @@
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ShowInFooter>false</ShowInFooter>
+					<AutoEditMode>true</AutoEditMode>
 					<Height>1</Height>
 					<MultiLine>true</MultiLine>
 					<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
@@ -1681,6 +1684,7 @@
 				<InputField name="Характеристика" id="560">
 					<DataPath>ТаблицаДокумента.Характеристика</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ChoiceParameterLinks>
 						<xr:Link>
@@ -1706,7 +1710,7 @@
 							<DataPath>ТаблицаДокумента.СписатьНаРасходы</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СписатьНаРасходыКонтекстноеМеню" id="550"/>
 							<ExtendedTooltip name="СписатьНаРасходыРасширеннаяПодсказка" id="551"/>
 						</CheckBoxField>
@@ -1719,6 +1723,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ChoiceParameters>
@@ -1769,6 +1774,7 @@
 							<DataPath>ТаблицаДокумента.ТПодразделение</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТПодразделениеКонтекстноеМеню" id="575"/>
 							<ExtendedTooltip name="ТПодразделениеРасширеннаяПодсказка" id="576"/>
 						</InputField>
@@ -1776,6 +1782,7 @@
 							<DataPath>ТаблицаДокумента.ТСклад</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТСкладКонтекстноеМеню" id="572"/>
 							<ExtendedTooltip name="ТСкладРасширеннаяПодсказка" id="573"/>
 						</InputField>
@@ -1825,6 +1832,7 @@
 				<InputField name="Количество" id="285">
 					<DataPath>ТаблицаДокумента.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ContextMenu name="КоличествоКонтекстноеМеню" id="286"/>
 					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="287"/>
@@ -1832,6 +1840,7 @@
 				<InputField name="Цена" id="267">
 					<DataPath>ТаблицаДокумента.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ContextMenu name="ЦенаКонтекстноеМеню" id="268"/>
 					<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="269"/>
@@ -1839,6 +1848,7 @@
 				<InputField name="Сумма" id="270">
 					<DataPath>ТаблицаДокумента.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ContextMenu name="СуммаКонтекстноеМеню" id="271"/>
 					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="272"/>
@@ -1846,12 +1856,14 @@
 				<InputField name="ПроцентСкидки" id="339">
 					<DataPath>ТаблицаДокумента.ПроцентСкидки</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ПроцентСкидкиКонтекстноеМеню" id="340"/>
 					<ExtendedTooltip name="ПроцентСкидкиРасширеннаяПодсказка" id="341"/>
 				</InputField>
 				<InputField name="СуммаСкидки" id="342">
 					<DataPath>ТаблицаДокумента.СуммаСкидки</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="343"/>
 					<ExtendedTooltip name="СуммаСкидкиРасширеннаяПодсказка" id="344"/>
 				</InputField>
@@ -1864,6 +1876,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ContextMenu name="СтавкаНДСКонтекстноеМеню" id="274"/>
 					<ExtendedTooltip name="СтавкаНДСРасширеннаяПодсказка" id="275"/>
@@ -1871,12 +1884,14 @@
 				<InputField name="СуммаНДС" id="276">
 					<DataPath>ТаблицаДокумента.СуммаНДС</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СуммаНДСКонтекстноеМеню" id="277"/>
 					<ExtendedTooltip name="СуммаНДСРасширеннаяПодсказка" id="278"/>
 				</InputField>
 				<InputField name="Всего" id="279">
 					<DataPath>ТаблицаДокумента.Всего</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<ContextMenu name="ВсегоКонтекстноеМеню" id="280"/>
 					<ExtendedTooltip name="ВсегоРасширеннаяПодсказка" id="281"/>
@@ -1887,6 +1902,7 @@
 					<ReadOnly>true</ReadOnly>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>1</Width>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="ОтступКонтекстноеМеню" id="317"/>

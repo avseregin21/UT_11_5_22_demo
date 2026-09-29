@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -480,6 +480,7 @@
 				<LabelField name="НомерСтроки" id="5">
 					<DataPath>Объект.Комплектующие.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="НомерСтрокиКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="НомерСтрокиРасширеннаяПодсказка" id="7"/>
 				</LabelField>
@@ -495,6 +496,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>7</Width>
 					<ContextMenu name="НоменклатураТипНоменклатурыКонтекстноеМеню" id="193"/>
 					<ExtendedTooltip name="НоменклатураТипНоменклатурыРасширеннаяПодсказка" id="194"/>
@@ -505,6 +507,7 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>16</Width>
 					<ContextMenu name="НоменклатураКодКонтекстноеМеню" id="199"/>
 					<ExtendedTooltip name="НоменклатураКодРасширеннаяПодсказка" id="200"/>
@@ -515,6 +518,7 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>16</Width>
 					<ContextMenu name="НоменклатураАртикулКонтекстноеМеню" id="196"/>
 					<ExtendedTooltip name="НоменклатураАртикулРасширеннаяПодсказка" id="197"/>
@@ -524,7 +528,7 @@
 					<ReadOnly>true</ReadOnly>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОсновнаяКонтекстноеМеню" id="240"/>
 					<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="241"/>
 				</CheckBoxField>
@@ -541,6 +545,7 @@
 						<InputField name="Номенклатура" id="8">
 							<DataPath>Объект.Комплектующие.Номенклатура</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НоменклатураКонтекстноеМеню" id="9"/>
 							<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="10"/>
 							<Events>
@@ -552,6 +557,7 @@
 				<InputField name="Характеристика" id="11">
 					<DataPath>Объект.Комплектующие.Характеристика</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ХарактеристикаКонтекстноеМеню" id="12"/>
 					<ExtendedTooltip name="ХарактеристикаРасширеннаяПодсказка" id="13"/>
 					<Events>
@@ -572,6 +578,7 @@
 							<DataPath>Объект.Комплектующие.Упаковка</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="УпаковкаКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="УпаковкаРасширеннаяПодсказка" id="16"/>
 							<Events>
@@ -587,6 +594,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="НоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="НоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="53"/>
 						</LabelField>
@@ -601,6 +609,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="КоличествоУпаковокКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="КоличествоУпаковокРасширеннаяПодсказка" id="28"/>
 					<Events>
@@ -610,6 +619,7 @@
 				<InputField name="ВидЦены" id="17">
 					<DataPath>Объект.Комплектующие.ВидЦены</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ChoiceParameterLinks>
 						<xr:Link>
 							<xr:Name>Отбор.ЦенаВключаетНДС</xr:Name>
@@ -655,6 +665,7 @@
 				<InputField name="Цена" id="20">
 					<DataPath>Объект.Комплектующие.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ЦенаКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="22"/>
 					<Events>
@@ -716,6 +727,7 @@
 				<InputField name="СтавкаНДС" id="89">
 					<DataPath>Объект.Комплектующие.СтавкаНДС</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СтавкаНДСКонтекстноеМеню" id="90"/>
 					<ExtendedTooltip name="СтавкаНДСРасширеннаяПодсказка" id="91"/>
 					<Events>
@@ -745,6 +757,7 @@
 					<DataPath>Объект.Комплектующие.СуммаСНДС</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<ContextMenu name="СуммаСНДСКонтекстноеМеню" id="93"/>
 					<ExtendedTooltip name="СуммаСНДСРасширеннаяПодсказка" id="94"/>
@@ -752,7 +765,7 @@
 				<CheckBoxField name="ОтмененоПричиныОтменыНеИспользуются" id="257">
 					<DataPath>Объект.Комплектующие.Отменено</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОтмененоПричиныОтменыНеИспользуютсяКонтекстноеМеню" id="258"/>
 					<ExtendedTooltip name="ОтмененоПричиныОтменыНеИспользуютсяРасширеннаяПодсказка" id="259"/>
 					<Events>
@@ -774,7 +787,7 @@
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОтмененоКонтекстноеМеню" id="119"/>
 							<ExtendedTooltip name="ОтмененоРасширеннаяПодсказка" id="120"/>
 							<Events>

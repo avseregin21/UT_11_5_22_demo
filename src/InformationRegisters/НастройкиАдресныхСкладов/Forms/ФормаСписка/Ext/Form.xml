@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -10,7 +10,7 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -112,28 +112,24 @@
 				<CheckBoxField name="ИспользоватьАдресноеХранение" id="20">
 					<DataPath>Список.ИспользоватьАдресноеХранение</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьАдресноеХранениеКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ИспользоватьАдресноеХранениеРасширеннаяПодсказка" id="65"/>
 				</CheckBoxField>
 				<CheckBoxField name="ИспользоватьАдресноеХранениеСправочно" id="22">
 					<DataPath>Список.ИспользоватьАдресноеХранениеСправочно</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьАдресноеХранениеСправочноКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ИспользоватьАдресноеХранениеСправочноРасширеннаяПодсказка" id="66"/>
 				</CheckBoxField>
 				<CheckBoxField name="ИспользоватьРабочиеУчастки" id="24">
 					<DataPath>Список.ИспользоватьРабочиеУчастки</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьРабочиеУчасткиКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="ИспользоватьРабочиеУчасткиРасширеннаяПодсказка" id="67"/>
 				</CheckBoxField>
 				<CheckBoxField name="ИспользоватьРегламентноеЗаданиеСозданияЗаданийНаОтбор" id="28">
 					<DataPath>Список.ИспользоватьРегламентноеЗаданиеСозданияЗаданийНаОтбор</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьРегламентноеЗаданиеСозданияЗаданийНаОтборКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ИспользоватьРегламентноеЗаданиеСозданияЗаданийНаОтборРасширеннаяПодсказка" id="69"/>
 				</CheckBoxField>
@@ -146,14 +142,12 @@
 				<CheckBoxField name="ОграничиватьПоВесуОтбор" id="32">
 					<DataPath>Список.ОграничиватьПоВесуОтбор</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОграничиватьПоВесуОтборКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ОграничиватьПоВесуОтборРасширеннаяПодсказка" id="71"/>
 				</CheckBoxField>
 				<CheckBoxField name="ОграничиватьПоОбъемуОтбор" id="34">
 					<DataPath>Список.ОграничиватьПоОбъемуОтбор</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОграничиватьПоОбъемуОтборКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ОграничиватьПоОбъемуОтборРасширеннаяПодсказка" id="72"/>
 				</CheckBoxField>

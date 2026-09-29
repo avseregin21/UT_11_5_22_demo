@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -31,6 +31,7 @@
 				<InputField name="РабочееМесто" id="9">
 					<DataPath>Объект.РабочееМесто</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>28</MaxWidth>
 					<ChoiceListButton>true</ChoiceListButton>
@@ -51,6 +52,7 @@
 				</v8:item>
 			</Title>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MaxWidth>28</MaxWidth>
 			<ContextMenu name="ГорячиеКлавишиКонтекстноеМеню" id="8"/>
@@ -86,7 +88,6 @@
 				<CheckBoxField name="ИспользоватьАвторизацию" id="40">
 					<DataPath>Объект.ИспользоватьАвторизацию</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьАвторизациюКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="ИспользоватьАвторизациюРасширеннаяПодсказка" id="54"/>
 					<Events>
@@ -135,7 +136,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="КассирМожетБытьПродавцомКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="КассирМожетБытьПродавцомРасширеннаяПодсказка" id="58"/>
 					<Events>
@@ -151,7 +151,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="МенеджерТорговогоЗалаМожетБытьПродавцомКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="МенеджерТорговогоЗалаМожетБытьПродавцомРасширеннаяПодсказка" id="59"/>
 					<Events>
@@ -194,14 +193,12 @@
 								<CheckBoxField name="АвтоматическаяИнкассация" id="132">
 									<DataPath>АвтоматическаяИнкассация</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АвтоматическаяИнкассацияКонтекстноеМеню" id="133"/>
 									<ExtendedTooltip name="АвтоматическаяИнкассацияРасширеннаяПодсказка" id="134"/>
 								</CheckBoxField>
 								<CheckBoxField name="ИспользоватьБезПодключенияОборудования" id="135">
 									<DataPath>ИспользоватьБезПодключенияОборудования</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьБезПодключенияОборудованияКонтекстноеМеню" id="136"/>
 									<ExtendedTooltip name="ИспользоватьБезПодключенияОборудованияРасширеннаяПодсказка" id="137"/>
 									<Events>
@@ -323,12 +320,14 @@
 										<LabelField name="КассыККМНомерСтроки" id="113">
 											<DataPath>Объект.КассыККМ.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КассыККМНомерСтрокиКонтекстноеМеню" id="114"/>
 											<ExtendedTooltip name="КассыККМНомерСтрокиРасширеннаяПодсказка" id="115"/>
 										</LabelField>
 										<InputField name="КассыККМКассаККМ" id="116">
 											<DataPath>Объект.КассыККМ.КассаККМ</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КассыККМКассаККМКонтекстноеМеню" id="117"/>
 											<ExtendedTooltip name="КассыККМКассаККМРасширеннаяПодсказка" id="118"/>
 											<Events>
@@ -355,7 +354,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КассыККМИспользоватьБезПодключенияОборудованияКонтекстноеМеню" id="122"/>
 													<ExtendedTooltip name="КассыККМИспользоватьБезПодключенияОборудованияРасширеннаяПодсказка" id="123"/>
 													<Events>
@@ -371,6 +370,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChoiceParameterLinks>
 														<xr:Link>
 															<xr:Name>Отбор.Организация</xr:Name>
@@ -403,7 +403,7 @@
 										<CheckBoxField name="КассыККМАвтоматическаяИнкассация" id="127">
 											<DataPath>Объект.КассыККМ.АвтоматическаяИнкассация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КассыККМАвтоматическаяИнкассацияКонтекстноеМеню" id="128"/>
 											<ExtendedTooltip name="КассыККМАвтоматическаяИнкассацияРасширеннаяПодсказка" id="129"/>
 										</CheckBoxField>
@@ -415,6 +415,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КассыККМСпособФорматоЛогическогоКонтроляКонтекстноеМеню" id="191"/>
 											<ExtendedTooltip name="КассыККМСпособФорматоЛогическогоКонтроляРасширеннаяПодсказка" id="192"/>
 										</InputField>
@@ -538,12 +539,14 @@
 										<LabelField name="КассыНомерСтроки" id="250">
 											<DataPath>Объект.Кассы.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КассыНомерСтрокиКонтекстноеМеню" id="251"/>
 											<ExtendedTooltip name="КассыНомерСтрокиРасширеннаяПодсказка" id="252"/>
 										</LabelField>
 										<InputField name="КассыКасса" id="253">
 											<DataPath>Объект.Кассы.Касса</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КассыКассаКонтекстноеМеню" id="254"/>
 											<ExtendedTooltip name="КассыКассаРасширеннаяПодсказка" id="255"/>
 											<Events>
@@ -559,6 +562,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Организация</xr:Name>
@@ -642,6 +646,7 @@
 										<LabelField name="ЭквайринговыеТерминалыНомерСтроки" id="162">
 											<DataPath>Объект.ЭквайринговыеТерминалы.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ЭквайринговыеТерминалыНомерСтрокиКонтекстноеМеню" id="163"/>
 											<ExtendedTooltip name="ЭквайринговыеТерминалыНомерСтрокиРасширеннаяПодсказка" id="164"/>
 										</LabelField>
@@ -654,6 +659,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<QuickChoice>false</QuickChoice>
 											<ContextMenu name="ЭквайринговыеТерминалыЭквайринговыйТерминалКонтекстноеМеню" id="166"/>
 											<ExtendedTooltip name="ЭквайринговыеТерминалыЭквайринговыйТерминалРасширеннаяПодсказка" id="167"/>
@@ -680,7 +686,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЭквайринговыеТерминалыИспользоватьБезПодключенияОборудованияКонтекстноеМеню" id="171"/>
 													<ExtendedTooltip name="ЭквайринговыеТерминалыИспользоватьБезПодключенияОборудованияРасширеннаяПодсказка" id="172"/>
 													<Events>
@@ -695,13 +701,11 @@
 															<v8:content>Сверять итоги на ЭТ</v8:content>
 														</v8:item>
 													</Title>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЭквайринговыеТерминалыСверятьИтогиНаЭТПриЗакрытииКассовойСменыКонтекстноеМеню" id="284"/>
 													<ExtendedTooltip name="ЭквайринговыеТерминалыСверятьИтогиНаЭТПриЗакрытииКассовойСменыРасширеннаяПодсказка" id="285"/>
 												</CheckBoxField>
 												<CheckBoxField name="ЭквайринговыеТерминалыНеЗапрашиватьНомерКарты" id="280">
 													<DataPath>Объект.ЭквайринговыеТерминалы.НеЗапрашиватьНомерКарты</DataPath>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЭквайринговыеТерминалыНеЗапрашиватьНомерКартыКонтекстноеМеню" id="281"/>
 													<ExtendedTooltip name="ЭквайринговыеТерминалыНеЗапрашиватьНомерКартыРасширеннаяПодсказка" id="282"/>
 												</CheckBoxField>
@@ -714,6 +718,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChoiceParameters>
 														<app:item name="Отбор.УстройствоИспользуется">
 															<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -740,6 +745,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChoiceParameterLinks>
 														<xr:Link>
 															<xr:Name>Отбор.Организация</xr:Name>
@@ -872,6 +878,7 @@
 											<DataPath>Объект.ПлатежныеСистемы.КассоваяСсылка</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<OpenButton>true</OpenButton>
 											<ContextMenu name="ПлатежныеСистемыКассоваяСсылкаКонтекстноеМеню" id="287"/>
 											<ExtendedTooltip name="ПлатежныеСистемыКассоваяСсылкаРасширеннаяПодсказка" id="288"/>

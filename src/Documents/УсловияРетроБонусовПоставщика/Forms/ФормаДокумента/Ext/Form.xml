@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -284,6 +284,7 @@
 												<InputField name="Номер" id="1">
 													<DataPath>Объект.Number</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>9</MaxWidth>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -298,6 +299,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
@@ -308,6 +310,7 @@
 										<InputField name="Организация" id="10">
 											<DataPath>Объект.Организация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
@@ -319,6 +322,7 @@
 										<InputField name="ВидРетроБонуса" id="28">
 											<DataPath>Объект.ВидРетроБонуса</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<ContextMenu name="ВидРетроБонусаКонтекстноеМеню" id="29"/>
@@ -331,7 +335,7 @@
 											<DataPath>Объект.НачислитьСразу</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="НачислитьСразуКонтекстноеМеню" id="23"/>
 											<ExtendedTooltip name="НачислитьСразуРасширеннаяПодсказка" id="24"/>
 											<Events>
@@ -367,6 +371,7 @@
 												<InputField name="Статус" id="7">
 													<DataPath>Объект.Статус</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>29</MaxWidth>
 													<BackColor>style:ЦветФонаВыделения</BackColor>
@@ -413,6 +418,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<ContextMenu name="НачалоДействияКонтекстноеМеню" id="14"/>
@@ -430,6 +436,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<ContextMenu name="ОкончаниеДействияКонтекстноеМеню" id="17"/>
@@ -522,6 +529,7 @@
 						<InputField name="Описание" id="103">
 							<DataPath>Объект.Описание</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОписаниеКонтекстноеМеню" id="104"/>
 							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="105"/>
 						</InputField>
@@ -868,7 +876,6 @@
 														</ColumnGroup>
 														<CheckBoxField name="ПоставщикиОтменено" id="554">
 															<DataPath>Объект.Поставщики.Отменено</DataPath>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПоставщикиОтмененоКонтекстноеМеню" id="555"/>
 															<ExtendedTooltip name="ПоставщикиОтмененоРасширеннаяПодсказка" id="556"/>
 															<Events>
@@ -1204,7 +1211,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретНачисленияСверхПланаКонтекстноеМеню" id="191"/>
 													<ExtendedTooltip name="ЗапретНачисленияСверхПланаРасширеннаяПодсказка" id="192"/>
 													<Events>
@@ -1223,6 +1229,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>8</MaxWidth>
 											<ContextMenu name="ВалютаКонтекстноеМеню" id="203"/>
@@ -1270,6 +1277,7 @@
 								<InputField name="Ответственный" id="106">
 									<DataPath>Объект.Ответственный</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>29</MaxWidth>
 									<ContextMenu name="ОтветственныйКонтекстноеМеню" id="107"/>
@@ -1278,6 +1286,7 @@
 								<InputField name="Комментарий" id="109">
 									<DataPath>Объект.Комментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>70</MaxWidth>
 									<AutoMaxHeight>false</AutoMaxHeight>
@@ -1440,7 +1449,6 @@
 								</ColumnGroup>
 								<CheckBoxField name="КонтрагентыКлиентовОтменено" id="507">
 									<DataPath>Объект.КонтрагентыКлиентов.Отменено</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонтрагентыКлиентовОтмененоКонтекстноеМеню" id="508"/>
 									<ExtendedTooltip name="КонтрагентыКлиентовОтмененоРасширеннаяПодсказка" id="509"/>
 									<Events>
@@ -1613,7 +1621,6 @@
 								</ColumnGroup>
 								<CheckBoxField name="ИННКонтрагентовКлиентовОтменено" id="283">
 									<DataPath>Объект.ИННКонтрагентовКлиентов.Отменено</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИННКонтрагентовКлиентовОтмененоКонтекстноеМеню" id="284"/>
 									<ExtendedTooltip name="ИННКонтрагентовКлиентовОтмененоРасширеннаяПодсказка" id="285"/>
 									<Events>
@@ -1901,7 +1908,6 @@
 								</ColumnGroup>
 								<CheckBoxField name="ТоварыОтменено" id="169">
 									<DataPath>Объект.Товары.Отменено</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТоварыОтмененоКонтекстноеМеню" id="170"/>
 									<ExtendedTooltip name="ТоварыОтмененоРасширеннаяПодсказка" id="171"/>
 									<Events>
@@ -2011,7 +2017,6 @@
 								</InputField>
 								<CheckBoxField name="СегментыТоваровОтменено" id="232">
 									<DataPath>Объект.СегментыТоваров.Отменено</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СегментыТоваровОтмененоКонтекстноеМеню" id="233"/>
 									<ExtendedTooltip name="СегментыТоваровОтмененоРасширеннаяПодсказка" id="234"/>
 								</CheckBoxField>

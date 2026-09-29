@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,6 +8,7 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 	</AutoCommandBar>
@@ -174,12 +175,14 @@
 				<LabelField name="ТоварРасшифровкаПериод" id="153">
 					<DataPath>Объект.ТоварРасшифровка.Период</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварРасшифровкаПериодКонтекстноеМеню" id="154"/>
 					<ExtendedTooltip name="ТоварРасшифровкаПериодРасширеннаяПодсказка" id="155"/>
 				</LabelField>
 				<LabelField name="ТоварРасшифровкаСклад" id="156">
 					<DataPath>Объект.ТоварРасшифровка.Склад</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварРасшифровкаСкладКонтекстноеМеню" id="157"/>
 					<ExtendedTooltip name="ТоварРасшифровкаСкладРасширеннаяПодсказка" id="158"/>
 				</LabelField>
@@ -191,6 +194,7 @@
 				<LabelField name="ТоварРасшифровкаДатаПотребности" id="159">
 					<DataPath>Объект.ТоварРасшифровка.ДатаПотребности</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ТоварРасшифровкаДатаПотребностиКонтекстноеМеню" id="160"/>
 					<ExtendedTooltip name="ТоварРасшифровкаДатаПотребностиРасширеннаяПодсказка" id="161"/>
 				</LabelField>
@@ -206,12 +210,14 @@
 						<LabelField name="ТоварРасшифровкаПотребность" id="164">
 							<DataPath>Объект.ТоварРасшифровка.Потребность</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварРасшифровкаПотребностьКонтекстноеМеню" id="165"/>
 							<ExtendedTooltip name="ТоварРасшифровкаПотребностьРасширеннаяПодсказка" id="166"/>
 						</LabelField>
 						<LabelField name="ТоварРасшифровкаДоступно" id="167">
 							<DataPath>Объект.ТоварРасшифровка.Доступно</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварРасшифровкаДоступноКонтекстноеМеню" id="168"/>
 							<ExtendedTooltip name="ТоварРасшифровкаДоступноРасширеннаяПодсказка" id="169"/>
 						</LabelField>
@@ -232,7 +238,7 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
 							<ShowInFooter>false</ShowInFooter>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварРасшифровкаОтметкаКонтекстноеМеню" id="173"/>
 							<ExtendedTooltip name="ТоварРасшифровкаОтметкаРасширеннаяПодсказка" id="174"/>
 							<Events>
@@ -242,6 +248,7 @@
 						<InputField name="ТоварРасшифровкаКПеремещению" id="175">
 							<DataPath>Объект.ТоварРасшифровка.КПеремещению</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТоварРасшифровкаКПеремещениюКонтекстноеМеню" id="176"/>
 							<ExtendedTooltip name="ТоварРасшифровкаКПеремещениюРасширеннаяПодсказка" id="177"/>
 							<Events>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Write</ExcludedCommand>
 		<ExcludedCommand>WriteAndClose</ExcludedCommand>
@@ -126,6 +126,7 @@
 				</v8:item>
 			</Title>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="СтатусГИСМКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="СтатусГИСМРасширеннаяПодсказка" id="12"/>
@@ -206,6 +207,7 @@
 												<InputField name="Номер" id="1">
 													<DataPath>Объект.Number</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
@@ -216,6 +218,7 @@
 												<InputField name="Дата" id="4">
 													<DataPath>Объект.Date</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>15</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>14</MaxWidth>
@@ -227,6 +230,7 @@
 										<InputField name="Организация" id="43">
 											<DataPath>Объект.Организация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>31</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
@@ -258,6 +262,7 @@
 												<InputField name="Контрагент" id="46">
 													<DataPath>Объект.Контрагент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>31</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>30</MaxWidth>
@@ -396,12 +401,14 @@
 								<LabelField name="ЗаказанныеКиЗНомерСтроки" id="62">
 									<DataPath>Объект.ЗаказанныеКиЗ.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказанныеКиЗНомерСтрокиКонтекстноеМеню" id="63"/>
 									<ExtendedTooltip name="ЗаказанныеКиЗНомерСтрокиРасширеннаяПодсказка" id="64"/>
 								</LabelField>
 								<InputField name="ЗаказанныеКиЗНоменклатура" id="65">
 									<DataPath>Объект.ЗаказанныеКиЗ.Номенклатура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<OpenButton>true</OpenButton>
 									<ContextMenu name="ЗаказанныеКиЗНоменклатураКонтекстноеМеню" id="66"/>
 									<ExtendedTooltip name="ЗаказанныеКиЗНоменклатураРасширеннаяПодсказка" id="67"/>
@@ -409,6 +416,7 @@
 								<InputField name="ЗаказанныеКиЗХарактеристика" id="68">
 									<DataPath>Объект.ЗаказанныеКиЗ.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказанныеКиЗХарактеристикаКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ЗаказанныеКиЗХарактеристикаРасширеннаяПодсказка" id="70"/>
 									<Events>
@@ -418,6 +426,7 @@
 								<InputField name="ЗаказанныеКиЗКоличество" id="74">
 									<DataPath>Объект.ЗаказанныеКиЗ.Количество</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказанныеКиЗКоличествоКонтекстноеМеню" id="75"/>
 									<ExtendedTooltip name="ЗаказанныеКиЗКоличествоРасширеннаяПодсказка" id="76"/>
 								</InputField>
@@ -425,6 +434,7 @@
 									<DataPath>Объект.ЗаказанныеКиЗ.Выпущено</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказанныеКиЗВыпущеноКонтекстноеМеню" id="221"/>
 									<ExtendedTooltip name="ЗаказанныеКиЗВыпущеноРасширеннаяПодсказка" id="222"/>
 								</InputField>
@@ -432,6 +442,7 @@
 									<DataPath>Объект.ЗаказанныеКиЗ.Поступило</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗаказанныеКиЗПоступилоКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="ЗаказанныеКиЗПоступилоРасширеннаяПодсказка" id="124"/>
 								</InputField>
@@ -589,6 +600,7 @@
 								<LabelField name="ВыпущенныеКиЗНомерСтроки" id="182">
 									<DataPath>Объект.ВыпущенныеКиЗ.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗНомерСтрокиКонтекстноеМеню" id="183"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗНомерСтрокиРасширеннаяПодсказка" id="184"/>
 								</LabelField>
@@ -607,6 +619,7 @@
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -619,6 +632,7 @@
 											<DataPath>Объект.ВыпущенныеКиЗ.НомерКиЗ</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>18</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Mask>UU-UUUUUU-UUUUUUUUUU</Mask>
@@ -631,6 +645,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.RFIDTID</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>18</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ВыпущенныеКиЗRFIDTIDКонтекстноеМеню" id="189"/>
@@ -640,6 +655,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.СостояниеПодтверждения</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>18</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ВыпущенныеКиЗСостояниеПодтвержденияКонтекстноеМеню" id="215"/>
@@ -648,6 +664,7 @@
 								<InputField name="ВыпущенныеКиЗДокументПоступления" id="217">
 									<DataPath>Объект.ВыпущенныеКиЗ.ДокументПоступления</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<OpenButton>true</OpenButton>
 									<CreateButton>false</CreateButton>
 									<ListChoiceMode>true</ListChoiceMode>
@@ -663,6 +680,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.GTIN</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗGTINКонтекстноеМеню" id="198"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗGTINРасширеннаяПодсказка" id="199"/>
 								</InputField>
@@ -670,6 +688,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.СерийныйНомер</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗСерийныйНомерКонтекстноеМеню" id="201"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗСерийныйНомерРасширеннаяПодсказка" id="202"/>
 								</InputField>
@@ -677,6 +696,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.RFIDEPC</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗRFIDEPCКонтекстноеМеню" id="299"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗRFIDEPCРасширеннаяПодсказка" id="300"/>
 								</InputField>
@@ -684,6 +704,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.ВидКиЗ</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗВидКиЗКонтекстноеМеню" id="186"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗВидКиЗРасширеннаяПодсказка" id="187"/>
 								</InputField>
@@ -691,6 +712,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.СпособВыпускаВОборот</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗСпособВыпускаВОборотКонтекстноеМеню" id="207"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗСпособВыпускаВОборотРасширеннаяПодсказка" id="208"/>
 								</InputField>
@@ -698,6 +720,7 @@
 									<DataPath>Объект.ВыпущенныеКиЗ.РазмерКиЗ</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗРазмерКиЗКонтекстноеМеню" id="210"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗРазмерКиЗРасширеннаяПодсказка" id="211"/>
 								</InputField>
@@ -711,7 +734,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыпущенныеКиЗДляМаркировкиОстатковКонтекстноеМеню" id="204"/>
 									<ExtendedTooltip name="ВыпущенныеКиЗДляМаркировкиОстатковРасширеннаяПодсказка" id="205"/>
 								</CheckBoxField>
@@ -870,6 +893,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -885,6 +909,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="ДатаДоговораКонтекстноеМеню" id="23"/>
 													<ExtendedTooltip name="ДатаДоговораРасширеннаяПодсказка" id="24"/>
@@ -901,6 +926,7 @@
 										<InputField name="СпособПолучения" id="28">
 											<DataPath>Объект.СпособПолучения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>28</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -980,7 +1006,6 @@
 						<CheckBoxField name="ДляМаркировкиОстатков" id="164">
 							<DataPath>Объект.ДляМаркировкиОстатков</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ДляМаркировкиОстатковКонтекстноеМеню" id="165"/>
 							<ExtendedTooltip name="ДляМаркировкиОстатковРасширеннаяПодсказка" id="166"/>
 						</CheckBoxField>

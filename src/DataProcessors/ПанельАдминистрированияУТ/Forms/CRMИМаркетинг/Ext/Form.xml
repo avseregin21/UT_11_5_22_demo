@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -102,7 +102,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиCRMРасширеннаяПодсказка" id="2341"/>
 			<ChildItems>
@@ -172,7 +172,6 @@
 									<v8:content>Отключать независимое использование партнеров и контрагентов после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПартнеровИКонтрагентовКонтекстноеМеню" id="2350"/>
 							<ExtendedTooltip name="ИспользоватьПартнеровИКонтрагентовРасширеннаяПодсказка" id="2351">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -281,7 +280,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ФиксироватьПретензииКонтекстноеМеню" id="2358"/>
 							<ExtendedTooltip name="ФиксироватьПретензииРасширеннаяПодсказка" id="2359">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -348,7 +346,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьБизнесРегионыКонтекстноеМеню" id="2373"/>
 							<ExtendedTooltip name="ИспользоватьБизнесРегионыРасширеннаяПодсказка" id="2374">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -455,7 +452,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПроектыКонтекстноеМеню" id="2394"/>
 							<ExtendedTooltip name="ИспользоватьПроектыРасширеннаяПодсказка" id="2395">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -533,7 +529,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьСделкиСКлиентамиКонтекстноеМеню" id="2430"/>
 											<ExtendedTooltip name="ИспользоватьСделкиСКлиентамиРасширеннаяПодсказка" id="2431">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -575,7 +570,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьУправлениеСделкамиКонтекстноеМеню" id="2433"/>
 											<ExtendedTooltip name="ИспользоватьУправлениеСделкамиРасширеннаяПодсказка" id="2434">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -684,7 +678,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьВидыСвязейПартнеровКонтекстноеМеню" id="2402"/>
 									<ExtendedTooltip name="ИспользоватьВидыСвязейПартнеровРасширеннаяПодсказка" id="2403">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -721,7 +714,6 @@
 									<DataPath>НаборКонстант.ИспользоватьПервичныйСпрос</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьПервичныйСпросКонтекстноеМеню" id="2173"/>
 									<ExtendedTooltip name="ИспользоватьПервичныйСпросРасширеннаяПодсказка" id="2174">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -780,7 +772,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьРолиКонтактныхЛицПартнеровКонтекстноеМеню" id="2412"/>
 									<ExtendedTooltip name="ИспользоватьРолиКонтактныхЛицПартнеровРасширеннаяПодсказка" id="2413">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -823,7 +814,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьРолиПартнеровИКонтактныхЛицВСделкахИПроектахКонтекстноеМеню" id="2420"/>
 									<ExtendedTooltip name="ИспользоватьРолиПартнеровИКонтактныхЛицВСделкахИПроектахРасширеннаяПодсказка" id="2421">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -856,7 +846,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаМаркетингРасширеннаяПодсказка" id="2052"/>
 			<ChildItems>
@@ -890,7 +880,6 @@
 									<v8:content>Отключать возможность ведения нескольких видов цен после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьНесколькоВидовЦенКонтекстноеМеню" id="1950"/>
 							<ExtendedTooltip name="ИспользоватьНесколькоВидовЦенРасширеннаяПодсказка" id="2054">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1088,7 +1077,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьЦеновыеГруппыКонтекстноеМеню" id="57"/>
 							<ExtendedTooltip name="ИспользоватьЦеновыеГруппыРасширеннаяПодсказка" id="2061">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1166,7 +1154,6 @@
 													<v8:content>Отключать возможность использования ручных скидок в продажах после начала работы с системой не рекомендуется</v8:content>
 												</v8:item>
 											</WarningOnEdit>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьРучныеСкидкиВПродажахКонтекстноеМеню" id="239"/>
 											<ExtendedTooltip name="ИспользоватьРучныеСкидкиВПродажахРасширеннаяПодсказка" id="2066">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -1229,7 +1216,6 @@
 															<v8:content>Отключать возможность ограничения ручных скидок по соглашениям после начала работы с системой не рекомендуется</v8:content>
 														</v8:item>
 													</WarningOnEdit>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьОграниченияРучныхСкидокВПродажахПоСоглашениямКонтекстноеМеню" id="1606"/>
 													<ExtendedTooltip name="ИспользоватьОграниченияРучныхСкидокВПродажахПоСоглашениямРасширеннаяПодсказка" id="2071">
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -1294,7 +1280,6 @@
 															<v8:content>Отключать возможность ограничения ручных скидок по пользователям после начала работы с системой не рекомендуется</v8:content>
 														</v8:item>
 													</WarningOnEdit>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьОграниченияРучныхСкидокВПродажахПоПользователямКонтекстноеМеню" id="1604"/>
 													<ExtendedTooltip name="ИспользоватьОграниченияРучныхСкидокВПродажахПоПользователямРасширеннаяПодсказка" id="2076">
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -1345,7 +1330,6 @@
 													<v8:content>Отключать возможность использования автоматических скидок в продажах после начала работы с системой не рекомендуется</v8:content>
 												</v8:item>
 											</WarningOnEdit>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьАвтоматическиеСкидкиВПродажахКонтекстноеМеню" id="237"/>
 											<ExtendedTooltip name="ИспользоватьАвтоматическиеСкидкиВПродажахРасширеннаяПодсказка" id="2079">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -1408,7 +1392,6 @@
 															<v8:content>Отключать возможность использования бонусных программ лояльности после начала работы с системой не рекомендуется</v8:content>
 														</v8:item>
 													</WarningOnEdit>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьБонусныеПрограммыКонтекстноеМеню" id="2157"/>
 													<ExtendedTooltip name="ИспользоватьБонусныеПрограммыРасширеннаяПодсказка" id="2158">
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -1468,7 +1451,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьРучныеСкидкиВЗакупкахКонтекстноеМеню" id="303"/>
 											<ExtendedTooltip name="ИспользоватьРучныеСкидкиВЗакупкахРасширеннаяПодсказка" id="2083">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -1510,7 +1492,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьКартыЛояльностиКонтекстноеМеню" id="592"/>
 											<ExtendedTooltip name="ИспользоватьКартыЛояльностиРасширеннаяПодсказка" id="2087">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -1570,7 +1551,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСегментыПартнеровКонтекстноеМеню" id="1757"/>
 									<ExtendedTooltip name="ИспользоватьСегментыПартнеровРасширеннаяПодсказка" id="2091">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1686,7 +1666,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСогласованиеЦенНоменклатурыКонтекстноеМеню" id="314"/>
 									<ExtendedTooltip name="ИспользоватьСогласованиеЦенНоменклатурыРасширеннаяПодсказка" id="2101"/>
 									<Events>
@@ -1769,7 +1748,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьМаркетинговыеМероприятияКонтекстноеМеню" id="1767"/>
 									<ExtendedTooltip name="ИспользоватьМаркетинговыеМероприятияРасширеннаяПодсказка" id="2112">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1811,7 +1789,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьАнкетированиеКонтекстноеМеню" id="2331"/>
 									<ExtendedTooltip name="ИспользоватьАнкетированиеРасширеннаяПодсказка" id="2332">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1870,7 +1847,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьКонкурентнуюРазведкуКонтекстноеМеню" id="1762"/>
 									<ExtendedTooltip name="ИспользоватьКонкурентнуюРазведкуРасширеннаяПодсказка" id="2108">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1906,7 +1882,6 @@
 									<DataPath>НаборКонстант.ФиксироватьПервичныйИнтерес</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ФиксироватьПервичныйИнтересКонтекстноеМеню" id="77"/>
 									<ExtendedTooltip name="ФиксироватьПервичныйИнтересРасширеннаяПодсказка" id="2118">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1971,7 +1946,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьАссортиментКонтекстноеМеню" id="1958"/>
 									<ExtendedTooltip name="ИспользоватьАссортиментРасширеннаяПодсказка" id="2121">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1997,7 +1971,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьТоварныеКатегорииКонтекстноеМеню" id="2298"/>
 									<ExtendedTooltip name="ИспользоватьТоварныеКатегорииРасширеннаяПодсказка" id="2299">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2023,7 +1996,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьРейтингиПродажНоменклатурыКонтекстноеМеню" id="2313"/>
 									<ExtendedTooltip name="ИспользоватьРейтингиПродажНоменклатурыРасширеннаяПодсказка" id="2314">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2071,7 +2043,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьУправлениеКоллекциямиКонтекстноеМеню" id="2446"/>
 									<ExtendedTooltip name="ИспользоватьУправлениеКоллекциямиРасширеннаяПодсказка" id="2447">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2097,7 +2068,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьФорматыМагазиновКонтекстноеМеню" id="2449"/>
 									<ExtendedTooltip name="ИспользоватьФорматыМагазиновРасширеннаяПодсказка" id="2450">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2163,7 +2133,6 @@
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСерверЛояльностиПоставщикКонтекстноеМеню" id="2481"/>
 									<ExtendedTooltip name="ИспользоватьСерверЛояльностиПоставщикРасширеннаяПодсказка" id="2482">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2242,7 +2211,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаРетроБонусыРасширеннаяПодсказка" id="2489"/>
 			<ChildItems>
@@ -2268,7 +2237,6 @@
 									<v8:content>Отключать возможность использования ретро-бонусов клиентов после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьРетроБонусыКлиентовКонтекстноеМеню" id="2493"/>
 							<ExtendedTooltip name="ИспользоватьРетроБонусыКлиентовРасширеннаяПодсказка" id="2494"/>
 							<Events>
@@ -2401,7 +2369,6 @@
 											<v8:content>Отключать возможность использования статусов списаний ретро-бонусов клиентов после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСогласованиеСписанийРетроБонусовКлиентовКонтекстноеМеню" id="2571"/>
 									<ExtendedTooltip name="ИспользоватьСогласованиеСписанийРетроБонусовКлиентовРасширеннаяПодсказка" id="2572">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2465,7 +2432,6 @@
 									<DataPath>НаборКонстант.ВыводитьПолныеНаименованияРетроБонусовКлиентов</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыводитьПолныеНаименованияРетроБонусовКлиентовКонтекстноеМеню" id="2581"/>
 									<ExtendedTooltip name="ВыводитьПолныеНаименованияРетроБонусовКлиентовРасширеннаяПодсказка" id="2582">
 										<AutoMaxWidth>false</AutoMaxWidth>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Enum uuid="2111e188-6b21-4a43-8e5d-befa17c4bbb8">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ФорматыВыгрузкиОбъектов" category="Ref">
@@ -104,6 +104,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a5b110af-ca1e-4cc0-bfd7-7bf0829905df">
@@ -116,6 +117,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a018eb35-75b5-47ce-af7d-5e59b27c753f">
@@ -128,6 +130,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a20d8863-4208-4865-be46-e00ed44389e5">
@@ -140,6 +143,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="519c3950-0907-49d8-ab35-1d1bf15d4602">
@@ -152,6 +156,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="55372293-0f58-463e-9a7d-404b338b4155">
@@ -164,6 +169,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="feecc066-7dec-45ff-a88a-41221a05d0f4">
@@ -176,6 +182,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b2dbc40b-e5bd-40fa-9365-374c25a4d961">
@@ -188,6 +195,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fd9ce2ed-8f31-4b75-8a62-6563f4de92fd">
@@ -200,6 +208,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>АПК:58 в имени используется сокращение</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -47,7 +48,7 @@
 						</UsualGroup>
 						<Table name="Список" id="3">
 							<Representation>List</Representation>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
@@ -201,7 +202,6 @@
 								</LabelField>
 								<CheckBoxField name="ТребуетсяЗагрузка" id="37">
 									<DataPath>Список.ТребуетсяЗагрузка</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТребуетсяЗагрузкаКонтекстноеМеню" id="38"/>
 									<ExtendedTooltip name="ТребуетсяЗагрузкаРасширеннаяПодсказка" id="39"/>
 								</CheckBoxField>
@@ -517,6 +517,7 @@
 													<DataPath>ЕдиницыИзмерения.Наименование</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияНаименованиеКонтекстноеМеню" id="139"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияНаименованиеРасширеннаяПодсказка" id="140"/>
 												</InputField>
@@ -527,6 +528,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияUUIDКонтекстноеМеню" id="142"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияUUIDРасширеннаяПодсказка" id="143"/>
 												</InputField>
@@ -537,6 +539,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияGUIDКонтекстноеМеню" id="145"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияGUIDРасширеннаяПодсказка" id="146"/>
 												</InputField>
@@ -547,6 +550,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияСтатусКонтекстноеМеню" id="148"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияСтатусРасширеннаяПодсказка" id="149"/>
 												</InputField>
@@ -557,6 +561,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияДатаСозданияКонтекстноеМеню" id="151"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияДатаСозданияРасширеннаяПодсказка" id="152"/>
 												</InputField>
@@ -567,6 +572,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияДатаИзмененияКонтекстноеМеню" id="154"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияДатаИзмененияРасширеннаяПодсказка" id="155"/>
 												</InputField>
@@ -577,7 +583,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияАктивностьКонтекстноеМеню" id="157"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияАктивностьРасширеннаяПодсказка" id="158"/>
 												</CheckBoxField>
@@ -588,7 +594,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияАктуальностьКонтекстноеМеню" id="160"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияАктуальностьРасширеннаяПодсказка" id="161"/>
 												</CheckBoxField>
@@ -599,6 +605,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияНаименованиеПолноеКонтекстноеМеню" id="163"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияНаименованиеПолноеРасширеннаяПодсказка" id="164"/>
 												</InputField>
@@ -608,6 +615,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияКоэффициентКонтекстноеМеню" id="166"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияКоэффициентРасширеннаяПодсказка" id="167"/>
 												</InputField>
@@ -618,6 +626,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЕдиницыИзмеренияБазоваяЕдиницаGUIDКонтекстноеМеню" id="169"/>
 													<ExtendedTooltip name="ЕдиницыИзмеренияБазоваяЕдиницаGUIDРасширеннаяПодсказка" id="170"/>
 												</InputField>

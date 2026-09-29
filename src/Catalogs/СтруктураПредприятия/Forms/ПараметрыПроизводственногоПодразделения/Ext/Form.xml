@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Width>75</Width>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаОК" id="92">
@@ -80,7 +80,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПодразделениеДиспетчерКонтекстноеМеню" id="288"/>
 									<ExtendedTooltip name="ПодразделениеДиспетчерРасширеннаяПодсказка" id="289"/>
 								</CheckBoxField>
@@ -131,7 +130,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбъектПроизводствоПоЗаказамКонтекстноеМеню" id="310"/>
 											<ExtendedTooltip name="ОбъектПроизводствоПоЗаказамРасширеннаяПодсказка" id="311"/>
 											<Events>
@@ -147,7 +145,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбъектПроизводствоБезЗаказовКонтекстноеМеню" id="313"/>
 											<ExtendedTooltip name="ОбъектПроизводствоБезЗаказовРасширеннаяПодсказка" id="314"/>
 											<Events>
@@ -180,7 +177,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОбъектПроизводственноеПодразделениеКонтекстноеМеню" id="320"/>
 									<ExtendedTooltip name="ОбъектПроизводственноеПодразделениеРасширеннаяПодсказка" id="321"/>
 									<Events>
@@ -447,6 +443,7 @@
 										<LabelField name="ОбъектСменыНомерСтроки" id="456">
 											<DataPath>Объект.ГрафикиРаботы.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОбъектСменыНомерСтрокиКонтекстноеМеню" id="457"/>
 											<ExtendedTooltip name="ОбъектСменыНомерСтрокиРасширеннаяПодсказка" id="458"/>
 										</LabelField>
@@ -459,6 +456,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОбъектГрафикиРаботыГрафикРаботыКонтекстноеМеню" id="460"/>
 											<ExtendedTooltip name="ОбъектГрафикиРаботыГрафикРаботыРасширеннаяПодсказка" id="461"/>
 										</InputField>
@@ -526,6 +524,7 @@
 								<InputField name="ИнтервалПланирования" id="20">
 									<DataPath>Объект.ИнтервалПланирования</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ListChoiceMode>true</ListChoiceMode>
@@ -1185,7 +1184,6 @@
 												<CheckBoxField name="ИспользоватьПроизводственныеУчастки" id="468">
 													<DataPath>Объект.ИспользоватьПроизводственныеУчастки</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьПроизводственныеУчасткиКонтекстноеМеню" id="469"/>
 													<ExtendedTooltip name="ИспользоватьПроизводственныеУчасткиРасширеннаяПодсказка" id="470"/>
 												</CheckBoxField>
@@ -1198,7 +1196,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьПооперационноеУправлениеКонтекстноеМеню" id="344"/>
 													<ExtendedTooltip name="ИспользоватьПооперационноеУправлениеРасширеннаяПодсказка" id="345"/>
 													<Events>
@@ -1246,7 +1243,6 @@
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьМатериалыВОперацияхКонтекстноеМеню" id="362"/>
 																	<ExtendedTooltip name="ИспользоватьМатериалыВОперацияхРасширеннаяПодсказка" id="363">
 																		<AutoMaxWidth>false</AutoMaxWidth>
@@ -1262,7 +1258,6 @@
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьВыходныеИзделияВОперацияхКонтекстноеМеню" id="365"/>
 																	<ExtendedTooltip name="ИспользоватьВыходныеИзделияВОперацияхРасширеннаяПодсказка" id="366">
 																		<AutoMaxWidth>false</AutoMaxWidth>
@@ -1272,7 +1267,6 @@
 																	<DataPath>Объект.ИспользоватьСменныеЗадания</DataPath>
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьСменныеЗаданияКонтекстноеМеню" id="463"/>
 																	<ExtendedTooltip name="ИспользоватьСменныеЗаданияРасширеннаяПодсказка" id="464"/>
 																	<Events>
@@ -1289,7 +1283,6 @@
 																		</v8:item>
 																	</ToolTip>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьПооперационноеПланированиеКонтекстноеМеню" id="392"/>
 																	<ExtendedTooltip name="ИспользоватьПооперационноеПланированиеРасширеннаяПодсказка" id="393">
 																		<AutoMaxWidth>false</AutoMaxWidth>
@@ -1810,7 +1803,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьКТУКонтекстноеМеню" id="403"/>
 									<ExtendedTooltip name="ИспользоватьКТУРасширеннаяПодсказка" id="404"/>
 								</CheckBoxField>
@@ -1835,7 +1827,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОтработанноеВремяКонтекстноеМеню" id="434"/>
 											<ExtendedTooltip name="ИспользоватьОтработанноеВремяРасширеннаяПодсказка" id="435"/>
 											<Events>
@@ -1851,7 +1842,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьТарифныеСтавкиКонтекстноеМеню" id="400"/>
 											<ExtendedTooltip name="ИспользоватьТарифныеСтавкиРасширеннаяПодсказка" id="401"/>
 										</CheckBoxField>

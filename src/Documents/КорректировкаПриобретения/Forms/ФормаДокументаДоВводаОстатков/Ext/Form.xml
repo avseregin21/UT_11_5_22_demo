@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -1085,6 +1085,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="ТаблицаКорректировкиНомерСтрокиКонтекстноеМеню" id="1516"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиНомерСтрокиРасширеннаяПодсказка" id="1517"/>
@@ -1095,6 +1096,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаКорректировкиНоменклатураКодКонтекстноеМеню" id="1489"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиНоменклатураКодРасширеннаяПодсказка" id="1490"/>
@@ -1105,6 +1107,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаКорректировкиНоменклатураАртикулКонтекстноеМеню" id="1467"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиНоменклатураАртикулРасширеннаяПодсказка" id="1468"/>
@@ -1112,6 +1115,7 @@
 								<InputField name="ТаблицаКорректировкиНоменклатураПартнера" id="1354">
 									<DataPath>ТаблицаКорректировки.НоменклатураПартнера</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceParameterLinks>
 										<xr:Link>
 											<xr:Name>Отбор.ВладелецНоменклатуры</xr:Name>
@@ -1139,6 +1143,7 @@
 								<InputField name="ТаблицаКорректировкиНоменклатура" id="1351">
 									<DataPath>ТаблицаКорректировки.Номенклатура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1158,6 +1163,7 @@
 								<InputField name="ТаблицаКорректировкиХарактеристика" id="1357">
 									<DataPath>ТаблицаКорректировки.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1185,6 +1191,7 @@
 								<InputField name="ТаблицаКорректировкиСодержание" id="1366">
 									<DataPath>ТаблицаКорректировки.Содержание</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<ContextMenu name="ТаблицаКорректировкиСодержаниеКонтекстноеМеню" id="1367"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиСодержаниеРасширеннаяПодсказка" id="1368"/>
@@ -1207,6 +1214,7 @@
 												<xr:Ref>CommonPicture.СерииНоменклатурыКолонкаСтатусов</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1217,6 +1225,7 @@
 										<InputField name="ТаблицаКорректировкиСерия" id="1360">
 											<DataPath>ТаблицаКорректировки.Серия</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1252,12 +1261,14 @@
 								<InputField name="ТаблицаКорректировкиНаправлениеДеятельности" id="1390">
 									<DataPath>ТаблицаКорректировки.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаКорректировкиНаправлениеДеятельностиКонтекстноеМеню" id="1391"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиНаправлениеДеятельностиРасширеннаяПодсказка" id="1392"/>
 								</InputField>
 								<InputField name="ТаблицаКорректировкиНомерГТД" id="1396">
 									<DataPath>ТаблицаКорректировки.НомерГТД</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<ChoiceParameterLinks>
 										<xr:Link>
@@ -1291,12 +1302,14 @@
 								<InputField name="ТаблицаКорректировкиКодТНВЭД" id="1598">
 									<DataPath>ТаблицаКорректировки.КодТНВЭД</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаКорректировкиКодТНВЭДКонтекстноеМеню" id="1599"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиКодТНВЭДРасширеннаяПодсказка" id="1600"/>
 								</InputField>
 								<InputField name="ТаблицаКорректировкиНомерГТДСтранаПроисхождения" id="1399">
 									<DataPath>ТаблицаКорректировки.СтранаПроисхождения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаКорректировкиНомерГТДСтранаПроисхожденияКонтекстноеМеню" id="1400"/>
 									<ExtendedTooltip name="ТаблицаКорректировкиНомерГТДСтранаПроисхожденияРасширеннаяПодсказка" id="1401"/>
 								</InputField>
@@ -1315,6 +1328,7 @@
 											<DataPath>ТаблицаКорректировки.НадписьДоИзменения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТаблицаКорректировкиНадписьДоИзмененияКонтекстноеМеню" id="1480"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиНадписьДоИзмененияРасширеннаяПодсказка" id="1481"/>
@@ -1323,6 +1337,7 @@
 											<DataPath>ТаблицаКорректировки.НадписьПослеИзменения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТаблицаКорректировкиНадписьПослеИзмененияКонтекстноеМеню" id="1483"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиНадписьПослеИзмененияРасширеннаяПодсказка" id="1484"/>
@@ -1343,6 +1358,7 @@
 											<DataPath>ТаблицаКорректировки.КоличествоУпаковок</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТаблицаКорректировкиКоличествоУпаковокКонтекстноеМеню" id="1406"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиКоличествоУпаковокРасширеннаяПодсказка" id="1407"/>
@@ -1354,6 +1370,7 @@
 											<DataPath>ТаблицаКорректировки.КоличествоУпаковокПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТаблицаКорректировкиКоличествоУпаковокПослеКонтекстноеМеню" id="1409"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиКоличествоУпаковокПослеРасширеннаяПодсказка" id="1410"/>
@@ -1377,6 +1394,7 @@
 											<DataPath>ТаблицаКорректировки.Количество</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТаблицаКорректировкиКоличествоКонтекстноеМеню" id="1412"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиКоличествоРасширеннаяПодсказка" id="1413"/>
@@ -1388,6 +1406,7 @@
 											<DataPath>ТаблицаКорректировки.КоличествоПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТаблицаКорректировкиКоличествоПослеКонтекстноеМеню" id="1415"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиКоличествоПослеРасширеннаяПодсказка" id="1416"/>
@@ -1421,6 +1440,7 @@
 													<DataPath>ТаблицаКорректировки.КоличествоПоРНПТ</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТаблицаКорректировкиКоличествоПоРНПТКонтекстноеМеню" id="1472"/>
 													<ExtendedTooltip name="ТаблицаКорректировкиКоличествоПоРНПТРасширеннаяПодсказка" id="1473"/>
@@ -1430,6 +1450,7 @@
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТаблицаКорректировкиНоменклатураЕдиницаИзмеренияТНВЭДКонтекстноеМеню" id="1486"/>
 													<ExtendedTooltip name="ТаблицаКорректировкиНоменклатураЕдиницаИзмеренияТНВЭДРасширеннаяПодсказка" id="1487"/>
 												</InputField>
@@ -1449,6 +1470,7 @@
 													<DataPath>ТаблицаКорректировки.КоличествоПоРНПТПосле</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ТаблицаКорректировкиКоличествоПоРНПТПослеКонтекстноеМеню" id="1475"/>
 													<ExtendedTooltip name="ТаблицаКорректировкиКоличествоПоРНПТПослеРасширеннаяПодсказка" id="1476"/>
@@ -1457,6 +1479,7 @@
 													<DataPath>ТаблицаКорректировки.НомерГТД.ЕдиницаИзмерения</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТаблицаКорректировкиНоменклатураЕдиницаИзмеренияТНВЭДПослеКонтекстноеМеню" id="1499"/>
 													<ExtendedTooltip name="ТаблицаКорректировкиНоменклатураЕдиницаИзмеренияТНВЭДПослеРасширеннаяПодсказка" id="1500"/>
 												</InputField>
@@ -1484,6 +1507,7 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1511,6 +1535,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ChoiceButton>true</ChoiceButton>
 											<ContextMenu name="ТаблицаКорректировкиНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="1464"/>
@@ -1532,6 +1557,7 @@
 											<DataPath>ТаблицаКорректировки.Цена</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ТаблицаКорректировкиЦенаКонтекстноеМеню" id="1418"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиЦенаРасширеннаяПодсказка" id="1419"/>
@@ -1543,6 +1569,7 @@
 											<DataPath>ТаблицаКорректировки.ЦенаПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ТаблицаКорректировкиЦенаПослеКонтекстноеМеню" id="1421"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиЦенаПослеРасширеннаяПодсказка" id="1422"/>
@@ -1566,6 +1593,7 @@
 											<DataPath>ТаблицаКорректировки.Сумма</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаКонтекстноеМеню" id="1424"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаРасширеннаяПодсказка" id="1425"/>
@@ -1577,6 +1605,7 @@
 											<DataPath>ТаблицаКорректировки.СуммаПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаПослеКонтекстноеМеню" id="1427"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаПослеРасширеннаяПодсказка" id="1428"/>
@@ -1600,6 +1629,7 @@
 											<DataPath>ТаблицаКорректировки.СтавкаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ChoiceParameterLinks>
 												<xr:Link>
@@ -1628,6 +1658,7 @@
 											<DataPath>ТаблицаКорректировки.СтавкаНДСПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ChoiceParameterLinks>
 												<xr:Link>
@@ -1668,6 +1699,7 @@
 											<DataPath>ТаблицаКорректировки.СуммаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаНДСКонтекстноеМеню" id="1436"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаНДСРасширеннаяПодсказка" id="1437"/>
@@ -1679,6 +1711,7 @@
 											<DataPath>ТаблицаКорректировки.СуммаНДСПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаНДСПослеКонтекстноеМеню" id="1439"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаНДСПослеРасширеннаяПодсказка" id="1440"/>
@@ -1703,6 +1736,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаСНДСКонтекстноеМеню" id="1442"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаСНДСРасширеннаяПодсказка" id="1443"/>
@@ -1712,6 +1746,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаСНДСПослеКонтекстноеМеню" id="1445"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаСНДСПослеРасширеннаяПодсказка" id="1446"/>
@@ -1732,6 +1767,7 @@
 											<DataPath>ТаблицаКорректировки.СуммаВзаиморасчетов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаВзаиморасчетовКонтекстноеМеню" id="1569"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаВзаиморасчетовРасширеннаяПодсказка" id="1570"/>
@@ -1740,6 +1776,7 @@
 											<DataPath>ТаблицаКорректировки.СуммаВзаиморасчетовПосле</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<ContextMenu name="ТаблицаКорректировкиСуммаВзаиморасчетовПослеКонтекстноеМеню" id="1572"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСуммаВзаиморасчетовПослеРасширеннаяПодсказка" id="1573"/>
@@ -1761,6 +1798,7 @@
 											<DataPath>ТаблицаКорректировки.ВариантОтраженияСписания</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ListChoiceMode>true</ListChoiceMode>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="ТаблицаКорректировкиВариантОтраженияСписанияКонтекстноеМеню" id="1535"/>
@@ -1798,6 +1836,7 @@
 											<DataPath>ТаблицаКорректировки.Склад</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1828,6 +1867,7 @@
 											<DataPath>ТаблицаКорректировки.Подразделение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1856,7 +1896,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаКорректировкиСписатьНаРасходыКонтекстноеМеню" id="1379"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСписатьНаРасходыРасширеннаяПодсказка" id="1380"/>
 											<Events>
@@ -1872,6 +1912,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceParameters>
 												<app:item name="Отбор.ХозяйственнаяОперация">
 													<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -1903,6 +1944,7 @@
 											<DataPath>ТаблицаКорректировки.АналитикаРасходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
@@ -1926,6 +1968,7 @@
 											<DataPath>ТаблицаКорректировки.АналитикаАктивовПассивов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<TypeLink>
 												<xr:DataPath>Items.ТаблицаКорректировки.CurrentData.СтатьяРасходов</xr:DataPath>
 												<xr:LinkItem>0</xr:LinkItem>
@@ -1937,6 +1980,7 @@
 											<DataPath>ТаблицаКорректировки.АналитикаДоходов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<TypeLink>
 												<xr:DataPath>Items.ТаблицаКорректировки.CurrentData.СтатьяРасходов</xr:DataPath>
 												<xr:LinkItem>0</xr:LinkItem>
@@ -1962,6 +2006,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТаблицаКорректировкиСчетРеглУчетаРасходовКонтекстноеМеню" id="1521"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСчетРеглУчетаРасходовРасширеннаяПодсказка" id="1522"/>
 										</InputField>
@@ -1970,6 +2015,9 @@
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<ContextMenu name="ТаблицаКорректировкиСчетРеглУчетаАктивовПассивовКонтекстноеМеню" id="1524"/>
 											<ExtendedTooltip name="ТаблицаКорректировкиСчетРеглУчетаАктивовПассивовРасширеннаяПодсказка" id="1525"/>
 										</InputField>
@@ -2515,7 +2563,6 @@
 										<CheckBoxField name="ЦенаВключаетНДС" id="173">
 											<DataPath>Объект.ЦенаВключаетНДС</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="174"/>
 											<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="772"/>
 											<Events>

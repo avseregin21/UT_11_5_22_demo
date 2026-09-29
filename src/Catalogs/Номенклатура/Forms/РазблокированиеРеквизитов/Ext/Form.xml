@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -40,35 +40,30 @@
 		<CheckBoxField name="ВестиУчетПоГТД" id="9">
 			<DataPath>ВестиУчетПоГТД</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ВестиУчетПоГТДКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="ВестиУчетПоГТДРасширеннаяПодсказка" id="47"/>
 		</CheckBoxField>
 		<CheckBoxField name="ПрослеживаемыйТовар" id="109">
 			<DataPath>ПрослеживаемыйТовар</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПрослеживаемыйТоварКонтекстноеМеню" id="110"/>
 			<ExtendedTooltip name="ПрослеживаемыйТоварРасширеннаяПодсказка" id="111"/>
 		</CheckBoxField>
 		<CheckBoxField name="ПереноситьРНПТМатериала" id="115">
 			<DataPath>ПереноситьРНПТМатериала</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПереноситьРНПТМатериалаКонтекстноеМеню" id="116"/>
 			<ExtendedTooltip name="ПереноситьРНПТМатериалаРасширеннаяПодсказка" id="117"/>
 		</CheckBoxField>
 		<CheckBoxField name="ОблагаетсяНДСУПокупателя" id="97">
 			<DataPath>ОблагаетсяНДСУПокупателя</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ОблагаетсяНДСУПокупателяКонтекстноеМеню" id="98"/>
 			<ExtendedTooltip name="ОблагаетсяНДСУПокупателяРасширеннаяПодсказка" id="99"/>
 		</CheckBoxField>
 		<CheckBoxField name="ПодакцизныйТовар" id="33">
 			<DataPath>ПодакцизныйТовар</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПодакцизныйТоварКонтекстноеМеню" id="34"/>
 			<ExtendedTooltip name="ПодакцизныйТоварРасширеннаяПодсказка" id="49"/>
 		</CheckBoxField>
@@ -81,14 +76,12 @@
 				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="СтавкаНДСКонтекстноеМеню" id="22"/>
 			<ExtendedTooltip name="СтавкаНДСРасширеннаяПодсказка" id="51"/>
 		</CheckBoxField>
 		<CheckBoxField name="КодТНВЭД" id="106">
 			<DataPath>КодТНВЭД</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КодТНВЭДКонтекстноеМеню" id="107"/>
 			<ExtendedTooltip name="КодТНВЭДРасширеннаяПодсказка" id="108"/>
 		</CheckBoxField>
@@ -101,7 +94,6 @@
 				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ГруппаФинансовогоУчетаКонтекстноеМеню" id="113"/>
 			<ExtendedTooltip name="ГруппаФинансовогоУчетаРасширеннаяПодсказка" id="114"/>
 		</CheckBoxField>
@@ -114,77 +106,66 @@
 				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ЦеноваяГруппаКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ЦеноваяГруппаРасширеннаяПодсказка" id="53"/>
 		</CheckBoxField>
 		<CheckBoxField name="НаборУпаковок" id="39">
 			<DataPath>НаборУпаковок</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="НаборУпаковокКонтекстноеМеню" id="40"/>
 			<ExtendedTooltip name="НаборУпаковокРасширеннаяПодсказка" id="55"/>
 		</CheckBoxField>
 		<CheckBoxField name="ЕдиницаИзмерения" id="27">
 			<DataPath>ЕдиницаИзмерения</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="28"/>
 			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="57"/>
 		</CheckBoxField>
 		<CheckBoxField name="Качество" id="30">
 			<DataPath>Качество</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КачествоКонтекстноеМеню" id="31"/>
 			<ExtendedTooltip name="КачествоРасширеннаяПодсказка" id="59"/>
 		</CheckBoxField>
 		<CheckBoxField name="Принципал" id="74">
 			<DataPath>Принципал</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПринципалКонтекстноеМеню" id="75"/>
 			<ExtendedTooltip name="ПринципалРасширеннаяПодсказка" id="76"/>
 		</CheckBoxField>
 		<CheckBoxField name="Контрагент" id="79">
 			<DataPath>Контрагент</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КонтрагентКонтекстноеМеню" id="80"/>
 			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="81"/>
 		</CheckBoxField>
 		<CheckBoxField name="КиЗГИСМВид" id="82">
 			<DataPath>КиЗГИСМВид</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КиЗГИСМВидКонтекстноеМеню" id="83"/>
 			<ExtendedTooltip name="КиЗГИСМВидРасширеннаяПодсказка" id="84"/>
 		</CheckBoxField>
 		<CheckBoxField name="КиЗГИСМСпособВыпускаВОборот" id="85">
 			<DataPath>КиЗГИСМСпособВыпускаВОборот</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КиЗГИСМСпособВыпускаВОборотКонтекстноеМеню" id="86"/>
 			<ExtendedTooltip name="КиЗГИСМСпособВыпускаВОборотРасширеннаяПодсказка" id="87"/>
 		</CheckBoxField>
 		<CheckBoxField name="КиЗГИСМРазмер" id="88">
 			<DataPath>КиЗГИСМРазмер</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КиЗГИСМРазмерКонтекстноеМеню" id="89"/>
 			<ExtendedTooltip name="КиЗГИСМРазмерРасширеннаяПодсказка" id="90"/>
 		</CheckBoxField>
 		<CheckBoxField name="КиЗГИСМGTIN" id="91">
 			<DataPath>КиЗГИСМGTIN</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КиЗГИСМGTINКонтекстноеМеню" id="92"/>
 			<ExtendedTooltip name="КиЗГИСМGTINРасширеннаяПодсказка" id="93"/>
 		</CheckBoxField>
 		<CheckBoxField name="АлкогольнаяПродукцияВоВскрытойТаре" id="94">
 			<DataPath>АлкогольнаяПродукцияВоВскрытойТаре</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="АлкогольнаяПродукцияВоВскрытойТареКонтекстноеМеню" id="95"/>
 			<ExtendedTooltip name="АлкогольнаяПродукцияВоВскрытойТареРасширеннаяПодсказка" id="96"/>
 		</CheckBoxField>

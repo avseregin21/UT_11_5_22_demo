@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Enum uuid="8734770e-94d9-404c-ace7-bcae04a163ca">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.СтавкиНДС" category="Ref">
@@ -104,6 +104,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 18%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="47a1e8b7-23ba-4a92-aa21-febc5a30f63e">
@@ -116,6 +117,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Расчетная ставка НДС 18/118</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2d2c8285-3de6-45da-a9a1-ac5083568a8f">
@@ -128,6 +130,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 10%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="091efa23-9b7f-4441-bb0c-7ccd23b0d011">
@@ -140,6 +143,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Расчетная ставка НДС 10/110</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="264e92bb-b849-4f97-82ba-c42fe2373daa">
@@ -152,6 +156,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 0%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2e46dee0-b40d-4bd4-b02a-da83a286ea45">
@@ -164,6 +169,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="45974ccb-45ed-4235-b8ff-abc37bb5c45b">
@@ -176,6 +182,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 20%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6cf8ca3a-63dd-4385-ba30-38011e461f36">
@@ -188,6 +195,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Расчетная ставка НДС 20/120</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b9e148ea-d7b7-4295-8b0a-52c32dba3de9">
@@ -200,6 +208,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 5%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fd01d596-2c9d-4ea0-9473-d151dc6d0656">
@@ -212,6 +221,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Расчетная ставка НДС 5/105</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="afbae5cd-5d55-4639-b461-c68d385ec5fb">
@@ -224,6 +234,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 7%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="89643718-2e98-4667-bb58-9476b4a8bfab">
@@ -236,6 +247,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Расчетная ставка НДС 7/107</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f0456ccc-4e50-4999-b74b-8ac9c206b7f4">
@@ -248,6 +260,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Расчетная ставка НДС 22/122</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f0fa334c-59dc-4b6c-b81c-1bbad6b45917">
@@ -260,6 +273,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ставка НДС 22%</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

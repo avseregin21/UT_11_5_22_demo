@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -145,7 +145,6 @@
 										<CheckBoxField name="ТолькоПредприятияХозяйствующегоСубъекта" id="165">
 											<DataPath>ТолькоПредприятияХозяйствующегоСубъекта</DataPath>
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ТолькоПредприятияХозяйствующегоСубъектаКонтекстноеМеню" id="166"/>
 											<ExtendedTooltip name="ТолькоПредприятияХозяйствующегоСубъектаРасширеннаяПодсказка" id="167"/>
 											<Events>
@@ -165,7 +164,6 @@
 										<CheckBoxField name="ТолькоДоступные" id="199">
 											<DataPath>ТолькоДоступные</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ТолькоДоступныеКонтекстноеМеню" id="200"/>
 											<ExtendedTooltip name="ТолькоДоступныеРасширеннаяПодсказка" id="201"/>
 											<Events>
@@ -191,7 +189,7 @@
 							<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 						</UsualGroup>
 						<Table name="Список" id="173">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>
@@ -531,6 +529,7 @@
 													<DataPath>Предприятия.Наименование</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредприятияНаименованиеКонтекстноеМеню" id="111"/>
 													<ExtendedTooltip name="ПредприятияНаименованиеРасширеннаяПодсказка" id="112"/>
 												</InputField>
@@ -538,6 +537,7 @@
 													<DataPath>Предприятия.Тип</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредприятияТипКонтекстноеМеню" id="114"/>
 													<ExtendedTooltip name="ПредприятияТипРасширеннаяПодсказка" id="115"/>
 												</InputField>
@@ -551,6 +551,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредприятияПредставлениеАдресаКонтекстноеМеню" id="117"/>
 													<ExtendedTooltip name="ПредприятияПредставлениеАдресаРасширеннаяПодсказка" id="118"/>
 												</InputField>
@@ -561,6 +562,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>15</Width>
 													<ContextMenu name="ПредприятияСтатусКонтекстноеМеню" id="120"/>
 													<ExtendedTooltip name="ПредприятияСтатусРасширеннаяПодсказка" id="121"/>
@@ -568,6 +570,7 @@
 												<InputField name="ПредприятияСтатусВРеестре" id="207">
 													<DataPath>Предприятия.СтатусВРеестре</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредприятияСтатусВРеестреКонтекстноеМеню" id="208"/>
 													<ExtendedTooltip name="ПредприятияСтатусВРеестреРасширеннаяПодсказка" id="209"/>
 												</InputField>
@@ -584,6 +587,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>32</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<ContextMenu name="ПредприятияGUIDКонтекстноеМеню" id="126"/>
@@ -602,6 +606,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>32</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<ContextMenu name="ПредприятияUUIDКонтекстноеМеню" id="123"/>
@@ -614,6 +619,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -627,6 +633,7 @@
 													</UserVisible>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -637,6 +644,7 @@
 													<DataPath>Предприятия.НомераПредприятий</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредприятияНомераПредприятийКонтекстноеМеню" id="135"/>
 													<ExtendedTooltip name="ПредприятияНомераПредприятийРасширеннаяПодсказка" id="136"/>
 												</InputField>
@@ -644,6 +652,7 @@
 													<DataPath>Предприятия.ВидыДеятельности</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредприятияВидыДеятельностиКонтекстноеМеню" id="138"/>
 													<ExtendedTooltip name="ПредприятияВидыДеятельностиРасширеннаяПодсказка" id="139"/>
 												</InputField>

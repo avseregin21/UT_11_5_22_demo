@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -513,7 +513,6 @@
 										<CheckBoxField name="ВестиРасчетыЧерезКонечныхПокупателей" id="1006">
 											<DataPath>Объект.ВестиРасчетыЧерезКонечныхПокупателей</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВестиРасчетыЧерезКонечныхПокупателейКонтекстноеМеню" id="1016"/>
 											<ExtendedTooltip name="ВестиРасчетыЧерезКонечныхПокупателейРасширеннаяПодсказка" id="1017"/>
 											<Events>
@@ -857,7 +856,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ДоговорССамозанятымКонтекстноеМеню" id="2095"/>
 													<ExtendedTooltip name="ДоговорССамозанятымРасширеннаяПодсказка" id="2076"/>
 													<Events>
@@ -1044,7 +1042,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИностранныйИсполнительВУтвержденномПеречнеГОЗКонтекстноеМеню" id="480"/>
 									<ExtendedTooltip name="ИностранныйИсполнительВУтвержденномПеречнеГОЗРасширеннаяПодсказка" id="481"/>
 								</CheckBoxField>
@@ -1425,7 +1422,6 @@
 												<CheckBoxField name="ОплатаВВалюте" id="877">
 													<DataPath>Объект.ОплатаВВалюте</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОплатаВВалютеКонтекстноеМеню" id="878"/>
 													<ExtendedTooltip name="ОплатаВВалютеРасширеннаяПодсказка" id="879"/>
 													<Events>
@@ -1639,7 +1635,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ФиксированнаяСуммаДоговораКонтекстноеМеню" id="485"/>
 													<ExtendedTooltip name="ФиксированнаяСуммаДоговораРасширеннаяПодсказка" id="486"/>
 													<Events>
@@ -1768,7 +1763,6 @@
 														<CheckBoxField name="ЦентрализованныйДоговор" id="949">
 															<DataPath>Объект.ЦентрализованныйДоговор</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЦентрализованныйДоговорКонтекстноеМеню" id="950"/>
 															<ExtendedTooltip name="ЦентрализованныйДоговорРасширеннаяПодсказка" id="951"/>
 															<Events>
@@ -1794,7 +1788,6 @@
 												<CheckBoxField name="РазрешаетсяПередачаОплатМеждуФилиалами" id="944">
 													<DataPath>Объект.РазрешаетсяПередачаОплатМеждуФилиалами</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РазрешаетсяПередачаОплатМеждуФилиаламиКонтекстноеМеню" id="945"/>
 													<ExtendedTooltip name="РазрешаетсяПередачаОплатМеждуФилиаламиРасширеннаяПодсказка" id="946"/>
 												</CheckBoxField>
@@ -1803,7 +1796,6 @@
 										<CheckBoxField name="РазрешенаРаботаСДочернимиПартнерами" id="955">
 											<DataPath>Объект.РазрешенаРаботаСДочернимиПартнерами</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="РазрешенаРаботаСДочернимиПартнерамиКонтекстноеМеню" id="956"/>
 											<ExtendedTooltip name="РазрешенаРаботаСДочернимиПартнерамиРасширеннаяПодсказка" id="957"/>
 										</CheckBoxField>
@@ -1842,7 +1834,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПрименитьСтавкуДисконтированияПоРассрочкеКонтекстноеМеню" id="1025"/>
 															<ExtendedTooltip name="ПрименитьСтавкуДисконтированияПоРассрочкеРасширеннаяПодсказка" id="1026"/>
 															<Events>
@@ -1964,7 +1955,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПриПереоценкеЗадолженностиКлиентаНеПрименятьПоложения67ФЗКонтекстноеМеню" id="2123"/>
 											<ExtendedTooltip name="ПриПереоценкеЗадолженностиКлиентаНеПрименятьПоложения67ФЗРасширеннаяПодсказка" id="2124"/>
 										</CheckBoxField>
@@ -2004,7 +1994,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОграничиватьСуммуЗадолженностиКонтекстноеМеню" id="136"/>
 													<ExtendedTooltip name="ОграничиватьСуммуЗадолженностиРасширеннаяПодсказка" id="171"/>
 													<Events>
@@ -2037,7 +2026,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗапрещаетсяПросроченнаяЗадолженностьКонтекстноеМеню" id="142"/>
 											<ExtendedTooltip name="ЗапрещаетсяПросроченнаяЗадолженностьРасширеннаяПодсказка" id="174"/>
 										</CheckBoxField>
@@ -2436,7 +2424,6 @@
 										<CheckBoxField name="ИспользоватьОформлениеДокументовРаздельнойЗакупки" id="896">
 											<DataPath>ИспользоватьОформлениеДокументовРаздельнойЗакупки</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОформлениеДокументовРаздельнойЗакупкиКонтекстноеМеню" id="940"/>
 											<ExtendedTooltip name="ИспользоватьОформлениеДокументовРаздельнойЗакупкиРасширеннаяПодсказка" id="941"/>
 											<Events>
@@ -3483,7 +3470,7 @@
 									<ExtendedTooltip name="ГруппаФайлыРасширеннаяПодсказка" id="1757"/>
 									<ChildItems>
 										<Table name="Список" id="1758">
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
 											<DataPath>Список</DataPath>
@@ -4435,6 +4422,8 @@
 																</v8:item>
 															</Title>
 															<CellHyperlink>true</CellHyperlink>
+															<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+															<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 															<ContextMenu name="ОтправленПолученЭДКонтекстноеМеню" id="2056"/>
 															<ExtendedTooltip name="ОтправленПолученЭДРасширеннаяПодсказка" id="2057"/>
 														</LabelField>

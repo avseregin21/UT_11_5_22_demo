@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -24,7 +24,7 @@
 		<Table name="Список" id="3">
 			<DefaultItem>true</DefaultItem>
 			<ChangeRowOrder>false</ChangeRowOrder>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -122,7 +122,6 @@
 				</InputField>
 				<CheckBoxField name="СписокПлательщикНДС" id="119">
 					<DataPath>Список.ПлательщикНДС</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокПлательщикНДСКонтекстноеМеню" id="120"/>
 					<ExtendedTooltip name="СписокПлательщикНДСРасширеннаяПодсказка" id="121"/>
 				</CheckBoxField>
@@ -134,19 +133,16 @@
 							<v8:content>Освобождение от уплаты НДС</v8:content>
 						</v8:item>
 					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокПрименяетсяОсвобождениеОтУплатыНДСКонтекстноеМеню" id="68"/>
 					<ExtendedTooltip name="СписокПрименяетсяОсвобождениеОтУплатыНДСРасширеннаяПодсказка" id="69"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокЕстьРеализацияРаботУслугНеНаТерриторииРФ" id="116">
 					<DataPath>Список.ЕстьРеализацияРаботУслугНеНаТерриторииРФ</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокЕстьРеализацияРаботУслугНеНаТерриторииРФКонтекстноеМеню" id="117"/>
 					<ExtendedTooltip name="СписокЕстьРеализацияРаботУслугНеНаТерриторииРФРасширеннаяПодсказка" id="118"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокЕстьРеализацияТоваровФизлицамВЕАЭС" id="134">
 					<DataPath>Список.ЕстьРеализацияТоваровФизлицамВЕАЭС</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокЕстьРеализацияТоваровФизлицамВЕАЭСКонтекстноеМеню" id="135"/>
 					<ExtendedTooltip name="СписокЕстьРеализацияТоваровФизлицамВЕАЭСРасширеннаяПодсказка" id="136"/>
 				</CheckBoxField>
@@ -163,37 +159,31 @@
 							<v8:content>Раздельный учет</v8:content>
 						</v8:item>
 					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокРаздельныйУчетТоваровПоНалогообложениюНДСКонтекстноеМеню" id="74"/>
 					<ExtendedTooltip name="СписокРаздельныйУчетТоваровПоНалогообложениюНДСРасширеннаяПодсказка" id="75"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокПрименяетсяУчетНДСПоФактическомуИспользованию" id="76">
 					<DataPath>Список.ПрименяетсяУчетНДСПоФактическомуИспользованию</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокПрименяетсяУчетНДСПоФактическомуИспользованиюКонтекстноеМеню" id="77"/>
 					<ExtendedTooltip name="СписокПрименяетсяУчетНДСПоФактическомуИспользованиюРасширеннаяПодсказка" id="78"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокПрименяетсяРасчетНДССМежценовойРазницы" id="122">
 					<DataPath>Список.ПрименяетсяРасчетНДССМежценовойРазницы</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокПрименяетсяРасчетНДССМежценовойРазницыКонтекстноеМеню" id="123"/>
 					<ExtendedTooltip name="СписокПрименяетсяРасчетНДССМежценовойРазницыРасширеннаяПодсказка" id="124"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокРаздельныйУчетПостатейныхПроизводственныхЗатратПоНалогообложениюНДС" id="79">
 					<DataPath>Список.РаздельныйУчетПостатейныхПроизводственныхЗатратПоНалогообложениюНДС</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокРаздельныйУчетПостатейныхПроизводственныхЗатратПоНалогообложениюНДСКонтекстноеМеню" id="80"/>
 					<ExtendedTooltip name="СписокРаздельныйУчетПостатейныхПроизводственныхЗатратПоНалогообложениюНДСРасширеннаяПодсказка" id="81"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокУчетНДСДлительногоЦиклаПроизводства" id="82">
 					<DataPath>Список.УчетНДСДлительногоЦиклаПроизводства</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокУчетНДСДлительногоЦиклаПроизводстваКонтекстноеМеню" id="83"/>
 					<ExtendedTooltip name="СписокУчетНДСДлительногоЦиклаПроизводстваРасширеннаяПодсказка" id="84"/>
 				</CheckBoxField>
 				<CheckBoxField name="СписокУчитывать5ПроцентныйПорог" id="85">
 					<DataPath>Список.Учитывать5ПроцентныйПорог</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокУчитывать5ПроцентныйПорогКонтекстноеМеню" id="86"/>
 					<ExtendedTooltip name="СписокУчитывать5ПроцентныйПорогРасширеннаяПодсказка" id="87"/>
 				</CheckBoxField>
@@ -239,7 +229,6 @@
 				</InputField>
 				<CheckBoxField name="СписокФормироватьНДСПредъявленныйПриВключенииВСтоимость" id="125">
 					<DataPath>Список.ФормироватьНДСПредъявленныйПриВключенииВСтоимость</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокФормироватьНДСПредъявленныйПриВключенииВСтоимостьКонтекстноеМеню" id="126"/>
 					<ExtendedTooltip name="СписокФормироватьНДСПредъявленныйПриВключенииВСтоимостьРасширеннаяПодсказка" id="127"/>
 				</CheckBoxField>
@@ -251,7 +240,6 @@
 							<v8:content>Учет НДС в космической деятельности</v8:content>
 						</v8:item>
 					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СписокУчетНДСВКосмическойДеятельностиКонтекстноеМеню" id="129"/>
 					<ExtendedTooltip name="СписокУчетНДСВКосмическойДеятельностиРасширеннаяПодсказка" id="130"/>
 				</CheckBoxField>

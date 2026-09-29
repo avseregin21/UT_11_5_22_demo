@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -242,7 +243,7 @@
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<SelectionMode>SingleRow</SelectionMode>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -355,18 +356,21 @@
 						<InputField name="ТаблицаВыданныеАвансыНомер" id="399">
 							<DataPath>ВыданныеАвансы.Номер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаВыданныеАвансыНомерКонтекстноеМеню" id="400"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыНомерРасширеннаяПодсказка" id="440"/>
 						</InputField>
 						<InputField name="ТаблицаВыданныеАвансыДата" id="391">
 							<DataPath>ВыданныеАвансы.Дата</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаВыданныеАвансыДатаКонтекстноеМеню" id="392"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыДатаРасширеннаяПодсказка" id="441"/>
 						</InputField>
 						<InputField name="ТаблицаВыданныеАвансыПоставщик" id="397">
 							<DataPath>ВыданныеАвансы.Поставщик</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаВыданныеАвансыПоставщикКонтекстноеМеню" id="398"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыПоставщикРасширеннаяПодсказка" id="442"/>
 						</InputField>
@@ -389,6 +393,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаВыданныеАвансыВалютнаяСуммаКонтекстноеМеню" id="390"/>
 									<ExtendedTooltip name="ТаблицаВыданныеАвансыВалютнаяСуммаРасширеннаяПодсказка" id="443"/>
@@ -403,6 +408,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<ContextMenu name="ТаблицаВыданныеАвансыВалютаДокументаКонтекстноеМеню" id="388"/>
@@ -419,6 +425,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаВыданныеАвансыСуммаАвансаРеглКонтекстноеМеню" id="406"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыСуммаАвансаРеглРасширеннаяПодсказка" id="445"/>
@@ -445,6 +452,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаВыданныеАвансыНомерСчетаФактурыКонтекстноеМеню" id="402"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыНомерСчетаФактурыРасширеннаяПодсказка" id="447"/>
 						</InputField>
@@ -457,6 +465,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТаблицаВыданныеАвансыДатаСчетаФактурыКонтекстноеМеню" id="394"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыДатаСчетаФактурыРасширеннаяПодсказка" id="448"/>
 						</InputField>
@@ -469,6 +478,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаВыданныеАвансыСуммаСчетаФактурыКонтекстноеМеню" id="404"/>
 							<ExtendedTooltip name="ТаблицаВыданныеАвансыСуммаСчетаФактурыРасширеннаяПодсказка" id="449"/>

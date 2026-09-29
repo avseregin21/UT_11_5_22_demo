@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -241,7 +242,6 @@
 										<CheckBoxField name="ОтборСклад" id="714">
 											<DataPath>ОтборСклад</DataPath>
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборСкладКонтекстноеМеню" id="715"/>
 											<ExtendedTooltip name="ОтборСкладРасширеннаяПодсказка" id="716"/>
 											<Events>
@@ -506,6 +506,7 @@
 											</UserVisible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ФормированиеЗаказовНомерСтрокиКонтекстноеМеню" id="120"/>
@@ -518,6 +519,7 @@
 											</UserVisible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>11</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ФормированиеЗаказовАртикулКонтекстноеМеню" id="122"/>
@@ -530,6 +532,7 @@
 											</UserVisible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>11</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ФормированиеЗаказовКодКонтекстноеМеню" id="124"/>
@@ -551,6 +554,7 @@
 													<DataPath>Объект.ФормированиеЗаказов.Номенклатура</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ФормированиеЗаказовНоменклатураКонтекстноеМеню" id="126"/>
@@ -560,6 +564,7 @@
 													<DataPath>Объект.ФормированиеЗаказов.Характеристика</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ФормированиеЗаказовХарактеристикаКонтекстноеМеню" id="128"/>
@@ -569,6 +574,7 @@
 													<DataPath>Объект.ФормированиеЗаказов.Назначение</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ФормированиеЗаказовНазначениеКонтекстноеМеню" id="833"/>
@@ -591,6 +597,7 @@
 													<DataPath>Объект.ФормированиеЗаказов.Упаковка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>4</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ФормированиеЗаказовУпаковкаКонтекстноеМеню" id="748"/>
@@ -609,6 +616,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>4</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ФормированиеЗаказовЕдиницаИзмеренияКонтекстноеМеню" id="130"/>
@@ -623,6 +631,7 @@
 												<xr:Ref>StdPicture.Change</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</HeaderPicture>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
@@ -653,7 +662,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ФормированиеЗаказовОтметитьКЗаказуКонтекстноеМеню" id="161"/>
 											<ExtendedTooltip name="ФормированиеЗаказовОтметитьКЗаказуРасширеннаяПодсказка" id="188"/>
 										</CheckBoxField>
@@ -662,6 +671,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ФормированиеЗаказовКоличествоУпаковокКонтекстноеМеню" id="138"/>
@@ -679,6 +689,7 @@
 										<xr:Ref>StdPicture.Change</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -694,6 +705,7 @@
 									<DataPath>Объект.ФормированиеЗаказов.ХозяйственнаяОперация</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовОперацияКонтекстноеМеню" id="203"/>
 									<ExtendedTooltip name="ФормированиеЗаказовОперацияРасширеннаяПодсказка" id="204"/>
@@ -701,6 +713,7 @@
 								<LabelField name="ФормированиеЗаказовДатаЗаказа" id="706">
 									<DataPath>Объект.ФормированиеЗаказов.ДатаЗаказа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовДатаЗаказаКонтекстноеМеню" id="707"/>
 									<ExtendedTooltip name="ФормированиеЗаказовДатаЗаказаРасширеннаяПодсказка" id="708"/>
@@ -708,6 +721,7 @@
 								<LabelField name="ФормированиеЗаказовДнейДоЗаказа" id="709">
 									<DataPath>Объект.ФормированиеЗаказов.ДнейДоЗаказа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовДнейДоЗаказаКонтекстноеМеню" id="710"/>
 									<ExtendedTooltip name="ФормированиеЗаказовДнейДоЗаказаРасширеннаяПодсказка" id="711"/>
@@ -716,6 +730,7 @@
 									<DataPath>Объект.ФормированиеЗаказов.Период</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовПериодКонтекстноеМеню" id="159"/>
@@ -734,6 +749,7 @@
 										<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>false</ChoiceButton>
@@ -760,6 +776,7 @@
 										<xr:Ref>StdPicture.InputFieldOpen</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>false</ChoiceButton>
@@ -779,6 +796,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ФормированиеЗаказовСпособОбеспеченияКонтекстноеМеню" id="725"/>
 									<ExtendedTooltip name="ФормированиеЗаказовСпособОбеспеченияРасширеннаяПодсказка" id="726"/>
@@ -802,7 +820,7 @@
 							<ExtendedTooltip name="ОткрытьСписокЗаказовРасширеннаяПодсказка" id="554"/>
 						</Button>
 						<Table name="Список" id="555">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -86,7 +87,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗапрашиватьДанныеСервисаИСМПКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="ЗапрашиватьДанныеСервисаИСМПРасширеннаяПодсказка" id="5">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -149,7 +149,6 @@
 										<CheckBoxField name="КонтролироватьСтатусыКодовМаркировки" id="43">
 											<DataPath>КонтролироватьСтатусыКодовМаркировки</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КонтролироватьСтатусыКодовМаркировкиКонтекстноеМеню" id="44"/>
 											<ExtendedTooltip name="КонтролироватьСтатусыКодовМаркировкиРасширеннаяПодсказка" id="45">
 												<Title formatted="true">
@@ -201,7 +200,6 @@
 										<CheckBoxField name="КонтролироватьВладельцевКодовМаркировки" id="46">
 											<DataPath>КонтролироватьВладельцевКодовМаркировки</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КонтролироватьВладельцевКодовМаркировкиКонтекстноеМеню" id="47"/>
 											<ExtendedTooltip name="КонтролироватьВладельцевКодовМаркировкиРасширеннаяПодсказка" id="48"/>
 											<Events>
@@ -341,7 +339,6 @@
 										<CheckBoxField name="ИгнорироватьРезультатыПроверкиСредствамиККТ" id="134">
 											<DataPath>ИгнорироватьРезультатыПроверкиСредствамиККТ</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИгнорироватьРезультатыПроверкиСредствамиККТКонтекстноеМеню" id="135"/>
 											<ExtendedTooltip name="ИгнорироватьРезультатыПроверкиСредствамиККТРасширеннаяПодсказка" id="136"/>
 											<Events>
@@ -369,7 +366,6 @@
 								<CheckBoxField name="ПропускатьПроверкуСредствамиККТ" id="128">
 									<DataPath>ПропускатьПроверкуСредствамиККТ</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПропускатьПроверкуСредствамиККТКонтекстноеМеню" id="129"/>
 									<ExtendedTooltip name="ПропускатьПроверкуСредствамиККТРасширеннаяПодсказка" id="130"/>
 									<Events>
@@ -399,7 +395,6 @@
 					<DataPath>ПропускатьСтрокиСОшибкамиПриЗагрузкеИзТСД</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПропускатьСтрокиСОшибкамиПриЗагрузкеИзТСДКонтекстноеМеню" id="10"/>
 					<ExtendedTooltip name="ПропускатьСтрокиСОшибкамиПриЗагрузкеИзТСДРасширеннаяПодсказка" id="11">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -422,7 +417,6 @@
 			<DataPath>ПроверятьАлфавитКодовМаркировки</DataPath>
 			<TitleLocation>Right</TitleLocation>
 			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПроверятьАлфавитКодовМаркировкиКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="ПроверятьАлфавитКодовМаркировкиРасширеннаяПодсказка" id="21">
 				<AutoMaxWidth>false</AutoMaxWidth>
@@ -451,7 +445,6 @@
 					<DataPath>КонтролироватьСтандартнуюВложенность</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="КонтролироватьСтандартнуюВложенностьКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="КонтролироватьСтандартнуюВложенностьРасширеннаяПодсказка" id="18">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -485,7 +478,6 @@
 					<DataPath>ЗапрашиватьКоличествоМерногоТовара</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗапрашиватьКоличествоМерногоТовараКонтекстноеМеню" id="126"/>
 					<ExtendedTooltip name="ЗапрашиватьКоличествоМерногоТовараРасширеннаяПодсказка" id="127">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -552,7 +544,6 @@
 					<DataPath>ПроверятьСтруктуруКодовМаркировки</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПроверятьСтруктуруКодовМаркировкиКонтекстноеМеню" id="88"/>
 					<ExtendedTooltip name="ПроверятьСтруктуруКодовМаркировкиРасширеннаяПодсказка" id="89">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -625,7 +616,6 @@
 				<CheckBoxField name="ПодбиратьКодыМаркировкиВскрытыхПотребительскихУпаковокПоFIFO" id="198">
 					<DataPath>ПодбиратьКодыМаркировкиВскрытыхПотребительскихУпаковокПоFIFO</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПодбиратьКодыМаркировкиВскрытыхПотребительскихУпаковокПоFIFOКонтекстноеМеню" id="199"/>
 					<ExtendedTooltip name="ПодбиратьКодыМаркировкиВскрытыхПотребительскихУпаковокПоFIFOРасширеннаяПодсказка" id="200"/>
 					<Events>
@@ -643,7 +633,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаТабачнаяПродукцияРасширеннаяПодсказка" id="23"/>
 			<ChildItems>
@@ -694,7 +684,6 @@
 							<DataPath>ПроверятьПотребительскиеУпаковкиНаВхождениеВСеруюЗонуМОТП</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПроверятьПотребительскиеУпаковкиНаВхождениеВСеруюЗонуМОТПКонтекстноеМеню" id="28"/>
 							<ExtendedTooltip name="ПроверятьПотребительскиеУпаковкиНаВхождениеВСеруюЗонуМОТПРасширеннаяПодсказка" id="29">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -715,7 +704,6 @@
 							<DataPath>ПроверятьЛогистическиеИГрупповыеУпаковкиНаСодержаниеСерыхКодовМОТП</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПроверятьЛогистическиеИГрупповыеУпаковкиНаСодержаниеСерыхКодовМОТПКонтекстноеМеню" id="31"/>
 							<ExtendedTooltip name="ПроверятьЛогистическиеИГрупповыеУпаковкиНаСодержаниеСерыхКодовМОТПРасширеннаяПодсказка" id="32">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -747,7 +735,6 @@
 					<DataPath>УчитыватьМРЦ</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="УчитыватьМРЦКонтекстноеМеню" id="34"/>
 					<ExtendedTooltip name="УчитыватьМРЦРасширеннаяПодсказка" id="35">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -774,7 +761,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаРазрешительныйРежимРасширеннаяПодсказка" id="175"/>
 			<ChildItems>

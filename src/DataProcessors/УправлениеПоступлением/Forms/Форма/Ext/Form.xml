@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -35,6 +35,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>22</MaxWidth>
 					<OpenButton>false</OpenButton>
@@ -70,6 +71,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>22</MaxWidth>
 					<OpenButton>false</OpenButton>
@@ -456,7 +458,7 @@
 													<SkipOnInput>false</SkipOnInput>
 													<HeightInTableRows>5</HeightInTableRows>
 													<SelectionMode>SingleRow</SelectionMode>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<EnableStartDrag>true</EnableStartDrag>
 													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>РаспоряженияНаПоступление</DataPath>
@@ -518,6 +520,7 @@
 														<LabelField name="РаспоряженияНаПоступлениеНомер" id="608">
 															<DataPath>РаспоряженияНаПоступление.Номер</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="РаспоряженияНаПоступлениеНомерКонтекстноеМеню" id="609"/>
@@ -526,6 +529,7 @@
 														<LabelField name="РаспоряженияНаПоступлениеДата" id="602">
 															<DataPath>РаспоряженияНаПоступление.Дата</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="РаспоряженияНаПоступлениеДатаКонтекстноеМеню" id="603"/>
@@ -534,12 +538,14 @@
 														<LabelField name="РаспоряженияНаПоступлениеТипДокумента" id="629">
 															<DataPath>РаспоряженияНаПоступление.ТипДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаспоряженияНаПоступлениеТипДокументаКонтекстноеМеню" id="630"/>
 															<ExtendedTooltip name="РаспоряженияНаПоступлениеТипДокументаРасширеннаяПодсказка" id="631"/>
 														</LabelField>
 														<LabelField name="РаспоряженияНаПоступлениеОтправитель" id="614">
 															<DataPath>РаспоряженияНаПоступление.Отправитель</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаспоряженияНаПоступлениеОтправительКонтекстноеМеню" id="615"/>
 															<ExtendedTooltip name="РаспоряженияНаПоступлениеОтправительРасширеннаяПодсказка" id="616"/>
 														</LabelField>
@@ -553,6 +559,9 @@
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<CellHyperlink>true</CellHyperlink>
+															<AutoEditMode>true</AutoEditMode>
+															<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+															<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 															<Hiperlink>true</Hiperlink>
 															<TextColor>style:ДосьеГиперссылкаЦвет</TextColor>
 															<ContextMenu name="РаспоряженияНаПоступлениеСостояниеПоступленияКонтекстноеМеню" id="624"/>
@@ -577,6 +586,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РаспоряженияНаПоступлениеНомерВходящегоДокументаКонтекстноеМеню" id="612"/>
 																	<ExtendedTooltip name="РаспоряженияНаПоступлениеНомерВходящегоДокументаРасширеннаяПодсказка" id="613"/>
 																</LabelField>
@@ -584,6 +594,7 @@
 																	<DataPath>РаспоряженияНаПоступление.ДатаВходящегоДокумента</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РаспоряженияНаПоступлениеДатаВходящегоДокументаКонтекстноеМеню" id="606"/>
 																	<ExtendedTooltip name="РаспоряженияНаПоступлениеДатаВходящегоДокументаРасширеннаяПодсказка" id="607"/>
 																</LabelField>
@@ -595,6 +606,7 @@
 																<xr:Common>false</xr:Common>
 															</UserVisible>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="РаспоряженияНаПоступлениеСсылкаКонтекстноеМеню" id="627"/>
 															<ExtendedTooltip name="РаспоряженияНаПоступлениеСсылкаРасширеннаяПодсказка" id="628"/>
 														</InputField>
@@ -830,7 +842,7 @@
 											<SkipOnInput>false</SkipOnInput>
 											<MaxHeight>7</MaxHeight>
 											<HeightInTableRows>5</HeightInTableRows>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<EnableStartDrag>true</EnableStartDrag>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ОрдераВРаботе</DataPath>
@@ -1012,7 +1024,7 @@
 										<Table name="ПулНоменклатурыРазмещение" id="225">
 											<SkipOnInput>false</SkipOnInput>
 											<HeightInTableRows>5</HeightInTableRows>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<EnableStartDrag>true</EnableStartDrag>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ПулНоменклатурыРазмещение</DataPath>
@@ -1401,7 +1413,7 @@
 										<Table name="ЗаданияВРаботе" id="121">
 											<SkipOnInput>false</SkipOnInput>
 											<HeightInTableRows>5</HeightInTableRows>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<EnableStartDrag>true</EnableStartDrag>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ЗаданияВРаботе</DataPath>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -689,7 +689,6 @@
 																			<DataPath>ОтгружатьЗаказЦеликом</DataPath>
 																			<ReadOnly>true</ReadOnly>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ОтгружатьЗаказЦеликомКонтекстноеМеню" id="410"/>
 																			<ExtendedTooltip name="ОтгружатьЗаказЦеликомРасширеннаяПодсказка" id="411"/>
 																			<Events>
@@ -754,6 +753,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>5</Width>
 																	<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="131"/>
 																	<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="132"/>
@@ -767,6 +767,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>30</Width>
 																	<ChoiceButton>true</ChoiceButton>
 																	<TextEdit>false</TextEdit>
@@ -782,6 +783,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>7</Width>
 																	<ChoiceButton>true</ChoiceButton>
 																	<TextEdit>false</TextEdit>
@@ -791,6 +793,7 @@
 																<InputField name="ТоварыКоличество" id="139">
 																	<DataPath>Товары.Количество</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>10</Width>
 																	<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="140"/>
 																	<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="141"/>
@@ -798,6 +801,7 @@
 																<InputField name="ТоварыЦена" id="142">
 																	<DataPath>Товары.Цена</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>15</Width>
 																	<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="143"/>
 																	<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="144"/>
@@ -811,6 +815,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>15</Width>
 																	<ContextMenu name="ТоварыСуммаСкидкиКонтекстноеМеню" id="149"/>
 																	<ExtendedTooltip name="ТоварыСуммаСкидкиРасширеннаяПодсказка" id="150"/>
@@ -818,6 +823,7 @@
 																<InputField name="ТоварыСумма" id="145">
 																	<DataPath>Товары.Сумма</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>15</Width>
 																	<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="146"/>
 																	<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="147"/>
@@ -831,6 +837,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>10</Width>
 																	<ChoiceButton>true</ChoiceButton>
 																	<TextEdit>false</TextEdit>
@@ -840,6 +847,7 @@
 																<InputField name="ТоварыСуммаНДС" id="154">
 																	<DataPath>Товары.СуммаНДС</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>15</Width>
 																	<ContextMenu name="ТоварыСуммаНДСКонтекстноеМеню" id="155"/>
 																	<ExtendedTooltip name="ТоварыСуммаНДСРасширеннаяПодсказка" id="156"/>
@@ -847,6 +855,7 @@
 																<InputField name="ТоварыСуммаСНДС" id="157">
 																	<DataPath>Товары.СуммаСНДС</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>15</Width>
 																	<ContextMenu name="ТоварыСуммаСНДСКонтекстноеМеню" id="158"/>
 																	<ExtendedTooltip name="ТоварыСуммаСНДСРасширеннаяПодсказка" id="159"/>
@@ -1374,6 +1383,7 @@
 																						</v8:item>
 																					</Title>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ЭтапыГрафикаОплатыНомерСтрокиКонтекстноеМеню" id="235"/>
 																					<ExtendedTooltip name="ЭтапыГрафикаОплатыНомерСтрокиРасширеннаяПодсказка" id="236"/>
 																				</InputField>
@@ -1396,6 +1406,7 @@
 																						<xr:Ref>StdPicture.Change</xr:Ref>
 																						<xr:LoadTransparent>true</xr:LoadTransparent>
 																					</HeaderPicture>
+																					<AutoEditMode>true</AutoEditMode>
 																					<TextEdit>false</TextEdit>
 																					<ContextMenu name="ЭтапыГрафикаОплатыВариантОплатыПредставлениеКонтекстноеМеню" id="304"/>
 																					<ExtendedTooltip name="ЭтапыГрафикаОплатыВариантОплатыПредставлениеРасширеннаяПодсказка" id="305"/>
@@ -1419,6 +1430,7 @@
 																						<xr:Ref>StdPicture.Change</xr:Ref>
 																						<xr:LoadTransparent>true</xr:LoadTransparent>
 																					</HeaderPicture>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ЭтапыГрафикаОплатыСдвигКонтекстноеМеню" id="250"/>
 																					<ExtendedTooltip name="ЭтапыГрафикаОплатыСдвигРасширеннаяПодсказка" id="251"/>
 																				</InputField>
@@ -1431,6 +1443,7 @@
 																						</v8:item>
 																					</ToolTip>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ЭтапыГрафикаОплатыДатаПлатежаКонтекстноеМеню" id="241"/>
 																					<ExtendedTooltip name="ЭтапыГрафикаОплатыДатаПлатежаРасширеннаяПодсказка" id="242"/>
 																				</InputField>
@@ -1453,12 +1466,14 @@
 																						<xr:Ref>StdPicture.Change</xr:Ref>
 																						<xr:LoadTransparent>true</xr:LoadTransparent>
 																					</HeaderPicture>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ЭтапыГрафикаОплатыПроцентПлатежаКонтекстноеМеню" id="244"/>
 																					<ExtendedTooltip name="ЭтапыГрафикаОплатыПроцентПлатежаРасширеннаяПодсказка" id="245"/>
 																				</InputField>
 																				<InputField name="ЭтапыГрафикаОплатыСуммаПлатежа" id="246">
 																					<DataPath>ЭтапыГрафикаОплаты.СуммаПлатежа</DataPath>
 																					<EditMode>EnterOnInput</EditMode>
+																					<AutoEditMode>true</AutoEditMode>
 																					<ContextMenu name="ЭтапыГрафикаОплатыСуммаПлатежаКонтекстноеМеню" id="247"/>
 																					<ExtendedTooltip name="ЭтапыГрафикаОплатыСуммаПлатежаРасширеннаяПодсказка" id="248"/>
 																				</InputField>
@@ -1585,7 +1600,6 @@
 																			<DataPath>ПродажаОблагаетсяНДС</DataPath>
 																			<ReadOnly>true</ReadOnly>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ПродажаОблагаетсяНДСКонтекстноеМеню" id="163"/>
 																			<ExtendedTooltip name="ПродажаОблагаетсяНДСРасширеннаяПодсказка" id="164"/>
 																			<Events>
@@ -1596,7 +1610,6 @@
 																			<DataPath>ЦенаВключаетНДС</DataPath>
 																			<ReadOnly>true</ReadOnly>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="166"/>
 																			<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="167"/>
 																		</CheckBoxField>

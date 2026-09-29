@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CollapseItemsByImportanceVariant>Use</CollapseItemsByImportanceVariant>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -17,6 +17,7 @@
 		<InputField name="Наименование" id="1">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
@@ -149,7 +150,6 @@
 								<CheckBoxField name="ВыводитьОтборПоказателей" id="286">
 									<DataPath>Объект.ВыводитьОтборПоказателей</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыводитьОтборПоказателейКонтекстноеМеню" id="287"/>
 									<ExtendedTooltip name="ВыводитьОтборПоказателейРасширеннаяПодсказка" id="288"/>
 								</CheckBoxField>
@@ -305,7 +305,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИконкаРасширеннаяПодсказка" id="259"/>
@@ -355,6 +355,7 @@
 									<TextColor>style:ЦветТекстаНевыбраннойКартинки</TextColor>
 									<Font ref="sys:DefaultGUIFont" height="12" kind="WindowsFont"/>
 									<FileDragMode>AsFile</FileDragMode>
+									<PictureColor>style:ЦветТекстаНевыбраннойКартинки</PictureColor>
 									<ContextMenu name="ФайлКартинкиКонтекстноеМеню" id="273">
 										<Autofill>false</Autofill>
 									</ContextMenu>
@@ -530,6 +531,7 @@
 																							<DataPath>ВариантыАнализа.ДоступностьПоЦели</DataPath>
 																							<EditMode>EnterOnInput</EditMode>
 																							<ShowInHeader>false</ShowInHeader>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ThreeState>true</ThreeState>
 																							<ContextMenu name="ВариантыАнализаДоступностьПоЦелиКонтекстноеМеню" id="188"/>
 																							<ExtendedTooltip name="ВариантыАнализаДоступностьПоЦелиРасширеннаяПодсказка" id="189"/>
@@ -547,6 +549,7 @@
 																								</v8:item>
 																							</Title>
 																							<EditMode>EnterOnInput</EditMode>
+																							<AutoEditMode>true</AutoEditMode>
 																							<ContextMenu name="ВариантыАнализаЦельКонтекстноеМеню" id="182"/>
 																							<ExtendedTooltip name="ВариантыАнализаЦельРасширеннаяПодсказка" id="183"/>
 																						</InputField>
@@ -576,7 +579,7 @@
 																									<DataPath>ВариантыАнализа.Доступность</DataPath>
 																									<EditMode>EnterOnInput</EditMode>
 																									<ShowInHeader>false</ShowInHeader>
-																									<CheckBoxType>Auto</CheckBoxType>
+																									<AutoEditMode>true</AutoEditMode>
 																									<ContextMenu name="ВариантыАнализаДоступностьКонтекстноеМеню" id="191"/>
 																									<ExtendedTooltip name="ВариантыАнализаДоступностьРасширеннаяПодсказка" id="192"/>
 																									<Events>
@@ -593,6 +596,7 @@
 																										</v8:item>
 																									</Title>
 																									<EditMode>EnterOnInput</EditMode>
+																									<AutoEditMode>true</AutoEditMode>
 																									<ContextMenu name="ВариантыАнализаВариантАнализаКонтекстноеМеню" id="185"/>
 																									<ExtendedTooltip name="ВариантыАнализаВариантАнализаРасширеннаяПодсказка" id="186"/>
 																								</InputField>
@@ -607,6 +611,7 @@
 																<InputField name="ВариантыАнализаВариантОтображения" id="193">
 																	<DataPath>ВариантыАнализа.ВариантОтображения</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ChoiceButton>false</ChoiceButton>
 																	<ListChoiceMode>true</ListChoiceMode>
 																	<TextEdit>false</TextEdit>
@@ -616,14 +621,14 @@
 																<CheckBoxField name="ВариантыАнализаДетали" id="196">
 																	<DataPath>ВариантыАнализа.Детали</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ВариантыАнализаДеталиКонтекстноеМеню" id="197"/>
 																	<ExtendedTooltip name="ВариантыАнализаДеталиРасширеннаяПодсказка" id="198"/>
 																</CheckBoxField>
 																<CheckBoxField name="ВариантыАнализаИтогТаблицы" id="199">
 																	<DataPath>ВариантыАнализа.ИтогТаблицы</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ВариантыАнализаИтогТаблицыКонтекстноеМеню" id="200"/>
 																	<ExtendedTooltip name="ВариантыАнализаИтогТаблицыРасширеннаяПодсказка" id="201"/>
 																</CheckBoxField>
@@ -733,12 +738,14 @@
 																			<DataPath>ВариантыАнализаСписок.ВариантАнализа</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<AutoCellHeight>true</AutoCellHeight>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ВариантыАнализаСписокВариантАнализаКонтекстноеМеню" id="165"/>
 																			<ExtendedTooltip name="ВариантыАнализаСписокВариантАнализаРасширеннаяПодсказка" id="166"/>
 																		</InputField>
 																		<InputField name="ВариантыАнализаСписокВариантОтображения" id="283">
 																			<DataPath>ВариантыАнализаСписок.ВариантОтображения</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ListChoiceMode>true</ListChoiceMode>
 																			<TextEdit>false</TextEdit>
 																			<ContextMenu name="ВариантыАнализаСписокВариантОтображенияКонтекстноеМеню" id="284"/>
@@ -750,7 +757,7 @@
 																	<DataPath>ВариантыАнализаСписок.ИтогТаблицы</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ВариантыАнализаСписокИтогТаблицыКонтекстноеМеню" id="174"/>
 																	<ExtendedTooltip name="ВариантыАнализаСписокИтогТаблицыРасширеннаяПодсказка" id="175"/>
 																</CheckBoxField>
@@ -758,7 +765,7 @@
 																	<DataPath>ВариантыАнализаСписок.Детали</DataPath>
 																	<Visible>false</Visible>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ВариантыАнализаСписокДеталиКонтекстноеМеню" id="171"/>
 																	<ExtendedTooltip name="ВариантыАнализаСписокДеталиРасширеннаяПодсказка" id="172"/>
 																</CheckBoxField>
@@ -911,12 +918,14 @@
 								<LabelField name="ПользователиДашбордаНомерСтроки" id="78">
 									<DataPath>Объект.ПользователиДашборда.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиДашбордаНомерСтрокиКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="ПользователиДашбордаНомерСтрокиРасширеннаяПодсказка" id="80"/>
 								</LabelField>
 								<InputField name="ПользователиДашбордаПользователь" id="81">
 									<DataPath>Объект.ПользователиДашборда.Пользователь</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиДашбордаПользовательКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="ПользователиДашбордаПользовательРасширеннаяПодсказка" id="83"/>
 								</InputField>

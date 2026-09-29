@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -484,12 +484,14 @@
 								<InputField name="СтатьиРасходовОрганизация" id="982">
 									<DataPath>СтатьиРасходов.Организация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовОрганизацияКонтекстноеМеню" id="983"/>
 									<ExtendedTooltip name="СтатьиРасходовОрганизацияРасширеннаяПодсказка" id="1031"/>
 								</InputField>
 								<InputField name="СтатьиРасходовПодразделение" id="979">
 									<DataPath>СтатьиРасходов.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -502,6 +504,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -526,6 +529,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -556,6 +560,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -565,18 +570,21 @@
 								<InputField name="НаправлениеДеятельности" id="1100">
 									<DataPath>СтатьиРасходов.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НаправлениеДеятельностиКонтекстноеМеню" id="1101"/>
 									<ExtendedTooltip name="НаправлениеДеятельностиРасширеннаяПодсказка" id="1102"/>
 								</InputField>
 								<InputField name="СтатьиРасходовСостояниеУпр" id="1168">
 									<DataPath>СтатьиРасходов.СостояниеУпр</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовСостояниеУпрКонтекстноеМеню" id="1169"/>
 									<ExtendedTooltip name="СтатьиРасходовСостояниеУпрРасширеннаяПодсказка" id="1170"/>
 								</InputField>
 								<InputField name="СтатьиРасходовСостояниеРегл" id="1210">
 									<DataPath>СтатьиРасходов.СостояниеРегл</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовСостояниеРеглКонтекстноеМеню" id="1211"/>
 									<ExtendedTooltip name="СтатьиРасходовСостояниеРеглРасширеннаяПодсказка" id="1212"/>
 								</InputField>
@@ -584,6 +592,7 @@
 									<DataPath>СтатьиРасходов.СостояниеНал</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовСостояниеНалКонтекстноеМеню" id="1214"/>
 									<ExtendedTooltip name="СтатьиРасходовСостояниеНалРасширеннаяПодсказка" id="1215"/>
 								</InputField>
@@ -599,6 +608,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовДокументУпрКонтекстноеМеню" id="1178"/>
 									<ExtendedTooltip name="СтатьиРасходовДокументУпрРасширеннаяПодсказка" id="1179"/>
 								</InputField>
@@ -608,6 +618,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовДокументРеглКонтекстноеМеню" id="1217"/>
 									<ExtendedTooltip name="СтатьиРасходовДокументРеглРасширеннаяПодсказка" id="1218"/>
 								</InputField>
@@ -618,6 +629,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтатьиРасходовДокументНалКонтекстноеМеню" id="1220"/>
 									<ExtendedTooltip name="СтатьиРасходовДокументНалРасширеннаяПодсказка" id="1221"/>
 								</InputField>

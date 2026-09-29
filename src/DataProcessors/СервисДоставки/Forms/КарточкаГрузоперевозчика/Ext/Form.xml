@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -168,6 +168,7 @@
 														<InputField name="ТарифыТарифПредставление" id="128">
 															<DataPath>Тарифы.ТарифПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ТарифыТарифПредставлениеКонтекстноеМеню" id="129"/>
 															<ExtendedTooltip name="ТарифыТарифПредставлениеРасширеннаяПодсказка" id="130"/>
 														</InputField>
@@ -175,6 +176,7 @@
 															<DataPath>Тарифы.ТарифИдентификатор</DataPath>
 															<Visible>false</Visible>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ТарифыТарифИдентификаторКонтекстноеМеню" id="132"/>
 															<ExtendedTooltip name="ТарифыТарифИдентификаторРасширеннаяПодсказка" id="133"/>
 														</InputField>
@@ -193,18 +195,21 @@
 																<InputField name="ТарифыМаксВес" id="136">
 																	<DataPath>Тарифы.МаксВес</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыМаксВесКонтекстноеМеню" id="137"/>
 																	<ExtendedTooltip name="ТарифыМаксВесРасширеннаяПодсказка" id="138"/>
 																</InputField>
 																<InputField name="ТарифыМаксОбъем" id="139">
 																	<DataPath>Тарифы.МаксОбъем</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыМаксОбъемКонтекстноеМеню" id="140"/>
 																	<ExtendedTooltip name="ТарифыМаксОбъемРасширеннаяПодсказка" id="141"/>
 																</InputField>
 																<InputField name="ТарифыМаксДлина" id="142">
 																	<DataPath>Тарифы.МаксДлина</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыМаксДлинаКонтекстноеМеню" id="143"/>
 																	<ExtendedTooltip name="ТарифыМаксДлинаРасширеннаяПодсказка" id="144"/>
 																</InputField>
@@ -225,18 +230,21 @@
 																<InputField name="ТарифыНегабаритныйВес" id="147">
 																	<DataPath>Тарифы.НегабаритныйВес</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыНегабаритныйВесКонтекстноеМеню" id="148"/>
 																	<ExtendedTooltip name="ТарифыНегабаритныйВесРасширеннаяПодсказка" id="149"/>
 																</InputField>
 																<InputField name="ТарифыНегабаритныйОбъем" id="150">
 																	<DataPath>Тарифы.НегабаритныйОбъем</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыНегабаритныйОбъемКонтекстноеМеню" id="151"/>
 																	<ExtendedTooltip name="ТарифыНегабаритныйОбъемРасширеннаяПодсказка" id="152"/>
 																</InputField>
 																<InputField name="ТарифыНегабаритнаяДлина" id="153">
 																	<DataPath>Тарифы.НегабаритнаяДлина</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ТарифыНегабаритнаяДлинаКонтекстноеМеню" id="154"/>
 																	<ExtendedTooltip name="ТарифыНегабаритнаяДлинаРасширеннаяПодсказка" id="155"/>
 																</InputField>

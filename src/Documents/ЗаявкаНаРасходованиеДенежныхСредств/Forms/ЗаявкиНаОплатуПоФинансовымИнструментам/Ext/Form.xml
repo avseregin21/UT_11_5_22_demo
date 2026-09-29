@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -249,6 +250,7 @@
 								<InputField name="КОплатеДатаПлатежа" id="272">
 									<DataPath>КОплате.ДатаПлатежа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОплатеДатаПлатежаКонтекстноеМеню" id="273"/>
 									<ExtendedTooltip name="КОплатеДатаПлатежаРасширеннаяПодсказка" id="274"/>
 								</InputField>
@@ -261,12 +263,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОплатеКОплатеКонтекстноеМеню" id="279"/>
 									<ExtendedTooltip name="КОплатеКОплатеРасширеннаяПодсказка" id="280"/>
 								</InputField>
 								<InputField name="КОплатеВалюта" id="281">
 									<DataPath>КОплате.Валюта</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="КОплатеВалютаКонтекстноеМеню" id="282"/>
 									<ExtendedTooltip name="КОплатеВалютаРасширеннаяПодсказка" id="283"/>
@@ -285,6 +289,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОплатеПолучательКонтекстноеМеню" id="276"/>
 									<ExtendedTooltip name="КОплатеПолучательРасширеннаяПодсказка" id="277"/>
 								</InputField>
@@ -297,6 +302,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОплатеДоговорКонтекстноеМеню" id="291"/>
 									<ExtendedTooltip name="КОплатеДоговорРасширеннаяПодсказка" id="292"/>
 								</InputField>
@@ -309,6 +315,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОплатеТипДоговораКонтекстноеМеню" id="294"/>
 									<ExtendedTooltip name="КОплатеТипДоговораРасширеннаяПодсказка" id="295"/>
 								</InputField>
@@ -320,6 +327,7 @@
 								<InputField name="КОплатеОрганизация" id="287">
 									<DataPath>КОплате.Организация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОплатеОрганизацияКонтекстноеМеню" id="288"/>
 									<ExtendedTooltip name="КОплатеОрганизацияРасширеннаяПодсказка" id="289"/>
 								</InputField>
@@ -340,7 +348,7 @@
 							<Representation>List</Representation>
 							<SkipOnInput>false</SkipOnInput>
 							<DefaultItem>true</DefaultItem>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>
@@ -604,7 +612,6 @@
 											<v8:content>Оплачена</v8:content>
 										</v8:item>
 									</Title>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗаявкаОплаченаКонтекстноеМеню" id="160"/>
 									<ExtendedTooltip name="ЗаявкаОплаченаРасширеннаяПодсказка" id="161"/>
 								</CheckBoxField>

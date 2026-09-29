@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,6 +8,7 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Top</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаВыбрать" id="27">
@@ -109,6 +110,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Клавиша</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишКлавишаКонтекстноеМеню" id="5"/>
@@ -118,6 +120,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Клавиша_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишКлавиша_КонтекстноеМеню" id="30"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишКлавиша_РасширеннаяПодсказка" id="61"/>
@@ -139,6 +142,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrlКонтекстноеМеню" id="7"/>
@@ -148,6 +152,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_КонтекстноеМеню" id="33"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишCtrl_РасширеннаяПодсказка" id="64"/>
@@ -169,6 +174,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Alt</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишAltКонтекстноеМеню" id="9"/>
@@ -178,6 +184,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Alt_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишAlt_КонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишAlt_РасширеннаяПодсказка" id="67"/>
@@ -199,6 +206,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Shift</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишShiftКонтекстноеМеню" id="11"/>
@@ -208,6 +216,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Shift_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишShift_КонтекстноеМеню" id="39"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишShift_РасширеннаяПодсказка" id="70"/>
@@ -229,6 +238,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Alt_Shift</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишAlt_ShiftКонтекстноеМеню" id="13"/>
@@ -238,6 +248,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Alt_Shift_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишAlt_Shift_КонтекстноеМеню" id="42"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишAlt_Shift_РасширеннаяПодсказка" id="73"/>
@@ -259,6 +270,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_Shift</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_ShiftКонтекстноеМеню" id="15"/>
@@ -268,6 +280,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_Shift_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_Shift_КонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишCtrl_Shift_РасширеннаяПодсказка" id="76"/>
@@ -289,6 +302,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_Alt</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_AltКонтекстноеМеню" id="17"/>
@@ -298,6 +312,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_Alt_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_Alt_КонтекстноеМеню" id="48"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишCtrl_Alt_РасширеннаяПодсказка" id="79"/>
@@ -319,6 +334,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_Alt_Shift</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<TextColor>style:НезаполненноеПолеТаблицы</TextColor>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_Alt_ShiftКонтекстноеМеню" id="19"/>
@@ -328,6 +344,7 @@
 							<DataPath>ТаблицаСочетанийКлавиш.Ctrl_Alt_Shift_</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<ContextMenu name="ТаблицаСочетанийКлавишCtrl_Alt_Shift_КонтекстноеМеню" id="51"/>
 							<ExtendedTooltip name="ТаблицаСочетанийКлавишCtrl_Alt_Shift_РасширеннаяПодсказка" id="82"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -7,7 +7,7 @@
 		</v8:item>
 	</Title>
 	<Width>100</Width>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -163,7 +163,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПоЗаказуКонтекстноеМеню" id="91"/>
 							<ExtendedTooltip name="ПоЗаказуРасширеннаяПодсказка" id="92"/>
 							<Events>
@@ -198,7 +197,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПоЗаказамКонтекстноеМеню" id="99"/>
 							<ExtendedTooltip name="ПоЗаказамРасширеннаяПодсказка" id="100"/>
 							<Events>
@@ -224,7 +222,7 @@
 			<SkipOnInput>false</SkipOnInput>
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<InitialTreeView>ExpandAllLevels</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -276,6 +274,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>3</Width>
 					<ContextMenu name="ПодобранныеТоварыНомерСтрокиКонтекстноеМеню" id="312"/>
 					<ExtendedTooltip name="ПодобранныеТоварыНомерСтрокиРасширеннаяПодсказка" id="313"/>
@@ -294,6 +293,7 @@
 							<DataPath>ПодобранныеТовары.Номенклатура</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ContextMenu name="ПодобранныеТоварыНоменклатураКонтекстноеМеню" id="243"/>
 							<ExtendedTooltip name="ПодобранныеТоварыНоменклатураРасширеннаяПодсказка" id="244"/>
@@ -301,6 +301,7 @@
 						<InputField name="ПодобранныеТоварыХарактеристика" id="245">
 							<DataPath>ПодобранныеТовары.Характеристика</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<ContextMenu name="ПодобранныеТоварыХарактеристикаКонтекстноеМеню" id="246"/>
 							<ExtendedTooltip name="ПодобранныеТоварыХарактеристикаРасширеннаяПодсказка" id="247"/>
@@ -308,6 +309,7 @@
 						<InputField name="ПодобранныеТоварыСерия" id="251">
 							<DataPath>ПодобранныеТовары.Серия</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<ContextMenu name="ПодобранныеТоварыСерияКонтекстноеМеню" id="252"/>
 							<ExtendedTooltip name="ПодобранныеТоварыСерияРасширеннаяПодсказка" id="253"/>
@@ -315,6 +317,7 @@
 						<InputField name="ПодобранныеТоварыНазначение" id="248">
 							<DataPath>ПодобранныеТовары.Назначение</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПодобранныеТоварыНазначениеКонтекстноеМеню" id="249"/>
 							<ExtendedTooltip name="ПодобранныеТоварыНазначениеРасширеннаяПодсказка" id="250"/>
 						</InputField>
@@ -324,6 +327,7 @@
 					<DataPath>ПодобранныеТовары.Склад</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ПодобранныеТоварыСкладКонтекстноеМеню" id="258"/>
 					<ExtendedTooltip name="ПодобранныеТоварыСкладРасширеннаяПодсказка" id="259"/>
 				</InputField>
@@ -363,7 +367,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПодобранныеТоварыПометкаКонтекстноеМеню" id="261"/>
 									<ExtendedTooltip name="ПодобранныеТоварыПометкаРасширеннаяПодсказка" id="262"/>
 									<Events>
@@ -380,6 +384,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ПодобранныеТоварыКоличествоПодобраноКонтекстноеМеню" id="264"/>
 									<ExtendedTooltip name="ПодобранныеТоварыКоличествоПодобраноРасширеннаяПодсказка" id="265"/>
@@ -399,6 +404,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<ContextMenu name="ПодобранныеТоварыКоличествоВНакладнойКонтекстноеМеню" id="321"/>
 							<ExtendedTooltip name="ПодобранныеТоварыКоличествоВНакладнойРасширеннаяПодсказка" id="322"/>
@@ -422,6 +428,7 @@
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<ContextMenu name="ПодобранныеТоварыУпаковкаКонтекстноеМеню" id="329"/>
 							<ExtendedTooltip name="ПодобранныеТоварыУпаковкаРасширеннаяПодсказка" id="330"/>
@@ -430,6 +437,7 @@
 							<DataPath>ПодобранныеТовары.Номенклатура.ЕдиницаИзмерения</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<ContextMenu name="ПодобранныеТоварыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="334"/>
 							<ExtendedTooltip name="ПодобранныеТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="335"/>
@@ -451,6 +459,9 @@
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<CellHyperlink>true</CellHyperlink>
+							<AutoEditMode>true</AutoEditMode>
+							<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+							<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 							<Width>22</Width>
 							<DropListButton>false</DropListButton>
 							<ChoiceButton>true</ChoiceButton>
@@ -462,6 +473,7 @@
 							<DataPath>ПодобранныеТовары.КодСтроки</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ПодобранныеТоварыКодСтрокиКонтекстноеМеню" id="342"/>
 							<ExtendedTooltip name="ПодобранныеТоварыКодСтрокиРасширеннаяПодсказка" id="343"/>
 						</InputField>
@@ -488,6 +500,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<ContextMenu name="ПодобранныеТоварыКоличествоВЗаказеКонтекстноеМеню" id="276"/>
 							<ExtendedTooltip name="ПодобранныеТоварыКоличествоВЗаказеРасширеннаяПодсказка" id="277"/>
@@ -502,6 +515,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<ContextMenu name="ПодобранныеТоварыКоличествоВОтчетеКонтекстноеМеню" id="324"/>
 							<ExtendedTooltip name="ПодобранныеТоварыКоличествоВОтчетеРасширеннаяПодсказка" id="325"/>
@@ -518,6 +532,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>6</Width>
 					<ContextMenu name="ПодобранныеТоварыКоличествоОстатокКонтекстноеМеню" id="279"/>
 					<ExtendedTooltip name="ПодобранныеТоварыКоличествоОстатокРасширеннаяПодсказка" id="280"/>
@@ -543,6 +558,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<ContextMenu name="ПодобранныеТоварыКоличествоСобираетсяКонтекстноеМеню" id="282"/>
 							<ExtendedTooltip name="ПодобранныеТоварыКоличествоСобираетсяРасширеннаяПодсказка" id="283"/>
@@ -557,6 +573,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>6</Width>
 							<ContextMenu name="ПодобранныеТоварыКоличествоСобраноКонтекстноеМеню" id="285"/>
 							<ExtendedTooltip name="ПодобранныеТоварыКоличествоСобраноРасширеннаяПодсказка" id="286"/>
@@ -567,6 +584,7 @@
 					<DataPath>ПодобранныеТовары.Сумма</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>6</Width>
 					<ContextMenu name="ПодобранныеТоварыСуммаКонтекстноеМеню" id="288"/>
 					<ExtendedTooltip name="ПодобранныеТоварыСуммаРасширеннаяПодсказка" id="289"/>
@@ -575,6 +593,7 @@
 					<DataPath>ПодобранныеТовары.Цена</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>6</Width>
 					<ContextMenu name="ПодобранныеТоварыЦенаКонтекстноеМеню" id="291"/>
 					<ExtendedTooltip name="ПодобранныеТоварыЦенаРасширеннаяПодсказка" id="292"/>
@@ -583,6 +602,7 @@
 					<DataPath>ПодобранныеТовары.КоличествоДокумента</DataPath>
 					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ПодобранныеТоварыКоличествоДокументаКонтекстноеМеню" id="300"/>
 					<ExtendedTooltip name="ПодобранныеТоварыКоличествоДокументаРасширеннаяПодсказка" id="301"/>
 				</InputField>
@@ -590,6 +610,7 @@
 					<DataPath>ПодобранныеТовары.СуммаДокумента</DataPath>
 					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ПодобранныеТоварыСуммаДокументаКонтекстноеМеню" id="303"/>
 					<ExtendedTooltip name="ПодобранныеТоварыСуммаДокументаРасширеннаяПодсказка" id="304"/>
 				</InputField>

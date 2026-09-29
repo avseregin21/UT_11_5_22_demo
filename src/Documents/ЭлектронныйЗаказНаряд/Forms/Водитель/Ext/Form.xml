@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -91,6 +92,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ФамилияКонтекстноеМеню" id="84"/>
@@ -135,6 +137,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ИмяКонтекстноеМеню" id="76"/>
@@ -179,6 +182,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<ContextMenu name="ОтчествоКонтекстноеМеню" id="68"/>
 							<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="69"/>
@@ -222,6 +226,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="НомерВУКонтекстноеМеню" id="20"/>
@@ -266,6 +271,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="СерияВУКонтекстноеМеню" id="28"/>
@@ -310,6 +316,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ДатаВыдачиВУКонтекстноеМеню" id="36"/>
@@ -354,6 +361,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>8</Width>
 							<ContextMenu name="ДатаОкончанияВУКонтекстноеМеню" id="44"/>
 							<ExtendedTooltip name="ДатаОкончанияВУРасширеннаяПодсказка" id="45"/>
@@ -397,6 +405,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>12</Width>
 							<ContextMenu name="ФЛ_ИННКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="ФЛ_ИННРасширеннаяПодсказка" id="53"/>
@@ -440,6 +449,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<ContextMenu name="СпособИдентификацииПростойПодписиКонтекстноеМеню" id="60"/>
 							<ExtendedTooltip name="СпособИдентификацииПростойПодписиРасширеннаяПодсказка" id="61"/>
@@ -549,6 +559,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<TextEdit>false</TextEdit>
@@ -568,6 +580,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -594,6 +608,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТитулФрахтовщикаКонтактыВодителяИныеКонтактныеДанныеКонтекстноеМеню" id="106"/>
 											<ExtendedTooltip name="ТитулФрахтовщикаКонтактыВодителяИныеКонтактныеДанныеРасширеннаяПодсказка" id="107"/>

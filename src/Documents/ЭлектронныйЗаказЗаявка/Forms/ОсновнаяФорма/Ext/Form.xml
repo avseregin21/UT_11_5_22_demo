@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -357,6 +357,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>1</Height>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -402,6 +403,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>1</Height>
 																			<AutoMaxHeight>false</AutoMaxHeight>
@@ -452,6 +454,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>8</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулГрузоотправителяЗаказДатаКонтекстноеМеню" id="55"/>
@@ -500,6 +503,7 @@
 																			</ToolTip>
 																			<ToolTipRepresentation>Button</ToolTipRepresentation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<RadioButtonType>Tumbler</RadioButtonType>
 																			<ChoiceList>
 																				<xr:Item>
@@ -654,7 +658,6 @@
 																				</v8:item>
 																			</ToolTip>
 																			<ToolTipRepresentation>Button</ToolTipRepresentation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ВариантПоДоверенностиЗаГрузоотправителяКонтекстноеМеню" id="424"/>
 																			<ExtendedTooltip name="ВариантПоДоверенностиЗаГрузоотправителяРасширеннаяПодсказка" id="425"/>
 																			<Events>
@@ -700,6 +703,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяГрузоотправительКонтекстноеМеню" id="81"/>
@@ -759,6 +763,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяСоставительКонтекстноеМеню" id="413"/>
@@ -900,6 +905,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулГрузоотправителяПеревозчикКонтекстноеМеню" id="89"/>
@@ -994,6 +1000,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>12</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулГрузоотправителяЗаявленныеДатаВремяПодачиКонтекстноеМеню" id="115"/>
@@ -1047,6 +1054,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>12</Width>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
 																			<ContextMenu name="ТитулГрузоотправителяПредельныеДатаВремяПодачиКонтекстноеМеню" id="439"/>
@@ -1094,6 +1102,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1271,6 +1280,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1570,6 +1580,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<AutoMaxHeight>false</AutoMaxHeight>
 																			<MaxHeight>3</MaxHeight>
@@ -1622,7 +1633,6 @@
 																				</v8:item>
 																			</ToolTip>
 																			<ToolTipRepresentation>Button</ToolTipRepresentation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ВариантПоДоверенностиЗаПеревозчикаКонтекстноеМеню" id="359"/>
 																			<ExtendedTooltip name="ВариантПоДоверенностиЗаПеревозчикаРасширеннаяПодсказка" id="360"/>
 																			<Events>
@@ -1709,6 +1719,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ContextMenu name="СсылкаТитулПеревозчикаСоставительКонтекстноеМеню" id="219"/>
 																			<ExtendedTooltip name="СсылкаТитулПеревозчикаСоставительРасширеннаяПодсказка" id="220"/>
@@ -1843,6 +1854,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулПеревозчикаЛицоОтветственноеЗаПеревозкуКонтекстноеМеню" id="186"/>
@@ -1965,6 +1977,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<ChoiceButton>true</ChoiceButton>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>

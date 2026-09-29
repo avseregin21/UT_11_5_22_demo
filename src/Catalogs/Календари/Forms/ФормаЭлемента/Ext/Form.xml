@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -410,7 +410,6 @@
 																</v8:item>
 															</ToolTip>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УчитыватьПраздникиКонтекстноеМеню" id="407"/>
 															<ExtendedTooltip name="УчитыватьПраздникиРасширеннаяПодсказка" id="408">
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -443,7 +442,6 @@
 																	<v8:content>Если установлено, то из состава рабочих дней будут исключаться дни нерабочих периодов производственного календаря</v8:content>
 																</v8:item>
 															</ToolTip>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УчитыватьНерабочиеПериодыКонтекстноеМеню" id="412"/>
 															<ExtendedTooltip name="УчитыватьНерабочиеПериодыРасширеннаяПодсказка" id="413"/>
 															<Events>
@@ -517,8 +515,8 @@
 													<Height>7</Height>
 													<Header>false</Header>
 													<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-													<HorizontalLines>false</HorizontalLines>
-													<VerticalLines>false</VerticalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
+													<VerticalLinesBWA>false</VerticalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<HorizontalStretch>false</HorizontalStretch>
 													<VerticalStretch>false</VerticalStretch>
@@ -586,12 +584,14 @@
 																<LabelField name="ШаблонЗаполненияНомерСтроки" id="208">
 																	<DataPath>Объект.ШаблонЗаполнения.LineNumber</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ШаблонЗаполненияНомерСтрокиКонтекстноеМеню" id="209"/>
 																	<ExtendedTooltip name="ШаблонЗаполненияНомерСтрокиРасширеннаяПодсказка" id="330"/>
 																</LabelField>
 																<LabelField name="ШаблонЗаполненияПредставлениеДня" id="212">
 																	<DataPath>Объект.ШаблонЗаполнения.ПредставлениеДня</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="ШаблонЗаполненияПредставлениеДняКонтекстноеМеню" id="213"/>
 																	<ExtendedTooltip name="ШаблонЗаполненияПредставлениеДняРасширеннаяПодсказка" id="331"/>
@@ -605,7 +605,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<EditMode>EnterOnInput</EditMode>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ШаблонЗаполненияДеньВключенВГрафикКонтекстноеМеню" id="234"/>
 																	<ExtendedTooltip name="ШаблонЗаполненияДеньВключенВГрафикРасширеннаяПодсказка" id="332"/>
 																	<Events>
@@ -616,6 +616,9 @@
 																	<DataPath>Объект.ШаблонЗаполнения.ПредставлениеРасписания</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>3</Width>
 																	<ContextMenu name="ШаблонЗаполненияПредставлениеРасписанияКонтекстноеМеню" id="215"/>
 																	<ExtendedTooltip name="ШаблонЗаполненияПредставлениеРасписанияРасширеннаяПодсказка" id="333"/>

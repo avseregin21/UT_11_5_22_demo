@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Подписание данных</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<HorizontalSpacing>Half</HorizontalSpacing>
 	<VerticalSpacing>Half</VerticalSpacing>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -337,7 +338,6 @@
 															</ToolTip>
 															<ToolTipRepresentation>Button</ToolTipRepresentation>
 															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЗапомнитьПарольКонтекстноеМеню" id="325"/>
 															<ExtendedTooltip name="ЗапомнитьПарольРасширеннаяПодсказка" id="326"/>
 															<Events>
@@ -463,7 +463,6 @@
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПакетнаяОтправкаКонтекстноеМеню" id="531"/>
 									<ExtendedTooltip name="ПакетнаяОтправкаРасширеннаяПодсказка" id="532">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -637,7 +636,6 @@
 																</v8:item>
 															</ToolTip>
 															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="СчитыватьСертификатыПриОткрытииКонтекстноеМеню" id="638"/>
 															<ExtendedTooltip name="СчитыватьСертификатыПриОткрытииРасширеннаяПодсказка" id="639"/>
 														</CheckBoxField>
@@ -649,7 +647,6 @@
 																	<v8:content>При включении данной настройки заполнение пароля происходит после успешного считывания биометрических данных (без необходимости вводить пароль). Если пароль к сертификату не подойдет - настройка сбрасывается.</v8:content>
 																</v8:item>
 															</ToolTip>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПодключитьБиометриюКонтекстноеМеню" id="635"/>
 															<ExtendedTooltip name="ПодключитьБиометриюРасширеннаяПодсказка" id="636"/>
 															<Events>
@@ -658,7 +655,6 @@
 														</CheckBoxField>
 														<CheckBoxField name="ПодписыватьПослеВводаПароля" id="659">
 															<DataPath>ПодписыватьПослеВводаПароля</DataPath>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПодписыватьПослеВводаПароляКонтекстноеМеню" id="660"/>
 															<ExtendedTooltip name="ПодписыватьПослеВводаПароляРасширеннаяПодсказка" id="661"/>
 														</CheckBoxField>
@@ -749,7 +745,6 @@
 											<TitleLocation>Left</TitleLocation>
 											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПоДоверенности1КонтекстноеМеню" id="516"/>
 											<ExtendedTooltip name="ПоДоверенности1РасширеннаяПодсказка" id="517"/>
 										</CheckBoxField>
@@ -781,7 +776,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПоДоверенностиКонтекстноеМеню" id="499"/>
 											<ExtendedTooltip name="ПоДоверенностиРасширеннаяПодсказка" id="500"/>
 										</CheckBoxField>

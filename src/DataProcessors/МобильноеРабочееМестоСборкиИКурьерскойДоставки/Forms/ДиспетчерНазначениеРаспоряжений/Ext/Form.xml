@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -13,6 +13,7 @@
 	<Customizable>false</Customizable>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -374,6 +375,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -397,6 +399,7 @@
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
 															<AutoCellHeight>true</AutoCellHeight>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<Height>1</Height>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -412,6 +415,7 @@
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
 															<AutoCellHeight>true</AutoCellHeight>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>false</HorizontalStretch>
 															<TextColor>style:ЦветТекстаСтатусаВРаботеСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
@@ -423,6 +427,7 @@
 												<InputField name="СписокРаспоряженийНазначенныеМнеПустышка2" id="170">
 													<DataPath>СписокРаспоряжений.Пустышка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 													<ContextMenu name="СписокРаспоряженийНазначенныеМнеПустышка2КонтекстноеМеню" id="171"/>
 													<ExtendedTooltip name="СписокРаспоряженийНазначенныеМнеПустышка2РасширеннаяПодсказка" id="172"/>
@@ -440,6 +445,7 @@
 														<PictureField name="СписокРаспоряженийНазначенныеМнеДатаВремяДоставкиКартинка" id="94">
 															<DataPath>СписокРаспоряжений.ДатаВремяДоставкиКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -467,6 +473,7 @@
 															</Title>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>4</Width>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -488,6 +495,7 @@
 														<PictureField name="СписокРаспоряженийНазначенныеМнеОсталосьВремениНаДоставкуКартинка" id="188">
 															<DataPath>СписокРаспоряжений.ОсталосьВремениНаДоставкуКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -515,6 +523,7 @@
 															</Title>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
 															<ContextMenu name="СписокРаспоряженийНазначенныеМнеОсталосьВремениНаДоставкуКонтекстноеМеню" id="71"/>
@@ -536,6 +545,7 @@
 														<PictureField name="СписокРаспоряженийНазначенныеМнеСуммаКартинка" id="100">
 															<DataPath>СписокРаспоряжений.СуммаКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -573,6 +583,7 @@
 																	</Title>
 																	<VerticalAlign>Top</VerticalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="СписокРаспоряженийНазначенныеМнеСуммаПредставлениеКонтекстноеМеню" id="160"/>
@@ -588,6 +599,7 @@
 																	</Title>
 																	<VerticalAlign>Top</VerticalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>5</Width>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -616,6 +628,7 @@
 															<DataPath>СписокРаспоряжений.СкладКартинка</DataPath>
 															<TitleLocation>Left</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -634,6 +647,7 @@
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>false</HorizontalStretch>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -656,6 +670,7 @@
 														<PictureField name="СписокРаспоряженийНазначенныеМнеАдресКартинка" id="117">
 															<DataPath>СписокРаспоряжений.АдресКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -677,6 +692,7 @@
 															<DataPath>СписокРаспоряжений.АдресДоставкиПредставление</DataPath>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>8</Width>
 															<TextColor>style:ГиперссылкаЦвет</TextColor>
 															<Font ref="style:ШрифтТекстаГиперссылкиСборкаИДоставка" kind="StyleItem"/>
@@ -688,6 +704,7 @@
 												<InputField name="СписокРаспоряженийНазначенныеМнеПустышка3" id="183">
 													<DataPath>СписокРаспоряжений.Пустышка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 													<ContextMenu name="СписокРаспоряженийНазначенныеМнеПустышка3КонтекстноеМеню" id="184"/>
 													<ExtendedTooltip name="СписокРаспоряженийНазначенныеМнеПустышка3РасширеннаяПодсказка" id="185"/>
@@ -708,7 +725,7 @@
 												<CheckBoxField name="СписокРаспоряженийВыбран" id="441">
 													<DataPath>СписокРаспоряжений.Выбран</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="СписокРаспоряженийВыбранКонтекстноеМеню" id="442"/>
 													<ExtendedTooltip name="СписокРаспоряженийВыбранРасширеннаяПодсказка" id="443"/>
 													<Events>
@@ -719,6 +736,7 @@
 													<DataPath>СписокРаспоряжений.КоличествоСтрок</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>4</Width>
 													<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 													<ContextMenu name="СписокРаспоряженийКоличествоСтрокКонтекстноеМеню" id="450"/>

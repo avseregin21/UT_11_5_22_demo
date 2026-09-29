@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -541,7 +541,6 @@
 										<CheckBoxField name="КорректировочноеУведомление" id="279">
 											<DataPath>Объект.КорректировочноеУведомление</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КорректировочноеУведомлениеКонтекстноеМеню" id="280"/>
 											<ExtendedTooltip name="КорректировочноеУведомлениеРасширеннаяПодсказка" id="281"/>
 											<Events>
@@ -620,6 +619,7 @@
 														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<HorizontalStretch>false</HorizontalStretch>
 													<SpinButton>true</SpinButton>
 													<MinValue xsi:type="xs:decimal">1</MinValue>
@@ -650,6 +650,7 @@
 													<DataPath>Объект.Number</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -665,6 +666,7 @@
 													</Title>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>14</MaxWidth>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
@@ -676,6 +678,7 @@
 											<DataPath>Объект.Организация</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
@@ -708,6 +711,7 @@
 											<DataPath>Объект.Ответственный</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОтветственныйКонтекстноеМеню" id="11"/>
@@ -751,6 +755,7 @@
 							<DataPath>Объект.Комментарий</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>77</MaxWidth>
 							<VerticalStretch>false</VerticalStretch>
@@ -976,6 +981,7 @@
 								<LabelField name="ОсновныеСредстваНомерСтроки" id="334">
 									<DataPath>Объект.ОсновныеСредства.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОсновныеСредстваНомерСтрокиКонтекстноеМеню" id="335"/>
 									<ExtendedTooltip name="ОсновныеСредстваНомерСтрокиРасширеннаяПодсказка" id="336"/>
 								</LabelField>
@@ -992,6 +998,7 @@
 										<InputField name="ОсновныеСредстваКоличествоПоРНПТ" id="343">
 											<DataPath>Объект.ОсновныеСредства.КоличествоПоРНПТ</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОсновныеСредстваКоличествоПоРНПТКонтекстноеМеню" id="344"/>
 											<ExtendedTooltip name="ОсновныеСредстваКоличествоПоРНПТРасширеннаяПодсказка" id="345"/>
 										</InputField>
@@ -1004,6 +1011,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>7</Width>
 											<ContextMenu name="ОсновныеСредстваЕдИзмКонтекстноеМеню" id="361"/>
 											<ExtendedTooltip name="ОсновныеСредстваЕдИзмРасширеннаяПодсказка" id="362"/>
@@ -1014,23 +1022,27 @@
 									<DataPath>Объект.ОсновныеСредства.НомерГТД</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОсновныеСредстваНомерГТДКонтекстноеМеню" id="338"/>
 									<ExtendedTooltip name="ОсновныеСредстваНомерГТДРасширеннаяПодсказка" id="339"/>
 								</InputField>
 								<InputField name="ОсновныеСредстваСтранаПроисхождения" id="340">
 									<DataPath>Объект.ОсновныеСредства.СтранаПроисхождения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОсновныеСредстваСтранаПроисхожденияКонтекстноеМеню" id="341"/>
 									<ExtendedTooltip name="ОсновныеСредстваСтранаПроисхожденияРасширеннаяПодсказка" id="342"/>
 								</InputField>
 								<InputField name="ОсновныеСредстваОсновноеСредство" id="346">
 									<DataPath>Объект.ОсновныеСредства.ОсновноеСредство</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОсновныеСредстваОсновноеСредствоКонтекстноеМеню" id="347"/>
 									<ExtendedTooltip name="ОсновныеСредстваОсновноеСредствоРасширеннаяПодсказка" id="348"/>
 								</InputField>
 								<InputField name="ОсновныеСредстваКодТНВЭД" id="357">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОсновныеСредстваКодТНВЭДКонтекстноеМеню" id="358"/>
 									<ExtendedTooltip name="ОсновныеСредстваКодТНВЭДРасширеннаяПодсказка" id="359"/>
 								</InputField>

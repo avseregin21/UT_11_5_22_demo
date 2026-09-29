@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -101,7 +101,6 @@
 							<DataPath>ТолькоЦветОсновнойСерии</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ТолькоЦветОсновнойСерииКонтекстноеМеню" id="16"/>
 							<ExtendedTooltip name="ТолькоЦветОсновнойСерииРасширеннаяПодсказка" id="42">
 								<Title formatted="false">
@@ -119,7 +118,6 @@
 							<DataPath>ГрадиентДляПокомпонентногоСравнения</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ГрадиентДляПокомпонентногоСравненияКонтекстноеМеню" id="18"/>
 							<ExtendedTooltip name="ГрадиентДляПокомпонентногоСравненияРасширеннаяПодсказка" id="43">
 								<Title formatted="false">
@@ -137,7 +135,6 @@
 							<DataPath>ВыделятьМаксимальноеЗначениеДляПокомпонентногоСравнения</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыделятьМаксимальноеЗначениеДляПокомпонентногоСравненияКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ВыделятьМаксимальноеЗначениеДляПокомпонентногоСравненияРасширеннаяПодсказка" id="44">
 								<Title formatted="false">
@@ -213,7 +210,6 @@
 								<CheckBoxField name="ВключатьНоль" id="66">
 									<DataPath>ВключатьНоль</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВключатьНольКонтекстноеМеню" id="67"/>
 									<ExtendedTooltip name="ВключатьНольРасширеннаяПодсказка" id="68"/>
 								</CheckBoxField>
@@ -266,7 +262,6 @@
 							<DataPath>ОтображатьЛегенду</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОтображатьЛегендуКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="ОтображатьЛегендуРасширеннаяПодсказка" id="46">
 								<Title formatted="false">
@@ -281,7 +276,6 @@
 							<DataPath>ВыводитьПодписиКДиаграммам</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыводитьПодписиКДиаграммамКонтекстноеМеню" id="57"/>
 							<ExtendedTooltip name="ВыводитьПодписиКДиаграммамРасширеннаяПодсказка" id="58">
 								<Title formatted="false">
@@ -296,7 +290,6 @@
 							<DataPath>ОкантовкаДиаграмм</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОкантовкаДиаграммКонтекстноеМеню" id="54"/>
 							<ExtendedTooltip name="ОкантовкаДиаграммРасширеннаяПодсказка" id="55">
 								<Title formatted="false">
@@ -311,7 +304,6 @@
 							<DataPath>РежимСглаживанияДиаграмм</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РежимСглаживанияДиаграммКонтекстноеМеню" id="60"/>
 							<ExtendedTooltip name="РежимСглаживанияДиаграммРасширеннаяПодсказка" id="61">
 								<Title formatted="false">
@@ -326,7 +318,6 @@
 							<DataPath>ВыводитьМаркерыТочек</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыводитьМаркерыТочекКонтекстноеМеню" id="84"/>
 							<ExtendedTooltip name="ВыводитьМаркерыТочекРасширеннаяПодсказка" id="85">
 								<Title formatted="false">
@@ -341,7 +332,6 @@
 							<DataPath>ВыводитьМаркерТочекПрогноза</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыводитьМаркерТочекПрогнозаКонтекстноеМеню" id="25"/>
 							<ExtendedTooltip name="ВыводитьМаркерТочекПрогнозаРасширеннаяПодсказка" id="47">
 								<Title formatted="false">

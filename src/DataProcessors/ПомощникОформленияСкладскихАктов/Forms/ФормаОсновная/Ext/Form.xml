@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -468,6 +469,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКСписаниюНоменклатураСписываемаяКонтекстноеМеню" id="931"/>
 													<ExtendedTooltip name="ТоварыКСписаниюНоменклатураСписываемаяРасширеннаяПодсказка" id="932"/>
@@ -481,6 +483,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКСписаниюХарактеристикаСписываемаяКонтекстноеМеню" id="934"/>
 													<ExtendedTooltip name="ТоварыКСписаниюХарактеристикаСписываемаяРасширеннаяПодсказка" id="935"/>
@@ -494,6 +497,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыКСписаниюНазначениеСписываемоеКонтекстноеМеню" id="987"/>
 													<ExtendedTooltip name="ТоварыКСписаниюНазначениеСписываемоеРасширеннаяПодсказка" id="988"/>
 												</InputField>
@@ -506,6 +510,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКСписаниюСерияСписываемаяКонтекстноеМеню" id="937"/>
 													<ExtendedTooltip name="ТоварыКСписаниюСерияСписываемаяРасширеннаяПодсказка" id="938"/>
@@ -519,6 +524,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ТоварыКСписаниюКоличествоКонтекстноеМеню" id="940"/>
 													<ExtendedTooltip name="ТоварыКСписаниюКоличествоРасширеннаяПодсказка" id="941"/>
@@ -532,6 +538,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ТоварыКСписаниюЦенаСписанияКонтекстноеМеню" id="943"/>
@@ -626,6 +633,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКОприходованиюНоменклатураПриходуемаяКонтекстноеМеню" id="967"/>
 													<ExtendedTooltip name="ТоварыКОприходованиюНоменклатураПриходуемаяРасширеннаяПодсказка" id="968"/>
@@ -639,6 +647,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКОприходованиюХарактеристикаПриходуемаяКонтекстноеМеню" id="970"/>
 													<ExtendedTooltip name="ТоварыКОприходованиюХарактеристикаПриходуемаяРасширеннаяПодсказка" id="971"/>
@@ -652,6 +661,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыКОприходованиюНазначениеПриходуемоеКонтекстноеМеню" id="990"/>
 													<ExtendedTooltip name="ТоварыКОприходованиюНазначениеПриходуемоеРасширеннаяПодсказка" id="991"/>
 												</InputField>
@@ -664,6 +674,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКОприходованиюСерияПриходуемаяКонтекстноеМеню" id="973"/>
 													<ExtendedTooltip name="ТоварыКОприходованиюСерияПриходуемаяРасширеннаяПодсказка" id="974"/>
@@ -677,6 +688,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ТоварыКОприходованиюКоличествоКонтекстноеМеню" id="976"/>
 													<ExtendedTooltip name="ТоварыКОприходованиюКоличествоРасширеннаяПодсказка" id="977"/>
@@ -690,6 +702,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ТоварыКОприходованиюЦенаОприходованияКонтекстноеМеню" id="979"/>
@@ -903,6 +916,7 @@
 											<DataPath>Объект.Товары.ОперацияТекст</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыКПересортицеКПорчеОперацияТекстКонтекстноеМеню" id="572"/>
 											<ExtendedTooltip name="ТоварыКПересортицеКПорчеОперацияТекстРасширеннаяПодсказка" id="573"/>
@@ -929,6 +943,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеНоменклатураСписываемаяКонтекстноеМеню" id="542"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеНоменклатураСписываемаяРасширеннаяПодсказка" id="543"/>
@@ -943,6 +958,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеХарактеристикаСписываемаяКонтекстноеМеню" id="548"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеХарактеристикаСписываемаяРасширеннаяПодсказка" id="549"/>
@@ -956,6 +972,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыКПересортицеКПорчеНазначениеСписываемоеКонтекстноеМеню" id="890"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеНазначениеСписываемоеРасширеннаяПодсказка" id="891"/>
 												</InputField>
@@ -969,6 +986,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеСерияСписываемаяКонтекстноеМеню" id="554"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеСерияСписываемаяРасширеннаяПодсказка" id="555"/>
@@ -983,6 +1001,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеНоменклатураСписываемаяЕдиницаИзмеренияКонтекстноеМеню" id="560"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеНоменклатураСписываемаяЕдиницаИзмеренияРасширеннаяПодсказка" id="561"/>
@@ -997,6 +1016,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеЦенаСписанияКонтекстноеМеню" id="566"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеЦенаСписанияРасширеннаяПодсказка" id="567"/>
@@ -1031,6 +1051,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеНоменклатураПриходуемаяКонтекстноеМеню" id="545"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеНоменклатураПриходуемаяРасширеннаяПодсказка" id="546"/>
@@ -1045,6 +1066,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеХарактеристикаПриходуемаяКонтекстноеМеню" id="551"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеХарактеристикаПриходуемаяРасширеннаяПодсказка" id="552"/>
@@ -1058,6 +1080,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыКПересортицеКПорчеНазначениеПриходуемоеКонтекстноеМеню" id="893"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеНазначениеПриходуемоеРасширеннаяПодсказка" id="894"/>
 												</InputField>
@@ -1071,6 +1094,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеСерияПриходуемаяКонтекстноеМеню" id="557"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеСерияПриходуемаяРасширеннаяПодсказка" id="558"/>
@@ -1085,6 +1109,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеНоменклатураПриходуемаяЕдиницаИзмеренияКонтекстноеМеню" id="563"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеНоменклатураПриходуемаяЕдиницаИзмеренияРасширеннаяПодсказка" id="564"/>
@@ -1099,6 +1124,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<ContextMenu name="ТоварыКПересортицеКПорчеЦенаОприходованияКонтекстноеМеню" id="569"/>
 													<ExtendedTooltip name="ТоварыКПересортицеКПорчеЦенаОприходованияРасширеннаяПодсказка" id="570"/>
@@ -1115,6 +1141,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыКПересортицеКПорчеКоличествоКонтекстноеМеню" id="575"/>
 											<ExtendedTooltip name="ТоварыКПересортицеКПорчеКоличествоРасширеннаяПодсказка" id="576"/>
@@ -1264,6 +1291,7 @@
 											<DataPath>Объект.Товары.ОперацияТекст</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыНеРаспределенныеОперацияТекстКонтекстноеМеню" id="616"/>
 											<ExtendedTooltip name="ТоварыНеРаспределенныеОперацияТекстРасширеннаяПодсказка" id="617"/>
@@ -1287,6 +1315,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыНеРаспределенныеНоменклатураСписываемаяКонтекстноеМеню" id="586"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеНоменклатураСписываемаяРасширеннаяПодсказка" id="587"/>
@@ -1295,6 +1324,7 @@
 													<DataPath>Объект.Товары.ХарактеристикаСписываемая</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыНеРаспределенныеХарактеристикаСписываемаяКонтекстноеМеню" id="589"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеХарактеристикаСписываемаяРасширеннаяПодсказка" id="590"/>
@@ -1303,6 +1333,7 @@
 													<DataPath>Объект.Товары.НазначениеСписываемое</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыНеРаспределенныеНазначениеСписываемоеКонтекстноеМеню" id="896"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеНазначениеСписываемоеРасширеннаяПодсказка" id="897"/>
 												</InputField>
@@ -1310,6 +1341,7 @@
 													<DataPath>Объект.Товары.СерияСписываемая</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыНеРаспределенныеСерияСписываемаяКонтекстноеМеню" id="592"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеСерияСписываемаяРасширеннаяПодсказка" id="593"/>
@@ -1325,6 +1357,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыНеРаспределенныеНоменклатураСписываемаяЕдиницаИзмеренияКонтекстноеМеню" id="604"/>
 											<ExtendedTooltip name="ТоварыНеРаспределенныеНоменклатураСписываемаяЕдиницаИзмеренияРасширеннаяПодсказка" id="605"/>
@@ -1338,6 +1371,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ТоварыНеРаспределенныеЦенаСписанияКонтекстноеМеню" id="613"/>
@@ -1362,6 +1396,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыНеРаспределенныеНоменклатураПриходуемаяКонтекстноеМеню" id="595"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеНоменклатураПриходуемаяРасширеннаяПодсказка" id="596"/>
@@ -1370,6 +1405,7 @@
 													<DataPath>Объект.Товары.ХарактеристикаПриходуемая</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыНеРаспределенныеХарактеристикаПриходуемаяКонтекстноеМеню" id="598"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеХарактеристикаПриходуемаяРасширеннаяПодсказка" id="599"/>
@@ -1378,6 +1414,7 @@
 													<DataPath>Объект.Товары.НазначениеПриходуемое</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыНеРаспределенныеНазначениеПриходуемоеКонтекстноеМеню" id="899"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеНазначениеПриходуемоеРасширеннаяПодсказка" id="900"/>
 												</InputField>
@@ -1385,6 +1422,7 @@
 													<DataPath>Объект.Товары.СерияПриходуемая</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>16</Width>
 													<ContextMenu name="ТоварыНеРаспределенныеСерияПриходуемаяКонтекстноеМеню" id="601"/>
 													<ExtendedTooltip name="ТоварыНеРаспределенныеСерияПриходуемаяРасширеннаяПодсказка" id="602"/>
@@ -1400,6 +1438,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыНеРаспределенныеНоменклатураПриходуемаяЕдиницаИзмеренияКонтекстноеМеню" id="607"/>
 											<ExtendedTooltip name="ТоварыНеРаспределенныеНоменклатураПриходуемаяЕдиницаИзмеренияРасширеннаяПодсказка" id="608"/>
@@ -1413,6 +1452,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>9</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ТоварыНеРаспределенныеЦенаОприходованияКонтекстноеМеню" id="610"/>
@@ -1427,6 +1467,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ТоварыНеРаспределенныеКоличествоНеРаспределеноКонтекстноеМеню" id="621"/>
@@ -1637,6 +1678,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>35</Width>
 											<ContextMenu name="ТоварыРаспределенныеОрганизацияКонтекстноеМеню" id="632"/>
 											<ExtendedTooltip name="ТоварыРаспределенныеОрганизацияРасширеннаяПодсказка" id="633"/>
@@ -1645,6 +1687,7 @@
 											<DataPath>Объект.ТоварыРаспределенные.ОперацияТекст</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ТоварыРаспределенныеОперацияТекстКонтекстноеМеню" id="668"/>
 											<ExtendedTooltip name="ТоварыРаспределенныеОперацияТекстРасширеннаяПодсказка" id="669"/>
@@ -1670,6 +1713,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>11</Width>
 													<ContextMenu name="ТоварыРаспределенныеНоменклатураСписываемаяКонтекстноеМеню" id="635"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеНоменклатураСписываемаяРасширеннаяПодсказка" id="636"/>
@@ -1679,6 +1723,7 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>11</Width>
 													<ContextMenu name="ТоварыРаспределенныеХарактеристикаСписываемаяКонтекстноеМеню" id="638"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеХарактеристикаСписываемаяРасширеннаяПодсказка" id="639"/>
@@ -1687,6 +1732,7 @@
 													<DataPath>Объект.ТоварыРаспределенные.НазначениеСписываемое</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыРаспределенныеНазначениеСписываемоеКонтекстноеМеню" id="902"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеНазначениеСписываемоеРасширеннаяПодсказка" id="903"/>
 												</InputField>
@@ -1695,6 +1741,7 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>11</Width>
 													<ContextMenu name="ТоварыРаспределенныеСерияСписываемаяКонтекстноеМеню" id="641"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеСерияСписываемаяРасширеннаяПодсказка" id="642"/>
@@ -1711,6 +1758,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыРаспределенныеНоменклатураСписываемаяЕдиницаИзмеренияКонтекстноеМеню" id="653"/>
 											<ExtendedTooltip name="ТоварыРаспределенныеНоменклатураСписываемаяЕдиницаИзмеренияРасширеннаяПодсказка" id="654"/>
@@ -1725,6 +1773,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ТоварыРаспределенныеЦенаСписанияКонтекстноеМеню" id="662"/>
@@ -1751,6 +1800,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>11</Width>
 													<ContextMenu name="ТоварыРаспределенныеНоменклатураПриходуемаяКонтекстноеМеню" id="644"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеНоменклатураПриходуемаяРасширеннаяПодсказка" id="645"/>
@@ -1760,6 +1810,7 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>11</Width>
 													<ContextMenu name="ТоварыРаспределенныеХарактеристикаПриходуемаяКонтекстноеМеню" id="647"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеХарактеристикаПриходуемаяРасширеннаяПодсказка" id="648"/>
@@ -1768,6 +1819,7 @@
 													<DataPath>Объект.ТоварыРаспределенные.НазначениеПриходуемое</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыРаспределенныеНазначениеПриходуемоеКонтекстноеМеню" id="905"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеНазначениеПриходуемоеРасширеннаяПодсказка" id="906"/>
 												</InputField>
@@ -1776,6 +1828,7 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>11</Width>
 													<ContextMenu name="ТоварыРаспределенныеСерияПриходуемаяКонтекстноеМеню" id="650"/>
 													<ExtendedTooltip name="ТоварыРаспределенныеСерияПриходуемаяРасширеннаяПодсказка" id="651"/>
@@ -1792,6 +1845,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыРаспределенныеНоменклатураПриходуемаяЕдиницаИзмеренияКонтекстноеМеню" id="656"/>
 											<ExtendedTooltip name="ТоварыРаспределенныеНоменклатураПриходуемаяЕдиницаИзмеренияРасширеннаяПодсказка" id="657"/>
@@ -1806,6 +1860,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ТоварыРаспределенныеЦенаОприходованияКонтекстноеМеню" id="659"/>
@@ -1820,6 +1875,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ТоварыРаспределенныеКоличествоРаспределеноКонтекстноеМеню" id="665"/>
@@ -1858,7 +1914,7 @@
 						</LabelDecoration>
 						<Table name="ДокументыПоОснованию" id="335">
 							<HeightInTableRows>4</HeightInTableRows>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ДокументыПоОснованию</DataPath>

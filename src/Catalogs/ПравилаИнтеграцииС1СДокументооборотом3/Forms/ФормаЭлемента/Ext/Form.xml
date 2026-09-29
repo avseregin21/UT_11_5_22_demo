@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Width>96</Width>
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -82,6 +83,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>30</Width>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ChoiceButton>true</ChoiceButton>
@@ -105,6 +107,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>30</Width>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ChoiceButton>true</ChoiceButton>
@@ -205,6 +208,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>32</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ПравилаЗаполненияРеквизитовИСПредставлениеРеквизитаОбъектаИСКонтекстноеМеню" id="84"/>
@@ -233,6 +237,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ValuesPicture>
 																<xr:Ref>CommonPicture.ВариантыПравилЗаполненияРеквизитов</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -245,6 +250,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="ПравилаЗаполненияРеквизитовИСПредставлениеРеквизитаОбъектаДОКонтекстноеМеню" id="163"/>
 															<ExtendedTooltip name="ПравилаЗаполненияРеквизитовИСПредставлениеРеквизитаОбъектаДОРасширеннаяПодсказка" id="164"/>
@@ -254,6 +260,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="ПравилаЗаполненияРеквизитовИСЗначениеРеквизитаИСКонтекстноеМеню" id="166"/>
 															<ExtendedTooltip name="ПравилаЗаполненияРеквизитовИСЗначениеРеквизитаИСРасширеннаяПодсказка" id="167"/>
@@ -263,6 +270,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="ПравилаЗаполненияРеквизитовИСВычисляемоеВыражениеКонтекстноеМеню" id="169"/>
 															<ExtendedTooltip name="ПравилаЗаполненияРеквизитовИСВычисляемоеВыражениеРасширеннаяПодсказка" id="170"/>
@@ -272,6 +280,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<ContextMenu name="ПравилаЗаполненияРеквизитовИСПояснениеКонтекстноеМеню" id="172"/>
 															<ExtendedTooltip name="ПравилаЗаполненияРеквизитовИСПояснениеРасширеннаяПодсказка" id="173"/>
@@ -292,7 +301,6 @@
 														<xr:Ref>StdPicture.Refresh</xr:Ref>
 														<xr:LoadTransparent>true</xr:LoadTransparent>
 													</HeaderPicture>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПравилаЗаполненияРеквизитовИСОбновлятьКонтекстноеМеню" id="175"/>
 													<ExtendedTooltip name="ПравилаЗаполненияРеквизитовИСОбновлятьРасширеннаяПодсказка" id="176"/>
 												</CheckBoxField>
@@ -386,6 +394,7 @@
 															<DataPath>КлючевыеРеквизитыИС.Представление</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КлючевыеРеквизитыИСПредставлениеКонтекстноеМеню" id="56"/>
 															<ExtendedTooltip name="КлючевыеРеквизитыИСПредставлениеРасширеннаяПодсказка" id="57"/>
 														</InputField>
@@ -393,6 +402,7 @@
 															<DataPath>КлючевыеРеквизитыИС.ЗначениеРеквизита</DataPath>
 															<HorizontalAlign>Left</HorizontalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -408,7 +418,7 @@
 														<CheckBoxField name="КлючевыеРеквизитыИСКлючевой" id="58">
 															<DataPath>КлючевыеРеквизитыИС.Ключевой</DataPath>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КлючевыеРеквизитыИСКлючевойКонтекстноеМеню" id="59"/>
 															<ExtendedTooltip name="КлючевыеРеквизитыИСКлючевойРасширеннаяПодсказка" id="60"/>
 															<Events>
@@ -510,6 +520,7 @@
 															<DataPath>КлючевыеРеквизитыДО.Представление</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КлючевыеРеквизитыДОПредставлениеКонтекстноеМеню" id="34"/>
 															<ExtendedTooltip name="КлючевыеРеквизитыДОПредставлениеРасширеннаяПодсказка" id="35"/>
 														</InputField>
@@ -517,6 +528,7 @@
 															<DataPath>КлючевыеРеквизитыДО.ЗначениеРеквизита</DataPath>
 															<HorizontalAlign>Left</HorizontalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -534,7 +546,7 @@
 														<CheckBoxField name="КлючевыеРеквизитыДОКлючевой" id="36">
 															<DataPath>КлючевыеРеквизитыДО.Ключевой</DataPath>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КлючевыеРеквизитыДОКлючевойКонтекстноеМеню" id="37"/>
 															<ExtendedTooltip name="КлючевыеРеквизитыДОКлючевойРасширеннаяПодсказка" id="38"/>
 															<Events>

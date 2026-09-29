@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаВключитьВозможностьРедактирования" id="10">
@@ -63,14 +63,12 @@
 						<CheckBoxField name="ПотребоватьСменуПароляПриВходе" id="15">
 							<DataPath>Запись.ПотребоватьСменуПароляПриВходе</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПотребоватьСменуПароляПриВходеКонтекстноеМеню" id="16"/>
 							<ExtendedTooltip name="ПотребоватьСменуПароляПриВходеРасширеннаяПодсказка" id="17"/>
 						</CheckBoxField>
 						<CheckBoxField name="СрокДействияНеОграничен" id="35">
 							<DataPath>Запись.СрокДействияНеОграничен</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СрокДействияНеОграниченКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="СрокДействияНеОграниченРасширеннаяПодсказка" id="37"/>
 						</CheckBoxField>
@@ -174,28 +172,24 @@
 								<CheckBoxField name="ВходВПрограммуРазрешен" id="51">
 									<DataPath>Запись.ВходВПрограммуРазрешен</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВходВПрограммуРазрешенКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ВходВПрограммуРазрешенРасширеннаяПодсказка" id="53"/>
 								</CheckBoxField>
 								<CheckBoxField name="ВходВПрограммуОграничен" id="54">
 									<DataPath>Запись.ВходВПрограммуОграничен</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВходВПрограммуОграниченКонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="ВходВПрограммуОграниченРасширеннаяПодсказка" id="56"/>
 								</CheckBoxField>
 								<CheckBoxField name="НетРолей" id="57">
 									<DataPath>Запись.НетПрав</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НетРолейКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="НетРолейРасширеннаяПодсказка" id="59"/>
 								</CheckBoxField>
 								<CheckBoxField name="НедостаточноПравДляВхода" id="60">
 									<DataPath>Запись.НедостаточноПравДляВхода</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НедостаточноПравДляВходаКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="НедостаточноПравДляВходаРасширеннаяПодсказка" id="62"/>
 								</CheckBoxField>
@@ -212,7 +206,6 @@
 								<CheckBoxField name="АутентификацияСтандартная" id="69">
 									<DataPath>Запись.АутентификацияСтандартная</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АутентификацияСтандартнаяКонтекстноеМеню" id="70"/>
 									<ExtendedTooltip name="АутентификацияСтандартнаяРасширеннаяПодсказка" id="71"/>
 								</CheckBoxField>
@@ -232,21 +225,18 @@
 										<CheckBoxField name="ЗапрещеноВосстанавливатьПароль" id="75">
 											<DataPath>Запись.ЗапрещеноВосстанавливатьПароль</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗапрещеноВосстанавливатьПарольКонтекстноеМеню" id="76"/>
 											<ExtendedTooltip name="ЗапрещеноВосстанавливатьПарольРасширеннаяПодсказка" id="77"/>
 										</CheckBoxField>
 										<CheckBoxField name="ЗапрещеноИзменятьПароль" id="72">
 											<DataPath>Запись.ЗапрещеноИзменятьПароль</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗапрещеноИзменятьПарольКонтекстноеМеню" id="73"/>
 											<ExtendedTooltip name="ЗапрещеноИзменятьПарольРасширеннаяПодсказка" id="74"/>
 										</CheckBoxField>
 										<CheckBoxField name="ПоказыватьВСпискеВыбора" id="78">
 											<DataPath>Запись.ПоказыватьВСпискеВыбора</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПоказыватьВСпискеВыбораКонтекстноеМеню" id="79"/>
 											<ExtendedTooltip name="ПоказыватьВСпискеВыбораРасширеннаяПодсказка" id="80"/>
 										</CheckBoxField>
@@ -270,21 +260,18 @@
 								<CheckBoxField name="АутентификацияOpenID" id="81">
 									<DataPath>Запись.АутентификацияOpenID</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АутентификацияOpenIDКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="АутентификацияOpenIDРасширеннаяПодсказка" id="83"/>
 								</CheckBoxField>
 								<CheckBoxField name="АутентификацияOpenIDConnect" id="84">
 									<DataPath>Запись.АутентификацияOpenIDConnect</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АутентификацияOpenIDConnectКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="АутентификацияOpenIDConnectРасширеннаяПодсказка" id="86"/>
 								</CheckBoxField>
 								<CheckBoxField name="АутентификацияТокеномДоступа" id="87">
 									<DataPath>Запись.АутентификацияТокеномДоступа</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АутентификацияТокеномДоступаКонтекстноеМеню" id="88"/>
 									<ExtendedTooltip name="АутентификацияТокеномДоступаРасширеннаяПодсказка" id="89"/>
 								</CheckBoxField>
@@ -304,13 +291,11 @@
 										<CheckBoxField name="АутентификацияОС" id="90">
 											<DataPath>Запись.АутентификацияОС</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="АутентификацияОСКонтекстноеМеню" id="91"/>
 											<ExtendedTooltip name="АутентификацияОСРасширеннаяПодсказка" id="92"/>
 										</CheckBoxField>
 										<CheckBoxField name="ПользовательОС" id="93">
 											<DataPath>Запись.ПользовательОС</DataPath>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПользовательОСКонтекстноеМеню" id="94"/>
 											<ExtendedTooltip name="ПользовательОСРасширеннаяПодсказка" id="95"/>
 										</CheckBoxField>
@@ -324,7 +309,6 @@
 								<CheckBoxField name="ЗащитаОтОпасныхДействий" id="99">
 									<DataPath>Запись.ЗащитаОтОпасныхДействий</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗащитаОтОпасныхДействийКонтекстноеМеню" id="100"/>
 									<ExtendedTooltip name="ЗащитаОтОпасныхДействийРасширеннаяПодсказка" id="101"/>
 								</CheckBoxField>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<CommandSet>
 		<ExcludedCommand>Abort</ExcludedCommand>
@@ -15,6 +15,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -134,7 +135,7 @@
 									<DataPath>ТаблицаОрганизации.Пометка</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаОрганизацииПометкаКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="ТаблицаОрганизацииПометкаРасширеннаяПодсказка" id="77"/>
 								</CheckBoxField>
@@ -142,6 +143,7 @@
 									<DataPath>ТаблицаОрганизации.Организация</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаОрганизацииОрганизацияКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="ТаблицаОрганизацииОрганизацияРасширеннаяПодсказка" id="80"/>
 								</InputField>
@@ -305,7 +307,6 @@
 									<DataPath>СкопироватьУчетнаяПолитикаБухУчета</DataPath>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкопироватьУчетнаяПолитикаБухУчетаКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="СкопироватьУчетнаяПолитикаБухУчетаРасширеннаяПодсказка" id="19"/>
 								</CheckBoxField>
@@ -355,7 +356,6 @@
 									<DataPath>СкопироватьУчетнаяПолитикаФинансовогоУчета</DataPath>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкопироватьУчетнаяПолитикаФинансовогоУчетаКонтекстноеМеню" id="12"/>
 									<ExtendedTooltip name="СкопироватьУчетнаяПолитикаФинансовогоУчетаРасширеннаяПодсказка" id="13"/>
 								</CheckBoxField>
@@ -405,7 +405,6 @@
 									<DataPath>СкопироватьНастройкиУчетаНалогаНаПрибыль</DataPath>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкопироватьНастройкиУчетаНалогаНаПрибыльКонтекстноеМеню" id="24"/>
 									<ExtendedTooltip name="СкопироватьНастройкиУчетаНалогаНаПрибыльРасширеннаяПодсказка" id="25"/>
 								</CheckBoxField>
@@ -455,7 +454,6 @@
 									<DataPath>СкопироватьНастройкиУчетаНДС</DataPath>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкопироватьНастройкиУчетаНДСКонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="СкопироватьНастройкиУчетаНДСРасширеннаяПодсказка" id="28"/>
 								</CheckBoxField>
@@ -526,7 +524,6 @@
 									<DataPath>СкопироватьНастройкиУчетаУСН</DataPath>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкопироватьНастройкиУчетаУСНКонтекстноеМеню" id="95"/>
 									<ExtendedTooltip name="СкопироватьНастройкиУчетаУСНРасширеннаяПодсказка" id="96"/>
 								</CheckBoxField>
@@ -582,7 +579,6 @@
 									</Title>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкопироватьСтавкиНалогаНаИмуществоКонтекстноеМеню" id="173"/>
 									<ExtendedTooltip name="СкопироватьСтавкиНалогаНаИмуществоРасширеннаяПодсказка" id="174"/>
 								</CheckBoxField>

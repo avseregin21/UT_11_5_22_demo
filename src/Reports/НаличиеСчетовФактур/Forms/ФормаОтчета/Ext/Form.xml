@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<ReportResult>Результат</ReportResult>
 	<DetailsData>ДанныеРасшифровки</DetailsData>
 	<ReportFormType>Main</ReportFormType>
@@ -606,7 +607,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ГруппироватьПоКонтрагентамКонтекстноеМеню" id="717"/>
 													<ExtendedTooltip name="ГруппироватьПоКонтрагентамРасширеннаяПодсказка" id="718"/>
 													<Events>
@@ -752,7 +752,6 @@
 															<DataPath>Отчет.SettingsComposer.Settings.Filter.Use</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>Directly</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОтборыИспользованиеКонтекстноеМеню" id="241"/>
 															<ExtendedTooltip name="ОтборыИспользованиеРасширеннаяПодсказка" id="381"/>
 														</CheckBoxField>
@@ -779,6 +778,7 @@
 																		<InputField name="ОтборыЛевоеЗначение" id="252">
 																			<DataPath>Отчет.SettingsComposer.Settings.Filter.LeftValue</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>8</Width>
 																			<HorizontalStretch>true</HorizontalStretch>
 																			<ContextMenu name="ОтборыЛевоеЗначениеКонтекстноеМеню" id="253"/>
@@ -787,6 +787,7 @@
 																		<InputField name="ОтборыВидСравнения" id="254">
 																			<DataPath>Отчет.SettingsComposer.Settings.Filter.ComparisonType</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>1</Width>
 																			<HorizontalStretch>true</HorizontalStretch>
 																			<ContextMenu name="ОтборыВидСравненияКонтекстноеМеню" id="255"/>
@@ -795,6 +796,7 @@
 																		<InputField name="ОтборыПравоеЗначение" id="259">
 																			<DataPath>Отчет.SettingsComposer.Settings.Filter.RightValue</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>8</Width>
 																			<HorizontalStretch>true</HorizontalStretch>
 																			<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
@@ -807,6 +809,7 @@
 																		<InputField name="ОтборыДата" id="261">
 																			<DataPath>Отчет.SettingsComposer.Settings.Filter.Date</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>8</Width>
 																			<HorizontalStretch>true</HorizontalStretch>
 																			<ContextMenu name="ОтборыДатаКонтекстноеМеню" id="262"/>
@@ -817,6 +820,7 @@
 																<InputField name="ОтборыТипГруппы" id="247">
 																	<DataPath>Отчет.SettingsComposer.Settings.Filter.GroupType</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>8</Width>
 																	<HorizontalStretch>true</HorizontalStretch>
 																	<ContextMenu name="ОтборыТипГруппыКонтекстноеМеню" id="248"/>
@@ -827,6 +831,7 @@
 														<InputField name="ОтборыПредставление" id="244">
 															<DataPath>Отчет.SettingsComposer.Settings.Filter.Presentation</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>8</Width>
 															<HorizontalStretch>true</HorizontalStretch>
 															<ContextMenu name="ОтборыПредставлениеКонтекстноеМеню" id="245"/>
@@ -994,13 +999,14 @@
 														<CheckBoxField name="ДополнительныеПоляИспользование" id="702">
 															<DataPath>Отчет.ДополнительныеПоля.Использование</DataPath>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДополнительныеПоляИспользованиеКонтекстноеМеню" id="703"/>
 															<ExtendedTooltip name="ДополнительныеПоляИспользованиеРасширеннаяПодсказка" id="704"/>
 														</CheckBoxField>
 														<InputField name="ДополнительныеПоляПредставление" id="708">
 															<DataPath>Отчет.ДополнительныеПоля.Представление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДополнительныеПоляПредставлениеКонтекстноеМеню" id="709"/>
 															<ExtendedTooltip name="ДополнительныеПоляПредставлениеРасширеннаяПодсказка" id="710"/>
 														</InputField>
@@ -1139,13 +1145,13 @@
 															<DataPath>Отчет.SettingsComposer.Settings.Order.Use</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>Directly</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="СортировкаИспользованиеКонтекстноеМеню" id="232"/>
 															<ExtendedTooltip name="СортировкаИспользованиеРасширеннаяПодсказка" id="408"/>
 														</CheckBoxField>
 														<InputField name="СортировкаПоле" id="236">
 															<DataPath>Отчет.SettingsComposer.Settings.Order.Field</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>15</Width>
 															<ContextMenu name="СортировкаПолеКонтекстноеМеню" id="237"/>
 															<ExtendedTooltip name="СортировкаПолеРасширеннаяПодсказка" id="409"/>
@@ -1159,6 +1165,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<ContextMenu name="СортировкаТипУпорядочиванияКонтекстноеМеню" id="239"/>
 															<ExtendedTooltip name="СортировкаТипУпорядочиванияРасширеннаяПодсказка" id="410"/>
@@ -1275,7 +1282,6 @@
 															<DataPath>Отчет.SettingsComposer.Settings.ConditionalAppearance.Use</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>Directly</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УсловноеОформлениеИспользованиеКонтекстноеМеню" id="271"/>
 															<ExtendedTooltip name="УсловноеОформлениеИспользованиеРасширеннаяПодсказка" id="419"/>
 														</CheckBoxField>
@@ -1306,6 +1312,7 @@
 														<InputField name="УсловноеОформлениеПредставление" id="278">
 															<DataPath>Отчет.SettingsComposer.Settings.ConditionalAppearance.Presentation</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="УсловноеОформлениеПредставлениеКонтекстноеМеню" id="279"/>
 															<ExtendedTooltip name="УсловноеОформлениеПредставлениеРасширеннаяПодсказка" id="423"/>
 														</InputField>
@@ -1327,7 +1334,6 @@
 														<CheckBoxField name="ВыводитьЗаголовок" id="228">
 															<DataPath>ВыводитьЗаголовок</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыводитьЗаголовокКонтекстноеМеню" id="229"/>
 															<ExtendedTooltip name="ВыводитьЗаголовокРасширеннаяПодсказка" id="426"/>
 															<Events>
@@ -1337,7 +1343,6 @@
 														<CheckBoxField name="ВыводитьПодвал" id="226">
 															<DataPath>ВыводитьПодвал</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыводитьПодвалКонтекстноеМеню" id="227"/>
 															<ExtendedTooltip name="ВыводитьПодвалРасширеннаяПодсказка" id="427"/>
 															<Events>

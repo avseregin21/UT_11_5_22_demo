@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -241,7 +242,7 @@
 							<DataPath>Объект.БанковскиеСчета.Пометка</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="БанковскиеСчетаПометкаКонтекстноеМеню" id="271"/>
 							<ExtendedTooltip name="БанковскиеСчетаПометкаРасширеннаяПодсказка" id="272"/>
 							<Events>
@@ -258,6 +259,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>40</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="БанковскиеСчетаСсылкаКонтекстноеМеню" id="274"/>
@@ -267,6 +269,7 @@
 							<DataPath>Объект.БанковскиеСчета.КВыгрузке</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="БанковскиеСчетаКВыгрузкеКонтекстноеМеню" id="277"/>
 							<ExtendedTooltip name="БанковскиеСчетаКВыгрузкеРасширеннаяПодсказка" id="278"/>
 						</InputField>
@@ -280,6 +283,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="БанковскиеСчетаДатаПоследнейВыгрузкиКонтекстноеМеню" id="280"/>
 							<ExtendedTooltip name="БанковскиеСчетаДатаПоследнейВыгрузкиРасширеннаяПодсказка" id="281"/>
 						</InputField>
@@ -292,6 +296,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ChoiceButton>true</ChoiceButton>
 							<OpenButton>true</OpenButton>
 							<InputHint>
@@ -522,12 +527,14 @@
 				<LabelField name="ДокументыКВыгрузкеНомерСтроки" id="20">
 					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеНомерСтрокиКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеНомерСтрокиРасширеннаяПодсказка" id="22"/>
 				</LabelField>
 				<InputField name="ДокументыКВыгрузкеДатаВыгрузки" id="26">
 					<DataPath>Объект.ДокументыКВыгрузке.ДатаВыгрузки</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<ContextMenu name="ДокументыКВыгрузкеДатаВыгрузкиКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеДатаВыгрузкиРасширеннаяПодсказка" id="28"/>
@@ -536,7 +543,7 @@
 					<DataPath>Объект.ДокументыКВыгрузке.Выгружать</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеВыгружатьКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеВыгружатьРасширеннаяПодсказка" id="31"/>
 					<Events>
@@ -546,6 +553,7 @@
 				<InputField name="ДокументыКВыгрузкеНомер" id="32">
 					<DataPath>Объект.ДокументыКВыгрузке.Номер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>12</Width>
 					<ContextMenu name="ДокументыКВыгрузкеНомерКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеНомерРасширеннаяПодсказка" id="34"/>
@@ -553,6 +561,7 @@
 				<InputField name="ДокументыКВыгрузкеДата" id="35">
 					<DataPath>Объект.ДокументыКВыгрузке.Дата</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<ContextMenu name="ДокументыКВыгрузкеДатаКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеДатаРасширеннаяПодсказка" id="37"/>
@@ -560,6 +569,7 @@
 				<InputField name="ДокументыКВыгрузкеСумма" id="192">
 					<DataPath>Объект.ДокументыКВыгрузке.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>12</Width>
 					<ContextMenu name="ДокументыКВыгрузкеСуммаКонтекстноеМеню" id="193"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеСуммаРасширеннаяПодсказка" id="194"/>
@@ -567,6 +577,7 @@
 				<InputField name="ДокументыКВыгрузкеВалюта" id="195">
 					<DataPath>Объект.ДокументыКВыгрузке.Валюта</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>8</Width>
 					<ContextMenu name="ДокументыКВыгрузкеВалютаКонтекстноеМеню" id="196"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеВалютаРасширеннаяПодсказка" id="197"/>
@@ -574,6 +585,7 @@
 				<InputField name="ДокументыКВыгрузкеНазначениеПлатежа" id="38">
 					<DataPath>Объект.ДокументыКВыгрузке.НазначениеПлатежа</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>40</Width>
 					<ContextMenu name="ДокументыКВыгрузкеНазначениеПлатежаКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеНазначениеПлатежаРасширеннаяПодсказка" id="40"/>
@@ -581,12 +593,14 @@
 				<InputField name="ДокументыКВыгрузкеКонтрагент" id="41">
 					<DataPath>Объект.ДокументыКВыгрузке.Контрагент</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеКонтрагентКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеКонтрагентРасширеннаяПодсказка" id="43"/>
 				</InputField>
 				<InputField name="ДокументыКВыгрузкеОперация" id="44">
 					<DataPath>Объект.ДокументыКВыгрузке.Операция</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеОперацияКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеОперацияРасширеннаяПодсказка" id="46"/>
 				</InputField>
@@ -599,24 +613,28 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеВидДокументаКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеВидДокументаРасширеннаяПодсказка" id="49"/>
 				</InputField>
 				<InputField name="ДокументыКВыгрузкеОрганизация" id="50">
 					<DataPath>Объект.ДокументыКВыгрузке.Организация</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеОрганизацияКонтекстноеМеню" id="51"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеОрганизацияРасширеннаяПодсказка" id="52"/>
 				</InputField>
 				<InputField name="ДокументыКВыгрузкеБанковскийСчет" id="53">
 					<DataPath>Объект.ДокументыКВыгрузке.БанковскийСчет</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеБанковскийСчетКонтекстноеМеню" id="54"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеБанковскийСчетРасширеннаяПодсказка" id="55"/>
 				</InputField>
 				<InputField name="ДокументыКВыгрузкеКомментарий" id="56">
 					<DataPath>Объект.ДокументыКВыгрузке.Комментарий</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДокументыКВыгрузкеКомментарийКонтекстноеМеню" id="57"/>
 					<ExtendedTooltip name="ДокументыКВыгрузкеКомментарийРасширеннаяПодсказка" id="58"/>
 				</InputField>
@@ -666,6 +684,7 @@
 					<DataPath>Items.ДокументыКВыгрузке.CurrentData.ОписаниеОшибок</DataPath>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<HorizontalStretch>true</HorizontalStretch>
 					<TextColor>style:SpecialTextColor</TextColor>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<CommandSet>
 		<ExcludedCommand>Abort</ExcludedCommand>
@@ -74,7 +74,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаПочтаРасширеннаяПодсказка" id="1789"/>
 			<ChildItems>
@@ -129,7 +129,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПочтовыйКлиентКонтекстноеМеню" id="708"/>
 											<ExtendedTooltip name="ИспользоватьПочтовыйКлиентРасширеннаяПодсказка" id="1645">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -171,7 +170,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтправлятьПисьмаВФорматеHTMLКонтекстноеМеню" id="777"/>
 											<ExtendedTooltip name="ОтправлятьПисьмаВФорматеHTMLРасширеннаяПодсказка" id="1648">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -228,7 +226,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПрочиеВзаимодействияКонтекстноеМеню" id="706"/>
 											<ExtendedTooltip name="ИспользоватьПрочиеВзаимодействияРасширеннаяПодсказка" id="1652">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -270,7 +267,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПризнакРассмотреноКонтекстноеМеню" id="781"/>
 											<ExtendedTooltip name="ИспользоватьПризнакРассмотреноРасширеннаяПодсказка" id="1655">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -305,7 +301,6 @@
 									<DataPath>НаборКонстант.ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмахКонтекстноеМеню" id="1808"/>
 									<ExtendedTooltip name="ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмахРасширеннаяПодсказка" id="1809">
 										<Title formatted="false">
@@ -414,7 +409,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаОтправкаSMSРасширеннаяПодсказка" id="1664"/>
 			<ChildItems>
@@ -444,7 +439,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаЗаметкиНапоминанияАнкетированиеШаблоныРасширеннаяПодсказка" id="1791"/>
 			<ChildItems>
@@ -486,7 +481,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьЗаметкиКонтекстноеМеню" id="678"/>
 									<ExtendedTooltip name="ИспользоватьЗаметкиРасширеннаяПодсказка" id="1669">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -528,7 +522,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьНапоминанияПользователяКонтекстноеМеню" id="680"/>
 									<ExtendedTooltip name="ИспользоватьНапоминанияПользователяРасширеннаяПодсказка" id="1672">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -572,7 +565,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьАнкетированиеКонтекстноеМеню" id="1624"/>
 							<ExtendedTooltip name="ИспользоватьАнкетированиеРасширеннаяПодсказка" id="1675">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -626,7 +618,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьШаблоныСообщенийКонтекстноеМеню" id="1799"/>
 									<ExtendedTooltip name="ИспользоватьШаблоныСообщенийРасширеннаяПодсказка" id="1800">
 										<Title formatted="false">
@@ -678,7 +669,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаБизнесПроцессыИЗадачиРасширеннаяПодсказка" id="1698"/>
 			<ChildItems>
@@ -720,7 +711,7 @@
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИспользоватьБизнесПроцессыИЗадачиКонтекстноеМеню" id="751"/>
 									<ExtendedTooltip name="ИспользоватьБизнесПроцессыИЗадачиРасширеннаяПодсказка" id="1679">
 										<Title formatted="false">
@@ -854,7 +845,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьПодчиненныеБизнесПроцессыКонтекстноеМеню" id="1602"/>
 									<ExtendedTooltip name="ИспользоватьПодчиненныеБизнесПроцессыРасширеннаяПодсказка" id="1685"/>
 									<Events>
@@ -889,7 +879,7 @@
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИзменятьЗаданияЗаднимЧисломКонтекстноеМеню" id="767"/>
 									<ExtendedTooltip name="ИзменятьЗаданияЗаднимЧисломРасширеннаяПодсказка" id="1688">
 										<Title formatted="false">
@@ -956,7 +946,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьДатуНачалаЗадачКонтекстноеМеню" id="762"/>
 									<ExtendedTooltip name="ИспользоватьДатуНачалаЗадачРасширеннаяПодсказка" id="1692"/>
 									<Events>
@@ -990,7 +979,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьДатуИВремяВСрокахЗадачКонтекстноеМеню" id="758"/>
 									<ExtendedTooltip name="ИспользоватьДатуИВремяВСрокахЗадачРасширеннаяПодсказка" id="1695">
 										<Title formatted="false">
@@ -1062,7 +1050,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="МониторингЗадачИспользованиеКонтекстноеМеню" id="1730"/>
 											<ExtendedTooltip name="МониторингЗадачИспользованиеРасширеннаяПодсказка" id="1731"/>
 											<Events>
@@ -1146,7 +1133,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УведомлениеИсполнителейОНовыхЗадачахИспользованиеКонтекстноеМеню" id="1743"/>
 											<ExtendedTooltip name="УведомлениеИсполнителейОНовыхЗадачахИспользованиеРасширеннаяПодсказка" id="1744"/>
 											<Events>
@@ -1194,7 +1180,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<ExtendedTooltip name="ГруппаИнцидентыРасширеннаяПодсказка" id="1821"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаИспользоватьИнциденты" id="1822">
@@ -1229,7 +1215,7 @@
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИспользоватьИнцидентыКонтекстноеМеню" id="1825"/>
 							<ExtendedTooltip name="ИспользоватьИнцидентыРасширеннаяПодсказка" id="1826">
 								<Title formatted="false">

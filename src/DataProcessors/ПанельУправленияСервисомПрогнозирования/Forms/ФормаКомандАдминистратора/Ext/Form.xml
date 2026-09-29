@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -121,8 +121,8 @@
 								<Table name="ВыгружаемыеКоллекции" id="24">
 									<Representation>List</Representation>
 									<Header>false</Header>
-									<HorizontalLines>false</HorizontalLines>
-									<VerticalLines>false</VerticalLines>
+									<HorizontalLinesBWA>false</HorizontalLinesBWA>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<DataPath>ВыгружаемыеКоллекции</DataPath>
 									<RowPictureDataPath>ВыгружаемыеКоллекции.Picture</RowPictureDataPath>
@@ -196,7 +196,7 @@
 										<CheckBoxField name="ВыгружаемыеКоллекцииПометка" id="47">
 											<DataPath>ВыгружаемыеКоллекции.Check</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ВыгружаемыеКоллекцииПометкаКонтекстноеМеню" id="48"/>
 											<ExtendedTooltip name="ВыгружаемыеКоллекцииПометкаРасширеннаяПодсказка" id="49"/>
 										</CheckBoxField>
@@ -204,6 +204,7 @@
 											<DataPath>ВыгружаемыеКоллекции.Value</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ВыгружаемыеКоллекцииЗначениеКонтекстноеМеню" id="38"/>
 											<ExtendedTooltip name="ВыгружаемыеКоллекцииЗначениеРасширеннаяПодсказка" id="39"/>
 										</InputField>
@@ -490,7 +491,7 @@
 											<DataPath>КоллекцииНаСервере.Пометка</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КоллекцииНаСервереПометкаКонтекстноеМеню" id="70"/>
 											<ExtendedTooltip name="КоллекцииНаСервереПометкаРасширеннаяПодсказка" id="71"/>
 										</CheckBoxField>
@@ -504,6 +505,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КоллекцииНаСервереПредставлениеКоллекцииКонтекстноеМеню" id="76"/>
 											<ExtendedTooltip name="КоллекцииНаСервереПредставлениеКоллекцииРасширеннаяПодсказка" id="77"/>
 										</InputField>
@@ -511,6 +513,7 @@
 											<DataPath>КоллекцииНаСервере.ИдентификаторКоллекции</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КоллекцииНаСервереИдентификаторКоллекцииКонтекстноеМеню" id="82"/>
 											<ExtendedTooltip name="КоллекцииНаСервереИдентификаторКоллекцииРасширеннаяПодсказка" id="83"/>
 										</InputField>
@@ -518,6 +521,7 @@
 											<DataPath>КоллекцииНаСервере.ИмяВСервисе</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="КоллекцииНаСервереИмяКоллекцииКонтекстноеМеню" id="73"/>
 											<ExtendedTooltip name="КоллекцииНаСервереИмяКоллекцииРасширеннаяПодсказка" id="74"/>
 										</InputField>
@@ -543,6 +547,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КоллекцииНаСервереКоличествоДанныхКонтекстноеМеню" id="79"/>
 													<ExtendedTooltip name="КоллекцииНаСервереКоличествоДанныхРасширеннаяПодсказка" id="80"/>
 												</InputField>
@@ -556,6 +561,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КоллекцииНаСервереКоличествоВСервисеПриПоследнейВыгрузкеКонтекстноеМеню" id="120"/>
 													<ExtendedTooltip name="КоллекцииНаСервереКоличествоВСервисеПриПоследнейВыгрузкеРасширеннаяПодсказка" id="121"/>
 												</InputField>
@@ -569,6 +575,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КоллекцииНаСервереКоличествоВИсточникеПриПоследнейВыгрузкеКонтекстноеМеню" id="123"/>
 													<ExtendedTooltip name="КоллекцииНаСервереКоличествоВИсточникеПриПоследнейВыгрузкеРасширеннаяПодсказка" id="124"/>
 												</InputField>
@@ -991,36 +998,42 @@
 												<InputField name="ИсторияОбученияОбъект" id="207">
 													<DataPath>ИсторияОбучения.Объект</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияОбъектКонтекстноеМеню" id="208"/>
 													<ExtendedTooltip name="ИсторияОбученияОбъектРасширеннаяПодсказка" id="209"/>
 												</InputField>
 												<InputField name="ИсторияОбученияДата" id="255">
 													<DataPath>ИсторияОбучения.Дата</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияДатаКонтекстноеМеню" id="256"/>
 													<ExtendedTooltip name="ИсторияОбученияДатаРасширеннаяПодсказка" id="257"/>
 												</InputField>
 												<InputField name="ИсторияОбученияСклад" id="204">
 													<DataPath>ИсторияОбучения.Склад</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСкладКонтекстноеМеню" id="205"/>
 													<ExtendedTooltip name="ИсторияОбученияСкладРасширеннаяПодсказка" id="206"/>
 												</InputField>
 												<InputField name="ИсторияОбученияПартнер" id="210">
 													<DataPath>ИсторияОбучения.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияПартнерКонтекстноеМеню" id="211"/>
 													<ExtendedTooltip name="ИсторияОбученияПартнерРасширеннаяПодсказка" id="212"/>
 												</InputField>
 												<InputField name="ИсторияОбученияИсходноеЗначениеПродаж" id="234">
 													<DataPath>ИсторияОбучения.ИсходноеЗначениеПродаж</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияИсходноеЗначениеПродажКонтекстноеМеню" id="235"/>
 													<ExtendedTooltip name="ИсторияОбученияИсходноеЗначениеПродажРасширеннаяПодсказка" id="236"/>
 												</InputField>
 												<InputField name="ИсторияОбученияСкорректированноеЗначениеПродаж" id="231">
 													<DataPath>ИсторияОбучения.СкорректированноеЗначениеПродаж</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСкорректированноеЗначениеПродажКонтекстноеМеню" id="232"/>
 													<ExtendedTooltip name="ИсторияОбученияСкорректированноеЗначениеПродажРасширеннаяПодсказка" id="233"/>
 												</InputField>
@@ -1028,7 +1041,7 @@
 													<DataPath>ИсторияОбучения.ЯвляетсяВыбросом</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияЯвляетсяВыбросомКонтекстноеМеню" id="229"/>
 													<ExtendedTooltip name="ИсторияОбученияЯвляетсяВыбросомРасширеннаяПодсказка" id="230"/>
 												</CheckBoxField>
@@ -1036,6 +1049,7 @@
 													<DataPath>ИсторияОбучения.ЗначениеНаКотороеСкорректированВыброс</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияЗначениеНаКотороеСкорректированВыбросКонтекстноеМеню" id="238"/>
 													<ExtendedTooltip name="ИсторияОбученияЗначениеНаКотороеСкорректированВыбросРасширеннаяПодсказка" id="239"/>
 												</InputField>
@@ -1043,6 +1057,7 @@
 													<DataPath>ИсторияОбучения.КорректировкаПоОстатку</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияКорректировкаПоОстаткуКонтекстноеМеню" id="214"/>
 													<ExtendedTooltip name="ИсторияОбученияКорректировкаПоОстаткуРасширеннаяПодсказка" id="215"/>
 												</InputField>
@@ -1050,6 +1065,7 @@
 													<DataPath>ИсторияОбучения.ВерхняяГраницаВыброса</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияВерхняяГраницаВыбросаКонтекстноеМеню" id="217"/>
 													<ExtendedTooltip name="ИсторияОбученияВерхняяГраницаВыбросаРасширеннаяПодсказка" id="218"/>
 												</InputField>
@@ -1057,6 +1073,7 @@
 													<DataPath>ИсторияОбучения.НижняяГраницаВыброса</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияНижняяГраницаВыбросаКонтекстноеМеню" id="220"/>
 													<ExtendedTooltip name="ИсторияОбученияНижняяГраницаВыбросаРасширеннаяПодсказка" id="221"/>
 												</InputField>
@@ -1064,6 +1081,7 @@
 													<DataPath>ИсторияОбучения.СпособРасчетаСреднегоИСтандартногоОтклонения</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСпособРасчетаСреднегоИСтандартногоОтклоненияКонтекстноеМеню" id="223"/>
 													<ExtendedTooltip name="ИсторияОбученияСпособРасчетаСреднегоИСтандартногоОтклоненияРасширеннаяПодсказка" id="224"/>
 												</InputField>
@@ -1071,6 +1089,7 @@
 													<DataPath>ИсторияОбучения.СпособСглаживанияВыбросов</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСпособСглаживанияВыбросовКонтекстноеМеню" id="226"/>
 													<ExtendedTooltip name="ИсторияОбученияСпособСглаживанияВыбросовРасширеннаяПодсказка" id="227"/>
 												</InputField>
@@ -1078,6 +1097,7 @@
 													<DataPath>ИсторияОбучения.ОбъемНевыполненныхЗаказов</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияОбъемНевыполненныхЗаказовКонтекстноеМеню" id="241"/>
 													<ExtendedTooltip name="ИсторияОбученияОбъемНевыполненныхЗаказовРасширеннаяПодсказка" id="242"/>
 												</InputField>
@@ -1085,6 +1105,7 @@
 													<DataPath>ИсторияОбучения.Цена</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияЦенаКонтекстноеМеню" id="244"/>
 													<ExtendedTooltip name="ИсторияОбученияЦенаРасширеннаяПодсказка" id="245"/>
 												</InputField>
@@ -1092,6 +1113,7 @@
 													<DataPath>ИсторияОбучения.СтандартноеОтклонениеПоОбъекту</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСтандартноеОтклонениеПоОбъектуКонтекстноеМеню" id="247"/>
 													<ExtendedTooltip name="ИсторияОбученияСтандартноеОтклонениеПоОбъектуРасширеннаяПодсказка" id="248"/>
 												</InputField>
@@ -1099,6 +1121,7 @@
 													<DataPath>ИсторияОбучения.СтандартноеОтклонениеПоОбъектуСреднее</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСтандартноеОтклонениеПоОбъектуСреднееКонтекстноеМеню" id="250"/>
 													<ExtendedTooltip name="ИсторияОбученияСтандартноеОтклонениеПоОбъектуСреднееРасширеннаяПодсказка" id="251"/>
 												</InputField>
@@ -1112,6 +1135,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияТрендоваяКорректировкаКонтекстноеМеню" id="259"/>
 													<ExtendedTooltip name="ИсторияОбученияТрендоваяКорректировкаРасширеннаяПодсказка" id="260"/>
 												</InputField>
@@ -1125,6 +1149,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИсторияОбученияСезоннаяКорректировкаКонтекстноеМеню" id="262"/>
 													<ExtendedTooltip name="ИсторияОбученияСезоннаяКорректировкаРасширеннаяПодсказка" id="263"/>
 												</InputField>
@@ -1206,96 +1231,112 @@
 												<InputField name="КачествоМоделейПрогнозированияИмяМодели" id="446">
 													<DataPath>КачествоМоделейПрогнозирования.ИмяМодели</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияИмяМоделиКонтекстноеМеню" id="447"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияИмяМоделиРасширеннаяПодсказка" id="448"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибка" id="449">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяАбсолютнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаКонтекстноеМеню" id="450"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаРасширеннаяПодсказка" id="451"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаФинал" id="452">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяАбсолютнаяОшибкаФинал</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаФиналКонтекстноеМеню" id="453"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаФиналРасширеннаяПодсказка" id="454"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаРяды" id="455">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяАбсолютнаяОшибкаРяды</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаРядыКонтекстноеМеню" id="456"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяАбсолютнаяОшибкаРядыРасширеннаяПодсказка" id="457"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибка" id="458">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяАбсолютнаяПроцентнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаКонтекстноеМеню" id="459"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаРасширеннаяПодсказка" id="460"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаФинал" id="461">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяАбсолютнаяПроцентнаяОшибкаФинал</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаФиналКонтекстноеМеню" id="462"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаФиналРасширеннаяПодсказка" id="463"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаРяды" id="464">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяАбсолютнаяПроцентнаяОшибкаРяды</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаРядыКонтекстноеМеню" id="465"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяАбсолютнаяПроцентнаяОшибкаРядыРасширеннаяПодсказка" id="466"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибка" id="467">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяНормированнаяАбсолютнаяПроцентнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаКонтекстноеМеню" id="468"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРасширеннаяПодсказка" id="469"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаФинал" id="470">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяНормированнаяАбсолютнаяПроцентнаяОшибкаФинал</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаФиналКонтекстноеМеню" id="471"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаФиналРасширеннаяПодсказка" id="472"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРяды" id="473">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРяды</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРядыКонтекстноеМеню" id="474"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРядыРасширеннаяПодсказка" id="475"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонение" id="476">
 													<DataPath>КачествоМоделейПрогнозирования.СреднеквадратичноеОтклонение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеКонтекстноеМеню" id="477"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеРасширеннаяПодсказка" id="478"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеФинал" id="479">
 													<DataPath>КачествоМоделейПрогнозирования.СреднеквадратичноеОтклонениеФинал</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеФиналКонтекстноеМеню" id="480"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеФиналРасширеннаяПодсказка" id="481"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеРяды" id="482">
 													<DataPath>КачествоМоделейПрогнозирования.СреднеквадратичноеОтклонениеРяды</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеРядыКонтекстноеМеню" id="483"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСреднеквадратичноеОтклонениеРядыРасширеннаяПодсказка" id="484"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибка" id="485">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяСимметричнаяАбсолютнаяПроцентнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаКонтекстноеМеню" id="486"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРасширеннаяПодсказка" id="487"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаФинал" id="488">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаФинал</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаФиналКонтекстноеМеню" id="489"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаФиналРасширеннаяПодсказка" id="490"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРяды" id="491">
 													<DataPath>КачествоМоделейПрогнозирования.СредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРяды</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРядыКонтекстноеМеню" id="492"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРядыРасширеннаяПодсказка" id="493"/>
 												</InputField>
@@ -1377,84 +1418,98 @@
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамОбъект" id="564">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.Объект</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамОбъектКонтекстноеМеню" id="565"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамОбъектРасширеннаяПодсказка" id="566"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСклад" id="561">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.Склад</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСкладКонтекстноеМеню" id="562"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСкладРасширеннаяПодсказка" id="563"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамПартнер" id="567">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамПартнерКонтекстноеМеню" id="568"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамПартнерРасширеннаяПодсказка" id="569"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамИмяМодели" id="513">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.ИмяМодели</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамИмяМоделиКонтекстноеМеню" id="514"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамИмяМоделиРасширеннаяПодсказка" id="515"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяОшибка" id="516">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяАбсолютнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяОшибкаКонтекстноеМеню" id="517"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяОшибкаРасширеннаяПодсказка" id="518"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяОшибкаРяды" id="522">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяАбсолютнаяОшибкаСумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяОшибкаРядыКонтекстноеМеню" id="523"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяОшибкаРядыРасширеннаяПодсказка" id="524"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяПроцентнаяОшибка" id="525">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяАбсолютнаяПроцентнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяПроцентнаяОшибкаКонтекстноеМеню" id="526"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяПроцентнаяОшибкаРасширеннаяПодсказка" id="527"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяПроцентнаяОшибкаРяды" id="531">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяАбсолютнаяПроцентнаяОшибкаСумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяПроцентнаяОшибкаРядыКонтекстноеМеню" id="532"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяАбсолютнаяПроцентнаяОшибкаРядыРасширеннаяПодсказка" id="533"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяНормированнаяАбсолютнаяПроцентнаяОшибка" id="534">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяНормированнаяАбсолютнаяПроцентнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаКонтекстноеМеню" id="535"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРасширеннаяПодсказка" id="536"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРяды" id="540">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяНормированнаяАбсолютнаяПроцентнаяОшибкаСумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРядыКонтекстноеМеню" id="541"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяНормированнаяАбсолютнаяПроцентнаяОшибкаРядыРасширеннаяПодсказка" id="542"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСреднеквадратичноеОтклонение" id="543">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СреднеквадратичноеОтклонение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСреднеквадратичноеОтклонениеКонтекстноеМеню" id="544"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСреднеквадратичноеОтклонениеРасширеннаяПодсказка" id="545"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСреднеквадратичноеОтклонениеРяды" id="549">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СреднеквадратичноеОтклонениеСумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСреднеквадратичноеОтклонениеРядыКонтекстноеМеню" id="550"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСреднеквадратичноеОтклонениеРядыРасширеннаяПодсказка" id="551"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяСимметричнаяАбсолютнаяПроцентнаяОшибка" id="552">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяСимметричнаяАбсолютнаяПроцентнаяОшибка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаКонтекстноеМеню" id="553"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРасширеннаяПодсказка" id="554"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРяды" id="558">
 													<DataPath>КачествоМоделейПрогнозированияПоВсемПериодам.СредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаСумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРядыКонтекстноеМеню" id="559"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоВсемПериодамСредняяСимметричнаяАбсолютнаяПроцентнаяОшибкаРядыРасширеннаяПодсказка" id="560"/>
 												</InputField>
@@ -1537,54 +1592,63 @@
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамОбъект" id="589">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.Объект</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамОбъектКонтекстноеМеню" id="590"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамОбъектРасширеннаяПодсказка" id="591"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамДата" id="598">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.Дата</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамДатаКонтекстноеМеню" id="599"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамДатаРасширеннаяПодсказка" id="600"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамСклад" id="586">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.Склад</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамСкладКонтекстноеМеню" id="587"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамСкладРасширеннаяПодсказка" id="588"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамПартнер" id="592">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамПартнерКонтекстноеМеню" id="593"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамПартнерРасширеннаяПодсказка" id="594"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамКоррекция" id="625">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.Коррекция</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамКоррекцияКонтекстноеМеню" id="626"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамКоррекцияРасширеннаяПодсказка" id="627"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамНаивнаяМодель" id="619">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.НаивнаяМодель</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамНаивнаяМодельКонтекстноеМеню" id="620"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамНаивнаяМодельРасширеннаяПодсказка" id="621"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамМодель1с" id="601">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.Модель1с</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамМодель1сКонтекстноеМеню" id="602"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамМодель1сРасширеннаяПодсказка" id="603"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамСквозноеТрендовоеРазложение" id="604">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.СквозноеТрендовоеРазложение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамСквозноеТрендовоеРазложениеКонтекстноеМеню" id="605"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамСквозноеТрендовоеРазложениеРасширеннаяПодсказка" id="606"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамТрендовоеРазложение" id="607">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.ТрендовоеРазложение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамТрендовоеРазложениеКонтекстноеМеню" id="608"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамТрендовоеРазложениеРасширеннаяПодсказка" id="609"/>
 												</InputField>
@@ -1596,36 +1660,42 @@
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамЭкспоненциальноеСглаживание" id="613">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.ЭкспоненциальноеСглаживание</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамЭкспоненциальноеСглаживаниеКонтекстноеМеню" id="614"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамЭкспоненциальноеСглаживаниеРасширеннаяПодсказка" id="615"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамЛогарифмЭкспоненциальногоСглаживания" id="616">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.ЛогарифмЭкспоненциальногоСглаживания</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамЛогарифмЭкспоненциальногоСглаживанияКонтекстноеМеню" id="617"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамЛогарифмЭкспоненциальногоСглаживанияРасширеннаяПодсказка" id="618"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамРекуррентнаяНейроннаяСеть" id="628">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.РекуррентнаяНейроннаяСеть</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамРекуррентнаяНейроннаяСетьКонтекстноеМеню" id="629"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамРекуррентнаяНейроннаяСетьРасширеннаяПодсказка" id="630"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамСкользящееСреднее" id="631">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.СкользящееСреднее</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамСкользящееСреднееКонтекстноеМеню" id="632"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамСкользящееСреднееРасширеннаяПодсказка" id="633"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамЛогарифмСкользящегоСреднего" id="634">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.ЛогарифмСкользящегоСреднего</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамЛогарифмСкользящегоСреднегоКонтекстноеМеню" id="635"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамЛогарифмСкользящегоСреднегоРасширеннаяПодсказка" id="636"/>
 												</InputField>
 												<InputField name="КачествоМоделейПрогнозированияПоПериодамСредняяСезонность" id="637">
 													<DataPath>КачествоМоделейПрогнозированияПоПериодам.СредняяСезонность</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="КачествоМоделейПрогнозированияПоПериодамСредняяСезонностьКонтекстноеМеню" id="638"/>
 													<ExtendedTooltip name="КачествоМоделейПрогнозированияПоПериодамСредняяСезонностьРасширеннаяПодсказка" id="639"/>
 												</InputField>

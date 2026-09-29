@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -284,12 +284,14 @@
 												<InputField name="Наименование" id="4">
 													<DataPath>Объект.Description</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 													<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 												</InputField>
 												<InputField name="Код" id="1">
 													<DataPath>Объект.Code</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>15</MaxWidth>
 													<ContextMenu name="КодКонтекстноеМеню" id="2"/>
@@ -372,8 +374,8 @@
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<MaxHeight>5</MaxHeight>
 													<Header>false</Header>
-													<HorizontalLines>false</HorizontalLines>
-													<VerticalLines>false</VerticalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
+													<VerticalLinesBWA>false</VerticalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<HorizontalStretch>false</HorizontalStretch>
 													<VerticalStretch>false</VerticalStretch>
@@ -438,6 +440,7 @@
 															<DataPath>ОбъектыКонфигурацииНаименования.Value</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ОбъектыКонфигурацииНаименованияЗначениеКонтекстноеМеню" id="177"/>
 															<ExtendedTooltip name="ОбъектыКонфигурацииНаименованияЗначениеРасширеннаяПодсказка" id="178"/>
 														</InputField>
@@ -476,8 +479,8 @@
 													<ChangeRowOrder>false</ChangeRowOrder>
 													<Width>59</Width>
 													<Header>false</Header>
-													<HorizontalLines>false</HorizontalLines>
-													<VerticalLines>false</VerticalLines>
+													<HorizontalLinesBWA>false</HorizontalLinesBWA>
+													<VerticalLinesBWA>false</VerticalLinesBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<HorizontalStretch>false</HorizontalStretch>
 													<VerticalStretch>false</VerticalStretch>
@@ -542,6 +545,7 @@
 															<DataPath>Исполнители.Value</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ИсполнителиЗначениеКонтекстноеМеню" id="195"/>
 															<ExtendedTooltip name="ИсполнителиЗначениеРасширеннаяПодсказка" id="196"/>
 														</InputField>
@@ -706,7 +710,7 @@
 					</ToolTip>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДополнительноРасширеннаяПодсказка" id="27"/>
 					<ChildItems>
@@ -724,7 +728,7 @@
 								</v8:item>
 							</ToolTip>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСвязанныеОбъектыРасширеннаяПодсказка" id="100"/>
@@ -838,6 +842,7 @@
 										<InputField name="СвязанныеОбъектыОбъектМетаданных" id="114">
 											<DataPath>Объект.ОбъектыКонфигурации.ОбъектКонфигурации</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СвязанныеОбъектыОбъектМетаданныхКонтекстноеМеню" id="115"/>
 											<ExtendedTooltip name="СвязанныеОбъектыОбъектМетаданныхРасширеннаяПодсказка" id="116"/>
 										</InputField>
@@ -859,7 +864,7 @@
 								</v8:item>
 							</ToolTip>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПрофилиГруппДоступаРасширеннаяПодсказка" id="79"/>
@@ -973,6 +978,7 @@
 										<InputField name="ПрофилиГруппДоступаПрофиль" id="96">
 											<DataPath>Объект.ПрофилиГруппДоступа.Профиль</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПрофилиГруппДоступаПрофильКонтекстноеМеню" id="97"/>
 											<ExtendedTooltip name="ПрофилиГруппДоступаПрофильРасширеннаяПодсказка" id="98"/>
 										</InputField>
@@ -990,6 +996,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
@@ -1004,7 +1011,7 @@
 							</Title>
 							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="52"/>

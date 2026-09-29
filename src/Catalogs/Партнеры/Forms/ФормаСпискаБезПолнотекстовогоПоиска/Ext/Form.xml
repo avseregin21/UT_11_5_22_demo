@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -119,7 +120,7 @@
 						<Table name="Список" id="46">
 							<SkipOnInput>false</SkipOnInput>
 							<VerticalScrollBar>UseAlways</VerticalScrollBar>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
@@ -460,7 +461,6 @@
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КлиентКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="285"/>
 								</CheckBoxField>
@@ -469,7 +469,6 @@
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоставщикКонтекстноеМеню" id="62"/>
 									<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="286"/>
 								</CheckBoxField>
@@ -478,7 +477,6 @@
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонкурентКонтекстноеМеню" id="60"/>
 									<ExtendedTooltip name="КонкурентРасширеннаяПодсказка" id="287"/>
 								</CheckBoxField>
@@ -487,7 +485,6 @@
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПрочиеОтношенияКонтекстноеМеню" id="64"/>
 									<ExtendedTooltip name="ПрочиеОтношенияРасширеннаяПодсказка" id="288"/>
 								</CheckBoxField>
@@ -690,7 +687,7 @@
 							</Title>
 							<Group>Horizontal</Group>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЛокализацияГруппаЛегендаРасширеннаяПодсказка" id="478"/>
@@ -1042,7 +1039,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьФильтрКонтекстноеМеню" id="192"/>
 											<ExtendedTooltip name="ИспользоватьФильтрРасширеннаяПодсказка" id="305"/>
 											<Events>
@@ -1069,7 +1065,6 @@
 								<CheckBoxField name="ТолькоЗначимые" id="228">
 									<DataPath>ТолькоЗначимые</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоЗначимыеКонтекстноеМеню" id="229"/>
 									<ExtendedTooltip name="ТолькоЗначимыеРасширеннаяПодсказка" id="307"/>
 									<Events>
@@ -1101,7 +1096,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<RowSelectionMode>Row</RowSelectionMode>
 											<Header>false</Header>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -1192,7 +1187,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<RowSelectionMode>Row</RowSelectionMode>
 											<Header>false</Header>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -1283,7 +1278,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<RowSelectionMode>Row</RowSelectionMode>
 											<Header>false</Header>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -1448,6 +1443,7 @@
 														<InputField name="СвойстваПредставление" id="238">
 															<DataPath>Свойства.Представление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="СвойстваПредставлениеКонтекстноеМеню" id="239"/>
 															<ExtendedTooltip name="СвойстваПредставлениеРасширеннаяПодсказка" id="321"/>
@@ -1455,6 +1451,7 @@
 														<PictureField name="СвойстваНомерКартинки" id="236">
 															<DataPath>Свойства.НомерКартинки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="СвойстваНомерКартинкиКонтекстноеМеню" id="237"/>
 															<ExtendedTooltip name="СвойстваНомерКартинкиРасширеннаяПодсказка" id="322"/>
@@ -1480,7 +1477,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<RowSelectionMode>Row</RowSelectionMode>
 											<Header>false</Header>
-											<HorizontalLines>false</HorizontalLines>
+											<HorizontalLinesBWA>false</HorizontalLinesBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
@@ -1559,12 +1556,14 @@
 														<InputField name="КатегорииПредставление" id="246">
 															<DataPath>Категории.Представление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="КатегорииПредставлениеКонтекстноеМеню" id="247"/>
 															<ExtendedTooltip name="КатегорииПредставлениеРасширеннаяПодсказка" id="326"/>
 														</InputField>
 														<PictureField name="КатегорииНомерКартинки" id="250">
 															<DataPath>Категории.НомерКартинки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="КатегорииНомерКартинкиКонтекстноеМеню" id="251"/>
 															<ExtendedTooltip name="КатегорииНомерКартинкиРасширеннаяПодсказка" id="327"/>
@@ -1593,7 +1592,6 @@
 								<CheckBoxField name="ТолькоМои" id="35">
 									<DataPath>ТолькоМои</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоМоиКонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="ТолькоМоиРасширеннаяПодсказка" id="329"/>
 									<Events>

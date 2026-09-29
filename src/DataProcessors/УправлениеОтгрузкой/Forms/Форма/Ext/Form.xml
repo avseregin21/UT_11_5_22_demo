@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -34,6 +34,7 @@
 						</v8:item>
 					</ToolTip>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>24</MaxWidth>
 					<ClearButton>false</ClearButton>
@@ -440,6 +441,8 @@
 										<LabelField name="РаспоряженияНаОтгрузкуРаспоряжениеНомер" id="628">
 											<DataPath>РаспоряженияНаОтгрузку.Номер</DataPath>
 											<CellHyperlink>true</CellHyperlink>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РаспоряженияНаОтгрузкуРаспоряжениеНомерКонтекстноеМеню" id="629"/>
@@ -459,6 +462,9 @@
 											<DataPath>РаспоряженияНаОтгрузку.Состояние</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Hiperlink>true</Hiperlink>
 											<TextColor>style:ДосьеГиперссылкаЦвет</TextColor>
 											<Font ref="style:NormalTextFont" bold="false" italic="false" underline="true" strikeout="false" kind="StyleItem"/>
@@ -850,7 +856,7 @@
 								<Table name="ОрдераВРаботе" id="182">
 									<SkipOnInput>false</SkipOnInput>
 									<HeightInTableRows>5</HeightInTableRows>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<EnableStartDrag>true</EnableStartDrag>
 									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ОрдераВРаботе</DataPath>
@@ -1012,7 +1018,6 @@
 												<CheckBoxField name="ОрдераВРаботеОтгрузкаПоЗаданиюНаПеревозку" id="778">
 													<DataPath>ОрдераВРаботе.ОтгрузкаПоЗаданиюНаПеревозку</DataPath>
 													<ShowInHeader>false</ShowInHeader>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОрдераВРаботеОтгрузкаПоЗаданиюНаПеревозкуКонтекстноеМеню" id="779"/>
 													<ExtendedTooltip name="ОрдераВРаботеОтгрузкаПоЗаданиюНаПеревозкуРасширеннаяПодсказка" id="780"/>
 												</CheckBoxField>
@@ -1417,6 +1422,7 @@
 													<DataPath>РаспоряженияНаОтбор.ИндексКартинки</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.ПодчиненныйЭлементГруппа</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1434,6 +1440,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>20</Width>
 													<ContextMenu name="РаспоряженияНаОтборТипДокументаКонтекстноеМеню" id="490"/>
 													<ExtendedTooltip name="РаспоряженияНаОтборТипДокументаРасширеннаяПодсказка" id="580"/>
@@ -1444,6 +1451,9 @@
 											<DataPath>РаспоряженияНаОтбор.Номер</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ContextMenu name="РаспоряженияНаОтборНомерКонтекстноеМеню" id="433"/>
 											<ExtendedTooltip name="РаспоряженияНаОтборНомерРасширеннаяПодсказка" id="581"/>
@@ -1454,6 +1464,7 @@
 										<LabelField name="РаспоряженияНаОтборДатаОтгрузки" id="434">
 											<DataPath>РаспоряженияНаОтбор.ДатаОтгрузки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>13</Width>
 											<ContextMenu name="РаспоряженияНаОтборДатаОтгрузкиКонтекстноеМеню" id="435"/>
 											<ExtendedTooltip name="РаспоряженияНаОтборДатаОтгрузкиРасширеннаяПодсказка" id="582"/>
@@ -1461,6 +1472,7 @@
 										<InputField name="РаспоряженияНаОтборПриоритет" id="454">
 											<DataPath>РаспоряженияНаОтбор.Приоритет</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="РаспоряженияНаОтборПриоритетКонтекстноеМеню" id="455"/>
 											<ExtendedTooltip name="РаспоряженияНаОтборПриоритетРасширеннаяПодсказка" id="583"/>
@@ -1469,6 +1481,9 @@
 											<DataPath>РаспоряженияНаОтбор.Состояние</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Hiperlink>true</Hiperlink>
 											<TextColor>style:ДосьеГиперссылкаЦвет</TextColor>
 											<ContextMenu name="РаспоряженияНаОтборСостояниеКонтекстноеМеню" id="431"/>
@@ -1477,12 +1492,14 @@
 										<LabelField name="РаспоряженияНаОтборЗонаОтгрузки" id="436">
 											<DataPath>РаспоряженияНаОтбор.ЗонаОтгрузки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РаспоряженияНаОтборЗонаОтгрузкиКонтекстноеМеню" id="437"/>
 											<ExtendedTooltip name="РаспоряженияНаОтборЗонаОтгрузкиРасширеннаяПодсказка" id="585"/>
 										</LabelField>
 										<LabelField name="РаспоряженияНаОтборКомментарий" id="438">
 											<DataPath>РаспоряженияНаОтбор.Комментарий</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РаспоряженияНаОтборКомментарийКонтекстноеМеню" id="439"/>
 											<ExtendedTooltip name="РаспоряженияНаОтборКомментарийРасширеннаяПодсказка" id="586"/>
 										</LabelField>
@@ -1498,6 +1515,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РаспоряженияНаОтборРаспоряжениеКонтекстноеМеню" id="429"/>
 											<ExtendedTooltip name="РаспоряженияНаОтборРаспоряжениеРасширеннаяПодсказка" id="587"/>
 										</LabelField>
@@ -1641,7 +1659,7 @@
 								<Table name="ЗаданияВРаботе" id="201">
 									<SkipOnInput>false</SkipOnInput>
 									<HeightInTableRows>5</HeightInTableRows>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<EnableStartDrag>true</EnableStartDrag>
 									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ЗаданияВРаботе</DataPath>

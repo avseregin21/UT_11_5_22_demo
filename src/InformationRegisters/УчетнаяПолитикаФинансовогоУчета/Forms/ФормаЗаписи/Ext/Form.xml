@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Учетная политика финансового учета</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -220,7 +220,6 @@
 							<DataPath>Запись.ДетализироватьМатериальныеИПостатейныеЗатратыВСебестоимостиТоваров</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ДетализироватьМатериальныеИПостатейныеЗатратыВСебестоимостиТоваровКонтекстноеМеню" id="181"/>
 							<ExtendedTooltip name="ДетализироватьМатериальныеИПостатейныеЗатратыВСебестоимостиТоваровРасширеннаяПодсказка" id="182">
 								<Title formatted="false">
@@ -235,7 +234,6 @@
 							<DataPath>Запись.НеВестиДетализациюДоДокументовПоступления</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НеВестиДетализациюДоДокументовПоступленияКонтекстноеМеню" id="423"/>
 							<ExtendedTooltip name="НеВестиДетализациюДоДокументовПоступленияРасширеннаяПодсказка" id="424">
 								<Title formatted="false">
@@ -289,7 +287,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗаписьДетализироватьОтклоненияПоНаправлениямДеятельностиКонтекстноеМеню" id="403"/>
 									<ExtendedTooltip name="ЗаписьДетализироватьОтклоненияПоНаправлениямДеятельностиРасширеннаяПодсказка" id="402"/>
 								</CheckBoxField>
@@ -302,7 +299,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗаписьДетализироватьОтклоненияПоПодразделениямКонтекстноеМеню" id="406"/>
 									<ExtendedTooltip name="ЗаписьДетализироватьОтклоненияПоПодразделениямРасширеннаяПодсказка" id="405"/>
 								</CheckBoxField>
@@ -315,7 +311,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗаписьДетализироватьОтклоненияПоСкладамКонтекстноеМеню" id="409"/>
 									<ExtendedTooltip name="ЗаписьДетализироватьОтклоненияПоСкладамРасширеннаяПодсказка" id="408"/>
 								</CheckBoxField>
@@ -506,7 +501,6 @@
 										<CheckBoxField name="ЗаписьУчетДисконтированнойКредиторскойЗадолженностиПоставщикам" id="170">
 											<DataPath>Запись.УчетДисконтированнойКредиторскойЗадолженностиПоставщикам</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗаписьУчетДисконтированнойКредиторскойЗадолженностиПоставщикамКонтекстноеМеню" id="130"/>
 											<ExtendedTooltip name="ЗаписьУчетДисконтированнойКредиторскойЗадолженностиПоставщикамРасширеннаяПодсказка" id="131"/>
 											<Events>
@@ -661,7 +655,6 @@
 													<v8:content>Сумма резерва определяется в соответствии с порядком оценки задолженности</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ФормироватьРезервыПоСомнительнымДолгамКонтекстноеМеню" id="300"/>
 											<ExtendedTooltip name="ФормироватьРезервыПоСомнительнымДолгамРасширеннаяПодсказка" id="301"/>
 											<Events>
@@ -1044,7 +1037,6 @@
 						<CheckBoxField name="ЗаписьУчетАрендыПоФСБУ25_2018" id="118">
 							<DataPath>Запись.УчетАрендыПоФСБУ25_2018</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаписьУчетАрендыПоФСБУ25_2018КонтекстноеМеню" id="119"/>
 							<ExtendedTooltip name="ЗаписьУчетАрендыПоФСБУ25_2018РасширеннаяПодсказка" id="96"/>
 							<Events>
@@ -1787,7 +1779,6 @@
 										<CheckBoxField name="ЗаписьПризнаватьРасходыПоИсследованиям" id="53">
 											<DataPath>Запись.ПризнаватьРасходыПоИсследованиям</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗаписьПризнаватьРасходыПоИсследованиямКонтекстноеМеню" id="54"/>
 											<ExtendedTooltip name="ЗаписьПризнаватьРасходыПоИсследованиямРасширеннаяПодсказка" id="55"/>
 											<Events>
@@ -2007,7 +1998,6 @@
 								<CheckBoxField name="ЗаписьУчетДисконтированияРезервовПредстоящихРасходов" id="332">
 									<DataPath>Запись.УчетДисконтированияРезервовПредстоящихРасходов</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗаписьУчетДисконтированияРезервовПредстоящихРасходовКонтекстноеМеню" id="333"/>
 									<ExtendedTooltip name="ЗаписьУчетДисконтированияРезервовПредстоящихРасходовРасширеннаяПодсказка" id="334"/>
 									<Events>
@@ -2084,7 +2074,6 @@
 						<CheckBoxField name="ИспользоватьВыделениеДолгосрочныхАктивовОбязательств" id="91">
 							<DataPath>Запись.ИспользоватьВыделениеДолгосрочныхАктивовОбязательств</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьВыделениеДолгосрочныхАктивовОбязательствКонтекстноеМеню" id="92"/>
 							<ExtendedTooltip name="ИспользоватьВыделениеДолгосрочныхАктивовОбязательствРасширеннаяПодсказка" id="93"/>
 							<Events>

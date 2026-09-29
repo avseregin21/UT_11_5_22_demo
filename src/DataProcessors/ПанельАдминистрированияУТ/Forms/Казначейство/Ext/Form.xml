@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -107,7 +107,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаНастройкиДенежныхСредствРасширеннаяПодсказка" id="2333"/>
@@ -162,7 +162,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьНесколькоРасчетныхСчетовКонтекстноеМеню" id="2080"/>
 											<ExtendedTooltip name="ИспользоватьНесколькоРасчетныхСчетовРасширеннаяПодсказка" id="2342"/>
 											<Events>
@@ -255,7 +254,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьНесколькоКассКонтекстноеМеню" id="2065"/>
 											<ExtendedTooltip name="ИспользоватьНесколькоКассРасширеннаяПодсказка" id="2335"/>
 											<Events>
@@ -350,7 +348,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОплатуПлатежнымиКартамиКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ИспользоватьОплатуПлатежнымиКартамиРасширеннаяПодсказка" id="2375">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -403,7 +400,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьДоговорыКредитовИДепозитовКонтекстноеМеню" id="2041"/>
 											<ExtendedTooltip name="ИспользоватьДоговорыКредитовИДепозитовРасширеннаяПодсказка" id="2379">
 												<MaxWidth>86</MaxWidth>
@@ -465,7 +461,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="МеждународныеБанковскиеРеквизитыКонтекстноеМеню" id="2646"/>
 											<ExtendedTooltip name="МеждународныеБанковскиеРеквизитыРасширеннаяПодсказка" id="2647"/>
 											<Events>
@@ -496,7 +491,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьВалютныеПлатежиКонтекстноеМеню" id="2536"/>
 											<ExtendedTooltip name="ИспользоватьВалютныеПлатежиРасширеннаяПодсказка" id="2537">
 												<MaxWidth>86</MaxWidth>
@@ -553,7 +547,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<TitleHeight>1</TitleHeight>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПеречислятьЗарплатуЧерезПромежуточныйСчетПереводыВПутиКонтекстноеМеню" id="2674"/>
 									<ExtendedTooltip name="ПеречислятьЗарплатуЧерезПромежуточныйСчетПереводыВПутиРасширеннаяПодсказка" id="2675"/>
 									<Events>
@@ -647,7 +640,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьВыплатыСамозанятымКонтекстноеМеню" id="2690"/>
 							<ExtendedTooltip name="ИспользоватьВыплатыСамозанятымРасширеннаяПодсказка" id="2691">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -677,7 +669,7 @@
 			<Group>Horizontal</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаУправлениеРасчетамиРасширеннаяПодсказка" id="2348"/>
@@ -718,7 +710,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьЗаявкиНаРасходованиеДенежныхСредствКонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="ИспользоватьЗаявкиНаРасходованиеДенежныхСредствРасширеннаяПодсказка" id="2351">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -828,7 +819,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьЛимитыРасходаДенежныхСредствПоОрганизациямКонтекстноеМеню" id="2245"/>
 											<ExtendedTooltip name="ИспользоватьЛимитыРасходаДенежныхСредствПоОрганизациямРасширеннаяПодсказка" id="2361">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -886,7 +876,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьЛимитыРасходаДенежныхСредствПоПодразделениямКонтекстноеМеню" id="2253"/>
 											<ExtendedTooltip name="ИспользоватьЛимитыРасходаДенежныхСредствПоПодразделениямРасширеннаяПодсказка" id="2366">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -948,7 +937,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КонтролироватьПревышениеЛимитовРасходаДенежныхСредствКонтекстноеМеню" id="2261"/>
 											<ExtendedTooltip name="КонтролироватьПревышениеЛимитовРасходаДенежныхСредствРасширеннаяПодсказка" id="2371">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -1126,7 +1114,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаАвансовыеОтчетыРасширеннаяПодсказка" id="2458"/>
 			<ChildItems>
@@ -1161,7 +1149,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РежимПечатиЕдиногоАвансовогоОтчетаКонтекстноеМеню" id="2589"/>
 							<ExtendedTooltip name="РежимПечатиЕдиногоАвансовогоОтчетаРасширеннаяПодсказка" id="2590"/>
 							<Events>
@@ -1221,7 +1208,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыАвансовыхОтчетовКонтекстноеМеню" id="2460"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыАвансовыхОтчетовРасширеннаяПодсказка" id="2461">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1256,7 +1242,6 @@
 									<DataPath>НаборКонстант.КонтролироватьВыдачуПодОтчетВРазрезеЦелей</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонтролироватьВыдачуПодОтчетВРазрезеЦелейКонтекстноеМеню" id="2466"/>
 									<ExtendedTooltip name="КонтролироватьВыдачуПодОтчетВРазрезеЦелейРасширеннаяПодсказка" id="2467">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1299,7 +1284,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьДоверенностиНаПолучениеТМЦКонтекстноеМеню" id="2410"/>
 							<ExtendedTooltip name="ИспользоватьДоверенностиНаПолучениеТМЦРасширеннаяПодсказка" id="2411">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1347,7 +1331,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьЗаявкиНаКомандировкуКонтекстноеМеню" id="2635"/>
 							<ExtendedTooltip name="ИспользоватьЗаявкиНаКомандировкуРасширеннаяПодсказка" id="2636">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1451,7 +1434,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаВзаиморасчетыРасширеннаяПодсказка" id="2547"/>
 			<ChildItems>
@@ -1493,7 +1476,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьНесколькоКлассификацийЗадолженностиКонтекстноеМеню" id="2697"/>
 									<ExtendedTooltip name="ИспользоватьНесколькоКлассификацийЗадолженностиРасширеннаяПодсказка" id="2698">
 										<Title formatted="false">
@@ -1611,7 +1593,6 @@
 									<TitleLocation>Right</TitleLocation>
 									<TitleHeight>2</TitleHeight>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АктуализироватьВзаиморасчетыВДокументахКонтекстноеМеню" id="2553"/>
 									<ExtendedTooltip name="АктуализироватьВзаиморасчетыВДокументахРасширеннаяПодсказка" id="2554">
 										<Title formatted="false">
@@ -1652,7 +1633,6 @@
 									<TitleLocation>Right</TitleLocation>
 									<TitleHeight>2</TitleHeight>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АктуализироватьВзаиморасчетыВОтчетахКонтекстноеМеню" id="2558"/>
 									<ExtendedTooltip name="АктуализироватьВзаиморасчетыВОтчетахРасширеннаяПодсказка" id="2559">
 										<Title formatted="false">
@@ -1890,7 +1870,6 @@
 									<TitleLocation>Right</TitleLocation>
 									<TitleHeight>1</TitleHeight>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РаспределятьПлановыеРасчетыФоновымЗаданиемКонтекстноеМеню" id="2640"/>
 									<ExtendedTooltip name="РаспределятьПлановыеРасчетыФоновымЗаданиемРасширеннаяПодсказка" id="2641">
 										<Title formatted="false">
@@ -1915,7 +1894,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонтролироватьОстаткиАвансовКонтекстноеМеню" id="2710"/>
 									<ExtendedTooltip name="КонтролироватьОстаткиАвансовРасширеннаяПодсказка" id="2711"/>
 									<Events>
@@ -2021,7 +1999,7 @@
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаПереоценкаРасширеннаяПодсказка" id="2573"/>
 			<ChildItems>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗаписатьИЗакрыть" id="231">
@@ -215,6 +215,7 @@
 												<InputField name="РежимВыполнения" id="39">
 													<DataPath>Объект.ОбработчикиОбновления[0].РежимВыполнения</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>6</Width>
 													<MaxWidth>10</MaxWidth>
 													<ListChoiceMode>true</ListChoiceMode>
@@ -322,6 +323,7 @@
 														<InputField name="РежимВыполненияОтложенных" id="496">
 															<DataPath>Объект.ОбработчикиОбновления[0].РежимВыполненияОтложенныхОбработчиков</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>6</Width>
 															<MaxWidth>10</MaxWidth>
 															<ListChoiceMode>true</ListChoiceMode>
@@ -515,49 +517,42 @@
 													<DataPath>Объект.ОбработчикиОбновления[0].ВыполнятьВГруппеОбязательных</DataPath>
 													<Visible>false</Visible>
 													<TitleLocation>Left</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОбязательныйКонтекстноеМеню" id="258"/>
 													<ExtendedTooltip name="ОбязательныйРасширеннаяПодсказка" id="259"/>
 												</CheckBoxField>
 												<CheckBoxField name="НачальноеЗаполнение" id="263">
 													<DataPath>Объект.ОбработчикиОбновления[0].НачальноеЗаполнение</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="НачальноеЗаполнениеКонтекстноеМеню" id="264"/>
 													<ExtendedTooltip name="НачальноеЗаполнениеРасширеннаяПодсказка" id="265"/>
 												</CheckBoxField>
 												<CheckBoxField name="Многопоточный" id="88">
 													<DataPath>Объект.ОбработчикиОбновления[0].Многопоточный</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МногопоточныйКонтекстноеМеню" id="89"/>
 													<ExtendedTooltip name="МногопоточныйРасширеннаяПодсказка" id="90"/>
 												</CheckBoxField>
 												<CheckBoxField name="ЗапускатьТолькоВГлавномУзле" id="73">
 													<DataPath>Объект.ОбработчикиОбновления[0].ЗапускатьТолькоВГлавномУзле</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапускатьТолькоВГлавномУзлеКонтекстноеМеню" id="74"/>
 													<ExtendedTooltip name="ЗапускатьТолькоВГлавномУзлеРасширеннаяПодсказка" id="75"/>
 												</CheckBoxField>
 												<CheckBoxField name="ЗапускатьИВПодчиненномУзлеРИБСФильтрами" id="76">
 													<DataPath>Объект.ОбработчикиОбновления[0].ЗапускатьИВПодчиненномУзлеРИБСФильтрами</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапускатьИВПодчиненномУзлеРИБСФильтрамиКонтекстноеМеню" id="77"/>
 													<ExtendedTooltip name="ЗапускатьИВПодчиненномУзлеРИБСФильтрамиРасширеннаяПодсказка" id="78"/>
 												</CheckBoxField>
 												<CheckBoxField name="ОбщиеДанные" id="82">
 													<DataPath>Объект.ОбработчикиОбновления[0].ОбщиеДанные</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОбщиеДанныеКонтекстноеМеню" id="83"/>
 													<ExtendedTooltip name="ОбщиеДанныеРасширеннаяПодсказка" id="84"/>
 												</CheckBoxField>
 												<CheckBoxField name="УправлениеОбработчиками" id="85">
 													<DataPath>Объект.ОбработчикиОбновления[0].УправлениеОбработчиками</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УправлениеОбработчикамиКонтекстноеМеню" id="86"/>
 													<ExtendedTooltip name="УправлениеОбработчикамиРасширеннаяПодсказка" id="87"/>
 												</CheckBoxField>
@@ -573,7 +568,6 @@
 															<v8:content>Обработчик технического проекта</v8:content>
 														</v8:item>
 													</ToolTip>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ТехническийПроектКонтекстноеМеню" id="782"/>
 													<ExtendedTooltip name="ТехническийПроектРасширеннаяПодсказка" id="783"/>
 												</CheckBoxField>
@@ -744,6 +738,7 @@
 												<InputField name="ЧитаемыеОбъектыНомерСтроки" id="205">
 													<DataPath>Объект.ЧитаемыеОбъекты.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>1</Width>
 													<ContextMenu name="ЧитаемыеОбъектыНомерСтрокиКонтекстноеМеню" id="206"/>
 													<ExtendedTooltip name="ЧитаемыеОбъектыНомерСтрокиРасширеннаяПодсказка" id="207"/>
@@ -762,6 +757,7 @@
 															<DataPath>Объект.ЧитаемыеОбъекты.ИндексКартинки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="ЧитаемыеОбъектыИндексКартинкиКонтекстноеМеню" id="240"/>
 															<ExtendedTooltip name="ЧитаемыеОбъектыИндексКартинкиРасширеннаяПодсказка" id="241"/>
@@ -775,6 +771,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceButton>true</ChoiceButton>
 															<ContextMenu name="ЧитаемыеОбъектыОбъектМетаданныхКонтекстноеМеню" id="209"/>
 															<ExtendedTooltip name="ЧитаемыеОбъектыОбъектМетаданныхРасширеннаяПодсказка" id="210"/>
@@ -798,6 +795,7 @@
 													<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЧитаемыеОбъектыПредупреждениеКонтекстноеМеню" id="814"/>
 													<ExtendedTooltip name="ЧитаемыеОбъектыПредупреждениеРасширеннаяПодсказка" id="815"/>
 												</PictureField>
@@ -810,7 +808,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ЧитаемыеОбъектыБлокироватьИнтерфейсКонтекстноеМеню" id="270"/>
 													<ExtendedTooltip name="ЧитаемыеОбъектыБлокироватьИнтерфейсРасширеннаяПодсказка" id="271"/>
 												</CheckBoxField>
@@ -971,6 +969,7 @@
 												<LabelField name="ИзменяемыеОбъектыНомерСтроки" id="211">
 													<DataPath>Объект.ИзменяемыеОбъекты.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>1</Width>
 													<ContextMenu name="ИзменяемыеОбъектыНомерСтрокиКонтекстноеМеню" id="212"/>
 													<ExtendedTooltip name="ИзменяемыеОбъектыНомерСтрокиРасширеннаяПодсказка" id="213"/>
@@ -989,6 +988,7 @@
 															<DataPath>Объект.ИзменяемыеОбъекты.ИндексКартинки</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="ИзменяемыеОбъектыИндексКартинкиКонтекстноеМеню" id="243"/>
 															<ExtendedTooltip name="ИзменяемыеОбъектыИндексКартинкиРасширеннаяПодсказка" id="244"/>
@@ -1002,6 +1002,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceButton>true</ChoiceButton>
 															<ContextMenu name="ИзменяемыеОбъектыОбъектМетаданныхКонтекстноеМеню" id="218"/>
 															<ExtendedTooltip name="ИзменяемыеОбъектыОбъектМетаданныхРасширеннаяПодсказка" id="219"/>
@@ -1023,7 +1024,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИзменяемыеОбъектыБлокироватьИнтерфейсКонтекстноеМеню" id="273"/>
 													<ExtendedTooltip name="ИзменяемыеОбъектыБлокироватьИнтерфейсРасширеннаяПодсказка" id="274"/>
 												</CheckBoxField>
@@ -1042,7 +1043,7 @@
 														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИзменяемыеОбъектыНовыеОбъектыКонтекстноеМеню" id="817"/>
 													<ExtendedTooltip name="ИзменяемыеОбъектыНовыеОбъектыРасширеннаяПодсказка" id="818"/>
 												</CheckBoxField>
@@ -1120,6 +1121,7 @@
 								<LabelField name="БлокируемыеОбъектыНомерСтроки" id="220">
 									<DataPath>Объект.БлокируемыеОбъекты.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="БлокируемыеОбъектыНомерСтрокиКонтекстноеМеню" id="221"/>
 									<ExtendedTooltip name="БлокируемыеОбъектыНомерСтрокиРасширеннаяПодсказка" id="222"/>
@@ -1138,6 +1140,7 @@
 											<DataPath>Объект.БлокируемыеОбъекты.ИндексКартинки</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="БлокируемыеОбъектыИндексКартинкиКонтекстноеМеню" id="249"/>
 											<ExtendedTooltip name="БлокируемыеОбъектыИндексКартинкиРасширеннаяПодсказка" id="250"/>
@@ -1151,6 +1154,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ChoiceButton>true</ChoiceButton>
 											<ContextMenu name="БлокируемыеОбъектыОбъектМетаданныхКонтекстноеМеню" id="227"/>
 											<ExtendedTooltip name="БлокируемыеОбъектыОбъектМетаданныхРасширеннаяПодсказка" id="228"/>
@@ -1322,6 +1326,7 @@
 								<LabelField name="ПриоритетыВыполненияНомерСтроки" id="682">
 									<DataPath>Объект.ПриоритетыВыполнения.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>1</Width>
 									<ContextMenu name="ПриоритетыВыполненияНомерСтрокиКонтекстноеМеню" id="683"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияНомерСтрокиРасширеннаяПодсказка" id="684"/>
@@ -1331,6 +1336,7 @@
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияОбработчик1КонтекстноеМеню" id="686"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияОбработчик1РасширеннаяПодсказка" id="687"/>
 								</InputField>
@@ -1339,6 +1345,7 @@
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияОбработчик2КонтекстноеМеню" id="689"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияОбработчик2РасширеннаяПодсказка" id="690"/>
 								</InputField>
@@ -1353,6 +1360,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияПроцедура1КонтекстноеМеню" id="695"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияПроцедура1РасширеннаяПодсказка" id="696"/>
 								</InputField>
@@ -1366,6 +1374,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияПроцедура2КонтекстноеМеню" id="701"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияПроцедура2РасширеннаяПодсказка" id="702"/>
 								</InputField>
@@ -1382,6 +1391,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияКомментарий2КонтекстноеМеню" id="725"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияКомментарий2РасширеннаяПодсказка" id="726"/>
 								</InputField>
@@ -1394,6 +1404,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<IncompleteChoiceMode>OnActivate</IncompleteChoiceMode>
 									<TextEdit>false</TextEdit>
@@ -1416,6 +1427,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияПорядокКонтекстноеМеню" id="722"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияПорядокРасширеннаяПодсказка" id="723"/>
 								</InputField>
@@ -1423,6 +1435,9 @@
 									<DataPath>Объект.ПриоритетыВыполнения.ОбъектыПересечения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<ContextMenu name="ПриоритетыВыполненияОбъектыПересеченияКонтекстноеМеню" id="797"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияОбъектыПересеченияРасширеннаяПодсказка" id="798"/>
 								</LabelField>
@@ -1439,7 +1454,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияЗаданПорядокВыполненияКонтекстноеМеню" id="719"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияЗаданПорядокВыполненияРасширеннаяПодсказка" id="720"/>
 								</CheckBoxField>
@@ -1461,7 +1476,7 @@
 										<xr:Ref>StdPicture.AppearanceExclamationMark</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияЗаписьЧитаемыхКонтекстноеМеню" id="710"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияЗаписьЧитаемыхРасширеннаяПодсказка" id="711"/>
 								</CheckBoxField>
@@ -1483,7 +1498,7 @@
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПриоритетыВыполненияПовторнаяЗаписьКонтекстноеМеню" id="713"/>
 									<ExtendedTooltip name="ПриоритетыВыполненияПовторнаяЗаписьРасширеннаяПодсказка" id="714"/>
 								</CheckBoxField>
@@ -1644,7 +1659,7 @@
 										<xr:Ref>StdPicture.AppearanceExclamationMark</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияЗаписьЧитаемыхКонтекстноеМеню" id="753"/>
 									<ExtendedTooltip name="ПересеченияЗаписьЧитаемыхРасширеннаяПодсказка" id="754"/>
 								</CheckBoxField>
@@ -1669,7 +1684,7 @@
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияПовторнаяЗаписьКонтекстноеМеню" id="756"/>
 									<ExtendedTooltip name="ПересеченияПовторнаяЗаписьРасширеннаяПодсказка" id="757"/>
 								</CheckBoxField>
@@ -1683,6 +1698,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияОбъектМетаданныхКонтекстноеМеню" id="750"/>
 									<ExtendedTooltip name="ПересеченияОбъектМетаданныхРасширеннаяПодсказка" id="751"/>
 								</InputField>
@@ -1696,6 +1712,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияОбработчикПисательКонтекстноеМеню" id="744"/>
 									<ExtendedTooltip name="ПересеченияОбработчикПисательРасширеннаяПодсказка" id="745"/>
 								</InputField>
@@ -1709,6 +1726,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияОбработчикЧитательИлиПисатель2КонтекстноеМеню" id="747"/>
 									<ExtendedTooltip name="ПересеченияОбработчикЧитательИлиПисатель2РасширеннаяПодсказка" id="748"/>
 								</InputField>

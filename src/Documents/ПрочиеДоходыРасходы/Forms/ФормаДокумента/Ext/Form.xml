@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -248,6 +248,7 @@
 												<InputField name="Номер" id="1">
 													<DataPath>Объект.Number</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -262,6 +263,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
@@ -275,6 +277,7 @@
 										<InputField name="Организация" id="5">
 											<DataPath>Объект.Организация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
@@ -1186,6 +1189,7 @@
 												<LabelField name="ПрочиеРасходыНомерСтроки" id="10">
 													<DataPath>Объект.ПрочиеРасходы.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПрочиеРасходыНомерСтрокиКонтекстноеМеню" id="11"/>
 													<ExtendedTooltip name="ПрочиеРасходыНомерСтрокиРасширеннаяПодсказка" id="111"/>
 												</LabelField>
@@ -1201,6 +1205,7 @@
 														<InputField name="ПрочиеРасходыПодразделение" id="12">
 															<DataPath>Объект.ПрочиеРасходы.Подразделение</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1210,6 +1215,7 @@
 														<InputField name="ПрочиеРасходыНаправлениеДеятельности" id="230">
 															<DataPath>Объект.ПрочиеРасходы.НаправлениеДеятельности</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1230,6 +1236,7 @@
 														<InputField name="ПрочиеРасходыСтатьяРасходов" id="14">
 															<DataPath>Объект.ПрочиеРасходы.СтатьяРасходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<ContextMenu name="ПрочиеРасходыСтатьяРасходовКонтекстноеМеню" id="15"/>
 															<ExtendedTooltip name="ПрочиеРасходыСтатьяРасходовРасширеннаяПодсказка" id="114"/>
@@ -1241,6 +1248,7 @@
 														<InputField name="ПрочиеРасходыАналитикаРасходов" id="16">
 															<DataPath>Объект.ПрочиеРасходы.АналитикаРасходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -1269,6 +1277,7 @@
 														<InputField name="ПрочиеРасходыКорПодразделение" id="215">
 															<DataPath>Объект.ПрочиеРасходы.КорПодразделение</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1278,6 +1287,7 @@
 														<InputField name="ПрочиеРасходыКорНаправлениеДеятельности" id="233">
 															<DataPath>Объект.ПрочиеРасходы.КорНаправлениеДеятельности</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1304,6 +1314,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<ContextMenu name="ПрочиеРасходыСтатьяАктивовПассивовКонтекстноеМеню" id="71"/>
 															<ExtendedTooltip name="ПрочиеРасходыСтатьяАктивовПассивовРасширеннаяПодсказка" id="117"/>
@@ -1321,6 +1332,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -1343,6 +1355,7 @@
 														<InputField name="ПрочиеРасходыКорСтатьяРасходов" id="260">
 															<DataPath>Объект.ПрочиеРасходы.КорСтатьяРасходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 															<ContextMenu name="ПрочиеРасходыКорСтатьяРасходовКонтекстноеМеню" id="261"/>
 															<ExtendedTooltip name="ПрочиеРасходыКорСтатьяРасходовРасширеннаяПодсказка" id="262"/>
@@ -1354,6 +1367,7 @@
 														<InputField name="ПрочиеРасходыКорАналитикаРасходов" id="263">
 															<DataPath>Объект.ПрочиеРасходы.КорАналитикаРасходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПрочиеРасходыКорАналитикаРасходовКонтекстноеМеню" id="264"/>
 															<ExtendedTooltip name="ПрочиеРасходыКорАналитикаРасходовРасширеннаяПодсказка" id="265"/>
 															<Events>
@@ -1376,6 +1390,9 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>25</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыПредставлениеОтраженияВРеглУчетеКонтекстноеМеню" id="210"/>
@@ -1384,6 +1401,7 @@
 												<InputField name="ПрочиеРасходыСумма" id="18">
 													<DataPath>Объект.ПрочиеРасходы.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыСуммаКонтекстноеМеню" id="19"/>
@@ -1395,6 +1413,7 @@
 												<InputField name="ПрочиеРасходыСуммаБезНДС" id="177">
 													<DataPath>Объект.ПрочиеРасходы.СуммаБезНДС</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыСуммаБезНДСКонтекстноеМеню" id="178"/>
@@ -1410,6 +1429,7 @@
 												<InputField name="ПрочиеРасходыСуммаРегл" id="180">
 													<DataPath>Объект.ПрочиеРасходы.СуммаРегл</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыСуммаРеглКонтекстноеМеню" id="181"/>
@@ -1421,6 +1441,7 @@
 												<InputField name="ПрочиеРасходыСуммаНУ" id="565">
 													<DataPath>Объект.ПрочиеРасходы.СуммаНУ</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыСуммаНУКонтекстноеМеню" id="566"/>
@@ -1432,6 +1453,7 @@
 												<InputField name="ПрочиеРасходыПостояннаяРазница" id="183">
 													<DataPath>Объект.ПрочиеРасходы.ПостояннаяРазница</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыПостояннаяРазницаКонтекстноеМеню" id="184"/>
@@ -1444,6 +1466,7 @@
 													<DataPath>Объект.ПрочиеРасходы.ВременнаяРазница</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеРасходыВременнаяРазницаКонтекстноеМеню" id="187"/>
@@ -1466,6 +1489,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ПрочиеРасходыДатаОтраженияКонтекстноеМеню" id="49"/>
 													<ExtendedTooltip name="ПрочиеРасходыДатаОтраженияРасширеннаяПодсказка" id="120"/>
@@ -2413,6 +2437,7 @@
 												<LabelField name="ПрочиеДоходыНомерСтроки" id="54">
 													<DataPath>Объект.ПрочиеДоходы.LineNumber</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПрочиеДоходыНомерСтрокиКонтекстноеМеню" id="55"/>
 													<ExtendedTooltip name="ПрочиеДоходыНомерСтрокиРасширеннаяПодсказка" id="132"/>
 												</LabelField>
@@ -2428,6 +2453,7 @@
 														<InputField name="ПрочиеДоходыПодразделение" id="56">
 															<DataPath>Объект.ПрочиеДоходы.Подразделение</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -2437,6 +2463,7 @@
 														<InputField name="ПрочиеДоходыНаправлениеДеятельности" id="236">
 															<DataPath>Объект.ПрочиеДоходы.НаправлениеДеятельности</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -2457,6 +2484,7 @@
 														<InputField name="ПрочиеДоходыСтатьяДоходов" id="58">
 															<DataPath>Объект.ПрочиеДоходы.СтатьяДоходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<ContextMenu name="ПрочиеДоходыСтатьяДоходовКонтекстноеМеню" id="59"/>
 															<ExtendedTooltip name="ПрочиеДоходыСтатьяДоходовРасширеннаяПодсказка" id="135"/>
@@ -2468,6 +2496,7 @@
 														<InputField name="ПрочиеДоходыАналитикаДоходов" id="60">
 															<DataPath>Объект.ПрочиеДоходы.АналитикаДоходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -2490,6 +2519,7 @@
 														<InputField name="ПрочиеДоходыКорПодразделение" id="218">
 															<DataPath>Объект.ПрочиеДоходы.КорПодразделение</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -2499,6 +2529,7 @@
 														<InputField name="ПрочиеДоходыКорНаправлениеДеятельности" id="239">
 															<DataPath>Объект.ПрочиеДоходы.КорНаправлениеДеятельности</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -2525,6 +2556,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<ContextMenu name="ПрочиеДоходыСтатьяАктивовПассивовКонтекстноеМеню" id="63"/>
 															<ExtendedTooltip name="ПрочиеДоходыСтатьяАктивовПассивовРасширеннаяПодсказка" id="138"/>
@@ -2542,6 +2574,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>28</Width>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -2564,6 +2597,7 @@
 														<InputField name="ПрочиеДоходыКорСтатьяДоходов" id="252">
 															<DataPath>Объект.ПрочиеДоходы.КорСтатьяДоходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПрочиеДоходыКорСтатьяДоходовКонтекстноеМеню" id="253"/>
 															<ExtendedTooltip name="ПрочиеДоходыКорСтатьяДоходовРасширеннаяПодсказка" id="254"/>
 															<Events>
@@ -2574,6 +2608,7 @@
 														<InputField name="ПрочиеДоходыКорАналитикаДоходов" id="255">
 															<DataPath>Объект.ПрочиеДоходы.КорАналитикаДоходов</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ПрочиеДоходыКорАналитикаДоходовКонтекстноеМеню" id="256"/>
 															<ExtendedTooltip name="ПрочиеДоходыКорАналитикаДоходовРасширеннаяПодсказка" id="257"/>
 														</InputField>
@@ -2590,12 +2625,16 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="ПрочиеДоходыПредставлениеОтраженияВРеглУчетеКонтекстноеМеню" id="213"/>
 													<ExtendedTooltip name="ПрочиеДоходыПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="214"/>
 												</InputField>
 												<InputField name="ПрочиеДоходыСумма" id="64">
 													<DataPath>Объект.ПрочиеДоходы.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеДоходыСуммаКонтекстноеМеню" id="65"/>
@@ -2607,6 +2646,7 @@
 												<InputField name="ПрочиеДоходыСуммаУпр" id="578">
 													<DataPath>Объект.ПрочиеДоходы.СуммаУпр</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеДоходыСуммаУпрКонтекстноеМеню" id="579"/>
@@ -2615,6 +2655,7 @@
 												<InputField name="ПрочиеДоходыСуммаРегл" id="221">
 													<DataPath>Объект.ПрочиеДоходы.СуммаРегл</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеДоходыСуммаРеглКонтекстноеМеню" id="222"/>
@@ -2626,6 +2667,7 @@
 												<InputField name="ПрочиеДоходыСуммаНУ" id="568">
 													<DataPath>Объект.ПрочиеДоходы.СуммаНУ</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеДоходыСуммаНУКонтекстноеМеню" id="569"/>
@@ -2637,6 +2679,7 @@
 												<InputField name="ПрочиеДоходыПостояннаяРазница" id="224">
 													<DataPath>Объект.ПрочиеДоходы.ПостояннаяРазница</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеДоходыПостояннаяРазницаКонтекстноеМеню" id="225"/>
@@ -2649,6 +2692,7 @@
 													<DataPath>Объект.ПрочиеДоходы.ВременнаяРазница</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>11</MaxWidth>
 													<ContextMenu name="ПрочиеДоходыВременнаяРазницаКонтекстноеМеню" id="228"/>
@@ -2657,6 +2701,7 @@
 												<InputField name="ПрочиеДоходыДатаОтражения" id="66">
 													<DataPath>Объект.ПрочиеДоходы.ДатаОтражения</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПрочиеДоходыДатаОтраженияКонтекстноеМеню" id="67"/>
 													<ExtendedTooltip name="ПрочиеДоходыДатаОтраженияРасширеннаяПодсказка" id="141"/>
 												</InputField>

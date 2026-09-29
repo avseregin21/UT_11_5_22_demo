@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -14,6 +14,7 @@
 		<InputField name="Наименование" id="1">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
@@ -59,6 +60,7 @@
 						<InputField name="АлкогольнаяПродукция" id="22">
 							<DataPath>Объект.АлкогольнаяПродукция</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<ContextMenu name="АлкогольнаяПродукцияКонтекстноеМеню" id="23"/>
@@ -67,6 +69,7 @@
 						<InputField name="Грузоотправитель" id="13">
 							<DataPath>Объект.Грузоотправитель</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<ContextMenu name="ГрузоотправительКонтекстноеМеню" id="14"/>
@@ -75,6 +78,7 @@
 						<InputField name="НомерТТН" id="7">
 							<DataPath>Объект.НомерТТН</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<ContextMenu name="НомерТТНКонтекстноеМеню" id="8"/>
@@ -83,6 +87,7 @@
 						<InputField name="НомерПодтвержденияЕГАИС" id="31">
 							<DataPath>Объект.НомерПодтвержденияЕГАИС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<ContextMenu name="НомерПодтвержденияЕГАИСКонтекстноеМеню" id="32"/>
@@ -112,6 +117,7 @@
 						<InputField name="РегистрационныйНомер" id="4">
 							<DataPath>Объект.РегистрационныйНомер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>20</MaxWidth>
 							<ContextMenu name="РегистрационныйНомерКонтекстноеМеню" id="5"/>
@@ -120,6 +126,7 @@
 						<InputField name="Грузополучатель" id="16">
 							<DataPath>Объект.Грузополучатель</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<ContextMenu name="ГрузополучательКонтекстноеМеню" id="17"/>
@@ -128,12 +135,14 @@
 						<InputField name="ДатаТТН" id="10">
 							<DataPath>Объект.ДатаТТН</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаТТНКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ДатаТТНРасширеннаяПодсказка" id="12"/>
 						</InputField>
 						<InputField name="ДатаПодтвержденияЕГАИС" id="34">
 							<DataPath>Объект.ДатаПодтвержденияЕГАИС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДатаПодтвержденияЕГАИСКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="ДатаПодтвержденияЕГАИСРасширеннаяПодсказка" id="36"/>
 						</InputField>
@@ -163,6 +172,7 @@
 				<InputField name="Количество" id="28">
 					<DataPath>Объект.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>10</MaxWidth>
 					<ContextMenu name="КоличествоКонтекстноеМеню" id="29"/>
@@ -171,12 +181,14 @@
 				<InputField name="ДатаОтгрузки" id="19">
 					<DataPath>Объект.ДатаОтгрузки</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаОтгрузкиКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="ДатаОтгрузкиРасширеннаяПодсказка" id="21"/>
 				</InputField>
 				<InputField name="ДатаРозлива" id="25">
 					<DataPath>Объект.ДатаРозлива</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаРозливаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ДатаРозливаРасширеннаяПодсказка" id="27"/>
 				</InputField>

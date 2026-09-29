@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -49,7 +49,7 @@
 			</Title>
 			<Group>Horizontal</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="255"/>
 			<ChildItems>
 				<UsualGroup name="НастройкиОсновные" id="176">
@@ -72,6 +72,7 @@
 							<DataPath>Объект.Склад</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
@@ -86,6 +87,7 @@
 							<DataPath>Объект.Помещение</DataPath>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>25</MaxWidth>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -144,7 +146,6 @@
 							<DataPath>Объект.ОбновлятьСуществующие</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<VerticalAlign>Top</VerticalAlign>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОбновлятьСуществующиеКонтекстноеМеню" id="195"/>
 							<ExtendedTooltip name="ОбновлятьСуществующиеРасширеннаяПодсказка" id="260"/>
 						</CheckBoxField>
@@ -200,7 +201,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбновлятьТипоразмерКонтекстноеМеню" id="234"/>
 											<ExtendedTooltip name="ОбновлятьТипоразмерРасширеннаяПодсказка" id="263"/>
 											<Events>
@@ -212,6 +212,7 @@
 											<Enabled>false</Enabled>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxHeight>1</MaxHeight>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -227,7 +228,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбновлятьМаксимальныйКоэффициентНаполненностиПоВесуКонтекстноеМеню" id="240"/>
 											<ExtendedTooltip name="ОбновлятьМаксимальныйКоэффициентНаполненностиПоВесуРасширеннаяПодсказка" id="273"/>
 											<Events>
@@ -286,7 +286,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбновлятьРабочийУчастокКонтекстноеМеню" id="236"/>
 											<ExtendedTooltip name="ОбновлятьРабочийУчастокРасширеннаяПодсказка" id="264"/>
 											<Events>
@@ -312,7 +311,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбновлятьМаксимальныйКоэффициентНаполненностиПоОбъемуКонтекстноеМеню" id="242"/>
 											<ExtendedTooltip name="ОбновлятьМаксимальныйКоэффициентНаполненностиПоОбъемуРасширеннаяПодсказка" id="274"/>
 											<Events>
@@ -372,7 +370,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбновлятьОбластьХраненияКонтекстноеМеню" id="232"/>
 											<ExtendedTooltip name="ОбновлятьОбластьХраненияРасширеннаяПодсказка" id="265"/>
 											<Events>
@@ -398,7 +395,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОбновлятьУровеньДоступностиКонтекстноеМеню" id="244"/>
 											<ExtendedTooltip name="ОбновлятьУровеньДоступностиРасширеннаяПодсказка" id="275"/>
 											<Events>
@@ -432,7 +428,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<ExtendedTooltip name="АдресацияРасширеннаяПодсказка" id="283"/>
 			<ChildItems>
 				<UsualGroup name="АдресацияВерх" id="119">
@@ -458,6 +454,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<HorizontalStretch>false</HorizontalStretch>
 							<TextEdit>false</TextEdit>
 							<ContextMenu name="ПримерКонтекстноеМеню" id="8"/>
@@ -474,6 +471,7 @@
 							</Title>
 							<HorizontalAlign>Left</HorizontalAlign>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КоличествоЯчеекКонтекстноеМеню" id="106"/>
 							<ExtendedTooltip name="КоличествоЯчеекРасширеннаяПодсказка" id="287"/>
 						</InputField>
@@ -518,7 +516,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СекцииКонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="СекцииРасширеннаяПодсказка" id="290"/>
 									<Events>
@@ -536,6 +534,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="КоличествоСекцииКонтекстноеМеню" id="96"/>
 									<ExtendedTooltip name="КоличествоСекцииРасширеннаяПодсказка" id="291"/>
@@ -609,7 +608,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛидирующиеНулиСекцииКонтекстноеМеню" id="142"/>
 									<ExtendedTooltip name="ЛидирующиеНулиСекцииРасширеннаяПодсказка" id="293"/>
 									<Events>
@@ -656,6 +654,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквОтСекцииКонтекстноеМеню" id="56"/>
@@ -685,6 +684,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквДоСекцииКонтекстноеМеню" id="58"/>
@@ -764,6 +764,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<TextEdit>false</TextEdit>
 									<ChoiceList>
@@ -850,7 +851,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоздаватьГруппыСекцииКонтекстноеМеню" id="10"/>
 									<ExtendedTooltip name="СоздаватьГруппыСекцииРасширеннаяПодсказка" id="300"/>
 								</CheckBoxField>
@@ -881,7 +882,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЛинииКонтекстноеМеню" id="38"/>
 									<ExtendedTooltip name="ЛинииРасширеннаяПодсказка" id="302"/>
 									<Events>
@@ -899,6 +900,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="КоличествоЛинииКонтекстноеМеню" id="98"/>
 									<ExtendedTooltip name="КоличествоЛинииРасширеннаяПодсказка" id="303"/>
@@ -972,7 +974,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛидирующиеНулиЛинииКонтекстноеМеню" id="144"/>
 									<ExtendedTooltip name="ЛидирующиеНулиЛинииРасширеннаяПодсказка" id="305"/>
 									<Events>
@@ -1019,6 +1020,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквОтЛинииКонтекстноеМеню" id="60"/>
@@ -1048,6 +1050,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквДоЛинииКонтекстноеМеню" id="62"/>
@@ -1126,6 +1129,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<TextEdit>false</TextEdit>
 									<ChoiceList>
@@ -1212,7 +1216,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоздаватьГруппыЛинииКонтекстноеМеню" id="12"/>
 									<ExtendedTooltip name="СоздаватьГруппыЛинииРасширеннаяПодсказка" id="312"/>
 								</CheckBoxField>
@@ -1243,7 +1247,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СтеллажиКонтекстноеМеню" id="40"/>
 									<ExtendedTooltip name="СтеллажиРасширеннаяПодсказка" id="314"/>
 									<Events>
@@ -1261,6 +1265,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="КоличествоСтеллажиКонтекстноеМеню" id="100"/>
 									<ExtendedTooltip name="КоличествоСтеллажиРасширеннаяПодсказка" id="315"/>
@@ -1334,7 +1339,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛидирующиеНулиСтеллажиКонтекстноеМеню" id="156"/>
 									<ExtendedTooltip name="ЛидирующиеНулиСтеллажиРасширеннаяПодсказка" id="317"/>
 									<Events>
@@ -1381,6 +1385,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквОтСтеллажиКонтекстноеМеню" id="64"/>
@@ -1410,6 +1415,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквДоСтеллажиКонтекстноеМеню" id="66"/>
@@ -1488,6 +1494,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<TextEdit>false</TextEdit>
 									<ChoiceList>
@@ -1574,7 +1581,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоздаватьГруппыСтеллажиКонтекстноеМеню" id="14"/>
 									<ExtendedTooltip name="СоздаватьГруппыСтеллажиРасширеннаяПодсказка" id="324"/>
 								</CheckBoxField>
@@ -1605,7 +1612,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЯрусыКонтекстноеМеню" id="42"/>
 									<ExtendedTooltip name="ЯрусыРасширеннаяПодсказка" id="326"/>
 									<Events>
@@ -1623,6 +1630,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="КоличествоЯрусыКонтекстноеМеню" id="102"/>
 									<ExtendedTooltip name="КоличествоЯрусыРасширеннаяПодсказка" id="327"/>
@@ -1696,7 +1704,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛидирующиеНулиЯрусыКонтекстноеМеню" id="166"/>
 									<ExtendedTooltip name="ЛидирующиеНулиЯрусыРасширеннаяПодсказка" id="329"/>
 									<Events>
@@ -1743,6 +1750,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквОтЯрусыКонтекстноеМеню" id="68"/>
@@ -1772,6 +1780,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="ДиапазонБуквДоЯрусыКонтекстноеМеню" id="70"/>
@@ -1850,6 +1859,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<TextEdit>false</TextEdit>
 									<ChoiceList>
@@ -1936,7 +1946,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоздаватьГруппыЯрусыКонтекстноеМеню" id="16"/>
 									<ExtendedTooltip name="СоздаватьГруппыЯрусыРасширеннаяПодсказка" id="336"/>
 								</CheckBoxField>
@@ -1967,7 +1977,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПозицииКонтекстноеМеню" id="44"/>
 									<ExtendedTooltip name="ПозицииРасширеннаяПодсказка" id="338"/>
 									<Events>
@@ -1985,6 +1995,7 @@
 									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<ContextMenu name="КоличествоПозицииКонтекстноеМеню" id="104"/>
 									<ExtendedTooltip name="КоличествоПозицииРасширеннаяПодсказка" id="339"/>
@@ -2058,7 +2069,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛидирующиеНулиПозицииКонтекстноеМеню" id="168"/>
 									<ExtendedTooltip name="ЛидирующиеНулиПозицииРасширеннаяПодсказка" id="341"/>
 									<Events>
@@ -2105,6 +2115,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChoiceListButton>false</ChoiceListButton>
 											<ContextMenu name="ДиапазонБуквОтПозицииКонтекстноеМеню" id="72"/>
@@ -2134,6 +2145,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<SpinButton>true</SpinButton>
 											<ChooseType>false</ChooseType>
 											<ChoiceListButton>false</ChoiceListButton>

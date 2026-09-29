@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -174,7 +174,6 @@
 					<DataPath>ПоСчетуФактуре</DataPath>
 					<Enabled>false</Enabled>
 					<TitleLocation>None</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПоСчетуФактуреКонтекстноеМеню" id="437"/>
 					<ExtendedTooltip name="ПоСчетуФактуреРасширеннаяПодсказка" id="438"/>
 					<Events>
@@ -356,6 +355,7 @@
 																	</Title>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<MaxWidth>15</MaxWidth>
 																	<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -372,6 +372,7 @@
 																	</Title>
 																	<TitleLocation>Left</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<MaxWidth>9</MaxWidth>
 																	<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
@@ -416,6 +417,7 @@
 																	<ReadOnly>true</ReadOnly>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>15</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -432,6 +434,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>9</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<EditFormat>
@@ -472,6 +475,7 @@
 															<TitleLocation>Left</TitleLocation>
 															<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>15</MaxWidth>
 															<HorizontalStretch>true</HorizontalStretch>
@@ -489,6 +493,7 @@
 															</Title>
 															<TitleLocation>Left</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<EditFormat>
@@ -568,7 +573,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПолученВЭлектронномВидеКонтекстноеМеню" id="221"/>
 													<ExtendedTooltip name="ПолученВЭлектронномВидеРасширеннаяПодсказка" id="328"/>
 												</CheckBoxField>
@@ -1232,6 +1236,7 @@
 										<LabelField name="РасшифровкаСуммыНомерСтроки" id="604">
 											<DataPath>Объект.ДокументыОснования.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасшифровкаСуммыНомерСтрокиКонтекстноеМеню" id="605"/>
 											<ExtendedTooltip name="РасшифровкаСуммыНомерСтрокиРасширеннаяПодсказка" id="606"/>
 										</LabelField>
@@ -1239,12 +1244,14 @@
 											<DataPath>Объект.ДокументыОснования.ДокументОснование</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасшифровкаСуммыДокументОснованиеКонтекстноеМеню" id="608"/>
 											<ExtendedTooltip name="РасшифровкаСуммыДокументОснованиеРасширеннаяПодсказка" id="609"/>
 										</InputField>
 										<InputField name="РасшифровкаСуммыСумма" id="625">
 											<DataPath>Объект.ДокументыОснования.Сумма</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасшифровкаСуммыСуммаКонтекстноеМеню" id="626"/>
 											<ExtendedTooltip name="РасшифровкаСуммыСуммаРасширеннаяПодсказка" id="627"/>
 											<Events>
@@ -1254,6 +1261,7 @@
 										<InputField name="РасшифровкаСуммыНалоговаяБаза" id="628">
 											<DataPath>Объект.ДокументыОснования.НалоговаяБаза</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасшифровкаСуммыНалоговаяБазаКонтекстноеМеню" id="629"/>
 											<ExtendedTooltip name="РасшифровкаСуммыНалоговаяБазаРасширеннаяПодсказка" id="630"/>
 											<Events>
@@ -1263,6 +1271,7 @@
 										<InputField name="РасшифровкаСуммыСтавкаНДС" id="631">
 											<DataPath>Объект.ДокументыОснования.СтавкаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<OpenButton>false</OpenButton>
 											<ContextMenu name="РасшифровкаСуммыСтавкаНДСКонтекстноеМеню" id="632"/>
 											<ExtendedTooltip name="РасшифровкаСуммыСтавкаНДСРасширеннаяПодсказка" id="633"/>
@@ -1273,6 +1282,7 @@
 										<InputField name="РасшифровкаСуммыСуммаНДС" id="634">
 											<DataPath>Объект.ДокументыОснования.СуммаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасшифровкаСуммыСуммаНДСКонтекстноеМеню" id="635"/>
 											<ExtendedTooltip name="РасшифровкаСуммыСуммаНДСРасширеннаяПодсказка" id="636"/>
 											<Events>
@@ -2017,6 +2027,7 @@
 					<DataPath>Объект.Комментарий</DataPath>
 					<TitleLocation>Left</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Height>1</Height>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="804"/>
 					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="805"/>
@@ -2024,6 +2035,7 @@
 				<InputField name="Ответственный" id="806">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="807"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="808"/>

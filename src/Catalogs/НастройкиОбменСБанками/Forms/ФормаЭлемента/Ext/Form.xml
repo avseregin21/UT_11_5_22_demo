@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoFillCheck>false</AutoFillCheck>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
@@ -125,6 +125,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="377"/>
 						</InputField>
@@ -160,6 +161,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ChooseType>false</ChooseType>
 							<ChoiceListButton>false</ChoiceListButton>
 							<ContextMenu name="БанкКонтекстноеМеню" id="8"/>
@@ -184,7 +186,6 @@
 							<DataPath>Объект.Недействительна</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ДействуетКонтекстноеМеню" id="949"/>
 							<ExtendedTooltip name="ДействуетРасширеннаяПодсказка" id="950"/>
 						</CheckBoxField>
@@ -454,6 +455,7 @@
 														<LabelField name="СертификатыНеобходимыхПодписейАсинхронноНомерСтроки" id="784">
 															<DataPath>Объект.СертификатыПодписейОрганизации.LineNumber</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СертификатыНеобходимыхПодписейАсинхронноНомерСтрокиКонтекстноеМеню" id="785"/>
 															<ExtendedTooltip name="СертификатыНеобходимыхПодписейАсинхронноНомерСтрокиРасширеннаяПодсказка" id="786"/>
 														</LabelField>
@@ -466,6 +468,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Отбор.Организация</xr:Name>
@@ -789,6 +792,7 @@
 														<LabelField name="СертификатыНеобходимыхПодписейНомерСтроки" id="297">
 															<DataPath>Объект.СертификатыПодписейОрганизации.LineNumber</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<ContextMenu name="СертификатыНеобходимыхПодписейНомерСтрокиКонтекстноеМеню" id="298"/>
 															<ExtendedTooltip name="СертификатыНеобходимыхПодписейНомерСтрокиРасширеннаяПодсказка" id="423"/>
@@ -802,6 +806,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СертификатыНеобходимыхПодписейСертификатКонтекстноеМеню" id="300"/>
 															<ExtendedTooltip name="СертификатыНеобходимыхПодписейСертификатРасширеннаяПодсказка" id="425"/>
 														</InputField>
@@ -861,7 +866,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтправлятьДокументыБезПодписиSMSКонтекстноеМеню" id="1147"/>
 											<ExtendedTooltip name="ОтправлятьДокументыБезПодписиSMSРасширеннаяПодсказка" id="1148"/>
 										</CheckBoxField>
@@ -950,6 +954,7 @@
 																<LabelField name="СертификатыПодписейОрганизацииНомерСтроки" id="1012">
 																	<DataPath>Объект.СертификатыПодписейОрганизации.LineNumber</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>2</Width>
 																	<ContextMenu name="СертификатыПодписейОрганизацииНомерСтрокиКонтекстноеМеню" id="1013"/>
 																	<ExtendedTooltip name="СертификатыПодписейОрганизацииНомерСтрокиРасширеннаяПодсказка" id="1014"/>
@@ -957,6 +962,7 @@
 																<InputField name="СертификатыПодписейОрганизацииСертификат" id="1015">
 																	<DataPath>Объект.СертификатыПодписейОрганизации.СертификатЭП</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="СертификатыПодписейОрганизацииСертификатКонтекстноеМеню" id="1016"/>
 																	<ExtendedTooltip name="СертификатыПодписейОрганизацииСертификатРасширеннаяПодсказка" id="1017"/>
 																</InputField>
@@ -1049,6 +1055,7 @@
 														<LabelField name="СертификатыПодписейОрганизацииНомерСтрокиОбработка" id="650">
 															<DataPath>Объект.СертификатыПодписейОрганизации.LineNumber</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<ContextMenu name="СертификатыПодписейОрганизацииНомерСтрокиОбработкаКонтекстноеМеню" id="651"/>
 															<ExtendedTooltip name="СертификатыПодписейОрганизацииНомерСтрокиОбработкаРасширеннаяПодсказка" id="652"/>
@@ -1056,6 +1063,7 @@
 														<InputField name="СертификатыПодписейОрганизацииСертификатОбработка" id="656">
 															<DataPath>Объект.СертификатыПодписейОрганизации.СертификатЭП</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СертификатыПодписейОрганизацииСертификатОбработкаКонтекстноеМеню" id="657"/>
 															<ExtendedTooltip name="СертификатыПодписейОрганизацииСертификатОбработкаРасширеннаяПодсказка" id="658"/>
 														</InputField>
@@ -1214,6 +1222,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИсходящиеДокументыИсходящийДокументКонтекстноеМеню" id="1102"/>
 									<ExtendedTooltip name="ИсходящиеДокументыИсходящийДокументРасширеннаяПодсказка" id="1103"/>
 								</InputField>
@@ -1228,7 +1237,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИсходящиеДокументыИспользоватьЭПКонтекстноеМеню" id="1105"/>
 									<ExtendedTooltip name="ИсходящиеДокументыИспользоватьЭПРасширеннаяПодсказка" id="1106"/>
 								</CheckBoxField>
@@ -1251,6 +1260,7 @@
 								<InputField name="ИсходящиеДокументыМаршрутПодписания" id="1107">
 									<DataPath>Объект.ИсходящиеДокументы.МаршрутПодписания</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИсходящиеДокументыМаршрутПодписанияКонтекстноеМеню" id="1108"/>
 									<ExtendedTooltip name="ИсходящиеДокументыМаршрутПодписанияРасширеннаяПодсказка" id="1109"/>
 									<Events>
@@ -1260,7 +1270,7 @@
 								<CheckBoxField name="ИсходящиеДокументыПодписыватьВБанке" id="1110">
 									<DataPath>Объект.ИсходящиеДокументы.ПодтвердитьВБанке</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИсходящиеДокументыПодписыватьВБанкеКонтекстноеМеню" id="1111"/>
 									<ExtendedTooltip name="ИсходящиеДокументыПодписыватьВБанкеРасширеннаяПодсказка" id="1112"/>
 									<Events>
@@ -1294,7 +1304,6 @@
 								<CheckBoxField name="ПоказыватьОкноПодтвержденияПлатежей" id="1082">
 									<DataPath>Объект.ПоказыватьОкноПодтвержденияПлатежей</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоказыватьОкноПодтвержденияПлатежейКонтекстноеМеню" id="1083"/>
 									<ExtendedTooltip name="ПоказыватьОкноПодтвержденияПлатежейРасширеннаяПодсказка" id="1084"/>
 								</CheckBoxField>
@@ -1393,6 +1402,8 @@
 									<DataPath>СертификатыБанка.Выгрузить</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<CellHyperlink>true</CellHyperlink>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.ВыгрузитьФайлСертификата</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>

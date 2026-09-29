@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Write</ExcludedCommand>
@@ -209,6 +209,7 @@
 						<InputField name="Наименование" id="1">
 							<DataPath>Объект.Description</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>55</MaxWidth>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -218,7 +219,6 @@
 						<CheckBoxField name="Подготовлена" id="337">
 							<DataPath>Объект.Подготовлена</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПодготовленаКонтекстноеМеню" id="338"/>
 							<ExtendedTooltip name="ПодготовленаРасширеннаяПодсказка" id="702"/>
 							<Events>
@@ -420,8 +420,8 @@
 						<Table name="Отчеты" id="218">
 							<Height>3</Height>
 							<Header>false</Header>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -602,6 +602,7 @@
 									<DataPath>Объект.Отчеты.Представление</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChooseType>false</ChooseType>
 									<ContextMenu name="ОтчетыПредставлениеКонтекстноеМеню" id="224"/>
 									<ExtendedTooltip name="ОтчетыПредставлениеРасширеннаяПодсказка" id="719"/>
@@ -701,7 +702,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиТекущегоОтчетаИспользование1КонтекстноеМеню" id="661"/>
 															<ExtendedTooltip name="НастройкиТекущегоОтчетаИспользование1РасширеннаяПодсказка" id="724"/>
 														</CheckBoxField>
@@ -716,6 +717,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиТекущегоОтчетаПредставление1КонтекстноеМеню" id="663"/>
 															<ExtendedTooltip name="НастройкиТекущегоОтчетаПредставление1РасширеннаяПодсказка" id="725"/>
 														</InputField>
@@ -763,6 +765,7 @@
 														<ExcludedCommand>List</ExcludedCommand>
 													</CommandSet>
 													<ViewMode>All</ViewMode>
+													<ComplexSettingsViewMode>Show</ComplexSettingsViewMode>
 													<ContextMenu name="ПользовательскиеНастройкиКонтекстноеМеню" id="188">
 														<ChildItems>
 															<Button name="ИспользоватьПолучателяРассылкиВНастройкеОтчета2" id="949">
@@ -867,7 +870,6 @@
 															<DataPath>КомпоновщикНастроекКД.UserSettings.Use</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>Directly</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПользовательскиеНастройкиИспользованиеКонтекстноеМеню" id="582"/>
 															<ExtendedTooltip name="ПользовательскиеНастройкиИспользованиеРасширеннаяПодсказка" id="729"/>
 														</CheckBoxField>
@@ -944,7 +946,6 @@
 																<xr:Common>false</xr:Common>
 															</UserVisible>
 															<EditMode>Directly</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПользовательскиеНастройкиРедактированиеВФормеОтчетаКонтекстноеМеню" id="596"/>
 															<ExtendedTooltip name="ПользовательскиеНастройкиРедактированиеВФормеОтчетаРасширеннаяПодсказка" id="737"/>
 														</CheckBoxField>
@@ -1053,7 +1054,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиТекущегоОтчетаИспользованиеКонтекстноеМеню" id="246"/>
 															<ExtendedTooltip name="НастройкиТекущегоОтчетаИспользованиеРасширеннаяПодсказка" id="740"/>
 														</CheckBoxField>
@@ -1068,6 +1069,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиТекущегоОтчетаПредставлениеКонтекстноеМеню" id="240"/>
 															<ExtendedTooltip name="НастройкиТекущегоОтчетаПредставлениеРасширеннаяПодсказка" id="741"/>
 														</InputField>
@@ -1134,7 +1136,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыполнятьПоРасписаниюКонтекстноеМеню" id="677"/>
 									<ExtendedTooltip name="ВыполнятьПоРасписаниюРасширеннаяПодсказка" id="745"/>
 									<Events>
@@ -1250,7 +1251,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПериодПовтораВТечениеДняКонтекстноеМеню" id="1311"/>
 											<ExtendedTooltip name="ИспользоватьПериодПовтораВТечениеДняРасширеннаяПодсказка" id="1312"/>
 											<Events>
@@ -1413,7 +1413,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПонедельникКонтекстноеМеню" id="448"/>
 													<ExtendedTooltip name="ПонедельникРасширеннаяПодсказка" id="765"/>
 													<Events>
@@ -1429,7 +1428,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ВторникКонтекстноеМеню" id="450"/>
 													<ExtendedTooltip name="ВторникРасширеннаяПодсказка" id="766"/>
 													<Events>
@@ -1445,7 +1443,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="СредаКонтекстноеМеню" id="452"/>
 													<ExtendedTooltip name="СредаРасширеннаяПодсказка" id="767"/>
 													<Events>
@@ -1461,7 +1458,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЧетвергКонтекстноеМеню" id="454"/>
 													<ExtendedTooltip name="ЧетвергРасширеннаяПодсказка" id="768"/>
 													<Events>
@@ -1477,7 +1473,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПятницаКонтекстноеМеню" id="456"/>
 													<ExtendedTooltip name="ПятницаРасширеннаяПодсказка" id="769"/>
 													<Events>
@@ -1493,7 +1488,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="СубботаКонтекстноеМеню" id="458"/>
 													<ExtendedTooltip name="СубботаРасширеннаяПодсказка" id="770"/>
 													<Events>
@@ -1509,7 +1503,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ВоскресеньеКонтекстноеМеню" id="460"/>
 													<ExtendedTooltip name="ВоскресеньеРасширеннаяПодсказка" id="771"/>
 													<Events>
@@ -1640,7 +1633,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ЯнварьКонтекстноеМеню" id="478"/>
 															<ExtendedTooltip name="ЯнварьРасширеннаяПодсказка" id="782"/>
 															<Events>
@@ -1656,7 +1648,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ФевральКонтекстноеМеню" id="480"/>
 															<ExtendedTooltip name="ФевральРасширеннаяПодсказка" id="783"/>
 															<Events>
@@ -1672,7 +1663,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="МартКонтекстноеМеню" id="482"/>
 															<ExtendedTooltip name="МартРасширеннаяПодсказка" id="784"/>
 															<Events>
@@ -1702,7 +1692,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="АпрельКонтекстноеМеню" id="485"/>
 															<ExtendedTooltip name="АпрельРасширеннаяПодсказка" id="786"/>
 															<Events>
@@ -1718,7 +1707,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="МайКонтекстноеМеню" id="487"/>
 															<ExtendedTooltip name="МайРасширеннаяПодсказка" id="787"/>
 															<Events>
@@ -1734,7 +1722,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИюньКонтекстноеМеню" id="489"/>
 															<ExtendedTooltip name="ИюньРасширеннаяПодсказка" id="788"/>
 															<Events>
@@ -1764,7 +1751,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИюльКонтекстноеМеню" id="495"/>
 															<ExtendedTooltip name="ИюльРасширеннаяПодсказка" id="793"/>
 															<Events>
@@ -1780,7 +1766,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="АвгустКонтекстноеМеню" id="497"/>
 															<ExtendedTooltip name="АвгустРасширеннаяПодсказка" id="794"/>
 															<Events>
@@ -1796,7 +1781,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="СентябрьКонтекстноеМеню" id="499"/>
 															<ExtendedTooltip name="СентябрьРасширеннаяПодсказка" id="795"/>
 															<Events>
@@ -1826,7 +1810,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОктябрьКонтекстноеМеню" id="502"/>
 															<ExtendedTooltip name="ОктябрьРасширеннаяПодсказка" id="797"/>
 															<Events>
@@ -1842,7 +1825,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НоябрьКонтекстноеМеню" id="504"/>
 															<ExtendedTooltip name="НоябрьРасширеннаяПодсказка" id="798"/>
 															<Events>
@@ -1858,7 +1840,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ДекабрьКонтекстноеМеню" id="506"/>
 															<ExtendedTooltip name="ДекабрьРасширеннаяПодсказка" id="799"/>
 															<Events>
@@ -1936,6 +1917,7 @@
 									<DataPath>Объект.Автор</DataPath>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<ContextMenu name="АвторКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="806"/>
@@ -2001,7 +1983,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПубликоватьКонтекстноеМеню" id="632"/>
 											<ExtendedTooltip name="ПубликоватьРасширеннаяПодсказка" id="810"/>
 											<Events>
@@ -2234,7 +2215,6 @@
 													<DataPath>Объект.ИспользоватьЭлектроннуюПочту</DataPath>
 													<TitleLocation>Right</TitleLocation>
 													<TitleHeight>2</TitleHeight>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьЭлектроннуюПочтуКонтекстноеМеню" id="560"/>
 													<ExtendedTooltip name="ИспользоватьЭлектроннуюПочтуРасширеннаяПодсказка" id="823"/>
 													<Events>
@@ -2282,6 +2262,7 @@
 												<InputField name="УчетнаяЗапись" id="31">
 													<DataPath>Объект.УчетнаяЗапись</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="УчетнаяЗаписьКонтекстноеМеню" id="32"/>
 													<ExtendedTooltip name="УчетнаяЗаписьРасширеннаяПодсказка" id="830"/>
@@ -2297,7 +2278,6 @@
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<VerticalAlign>Center</VerticalAlign>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ТолькоУведомитьКонтекстноеМеню" id="414"/>
 													<ExtendedTooltip name="ТолькоУведомитьРасширеннаяПодсказка" id="826"/>
 													<Events>
@@ -2346,6 +2326,7 @@
 																<InputField name="ТемаПисьма" id="27">
 																	<DataPath>Объект.ТемаПисьма</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<ContextMenu name="ТемаПисьмаКонтекстноеМеню" id="28">
 																		<ChildItems>
@@ -3071,6 +3052,7 @@
 																			<DataPath>Объект.ТекстПисьма</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>1</Width>
 																			<Height>1</Height>
 																			<ContextMenu name="ТекстПисьмаКонтекстноеМеню" id="22">
@@ -3218,7 +3200,6 @@
 										<CheckBoxField name="ВставлятьОтчетыВТекстПисьма" id="1271">
 											<DataPath>Объект.ВставлятьОтчетыВТекстПисьма</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВставлятьОтчетыВТекстПисьмаКонтекстноеМеню" id="1272"/>
 											<ExtendedTooltip name="ВставлятьОтчетыВТекстПисьмаРасширеннаяПодсказка" id="1273"/>
 											<Events>
@@ -3242,13 +3223,14 @@
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ИспользоватьСкрытыеКопииКонтекстноеМеню" id="36"/>
 													<ExtendedTooltip name="ИспользоватьСкрытыеКопииРасширеннаяПодсказка" id="938"/>
 												</CheckBoxField>
 												<InputField name="АдресОтвета" id="33">
 													<DataPath>Объект.АдресОтвета</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<MaxWidth>35</MaxWidth>
 													<ContextMenu name="АдресОтветаКонтекстноеМеню" id="34"/>
@@ -3276,7 +3258,6 @@
 								<CheckBoxField name="ПрикреплятьОтчетыВоВложения" id="1274">
 									<DataPath>Объект.ПрикреплятьОтчетыВоВложения</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПрикреплятьОтчетыВоВложенияКонтекстноеМеню" id="1275"/>
 									<ExtendedTooltip name="ПрикреплятьОтчетыВоВложенияРасширеннаяПодсказка" id="1276"/>
 									<Events>
@@ -3603,6 +3584,7 @@
 																			<DataPath>Объект.Отчеты.Представление</DataPath>
 																			<ReadOnly>true</ReadOnly>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ФорматыОтчетовПредставлениеКонтекстноеМеню" id="231"/>
 																			<ExtendedTooltip name="ФорматыОтчетовПредставлениеРасширеннаяПодсказка" id="923"/>
 																		</InputField>
@@ -3626,7 +3608,7 @@
 																			<DataPath>Объект.Отчеты.ОтправлятьЕслиПустой</DataPath>
 																			<TitleHeight>2</TitleHeight>
 																			<EditMode>EnterOnInput</EditMode>
-																			<CheckBoxType>Auto</CheckBoxType>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ФорматыОтчетовОтправлятьЕслиПустойКонтекстноеМеню" id="535"/>
 																			<ExtendedTooltip name="ФорматыОтчетовОтправлятьЕслиПустойРасширеннаяПодсказка" id="925"/>
 																			<Events>
@@ -3644,7 +3626,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
-																			<CheckBoxType>Auto</CheckBoxType>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ФорматыОтчетовНеОтправлятьПустойКонтекстноеМеню" id="990"/>
 																			<ExtendedTooltip name="ФорматыОтчетовНеОтправлятьПустойРасширеннаяПодсказка" id="991"/>
 																			<Events>
@@ -3678,7 +3660,6 @@
 											<DataPath>Объект.ТранслитерироватьИменаФайлов</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ТранслитерироватьИменаФайловКонтекстноеМеню" id="1181"/>
 											<ExtendedTooltip name="ТранслитерироватьИменаФайловРасширеннаяПодсказка" id="1182"/>
 										</CheckBoxField>
@@ -3705,7 +3686,7 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АрхивироватьКонтекстноеМеню" id="14"/>
 													<ExtendedTooltip name="АрхивироватьРасширеннаяПодсказка" id="930"/>
 													<Events>
@@ -3716,6 +3697,7 @@
 													<DataPath>Объект.ИмяАрхива</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>50</Width>
 													<MaxWidth>45</MaxWidth>
 													<DropListButton>true</DropListButton>
@@ -3782,6 +3764,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>20</MaxWidth>
 															<PasswordMode>true</PasswordMode>
@@ -3833,7 +3816,6 @@
 														<CheckBoxField name="УстановитьПаролиЗашифровать" id="1283">
 															<DataPath>Объект.УстановитьПаролиЗашифровать</DataPath>
 															<TitleLocation>None</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="УстановитьПаролиЗашифроватьКонтекстноеМеню" id="1284"/>
 															<ExtendedTooltip name="УстановитьПаролиЗашифроватьРасширеннаяПодсказка" id="1285"/>
 															<Events>

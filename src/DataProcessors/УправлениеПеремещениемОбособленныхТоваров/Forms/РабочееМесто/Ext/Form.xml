@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -449,7 +450,6 @@
 								<CheckBoxField name="ТолькоОтмеченные" id="726">
 									<DataPath>ТолькоОтмеченные</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ТолькоОтмеченныеКонтекстноеМеню" id="727"/>
 									<ExtendedTooltip name="ТолькоОтмеченныеРасширеннаяПодсказка" id="728"/>
 									<Events>
@@ -540,6 +540,7 @@
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>8</MaxWidth>
 									<ContextMenu name="ТоварыАртикулКонтекстноеМеню" id="741"/>
@@ -552,6 +553,7 @@
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>8</MaxWidth>
 									<ContextMenu name="ТоварыКодКонтекстноеМеню" id="744"/>
@@ -572,6 +574,7 @@
 											<DataPath>Объект.Товары.Номенклатура</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<FixingInTable>Left</FixingInTable>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>8</MaxWidth>
 											<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="628"/>
@@ -581,6 +584,7 @@
 											<DataPath>Объект.Товары.Характеристика</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<FixingInTable>Left</FixingInTable>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>8</MaxWidth>
 											<ContextMenu name="ТоварыХарактеристикаКонтекстноеМеню" id="631"/>
@@ -596,6 +600,7 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<FixingInTable>Left</FixingInTable>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>3</MaxWidth>
 											<ContextMenu name="ТоварыУпаковкаКонтекстноеМеню" id="643"/>
@@ -607,6 +612,7 @@
 									<DataPath>Объект.Товары.Назначение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>8</MaxWidth>
 									<ContextMenu name="ТоварыНазначениеКонтекстноеМеню" id="649"/>
@@ -626,6 +632,7 @@
 										<LabelField name="ТоварыДоступно" id="699">
 											<DataPath>Объект.Товары.Доступно</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>8</MaxWidth>
 											<Format>
@@ -665,7 +672,7 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
 													<ShowInFooter>false</ShowInFooter>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыОтметкаКонтекстноеМеню" id="707"/>
 													<ExtendedTooltip name="ТоварыОтметкаРасширеннаяПодсказка" id="708"/>
 													<Events>
@@ -683,6 +690,7 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>9</MaxWidth>
 													<Format>
@@ -728,7 +736,7 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
 													<ShowInFooter>false</ShowInFooter>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ТоварыОтметкаТолькоПросмотрКонтекстноеМеню" id="955"/>
 													<ExtendedTooltip name="ТоварыОтметкаТолькоПросмотрРасширеннаяПодсказка" id="956"/>
 												</CheckBoxField>
@@ -738,6 +746,9 @@
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -764,6 +775,7 @@
 										<LabelField name="ТоварыСкладОтправитель" id="853">
 											<DataPath>Объект.Товары.СкладОтправитель</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТоварыСкладОтправительКонтекстноеМеню" id="854"/>
 											<ExtendedTooltip name="ТоварыСкладОтправительРасширеннаяПодсказка" id="855"/>
 										</LabelField>
@@ -776,12 +788,14 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТоварыСкладПолучательКонтекстноеМеню" id="634"/>
 											<ExtendedTooltip name="ТоварыСкладПолучательРасширеннаяПодсказка" id="635"/>
 										</LabelField>
 										<LabelField name="ТоварыДатаПотребности" id="674">
 											<DataPath>Объект.Товары.ДатаПотребности</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>13</Width>
 											<ContextMenu name="ТоварыДатаПотребностиКонтекстноеМеню" id="675"/>
 											<ExtendedTooltip name="ТоварыДатаПотребностиРасширеннаяПодсказка" id="676"/>
@@ -789,6 +803,7 @@
 										<LabelField name="ТоварыПотребность" id="691">
 											<DataPath>Объект.Товары.Потребность</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Format>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -809,6 +824,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>17</Width>
 									<Format>
 										<v8:item>
@@ -825,6 +841,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -840,6 +857,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -900,6 +918,7 @@
 								<LabelField name="КорзинаСкладовСклад" id="920">
 									<DataPath>КорзинаСкладов.Склад</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КорзинаСкладовСкладКонтекстноеМеню" id="921"/>
 									<ExtendedTooltip name="КорзинаСкладовСкладРасширеннаяПодсказка" id="922"/>
 								</LabelField>
@@ -919,6 +938,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>2</MaxWidth>
 											<ValuesPicture>
@@ -932,6 +952,7 @@
 										<LabelField name="КорзинаСкладовВес" id="923">
 											<DataPath>КорзинаСкладов.Вес</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>12</MaxWidth>
 											<Format>
@@ -961,6 +982,7 @@
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>2</MaxWidth>
 											<ValuesPicture>
@@ -974,6 +996,7 @@
 										<LabelField name="КорзинаСкладовОбъем" id="926">
 											<DataPath>КорзинаСкладов.Объем</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>12</MaxWidth>
 											<Format>
@@ -1169,7 +1192,7 @@
 						</CommandBar>
 						<Table name="СписокДокументы" id="483">
 							<CommandBarLocation>None</CommandBarLocation>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокДокументы</DataPath>

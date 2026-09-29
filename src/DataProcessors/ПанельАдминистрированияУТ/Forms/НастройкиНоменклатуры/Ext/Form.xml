@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -106,7 +106,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаРазрезыУчетаРасширеннаяПодсказка" id="2085"/>
 			<ChildItems>
@@ -140,7 +140,6 @@
 									<v8:content>Отключать использование нескольких видов номенклатуры после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьНесколькоВидовНоменклатурыКонтекстноеМеню" id="2225"/>
 							<ExtendedTooltip name="ИспользоватьНесколькоВидовНоменклатурыРасширеннаяПодсказка" id="2226">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -235,7 +234,6 @@
 									<v8:content>Отключать использование наборов номенклатуры после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьНаборыКонтекстноеМеню" id="2210"/>
 							<ExtendedTooltip name="ИспользоватьНаборыРасширеннаяПодсказка" id="2211">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -301,7 +299,6 @@
 											<v8:content>Отключать использование многооборотной тары после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьМногооборотнуюТаруКонтекстноеМеню" id="2035"/>
 									<ExtendedTooltip name="ИспользоватьМногооборотнуюТаруРасширеннаяПодсказка" id="2154">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -354,7 +351,6 @@
 											<DataPath>НаборКонстант.ПредлагатьДополнитьДокументыМногооборотнойТарой</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПредлагатьДополнитьДокументыМногооборотнойТаройКонтекстноеМеню" id="2039"/>
 											<ExtendedTooltip name="ПредлагатьДополнитьДокументыМногооборотнойТаройРасширеннаяПодсказка" id="2159">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -405,7 +401,6 @@
 									<v8:content>Отключать характеристики номенклатуры после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьХарактеристикиНоменклатурыКонтекстноеМеню" id="454"/>
 							<ExtendedTooltip name="ИспользоватьХарактеристикиНоменклатурыРасширеннаяПодсказка" id="2119">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -452,7 +447,6 @@
 									<v8:content>Отключать упаковки после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьУпаковкиНоменклатурыКонтекстноеМеню" id="460"/>
 							<ExtendedTooltip name="ИспользоватьУпаковкиНоменклатурыРасширеннаяПодсказка" id="2127">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -501,7 +495,6 @@
 									<v8:content>Отключать серии номенклатуры после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСерииНоменклатурыКонтекстноеМеню" id="555"/>
 							<ExtendedTooltip name="ИспользоватьСерииНоменклатурыРасширеннаяПодсказка" id="2135">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -561,7 +554,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВыводитьСерииВПечатныхФормахКонтекстноеМеню" id="2465"/>
 											<ExtendedTooltip name="ВыводитьСерииВПечатныхФормахРасширеннаяПодсказка" id="2466">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -689,7 +681,6 @@
 									<v8:content>Отключать использование качества товаров после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьКачествоТоваровКонтекстноеМеню" id="457"/>
 							<ExtendedTooltip name="ИспользоватьКачествоТоваровРасширеннаяПодсказка" id="2138">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -745,7 +736,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОбобщенныйУчетНекачественныхТоваровКонтекстноеМеню" id="668"/>
 											<ExtendedTooltip name="ИспользоватьОбобщенныйУчетНекачественныхТоваровРасширеннаяПодсказка" id="2143">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -778,7 +768,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаЕдиницыИзмеренияРасширеннаяПодсказка" id="2086"/>
 			<ChildItems>
@@ -938,7 +928,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьЕдиницыИзмеренияДляОтчетовКонтекстноеМеню" id="2186"/>
 					<ExtendedTooltip name="ИспользоватьЕдиницыИзмеренияДляОтчетовРасширеннаяПодсказка" id="2187">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -1108,7 +1097,6 @@
 						<CheckBoxField name="ИспользоватьАвтоматическоеЗакрытиеСтрокЗаказовМерныхТоваров" id="2416">
 							<DataPath>НаборКонстант.ИспользоватьАвтоматическоеЗакрытиеСтрокЗаказовМерныхТоваров</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьАвтоматическоеЗакрытиеСтрокЗаказовМерныхТоваровКонтекстноеМеню" id="2417"/>
 							<ExtendedTooltip name="ИспользоватьАвтоматическоеЗакрытиеСтрокЗаказовМерныхТоваровРасширеннаяПодсказка" id="2418"/>
 							<Events>
@@ -1129,7 +1117,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиСозданияРасширеннаяПодсказка" id="2260"/>
 			<ChildItems>
@@ -1156,7 +1144,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="КонтролироватьУникальностьРабочегоНаименованияНоменклатурыИХарактеристикКонтекстноеМеню" id="557"/>
 							<ExtendedTooltip name="КонтролироватьУникальностьРабочегоНаименованияНоменклатурыИХарактеристикРасширеннаяПодсказка" id="2110">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1231,7 +1218,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="КонтролироватьУникальностьНоменклатурыПоСочетаниюЗначенийРеквизитовКонтекстноеМеню" id="1953"/>
 							<ExtendedTooltip name="КонтролироватьУникальностьНоменклатурыПоСочетаниюЗначенийРеквизитовРасширеннаяПодсказка" id="2116">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1354,7 +1340,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаСегментыРасширеннаяПодсказка" id="2396"/>
 			<ChildItems>
@@ -1381,7 +1367,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСегментыНоменклатурыКонтекстноеМеню" id="2400"/>
 							<ExtendedTooltip name="ИспользоватьСегментыНоменклатурыРасширеннаяПодсказка" id="2401">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1432,7 +1417,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиПоискаРасширеннаяПодсказка" id="2098"/>
 			<ChildItems>
@@ -1577,7 +1562,6 @@
 				<CheckBoxField name="ИспользоватьСтандартныйПоискПриПодбореТоваров" id="2078">
 					<DataPath>НаборКонстант.ИспользоватьСтандартныйПоискПриПодбореТоваров</DataPath>
 					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьСтандартныйПоискПриПодбореТоваровКонтекстноеМеню" id="2079"/>
 					<ExtendedTooltip name="ИспользоватьСтандартныйПоискПриПодбореТоваровРасширеннаяПодсказка" id="2108"/>
 				</CheckBoxField>
@@ -1618,7 +1602,6 @@
 					<DataPath>НаборКонстант.ИспользоватьПолнотекстовыйПоискПриПодбореТоваров</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьПолнотекстовыйПоискПриПодбореТоваровКонтекстноеМеню" id="2339"/>
 					<ExtendedTooltip name="ИспользоватьПолнотекстовыйПоискПриПодбореТоваровРасширеннаяПодсказка" id="2340">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -1684,7 +1667,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="2262"/>
 			<ChildItems>
@@ -1711,7 +1694,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьНоменклатуруПартнеровКонтекстноеМеню" id="2482"/>
 							<ExtendedTooltip name="ИспользоватьНоменклатуруПартнеровРасширеннаяПодсказка" id="2483">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1800,7 +1782,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьНоменклатуруПродаваемуюСовместноКонтекстноеМеню" id="1722"/>
 									<ExtendedTooltip name="ИспользоватьНоменклатуруПродаваемуюСовместноРасширеннаяПодсказка" id="2150"/>
 									<Events>
@@ -1849,7 +1830,6 @@
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСертификатыНоменклатурыКонтекстноеМеню" id="2167"/>
 							<ExtendedTooltip name="ИспользоватьСертификатыНоменклатурыРасширеннаяПодсказка" id="2168">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1912,7 +1892,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользованиеКлассификаторовНоменклатурыКонтекстноеМеню" id="2246"/>
 							<ExtendedTooltip name="ИспользованиеКлассификаторовНоменклатурыРасширеннаяПодсказка" id="2247">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1988,7 +1967,6 @@
 							<DataPath>НаборКонстант.ИспользованиеСтарыхКлассификаторовОКПиОКВЭД</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользованиеСтарыхКлассификаторовОКПиОКВЭДКонтекстноеМеню" id="2443"/>
 							<ExtendedTooltip name="ИспользованиеСтарыхКлассификаторовОКПиОКВЭДРасширеннаяПодсказка" id="2444">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -2027,7 +2005,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьУчетДрагоценныхМатериаловКонтекстноеМеню" id="2202"/>
 							<ExtendedTooltip name="ИспользоватьУчетДрагоценныхМатериаловРасширеннаяПодсказка" id="2203">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -2057,7 +2034,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="НастройкаМиграцииШтрихкодовРасширеннаяПодсказка" id="2307"/>
 			<ChildItems>
@@ -2070,7 +2047,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВыгружатьВнутренниеШтрихкодыШтучныхТоваровКонтекстноеМеню" id="2309"/>
 					<ExtendedTooltip name="ВыгружатьВнутренниеШтрихкодыШтучныхТоваровРасширеннаяПодсказка" id="2310"/>
 					<Events>
@@ -2086,7 +2062,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьФасовкуВесовогоТовараКонтекстноеМеню" id="2312"/>
 					<ExtendedTooltip name="ИспользоватьФасовкуВесовогоТовараРасширеннаяПодсказка" id="2313"/>
 					<Events>
@@ -2297,7 +2272,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаИспользоватьИнформативныеЦеныНоменклатурыРасширеннаяПодсказка" id="2471"/>
 			<ChildItems>
@@ -2311,7 +2286,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьИнформативныеЦеныНоменклатурыКонтекстноеМеню" id="2475"/>
 					<ExtendedTooltip name="ИспользоватьИнформативныеЦеныНоменклатурыРасширеннаяПодсказка" id="2476">
 						<Title formatted="false">

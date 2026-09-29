@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -291,7 +291,6 @@
 						<CheckBoxField name="ЦенаВключаетНДС" id="7">
 							<DataPath>Объект.ЦенаВключаетНДС</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="401"/>
 						</CheckBoxField>
@@ -352,7 +351,7 @@
 			<TitleFont ref="style:NormalTextFont" height="10" bold="true" kind="StyleItem"/>
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаИспользованиеРасширеннаяПодсказка" id="402"/>
 			<ChildItems>
@@ -378,7 +377,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПриОптовойПродажеКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="ИспользоватьПриОптовойПродажеРасширеннаяПодсказка" id="403"/>
 							<Events>
@@ -394,7 +392,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПриРозничнойПродажеКонтекстноеМеню" id="555"/>
 							<ExtendedTooltip name="ИспользоватьПриРозничнойПродажеРасширеннаяПодсказка" id="556"/>
 							<Events>
@@ -410,7 +407,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПриПродажеМеждуОрганизациямиКонтекстноеМеню" id="187"/>
 							<ExtendedTooltip name="ИспользоватьПриПродажеМеждуОрганизациямиРасширеннаяПодсказка" id="404"/>
 							<Events>
@@ -443,7 +439,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПриПередачеПродукцииДавальцуКонтекстноеМеню" id="388"/>
 							<ExtendedTooltip name="ИспользоватьПриПередачеПродукцииДавальцуРасширеннаяПодсказка" id="407"/>
 							<Events>
@@ -459,7 +454,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПриВыпускеПродукцииКонтекстноеМеню" id="386"/>
 							<ExtendedTooltip name="ИспользоватьПриВыпускеПродукцииРасширеннаяПодсказка" id="405"/>
 							<Events>
@@ -577,7 +571,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗапретитьРедактированиеЦеныЗапределамиОтбораКонтекстноеМеню" id="691"/>
 					<ExtendedTooltip name="ЗапретитьРедактированиеЦеныЗапределамиОтбораРасширеннаяПодсказка" id="692"/>
 				</CheckBoxField>
@@ -593,7 +586,7 @@
 			<TitleFont ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ThroughAlign>DontUse</ThroughAlign>
 			<ExtendedTooltip name="ГруппаСпособЗаданияЦеныРасширеннаяПодсказка" id="565"/>
@@ -1254,7 +1247,7 @@ Eсли указано 0 дней - анализироваться будет в
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="СтраницаПравилаОкругленияЦеныРасширеннаяПодсказка" id="448"/>
 			<ChildItems>
@@ -1280,7 +1273,6 @@ Eсли указано 0 дней - анализироваться будет в
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<EditFormat>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1427,7 +1419,7 @@ Eсли указано 0 дней - анализироваться будет в
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="СтраницаПорогиСрабатыванияРасширеннаяПодсказка" id="462"/>
 			<ChildItems>
@@ -1449,7 +1441,6 @@ Eсли указано 0 дней - анализироваться будет в
 						<CheckBoxField name="ИспользоватьПорогиСрабатывания" id="734">
 							<DataPath>ИспользоватьПорогиСрабатывания</DataPath>
 							<TitleLocation>None</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПорогиСрабатыванияКонтекстноеМеню" id="735"/>
 							<ExtendedTooltip name="ИспользоватьПорогиСрабатыванияРасширеннаяПодсказка" id="736"/>
 							<Events>

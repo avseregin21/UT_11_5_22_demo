@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -95,7 +95,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаСоглашенияИДоговорыРасширеннаяПодсказка" id="3382"/>
 			<ChildItems>
@@ -149,7 +149,6 @@
 											<v8:content>Отключать возможность использования соглашений с поставщиками после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСоглашенияСПоставщикамиКонтекстноеМеню" id="3347"/>
 									<ExtendedTooltip name="ИспользоватьСоглашенияСПоставщикамиРасширеннаяПодсказка" id="3348">
 										<Title formatted="false">
@@ -189,7 +188,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьДоговорыСПоставщикамиКонтекстноеМеню" id="3355"/>
 									<ExtendedTooltip name="ИспользоватьДоговорыСПоставщикамиРасширеннаяПодсказка" id="3356">
 										<Title formatted="false">
@@ -311,7 +309,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="АвтоПостановкаПоставщиковНаМониторингСПАРККонтекстноеМеню" id="3413"/>
 											<ExtendedTooltip name="АвтоПостановкаПоставщиковНаМониторингСПАРКРасширеннаяПодсказка" id="3414">
 												<Title formatted="false">
@@ -354,7 +351,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаЗаказыПоставщикамРасширеннаяПодсказка" id="3384"/>
 			<ChildItems>
@@ -421,7 +418,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьЗаказыПоставщикамКонтекстноеМеню" id="81"/>
 													<ExtendedTooltip name="ИспользоватьЗаказыПоставщикамРасширеннаяПодсказка" id="3042">
 														<Title formatted="false">
@@ -460,7 +456,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="НеЗакрыватьЗаказыПоставщикамБезПолногоПоступленияКонтекстноеМеню" id="2891"/>
 													<ExtendedTooltip name="НеЗакрыватьЗаказыПоставщикамБезПолногоПоступленияРасширеннаяПодсказка" id="3045">
 														<Title formatted="false">
@@ -514,7 +509,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьПоступлениеПоНесколькимЗаказамКонтекстноеМеню" id="532"/>
 													<ExtendedTooltip name="ИспользоватьПоступлениеПоНесколькимЗаказамРасширеннаяПодсказка" id="3049">
 														<Title formatted="false">
@@ -553,7 +547,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="НеЗакрыватьЗаказыПоставщикамБезПолнойОплатыКонтекстноеМеню" id="2893"/>
 													<ExtendedTooltip name="НеЗакрыватьЗаказыПоставщикамБезПолнойОплатыРасширеннаяПодсказка" id="3052">
 														<Title formatted="false">
@@ -651,7 +644,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьЗапросыКоммерческихПредложенийПоставщиковКонтекстноеМеню" id="3593"/>
 									<ExtendedTooltip name="ИспользоватьЗапросыКоммерческихПредложенийПоставщиковРасширеннаяПодсказка" id="3594">
 										<Title formatted="false">
@@ -694,7 +686,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьКоммерческиеПредложенияПоставщиковКонтекстноеМеню" id="3598"/>
 									<ExtendedTooltip name="ИспользоватьКоммерческиеПредложенияПоставщиковРасширеннаяПодсказка" id="3599"/>
 									<Events>
@@ -734,7 +725,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПричиныОтменыЗаказовПоставщикамКонтекстноеМеню" id="2945"/>
 							<ExtendedTooltip name="ИспользоватьПричиныОтменыЗаказовПоставщикамРасширеннаяПодсказка" id="3058">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -829,7 +819,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьСогласованиеЗаказовПоставщикамКонтекстноеМеню" id="429"/>
 											<ExtendedTooltip name="ИспользоватьСогласованиеЗаказовПоставщикамРасширеннаяПодсказка" id="3066"/>
 											<Events>
@@ -1004,7 +993,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаДокументыЗакупокРасширеннаяПодсказка" id="3388"/>
 			<ChildItems>
@@ -1024,7 +1013,6 @@
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьКорректировкиПриобретенийКонтекстноеМеню" id="3322"/>
 					<ExtendedTooltip name="ИспользоватьКорректировкиПриобретенийРасширеннаяПодсказка" id="3323">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -1228,7 +1216,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСкладыВТабличнойЧастиДокументовЗакупкиКонтекстноеМеню" id="2950"/>
 							<ExtendedTooltip name="ИспользоватьСкладыВТабличнойЧастиДокументовЗакупкиРасширеннаяПодсказка" id="3082">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1348,7 +1335,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьАктыОРасхожденияхПослеПриемкиКонтекстноеМеню" id="3397"/>
 													<ExtendedTooltip name="ИспользоватьАктыОРасхожденияхПослеПриемкиРасширеннаяПодсказка" id="3398">
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -1514,7 +1500,6 @@
 											<v8:content>Отключать возможность использования приемки на ответственное хранение с правом продажи после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОтветственноеХранениеВПроцессеЗакупкиКонтекстноеМеню" id="3427"/>
 									<ExtendedTooltip name="ИспользоватьОтветственноеХранениеВПроцессеЗакупкиРасширеннаяПодсказка" id="3428">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1588,7 +1573,6 @@
 									<DataPath>НаборКонстант.ИспользоватьТоварыВПутиОтПоставщиков</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьТоварыВПутиОтПоставщиковКонтекстноеМеню" id="3456"/>
 									<ExtendedTooltip name="ИспользоватьТоварыВПутиОтПоставщиковРасширеннаяПодсказка" id="3457">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1721,7 +1705,6 @@
 									<DataPath>НаборКонстант.ИспользоватьНеотфактурованныеПоставки</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьНеотфактурованныеПоставкиКонтекстноеМеню" id="3498"/>
 									<ExtendedTooltip name="ИспользоватьНеотфактурованныеПоставкиРасширеннаяПодсказка" id="3499">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1802,7 +1785,7 @@
 			<Group>Horizontal</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаИспользованиеСтатусовДокументовЗакупкиРасширеннаяПодсказка" id="3151"/>
@@ -1861,7 +1844,6 @@
 											<v8:content>Отключать статусы заказов поставщикам после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыЗаказовПоставщикамКонтекстноеМеню" id="2904"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыЗаказовПоставщикамРасширеннаяПодсказка" id="3154">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1920,7 +1902,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаРетроБонусыРасширеннаяПодсказка" id="3664"/>
 			<ChildItems>
@@ -1946,7 +1928,6 @@
 									<v8:content>Отключать возможность использования ретро-бонусов клиентов после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьРетроБонусыПоставщиковКонтекстноеМеню" id="3668"/>
 							<ExtendedTooltip name="ИспользоватьРетроБонусыПоставщиковРасширеннаяПодсказка" id="3669"/>
 							<Events>
@@ -2079,7 +2060,6 @@
 											<v8:content>Отключать возможность использования статусов списаний ретро-бонусов клиентов после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСогласованиеСписанийРетроБонусовПоставщиковКонтекстноеМеню" id="3691"/>
 									<ExtendedTooltip name="ИспользоватьСогласованиеСписанийРетроБонусовПоставщиковРасширеннаяПодсказка" id="3692">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2143,7 +2123,6 @@
 									<DataPath>НаборКонстант.ВыводитьПолныеНаименованияРетроБонусовПоставщиков</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВыводитьПолныеНаименованияРетроБонусовПоставщиковКонтекстноеМеню" id="3694"/>
 									<ExtendedTooltip name="ВыводитьПолныеНаименованияРетроБонусовПоставщиковРасширеннаяПодсказка" id="3695">
 										<AutoMaxWidth>false</AutoMaxWidth>

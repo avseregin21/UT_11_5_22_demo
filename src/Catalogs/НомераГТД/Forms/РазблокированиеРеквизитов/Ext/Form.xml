@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -24,56 +24,48 @@
 		<CheckBoxField name="Код" id="5">
 			<DataPath>Код</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="КодКонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="7"/>
 		</CheckBoxField>
 		<CheckBoxField name="ТипНомераГТД" id="14">
 			<DataPath>ТипНомераГТД</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ТипНомераГТДКонтекстноеМеню" id="15"/>
 			<ExtendedTooltip name="ТипНомераГТДРасширеннаяПодсказка" id="16"/>
 		</CheckBoxField>
 		<CheckBoxField name="СтранаПроисхождения" id="11">
 			<DataPath>СтранаПроисхождения</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="СтранаПроисхожденияКонтекстноеМеню" id="12"/>
 			<ExtendedTooltip name="СтранаПроисхожденияРасширеннаяПодсказка" id="13"/>
 		</CheckBoxField>
 		<CheckBoxField name="Номенклатура" id="17">
 			<DataPath>Номенклатура</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="НоменклатураКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="19"/>
 		</CheckBoxField>
 		<CheckBoxField name="НаименованиеТовара" id="20">
 			<DataPath>НаименованиеТовара</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="НаименованиеТовараКонтекстноеМеню" id="21"/>
 			<ExtendedTooltip name="НаименованиеТовараРасширеннаяПодсказка" id="22"/>
 		</CheckBoxField>
 		<CheckBoxField name="ЕдиницаИзмерения" id="26">
 			<DataPath>ЕдиницаИзмерения</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="27"/>
 			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="28"/>
 		</CheckBoxField>
 		<CheckBoxField name="СуммаПоРНПТ" id="23">
 			<DataPath>СуммаПоРНПТ</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="СуммаПоРНПТКонтекстноеМеню" id="24"/>
 			<ExtendedTooltip name="СуммаПоРНПТРасширеннаяПодсказка" id="25"/>
 		</CheckBoxField>
 		<CheckBoxField name="ПрослеживаемыеКомплектующие" id="8">
 			<DataPath>ПрослеживаемыеКомплектующие</DataPath>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПрослеживаемыеКомплектующиеКонтекстноеМеню" id="9"/>
 			<ExtendedTooltip name="ПрослеживаемыеКомплектующиеРасширеннаяПодсказка" id="10"/>
 		</CheckBoxField>

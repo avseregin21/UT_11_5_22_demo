@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройки сборки и курьерской доставки</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -58,7 +58,6 @@
 						<CheckBoxField name="ВМагазинеПоддерживаетсяСборкаЗаказов" id="274">
 							<DataPath>ВМагазинеПоддерживаетсяСборкаЗаказов</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВМагазинеПоддерживаетсяСборкаЗаказовКонтекстноеМеню" id="275"/>
 							<ExtendedTooltip name="ВМагазинеПоддерживаетсяСборкаЗаказовРасширеннаяПодсказка" id="276"/>
 							<Events>
@@ -126,7 +125,6 @@
 										<CheckBoxField name="СборщикиМогутНазначатьСебеЗаказы" id="280">
 											<DataPath>СборщикиМогутНазначатьСебеЗаказы</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СборщикиМогутНазначатьСебеЗаказыКонтекстноеМеню" id="281"/>
 											<ExtendedTooltip name="СборщикиМогутНазначатьСебеЗаказыРасширеннаяПодсказка" id="282"/>
 										</CheckBoxField>
@@ -147,7 +145,6 @@
 										<CheckBoxField name="СоздаватьРеализациюАвтоматическиПослеСборки" id="246">
 											<DataPath>СоздаватьРеализациюАвтоматическиПослеСборки</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СоздаватьРеализациюАвтоматическиПослеСборкиКонтекстноеМеню" id="247"/>
 											<ExtendedTooltip name="СоздаватьРеализациюАвтоматическиПослеСборкиРасширеннаяПодсказка" id="248"/>
 											<Events>
@@ -172,7 +169,6 @@
 										<CheckBoxField name="СборкаИДоставкаВыполняетсяОднимСотрудником" id="283">
 											<DataPath>СборкаИДоставкаВыполняетсяОднимСотрудником</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СборкаИДоставкаВыполняетсяОднимСотрудникомКонтекстноеМеню" id="284"/>
 											<ExtendedTooltip name="СборкаИДоставкаВыполняетсяОднимСотрудникомРасширеннаяПодсказка" id="285"/>
 										</CheckBoxField>
@@ -221,7 +217,6 @@
 						<CheckBoxField name="ВМагазинеПоддерживаетсяДоставкаСвоимиКурьерами" id="277">
 							<DataPath>ВМагазинеПоддерживаетсяДоставкаСвоимиКурьерами</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВМагазинеПоддерживаетсяДоставкаСвоимиКурьерамиКонтекстноеМеню" id="278"/>
 							<ExtendedTooltip name="ВМагазинеПоддерживаетсяДоставкаСвоимиКурьерамиРасширеннаяПодсказка" id="279"/>
 							<Events>
@@ -289,7 +284,6 @@
 										<CheckBoxField name="КурьерыМогутНазначатьСебеЗаказы" id="286">
 											<DataPath>КурьерыМогутНазначатьСебеЗаказы</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КурьерыМогутНазначатьСебеЗаказыКонтекстноеМеню" id="287"/>
 											<ExtendedTooltip name="КурьерыМогутНазначатьСебеЗаказыРасширеннаяПодсказка" id="288"/>
 										</CheckBoxField>
@@ -310,14 +304,12 @@
 										<CheckBoxField name="КурьерыИспользуютАвтономныеККТ" id="289">
 											<DataPath>КурьерыИспользуютАвтономныеККТ</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КурьерыИспользуютАвтономныеККТКонтекстноеМеню" id="290"/>
 											<ExtendedTooltip name="КурьерыИспользуютАвтономныеККТРасширеннаяПодсказка" id="291"/>
 										</CheckBoxField>
 										<CheckBoxField name="КурьерыИспользуютЭквайринговыеТерминалы" id="292">
 											<DataPath>КурьерыИспользуютЭквайринговыеТерминалы</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КурьерыИспользуютЭквайринговыеТерминалыКонтекстноеМеню" id="293"/>
 											<ExtendedTooltip name="КурьерыИспользуютЭквайринговыеТерминалыРасширеннаяПодсказка" id="294"/>
 										</CheckBoxField>

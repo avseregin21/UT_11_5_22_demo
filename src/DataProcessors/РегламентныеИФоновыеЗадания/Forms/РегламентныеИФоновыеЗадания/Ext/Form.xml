@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
@@ -11,6 +11,7 @@
 		<ExcludedCommand>Retry</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
@@ -142,7 +143,7 @@
 										<Table name="ТаблицаРегламентныеЗадания" id="29">
 											<Representation>List</Representation>
 											<SkipOnInput>false</SkipOnInput>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ТаблицаРегламентныеЗадания</DataPath>
@@ -442,7 +443,6 @@
 														<xr:Ref>StdPicture.ScheduledJob</xr:Ref>
 														<xr:LoadTransparent>true</xr:LoadTransparent>
 													</HeaderPicture>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользованиеКонтекстноеМеню" id="43"/>
 													<ExtendedTooltip name="ИспользованиеРасширеннаяПодсказка" id="197"/>
 												</CheckBoxField>
@@ -487,6 +487,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="304"/>
 													<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="305"/>
 												</InputField>
@@ -541,6 +542,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасписаниеЗаданияКонтекстноеМеню" id="317"/>
 													<ExtendedTooltip name="РасписаниеЗаданияРасширеннаяПодсказка" id="318"/>
 												</InputField>
@@ -562,7 +564,6 @@
 															<v8:content>Предопределенное задание поставляется в составе приложения и его нельзя удалить</v8:content>
 														</v8:item>
 													</ToolTip>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПредопределенноеКонтекстноеМеню" id="35"/>
 													<ExtendedTooltip name="ПредопределенноеРасширеннаяПодсказка" id="196"/>
 												</CheckBoxField>
@@ -634,7 +635,6 @@
 													<v8:content>Показывать выполненные фоновые задания</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборПоСостояниюЗавершеноКонтекстноеМеню" id="101"/>
 											<ExtendedTooltip name="ОтборПоСостояниюЗавершеноРасширеннаяПодсказка" id="207"/>
 										</CheckBoxField>
@@ -653,7 +653,6 @@
 													<v8:content>Показывать фоновые задания завершенные с ошибкой</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборПоСостояниюЗавершеноАварийноКонтекстноеМеню" id="103"/>
 											<ExtendedTooltip name="ОтборПоСостояниюЗавершеноАварийноРасширеннаяПодсказка" id="208"/>
 										</CheckBoxField>
@@ -672,7 +671,6 @@
 													<v8:content>Показывать фоновые задания отмененные пользователем</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборПоСостояниюОтмененоКонтекстноеМеню" id="105"/>
 											<ExtendedTooltip name="ОтборПоСостояниюОтмененоРасширеннаяПодсказка" id="209"/>
 										</CheckBoxField>
@@ -691,7 +689,6 @@
 													<v8:content>Показывать фоновые задания, которые сейчас выполняются</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтборПоСостояниюАктивноКонтекстноеМеню" id="99"/>
 											<ExtendedTooltip name="ОтборПоСостояниюАктивноРасширеннаяПодсказка" id="210"/>
 										</CheckBoxField>
@@ -874,7 +871,6 @@
 															<v8:content>Включить отбор по регламентному заданию</v8:content>
 														</v8:item>
 													</ToolTip>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОтбиратьПоРегламентномуЗаданиюКонтекстноеМеню" id="95"/>
 													<ExtendedTooltip name="ОтбиратьПоРегламентномуЗаданиюРасширеннаяПодсказка" id="220"/>
 													<Events>

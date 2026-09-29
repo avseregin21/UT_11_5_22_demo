@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -797,7 +797,6 @@
 																						<CheckBoxField name="ОплатаВВалюте" id="1004">
 																							<DataPath>Объект.ОплатаВВалюте</DataPath>
 																							<TitleLocation>Right</TitleLocation>
-																							<CheckBoxType>Auto</CheckBoxType>
 																							<ContextMenu name="ОплатаВВалютеКонтекстноеМеню" id="1005"/>
 																							<ExtendedTooltip name="ОплатаВВалютеРасширеннаяПодсказка" id="1006"/>
 																							<Events>
@@ -1096,14 +1095,12 @@
 														<CheckBoxField name="ОбеспечиватьЗаказыОбособленно" id="844">
 															<DataPath>Объект.ОбеспечиватьЗаказыОбособленно</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОбеспечиватьЗаказыОбособленноКонтекстноеМеню" id="845"/>
 															<ExtendedTooltip name="ОбеспечиватьЗаказыОбособленноРасширеннаяПодсказка" id="846"/>
 														</CheckBoxField>
 														<CheckBoxField name="ВозможнаРеализацияБезПереходаПраваСобственности" id="808">
 															<DataPath>Объект.ВозможнаРеализацияБезПереходаПраваСобственности</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВозможнаРеализацияБезПереходаПраваСобственностиКонтекстноеМеню" id="809"/>
 															<ExtendedTooltip name="ВозможнаРеализацияБезПереходаПраваСобственностиРасширеннаяПодсказка" id="810"/>
 															<Events>
@@ -1250,7 +1247,6 @@
 																<CheckBoxField name="УдержатьВознаграждение" id="415">
 																	<DataPath>Объект.УдержатьВознаграждение</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="УдержатьВознаграждениеКонтекстноеМеню" id="416"/>
 																	<ExtendedTooltip name="УдержатьВознаграждениеРасширеннаяПодсказка" id="578"/>
 																</CheckBoxField>
@@ -1259,7 +1255,6 @@
 														<CheckBoxField name="КомиссионерВедетУчетПоРНПТ" id="1146">
 															<DataPath>Объект.КомиссионерВедетУчетПоРНПТ</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="КомиссионерВедетУчетПоРНПТКонтекстноеМеню" id="1147"/>
 															<ExtendedTooltip name="КомиссионерВедетУчетПоРНПТРасширеннаяПодсказка" id="1148"/>
 														</CheckBoxField>
@@ -1395,7 +1390,6 @@
 																			<v8:content>Вид цены будет очищен.</v8:content>
 																		</v8:item>
 																	</WarningOnEdit>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="302"/>
 																	<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="563"/>
 																	<Events>
@@ -1436,7 +1430,6 @@
 																		<CheckBoxField name="ИспользоватьОбщийВидЦены" id="1126">
 																			<DataPath>ИспользоватьОбщийВидЦены</DataPath>
 																			<TitleLocation>None</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ИспользоватьОбщийВидЦеныКонтекстноеМеню" id="1127"/>
 																			<ExtendedTooltip name="ИспользоватьОбщийВидЦеныРасширеннаяПодсказка" id="1128"/>
 																			<Events>
@@ -1485,7 +1478,6 @@
 																		<CheckBoxField name="ИспользоватьИндивидуальныйВидЦены" id="1110">
 																			<DataPath>ИспользоватьИндивидуальныйВидЦены</DataPath>
 																			<TitleLocation>None</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ИспользоватьИндивидуальныйВидЦеныКонтекстноеМеню" id="1111"/>
 																			<ExtendedTooltip name="ИспользоватьИндивидуальныйВидЦеныРасширеннаяПодсказка" id="1112"/>
 																			<Events>
@@ -1601,7 +1593,6 @@
 																<CheckBoxField name="ОграничиватьРучныеСкидки" id="488">
 																	<DataPath>Объект.ОграничиватьРучныеСкидки</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ОграничиватьРучныеСкидкиКонтекстноеМеню" id="489"/>
 																	<ExtendedTooltip name="ОграничиватьРучныеСкидкиРасширеннаяПодсказка" id="652"/>
 																	<Events>
@@ -1745,7 +1736,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ВозвращатьМногооборотнуюТаруКонтекстноеМеню" id="529"/>
 																	<ExtendedTooltip name="ВозвращатьМногооборотнуюТаруРасширеннаяПодсказка" id="581"/>
 																	<Events>
@@ -1772,7 +1762,6 @@
 														<CheckBoxField name="ТребуетсяЗалогЗаТару" id="532">
 															<DataPath>Объект.ТребуетсяЗалогЗаТару</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ТребуетсяЗалогЗаТаруКонтекстноеМеню" id="533"/>
 															<ExtendedTooltip name="ТребуетсяЗалогЗаТаруРасширеннаяПодсказка" id="583"/>
 														</CheckBoxField>
@@ -1941,7 +1930,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="РегулярноеКонтекстноеМеню" id="133"/>
 															<ExtendedTooltip name="РегулярноеРасширеннаяПодсказка" id="601"/>
 															<Events>
@@ -2153,14 +2141,12 @@
 															<v8:content>Используется в работе торговых представителей</v8:content>
 														</v8:item>
 													</ToolTip>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользуетсяВРаботеТорговыхПредставителейКонтекстноеМеню" id="120"/>
 													<ExtendedTooltip name="ИспользуетсяВРаботеТорговыхПредставителейРасширеннаяПодсказка" id="613"/>
 												</CheckBoxField>
 												<CheckBoxField name="ДоступноВнешнимПользователям" id="428">
 													<DataPath>Объект.ДоступноВнешнимПользователям</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ДоступноВнешнимПользователямКонтекстноеМеню" id="429"/>
 													<ExtendedTooltip name="ДоступноВнешнимПользователямРасширеннаяПодсказка" id="614"/>
 													<Events>
@@ -2357,6 +2343,7 @@
 								<InputField name="ЦеновыеГруппыСрокПоставки" id="460">
 									<DataPath>Объект.ЦеновыеГруппы.СрокПоставки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ЦеновыеГруппыСрокПоставкиКонтекстноеМеню" id="461"/>
@@ -2365,12 +2352,14 @@
 								<InputField name="ЦеновыеГруппыПроцентРучнойСкидки" id="484">
 									<DataPath>Объект.ЦеновыеГруппы.ПроцентРучнойСкидки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦеновыеГруппыПроцентРучнойСкидкиКонтекстноеМеню" id="485"/>
 									<ExtendedTooltip name="ЦеновыеГруппыПроцентРучнойСкидкиРасширеннаяПодсказка" id="629"/>
 								</InputField>
 								<InputField name="ЦеновыеГруппыПроцентРучнойНаценки" id="486">
 									<DataPath>Объект.ЦеновыеГруппы.ПроцентРучнойНаценки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦеновыеГруппыПроцентРучнойНаценкиКонтекстноеМеню" id="487"/>
 									<ExtendedTooltip name="ЦеновыеГруппыПроцентРучнойНаценкиРасширеннаяПодсказка" id="630"/>
 								</InputField>
@@ -2525,6 +2514,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="419"/>
 											<ExtendedTooltip name="ТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="640"/>
@@ -2576,6 +2566,7 @@
 								<InputField name="ТоварыСрокПоставки" id="462">
 									<DataPath>Объект.Товары.СрокПоставки</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыСрокПоставкиКонтекстноеМеню" id="463"/>
@@ -2709,7 +2700,7 @@
 							<Representation>Tree</Representation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<InitialTreeView>ExpandAllLevels</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
@@ -2781,6 +2772,7 @@
 									<DataPath>СкидкиНаценки.Ссылка</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СкидкиНаценкиСкидкаНаценкаКонтекстноеМеню" id="895"/>
 									<ExtendedTooltip name="СкидкиНаценкиСкидкаНаценкаРасширеннаяПодсказка" id="896"/>
 								</InputField>
@@ -2788,6 +2780,7 @@
 									<DataPath>СкидкиНаценки.Статус</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="СкидкиНаценкиСтатусКонтекстноеМеню" id="901"/>
@@ -2809,6 +2802,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="СкидкиНаценкиДатаНачалаДействияКонтекстноеМеню" id="904"/>
@@ -2819,6 +2813,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="СкидкиНаценкиДатаОкончанияДействияКонтекстноеМеню" id="907"/>

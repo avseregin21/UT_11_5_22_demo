@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,6 +8,7 @@
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -103,7 +104,7 @@
 										<xr:Ref>StdPicture.AppearanceExclamationMark</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияЗаписьЧитаемыхКонтекстноеМеню" id="24"/>
 									<ExtendedTooltip name="ПересеченияЗаписьЧитаемыхРасширеннаяПодсказка" id="25"/>
 								</CheckBoxField>
@@ -128,7 +129,7 @@
 										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияПовторнаяЗаписьКонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="ПересеченияПовторнаяЗаписьРасширеннаяПодсказка" id="28"/>
 								</CheckBoxField>
@@ -142,6 +143,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияОбъектМетаданныхКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ПересеченияОбъектМетаданныхРасширеннаяПодсказка" id="22"/>
 								</InputField>
@@ -155,6 +157,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияПроцедураПисательКонтекстноеМеню" id="15"/>
 									<ExtendedTooltip name="ПересеченияПроцедураПисательРасширеннаяПодсказка" id="16"/>
 								</InputField>
@@ -168,6 +171,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПересеченияПроцедураЧитательИлиПисатель2КонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="ПересеченияПроцедураЧитательИлиПисатель2РасширеннаяПодсказка" id="19"/>
 								</InputField>
@@ -241,6 +245,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиСНизкимПриоритетомОбъектМетаданныхКонтекстноеМеню" id="52"/>
 									<ExtendedTooltip name="ОбработчикиСНизкимПриоритетомОбъектМетаданныхРасширеннаяПодсказка" id="53"/>
 								</InputField>
@@ -254,6 +259,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиСНизкимПриоритетомПроцедураПисательКонтекстноеМеню" id="49"/>
 									<ExtendedTooltip name="ОбработчикиСНизкимПриоритетомПроцедураПисательРасширеннаяПодсказка" id="50"/>
 								</InputField>
@@ -267,6 +273,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОбработчикиСНизкимПриоритетомПорядокПисательКонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="ОбработчикиСНизкимПриоритетомПорядокПисательРасширеннаяПодсказка" id="56"/>
 								</InputField>

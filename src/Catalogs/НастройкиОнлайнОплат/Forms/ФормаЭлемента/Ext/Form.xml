@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<CommandSet>
 		<ExcludedCommand>Abort</ExcludedCommand>
@@ -143,7 +143,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НастройкаИспользуетсяКонтекстноеМеню" id="388"/>
 							<ExtendedTooltip name="НастройкаИспользуетсяРасширеннаяПодсказка" id="389"/>
 							<Events>
@@ -153,6 +152,7 @@
 						<InputField name="Наименование" id="1">
 							<DataPath>Объект.Description</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>35</MaxWidth>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
@@ -161,6 +161,7 @@
 						<InputField name="Организация" id="4">
 							<DataPath>Объект.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>35</MaxWidth>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="5"/>
@@ -186,7 +187,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаИспользованиеДоговораРасширеннаяПодсказка" id="233">
 								<Title formatted="true">
@@ -263,7 +264,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="ГруппаЭлементИдентификаторыРасширеннаяПодсказка" id="272"/>
 							<ChildItems>
 								<InputField name="ИдентификаторМагазина" id="244">
@@ -339,7 +340,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаЭлементПробитиеЧековРасширеннаяПодсказка" id="254">
 								<Title formatted="true">
@@ -362,6 +363,7 @@
 									<TitleLocation>None</TitleLocation>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<RadioButtonType>Auto</RadioButtonType>
 									<ColumnsCount>1</ColumnsCount>
 									<ChoiceList>
@@ -410,7 +412,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="ГруппаПереопределяемаяРасширеннаяПодсказка" id="433"/>
 						</UsualGroup>
 					</ChildItems>
@@ -496,7 +498,6 @@
 									<DataPath>СПравиламиОзнакомлен</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СПравиламиОзнакомленКонтекстноеМеню" id="312"/>
 									<ExtendedTooltip name="СПравиламиОзнакомленРасширеннаяПодсказка" id="313"/>
 								</CheckBoxField>
@@ -737,7 +738,7 @@
 							<VerticalAlign>Bottom</VerticalAlign>
 							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкиСДоговоромРасширеннаяПодсказка" id="135">
 								<GroupVerticalAlign>Top</GroupVerticalAlign>
@@ -1061,7 +1062,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СоздатьШаблоныПисемАвтоматическиКонтекстноеМеню" id="378"/>
 									<ExtendedTooltip name="СоздатьШаблоныПисемАвтоматическиРасширеннаяПодсказка" id="379">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -1132,7 +1132,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СоздатьШаблоныSMSАвтоматическиКонтекстноеМеню" id="437"/>
 									<ExtendedTooltip name="СоздатьШаблоныSMSАвтоматическиРасширеннаяПодсказка" id="438"/>
 									<Events>

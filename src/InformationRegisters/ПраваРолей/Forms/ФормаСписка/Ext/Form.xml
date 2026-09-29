@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
 	</CommandSet>
@@ -63,7 +63,7 @@
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<Height>8</Height>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -172,7 +172,6 @@
 									<v8:content>Право Чтение, установленное в роли.</v8:content>
 								</v8:item>
 							</ToolTip>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоЧтениеКонтекстноеМеню" id="30"/>
 							<ExtendedTooltip name="ПравоЧтениеРасширеннаяПодсказка" id="42"/>
 						</CheckBoxField>
@@ -185,7 +184,6 @@
 									<v8:content>Без ограничения</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоЧтениеБезОграниченияКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="ПравоЧтениеБезОграниченияРасширеннаяПодсказка" id="43"/>
 						</CheckBoxField>
@@ -203,7 +201,6 @@
 						<CheckBoxField name="ПравоИзменение" id="10">
 							<DataPath>Список.ПравоИзменение</DataPath>
 							<DefaultItem>true</DefaultItem>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоИзменениеКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ПравоИзменениеРасширеннаяПодсказка" id="48"/>
 						</CheckBoxField>
@@ -216,7 +213,6 @@
 									<v8:content>Без ограничения</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоИзменениеБезОграниченияКонтекстноеМеню" id="19"/>
 							<ExtendedTooltip name="ПравоИзменениеБезОграниченияРасширеннаяПодсказка" id="49"/>
 						</CheckBoxField>
@@ -234,7 +230,6 @@
 						<CheckBoxField name="ПравоДобавление" id="8">
 							<DataPath>Список.ПравоДобавление</DataPath>
 							<DefaultItem>true</DefaultItem>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоДобавлениеКонтекстноеМеню" id="9"/>
 							<ExtendedTooltip name="ПравоДобавлениеРасширеннаяПодсказка" id="45"/>
 						</CheckBoxField>
@@ -247,7 +242,6 @@
 									<v8:content>Без ограничения</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПравоДобавлениеБезОграниченияКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ПравоДобавлениеБезОграниченияРасширеннаяПодсказка" id="46"/>
 						</CheckBoxField>
@@ -256,21 +250,18 @@
 				<CheckBoxField name="ПравоПросмотр" id="22">
 					<DataPath>Список.ПравоПросмотр</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПравоПросмотрКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПравоПросмотрРасширеннаяПодсказка" id="53"/>
 				</CheckBoxField>
 				<CheckBoxField name="ПравоРедактирование" id="26">
 					<DataPath>Список.ПравоРедактирование</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПравоРедактированиеКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ПравоРедактированиеРасширеннаяПодсказка" id="55"/>
 				</CheckBoxField>
 				<CheckBoxField name="ПравоИнтерактивноеДобавление" id="24">
 					<DataPath>Список.ПравоИнтерактивноеДобавление</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПравоИнтерактивноеДобавлениеКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="ПравоИнтерактивноеДобавлениеРасширеннаяПодсказка" id="54"/>
 				</CheckBoxField>

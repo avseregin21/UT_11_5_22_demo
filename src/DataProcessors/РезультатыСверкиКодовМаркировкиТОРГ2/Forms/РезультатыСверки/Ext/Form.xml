@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -330,6 +330,7 @@
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<MaxWidth>16</MaxWidth>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДеревоМаркированнойПродукцииИндексКартинкиТипУпаковкиКонтекстноеМеню" id="23"/>
@@ -339,6 +340,7 @@
 											<DataPath>ДеревоМаркированнойПродукции.ПредставлениеСодержимоеУпаковки</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>25</MaxWidth>
 											<ContextMenu name="ДеревоМаркированнойПродукцииПредставлениеСодержимоеУпаковкиКонтекстноеМеню" id="26"/>
@@ -349,6 +351,7 @@
 								<PictureField name="ДеревоМаркированнойПродукцииЭДО" id="63">
 									<DataPath>ДеревоМаркированнойПродукции.ЭДО</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.СтатусыСверкиГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -378,6 +381,7 @@
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СтатусыСверкиГосИС</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -390,6 +394,7 @@
 											<DataPath>ДеревоМаркированнойПродукции.СтатусПроверки</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ListChoiceMode>true</ListChoiceMode>
 											<ChooseType>false</ChooseType>
 											<ChoiceList>
@@ -446,6 +451,7 @@
 										<xr:Ref>CommonPicture.УспешнаяПроверкаНаличияГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -461,6 +467,7 @@
 										<xr:Ref>CommonPicture.КодМаркировкиОтсутствуетГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -478,6 +485,7 @@
 										<xr:Ref>CommonPicture.НеЧислиласьОбнаруженаПриПроверкеГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -494,6 +502,7 @@
 										<xr:Ref>CommonPicture.Сумма</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -513,6 +522,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ДеревоМаркированнойПродукцииПредставлениеПроверкиПодчиненныхКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ДеревоМаркированнойПродукцииПредставлениеПроверкиПодчиненныхРасширеннаяПодсказка" id="59"/>
@@ -527,6 +537,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДеревоМаркированнойПродукцииПредставлениеКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="ДеревоМаркированнойПродукцииПредставлениеРасширеннаяПодсказка" id="62"/>
 								</InputField>
@@ -675,12 +686,14 @@
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДеревоРезультатовЭДОИндексКартинкиТипУпаковкиКонтекстноеМеню" id="179"/>
 											<ExtendedTooltip name="ДеревоРезультатовЭДОИндексКартинкиТипУпаковкиРасширеннаяПодсказка" id="180"/>
 										</PictureField>
 										<InputField name="ДеревоРезультатовЭДОПредставление" id="184">
 											<DataPath>ДеревоРезультатовЭДО.Представление</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДеревоРезультатовЭДОПредставлениеКонтекстноеМеню" id="185"/>
 											<ExtendedTooltip name="ДеревоРезультатовЭДОПредставлениеРасширеннаяПодсказка" id="186"/>
 										</InputField>
@@ -709,6 +722,7 @@
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СтатусыСверкиГосИС</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -720,6 +734,7 @@
 											<DataPath>ДеревоРезультатовЭДО.СтатусПроверки</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДеревоРезультатовЭДОСтатусПроверкиКонтекстноеМеню" id="194"/>
 											<ExtendedTooltip name="ДеревоРезультатовЭДОСтатусПроверкиРасширеннаяПодсказка" id="195"/>
 										</InputField>
@@ -734,6 +749,7 @@
 										<xr:Ref>CommonPicture.УспешнаяПроверкаНаличияГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<ContextMenu name="ДеревоРезультатовЭДОКоличествоПодчиненныхВНаличииКонтекстноеМеню" id="197"/>
@@ -748,6 +764,7 @@
 										<xr:Ref>CommonPicture.КодМаркировкиОтсутствуетГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<ContextMenu name="ДеревоРезультатовЭДОКоличествоПодчиненныхОтсутствуетКонтекстноеМеню" id="200"/>
@@ -762,6 +779,7 @@
 										<xr:Ref>CommonPicture.НеЧислиласьОбнаруженаПриПроверкеГосИС</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>4</MaxWidth>
 									<ContextMenu name="ДеревоРезультатовЭДОКоличествоПодчиненныхНеЧислилосьКонтекстноеМеню" id="203"/>
@@ -774,6 +792,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДеревоРезультатовЭДОЗначениеШтрихкодаКонтекстноеМеню" id="206"/>
 									<ExtendedTooltip name="ДеревоРезультатовЭДОЗначениеШтрихкодаРасширеннаяПодсказка" id="207"/>
 								</InputField>

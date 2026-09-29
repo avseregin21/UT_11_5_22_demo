@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -184,6 +184,7 @@
 								<InputField name="Номер" id="34">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="35"/>
@@ -199,6 +200,7 @@
 									</Title>
 									<HorizontalAlign>Left</HorizontalAlign>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="38"/>
@@ -243,6 +245,7 @@
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="БонуснаяПрограммаЛояльностиКонтекстноеМеню" id="11"/>
@@ -280,6 +283,7 @@
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="МаркетинговоеМероприятиеКонтекстноеМеню" id="8"/>
@@ -725,6 +729,7 @@
 									<DataPath>Объект.Комментарий</DataPath>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>80</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
@@ -799,23 +804,27 @@
 								<LabelField name="БонусныеБаллыНомерСтроки" id="20">
 									<DataPath>Объект.Начисление.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БонусныеБаллыНомерСтрокиКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="БонусныеБаллыНомерСтрокиРасширеннаяПодсказка" id="22"/>
 								</LabelField>
 								<InputField name="БонусныеБаллыСкидкаНаценка" id="23">
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БонусныеБаллыСкидкаНаценкаКонтекстноеМеню" id="24"/>
 									<ExtendedTooltip name="БонусныеБаллыСкидкаНаценкаРасширеннаяПодсказка" id="25"/>
 								</InputField>
 								<InputField name="БонусныеБаллыПартнер" id="26">
 									<DataPath>Объект.Начисление.Партнер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БонусныеБаллыПартнерКонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="БонусныеБаллыПартнерРасширеннаяПодсказка" id="28"/>
 								</InputField>
 								<InputField name="БонусныеБаллыСумма" id="29">
 									<DataPath>Объект.Начисление.Баллы</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<MarkNegatives>true</MarkNegatives>
 									<ContextMenu name="БонусныеБаллыСуммаКонтекстноеМеню" id="30"/>
 									<ExtendedTooltip name="БонусныеБаллыСуммаРасширеннаяПодсказка" id="31"/>
@@ -888,18 +897,21 @@
 								<LabelField name="СписанияНомерСтроки" id="149">
 									<DataPath>Объект.Списание.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписанияНомерСтрокиКонтекстноеМеню" id="150"/>
 									<ExtendedTooltip name="СписанияНомерСтрокиРасширеннаяПодсказка" id="151"/>
 								</LabelField>
 								<InputField name="СписанияПартнер" id="152">
 									<DataPath>Объект.Списание.Партнер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписанияПартнерКонтекстноеМеню" id="153"/>
 									<ExtendedTooltip name="СписанияПартнерРасширеннаяПодсказка" id="154"/>
 								</InputField>
 								<InputField name="СписанияБаллы" id="155">
 									<DataPath>Объект.Списание.Баллы</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписанияБаллыКонтекстноеМеню" id="156"/>
 									<ExtendedTooltip name="СписанияБаллыРасширеннаяПодсказка" id="157"/>
 								</InputField>

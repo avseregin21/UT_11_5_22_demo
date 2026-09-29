@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -157,6 +157,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>2</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="НомерСтрокиКонтекстноеМеню" id="27"/>
@@ -166,6 +167,7 @@
 							<DataPath>ДеревоВидовЗапасов.Номенклатура</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="НоменклатураКонтекстноеМеню" id="5"/>
@@ -175,6 +177,7 @@
 							<DataPath>ДеревоВидовЗапасов.Характеристика</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ХарактеристикаКонтекстноеМеню" id="7"/>
@@ -194,6 +197,7 @@
 							<DataPath>ДеревоВидовЗапасов.МестоХранения</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="МестоХраненияКонтекстноеМеню" id="44"/>
@@ -215,6 +219,7 @@
 							<DataPath>ДеревоВидовЗапасов.ВидЗапасов</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<AutoCellHeight>true</AutoCellHeight>
+							<AutoEditMode>true</AutoEditMode>
 							<Height>4</Height>
 							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 							<CreateButton>false</CreateButton>
@@ -267,6 +272,7 @@
 						<InputField name="ДеревоВидовЗапасовВидЗапасовОрганизация" id="45">
 							<DataPath>ДеревоВидовЗапасов.ВидЗапасов.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДеревоВидовЗапасовВидЗапасовОрганизацияКонтекстноеМеню" id="46"/>
 							<ExtendedTooltip name="ДеревоВидовЗапасовВидЗапасовОрганизацияРасширеннаяПодсказка" id="80"/>
 						</InputField>
@@ -274,6 +280,7 @@
 							<DataPath>ДеревоВидовЗапасов.Информация</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>5</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="ДеревоВидовЗапасовИнформацияКонтекстноеМеню" id="48"/>
@@ -285,6 +292,7 @@
 					<DataPath>ДеревоВидовЗапасов.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ShowInFooter>false</ShowInFooter>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>8</Width>
 					<MarkNegatives>true</MarkNegatives>
 					<ContextMenu name="ДеревоВидовЗапасовКоличествоКонтекстноеМеню" id="9"/>
@@ -303,6 +311,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
 					<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -336,6 +345,7 @@
 					<DataPath>ДеревоВидовЗапасов.СуммаСНДС</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>9</Width>
 					<MarkNegatives>true</MarkNegatives>
 					<ContextMenu name="ДеревоВидовЗапасовСуммаСНДСКонтекстноеМеню" id="23"/>
@@ -345,6 +355,7 @@
 					<DataPath>ДеревоВидовЗапасов.СтавкаНДС</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДеревоВидовЗапасовСтавкаНДСКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="ДеревоВидовЗапасовСтавкаНДСРасширеннаяПодсказка" id="85"/>
 				</InputField>
@@ -352,6 +363,7 @@
 					<DataPath>ДеревоВидовЗапасов.СуммаНДС</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<MarkNegatives>true</MarkNegatives>
 					<ContextMenu name="ДеревоВидовЗапасовСуммаНДСКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ДеревоВидовЗапасовСуммаНДСРасширеннаяПодсказка" id="86"/>
@@ -379,6 +391,7 @@
 						<InputField name="НомерГТД" id="20">
 							<DataPath>ДеревоВидовЗапасов.НомерГТД</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ChoiceParameterLinks>
 								<xr:Link>
 									<xr:Name>Номенклатура</xr:Name>
@@ -409,6 +422,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMarkIncomplete>false</AutoMarkIncomplete>
 					<ContextMenu name="ДеревоВидовЗапасовНомерГТДСтранаПроисхожденияКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="ДеревоВидовЗапасовНомерГТДСтранаПроисхожденияРасширеннаяПодсказка" id="88"/>
@@ -417,6 +431,7 @@
 					<DataPath>ДеревоВидовЗапасов.ДокументРеализации</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДеревоВидовЗапасовДокументРеализацииКонтекстноеМеню" id="58"/>
 					<ExtendedTooltip name="ДеревоВидовЗапасовДокументРеализацииРасширеннаяПодсказка" id="89"/>
 				</InputField>
@@ -424,6 +439,7 @@
 					<DataPath>ДеревоВидовЗапасов.СкладОтгрузки</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДеревоВидовЗапасовСкладОтгрузкиКонтекстноеМеню" id="60"/>
 					<ExtendedTooltip name="ДеревоВидовЗапасовСкладОтгрузкиРасширеннаяПодсказка" id="90"/>
 				</InputField>

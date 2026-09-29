@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -274,7 +274,6 @@
 								<CheckBoxField name="ОплатаПоЗаявкам" id="379">
 									<DataPath>Объект.ОплатаПоЗаявкам</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОплатаПоЗаявкамКонтекстноеМеню" id="380"/>
 									<ExtendedTooltip name="ОплатаПоЗаявкамРасширеннаяПодсказка" id="381"/>
 									<Events>
@@ -453,7 +452,6 @@
 												<CheckBoxField name="ПроведеноБанком" id="437">
 													<DataPath>Объект.ПроведеноБанком</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПроведеноБанкомКонтекстноеМеню" id="438"/>
 													<ExtendedTooltip name="ПроведеноБанкомРасширеннаяПодсказка" id="439"/>
 													<Events>
@@ -848,7 +846,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОперацияССамозанятымКонтекстноеМеню" id="1186"/>
 													<ExtendedTooltip name="ОперацияССамозанятымРасширеннаяПодсказка" id="1187"/>
 												</CheckBoxField>
@@ -1585,7 +1582,6 @@
 										<CheckBoxField name="ПеречислениеВБюджет" id="188">
 											<DataPath>Объект.ПеречислениеВБюджет</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПеречислениеВБюджетКонтекстноеМеню" id="189"/>
 											<ExtendedTooltip name="ПеречислениеВБюджетРасширеннаяПодсказка" id="313"/>
 											<Events>
@@ -2437,7 +2433,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПлатежиПо275ФЗКонтекстноеМеню" id="686"/>
 									<ExtendedTooltip name="ПлатежиПо275ФЗРасширеннаяПодсказка" id="687"/>
 									<Events>
@@ -2448,7 +2443,6 @@
 									<DataPath>Объект.НДФЛПоВедомостям</DataPath>
 									<Visible>false</Visible>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НДФЛПоВедомостямКонтекстноеМеню" id="746"/>
 									<ExtendedTooltip name="НДФЛПоВедомостямРасширеннаяПодсказка" id="747"/>
 									<Events>
@@ -3105,6 +3099,7 @@
 												<InputField name="РасшифровкаПлатежаЗаявкаНаРасходованиеДенежныхСредств" id="387">
 													<DataPath>Объект.РасшифровкаПлатежа.ЗаявкаНаРасходованиеДенежныхСредств</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -3117,6 +3112,7 @@
 												<InputField name="РасшифровкаПлатежаВедомость" id="748">
 													<DataPath>Объект.РасшифровкаПлатежа.Ведомость</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаВедомостьКонтекстноеМеню" id="749"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаВедомостьРасширеннаяПодсказка" id="750"/>
 													<Events>
@@ -3194,6 +3190,7 @@
 												<InputField name="РасшифровкаПлатежаПартнер" id="191">
 													<DataPath>Объект.РасшифровкаПлатежа.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаПартнерКонтекстноеМеню" id="192"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаПартнерРасширеннаяПодсказка" id="282"/>
 													<Events>
@@ -3203,6 +3200,7 @@
 												<InputField name="РасшифровкаПлатежаДоговорКредитаДепозита" id="222">
 													<DataPath>Объект.РасшифровкаПлатежа.ДоговорКредитаДепозита</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаДоговорКредитаДепозитаКонтекстноеМеню" id="223"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорКредитаДепозитаРасширеннаяПодсказка" id="283"/>
 													<Events>
@@ -3212,12 +3210,14 @@
 												<InputField name="РасшифровкаПлатежаДоговорЗаймаСотруднику" id="542">
 													<DataPath>Объект.РасшифровкаПлатежа.ДоговорЗаймаСотруднику</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаДоговорЗаймаСотрудникуКонтекстноеМеню" id="543"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="544"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаДоговорАренды" id="446">
 													<DataPath>Объект.РасшифровкаПлатежа.ДоговорАренды</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаДоговорАрендыКонтекстноеМеню" id="447"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорАрендыРасширеннаяПодсказка" id="448"/>
 													<Events>
@@ -3227,6 +3227,7 @@
 												<InputField name="РасшифровкаПлатежаТипПлатежаПоАренде" id="449">
 													<DataPath>Объект.РасшифровкаПлатежа.ТипПлатежаПоАренде</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<QuickChoice>true</QuickChoice>
 													<ContextMenu name="РасшифровкаПлатежаТипПлатежаПоАрендеКонтекстноеМеню" id="450"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаТипПлатежаПоАрендеРасширеннаяПодсказка" id="451"/>
@@ -3237,6 +3238,7 @@
 												<InputField name="РасшифровкаПлатежаТипСуммыКредитаДепозита" id="545">
 													<DataPath>Объект.РасшифровкаПлатежа.ТипСуммыКредитаДепозита</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>12</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ListChoiceMode>true</ListChoiceMode>
@@ -3259,6 +3261,7 @@
 												</InputField>
 												<InputField name="РасшифровкаПлатежаСуммаКонвертации" id="1126">
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаСуммаКонвертацииКонтекстноеМеню" id="1127"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаСуммаКонвертацииРасширеннаяПодсказка" id="1128"/>
 												</InputField>
@@ -3289,6 +3292,7 @@
 												<InputField name="РасшифровкаПлатежаСтавкаНДС" id="711">
 													<DataPath>Объект.РасшифровкаПлатежа.СтавкаНДС</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<OpenButton>false</OpenButton>
 													<ChoiceParameterLinks>
 														<xr:Link>
@@ -3312,6 +3316,7 @@
 													<DataPath>Объект.РасшифровкаПлатежа.СуммаНДС</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<FooterDataPath>Объект.РасшифровкаПлатежа.TotalСуммаНДС</FooterDataPath>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаСуммаНДСКонтекстноеМеню" id="715"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаСуммаНДСРасширеннаяПодсказка" id="716"/>
 												</InputField>
@@ -3324,6 +3329,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -3333,6 +3339,7 @@
 												<InputField name="РасшифровкаПлатежаСтатьяЦелевыхСредств" id="1091">
 													<DataPath>Объект.РасшифровкаПлатежа.СтатьяЦелевыхСредств</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаСтатьяЦелевыхСредствКонтекстноеМеню" id="1102"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаСтатьяЦелевыхСредствРасширеннаяПодсказка" id="1103"/>
 												</InputField>
@@ -3345,6 +3352,7 @@
 												<InputField name="РасшифровкаПлатежаНаправлениеДеятельности" id="724">
 													<DataPath>Объект.РасшифровкаПлатежа.НаправлениеДеятельности</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаНаправлениеДеятельностиКонтекстноеМеню" id="725"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаНаправлениеДеятельностиРасширеннаяПодсказка" id="726"/>
 												</InputField>
@@ -3415,6 +3423,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -3430,6 +3439,9 @@
 													<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="РасшифровкаПлатежаПредставлениеОтраженияВРеглУчетеКонтекстноеМеню" id="903"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="904"/>
 												</InputField>
@@ -3437,6 +3449,7 @@
 													<DataPath>Объект.РасшифровкаПлатежа.Организация</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаОрганизацияКонтекстноеМеню" id="433"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаОрганизацияРасширеннаяПодсказка" id="434"/>
 												</InputField>
@@ -3444,6 +3457,7 @@
 													<DataPath>Объект.РасшифровкаПлатежа.Комментарий</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаКомментарийКонтекстноеМеню" id="391"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаКомментарийРасширеннаяПодсказка" id="392"/>
 												</InputField>
@@ -3466,6 +3480,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<ContextMenu name="РасшифровкаПлатежаКурсЧислительВзаиморасчетовКонтекстноеМеню" id="992"/>
 															<ExtendedTooltip name="РасшифровкаПлатежаКурсЧислительВзаиморасчетовРасширеннаяПодсказка" id="993"/>
@@ -3477,6 +3492,7 @@
 															<DataPath>Объект.РасшифровкаПлатежа.КурсЧислительВзаиморасчетовТекст</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>12</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -3489,6 +3505,7 @@
 													<DataPath>Объект.РасшифровкаПлатежа.ВариантКурсаДоговора</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="РасшифровкаПлатежаВариантКурсаДоговораКонтекстноеМеню" id="1104"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаВариантКурсаДоговораРасширеннаяПодсказка" id="1105"/>
 												</InputField>
@@ -3626,6 +3643,7 @@
 								<InputField name="ЛицевыеСчетаСотрудниковСтатьяДвиженияДенежныхСредств" id="1109">
 									<DataPath>Объект.ЛицевыеСчетаСотрудников.СтатьяДвиженияДенежныхСредств</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЛицевыеСчетаСотрудниковСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="1110"/>
 									<ExtendedTooltip name="ЛицевыеСчетаСотрудниковСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="1111"/>
 								</InputField>
@@ -3684,6 +3702,7 @@
 								<LabelField name="БанковскиеСчетаСпискаКонтрагентовНомерСтроки" id="1140">
 									<DataPath>Объект.БанковскиеСчетаСпискаКонтрагентов.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БанковскиеСчетаСпискаКонтрагентовНомерСтрокиКонтекстноеМеню" id="1141"/>
 									<ExtendedTooltip name="БанковскиеСчетаСпискаКонтрагентовНомерСтрокиРасширеннаяПодсказка" id="1142"/>
 								</LabelField>
@@ -3691,12 +3710,14 @@
 									<DataPath>Объект.БанковскиеСчетаСпискаКонтрагентов.Контрагент</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БанковскиеСчетаСпискаКонтрагентовКонтрагентКонтекстноеМеню" id="1144"/>
 									<ExtendedTooltip name="БанковскиеСчетаСпискаКонтрагентовКонтрагентРасширеннаяПодсказка" id="1145"/>
 								</InputField>
 								<InputField name="БанковскиеСчетаСпискаКонтрагентовБанковскийСчетКонтрагента" id="1146">
 									<DataPath>Объект.БанковскиеСчетаСпискаКонтрагентов.БанковскийСчетКонтрагента</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БанковскиеСчетаСпискаКонтрагентовБанковскийСчетКонтрагентаКонтекстноеМеню" id="1147"/>
 									<ExtendedTooltip name="БанковскиеСчетаСпискаКонтрагентовБанковскийСчетКонтрагентаРасширеннаяПодсказка" id="1148"/>
 								</InputField>
@@ -3704,6 +3725,7 @@
 									<DataPath>Объект.БанковскиеСчетаСпискаКонтрагентов.Сумма</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="БанковскиеСчетаСпискаКонтрагентовСуммаКонтекстноеМеню" id="1150"/>
 									<ExtendedTooltip name="БанковскиеСчетаСпискаКонтрагентовСуммаРасширеннаяПодсказка" id="1151"/>
 								</InputField>
@@ -3729,7 +3751,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПлатежиПо275ФЗДополнительноКонтекстноеМеню" id="674"/>
 							<ExtendedTooltip name="ПлатежиПо275ФЗДополнительноРасширеннаяПодсказка" id="675"/>
 							<Events>

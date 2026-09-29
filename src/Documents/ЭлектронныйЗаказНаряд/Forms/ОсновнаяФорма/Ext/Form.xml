@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -403,6 +403,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>1</Height>
 																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -448,6 +449,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<Height>1</Height>
 																			<MultiLine>false</MultiLine>
@@ -503,6 +505,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтователяДатаСоставленияЗаказНарядаКонтекстноеМеню" id="30"/>
 																			<ExtendedTooltip name="ТитулФрахтователяДатаСоставленияЗаказНарядаРасширеннаяПодсказка" id="31"/>
 																			<Events>
@@ -583,6 +586,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулФрахтователяФрахтовательКонтекстноеМеню" id="57"/>
@@ -636,6 +640,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулФрахтователяФрахтовщикКонтекстноеМеню" id="357"/>
@@ -724,6 +729,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтователяСрокВыполненияПеревозкиЦелыхЧасовКонтекстноеМеню" id="38"/>
 																			<ExtendedTooltip name="ТитулФрахтователяСрокВыполненияПеревозкиЦелыхЧасовРасширеннаяПодсказка" id="39"/>
 																			<Events>
@@ -925,6 +931,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтователяУказанияНеобходимыеДляВыполненияНормПеревозкиКонтекстноеМеню" id="119"/>
 																			<ExtendedTooltip name="ТитулФрахтователяУказанияНеобходимыеДляВыполненияНормПеревозкиРасширеннаяПодсказка" id="120"/>
 																			<Events>
@@ -1005,6 +1012,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<DropListButton>false</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
 																			<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1059,6 +1067,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтователяДатаИВремяПодачиТранспортногоСредстваКонтекстноеМеню" id="135"/>
 																			<ExtendedTooltip name="ТитулФрахтователяДатаИВремяПодачиТранспортногоСредстваРасширеннаяПодсказка" id="136"/>
 																			<Events>
@@ -1139,6 +1148,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>20</Width>
 																			<DropListButton>true</DropListButton>
 																			<ChoiceButton>true</ChoiceButton>
@@ -1298,6 +1308,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>30</Width>
 																			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																			<ContextMenu name="СсылкаТитулФрахтовщикаФрахтовщикКонтекстноеМеню" id="176"/>
@@ -1351,6 +1362,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтовщикаДатаПринятияЗаказНарядаКИсполнениюКонтекстноеМеню" id="184"/>
 																			<ExtendedTooltip name="ТитулФрахтовщикаДатаПринятияЗаказНарядаКИсполнениюРасширеннаяПодсказка" id="185"/>
 																			<Events>
@@ -1396,6 +1408,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="СсылкаТитулФрахтовщикаПринялЗаказНарядКИсполнениюКонтекстноеМеню" id="200"/>
 																			<ExtendedTooltip name="СсылкаТитулФрахтовщикаПринялЗаказНарядКИсполнениюРасширеннаяПодсказка" id="201"/>
 																			<Events>
@@ -1441,6 +1454,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтовщикаДолжностьЛицаПринявшегоЗаказНарядКИсполнениюКонтекстноеМеню" id="192"/>
 																			<ExtendedTooltip name="ТитулФрахтовщикаДолжностьЛицаПринявшегоЗаказНарядКИсполнениюРасширеннаяПодсказка" id="193"/>
 																			<Events>
@@ -1680,6 +1694,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтователяПодачаДатаИВремяПодачиТСКонтекстноеМеню" id="236"/>
 																			<ExtendedTooltip name="ТитулФрахтователяПодачаДатаИВремяПодачиТСРасширеннаяПодсказка" id="237"/>
 																			<Events>
@@ -1839,6 +1854,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтовщикаВозвратДатаИВремяЗавершенияПользованияТСКонтекстноеМеню" id="258"/>
 																			<ExtendedTooltip name="ТитулФрахтовщикаВозвратДатаИВремяЗавершенияПользованияТСРасширеннаяПодсказка" id="259"/>
 																			<Events>
@@ -1884,6 +1900,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтовщикаВозвратИзменениеДатыИВремениВыполненияПеревозкиКонтекстноеМеню" id="266"/>
 																			<ExtendedTooltip name="ТитулФрахтовщикаВозвратИзменениеДатыИВремениВыполненияПеревозкиРасширеннаяПодсказка" id="267"/>
 																			<Events>
@@ -1929,6 +1946,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтовщикаВозвратИзменениеСроковВыполненияПеревозкиКонтекстноеМеню" id="274"/>
 																			<ExtendedTooltip name="ТитулФрахтовщикаВозвратИзменениеСроковВыполненияПеревозкиРасширеннаяПодсказка" id="275"/>
 																			<Events>
@@ -1974,6 +1992,7 @@
 																				</v8:item>
 																			</ToolTip>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ТитулФрахтовщикаВозвратИзменениеМаршрутаВыполненияПеревозкиКонтекстноеМеню" id="282"/>
 																			<ExtendedTooltip name="ТитулФрахтовщикаВозвратИзменениеМаршрутаВыполненияПеревозкиРасширеннаяПодсказка" id="283"/>
 																			<Events>

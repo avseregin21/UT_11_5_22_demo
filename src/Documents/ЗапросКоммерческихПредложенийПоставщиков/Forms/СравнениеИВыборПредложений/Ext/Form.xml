@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -470,6 +471,7 @@
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</HeaderPicture>
 																	<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+																	<AutoEditMode>true</AutoEditMode>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ИсточникиКартинкаИсточникаКонтекстноеМеню" id="127"/>
 																	<ExtendedTooltip name="ИсточникиКартинкаИсточникаРасширеннаяПодсказка" id="128"/>
@@ -487,6 +489,7 @@
 																		<InputField name="ИсточникиПоставщикНаименование" id="41">
 																			<DataPath>Источники.ПоставщикПредставление</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ИсточникиПоставщикНаименованиеКонтекстноеМеню" id="42"/>
 																			<ExtendedTooltip name="ИсточникиПоставщикНаименованиеРасширеннаяПодсказка" id="43"/>
 																		</InputField>
@@ -499,6 +502,7 @@
 																				</v8:item>
 																			</Title>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ИсточникиПредставлениеИсточникаКонтекстноеМеню" id="51"/>
 																			<ExtendedTooltip name="ИсточникиПредставлениеИсточникаРасширеннаяПодсказка" id="52"/>
 																		</InputField>
@@ -508,6 +512,7 @@
 																	<DataPath>Источники.НоменклатураПоставщика</DataPath>
 																	<ReadOnly>true</ReadOnly>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="ИсточникиНоменклатураПоставщикаКонтекстноеМеню" id="57"/>
 																	<ExtendedTooltip name="ИсточникиНоменклатураПоставщикаРасширеннаяПодсказка" id="58"/>
 																</InputField>
@@ -524,7 +529,7 @@
 																		<CheckBoxField name="ИсточникиВыбрано" id="59">
 																			<DataPath>Источники.Выбрано</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
-																			<CheckBoxType>Auto</CheckBoxType>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ИсточникиВыбраноКонтекстноеМеню" id="60"/>
 																			<ExtendedTooltip name="ИсточникиВыбраноРасширеннаяПодсказка" id="61"/>
 																			<Events>
@@ -535,6 +540,7 @@
 																			<DataPath>Источники.КЗаказу</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>3</MaxWidth>
 																			<HorizontalStretch>false</HorizontalStretch>
@@ -562,6 +568,7 @@
 																		<InputField name="ИсточникиДоступно" id="65">
 																			<DataPath>Источники.Доступно</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>5</Width>
 																			<ContextMenu name="ИсточникиДоступноКонтекстноеМеню" id="66"/>
 																			<ExtendedTooltip name="ИсточникиДоступноРасширеннаяПодсказка" id="67"/>
@@ -570,6 +577,7 @@
 																			<DataPath>Источники.ДоступноЕдиницаИзмерения</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>5</Width>
 																			<ContextMenu name="ИсточникиДоступноЕдиницаИзмеренияКонтекстноеМеню" id="69"/>
 																			<ExtendedTooltip name="ИсточникиДоступноЕдиницаИзмеренияРасширеннаяПодсказка" id="70"/>
@@ -589,6 +597,7 @@
 																		<InputField name="ИсточникиЦена" id="71">
 																			<DataPath>Источники.ЦенаДляАнализа</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ИсточникиЦенаКонтекстноеМеню" id="72"/>
 																			<ExtendedTooltip name="ИсточникиЦенаРасширеннаяПодсказка" id="73"/>
 																		</InputField>
@@ -596,6 +605,7 @@
 																			<DataPath>Источники.СрокПоставки</DataPath>
 																			<HorizontalAlign>Right</HorizontalAlign>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ИсточникиСрокПоставкиКонтекстноеМеню" id="75"/>
 																			<ExtendedTooltip name="ИсточникиСрокПоставкиРасширеннаяПодсказка" id="76"/>
 																		</InputField>
@@ -610,6 +620,9 @@
 															<CellHyperlink>true</CellHyperlink>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
+															<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+															<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 															<ContextMenu name="ИсточникиПоказатьЕщеКонтекстноеМеню" id="222"/>
 															<ExtendedTooltip name="ИсточникиПоказатьЕщеРасширеннаяПодсказка" id="223"/>
 														</InputField>
@@ -645,7 +658,6 @@
 														<CheckBoxField name="ОтображатьСнятыеСРассмотрения" id="135">
 															<DataPath>ОтображатьСнятыеСРассмотрения</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОтображатьСнятыеСРассмотренияКонтекстноеМеню" id="136"/>
 															<ExtendedTooltip name="ОтображатьСнятыеСРассмотренияРасширеннаяПодсказка" id="137"/>
 															<Events>

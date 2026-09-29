@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -10,6 +10,7 @@
 	<AutoURL>false</AutoURL>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -485,7 +486,6 @@
 										<CheckBoxField name="ВводитьНомерПоМаске" id="707">
 											<DataPath>ВводитьНомерПоМаске</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВводитьНомерПоМаскеКонтекстноеМеню" id="708"/>
 											<ExtendedTooltip name="ВводитьНомерПоМаскеРасширеннаяПодсказка" id="709"/>
 											<Events>
@@ -548,7 +548,6 @@
 										<CheckBoxField name="ИспользоватьАвтообновление" id="718">
 											<DataPath>ИспользоватьАвтообновление</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьАвтообновлениеКонтекстноеМеню" id="719"/>
 											<ExtendedTooltip name="ИспользоватьАвтообновлениеРасширеннаяПодсказка" id="720"/>
 											<Events>
@@ -638,7 +637,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="УведомлятьОСостоянииПодпискиКонтекстноеМеню" id="699"/>
 									<ExtendedTooltip name="УведомлятьОСостоянииПодпискиРасширеннаяПодсказка" id="700"/>
 									<Events>
@@ -729,7 +727,7 @@
 							<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкиВГХРасширеннаяПодсказка" id="397">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -944,7 +942,7 @@
 							<Representation>List</Representation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<DataPath>СоответствиеСкладов</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="СоответствиеСкладовКонтекстноеМеню" id="608"/>
@@ -995,7 +993,6 @@
 											<v8:content>По умолчанию</v8:content>
 										</v8:item>
 									</Title>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СоответствиеСкладовИспользоватьПоУмолчаниюКонтекстноеМеню" id="673"/>
 									<ExtendedTooltip name="СоответствиеСкладовИспользоватьПоУмолчаниюРасширеннаяПодсказка" id="674"/>
 									<Events>
@@ -1094,7 +1091,6 @@
 								<CheckBoxField name="СоответствиеСкладовПоУмолчанию" id="667">
 									<DataPath>СоответствиеСкладов.ИспользоватьПоУмолчанию</DataPath>
 									<Visible>false</Visible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СоответствиеСкладовПоУмолчаниюКонтекстноеМеню" id="668"/>
 									<ExtendedTooltip name="СоответствиеСкладовПоУмолчаниюРасширеннаяПодсказка" id="669"/>
 								</CheckBoxField>
@@ -1203,7 +1199,7 @@
 							<Representation>List</Representation>
 							<Height>11</Height>
 							<ChoiceMode>true</ChoiceMode>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<DataPath>Шаблоны</DataPath>
 							<CommandSet>
 								<ExcludedCommand>Add</ExcludedCommand>
@@ -1272,7 +1268,6 @@
 										<xr:Ref>StdPicture.AddToFavorites</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ШаблоныПометкаКонтекстноеМеню" id="805"/>
 									<ExtendedTooltip name="ШаблоныПометкаРасширеннаяПодсказка" id="806"/>
 								</CheckBoxField>
@@ -1285,6 +1280,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШаблоныПредставлениеКонтекстноеМеню" id="788"/>
 									<ExtendedTooltip name="ШаблоныПредставлениеРасширеннаяПодсказка" id="789"/>
 								</InputField>

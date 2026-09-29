@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -203,7 +203,7 @@
 									<DataPath>ТаблицаТоваров.Выбран</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровВыбранКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="ТаблицаТоваровВыбранРасширеннаяПодсказка" id="145"/>
 									<Events>
@@ -220,6 +220,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровДатаПоступленияКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ТаблицаТоваровДатаПоступленияРасширеннаяПодсказка" id="146"/>
 								</InputField>
@@ -233,6 +234,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровНомерПоступленияКонтекстноеМеню" id="71"/>
 									<ExtendedTooltip name="ТаблицаТоваровНомерПоступленияРасширеннаяПодсказка" id="147"/>
 								</InputField>
@@ -240,6 +242,7 @@
 									<DataPath>ТаблицаТоваров.НоменклатураПартнера</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровНоменклатураПартнераКонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="ТаблицаТоваровНоменклатураПартнераРасширеннаяПодсказка" id="148"/>
 								</InputField>
@@ -247,6 +250,7 @@
 									<DataPath>ТаблицаТоваров.Номенклатура</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаТоваровНоменклатураКонтекстноеМеню" id="7"/>
 									<ExtendedTooltip name="ТаблицаТоваровНоменклатураРасширеннаяПодсказка" id="149"/>
@@ -255,6 +259,7 @@
 									<DataPath>ТаблицаТоваров.Характеристика</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаТоваровХарактеристикаКонтекстноеМеню" id="9"/>
 									<ExtendedTooltip name="ТаблицаТоваровХарактеристикаРасширеннаяПодсказка" id="150"/>
@@ -263,6 +268,7 @@
 									<DataPath>ТаблицаТоваров.Назначение</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровНазначениеКонтекстноеМеню" id="204"/>
 									<ExtendedTooltip name="ТаблицаТоваровНазначениеРасширеннаяПодсказка" id="205"/>
 								</InputField>
@@ -277,6 +283,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>ТоварыВыбраноСумма</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТаблицаТоваровКоличествоУпаковокКонтекстноеМеню" id="13"/>
@@ -303,6 +310,7 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ТаблицаТоваровУпаковкаКонтекстноеМеню" id="11"/>
 											<ExtendedTooltip name="ТаблицаТоваровУпаковкаРасширеннаяПодсказка" id="153"/>
@@ -317,6 +325,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТаблицаТоваровНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="44"/>
 											<ExtendedTooltip name="ТаблицаТоваровНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="154"/>
@@ -327,6 +336,7 @@
 									<DataPath>ТаблицаТоваров.Цена</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТоваровЦенаКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ТаблицаТоваровЦенаРасширеннаяПодсказка" id="155"/>
@@ -335,6 +345,7 @@
 									<DataPath>ТаблицаТоваров.ПроцентРучнойСкидки</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТоваровПроцентРучнойСкидкиКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="ТаблицаТоваровПроцентРучнойСкидкиРасширеннаяПодсказка" id="156"/>
@@ -344,6 +355,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Организация</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТоваровСуммаРучнойСкидкиКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="ТаблицаТоваровСуммаРучнойСкидкиРасширеннаяПодсказка" id="157"/>
@@ -353,6 +365,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Партнер</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТоваровСуммаКонтекстноеМеню" id="23"/>
 									<ExtendedTooltip name="ТаблицаТоваровСуммаРасширеннаяПодсказка" id="158"/>
@@ -361,6 +374,7 @@
 									<DataPath>ТаблицаТоваров.СтавкаНДС</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТаблицаТоваровСтавкаНДСКонтекстноеМеню" id="25"/>
@@ -371,6 +385,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Контрагент</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТоваровСуммаНДСКонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="ТаблицаТоваровСуммаНДСРасширеннаяПодсказка" id="160"/>
@@ -379,6 +394,7 @@
 									<DataPath>ТаблицаТоваров.СуммаСНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Соглашение</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТоваровСуммаСНДСКонтекстноеМеню" id="53"/>
 									<ExtendedTooltip name="ТаблицаТоваровСуммаСНДСРасширеннаяПодсказка" id="161"/>
 								</InputField>
@@ -386,6 +402,7 @@
 									<DataPath>ТаблицаТоваров.Склад</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТаблицаТоваровСкладКонтекстноеМеню" id="57"/>
@@ -521,7 +538,7 @@
 									<DataPath>ТаблицаТары.Выбран</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТарыВыбранКонтекстноеМеню" id="105"/>
 									<ExtendedTooltip name="ТаблицаТарыВыбранРасширеннаяПодсказка" id="173"/>
 									<Events>
@@ -538,6 +555,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -563,6 +581,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаТарыНомерПоступленияКонтекстноеМеню" id="119"/>
 									<ExtendedTooltip name="ТаблицаТарыНомерПоступленияРасширеннаяПодсказка" id="175"/>
 								</InputField>
@@ -576,6 +595,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -595,6 +615,7 @@
 									<DataPath>ТаблицаТары.Номенклатура</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаТарыНоменклатураКонтекстноеМеню" id="107"/>
 									<ExtendedTooltip name="ТаблицаТарыНоменклатураРасширеннаяПодсказка" id="177"/>
@@ -603,6 +624,7 @@
 									<DataPath>ТаблицаТары.Характеристика</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ТаблицаТарыХарактеристикаКонтекстноеМеню" id="109"/>
 									<ExtendedTooltip name="ТаблицаТарыХарактеристикаРасширеннаяПодсказка" id="178"/>
@@ -617,6 +639,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ТаблицаТарыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="ТаблицаТарыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="179"/>
@@ -625,6 +648,7 @@
 									<DataPath>ТаблицаТары.Количество</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТаблицаТарыКоличествоКонтекстноеМеню" id="111"/>
@@ -634,6 +658,7 @@
 									<DataPath>ТаблицаТары.Цена</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТарыЦенаКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="ТаблицаТарыЦенаРасширеннаяПодсказка" id="181"/>
@@ -642,6 +667,7 @@
 									<DataPath>ТаблицаТары.Сумма</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ТаблицаТарыСуммаКонтекстноеМеню" id="113"/>
 									<ExtendedTooltip name="ТаблицаТарыСуммаРасширеннаяПодсказка" id="182"/>

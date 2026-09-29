@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 	</CommandSet>
@@ -32,6 +32,7 @@
 				<InputField name="Наименование" id="1">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
@@ -143,7 +144,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтправлятьПартнеруКонтекстноеМеню" id="112"/>
 									<ExtendedTooltip name="ОтправлятьПартнеруРасширеннаяПодсказка" id="113"/>
 									<Events>
@@ -172,7 +172,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтправлятьКонтактнымЛицамРолиКонтекстноеМеню" id="118"/>
 											<ExtendedTooltip name="ОтправлятьКонтактнымЛицамРолиРасширеннаяПодсказка" id="119"/>
 											<Events>
@@ -198,7 +197,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОтправлятьКонтактномуЛицуОбъектаОповещенияКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="ОтправлятьКонтактномуЛицуОбъектаОповещенияРасширеннаяПодсказка" id="116"/>
 									<Events>
@@ -264,7 +262,7 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПредназначенаДляЭлектронныхПисемКонтекстноеМеню" id="11"/>
 													<ExtendedTooltip name="ПредназначенаДляЭлектронныхПисемРасширеннаяПодсказка" id="12"/>
 													<Events>
@@ -290,6 +288,7 @@
 													<DataPath>Объект.УчетнаяЗапись</DataPath>
 													<HorizontalAlign>Left</HorizontalAlign>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>30</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<DropListButton>false</DropListButton>
@@ -534,7 +533,7 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПредназначенаДляSMSКонтекстноеМеню" id="14"/>
 									<ExtendedTooltip name="ПредназначенаДляSMSРасширеннаяПодсказка" id="15"/>
 									<Events>
@@ -713,6 +712,7 @@
 							<DataPath>Объект.Описание</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<HorizontalStretch>true</HorizontalStretch>
 							<MultiLine>true</MultiLine>
@@ -754,7 +754,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="УдалятьСозданныеСообщенияКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="УдалятьСозданныеСообщенияРасширеннаяПодсказка" id="44"/>
 					<Events>
@@ -771,6 +770,7 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>5</Width>
 					<SpinButton>true</SpinButton>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>

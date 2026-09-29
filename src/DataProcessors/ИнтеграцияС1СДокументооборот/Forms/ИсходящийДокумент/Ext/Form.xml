@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -547,7 +547,7 @@
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
 											<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ФайлыЯвляетсяОригиналомКонтекстноеМеню" id="354"/>
 											<ExtendedTooltip name="ФайлыЯвляетсяОригиналомРасширеннаяПодсказка" id="355"/>
 										</CheckBoxField>
@@ -893,7 +893,6 @@
 											<ChildItems>
 												<CheckBoxField name="Отправлен" id="414">
 													<DataPath>Отправлен</DataPath>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОтправленКонтекстноеМеню" id="415"/>
 													<ExtendedTooltip name="ОтправленРасширеннаяПодсказка" id="416"/>
 													<Events>
@@ -1427,6 +1426,7 @@
 										<xr:Ref>CommonPicture.ПодписанЭП</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.СтатусПроверкиЭП</xr:Ref>
@@ -1439,18 +1439,21 @@
 								<InputField name="ВизыСогласованияИсполнитель" id="448">
 									<DataPath>ВизыСогласования.СогласующееЛицо</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВизыСогласованияИсполнительКонтекстноеМеню" id="449"/>
 									<ExtendedTooltip name="ВизыСогласованияИсполнительРасширеннаяПодсказка" id="450"/>
 								</InputField>
 								<InputField name="ВизыСогласованияРезультат" id="451">
 									<DataPath>ВизыСогласования.Результат</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВизыСогласованияРезультатКонтекстноеМеню" id="452"/>
 									<ExtendedTooltip name="ВизыСогласованияРезультатРасширеннаяПодсказка" id="453"/>
 								</InputField>
 								<InputField name="ВизыСогласованияДата" id="454">
 									<DataPath>ВизыСогласования.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<Format>
 										<v8:item>
@@ -1471,6 +1474,7 @@
 									<DataPath>ВизыСогласования.Комментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВизыСогласованияКомментарийКонтекстноеМеню" id="458"/>
 									<ExtendedTooltip name="ВизыСогласованияКомментарийРасширеннаяПодсказка" id="459"/>
 								</InputField>
@@ -1561,6 +1565,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СвойстваСвойствоКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="СвойстваСвойствоРасширеннаяПодсказка" id="214"/>
 								</InputField>
@@ -1716,6 +1721,7 @@
 									<DataPath>ДеревоСвязей.Заголовок</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>36</Width>
 									<ContextMenu name="ДеревоСвязейЗаголовокКонтекстноеМеню" id="370"/>
 									<ExtendedTooltip name="ДеревоСвязейЗаголовокРасширеннаяПодсказка" id="371"/>
@@ -1877,6 +1883,7 @@
 									<DataPath>ДеревоПодписей.КомуВыданСертификатИСтатус</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаПодписейКомуВыданСертификатИСтатусКонтекстноеМеню" id="122"/>
 									<ExtendedTooltip name="ТаблицаПодписейКомуВыданСертификатИСтатусРасширеннаяПодсказка" id="208"/>
 								</InputField>
@@ -1884,6 +1891,7 @@
 									<DataPath>ДеревоПодписей.ДатаПодписиИКомментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТаблицаПодписейДатаПодписиИКомментарийКонтекстноеМеню" id="124"/>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
 		<ExcludedCommand>Delete</ExcludedCommand>
@@ -64,6 +64,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 				</InputField>
@@ -72,24 +73,28 @@
 		<InputField name="Товаропроизводитель" id="10">
 			<DataPath>Объект.Товаропроизводитель</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ТоваропроизводительКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ТоваропроизводительРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="Лаборатория" id="13">
 			<DataPath>Объект.Лаборатория</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ЛабораторияКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ЛабораторияРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="ОКПД2" id="16">
 			<DataPath>Объект.ОКПД2</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="ОКПД2КонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ОКПД2РасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="МестоФормированияПартии" id="19">
 			<DataPath>Объект.МестоФормированияПартии</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="МестоФормированияПартииКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="МестоФормированияПартииРасширеннаяПодсказка" id="21"/>
 		</InputField>
@@ -101,6 +106,7 @@
 		<InputField name="Статус" id="25">
 			<DataPath>Объект.Статус</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<ContextMenu name="СтатусКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="27"/>
 		</InputField>
@@ -113,13 +119,13 @@
 				<InputField name="Идентификатор" id="7">
 					<DataPath>Объект.Идентификатор</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ИдентификаторКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="9"/>
 				</InputField>
 				<CheckBoxField name="ТребуетсяЗагрузка" id="38">
 					<DataPath>Объект.ТребуетсяЗагрузка</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ТребуетсяЗагрузкаКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="ТребуетсяЗагрузкаРасширеннаяПодсказка" id="40"/>
 				</CheckBoxField>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -64,6 +64,7 @@
 										<InputField name="Наименование" id="48">
 											<DataPath>Объект.Description</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="НаименованиеКонтекстноеМеню" id="49"/>
@@ -297,7 +298,6 @@
 										<CheckBoxField name="УчетПодарочныхСертификатов2_5" id="182">
 											<DataPath>Объект.УчетПодарочныхСертификатов2_5</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УчетПодарочныхСертификатов2_5КонтекстноеМеню" id="183"/>
 											<ExtendedTooltip name="УчетПодарочныхСертификатов2_5РасширеннаяПодсказка" id="184"/>
 											<Events>
@@ -307,7 +307,6 @@
 										<CheckBoxField name="Бессрочный" id="211">
 											<DataPath>Объект.Бессрочный</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="БессрочныйКонтекстноеМеню" id="212"/>
 											<ExtendedTooltip name="БессрочныйРасширеннаяПодсказка" id="213"/>
 											<Events>
@@ -518,6 +517,7 @@
 									<DataPath>Объект.Комментарий</DataPath>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<VerticalStretch>false</VerticalStretch>
 									<ContextMenu name="КомментарийКонтекстноеМеню" id="37"/>
@@ -597,6 +597,7 @@
 								<LabelField name="ШаблоныКодовПодарочныхСертификатовНомерСтроки" id="64">
 									<DataPath>Объект.ШаблоныКодовПодарочныхСертификатов.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШаблоныКодовПодарочныхСертификатовНомерСтрокиКонтекстноеМеню" id="65"/>
 									<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовНомерСтрокиРасширеннаяПодсказка" id="132"/>
 								</LabelField>
@@ -626,6 +627,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="ШаблоныКодовПодарочныхСертификатовДлинаШтрихкодаКонтекстноеМеню" id="67"/>
 											<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовДлинаШтрихкодаРасширеннаяПодсказка" id="134"/>
@@ -639,6 +641,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="ШаблоныКодовПодарочныхСертификатовНачалоДиапазонаШтрихкодаКонтекстноеМеню" id="69"/>
 											<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовНачалоДиапазонаШтрихкодаРасширеннаяПодсказка" id="135"/>
@@ -652,6 +655,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="ШаблоныКодовПодарочныхСертификатовКонецДиапазонаШтрихкодаКонтекстноеМеню" id="71"/>
 											<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовКонецДиапазонаШтрихкодаРасширеннаяПодсказка" id="136"/>
@@ -661,6 +665,7 @@
 								<InputField name="ШаблоныКодовПодарочныхСертификатовШаблонКодаМагнитнойКарты" id="85">
 									<DataPath>Объект.ШаблоныКодовПодарочныхСертификатов.ШаблонМагнитнойКарты</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ШаблоныКодовПодарочныхСертификатовШаблонКодаМагнитнойКартыКонтекстноеМеню" id="86"/>
 									<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовШаблонКодаМагнитнойКартыРасширеннаяПодсказка" id="137"/>
 								</InputField>
@@ -690,6 +695,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="ШаблоныКодовПодарочныхСертификатовДлинаМагнитногоКодаКонтекстноеМеню" id="73"/>
 											<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовДлинаМагнитногоКодаРасширеннаяПодсказка" id="139"/>
@@ -703,6 +709,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="ШаблоныКодовПодарочныхСертификатовНачалоДиапазонаМагнитногоКодаКонтекстноеМеню" id="75"/>
 											<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовНачалоДиапазонаМагнитногоКодаРасширеннаяПодсказка" id="140"/>
@@ -716,6 +723,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>5</Width>
 											<ContextMenu name="ШаблоныКодовПодарочныхСертификатовКонецДиапазонаМагнитногоКодаКонтекстноеМеню" id="77"/>
 											<ExtendedTooltip name="ШаблоныКодовПодарочныхСертификатовКонецДиапазонаМагнитногоКодаРасширеннаяПодсказка" id="141"/>

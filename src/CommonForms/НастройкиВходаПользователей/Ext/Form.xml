@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Настройки входа</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -147,7 +147,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПарольДолженОтвечатьТребованиямСложностиКонтекстноеМеню" id="5"/>
 											<ExtendedTooltip name="ПарольДолженОтвечатьТребованиямСложностиРасширеннаяПодсказка" id="6"/>
 											<Events>
@@ -176,7 +175,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МинимальнаяДлинаПароляВключитьКонтекстноеМеню" id="87"/>
 													<ExtendedTooltip name="МинимальнаяДлинаПароляВключитьРасширеннаяПодсказка" id="88"/>
 													<Events>
@@ -228,7 +226,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПарольДолженОтсутствоватьВСпискеЗапрещенныхКонтекстноеМеню" id="303"/>
 											<ExtendedTooltip name="ПарольДолженОтсутствоватьВСпискеЗапрещенныхРасширеннаяПодсказка" id="304"/>
 										</CheckBoxField>
@@ -241,7 +238,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ДействиеПриВходеЕслиТребованиеНеВыполненоВключитьКонтекстноеМеню" id="339"/>
 											<ExtendedTooltip name="ДействиеПриВходеЕслиТребованиеНеВыполненоВключитьРасширеннаяПодсказка" id="340"/>
 											<Events>
@@ -349,7 +345,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МаксимальныйСрокДействияПароляВключитьКонтекстноеМеню" id="93"/>
 													<ExtendedTooltip name="МаксимальныйСрокДействияПароляВключитьРасширеннаяПодсказка" id="94"/>
 													<Events>
@@ -412,7 +407,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МинимальныйСрокДействияПароляВключитьКонтекстноеМеню" id="90"/>
 													<ExtendedTooltip name="МинимальныйСрокДействияПароляВключитьРасширеннаяПодсказка" id="91"/>
 													<Events>
@@ -474,7 +468,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретитьПовторениеПароляСредиПоследнихВключитьКонтекстноеМеню" id="84"/>
 													<ExtendedTooltip name="ЗапретитьПовторениеПароляСредиПоследнихВключитьРасширеннаяПодсказка" id="85"/>
 													<Events>
@@ -518,7 +511,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПредупреждатьОбОкончанииСрокаДействияПароляВключитьКонтекстноеМеню" id="232"/>
 													<ExtendedTooltip name="ПредупреждатьОбОкончанииСрокаДействияПароляВключитьРасширеннаяПодсказка" id="233"/>
 													<Events>
@@ -577,7 +569,6 @@
 											<TitleLocation>Right</TitleLocation>
 											<TitleHeight>2</TitleHeight>
 											<VerticalAlign>Top</VerticalAlign>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПросрочкаРаботыВПрограммеДоЗапрещенияВходаВключитьКонтекстноеМеню" id="96"/>
 											<ExtendedTooltip name="ПросрочкаРаботыВПрограммеДоЗапрещенияВходаВключитьРасширеннаяПодсказка" id="97"/>
 											<Events>
@@ -681,7 +672,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПарольДолженОтвечатьТребованиямСложности2КонтекстноеМеню" id="170"/>
 											<ExtendedTooltip name="ПарольДолженОтвечатьТребованиямСложности2РасширеннаяПодсказка" id="171"/>
 											<Events>
@@ -710,7 +700,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МинимальнаяДлинаПароля2ВключитьКонтекстноеМеню" id="175"/>
 													<ExtendedTooltip name="МинимальнаяДлинаПароля2ВключитьРасширеннаяПодсказка" id="176"/>
 													<Events>
@@ -762,7 +751,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПарольДолженОтсутствоватьВСпискеЗапрещенных2КонтекстноеМеню" id="309"/>
 											<ExtendedTooltip name="ПарольДолженОтсутствоватьВСпискеЗапрещенных2РасширеннаяПодсказка" id="310"/>
 										</CheckBoxField>
@@ -775,7 +763,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ДействиеПриВходеЕслиТребованиеНеВыполнено2ВключитьКонтекстноеМеню" id="373"/>
 											<ExtendedTooltip name="ДействиеПриВходеЕслиТребованиеНеВыполнено2ВключитьРасширеннаяПодсказка" id="374"/>
 											<Events>
@@ -883,7 +870,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МаксимальныйСрокДействияПароля2ВключитьКонтекстноеМеню" id="188"/>
 													<ExtendedTooltip name="МаксимальныйСрокДействияПароля2ВключитьРасширеннаяПодсказка" id="189"/>
 													<Events>
@@ -946,7 +932,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="МинимальныйСрокДействияПароля2ВключитьКонтекстноеМеню" id="199"/>
 													<ExtendedTooltip name="МинимальныйСрокДействияПароля2ВключитьРасширеннаяПодсказка" id="200"/>
 													<Events>
@@ -1008,7 +993,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретитьПовторениеПароляСредиПоследних2ВключитьКонтекстноеМеню" id="210"/>
 													<ExtendedTooltip name="ЗапретитьПовторениеПароляСредиПоследних2ВключитьРасширеннаяПодсказка" id="211"/>
 													<Events>
@@ -1052,7 +1036,6 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ПредупреждатьОбОкончанииСрокаДействияПароля2ВключитьКонтекстноеМеню" id="243"/>
 													<ExtendedTooltip name="ПредупреждатьОбОкончанииСрокаДействияПароля2ВключитьРасширеннаяПодсказка" id="244"/>
 													<Events>
@@ -1111,7 +1094,6 @@
 											<TitleLocation>Right</TitleLocation>
 											<TitleHeight>2</TitleHeight>
 											<VerticalAlign>Top</VerticalAlign>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПросрочкаРаботыВПрограммеДоЗапрещенияВхода2ВключитьКонтекстноеМеню" id="218"/>
 											<ExtendedTooltip name="ПросрочкаРаботыВПрограммеДоЗапрещенияВхода2ВключитьРасширеннаяПодсказка" id="219"/>
 											<Events>
@@ -1189,7 +1171,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПредупреждатьОбОкончанииСрокаРаботыВПрограммеВключитьКонтекстноеМеню" id="292"/>
 									<ExtendedTooltip name="ПредупреждатьОбОкончанииСрокаРаботыВПрограммеВключитьРасширеннаяПодсказка" id="293"/>
 									<Events>
@@ -1259,7 +1240,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СрокБездействияДоЗавершенияСеансаВключитьКонтекстноеМеню" id="269"/>
 									<ExtendedTooltip name="СрокБездействияДоЗавершенияСеансаВключитьРасширеннаяПодсказка" id="270"/>
 									<Events>
@@ -1392,7 +1372,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СохранениеПароляПриВходеВключитьКонтекстноеМеню" id="414"/>
 									<ExtendedTooltip name="СохранениеПароляПриВходеВключитьРасширеннаяПодсказка" id="415"/>
 									<Events>
@@ -1572,7 +1551,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КоличествоПопытокВводаПароляДоБлокировкиВключитьКонтекстноеМеню" id="145"/>
 									<ExtendedTooltip name="КоличествоПопытокВводаПароляДоБлокировкиВключитьРасширеннаяПодсказка" id="146"/>
 									<Events>
@@ -1835,7 +1813,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСтандартныйСписокЗапрещенныхПаролейКонтекстноеМеню" id="317"/>
 							<ExtendedTooltip name="ИспользоватьСтандартныйСписокЗапрещенныхПаролейРасширеннаяПодсказка" id="318"/>
 						</CheckBoxField>
@@ -1860,7 +1837,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьДополнительныйСписокЗапрещенныхПаролейКонтекстноеМеню" id="320"/>
 									<ExtendedTooltip name="ИспользоватьДополнительныйСписокЗапрещенныхПаролейРасширеннаяПодсказка" id="321"/>
 								</CheckBoxField>
@@ -1920,7 +1896,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСервисЗапрещенныхПаролейКонтекстноеМеню" id="323"/>
 									<ExtendedTooltip name="ИспользоватьСервисЗапрещенныхПаролейРасширеннаяПодсказка" id="324"/>
 									<Events>
@@ -2025,7 +2000,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПропускатьПроверкуЕслиСервисЗапрещенныхПаролейНеГотовКонтекстноеМеню" id="349"/>
 											<ExtendedTooltip name="ПропускатьПроверкуЕслиСервисЗапрещенныхПаролейНеГотовРасширеннаяПодсказка" id="350"/>
 										</CheckBoxField>
@@ -2046,7 +2020,6 @@
 				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ОтдельныеНастройкиДляВнешнихПользователейКонтекстноеМеню" id="227"/>
 			<ExtendedTooltip name="ОтдельныеНастройкиДляВнешнихПользователейРасширеннаяПодсказка" id="228"/>
 			<Events>

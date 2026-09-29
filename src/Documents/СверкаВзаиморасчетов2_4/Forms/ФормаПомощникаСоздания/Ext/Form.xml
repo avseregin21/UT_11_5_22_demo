@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -235,35 +235,30 @@
 												<CheckBoxField name="РасчетыСКлиентами" id="408">
 													<DataPath>РасчетыСКлиентами</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РасчетыСКлиентамиКонтекстноеМеню" id="409"/>
 													<ExtendedTooltip name="РасчетыСКлиентамиРасширеннаяПодсказка" id="410"/>
 												</CheckBoxField>
 												<CheckBoxField name="РасчетыСПоставщиками" id="411">
 													<DataPath>РасчетыСПоставщиками</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РасчетыСПоставщикамиКонтекстноеМеню" id="412"/>
 													<ExtendedTooltip name="РасчетыСПоставщикамиРасширеннаяПодсказка" id="413"/>
 												</CheckBoxField>
 												<CheckBoxField name="РасчетыСКредитором" id="414">
 													<DataPath>РасчетыСКредитором</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РасчетыСКредиторомКонтекстноеМеню" id="415"/>
 													<ExtendedTooltip name="РасчетыСКредиторомРасширеннаяПодсказка" id="416"/>
 												</CheckBoxField>
 												<CheckBoxField name="РасчетыСДебитором" id="417">
 													<DataPath>РасчетыСДебитором</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РасчетыСДебиторомКонтекстноеМеню" id="418"/>
 													<ExtendedTooltip name="РасчетыСДебиторомРасширеннаяПодсказка" id="419"/>
 												</CheckBoxField>
 												<CheckBoxField name="РасчетыСАрендодателем" id="420">
 													<DataPath>РасчетыСАрендодателем</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="РасчетыСАрендодателемКонтекстноеМеню" id="421"/>
 													<ExtendedTooltip name="РасчетыСАрендодателемРасширеннаяПодсказка" id="422"/>
 												</CheckBoxField>
@@ -432,21 +427,18 @@
 								<CheckBoxField name="РазбиватьПоТипамРасчетов" id="285">
 									<DataPath>РазбиватьПоТипамРасчетов</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РазбиватьПоТипамРасчетовКонтекстноеМеню" id="286"/>
 									<ExtendedTooltip name="РазбиватьПоТипамРасчетовРасширеннаяПодсказка" id="287"/>
 								</CheckBoxField>
 								<CheckBoxField name="РазбиватьПоПартнерам" id="288">
 									<DataPath>РазбиватьПоПартнерам</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РазбиватьПоПартнерамКонтекстноеМеню" id="289"/>
 									<ExtendedTooltip name="РазбиватьПоПартнерамРасширеннаяПодсказка" id="290"/>
 								</CheckBoxField>
 								<CheckBoxField name="РазбиватьПоДоговорам" id="291">
 									<DataPath>РазбиватьПоДоговорам</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РазбиватьПоДоговорамКонтекстноеМеню" id="292"/>
 									<ExtendedTooltip name="РазбиватьПоДоговорамРасширеннаяПодсказка" id="293"/>
 								</CheckBoxField>
@@ -496,7 +488,6 @@
 										<CheckBoxField name="ВыводитьДокументыНаПечать" id="14">
 											<DataPath>ВыводитьДокументыНаПечать</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВыводитьДокументыНаПечатьКонтекстноеМеню" id="15"/>
 											<ExtendedTooltip name="ВыводитьДокументыНаПечатьРасширеннаяПодсказка" id="253"/>
 											<Events>
@@ -730,6 +721,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Format>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -752,6 +744,7 @@
 											<DataPath>ТаблицаРасчетов.ИзменятьДокумент</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ListChoiceMode>true</ListChoiceMode>
 											<TextEdit>false</TextEdit>
 											<ChoiceList>
@@ -807,6 +800,7 @@
 									<DataPath>ТаблицаРасчетов.ТипРасчетов</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаРасчетовТипРасчетовКонтекстноеМеню" id="319"/>
 									<ExtendedTooltip name="ТаблицаРасчетовТипРасчетовРасширеннаяПодсказка" id="320"/>
 								</InputField>
@@ -820,6 +814,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>30</Width>
 									<ChoiceButton>false</ChoiceButton>
 									<ClearButton>false</ClearButton>
@@ -838,6 +833,7 @@
 									<DataPath>ТаблицаРасчетов.Партнер</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаРасчетовПартнерКонтекстноеМеню" id="322"/>
 									<ExtendedTooltip name="ТаблицаРасчетовПартнерРасширеннаяПодсказка" id="323"/>
 								</InputField>
@@ -851,6 +847,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ClearButton>false</ClearButton>
 									<SpinButton>false</SpinButton>
 									<OpenButton>true</OpenButton>
@@ -867,6 +864,7 @@
 									<DataPath>ТаблицаРасчетов.Договор</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаРасчетовДоговорКонтекстноеМеню" id="325"/>
 									<ExtendedTooltip name="ТаблицаРасчетовДоговорРасширеннаяПодсказка" id="326"/>
 								</InputField>
@@ -877,7 +875,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаРасчетовСуществуютДокументыКонтекстноеМеню" id="358"/>
 									<ExtendedTooltip name="ТаблицаРасчетовСуществуютДокументыРасширеннаяПодсказка" id="359"/>
 								</CheckBoxField>
@@ -885,6 +883,7 @@
 									<DataPath>ТаблицаРасчетов.ДокументСверки</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаРасчетовДокументСверкиКонтекстноеМеню" id="361"/>
 									<ExtendedTooltip name="ТаблицаРасчетовДокументСверкиРасширеннаяПодсказка" id="362"/>
 								</InputField>
@@ -968,7 +967,7 @@
 							<ExtendedTooltip name="ДекорацияТаблицаРезультатаРасширеннаяПодсказка" id="427"/>
 						</LabelDecoration>
 						<Table name="СписокДокументовСверки" id="473">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокДокументовСверки</DataPath>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -43,7 +43,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗакрытКонтекстноеМеню" id="137"/>
 					<ExtendedTooltip name="ЗакрытРасширеннаяПодсказка" id="138"/>
 				</CheckBoxField>
@@ -140,7 +139,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЭтоIBANКонтекстноеМеню" id="215"/>
 					<ExtendedTooltip name="ЭтоIBANРасширеннаяПодсказка" id="216"/>
 					<Events>
@@ -748,7 +746,6 @@
 				</v8:item>
 			</Title>
 			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ИспользуетсяБанкДляРасчетовКонтекстноеМеню" id="444"/>
 			<ExtendedTooltip name="ИспользуетсяБанкДляРасчетовРасширеннаяПодсказка" id="445"/>
 			<Events>
@@ -1316,7 +1313,6 @@
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ОтдельныйСчетГОЗКонтекстноеМеню" id="129"/>
 					<ExtendedTooltip name="ОтдельныйСчетГОЗРасширеннаяПодсказка" id="130"/>
 					<Events>
@@ -1357,7 +1353,6 @@
 				<CheckBoxField name="ИспользоватьТекстКорреспондента" id="57">
 					<DataPath>ИспользоватьТекстКорреспондента</DataPath>
 					<TitleLocation>Right</TitleLocation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьТекстКорреспондентаКонтекстноеМеню" id="58"/>
 					<ExtendedTooltip name="ИспользоватьТекстКорреспондентаРасширеннаяПодсказка" id="95"/>
 					<Events>
@@ -1396,7 +1391,6 @@
 						<CheckBoxField name="ИспользоватьИННКорреспондента" id="147">
 							<DataPath>ИспользоватьИННКорреспондента</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьИННКорреспондентаКонтекстноеМеню" id="148"/>
 							<ExtendedTooltip name="ИспользоватьИННКорреспондентаРасширеннаяПодсказка" id="149"/>
 							<Events>
@@ -1416,7 +1410,6 @@
 						<CheckBoxField name="ИспользоватьКППКорреспондента" id="150">
 							<DataPath>ИспользоватьКППКорреспондента</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьКППКорреспондентаКонтекстноеМеню" id="151"/>
 							<ExtendedTooltip name="ИспользоватьКППКорреспондентаРасширеннаяПодсказка" id="152"/>
 							<Events>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -13,6 +13,7 @@
 	<Customizable>false</Customizable>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -413,7 +414,7 @@
 									<ChangeRowOrder>false</ChangeRowOrder>
 									<ChoiceMode>true</ChoiceMode>
 									<Header>false</Header>
-									<VerticalLines>false</VerticalLines>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<InitialListView>Beginning</InitialListView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -501,6 +502,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>1</MaxWidth>
@@ -525,6 +527,7 @@
 															<HorizontalAlign>Left</HorizontalAlign>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>10</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
@@ -535,6 +538,7 @@
 														<LabelField name="СписокРаспоряженийСтатус" id="73">
 															<DataPath>СписокРаспоряжений.Статус</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>false</HorizontalStretch>
 															<TextColor>style:ЦветТекстаДополнительныйСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаВыделенныйСборкаИДоставка" kind="StyleItem"/>
@@ -546,6 +550,7 @@
 												<InputField name="СписокРаспоряженийПустышка2" id="170">
 													<DataPath>СписокРаспоряжений.Пустышка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 													<ContextMenu name="СписокРаспоряженийПустышка2КонтекстноеМеню" id="171"/>
 													<ExtendedTooltip name="СписокРаспоряженийПустышка2РасширеннаяПодсказка" id="172"/>
@@ -563,6 +568,7 @@
 														<PictureField name="СписокРаспоряженийДатаВремяДоставкиКартинка" id="94">
 															<DataPath>СписокРаспоряжений.ДатаВремяДоставкиКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>1</MaxWidth>
@@ -592,6 +598,7 @@
 															</Title>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>20</Width>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -613,6 +620,7 @@
 														<PictureField name="СписокРаспоряженийСуммаКартинка" id="100">
 															<DataPath>СписокРаспоряжений.СуммаКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>1</MaxWidth>
@@ -642,6 +650,7 @@
 															</Title>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>20</Width>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -663,6 +672,7 @@
 														<PictureField name="СписокРаспоряженийСкладКартинка" id="435">
 															<DataPath>СписокРаспоряжений.СкладКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>1</MaxWidth>
@@ -685,6 +695,7 @@
 														<LabelField name="СписокРаспоряженийСклад" id="438">
 															<DataPath>СписокРаспоряжений.Склад</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>20</Width>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -706,6 +717,7 @@
 														<PictureField name="СписокРаспоряженийАдресКартинка" id="117">
 															<DataPath>СписокРаспоряжений.АдресКартинка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>1</MaxWidth>
@@ -729,6 +741,7 @@
 															<DataPath>СписокРаспоряжений.АдресДоставкиПредставление</DataPath>
 															<VerticalAlign>Top</VerticalAlign>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>20</Width>
 															<TextColor>style:ЦветТекстаГиперссылкаСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаГиперссылкиСборкаИДоставка" kind="StyleItem"/>
@@ -740,6 +753,7 @@
 												<InputField name="СписокРаспоряженийПустышка3" id="183">
 													<DataPath>СписокРаспоряжений.Пустышка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 													<ContextMenu name="СписокРаспоряженийПустышка3КонтекстноеМеню" id="184"/>
 													<ExtendedTooltip name="СписокРаспоряженийПустышка3РасширеннаяПодсказка" id="185"/>

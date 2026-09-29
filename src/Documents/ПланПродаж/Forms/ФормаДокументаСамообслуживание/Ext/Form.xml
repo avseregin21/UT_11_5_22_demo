@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -113,6 +113,7 @@
 				<InputField name="Соглашение" id="9">
 					<DataPath>Объект.Соглашение</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>28</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<DropListButton>false</DropListButton>
@@ -194,6 +195,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="4"/>
@@ -211,6 +213,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ОкончаниеПериодаКонтекстноеМеню" id="6"/>
@@ -347,6 +350,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамНомерСтрокиКонтекстноеМеню" id="52"/>
@@ -365,6 +369,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>7</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамНоменклатураТипНоменклатурыКонтекстноеМеню" id="54"/>
@@ -377,6 +382,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>13</Width>
 									<ContextMenu name="ТоварыПоПериодамНоменклатураКодКонтекстноеМеню" id="56"/>
 									<ExtendedTooltip name="ТоварыПоПериодамНоменклатураКодРасширеннаяПодсказка" id="118"/>
@@ -388,6 +394,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамАртикулКонтекстноеМеню" id="58"/>
@@ -397,6 +404,7 @@
 									<DataPath>ТоварыПоПериодам.Номенклатура</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
@@ -409,6 +417,7 @@
 									<DataPath>ТоварыПоПериодам.Характеристика</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамХарактеристикаКонтекстноеМеню" id="62"/>
@@ -430,6 +439,7 @@
 											<DataPath>ТоварыПоПериодам.Упаковка</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ChoiceParameterLinks>
@@ -454,6 +464,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="ТоварыПоПериодамНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="66"/>
 											<ExtendedTooltip name="ТоварыПоПериодамНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="124"/>
@@ -470,6 +481,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>6</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамКоличествоУпаковокКонтекстноеМеню" id="68"/>
@@ -479,6 +491,7 @@
 									<DataPath>ТоварыПоПериодам.Цена</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамЦенаКонтекстноеМеню" id="70"/>
@@ -491,6 +504,7 @@
 									<DataPath>ТоварыПоПериодам.Сумма</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ТоварыПоПериодамСуммаКонтекстноеМеню" id="72"/>
@@ -572,6 +586,7 @@
 								<LabelField name="ПланОплатыНомерСтроки" id="142">
 									<DataPath>Объект.ПланОплаты.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыНомерСтрокиКонтекстноеМеню" id="143"/>
 									<ExtendedTooltip name="ПланОплатыНомерСтрокиРасширеннаяПодсказка" id="144"/>
 								</LabelField>
@@ -579,12 +594,14 @@
 									<DataPath>Объект.ПланОплаты.ВариантОплаты</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыВариантОплатыКонтекстноеМеню" id="149"/>
 									<ExtendedTooltip name="ПланОплатыВариантОплатыРасширеннаяПодсказка" id="150"/>
 								</InputField>
 								<InputField name="ПланОплатыДатаПлатежа" id="151">
 									<DataPath>Объект.ПланОплаты.ДатаПлатежа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыДатаПлатежаКонтекстноеМеню" id="152"/>
 									<ExtendedTooltip name="ПланОплатыДатаПлатежаРасширеннаяПодсказка" id="153"/>
 									<Events>
@@ -597,6 +614,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыПроцентПлатежаКонтекстноеМеню" id="155"/>
 									<ExtendedTooltip name="ПланОплатыПроцентПлатежаРасширеннаяПодсказка" id="156"/>
 									<Events>
@@ -606,6 +624,7 @@
 								<InputField name="ПланОплатыСуммаПлатежа" id="157">
 									<DataPath>Объект.ПланОплаты.СуммаПлатежа</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыСуммаПлатежаКонтекстноеМеню" id="158"/>
 									<ExtendedTooltip name="ПланОплатыСуммаПлатежаРасширеннаяПодсказка" id="159"/>
 									<Events>
@@ -619,6 +638,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыСуммаПлатежейКонтекстноеМеню" id="169"/>
 									<ExtendedTooltip name="ПланОплатыСуммаПлатежейРасширеннаяПодсказка" id="170"/>
 								</InputField>
@@ -626,6 +646,7 @@
 									<DataPath>Объект.ПланОплаты.СуммаОтгрузок</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыСуммаОтгрузокКонтекстноеМеню" id="164"/>
 									<ExtendedTooltip name="ПланОплатыСуммаОтгрузокРасширеннаяПодсказка" id="165"/>
 								</InputField>
@@ -633,6 +654,7 @@
 									<DataPath>Объект.ПланОплаты.СуммаЗадолженности</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПланОплатыСуммаЗадолженностиКонтекстноеМеню" id="161"/>
 									<ExtendedTooltip name="ПланОплатыСуммаЗадолженностиРасширеннаяПодсказка" id="162"/>
 								</InputField>

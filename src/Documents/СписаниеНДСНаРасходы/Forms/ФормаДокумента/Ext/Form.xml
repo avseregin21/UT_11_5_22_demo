@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -250,6 +250,7 @@
 														<InputField name="Номер" id="1">
 															<DataPath>Объект.Number</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 															<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 														</InputField>
@@ -262,6 +263,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 															<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 														</InputField>
@@ -270,12 +272,14 @@
 												<InputField name="Организация" id="7">
 													<DataPath>Объект.Организация</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
 													<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
 												</InputField>
 												<InputField name="Поставщик" id="10">
 													<DataPath>Объект.Контрагент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПоставщикКонтекстноеМеню" id="11"/>
 													<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="12"/>
 												</InputField>
@@ -288,6 +292,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -369,6 +374,7 @@
 												<InputField name="Подразделение" id="19">
 													<DataPath>Объект.Подразделение</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ПодразделениеКонтекстноеМеню" id="20"/>
 													<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="21"/>
 												</InputField>
@@ -381,6 +387,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ChoiceParameters>
 														<app:item name="Отбор.ВариантРаспределенияРасходов">
 															<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -399,6 +406,7 @@
 												<InputField name="АналитикаРасходов" id="22">
 													<DataPath>Объект.АналитикаРасходов</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -518,12 +526,14 @@
 								<LabelField name="ЦенностиНомерСтроки" id="38">
 									<DataPath>Объект.Ценности.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦенностиНомерСтрокиКонтекстноеМеню" id="39"/>
 									<ExtendedTooltip name="ЦенностиНомерСтрокиРасширеннаяПодсказка" id="40"/>
 								</LabelField>
 								<InputField name="ЦенностиВидЦенности" id="41">
 									<DataPath>Объект.Ценности.ВидЦенности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ChoiceList>
 										<xr:Item>
@@ -629,6 +639,7 @@
 								<InputField name="ЦенностиВидДеятельностиНДС" id="44">
 									<DataPath>Объект.Ценности.ВидДеятельностиНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ChoiceList>
 										<xr:Item>
@@ -694,6 +705,7 @@
 								<InputField name="ЦенностиРеализацияЭкспорт" id="47">
 									<DataPath>Объект.Ценности.РеализацияЭкспорт</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -718,6 +730,7 @@
 								<InputField name="ЦенностиНаправлениеДеятельности" id="140">
 									<DataPath>Объект.Ценности.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦенностиНаправлениеДеятельностиКонтекстноеМеню" id="141"/>
 									<ExtendedTooltip name="ЦенностиНаправлениеДеятельностиРасширеннаяПодсказка" id="142"/>
 								</InputField>
@@ -729,6 +742,7 @@
 								<InputField name="ЦенностиСтавкаНДС" id="50">
 									<DataPath>Объект.Ценности.СтавкаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<OpenButton>false</OpenButton>
 									<ContextMenu name="ЦенностиСтавкаНДСКонтекстноеМеню" id="51"/>
 									<ExtendedTooltip name="ЦенностиСтавкаНДСРасширеннаяПодсказка" id="52"/>
@@ -736,12 +750,14 @@
 								<InputField name="ЦенностиСуммаБезНДС" id="53">
 									<DataPath>Объект.Ценности.СуммаБезНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦенностиСуммаБезНДСКонтекстноеМеню" id="54"/>
 									<ExtendedTooltip name="ЦенностиСуммаБезНДСРасширеннаяПодсказка" id="55"/>
 								</InputField>
 								<InputField name="ЦенностиНДС" id="56">
 									<DataPath>Объект.Ценности.НДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="ЦенностиНДСКонтекстноеМеню" id="57"/>
 									<ExtendedTooltip name="ЦенностиНДСРасширеннаяПодсказка" id="58"/>
@@ -749,6 +765,7 @@
 								<InputField name="ЦенностиНДСУпр" id="131">
 									<DataPath>Объект.Ценности.НДСУпр</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="ЦенностиНДСУпрКонтекстноеМеню" id="132"/>
 									<ExtendedTooltip name="ЦенностиНДСУпрРасширеннаяПодсказка" id="133"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -116,6 +116,7 @@
 				<InputField name="Номер" id="1">
 					<DataPath>Объект.Number</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>10</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -131,6 +132,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>15</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
@@ -142,6 +144,7 @@
 			<DataPath>Объект.Организация</DataPath>
 			<ReadOnly>true</ReadOnly>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<Width>28</Width>
 			<HorizontalStretch>false</HorizontalStretch>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
@@ -209,6 +212,7 @@
 					<DataPath>Объект.Исправления.LineNumber</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ИсправленияНомерСтрокиКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="ИсправленияНомерСтрокиРасширеннаяПодсказка" id="25"/>
 				</LabelField>
@@ -216,6 +220,7 @@
 					<DataPath>Объект.Исправления.АналитикаУчетаНоменклатуры</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ИсправленияАналитикаУчетаНоменклатурыКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="ИсправленияАналитикаУчетаНоменклатурыРасширеннаяПодсказка" id="28"/>
 				</InputField>
@@ -232,12 +237,14 @@
 						<InputField name="ИсправленияВидЗапасовСписания" id="32">
 							<DataPath>Объект.Исправления.ВидЗапасовСписания</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияВидЗапасовСписанияКонтекстноеМеню" id="33"/>
 							<ExtendedTooltip name="ИсправленияВидЗапасовСписанияРасширеннаяПодсказка" id="34"/>
 						</InputField>
 						<InputField name="ИсправленияНомерГТДСписания" id="38">
 							<DataPath>Объект.Исправления.НомерГТДСписания</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияНомерГТДСписанияКонтекстноеМеню" id="39"/>
 							<ExtendedTooltip name="ИсправленияНомерГТДСписанияРасширеннаяПодсказка" id="40"/>
 						</InputField>
@@ -256,12 +263,14 @@
 						<InputField name="ИсправленияВидЗапасовОприходования" id="29">
 							<DataPath>Объект.Исправления.ВидЗапасовОприходования</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияВидЗапасовОприходованияКонтекстноеМеню" id="30"/>
 							<ExtendedTooltip name="ИсправленияВидЗапасовОприходованияРасширеннаяПодсказка" id="31"/>
 						</InputField>
 						<InputField name="ИсправленияНомерГТДОприходования" id="35">
 							<DataPath>Объект.Исправления.НомерГТДОприходования</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияНомерГТДОприходованияКонтекстноеМеню" id="36"/>
 							<ExtendedTooltip name="ИсправленияНомерГТДОприходованияРасширеннаяПодсказка" id="37"/>
 						</InputField>
@@ -280,18 +289,21 @@
 						<InputField name="ИсправленияКоличество" id="41">
 							<DataPath>Объект.Исправления.Количество</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияКоличествоКонтекстноеМеню" id="42"/>
 							<ExtendedTooltip name="ИсправленияКоличествоРасширеннаяПодсказка" id="43"/>
 						</InputField>
 						<InputField name="ИсправленияКоличествоПолучено" id="60">
 							<DataPath>Объект.Исправления.КоличествоПолучено</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияКоличествоПолученоКонтекстноеМеню" id="61"/>
 							<ExtendedTooltip name="ИсправленияКоличествоПолученоРасширеннаяПодсказка" id="62"/>
 						</InputField>
 						<InputField name="ИсправленияКоличествоКСписанию" id="63">
 							<DataPath>Объект.Исправления.КоличествоКСписанию</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ИсправленияКоличествоКСписаниюКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="ИсправленияКоличествоКСписаниюРасширеннаяПодсказка" id="65"/>
 						</InputField>

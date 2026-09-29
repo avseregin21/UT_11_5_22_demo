@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoURL>false</AutoURL>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -866,6 +866,7 @@
 										<xr:Ref>CommonPicture.ТранспортПередачаДанных</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<MaxWidth>1</MaxWidth>
 									<ContextMenu name="СписокПриложенийТранспортКартинкаКонтекстноеМеню" id="799"/>
 									<ExtendedTooltip name="СписокПриложенийТранспортКартинкаРасширеннаяПодсказка" id="800"/>
@@ -879,6 +880,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокПриложенийПрограммаКонтекстноеМеню" id="589"/>
 									<ExtendedTooltip name="СписокПриложенийПрограммаРасширеннаяПодсказка" id="590"/>
 								</LabelField>
@@ -891,6 +893,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="СписокПриложенийПрефиксКорреспондентаКонтекстноеМеню" id="592"/>
 									<ExtendedTooltip name="СписокПриложенийПрефиксКорреспондентаРасширеннаяПодсказка" id="593"/>
@@ -915,6 +918,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СинхронизацияДанныхСостояниеСинхронизации</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -932,6 +936,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СписокПриложенийСостояниеПредставлениеКонтекстноеМеню" id="572"/>
 											<ExtendedTooltip name="СписокПриложенийСостояниеПредставлениеРасширеннаяПодсказка" id="573"/>
 										</LabelField>
@@ -973,6 +978,7 @@
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Hyperlink>true</Hyperlink>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.СинхронизацияДанныхСостояниеСинхронизации</xr:Ref>
@@ -992,6 +998,9 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Hiperlink>true</Hiperlink>
 													<ContextMenu name="СписокПриложенийПредставлениеДатыПоследнейУспешнойВыгрузкиКонтекстноеМеню" id="667"/>
 													<ExtendedTooltip name="СписокПриложенийПредставлениеДатыПоследнейУспешнойВыгрузкиРасширеннаяПодсказка" id="668"/>
@@ -1007,6 +1016,9 @@
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="СписокПриложенийОтправкаПредупрежденияКонтекстноеМеню" id="733"/>
 													<ExtendedTooltip name="СписокПриложенийОтправкаПредупрежденияРасширеннаяПодсказка" id="734"/>
 												</InputField>
@@ -1049,6 +1061,7 @@
 													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.СинхронизацияДанныхСостояниеСинхронизации</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1068,6 +1081,9 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="СписокПриложенийПредставлениеДатыПоследнейУспешнойЗагрузкиКонтекстноеМеню" id="664"/>
 													<ExtendedTooltip name="СписокПриложенийПредставлениеДатыПоследнейУспешнойЗагрузкиРасширеннаяПодсказка" id="665"/>
 												</LabelField>
@@ -1082,6 +1098,9 @@
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<ContextMenu name="СписокПриложенийПолучениеПредупрежденияКонтекстноеМеню" id="736"/>
 													<ExtendedTooltip name="СписокПриложенийПолучениеПредупрежденияРасширеннаяПодсказка" id="737"/>
 												</InputField>
@@ -1103,6 +1122,7 @@
 										<xr:Ref>StdPicture.Setting</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.СинхронизацияДанныхНастройка</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1130,7 +1150,7 @@
 										<xr:Ref>StdPicture.ScheduledJob</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокПриложенийРасписаниеНастроеноКонтекстноеМеню" id="642"/>
 									<ExtendedTooltip name="СписокПриложенийРасписаниеНастроеноРасширеннаяПодсказка" id="643"/>
 								</CheckBoxField>

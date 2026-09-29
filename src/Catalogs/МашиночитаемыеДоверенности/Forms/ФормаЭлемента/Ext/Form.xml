@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -1226,7 +1226,7 @@
 					<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<ExtendedTooltip name="ГруппаПередовериеРасширеннаяПодсказка" id="1190"/>
 					<ChildItems>
 						<Table name="ЦепочкаПередоверия" id="1191">
@@ -1237,7 +1237,7 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<HeightControlVariant>UseContentHeight</HeightControlVariant>
 							<Header>false</Header>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<InitialTreeView>ExpandAllLevels</InitialTreeView>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1317,6 +1317,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦепочкаПередоверияНаименованиеКонтекстноеМеню" id="1217"/>
 									<ExtendedTooltip name="ЦепочкаПередоверияНаименованиеРасширеннаяПодсказка" id="1218"/>
 								</InputField>
@@ -1334,7 +1335,7 @@
 					<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<ExtendedTooltip name="ГруппаЭлектронныеПодписиРасширеннаяПодсказка" id="801"/>
 					<ChildItems>
 						<Table name="ЭлектронныеПодписи" id="802">
@@ -1434,6 +1435,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>30</Width>
 									<Height>2</Height>
 									<ContextMenu name="ЭлектронныеПодписиКомуВыданСертификатКонтекстноеМеню" id="816"/>
@@ -1448,6 +1450,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<MaxWidth>8</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -1496,6 +1499,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ЭлектронныеПодписиДатаПроверкиПодписиКонтекстноеМеню" id="984"/>
 											<ExtendedTooltip name="ЭлектронныеПодписиДатаПроверкиПодписиРасширеннаяПодсказка" id="985"/>
 										</InputField>
@@ -1866,7 +1870,7 @@
 					<HeightControlVariant>UseContentHeight</HeightControlVariant>
 					<RowSelectionMode>Row</RowSelectionMode>
 					<Header>false</Header>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -1954,6 +1958,7 @@
 									<AutoCellHeight>true</AutoCellHeight>
 									<ShowInHeader>false</ShowInHeader>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Height>6</Height>
 									<MaxHeight>5</MaxHeight>
 									<HeightControlVariant>UseContentHeight</HeightControlVariant>
@@ -1973,6 +1978,7 @@
 									<AutoCellHeight>true</AutoCellHeight>
 									<ShowInHeader>false</ShowInHeader>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<Height>6</Height>
 									<MaxHeight>5</MaxHeight>
 									<MultiLine>true</MultiLine>
@@ -2002,6 +2008,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>6</Height>
@@ -2021,6 +2028,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>6</Height>
@@ -2140,7 +2148,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ДляНалоговыхОргановКонтекстноеМеню" id="64"/>
 									<ExtendedTooltip name="ДляНалоговыхОргановРасширеннаяПодсказка" id="65"/>
 									<Events>
@@ -2263,7 +2270,7 @@
 					<ToolTipRepresentation>None</ToolTipRepresentation>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<ExtendedTooltip name="ГруппаИныеСведенияРасширеннаяПодсказка" id="799">
 						<AutoMaxWidth>false</AutoMaxWidth>
 						<MaxWidth>80</MaxWidth>
@@ -2312,7 +2319,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ФлажокВозможностьПередоверияКонтекстноеМеню" id="1125"/>
 							<ExtendedTooltip name="ФлажокВозможностьПередоверияРасширеннаяПодсказка" id="1126"/>
 							<Events>
@@ -2375,7 +2381,6 @@
 							<DataPath>Объект.РегистрироватьВРеестре</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РегистрироватьВРеестреКонтекстноеМеню" id="72"/>
 							<ExtendedTooltip name="РегистрироватьВРеестреРасширеннаяПодсказка" id="73"/>
 							<Events>
@@ -2420,7 +2425,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>None</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РегистрироватьВДругомРеестреКонтекстноеМеню" id="1084"/>
 							<ExtendedTooltip name="РегистрироватьВДругомРеестреРасширеннаяПодсказка" id="1085"/>
 							<Events>
@@ -2547,13 +2551,11 @@
 					<ChildItems>
 						<CheckBoxField name="ПолномочияУтрачиваютсяПриПередоверии" id="631">
 							<DataPath>Объект.ПолномочияУтрачиваютсяПриПередоверии</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПолномочияУтрачиваютсяПриПередоверииКонтекстноеМеню" id="632"/>
 							<ExtendedTooltip name="ПолномочияУтрачиваютсяПриПередоверииРасширеннаяПодсказка" id="633"/>
 						</CheckBoxField>
 						<CheckBoxField name="СовместныеПолномочия" id="634">
 							<DataPath>Объект.СовместныеПолномочия</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СовместныеПолномочияКонтекстноеМеню" id="635"/>
 							<ExtendedTooltip name="СовместныеПолномочияРасширеннаяПодсказка" id="636"/>
 						</CheckBoxField>

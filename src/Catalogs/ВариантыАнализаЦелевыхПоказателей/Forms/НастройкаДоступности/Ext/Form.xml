@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -68,9 +68,9 @@
 							<Representation>Tree</Representation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -138,6 +138,7 @@
 													<DataPath>НастройкиДоступности.ДоступностьПоПодразделению</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ThreeState>true</ThreeState>
 													<ContextMenu name="НастройкиДоступностиДоступностьПоПодразделениюКонтекстноеМеню" id="18"/>
 													<ExtendedTooltip name="НастройкиДоступностиДоступностьПоПодразделениюРасширеннаяПодсказка" id="73"/>
@@ -149,6 +150,7 @@
 													<DataPath>НастройкиДоступности.Подразделение</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НастройкиДоступностиПодразделениеКонтекстноеМеню" id="7"/>
 													<ExtendedTooltip name="НастройкиДоступностиПодразделениеРасширеннаяПодсказка" id="74"/>
 												</InputField>
@@ -178,7 +180,7 @@
 															<DataPath>НастройкиДоступности.Доступность</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиДоступностиДоступностьКонтекстноеМеню" id="9"/>
 															<ExtendedTooltip name="НастройкиДоступностиДоступностьРасширеннаяПодсказка" id="77"/>
 															<Events>
@@ -189,6 +191,7 @@
 															<DataPath>НастройкиДоступности.Пользователь</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НастройкиДоступностиПользовательКонтекстноеМеню" id="5"/>
 															<ExtendedTooltip name="НастройкиДоступностиПользовательРасширеннаяПодсказка" id="78"/>
 														</InputField>
@@ -201,6 +204,7 @@
 								<InputField name="НастройкиДоступностиВариантОтображения" id="106">
 									<DataPath>НастройкиДоступности.ВариантОтображения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НастройкиДоступностиВариантОтображенияКонтекстноеМеню" id="107"/>
 									<ExtendedTooltip name="НастройкиДоступностиВариантОтображенияРасширеннаяПодсказка" id="108"/>
 								</InputField>
@@ -279,7 +283,7 @@
 											<DataPath>ВыбранныеПользователи.Доступность</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ВыбранныеПользователиДоступностьКонтекстноеМеню" id="51"/>
 											<ExtendedTooltip name="ВыбранныеПользователиДоступностьРасширеннаяПодсказка" id="82"/>
 											<Events>
@@ -290,6 +294,7 @@
 											<DataPath>ВыбранныеПользователи.Пользователь</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ВыбранныеПользователиПользовательКонтекстноеМеню" id="49"/>
 											<ExtendedTooltip name="ВыбранныеПользователиПользовательРасширеннаяПодсказка" id="83"/>
 										</InputField>
@@ -299,12 +304,14 @@
 									<DataPath>ВыбранныеПользователи.Подразделение</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыбранныеПользователиПодразделениеКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ВыбранныеПользователиПодразделениеРасширеннаяПодсказка" id="84"/>
 								</InputField>
 								<InputField name="ВыбранныеПользователиВариантОтображения" id="109">
 									<DataPath>ВыбранныеПользователи.ВариантОтображения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ВыбранныеПользователиВариантОтображенияКонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="ВыбранныеПользователиВариантОтображенияРасширеннаяПодсказка" id="111"/>
 								</InputField>

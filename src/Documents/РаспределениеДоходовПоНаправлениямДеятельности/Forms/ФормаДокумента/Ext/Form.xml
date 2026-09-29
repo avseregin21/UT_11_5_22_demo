@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -448,6 +448,7 @@
 								<InputField name="ДоходыОрганизация" id="55">
 									<DataPath>Объект.Доходы.Организация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоходыОрганизацияКонтекстноеМеню" id="56"/>
 									<ExtendedTooltip name="ДоходыОрганизацияРасширеннаяПодсказка" id="74"/>
 									<Events>
@@ -463,6 +464,7 @@
 								<InputField name="ДоходыНаправлениеДеятельности" id="131">
 									<DataPath>Объект.Доходы.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоходыНаправлениеДеятельностиКонтекстноеМеню" id="132"/>
 									<ExtendedTooltip name="ДоходыНаправлениеДеятельностиРасширеннаяПодсказка" id="133"/>
 									<Events>
@@ -521,6 +523,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Доходы.СуммаУпр</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоходыСуммаУпрКонтекстноеМеню" id="138"/>
 									<ExtendedTooltip name="ДоходыСуммаУпрРасширеннаяПодсказка" id="139"/>
 								</InputField>
@@ -534,6 +537,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Доходы.СуммаРегл</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ДоходыСуммаРеглКонтекстноеМеню" id="141"/>
 									<ExtendedTooltip name="ДоходыСуммаРеглРасширеннаяПодсказка" id="142"/>
 								</InputField>
@@ -622,6 +626,7 @@
 								<InputField name="РасходыОрганизация" id="57">
 									<DataPath>Объект.Расходы.Организация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыОрганизацияКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="РасходыОрганизацияРасширеннаяПодсказка" id="84"/>
 									<Events>
@@ -637,6 +642,7 @@
 								<InputField name="РасходыНаправлениеДеятельности" id="134">
 									<DataPath>Объект.Расходы.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыНаправлениеДеятельностиКонтекстноеМеню" id="135"/>
 									<ExtendedTooltip name="РасходыНаправлениеДеятельностиРасширеннаяПодсказка" id="136"/>
 									<Events>
@@ -702,6 +708,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Расходы.СуммаУпр</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыСуммаУпрКонтекстноеМеню" id="144"/>
 									<ExtendedTooltip name="РасходыСуммаУпрРасширеннаяПодсказка" id="145"/>
 								</InputField>
@@ -715,6 +722,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Расходы.СуммаРегл</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыСуммаРеглКонтекстноеМеню" id="147"/>
 									<ExtendedTooltip name="РасходыСуммаРеглРасширеннаяПодсказка" id="148"/>
 									<Events>
@@ -725,6 +733,7 @@
 									<DataPath>Объект.Расходы.СуммаНУ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>ИтогРасходыСуммаНУ</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыСуммаНУКонтекстноеМеню" id="158"/>
 									<ExtendedTooltip name="РасходыСуммаНУРасширеннаяПодсказка" id="159"/>
 									<Events>
@@ -741,6 +750,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Расходы.ПостояннаяРазница</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыПостояннаяРазницаКонтекстноеМеню" id="150"/>
 									<ExtendedTooltip name="РасходыПостояннаяРазницаРасширеннаяПодсказка" id="151"/>
 									<Events>
@@ -758,6 +768,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>Объект.Расходы.ВременнаяРазница</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыВременнаяРазницаКонтекстноеМеню" id="153"/>
 									<ExtendedTooltip name="РасходыВременнаяРазницаРасширеннаяПодсказка" id="154"/>
 								</InputField>

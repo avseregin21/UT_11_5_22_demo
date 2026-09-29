@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -169,7 +169,7 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="558"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаРаботаСНоменклатурой" id="1794">
@@ -625,7 +625,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьХарактеристикиКонтекстноеМеню" id="40"/>
 													<ExtendedTooltip name="ИспользоватьХарактеристикиРасширеннаяПодсказка" id="581"/>
 													<Events>
@@ -648,7 +647,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьСерииКонтекстноеМеню" id="51"/>
 													<ExtendedTooltip name="ИспользоватьСерииРасширеннаяПодсказка" id="591"/>
 													<Events>
@@ -1029,7 +1027,6 @@
 														<CheckBoxField name="ИспользоватьНомерСерии" id="1843">
 															<DataPath>Объект.ИспользоватьНомерСерии</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИспользоватьНомерСерииКонтекстноеМеню" id="1844"/>
 															<ExtendedTooltip name="ИспользоватьНомерСерииРасширеннаяПодсказка" id="1845"/>
 															<Events>
@@ -1058,7 +1055,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьСрокГодностиСерииКонтекстноеМеню" id="1849"/>
 																	<ExtendedTooltip name="ИспользоватьСрокГодностиСерииРасширеннаяПодсказка" id="1850"/>
 																	<Events>
@@ -1074,7 +1070,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьДатуПроизводстваСерииКонтекстноеМеню" id="1852"/>
 																	<ExtendedTooltip name="ИспользоватьДатуПроизводстваСерииРасширеннаяПодсказка" id="1853"/>
 																	<Events>
@@ -1180,7 +1175,6 @@
 																	<DataPath>Объект.ИспользоватьНомерКИЗГИСМСерии</DataPath>
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьНомерКИЗГИСМСерииКонтекстноеМеню" id="1863"/>
 																	<ExtendedTooltip name="ИспользоватьНомерКИЗГИСМСерииРасширеннаяПодсказка" id="1864">
 																		<Width>30</Width>
@@ -1204,7 +1198,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьПроизводителяЕГАИССерииКонтекстноеМеню" id="1869"/>
 																	<ExtendedTooltip name="ИспользоватьПроизводителяЕГАИССерииРасширеннаяПодсказка" id="1870"/>
 																	<Events>
@@ -1220,7 +1213,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьСправку2ЕГАИССерииКонтекстноеМеню" id="1872"/>
 																	<ExtendedTooltip name="ИспользоватьСправку2ЕГАИССерииРасширеннаяПодсказка" id="1873"/>
 																	<Events>
@@ -1236,7 +1228,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьПроизводителяВЕТИССерииКонтекстноеМеню" id="1875"/>
 																	<ExtendedTooltip name="ИспользоватьПроизводителяВЕТИССерииРасширеннаяПодсказка" id="1876"/>
 																	<Events>
@@ -1252,7 +1243,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьЗаписьСкладскогоЖурналаВЕТИССерииКонтекстноеМеню" id="1878"/>
 																	<ExtendedTooltip name="ИспользоватьЗаписьСкладскогоЖурналаВЕТИССерииРасширеннаяПодсказка" id="1879"/>
 																	<Events>
@@ -1268,7 +1258,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьИдентификаторПартииВЕТИССерииКонтекстноеМеню" id="1881"/>
 																	<ExtendedTooltip name="ИспользоватьИдентификаторПартииВЕТИССерииРасширеннаяПодсказка" id="1882"/>
 																	<Events>
@@ -1278,7 +1267,6 @@
 																<CheckBoxField name="ИспользоватьМРЦМОТПСерии" id="1865">
 																	<DataPath>Объект.ИспользоватьМРЦМОТПСерии</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьМРЦМОТПСерииКонтекстноеМеню" id="1866"/>
 																	<ExtendedTooltip name="ИспользоватьМРЦМОТПСерииРасширеннаяПодсказка" id="1867"/>
 																	<Events>
@@ -1304,7 +1292,6 @@
 														<CheckBoxField name="ИспользоватьRFIDМеткиСерии" id="1885">
 															<DataPath>Объект.ИспользоватьRFIDМеткиСерии</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИспользоватьRFIDМеткиСерииКонтекстноеМеню" id="1886"/>
 															<ExtendedTooltip name="ИспользоватьRFIDМеткиСерииРасширеннаяПодсказка" id="1887"/>
 															<Events>
@@ -1320,7 +1307,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="АвтоматическиГенерироватьСерииКонтекстноеМеню" id="1889"/>
 															<ExtendedTooltip name="АвтоматическиГенерироватьСерииРасширеннаяПодсказка" id="1890"/>
 															<Events>
@@ -1516,7 +1502,6 @@
 								<CheckBoxField name="ЕстьИндивидуальныеНастройкиПолитикиУчетаСерий" id="1743">
 									<DataPath>ЕстьИндивидуальныеНастройкиПолитикиУчетаСерий</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЕстьИндивидуальныеНастройкиПолитикиУчетаСерийКонтекстноеМеню" id="1744"/>
 									<ExtendedTooltip name="ЕстьИндивидуальныеНастройкиПолитикиУчетаСерийРасширеннаяПодсказка" id="1745"/>
 									<Events>
@@ -1628,6 +1613,9 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1641,6 +1629,9 @@
 													<DataPath>Объект.ПолитикиУчетаСерий.ПолитикаУчетаСерий</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1687,7 +1678,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаДопРеквизитыРасширеннаяПодсказка" id="610"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьДопРеквизитыОписание" id="108">
@@ -1728,7 +1719,7 @@
 									<ChildItems>
 										<Table name="ТаблицаДопРеквизитовНоменклатуры" id="256">
 											<SelectionMode>SingleRow</SelectionMode>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
 											<FileDragMode>AsFile</FileDragMode>
@@ -1858,6 +1849,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ТаблицаДопРеквизитовНоменклатурыПредставлениеРеквизитаКонтекстноеМеню" id="463"/>
 													<ExtendedTooltip name="ТаблицаДопРеквизитовНоменклатурыПредставлениеРеквизитаРасширеннаяПодсказка" id="617"/>
@@ -1997,6 +1989,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ТаблицаДопРеквизитовХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="465"/>
 													<ExtendedTooltip name="ТаблицаДопРеквизитовХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="621"/>
@@ -2136,6 +2129,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ТаблицаДопРеквизитовСерийПредставлениеРеквизитаКонтекстноеМеню" id="467"/>
 													<ExtendedTooltip name="ТаблицаДопРеквизитовСерийПредставлениеРеквизитаРасширеннаяПодсказка" id="625"/>
@@ -2156,7 +2150,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаШаблоныНаименованийРасширеннаяПодсказка" id="626"/>
 							<ChildItems>
 								<LabelDecoration name="ДекорацияОтступШаблоныНаименованийНоменклатуры" id="1915">
@@ -2235,7 +2229,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретРедактированияРабочегоНаименованияНоменклатурыКонтекстноеМеню" id="146"/>
 													<ExtendedTooltip name="ЗапретРедактированияРабочегоНаименованияНоменклатурыРасширеннаяПодсказка" id="632"/>
 												</CheckBoxField>
@@ -2294,7 +2287,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретРедактированияНаименованияДляПечатиНоменклатурыКонтекстноеМеню" id="148"/>
 													<ExtendedTooltip name="ЗапретРедактированияНаименованияДляПечатиНоменклатурыРасширеннаяПодсказка" id="637"/>
 												</CheckBoxField>
@@ -2378,7 +2370,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретРедактированияРабочегоНаименованияХарактеристикиКонтекстноеМеню" id="176"/>
 													<ExtendedTooltip name="ЗапретРедактированияРабочегоНаименованияХарактеристикиРасширеннаяПодсказка" id="643"/>
 												</CheckBoxField>
@@ -2437,7 +2428,6 @@
 														</v8:item>
 													</ToolTip>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЗапретРедактированияНаименованияДляПечатиХарактеристикиКонтекстноеМеню" id="182"/>
 													<ExtendedTooltip name="ЗапретРедактированияНаименованияДляПечатиХарактеристикиРасширеннаяПодсказка" id="648"/>
 												</CheckBoxField>
@@ -2510,7 +2500,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаНастройкиПанелиБыстрогоОтбораРасширеннаяПодсказка" id="650"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьНастройкиПанелиБыстрогоОтбораОписание" id="207">
@@ -2609,6 +2599,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="РеквизитыБыстрогоОтбораНоменклатурыПредставлениеРеквизитаКонтекстноеМеню" id="217"/>
 											<ExtendedTooltip name="РеквизитыБыстрогоОтбораНоменклатурыПредставлениеРеквизитаРасширеннаяПодсказка" id="654"/>
@@ -2679,6 +2670,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="РеквизитыБыстрогоОтбораХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="227"/>
 											<ExtendedTooltip name="РеквизитыБыстрогоОтбораХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="656"/>
@@ -2703,7 +2695,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаНастройкиСозданияРасширеннаяПодсказка" id="657"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьНастройкиСоздания" id="16">
@@ -2781,7 +2773,7 @@
 												<Table name="РеквизитыДляКонтроляНоменклатуры" id="152">
 													<ChangeRowSet>false</ChangeRowSet>
 													<HeaderHeight>2</HeaderHeight>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -2863,6 +2855,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>10</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыПредставлениеРеквизитаКонтекстноеМеню" id="344"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыПредставлениеРеквизитаРасширеннаяПодсказка" id="666"/>
@@ -2879,6 +2872,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>10</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыПредставлениеРеквизитаГиперссылкаКонтекстноеМеню" id="2072"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыПредставлениеРеквизитаГиперссылкаРасширеннаяПодсказка" id="2073"/>
@@ -2909,7 +2905,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыОтображатьПриСозданииКонтекстноеМеню" id="340"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыОтображатьПриСозданииРасширеннаяПодсказка" id="667"/>
 																</CheckBoxField>
@@ -2924,6 +2920,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>6</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиОтображатьПриСозданииКонтекстноеМеню" id="1195"/>
@@ -2954,6 +2951,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыВиденСУсловиемКонтекстноеМеню" id="2074"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыВиденСУсловиемРасширеннаяПодсказка" id="1935"/>
 																</InputField>
@@ -2967,6 +2967,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>4</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиВиденСУсловиемКонтекстноеМеню" id="2075"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиВиденСУсловиемРасширеннаяПодсказка" id="2076"/>
@@ -2996,6 +2997,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыДоступенСУсловиемКонтекстноеМеню" id="2077"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыДоступенСУсловиемРасширеннаяПодсказка" id="2078"/>
 																</InputField>
@@ -3009,6 +3013,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиДоступенСУсловиемКонтекстноеМеню" id="2079"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиДоступенСУсловиемРасширеннаяПодсказка" id="1951"/>
@@ -3038,7 +3043,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыЗаполнятьОбязательноКонтекстноеМеню" id="166"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыЗаполнятьОбязательноРасширеннаяПодсказка" id="668"/>
 																	<Events>
@@ -3057,6 +3062,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиЗаполнятьОбязательноКонтекстноеМеню" id="2080"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиЗаполнятьОбязательноРасширеннаяПодсказка" id="2081"/>
 																</InputField>
@@ -3086,7 +3094,7 @@
 																	<HorizontalAlign>Center</HorizontalAlign>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыУникаленКонтекстноеМеню" id="158"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляНоменклатурыУникаленРасширеннаяПодсказка" id="669"/>
 																	<Events>
@@ -3104,6 +3112,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>12</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="РеквизитыДляКонтроляНоменклатурыДляРазмераЯчейкиУникаленКонтекстноеМеню" id="1201"/>
@@ -3128,7 +3137,7 @@
 												<Table name="РеквизитыДляКонтроляХарактеристик" id="187">
 													<ChangeRowSet>false</ChangeRowSet>
 													<HeaderHeight>2</HeaderHeight>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -3210,6 +3219,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>10</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="346"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="674"/>
@@ -3226,6 +3236,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>10</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикПредставлениеРеквизитаГиперссылкаКонтекстноеМеню" id="2082"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикПредставлениеРеквизитаГиперссылкаРасширеннаяПодсказка" id="2083"/>
@@ -3255,7 +3268,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикОтображатьПриСозданииКонтекстноеМеню" id="342"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикОтображатьПриСозданииРасширеннаяПодсказка" id="675"/>
 																</CheckBoxField>
@@ -3263,6 +3276,7 @@
 																	<DataPath>Объект.РеквизитыДляКонтроляХарактеристик.ДляРазмераЯчейки</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>6</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиОтображатьПриСозданииКонтекстноеМеню" id="1204"/>
@@ -3293,6 +3307,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикВиденСУсловиемКонтекстноеМеню" id="1965"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикВиденСУсловиемРасширеннаяПодсказка" id="1966"/>
 																</InputField>
@@ -3306,6 +3323,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>4</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиВиденСУсловиемКонтекстноеМеню" id="1968"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиВиденСУсловиемРасширеннаяПодсказка" id="1969"/>
@@ -3335,6 +3353,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>4</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикДоступенСУсловиемКонтекстноеМеню" id="1973"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикДоступенСУсловиемРасширеннаяПодсказка" id="1974"/>
@@ -3349,6 +3370,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиДоступенСУсловиемКонтекстноеМеню" id="1976"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиДоступенСУсловиемРасширеннаяПодсказка" id="1977"/>
 																</InputField>
@@ -3378,7 +3400,9 @@
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикЗаполнятьОбязательноКонтекстноеМеню" id="203"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикЗаполнятьОбязательноРасширеннаяПодсказка" id="676"/>
 																	<Events>
@@ -3397,6 +3421,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>6</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиЗаполнятьОбязательноКонтекстноеМеню" id="1207"/>
@@ -3427,7 +3454,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикУникаленКонтекстноеМеню" id="201"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляХарактеристикУникаленРасширеннаяПодсказка" id="677"/>
 																	<Events>
@@ -3444,6 +3471,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>12</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="РеквизитыДляКонтроляХарактеристикДляРазмераЯчейкиУникаленКонтекстноеМеню" id="1210"/>
@@ -3470,7 +3498,7 @@
 													<ChangeRowSet>false</ChangeRowSet>
 													<ChangeRowOrder>false</ChangeRowOrder>
 													<HeaderHeight>2</HeaderHeight>
-													<UseAlternationRowColor>true</UseAlternationRowColor>
+													<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
@@ -3538,6 +3566,7 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>10</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляСерийПредставлениеРеквизитаКонтекстноеМеню" id="1083"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляСерийПредставлениеРеквизитаРасширеннаяПодсказка" id="1084"/>
@@ -3554,6 +3583,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>10</Width>
 																	<ContextMenu name="РеквизитыДляКонтроляСерийПредставлениеРеквизитаГиперссылкаКонтекстноеМеню" id="1981"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляСерийПредставлениеРеквизитаГиперссылкаРасширеннаяПодсказка" id="1982"/>
@@ -3583,7 +3615,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
-																	<CheckBoxType>Auto</CheckBoxType>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<ContextMenu name="РеквизитыДляКонтроляСерийЗаполнятьОбязательноКонтекстноеМеню" id="1089"/>
 																	<ExtendedTooltip name="РеквизитыДляКонтроляСерийЗаполнятьОбязательноРасширеннаяПодсказка" id="1090"/>
 																</CheckBoxField>
@@ -3599,6 +3633,9 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>6</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<ContextMenu name="РеквизитыДляКонтроляСерийДляРазмераЯчейкиЗаполнятьОбязательноКонтекстноеМеню" id="1213"/>
@@ -3630,7 +3667,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаНастройкиЦенообразованияРасширеннаяПодсказка" id="1934"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьНастройкиЦенообразования" id="1937">
@@ -3686,7 +3723,7 @@
 											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
-											<ControlRepresentation>Picture</ControlRepresentation>
+											<ControlRepresentation>Button</ControlRepresentation>
 											<ExtendedTooltip name="ГруппаНастройкиРазрезовВеденияЦенРасширеннаяПодсказка" id="1946"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаНастройкиЦенообразованияПоХарактеристикам" id="1947">
@@ -4143,7 +4180,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаЗначенияПоУмолчаниюРасширеннаяПодсказка" id="1479"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьПодсказкаПоЗначениямПоУмолчанию" id="1482">
@@ -4233,7 +4270,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ВестиУчетСертификатовНоменклатурыКонтекстноеМеню" id="1594"/>
 																	<ExtendedTooltip name="ВестиУчетСертификатовНоменклатурыРасширеннаяПодсказка" id="1595"/>
 																</CheckBoxField>
@@ -4248,14 +4284,13 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаОбеспечениеРасширеннаяПодсказка" id="1503"/>
 															<ChildItems>
 																<CheckBoxField name="ОбособленнаяЗакупкаПродажа" id="1504">
 																	<DataPath>Объект.ОбособленнаяЗакупкаПродажа</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ОбособленнаяЗакупкаПродажаКонтекстноеМеню" id="1505"/>
 																	<ExtendedTooltip name="ОбособленнаяЗакупкаПродажаРасширеннаяПодсказка" id="1506"/>
 																</CheckBoxField>
@@ -4282,7 +4317,7 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаПланированиеМаркетингРасширеннаяПодсказка" id="1525"/>
 															<ChildItems>
@@ -4303,7 +4338,7 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаЦеныРасширеннаяПодсказка" id="1541"/>
 															<ChildItems>
@@ -4324,7 +4359,7 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаШаблоныЦенниковИЭтикетокРасширеннаяПодсказка" id="1557"/>
 															<ChildItems>
@@ -4480,7 +4515,7 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<ExtendedTooltip name="ГруппаЕдиницыИзмеренияИУсловияХраненияРасширеннаяПодсказка" id="1614"/>
 															<ChildItems>
 																<CheckBoxField name="ИспользоватьУпаковки" id="1615">
@@ -4492,7 +4527,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ИспользоватьУпаковкиКонтекстноеМеню" id="1616"/>
 																	<ExtendedTooltip name="ИспользоватьУпаковкиРасширеннаяПодсказка" id="1617"/>
 																	<Events>
@@ -4649,7 +4683,6 @@
 																				</v8:item>
 																			</Title>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ПоставляетсяВМногооборотнойТареКонтекстноеМеню" id="1642"/>
 																			<ExtendedTooltip name="ПоставляетсяВМногооборотнойТареРасширеннаяПодсказка" id="1643"/>
 																			<Events>
@@ -4789,7 +4822,7 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаФинансовыйУчетРасширеннаяПодсказка" id="1832"/>
 															<ChildItems>
@@ -4816,7 +4849,7 @@
 															</Title>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаРегламентированныйИФинансовыйУчетРасширеннаяПодсказка" id="1581"/>
 															<ChildItems>
@@ -4829,7 +4862,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ВестиУчетПоГТДКонтекстноеМеню" id="1591"/>
 																	<ExtendedTooltip name="ВестиУчетПоГТДРасширеннаяПодсказка" id="1592"/>
 																</CheckBoxField>
@@ -4842,14 +4874,12 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПодакцизныйТоварКонтекстноеМеню" id="1588"/>
 																	<ExtendedTooltip name="ПодакцизныйТоварРасширеннаяПодсказка" id="1589"/>
 																</CheckBoxField>
 																<CheckBoxField name="ОблагаетсяНДСУПокупателя" id="1779">
 																	<DataPath>Объект.ОблагаетсяНДСУПокупателя</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ОблагаетсяНДСУПокупателяКонтекстноеМеню" id="1780"/>
 																	<ExtendedTooltip name="ОблагаетсяНДСУПокупателяРасширеннаяПодсказка" id="1781"/>
 																	<Events>
@@ -4865,7 +4895,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ЗапрещенаПродажаЧерезПатентКонтекстноеМеню" id="2089"/>
 																	<ExtendedTooltip name="ЗапрещенаПродажаЧерезПатентРасширеннаяПодсказка" id="2090"/>
 																</CheckBoxField>
@@ -4905,7 +4934,7 @@
 															</ToolTip>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаАлкогольРасширеннаяПодсказка" id="1683"/>
 															<ChildItems>
@@ -5014,7 +5043,7 @@
 															</ToolTip>
 															<Group>Vertical</Group>
 															<Behavior>Usual</Behavior>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаКлассификаторыРасширеннаяПодсказка" id="1713"/>
 															<ChildItems>
@@ -5140,7 +5169,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<ExtendedTooltip name="СтраницаДопСведенияРасширеннаяПодсказка" id="702"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьДопСведенияОписание" id="229">
@@ -5304,6 +5333,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ТаблицаДопСведенийНоменклатурыПредставлениеРеквизитаКонтекстноеМеню" id="469"/>
 													<ExtendedTooltip name="ТаблицаДопСведенийНоменклатурыПредставлениеРеквизитаРасширеннаяПодсказка" id="709"/>
@@ -5440,6 +5470,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ТаблицаДопСведенийХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="471"/>
 													<ExtendedTooltip name="ТаблицаДопСведенийХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="713"/>
@@ -5576,6 +5607,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<TextEdit>false</TextEdit>
 													<ContextMenu name="ТаблицаДопСведенийСерийПредставлениеРеквизитаКонтекстноеМеню" id="473"/>
 													<ExtendedTooltip name="ТаблицаДопСведенийСерийПредставлениеРеквизитаРасширеннаяПодсказка" id="717"/>

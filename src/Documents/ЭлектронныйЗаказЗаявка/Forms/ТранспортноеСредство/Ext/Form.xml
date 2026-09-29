@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -91,6 +92,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="РегистрационныйНомерКонтекстноеМеню" id="36"/>
@@ -135,6 +137,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ТипКонтекстноеМеню" id="52"/>
@@ -179,6 +182,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>20</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="МаркаКонтекстноеМеню" id="60"/>
@@ -223,6 +227,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ГрузоподъемностьКонтекстноеМеню" id="68"/>
@@ -267,6 +272,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ВместимостьКонтекстноеМеню" id="76"/>
@@ -423,6 +429,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ContextMenu name="НомерСТСКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="НомерСТСРасширеннаяПодсказка" id="21"/>
@@ -466,6 +473,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>17</Width>
 							<ContextMenu name="VINКонтекстноеМеню" id="28"/>
 							<ExtendedTooltip name="VINРасширеннаяПодсказка" id="29"/>
@@ -580,6 +588,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ОснованияВладенияТСНаименованиеДокументаКонтекстноеМеню" id="98"/>
 											<ExtendedTooltip name="ОснованияВладенияТСНаименованиеДокументаРасширеннаяПодсказка" id="99"/>
@@ -609,6 +618,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>20</Width>
 													<ContextMenu name="ОснованияВладенияТСНомерДокументаКонтекстноеМеню" id="103"/>
 													<ExtendedTooltip name="ОснованияВладенияТСНомерДокументаРасширеннаяПодсказка" id="104"/>
@@ -629,6 +639,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>8</Width>
 													<ContextMenu name="ОснованияВладенияТСДатаДокументаКонтекстноеМеню" id="106"/>
 													<ExtendedTooltip name="ОснованияВладенияТСДатаДокументаРасширеннаяПодсказка" id="107"/>
@@ -651,6 +662,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ОснованияВладенияТСДополнительныеСведенияКонтекстноеМеню" id="109"/>
 											<ExtendedTooltip name="ОснованияВладенияТСДополнительныеСведенияРасширеннаяПодсказка" id="110"/>
@@ -665,6 +677,8 @@
 											</ToolTip>
 											<CellHyperlink>true</CellHyperlink>
 											<AutoCellHeight>true</AutoCellHeight>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<Width>10</Width>
 											<ChoiceButton>false</ChoiceButton>
 											<TextEdit>false</TextEdit>
@@ -736,6 +750,7 @@
 											<DataPath>Прицепы.ХранимыеДанныеПрицеп</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<ContextMenu name="ХранимыеДанныеПрицепКонтекстноеМеню" id="130"/>
 											<ExtendedTooltip name="ХранимыеДанныеПрицепРасширеннаяПодсказка" id="131"/>
@@ -820,6 +835,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеНомерКонтекстноеМеню" id="148"/>
 											<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеНомерРасширеннаяПодсказка" id="149"/>
@@ -840,6 +856,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеДатаКонтекстноеМеню" id="151"/>
 											<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеДатаРасширеннаяПодсказка" id="152"/>
@@ -860,6 +877,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеСрокДействияКонтекстноеМеню" id="154"/>
 											<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеСрокДействияРасширеннаяПодсказка" id="155"/>
@@ -880,6 +898,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеВидКонтекстноеМеню" id="157"/>
 											<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеВидРасширеннаяПодсказка" id="158"/>
@@ -900,6 +919,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеОрганВластиКонтекстноеМеню" id="160"/>
 											<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеОрганВластиРасширеннаяПодсказка" id="161"/>
@@ -935,6 +955,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>20</Width>
 													<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеМаршрутТекстКонтекстноеМеню" id="165"/>
 													<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеМаршрутТекстРасширеннаяПодсказка" id="166"/>
@@ -955,6 +976,7 @@
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>20</Width>
 													<ContextMenu name="СпециальныеУсловияДвиженияСпециальноеРазрешениеМаршрутМашиночитаемыйКонтекстноеМеню" id="168"/>
 													<ExtendedTooltip name="СпециальныеУсловияДвиженияСпециальноеРазрешениеМаршрутМашиночитаемыйРасширеннаяПодсказка" id="169"/>

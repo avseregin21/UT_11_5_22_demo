@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -195,7 +195,6 @@
 							<DataPath>ИсключитьДругихПеревозчиков0</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИсключитьДругихПеревозчиков0КонтекстноеМеню" id="10"/>
 							<ExtendedTooltip name="ИсключитьДругихПеревозчиков0РасширеннаяПодсказка" id="11">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -233,7 +232,6 @@
 							<DataPath>ИсключитьДругиеТарифы0</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИсключитьДругиеТарифы0КонтекстноеМеню" id="13"/>
 							<ExtendedTooltip name="ИсключитьДругиеТарифы0РасширеннаяПодсказка" id="14">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -324,7 +322,6 @@
 									<DataPath>ОплачиваетЗаказчик0</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОплачиваетЗаказчик0КонтекстноеМеню" id="116"/>
 									<ExtendedTooltip name="ОплачиваетЗаказчик0РасширеннаяПодсказка" id="117">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -455,7 +452,6 @@
 										<CheckBoxField name="ВесРассчитывается0" id="89">
 											<DataPath>ВесРассчитывается0</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВесРассчитывается0КонтекстноеМеню" id="90"/>
 											<ExtendedTooltip name="ВесРассчитывается0РасширеннаяПодсказка" id="91"/>
 											<Events>
@@ -472,7 +468,6 @@
 								<CheckBoxField name="ГабаритыРассчитываются0" id="94">
 									<DataPath>ГабаритыРассчитываются0</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ГабаритыРассчитываются0КонтекстноеМеню" id="95"/>
 									<ExtendedTooltip name="ГабаритыРассчитываются0РасширеннаяПодсказка" id="96"/>
 									<Events>
@@ -541,7 +536,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<ShowLeftMargin>false</ShowLeftMargin>
 			<ExtendedTooltip name="ГруппаНесколькоПеревозчиковРасширеннаяПодсказка" id="110"/>
 			<ChildItems>
@@ -617,7 +612,6 @@
 								<CheckBoxField name="ИсключитьДругихПеревозчиков4" id="274">
 									<DataPath>ИсключитьДругихПеревозчиков4</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругихПеревозчиков4КонтекстноеМеню" id="275"/>
 									<ExtendedTooltip name="ИсключитьДругихПеревозчиков4РасширеннаяПодсказка" id="276"/>
 									<Events>
@@ -646,7 +640,6 @@
 								<CheckBoxField name="ИсключитьДругиеТарифы4" id="282">
 									<DataPath>ИсключитьДругиеТарифы4</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругиеТарифы4КонтекстноеМеню" id="283"/>
 									<ExtendedTooltip name="ИсключитьДругиеТарифы4РасширеннаяПодсказка" id="284"/>
 									<Events>
@@ -702,7 +695,6 @@
 										<CheckBoxField name="ОплачиваетЗаказчик4" id="348">
 											<DataPath>ОплачиваетЗаказчик4</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОплачиваетЗаказчик4КонтекстноеМеню" id="349"/>
 											<ExtendedTooltip name="ОплачиваетЗаказчик4РасширеннаяПодсказка" id="350"/>
 										</CheckBoxField>
@@ -882,7 +874,6 @@
 								<CheckBoxField name="ИсключитьДругихПеревозчиков1" id="20">
 									<DataPath>ИсключитьДругихПеревозчиков1</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругихПеревозчиков1КонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ИсключитьДругихПеревозчиков1РасширеннаяПодсказка" id="22"/>
 									<Events>
@@ -911,7 +902,6 @@
 								<CheckBoxField name="ИсключитьДругиеТарифы1" id="26">
 									<DataPath>ИсключитьДругиеТарифы1</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругиеТарифы1КонтекстноеМеню" id="27"/>
 									<ExtendedTooltip name="ИсключитьДругиеТарифы1РасширеннаяПодсказка" id="28"/>
 									<Events>
@@ -967,7 +957,6 @@
 										<CheckBoxField name="ОплачиваетЗаказчик1" id="152">
 											<DataPath>ОплачиваетЗаказчик1</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОплачиваетЗаказчик1КонтекстноеМеню" id="153"/>
 											<ExtendedTooltip name="ОплачиваетЗаказчик1РасширеннаяПодсказка" id="154"/>
 										</CheckBoxField>
@@ -1126,7 +1115,6 @@
 								<CheckBoxField name="ИсключитьДругихПеревозчиков2" id="222">
 									<DataPath>ИсключитьДругихПеревозчиков2</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругихПеревозчиков2КонтекстноеМеню" id="223"/>
 									<ExtendedTooltip name="ИсключитьДругихПеревозчиков2РасширеннаяПодсказка" id="224"/>
 									<Events>
@@ -1155,7 +1143,6 @@
 								<CheckBoxField name="ИсключитьДругиеТарифы2" id="230">
 									<DataPath>ИсключитьДругиеТарифы2</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругиеТарифы2КонтекстноеМеню" id="231"/>
 									<ExtendedTooltip name="ИсключитьДругиеТарифы2РасширеннаяПодсказка" id="232"/>
 									<Events>
@@ -1211,7 +1198,6 @@
 										<CheckBoxField name="ОплачиваетЗаказчик2" id="294">
 											<DataPath>ОплачиваетЗаказчик2</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОплачиваетЗаказчик2КонтекстноеМеню" id="295"/>
 											<ExtendedTooltip name="ОплачиваетЗаказчик2РасширеннаяПодсказка" id="296"/>
 										</CheckBoxField>
@@ -1367,7 +1353,6 @@
 								<CheckBoxField name="ИсключитьДругихПеревозчиков3" id="248">
 									<DataPath>ИсключитьДругихПеревозчиков3</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругихПеревозчиков3КонтекстноеМеню" id="249"/>
 									<ExtendedTooltip name="ИсключитьДругихПеревозчиков3РасширеннаяПодсказка" id="250"/>
 									<Events>
@@ -1395,7 +1380,6 @@
 								<CheckBoxField name="ИсключитьДругиеТарифы3" id="256">
 									<DataPath>ИсключитьДругиеТарифы3</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИсключитьДругиеТарифы3КонтекстноеМеню" id="257"/>
 									<ExtendedTooltip name="ИсключитьДругиеТарифы3РасширеннаяПодсказка" id="258"/>
 									<Events>
@@ -1446,7 +1430,6 @@
 										<CheckBoxField name="ОплачиваетЗаказчик3" id="321">
 											<DataPath>ОплачиваетЗаказчик3</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОплачиваетЗаказчик3КонтекстноеМеню" id="322"/>
 											<ExtendedTooltip name="ОплачиваетЗаказчик3РасширеннаяПодсказка" id="323"/>
 										</CheckBoxField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -13,6 +13,7 @@
 	<Customizable>false</Customizable>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -152,7 +153,7 @@
 											<ChangeRowOrder>false</ChangeRowOrder>
 											<ChoiceMode>true</ChoiceMode>
 											<Header>false</Header>
-											<VerticalLines>false</VerticalLines>
+											<VerticalLinesBWA>false</VerticalLinesBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<InitialListView>Beginning</InitialListView>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -230,6 +231,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<AutoMaxHeight>false</AutoMaxHeight>
@@ -252,6 +254,7 @@
 																	<VerticalAlign>Top</VerticalAlign>
 																	<EditMode>EnterOnInput</EditMode>
 																	<AutoCellHeight>true</AutoCellHeight>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>20</Width>
 																	<HorizontalStretch>true</HorizontalStretch>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
@@ -275,6 +278,7 @@
 																<LabelField name="СписокРаспоряженийТекущийПустышка1" id="526">
 																	<DataPath>СписокРаспоряженийТекущий.Пустышка</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<VerticalStretch>false</VerticalStretch>
 																	<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="СписокРаспоряженийТекущийПустышка1КонтекстноеМеню" id="527"/>
@@ -301,6 +305,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>1</Height>
@@ -328,6 +333,7 @@
 																	</Title>
 																	<VerticalAlign>Top</VerticalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>20</Width>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -355,6 +361,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>1</Height>
@@ -382,6 +389,7 @@
 																	</Title>
 																	<VerticalAlign>Top</VerticalAlign>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>20</Width>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -409,6 +417,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>1</Height>
@@ -447,6 +456,7 @@
 																			</Title>
 																			<VerticalAlign>Top</VerticalAlign>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																			<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
 																			<ContextMenu name="СписокРаспоряженийТекущийСуммаПредставлениеКонтекстноеМеню" id="160"/>
@@ -462,6 +472,7 @@
 																			</Title>
 																			<VerticalAlign>Top</VerticalAlign>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<Width>5</Width>
 																			<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																			<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -495,6 +506,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>1</Height>
@@ -517,6 +529,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>20</Width>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -546,6 +559,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>1</Height>
@@ -568,6 +582,7 @@
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
 																	<ShowInFooter>false</ShowInFooter>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>20</Width>
 																	<TextColor>style:ЦветТекстаГиперссылкаСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаГиперссылкиСборкаИДоставка" kind="StyleItem"/>
@@ -595,6 +610,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>1</Width>
 																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>1</Height>
@@ -615,6 +631,7 @@
 																<LabelField name="СписокРаспоряженийТекущийФИОПокупателя" id="422">
 																	<DataPath>СписокРаспоряженийТекущий.КонтактноеЛицоПредставление</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>20</Width>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -742,7 +759,7 @@
 									<ChangeRowOrder>false</ChangeRowOrder>
 									<ChoiceMode>true</ChoiceMode>
 									<Header>false</Header>
-									<VerticalLines>false</VerticalLines>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<InitialListView>Beginning</InitialListView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -831,6 +848,7 @@
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInFooter>false</ShowInFooter>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -851,6 +869,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеНомер" id="316">
 															<DataPath>СписокРаспоряженийСледующие.Номер</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<HorizontalStretch>true</HorizontalStretch>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтЗаголовкаСпискаВыделенныйСборкаИДоставка" kind="StyleItem"/>
@@ -873,6 +892,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеПустышка" id="531">
 															<DataPath>СписокРаспоряженийСледующие.Пустышка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<VerticalStretch>false</VerticalStretch>
 															<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 															<ContextMenu name="СписокРаспоряженийСледующиеПустышкаКонтекстноеМеню" id="532"/>
@@ -899,6 +919,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -919,6 +940,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеДатаВремяДоставкиПредставление" id="325">
 															<DataPath>СписокРаспоряженийСледующие.ДатаВремяДоставкиПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>4</Width>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -946,6 +968,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -966,6 +989,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеОсталосьВремениНаДоставку" id="331">
 															<DataPath>СписокРаспоряженийСледующие.ОсталосьВремениНаДоставку</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
 															<ContextMenu name="СписокРаспоряженийСледующиеОсталосьВремениНаДоставкуКонтекстноеМеню" id="332"/>
@@ -992,6 +1016,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -1022,6 +1047,7 @@
 																<LabelField name="СписокРаспоряженийСледующиеСуммаПредставление" id="343">
 																	<DataPath>СписокРаспоряженийСледующие.СуммаПредставление</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
 																	<ContextMenu name="СписокРаспоряженийСледующиеСуммаПредставлениеКонтекстноеМеню" id="344"/>
@@ -1030,6 +1056,7 @@
 																<LabelField name="СписокРаспоряженийСледующиеФормаОплатыПредставление" id="346">
 																	<DataPath>СписокРаспоряженийСледующие.ФормаОплатыПредставление</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>5</Width>
 																	<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 																	<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
@@ -1060,6 +1087,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -1080,6 +1108,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеСклад" id="349">
 															<DataPath>СписокРаспоряженийСледующие.Склад</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<TextColor>style:ЦветТекстаОсновнойСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаСборкаИДоставка" kind="StyleItem"/>
 															<ContextMenu name="СписокРаспоряженийСледующиеСкладКонтекстноеМеню" id="350"/>
@@ -1106,6 +1135,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>1</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<Height>1</Height>
@@ -1126,6 +1156,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеАдресДоставкиПредставление" id="358">
 															<DataPath>СписокРаспоряженийСледующие.АдресДоставкиПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>8</Width>
 															<TextColor>style:ЦветТекстаГиперссылкаСборкаИДоставка</TextColor>
 															<Font ref="style:ШрифтТекстаГиперссылкиСборкаИДоставка" kind="StyleItem"/>
@@ -1148,6 +1179,7 @@
 														<LabelField name="СписокРаспоряженийСледующиеПустышка2" id="536">
 															<DataPath>СписокРаспоряженийСледующие.Пустышка</DataPath>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<VerticalStretch>false</VerticalStretch>
 															<Font ref="style:ШрифтПустышкиСборкаИДоставка" kind="StyleItem"/>
 															<ContextMenu name="СписокРаспоряженийСледующиеПустышка2КонтекстноеМеню" id="537"/>

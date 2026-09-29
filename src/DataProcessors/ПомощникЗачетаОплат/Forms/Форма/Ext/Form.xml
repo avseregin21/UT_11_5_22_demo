@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -246,6 +246,7 @@
 									<DataPath>Оплаты.Организация</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыОрганизацияКонтекстноеМеню" id="78"/>
 									<ExtendedTooltip name="ОплатыОрганизацияРасширеннаяПодсказка" id="91"/>
 								</InputField>
@@ -265,6 +266,9 @@
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<TextColor>style:ГиперссылкаЦвет</TextColor>
 											<ContextMenu name="ОплатыДокументКонтекстноеМеню" id="25"/>
 											<ExtendedTooltip name="ОплатыДокументРасширеннаяПодсказка" id="93"/>
@@ -273,6 +277,7 @@
 											<DataPath>Оплаты.СуммаДокумента</DataPath>
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОплатыСуммаДокументаКонтекстноеМеню" id="67"/>
 											<ExtendedTooltip name="ОплатыСуммаДокументаРасширеннаяПодсказка" id="94"/>
 										</InputField>
@@ -281,6 +286,7 @@
 											<ReadOnly>true</ReadOnly>
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>6</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ОплатыВалютаКонтекстноеМеню" id="62"/>
@@ -292,6 +298,7 @@
 									<DataPath>Оплаты.Партнер</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>15</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ОплатыПартнерКонтекстноеМеню" id="80"/>
@@ -307,6 +314,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыДоступноКЗачетуКонтекстноеМеню" id="73"/>
 									<ExtendedTooltip name="ОплатыДоступноКЗачетуРасширеннаяПодсказка" id="98"/>
 								</InputField>
@@ -602,6 +610,7 @@
 													<DataPath>Авансы.Организация</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АвансыОрганизацияКонтекстноеМеню" id="179"/>
 													<ExtendedTooltip name="АвансыОрганизацияРасширеннаяПодсказка" id="180"/>
 												</InputField>
@@ -620,6 +629,9 @@
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<CellHyperlink>true</CellHyperlink>
+															<AutoEditMode>true</AutoEditMode>
+															<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+															<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 															<TextColor>style:ГиперссылкаЦвет</TextColor>
 															<ContextMenu name="АвансыЗаказКонтекстноеМеню" id="199"/>
 															<ExtendedTooltip name="АвансыЗаказРасширеннаяПодсказка" id="200"/>
@@ -633,6 +645,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="АвансыДокументКонтекстноеМеню" id="361"/>
 															<ExtendedTooltip name="АвансыДокументРасширеннаяПодсказка" id="362"/>
 														</InputField>
@@ -642,6 +655,7 @@
 													<DataPath>Авансы.Партнер</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>15</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="АвансыПартнерКонтекстноеМеню" id="182"/>
@@ -651,6 +665,7 @@
 													<DataPath>Авансы.Договор</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>15</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="АвансыДоговорКонтекстноеМеню" id="248"/>
@@ -665,6 +680,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АвансыСуммаВВалютеПлатежаКонтекстноеМеню" id="408"/>
 													<ExtendedTooltip name="АвансыСуммаВВалютеПлатежаРасширеннаяПодсказка" id="409"/>
 												</InputField>
@@ -677,6 +693,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АвансыВалютаВзаиморасчетовКонтекстноеМеню" id="379"/>
 													<ExtendedTooltip name="АвансыВалютаВзаиморасчетовРасширеннаяПодсказка" id="380"/>
 												</InputField>
@@ -690,6 +707,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АвансыДоступноКЗачетуКонтекстноеМеню" id="167"/>
 													<ExtendedTooltip name="АвансыДоступноКЗачетуРасширеннаяПодсказка" id="168"/>
 												</InputField>
@@ -697,6 +715,7 @@
 													<DataPath>Авансы.СуммаРегл</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АвансыСуммаРеглКонтекстноеМеню" id="402"/>
 													<ExtendedTooltip name="АвансыСуммаРеглРасширеннаяПодсказка" id="403"/>
 												</InputField>
@@ -704,6 +723,7 @@
 													<DataPath>Авансы.СуммаУпр</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="АвансыСуммаУпрКонтекстноеМеню" id="405"/>
 													<ExtendedTooltip name="АвансыСуммаУпрРасширеннаяПодсказка" id="406"/>
 												</InputField>
@@ -862,6 +882,7 @@
 							<DataPath>Зачтено.Организация</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ЗачтеноОрганизацияКонтекстноеМеню" id="275"/>
 							<ExtendedTooltip name="ЗачтеноОрганизацияРасширеннаяПодсказка" id="276"/>
 						</InputField>
@@ -880,6 +901,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗачтеноЗаказКонтекстноеМеню" id="309"/>
 									<ExtendedTooltip name="ЗачтеноЗаказРасширеннаяПодсказка" id="310"/>
 								</InputField>
@@ -887,6 +909,7 @@
 									<DataPath>Зачтено.Документ</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЗачтеноДокументКонтекстноеМеню" id="278"/>
 									<ExtendedTooltip name="ЗачтеноДокументРасширеннаяПодсказка" id="279"/>
 								</InputField>
@@ -896,6 +919,7 @@
 							<DataPath>Зачтено.Партнер</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ЗачтеноПартнерКонтекстноеМеню" id="281"/>
 							<ExtendedTooltip name="ЗачтеноПартнерРасширеннаяПодсказка" id="282"/>
 						</InputField>
@@ -908,18 +932,21 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ЗачтеноСуммаЗачтеноКонтекстноеМеню" id="284"/>
 							<ExtendedTooltip name="ЗачтеноСуммаЗачтеноРасширеннаяПодсказка" id="285"/>
 						</InputField>
 						<InputField name="ЗачтеноСуммаРегл" id="395">
 							<DataPath>Зачтено.СуммаРегл</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ЗачтеноСуммаРеглКонтекстноеМеню" id="396"/>
 							<ExtendedTooltip name="ЗачтеноСуммаРеглРасширеннаяПодсказка" id="397"/>
 						</InputField>
 						<InputField name="ЗачтеноСуммаУпр" id="398">
 							<DataPath>Зачтено.СуммаУпр</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ЗачтеноСуммаУпрКонтекстноеМеню" id="399"/>
 							<ExtendedTooltip name="ЗачтеноСуммаУпрРасширеннаяПодсказка" id="400"/>
 						</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -155,7 +155,7 @@
 							<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="12"/>
 							<ChildItems>
 								<Table name="СписокЗаказов" id="19">
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<EnableStartDrag>true</EnableStartDrag>
 									<DataPath>СписокЗаказов</DataPath>
 									<RowPictureDataPath>СписокЗаказов.DefaultPicture</RowPictureDataPath>
@@ -591,6 +591,7 @@
 									<DataPath>Курьеры.Курьер</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="КурьерыКурьерКонтекстноеМеню" id="169"/>
 									<ExtendedTooltip name="КурьерыКурьерРасширеннаяПодсказка" id="170"/>
@@ -599,6 +600,7 @@
 									<DataPath>Курьеры.Назначено</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>4</Width>
 									<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<ContextMenu name="КурьерыНазначеноКонтекстноеМеню" id="172"/>
@@ -608,6 +610,7 @@
 									<DataPath>Курьеры.Доставлено</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>4</Width>
 									<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<ContextMenu name="КурьерыДоставленоКонтекстноеМеню" id="175"/>
@@ -623,6 +626,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>4</Width>
 									<Format>
 										<v8:item>
@@ -689,6 +693,7 @@
 									<DataPath>Сборщики.Сборщик</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<ContextMenu name="СборщикиСборщикКонтекстноеМеню" id="194"/>
 									<ExtendedTooltip name="СборщикиСборщикРасширеннаяПодсказка" id="195"/>
@@ -697,6 +702,7 @@
 									<DataPath>Сборщики.Назначено</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>4</Width>
 									<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<ContextMenu name="СборщикиНазначеноКонтекстноеМеню" id="197"/>
@@ -706,6 +712,7 @@
 									<DataPath>Сборщики.Собрано</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>4</Width>
 									<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<ContextMenu name="СборщикиСобраноКонтекстноеМеню" id="200"/>
@@ -721,6 +728,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>4</Width>
 									<Format>
 										<v8:item>
@@ -809,6 +817,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<ContextMenu name="СоставЗаказаТоварКонтекстноеМеню" id="70"/>
 									<ExtendedTooltip name="СоставЗаказаТоварРасширеннаяПодсказка" id="71"/>
@@ -823,6 +832,7 @@
 									</Title>
 									<HorizontalAlign>Right</HorizontalAlign>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<ContextMenu name="СоставЗаказаКоличествоКонтекстноеМеню" id="73"/>
@@ -838,6 +848,7 @@
 									</Title>
 									<HorizontalAlign>Right</HorizontalAlign>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>5</Width>
 									<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<ContextMenu name="СоставЗаказаСуммаКонтекстноеМеню" id="76"/>

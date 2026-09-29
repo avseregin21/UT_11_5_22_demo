@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -7,9 +7,10 @@
 		</v8:item>
 	</Title>
 	<Width>80</Width>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -686,12 +687,14 @@
 											<DataPath>СоставНабора.Номенклатура</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставНабораНоменклатураКонтекстноеМеню" id="248"/>
 											<ExtendedTooltip name="СоставНабораНоменклатураРасширеннаяПодсказка" id="249"/>
 										</InputField>
 										<InputField name="СоставНабораХарактеристика" id="250">
 											<DataPath>СоставНабора.Характеристика</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставНабораХарактеристикаКонтекстноеМеню" id="251"/>
 											<ExtendedTooltip name="СоставНабораХарактеристикаРасширеннаяПодсказка" id="252"/>
 										</InputField>
@@ -704,6 +707,7 @@
 									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоставНабораАртикулКонтекстноеМеню" id="257"/>
 									<ExtendedTooltip name="СоставНабораАртикулРасширеннаяПодсказка" id="258"/>
 								</InputField>
@@ -711,6 +715,7 @@
 									<DataPath>СоставНабора.Количество</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоставНабораКоличествоКонтекстноеМеню" id="301"/>
 									<ExtendedTooltip name="СоставНабораКоличествоРасширеннаяПодсказка" id="302"/>
 								</InputField>
@@ -718,6 +723,7 @@
 									<DataPath>СоставНабора.Цена</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоставНабораЦенаКонтекстноеМеню" id="260"/>
 									<ExtendedTooltip name="СоставНабораЦенаРасширеннаяПодсказка" id="261"/>
 								</InputField>
@@ -725,6 +731,7 @@
 									<DataPath>СоставНабора.ВНаличии</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоставНабораВНаличииКонтекстноеМеню" id="263"/>
 									<ExtendedTooltip name="СоставНабораВНаличииРасширеннаяПодсказка" id="264"/>
 								</InputField>
@@ -732,6 +739,7 @@
 									<DataPath>СоставНабора.Доступно</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СоставНабораДоступноКонтекстноеМеню" id="266"/>
 									<ExtendedTooltip name="СоставНабораДоступноРасширеннаяПодсказка" id="267"/>
 								</InputField>
@@ -750,6 +758,7 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставНабораУпаковкаКонтекстноеМеню" id="269"/>
 											<ExtendedTooltip name="СоставНабораУпаковкаРасширеннаяПодсказка" id="270"/>
 										</InputField>
@@ -762,6 +771,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставНабораНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="317"/>
 											<ExtendedTooltip name="СоставНабораНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="318"/>
 										</InputField>
@@ -832,6 +842,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровСкладОписаниеКонтекстноеМеню" id="281"/>
 									<ExtendedTooltip name="ОстаткиТоваровСкладОписаниеРасширеннаяПодсказка" id="282"/>
 								</InputField>
@@ -839,12 +850,14 @@
 									<DataPath>ОстаткиТоваров.ПериодОписание</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровПериодОписаниеКонтекстноеМеню" id="287"/>
 									<ExtendedTooltip name="ОстаткиТоваровПериодОписаниеРасширеннаяПодсказка" id="288"/>
 								</InputField>
 								<InputField name="ОстаткиТоваровЗапасОписание" id="340">
 									<DataPath>ОстаткиТоваров.ЗапасОписание</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровЗапасОписаниеКонтекстноеМеню" id="341"/>
 									<ExtendedTooltip name="ОстаткиТоваровЗапасОписаниеРасширеннаяПодсказка" id="342"/>
 								</InputField>
@@ -852,6 +865,7 @@
 									<DataPath>ОстаткиТоваров.ДоступноОписание</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровДоступноОписаниеКонтекстноеМеню" id="290"/>
 									<ExtendedTooltip name="ОстаткиТоваровДоступноОписаниеРасширеннаяПодсказка" id="291"/>
 								</InputField>
@@ -859,6 +873,7 @@
 									<DataPath>ОстаткиТоваров.Склад</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровСкладКонтекстноеМеню" id="272"/>
 									<ExtendedTooltip name="ОстаткиТоваровСкладРасширеннаяПодсказка" id="273"/>
 								</InputField>
@@ -866,6 +881,7 @@
 									<DataPath>ОстаткиТоваров.Запас</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровЗапасКонтекстноеМеню" id="344"/>
 									<ExtendedTooltip name="ОстаткиТоваровЗапасРасширеннаяПодсказка" id="345"/>
 								</InputField>
@@ -873,6 +889,7 @@
 									<DataPath>ОстаткиТоваров.Доступно</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровДоступноКонтекстноеМеню" id="275"/>
 									<ExtendedTooltip name="ОстаткиТоваровДоступноРасширеннаяПодсказка" id="276"/>
 								</InputField>
@@ -880,6 +897,7 @@
 									<DataPath>ОстаткиТоваров.Период</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровПериодКонтекстноеМеню" id="278"/>
 									<ExtendedTooltip name="ОстаткиТоваровПериодРасширеннаяПодсказка" id="279"/>
 								</InputField>
@@ -887,7 +905,7 @@
 									<DataPath>ОстаткиТоваров.СкладДоступенДляВыбора</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиТоваровСкладДоступенДляВыбораКонтекстноеМеню" id="284"/>
 									<ExtendedTooltip name="ОстаткиТоваровСкладДоступенДляВыбораРасширеннаяПодсказка" id="285"/>
 								</CheckBoxField>

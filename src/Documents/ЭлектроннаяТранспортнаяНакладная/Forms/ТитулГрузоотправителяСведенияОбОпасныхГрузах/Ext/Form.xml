@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -147,6 +148,7 @@
 											<DataPath>ТитулГрузоотправителяСведенияОбОпасныхГрузах.СсылкаДОПОГ</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>30</Width>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="СсылкаДОПОГКонтекстноеМеню" id="34"/>
@@ -171,6 +173,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТехническоеНаименованиеКонтекстноеМеню" id="37"/>
 											<ExtendedTooltip name="ТехническоеНаименованиеРасширеннаяПодсказка" id="38"/>
@@ -191,6 +194,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ОписаниеКонтекстноеМеню" id="40"/>
 											<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="41"/>
@@ -211,6 +215,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="НазваниеИлиСимволКаждогоРадионуклидаКонтекстноеМеню" id="43"/>
 											<ExtendedTooltip name="НазваниеИлиСимволКаждогоРадионуклидаРасширеннаяПодсказка" id="44"/>
@@ -231,6 +236,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ОписаниеФизическойИХимическойФормыКонтекстноеМеню" id="46"/>
 											<ExtendedTooltip name="ОписаниеФизическойИХимическойФормыРасширеннаяПодсказка" id="47"/>
@@ -251,6 +257,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="МаксимальнаяАктивностьРадиоактивногоСодержимогоКонтекстноеМеню" id="49"/>
 											<ExtendedTooltip name="МаксимальнаяАктивностьРадиоактивногоСодержимогоРасширеннаяПодсказка" id="50"/>
@@ -271,6 +278,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="КатегорияУпаковкиТранспортногоПакетаИлиКонтейнераКонтекстноеМеню" id="52"/>
 											<ExtendedTooltip name="КатегорияУпаковкиТранспортногоПакетаИлиКонтейнераРасширеннаяПодсказка" id="53"/>
@@ -291,6 +299,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ТранспортныйИндексКонтекстноеМеню" id="55"/>
 											<ExtendedTooltip name="ТранспортныйИндексРасширеннаяПодсказка" id="56"/>
@@ -311,6 +320,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ИндексБезопасностиПоКритичностиДляГрузовСодержащихДелящийсяМатериалКонтекстноеМеню" id="58"/>
 											<ExtendedTooltip name="ИндексБезопасностиПоКритичностиДляГрузовСодержащихДелящийсяМатериалРасширеннаяПодсказка" id="59"/>
@@ -331,6 +341,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ОпознавательныйЗнакДляКаждогоСертификатаКонтекстноеМеню" id="61"/>
 											<ExtendedTooltip name="ОпознавательныйЗнакДляКаждогоСертификатаРасширеннаяПодсказка" id="62"/>
@@ -351,6 +362,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ПолнаяАктивностьГрузаКонтекстноеМеню" id="64"/>
 											<ExtendedTooltip name="ПолнаяАктивностьГрузаРасширеннаяПодсказка" id="65"/>
@@ -371,6 +383,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="МассаВзрывчатогоСодержимогоИмеющегоОтдельныйНомерООНКонтекстноеМеню" id="67"/>
 											<ExtendedTooltip name="МассаВзрывчатогоСодержимогоИмеющегоОтдельныйНомерООНРасширеннаяПодсказка" id="68"/>
@@ -391,6 +404,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="МассаВзрывчатогоСодержимогоДляВсехВеществКонтекстноеМеню" id="70"/>
 											<ExtendedTooltip name="МассаВзрывчатогоСодержимогоДляВсехВеществРасширеннаяПодсказка" id="71"/>
@@ -411,6 +425,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="ПроцентныйСоставСмесиКонтекстноеМеню" id="73"/>
 											<ExtendedTooltip name="ПроцентныйСоставСмесиРасширеннаяПодсказка" id="74"/>
@@ -431,6 +446,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ДатаИстеченияВремениУдержанияКонтекстноеМеню" id="76"/>
 											<ExtendedTooltip name="ДатаИстеченияВремениУдержанияРасширеннаяПодсказка" id="77"/>
@@ -451,6 +467,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="КонтрольнаяТемператураВГрадусахКонтекстноеМеню" id="79"/>
 											<ExtendedTooltip name="КонтрольнаяТемператураВГрадусахРасширеннаяПодсказка" id="80"/>
@@ -471,6 +488,7 @@
 											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInFooter>false</ShowInFooter>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="АварийнаяТемператураВГрадусахКонтекстноеМеню" id="82"/>
 											<ExtendedTooltip name="АварийнаяТемператураВГрадусахРасширеннаяПодсказка" id="83"/>

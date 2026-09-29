@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -98,7 +98,7 @@
 			<Width>86</Width>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаНастройкиБюджетированияРасширеннаяПодсказка" id="81"/>
 			<ChildItems>
@@ -141,7 +141,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьБюджетированиеКонтекстноеМеню" id="89"/>
 									<ExtendedTooltip name="ИспользоватьБюджетированиеРасширеннаяПодсказка" id="90">
 										<Title formatted="false">
@@ -181,7 +180,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьБюджетныйПроцессКонтекстноеМеню" id="142"/>
 									<ExtendedTooltip name="ИспользоватьБюджетныйПроцессРасширеннаяПодсказка" id="143">
 										<Title formatted="false">
@@ -237,7 +235,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОповещенияДляЗадачБюджетированияКонтекстноеМеню" id="99"/>
 									<ExtendedTooltip name="ИспользоватьОповещенияДляЗадачБюджетированияРасширеннаяПодсказка" id="100">
 										<Title formatted="false">
@@ -345,7 +342,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АктуализироватьФактБюджетированияПриПроведенииДокументовКонтекстноеМеню" id="117"/>
 									<ExtendedTooltip name="АктуализироватьФактБюджетированияПриПроведенииДокументовРасширеннаяПодсказка" id="118">
 										<Title formatted="false">
@@ -391,7 +387,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="АктуализироватьФактБюджетированияПриФормированииОтчетовКонтекстноеМеню" id="125"/>
 									<ExtendedTooltip name="АктуализироватьФактБюджетированияПриФормированииОтчетовРасширеннаяПодсказка" id="126">
 										<Title formatted="false">
@@ -438,7 +433,7 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаНастройкиПравилПолученияФактаРасширеннаяПодсказка" id="166"/>
 							<ChildItems>
@@ -496,7 +491,6 @@
 								</RadioButtonField>
 								<CheckBoxField name="НастройкаПравилПолученияФактаПоКорреспондирующимРегистрам" id="176">
 									<Visible>false</Visible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НастройкаПравилПолученияФактаПоКорреспондирующимРегистрамКонтекстноеМеню" id="177"/>
 									<ExtendedTooltip name="НастройкаПравилПолученияФактаПоКорреспондирующимРегистрамРасширеннаяПодсказка" id="178"/>
 								</CheckBoxField>
@@ -588,7 +582,6 @@
 								</RadioButtonField>
 								<CheckBoxField name="КонтрольЛимитовПоДаннымБюджетирования2_5" id="183">
 									<Visible>false</Visible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонтрольЛимитовПоДаннымБюджетирования2_5КонтекстноеМеню" id="184"/>
 									<ExtendedTooltip name="КонтрольЛимитовПоДаннымБюджетирования2_5РасширеннаяПодсказка" id="185"/>
 								</CheckBoxField>
@@ -609,7 +602,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаИспользоватьПланированиеРасширеннаяПодсказка" id="2"/>
 			<ChildItems>
@@ -643,7 +636,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПланированиеПродажКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ИспользоватьПланированиеПродажРасширеннаяПодсказка" id="7">
 								<Width>40</Width>
@@ -676,7 +668,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьПланированиеПродажПоКатегориямКонтекстноеМеню" id="9"/>
 									<ExtendedTooltip name="ИспользоватьПланированиеПродажПоКатегориямРасширеннаяПодсказка" id="10">
 										<Title formatted="false">
@@ -767,7 +758,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьСезонныеКоэффициентыКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ИспользоватьСезонныеКоэффициентыРасширеннаяПодсказка" id="15">
 								<Title formatted="false">
@@ -890,7 +880,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПланированиеСборкиРазборкиКонтекстноеМеню" id="32"/>
 							<ExtendedTooltip name="ИспользоватьПланированиеСборкиРазборкиРасширеннаяПодсказка" id="33"/>
 							<Events>
@@ -962,7 +951,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПланированиеПроизводстваКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="ИспользоватьПланированиеПроизводстваРасширеннаяПодсказка" id="46"/>
 							<Events>
@@ -991,7 +979,6 @@
 								<CheckBoxField name="РаспараллеливатьРасчетПлановПроизводства" id="154">
 									<DataPath>РаспараллеливатьРасчетПлановПроизводства</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РаспараллеливатьРасчетПлановПроизводстваКонтекстноеМеню" id="155"/>
 									<ExtendedTooltip name="РаспараллеливатьРасчетПлановПроизводстваРасширеннаяПодсказка" id="156"/>
 									<Events>
@@ -1092,7 +1079,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПланированиеЗакупокКонтекстноеМеню" id="58"/>
 							<ExtendedTooltip name="ИспользоватьПланированиеЗакупокРасширеннаяПодсказка" id="59"/>
 							<Events>
@@ -1131,7 +1117,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПланированиеОстатковКонтекстноеМеню" id="147"/>
 							<ExtendedTooltip name="ИспользоватьПланированиеОстатковРасширеннаяПодсказка" id="148"/>
 							<Events>
@@ -1170,7 +1155,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПланированиеВнутреннихПотребленийКонтекстноеМеню" id="163"/>
 							<ExtendedTooltip name="ИспользоватьПланированиеВнутреннихПотребленийРасширеннаяПодсказка" id="164">
 								<Width>40</Width>

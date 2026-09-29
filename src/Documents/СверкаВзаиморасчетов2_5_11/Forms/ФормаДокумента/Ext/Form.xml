@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -1288,7 +1288,7 @@
 										<Table name="ИтоговыеЗаписи" id="211">
 											<Representation>List</Representation>
 											<Footer>true</Footer>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>Объект.ИтоговыеЗаписи</DataPath>
 											<RowFilter xsi:nil="true"/>
@@ -1430,6 +1430,7 @@
 												<InputField name="ИтоговыеЗаписиПартнер" id="501">
 													<DataPath>Объект.ИтоговыеЗаписи.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>20</Width>
 													<ContextMenu name="ИтоговыеЗаписиПартнерКонтекстноеМеню" id="502"/>
 													<ExtendedTooltip name="ИтоговыеЗаписиПартнерРасширеннаяПодсказка" id="503"/>
@@ -1447,6 +1448,7 @@
 												<InputField name="ИтоговыеЗаписиДоговор" id="504">
 													<DataPath>Объект.ИтоговыеЗаписи.Договор</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>13</Width>
 													<ContextMenu name="ИтоговыеЗаписиДоговорКонтекстноеМеню" id="505"/>
 													<ExtendedTooltip name="ИтоговыеЗаписиДоговорРасширеннаяПодсказка" id="506"/>
@@ -1473,6 +1475,7 @@
 															<DataPath>Объект.ИтоговыеЗаписи.Организация</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>11</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1491,6 +1494,7 @@
 															<DataPath>Объект.ИтоговыеЗаписи.Контрагент</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>11</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1528,6 +1532,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>8</MaxWidth>
 															<ContextMenu name="ИтоговыеЗаписиНаименованиеДоговораКонтекстноеМеню" id="792"/>
@@ -1544,6 +1549,7 @@
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>8</MaxWidth>
 															<ContextMenu name="ИтоговыеЗаписиНаименованиеДоговораКонтрагентКонтекстноеМеню" id="801"/>
@@ -1565,6 +1571,7 @@
 															<DataPath>Объект.ИтоговыеЗаписи.НомерДоговора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>5</MaxWidth>
@@ -1581,6 +1588,7 @@
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>2</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>5</MaxWidth>
@@ -1603,6 +1611,7 @@
 															<DataPath>Объект.ИтоговыеЗаписи.ДатаДоговора</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>5</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1619,6 +1628,7 @@
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>5</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1662,6 +1672,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalНачальноеСальдоДтКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1686,6 +1697,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalНачальноеСальдоКт</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1697,6 +1709,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalНачальноеСальдоКтКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1739,6 +1752,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalОборотДтКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1781,6 +1795,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalОборотКтКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1829,6 +1844,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalКонечноеСальдоДтКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1854,6 +1870,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalКонечноеСальдоКт</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -1865,6 +1882,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ИтоговыеЗаписи.TotalКонечноеСальдоКтКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>9</MaxWidth>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -2111,12 +2129,14 @@
 												<InputField name="ДетальныеЗаписиОбъектРасчетов" id="717">
 													<DataPath>Объект.ДетальныеЗаписи.ОбъектРасчетов</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДетальныеЗаписиОбъектРасчетовКонтекстноеМеню" id="718"/>
 													<ExtendedTooltip name="ДетальныеЗаписиОбъектРасчетовРасширеннаяПодсказка" id="719"/>
 												</InputField>
 												<InputField name="ДетальныеЗаписиДоговор" id="756">
 													<DataPath>Объект.ДетальныеЗаписи.Договор</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДетальныеЗаписиДоговорКонтекстноеМеню" id="757"/>
 													<ExtendedTooltip name="ДетальныеЗаписиДоговорРасширеннаяПодсказка" id="758"/>
 												</InputField>
@@ -2139,6 +2159,7 @@
 												<InputField name="ДетальныеЗаписиСуммаДокумента" id="841">
 													<DataPath>Объект.ДетальныеЗаписи.СуммаДокумента</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>4</Width>
 													<ContextMenu name="ДетальныеЗаписиСуммаДокументаКонтекстноеМеню" id="842"/>
 													<ExtendedTooltip name="ДетальныеЗаписиСуммаДокументаРасширеннаяПодсказка" id="843"/>
@@ -2152,6 +2173,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>4</Width>
 													<ContextMenu name="ДетальныеЗаписиСуммаДолгКонтекстноеМеню" id="850"/>
 													<ExtendedTooltip name="ДетальныеЗаписиСуммаДолгРасширеннаяПодсказка" id="851"/>
@@ -2165,6 +2187,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>3</Width>
 													<ContextMenu name="ДетальныеЗаписиСуммаАвансКонтекстноеМеню" id="858"/>
 													<ExtendedTooltip name="ДетальныеЗаписиСуммаАвансРасширеннаяПодсказка" id="859"/>
@@ -2184,6 +2207,7 @@
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>14</Width>
 															<ContextMenu name="ДетальныеЗаписиОрганизацияКонтекстноеМеню" id="1125"/>
 															<ExtendedTooltip name="ДетальныеЗаписиОрганизацияРасширеннаяПодсказка" id="1126"/>
@@ -2193,6 +2217,7 @@
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>14</Width>
 															<ContextMenu name="ДетальныеЗаписиКонтрагентКонтекстноеМеню" id="1128"/>
 															<ExtendedTooltip name="ДетальныеЗаписиКонтрагентРасширеннаяПодсказка" id="1129"/>
@@ -2213,6 +2238,7 @@
 															<DataPath>Объект.ДетальныеЗаписи.НаименованиеДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>27</Width>
 															<ContextMenu name="ДетальныеЗаписиНаименованиеДокументаКонтекстноеМеню" id="895"/>
 															<ExtendedTooltip name="ДетальныеЗаписиНаименованиеДокументаРасширеннаяПодсказка" id="896"/>
@@ -2221,6 +2247,7 @@
 															<DataPath>Объект.ДетальныеЗаписи.НаименованиеДокументаКонтрагент</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>27</Width>
 															<ContextMenu name="ДетальныеЗаписиНаименованиеДокументаКонтрагентКонтекстноеМеню" id="898"/>
 															<ExtendedTooltip name="ДетальныеЗаписиНаименованиеДокументаКонтрагентРасширеннаяПодсказка" id="899"/>
@@ -2241,6 +2268,7 @@
 															<DataPath>Объект.ДетальныеЗаписи.НомерДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>11</Width>
 															<ContextMenu name="ДетальныеЗаписиНомерДокументаКонтекстноеМеню" id="883"/>
 															<ExtendedTooltip name="ДетальныеЗаписиНомерДокументаРасширеннаяПодсказка" id="884"/>
@@ -2249,6 +2277,7 @@
 															<DataPath>Объект.ДетальныеЗаписи.НомерДокументаКонтрагент</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>11</Width>
 															<ContextMenu name="ДетальныеЗаписиНомерДокументаКонтрагентКонтекстноеМеню" id="886"/>
 															<ExtendedTooltip name="ДетальныеЗаписиНомерДокументаКонтрагентРасширеннаяПодсказка" id="887"/>
@@ -2269,6 +2298,7 @@
 															<DataPath>Объект.ДетальныеЗаписи.ДатаДокумента</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>7</Width>
 															<ContextMenu name="ДетальныеЗаписиДатаДокументаКонтекстноеМеню" id="889"/>
 															<ExtendedTooltip name="ДетальныеЗаписиДатаДокументаРасширеннаяПодсказка" id="890"/>
@@ -2277,6 +2307,7 @@
 															<DataPath>Объект.ДетальныеЗаписи.ДатаДокументаКонтрагент</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>7</Width>
 															<ContextMenu name="ДетальныеЗаписиДатаДокументаКонтрагентКонтекстноеМеню" id="892"/>
 															<ExtendedTooltip name="ДетальныеЗаписиДатаДокументаКонтрагентРасширеннаяПодсказка" id="893"/>
@@ -2298,6 +2329,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ДетальныеЗаписи.TotalСуммаДебет</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="ДетальныеЗаписиСуммаДебетКонтекстноеМеню" id="1033"/>
 															<ExtendedTooltip name="ДетальныеЗаписиСуммаДебетРасширеннаяПодсказка" id="1034"/>
@@ -2307,6 +2339,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ДетальныеЗаписи.TotalСуммаДебетКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="ДетальныеЗаписиСуммаДебетКонтрагентКонтекстноеМеню" id="1036"/>
 															<ExtendedTooltip name="ДетальныеЗаписиСуммаДебетКонтрагентРасширеннаяПодсказка" id="1037"/>
@@ -2328,6 +2361,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ДетальныеЗаписи.TotalСуммаКредит</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="ДетальныеЗаписиСуммаКредитКонтекстноеМеню" id="1041"/>
 															<ExtendedTooltip name="ДетальныеЗаписиСуммаКредитРасширеннаяПодсказка" id="1042"/>
@@ -2337,6 +2371,7 @@
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<FooterDataPath>Объект.ДетальныеЗаписи.TotalСуммаКредитКонтрагент</FooterDataPath>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>9</Width>
 															<ContextMenu name="ДетальныеЗаписиСуммаКредитКонтрагентКонтекстноеМеню" id="1044"/>
 															<ExtendedTooltip name="ДетальныеЗаписиСуммаКредитКонтрагентРасширеннаяПодсказка" id="1045"/>
@@ -2346,6 +2381,7 @@
 												<InputField name="ДетальныеЗаписиСвязанныеДокументы" id="1144">
 													<DataPath>Объект.ДетальныеЗаписи.СвязанныеДокументы</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДетальныеЗаписиСвязанныеДокументыКонтекстноеМеню" id="1145"/>
 													<ExtendedTooltip name="ДетальныеЗаписиСвязанныеДокументыРасширеннаяПодсказка" id="1146"/>
 												</InputField>

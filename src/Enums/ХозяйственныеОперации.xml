@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Enum uuid="351b0c5b-74c3-4aaa-a93b-7246b941f797">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ХозяйственныеОперации" category="Ref">
@@ -104,6 +104,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e17a2118-5315-42ad-bfb7-1c01edf4b364">
@@ -116,6 +117,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f23a82e6-6a1f-4f8b-8c71-fb96cdbb1c79">
@@ -128,6 +130,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="705280b7-6490-44c0-a1ca-aa733e68471b">
@@ -140,6 +143,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e384ae1c-2a54-4267-9a8c-14d48c04e6ed">
@@ -152,6 +156,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0c3bb7a9-0249-4a78-96bf-27a02aa0ddc9">
@@ -164,6 +169,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ab343921-4c29-4057-b4a8-e3fb0e107ca4">
@@ -176,6 +182,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4bb231c8-7533-46c4-8a32-df144bbd9eb6">
@@ -188,6 +195,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d13cf9cb-bd21-45b4-af2e-9064b58de85f">
@@ -200,6 +208,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="efa0bfcb-b79e-49cc-9d2b-5246e9fbcc52">
@@ -212,6 +221,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="decdd101-75d4-47e6-a3a9-ade196aa714d">
@@ -224,6 +234,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e2d9bb98-2519-43ca-8a8c-8f924683e697">
@@ -236,6 +247,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="89707fc1-e7d2-40dd-9795-7848ff50b367">
@@ -248,6 +260,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2f913b3e-7b01-470f-b202-0f54c0a096fb">
@@ -260,6 +273,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9da2643f-d829-43a1-9a9c-28745bc597ab">
@@ -272,6 +286,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0130b13b-0d28-470d-ae6f-1771668538ed">
@@ -284,6 +299,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="210df175-400f-44a1-9dbb-43329a2a6bf4">
@@ -296,6 +312,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="61a17f82-b7ad-4c1e-b255-8ce961428a1f">
@@ -308,6 +325,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f1be3205-01d7-4ca5-91cf-1b8fbfb59997">
@@ -320,6 +338,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f3ae1876-c2f6-447d-99fe-a5d3e9f30d8d">
@@ -332,6 +351,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="af3a0ef3-cec8-4e6d-9f7d-fdbf9d7efcc2">
@@ -344,6 +364,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2988e2e0-cf54-4b9a-8d6d-90f1907c28e9">
@@ -356,6 +377,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="44b45c81-89cb-465d-a3cf-739badbe66c6">
@@ -368,6 +390,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="85c189df-94fe-4b18-9cc7-ab168485185a">
@@ -380,6 +403,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c0cc8336-f164-4400-8129-d454cdd6ee1b">
@@ -392,6 +416,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="17f0909c-1dc0-4b04-bd0c-131277d63d55">
@@ -404,6 +429,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a9967772-7da2-4877-a43a-66fd9b3189c2">
@@ -416,6 +442,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1a99b071-046b-4ea7-813b-ef1dd51f5649">
@@ -428,6 +455,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3e7f9e75-e85b-4c6f-9e00-754262a667d0">
@@ -440,6 +468,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="52a7960f-5673-470f-b303-f5620948aab2">
@@ -452,6 +481,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4b66ca05-f127-4f6d-9e81-0694c6c1c129">
@@ -464,6 +494,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7750d9cd-c3ad-413a-b503-26583c43b3df">
@@ -476,6 +507,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8edb4ab1-9e0a-4cd2-b5e2-de8439c8e8e1">
@@ -488,6 +520,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8755ac13-c7af-4e4e-8b74-fe6730f04a39">
@@ -500,6 +533,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="808fea0f-7022-4131-960a-e9ff4f6c5820">
@@ -512,6 +546,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d96acf72-6b54-41c9-a35a-ee0e7730a58c">
@@ -524,6 +559,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="547d7812-d0ea-426a-9d09-e519889c7907">
@@ -536,6 +572,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="aebc9473-f2e2-432a-a8f6-d95b8bd3b454">
@@ -548,6 +585,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="85546178-5b72-4a55-8c59-6ca2eddc9d69">
@@ -560,6 +598,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b8ca0268-a651-485b-b1f0-c966468e24de">
@@ -572,6 +611,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2d2df533-6d5c-4f2c-babf-43a1d6b9e854">
@@ -584,6 +624,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="095d2d00-db2f-4bc4-849d-b419f5b7c1ce">
@@ -596,6 +637,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="045025d6-a5b0-48e1-8ada-5840d1af8f1b">
@@ -608,6 +650,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ввод остатков обесценения нематериальных активов по IAS 36</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="47733894-27f9-473e-b9fd-2abee25c83f6">
@@ -620,6 +663,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Ввод остатков обесценения основных средств по IAS 36</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1e40c0ef-c31e-48ac-bf10-75c86d47d114">
@@ -632,6 +676,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2c113df3-3360-42bc-b1e4-d13ed74fb1aa">
@@ -644,6 +689,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3e54375f-96b1-486d-bcf5-895f18c91a0c">
@@ -656,6 +702,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f6fe3c98-bcbf-4fc1-807d-6541ab8ffda1">
@@ -668,6 +715,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="19e9e79f-42a4-4468-ae72-59e6833a1454">
@@ -680,6 +728,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0ec56f68-59ff-4e25-9a3a-52563d627d11">
@@ -692,6 +741,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="596b9d95-15df-4247-b795-a59e8c8692e4">
@@ -704,6 +754,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="26981e43-e930-4aef-97a7-52c79ba030b5">
@@ -716,6 +767,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="927ea263-ae95-4879-9346-1a47ea2ffa8a">
@@ -728,6 +780,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ec50790e-786b-4d36-8a81-fbb7c670495f">
@@ -740,6 +793,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0540e677-d78e-4c7d-8955-31078de266af">
@@ -752,6 +806,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3caefbda-ad76-4b6a-90a6-f478630ed01f">
@@ -764,6 +819,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b3515f5d-4a03-4f8d-a3e1-803efdea14a3">
@@ -776,6 +832,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4f3c48d4-c0b4-42b7-9ab3-fcdc3f4d676d">
@@ -788,6 +845,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5fa389e6-9a43-4553-aa3a-fa358815136e">
@@ -800,6 +858,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c69e735b-3d47-4c93-92f0-915832449009">
@@ -812,6 +871,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6a6777ea-85cd-4f1c-a9b8-370e8121454b">
@@ -824,6 +884,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d6e25675-260f-4d19-a601-05c679b7770a">
@@ -836,6 +897,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3da81887-d1e1-48a9-993e-1a89aef77aa5">
@@ -848,6 +910,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="03a32901-2610-422f-9525-c29f974696fe">
@@ -860,6 +923,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4eb31a94-fe79-45e0-8b07-97a10cc45df7">
@@ -872,6 +936,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="90b49523-82be-45d2-b5f7-18f889ddc658">
@@ -884,6 +949,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a001686c-9047-48ca-80f3-8cf56e9bbb4f">
@@ -896,6 +962,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2155e4f9-bb14-4000-89c9-981de8d9cda4">
@@ -908,6 +975,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="014ed226-4bc7-4457-a35b-1ec75ba4e973">
@@ -920,6 +988,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2caecfee-04f9-4e99-ba55-0c725437870c">
@@ -932,6 +1001,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="30042a15-7b32-4706-ae03-b4f933ea7148">
@@ -944,6 +1014,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6d2b63f4-6744-4e8d-9920-2e0340f1bdfd">
@@ -956,6 +1027,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="26f7ed56-e5e4-4c71-a8a4-5c47b91bcf78">
@@ -968,6 +1040,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0af2ccc4-1280-4c44-89ba-3e2335707d61">
@@ -980,6 +1053,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f907e214-cfef-44b2-86ea-5395aab46fd9">
@@ -992,6 +1066,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6c629ad9-c348-4ab4-9832-cfba8c9e0e53">
@@ -1004,6 +1079,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9e1757d5-11e6-4f0a-a0fe-a6c231d2b92e">
@@ -1016,6 +1092,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="373432d8-2517-468e-bb07-8a1840dbd7da">
@@ -1028,6 +1105,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7706ced7-605a-4546-9792-dcbfb1702979">
@@ -1040,6 +1118,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9c1764ed-08fc-4652-961a-e5b4fd83f1a8">
@@ -1052,6 +1131,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="feabe786-437a-432d-8f97-c6978a744e7d">
@@ -1064,6 +1144,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4d7e2000-253b-4dc1-b87e-315f05dee19c">
@@ -1076,6 +1157,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="df54502b-efb1-4b0a-afad-67f9702a6f22">
@@ -1088,6 +1170,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="27349db6-a186-48f3-8ba3-f5bd31168e7c">
@@ -1100,6 +1183,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a4ffe597-0a01-42e9-8e46-c4f136ddfb54">
@@ -1112,6 +1196,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3df34801-6074-41d2-b7a1-96a0da3d9adc">
@@ -1124,6 +1209,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5197d1f3-984b-4d51-88bc-d44f92734a3c">
@@ -1136,6 +1222,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3e8f72af-cfb3-4a9c-a72b-8055f1ed21ff">
@@ -1148,6 +1235,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f398b10a-89bb-4bf3-992e-a53f9373cade">
@@ -1160,6 +1248,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="22f5711a-6c1c-4fb9-915c-c171102590f4">
@@ -1172,6 +1261,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2b1011fa-6921-4eb6-b11e-feeabbc073f0">
@@ -1184,6 +1274,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f53edd3b-530c-4502-bb91-d6b5170fa072">
@@ -1196,6 +1287,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7c6109e6-066a-4848-aa46-f87f829f6042">
@@ -1208,6 +1300,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f0acbf6d-6bb6-478a-8d77-6dd2282d895e">
@@ -1220,6 +1313,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9ffb98e8-e7ad-4cd6-97bf-bf7c1c85c982">
@@ -1232,6 +1326,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="868e3e76-b972-4794-8081-997500166504">
@@ -1244,6 +1339,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1dcc4b50-7f86-4365-bd11-9c311fe4b0de">
@@ -1256,6 +1352,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b6e47211-1348-44e7-b309-2fa8976b4e28">
@@ -1268,6 +1365,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4f9185a9-3d32-481c-a6e1-56e84fd87f06">
@@ -1280,6 +1378,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a07305c5-0d5c-4195-8220-2eb29fa05ef5">
@@ -1292,6 +1391,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e2acc78-e317-4b92-9952-20243fe33ce5">
@@ -1304,6 +1404,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b1eb3a60-85d2-4231-805e-4240387dc280">
@@ -1316,6 +1417,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="731b4736-7157-4894-a226-07bb122223a8">
@@ -1328,6 +1430,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="88a35d53-1a53-43ff-a220-f6540c6d4cdb">
@@ -1340,6 +1443,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="37f7d75a-f938-4a2e-85bb-46e4a0bc22b8">
@@ -1352,6 +1456,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="657d5ed3-0a58-4d80-be0c-10f08db9b945">
@@ -1364,6 +1469,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="099534c7-7b86-43ce-9bad-7c2ae21eb724">
@@ -1376,6 +1482,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="51ad2381-0d1f-4a17-823e-32dfa2be2232">
@@ -1388,6 +1495,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Для наличных и безналичных расчетов</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="865f1a25-35d6-4509-98be-1c0be0897324">
@@ -1400,6 +1508,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8adc8fdb-3180-4f55-b140-3b1c2a8a3a42">
@@ -1412,6 +1521,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d23d95eb-aa25-4f32-9010-be00be4d7215">
@@ -1424,6 +1534,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6bce5d35-b51a-4b89-8539-2ac2eb87fa3d">
@@ -1436,6 +1547,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ef509232-1da3-4851-905d-57255026f072">
@@ -1448,6 +1560,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="faadc256-2da7-4b59-828b-ec2ebd26627d">
@@ -1460,6 +1573,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="512346b6-b2a1-411c-89ab-899f3bc94e02">
@@ -1472,6 +1586,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2427a130-eca7-4b89-a93d-a88b328e24ff">
@@ -1484,6 +1599,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ecf16ef2-5f9c-4d5c-8cfb-e43a194136be">
@@ -1496,6 +1612,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1818e828-c90c-4c57-aac0-0dbde13a4579">
@@ -1508,6 +1625,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="015aae23-805e-4b1b-93d9-5fdcfb68af56">
@@ -1520,6 +1638,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="31929dfa-7279-421f-b4b9-582f5be1cdf7">
@@ -1532,6 +1651,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="656e6b4e-13d8-48be-8733-4b07cd1c1011">
@@ -1544,6 +1664,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6f9b09e4-c0ec-4308-ae61-9ec01977f1a4">
@@ -1556,6 +1677,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="724dc975-c8d5-4eea-b4af-52c1b39555e5">
@@ -1568,6 +1690,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="84ca4417-99d6-43b1-b5c8-2129589c1d6d">
@@ -1580,6 +1703,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8207145f-8e05-4da9-98fb-67797d58bc78">
@@ -1592,6 +1716,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="aee89418-2c06-47ad-bf28-064f762e59aa">
@@ -1604,6 +1729,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="39dba789-dc65-4741-9d15-a275460a9fc2">
@@ -1616,6 +1742,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="863611ce-77e7-4290-8d3d-b27ddb7ba9fa">
@@ -1628,6 +1755,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7bda1628-50c8-40e2-93e2-081a8e531c36">
@@ -1640,6 +1768,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="aef682e8-c0ae-4678-95d6-f0822db1654b">
@@ -1652,6 +1781,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="758b500d-bfac-442d-89c5-63d856f65d39">
@@ -1664,6 +1794,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b9173f63-0738-4171-948a-e90e1e33ba23">
@@ -1676,6 +1807,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="18e47f7d-0c54-407c-bb9e-8860bac3ebc5">
@@ -1688,6 +1820,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1474589c-3188-43eb-9fcf-9fadfbe18dfb">
@@ -1700,6 +1833,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3fd74532-b799-42fd-a959-7dc6d30ff8b4">
@@ -1712,6 +1846,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5407710e-c387-4626-8b05-5211234aa07e">
@@ -1724,6 +1859,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="dcf1d7ee-6457-4798-b7be-1fc6c5e5d6db">
@@ -1736,6 +1872,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="86226876-65c7-4914-82f8-c5cfbea3ed56">
@@ -1748,6 +1885,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="709e2bba-92d9-4d97-a618-43a5c9c245c6">
@@ -1760,6 +1898,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="34640f68-5c62-4ba4-9701-91967a54a881">
@@ -1772,6 +1911,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5867306d-c3f3-425c-8712-26a7ca164da5">
@@ -1784,6 +1924,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3e222dc8-6b90-4e09-b416-251ebbf84ff0">
@@ -1796,6 +1937,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f12d7c68-5a19-48d8-b571-3e3f77d0ed4a">
@@ -1808,6 +1950,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ffad19d3-c70c-49e4-a56c-5f661e217524">
@@ -1820,6 +1963,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8aec8156-ab84-4665-a827-9e4dfbaf2829">
@@ -1832,6 +1976,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="37143fcd-2ff9-4adf-9005-06852fe93588">
@@ -1844,6 +1989,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0e0c505d-bc91-4b1b-9dda-850eb97ad7d1">
@@ -1856,6 +2002,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1d87e1d2-76a5-41b2-a5cf-0a8edef95c07">
@@ -1868,6 +2015,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="61c5f9fd-78e3-4a46-8537-ac3eec1f20b9">
@@ -1880,6 +2028,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c9aa86ba-f66f-417b-bcc3-eed07d2bc0f4">
@@ -1892,6 +2041,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Восстановление обесценения нематериальных активов по IAS 36</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4586bdf7-fa51-4cf2-97ee-6b6030fac4c3">
@@ -1904,6 +2054,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Восстановление обесценения основных средств по IAS 36</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="46891ec8-733e-4abb-a046-0c4c92095d5f">
@@ -1916,6 +2067,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="54f40a51-6c66-4242-8483-906665c8a4a2">
@@ -1928,6 +2080,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="916a7331-ec2b-406e-85e4-066d0237de1c">
@@ -1940,6 +2093,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5fbed113-41e7-405c-bfe8-79fdac1d0fcb">
@@ -1952,6 +2106,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e90bb10d-1be5-417d-a6fa-cf7cd140273d">
@@ -1964,6 +2119,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e34a38cd-5d0d-4dfb-8a08-05aa5de980c1">
@@ -1976,6 +2132,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="985815df-2972-4e98-91c9-7ab8d38f1817">
@@ -1988,6 +2145,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d1f061a2-4b02-4bde-afba-b53034b35ae1">
@@ -2000,6 +2158,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ce981ba1-51f7-44d0-99db-29d24af3a802">
@@ -2012,6 +2171,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c7a92b86-d4b7-444e-b574-99f2caed6111">
@@ -2024,6 +2184,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="95818758-8542-4405-8773-6b644d757e22">
@@ -2036,6 +2197,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6915db6f-cc8d-4766-aca9-84cf48edcd58">
@@ -2048,6 +2210,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b5771beb-5568-450d-963a-bfe9090b7f8c">
@@ -2060,6 +2223,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="65bb92c2-546b-45fe-b7c8-34c4249c2973">
@@ -2072,6 +2236,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="98493572-3140-407b-8733-e4403a67935c">
@@ -2084,6 +2249,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="713b6dfd-6b31-4941-aeea-cb37e35f3147">
@@ -2096,6 +2262,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="77948e2b-8284-43a8-a476-769bc588901e">
@@ -2108,6 +2275,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bb7a6a12-4feb-4751-a423-d8858de7e1c2">
@@ -2120,6 +2288,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f49558af-f228-492c-b76a-0b88ba212b93">
@@ -2132,6 +2301,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8bfa2e14-6a31-47a9-ba77-d979bcac09f8">
@@ -2144,6 +2314,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="89a942b2-4691-4998-9cff-c93a590834b8">
@@ -2156,6 +2327,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5b5e2657-7930-4dff-bbcf-6da570293758">
@@ -2168,6 +2340,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ecf2728f-498f-4f4e-9e88-76a58004956c">
@@ -2180,6 +2353,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cb7ef146-8ac6-405f-a407-f09158823f2e">
@@ -2192,6 +2366,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="215ba53e-017d-4ea7-9ba8-662c494ea67e">
@@ -2204,6 +2379,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="84373f84-6641-4413-b682-9b39e44c1d9b">
@@ -2216,6 +2392,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d0e70b4c-e687-4b56-a586-c641aa8d81ae">
@@ -2228,6 +2405,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6d079ef6-b405-487d-9ff8-d6cbe795713f">
@@ -2240,6 +2418,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b4199927-65e9-4e54-90f9-456e4c68a93f">
@@ -2252,6 +2431,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="883d636d-f604-43b6-9d3c-4aa11be20085">
@@ -2264,6 +2444,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="987c15be-84c5-4923-a839-5533e7ab4c5c">
@@ -2276,6 +2457,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="240b34c3-b18a-47c5-9f2f-bd241e23e42a">
@@ -2288,6 +2470,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="814a679d-76bc-4589-a5f0-cbc0dc4ca158">
@@ -2300,6 +2483,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="deb87403-fefd-45e2-9e29-ac736248785c">
@@ -2312,6 +2496,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2bcf213c-52c2-4bd5-9e18-449af9d230c1">
@@ -2324,6 +2509,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e9771ada-9c1d-4fa5-935e-8fe635d7a9a6">
@@ -2336,6 +2522,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8f486f09-c06b-4d0c-a6e2-511de67a1e50">
@@ -2348,6 +2535,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f6206418-ce26-4a21-9218-999acf2456fc">
@@ -2360,6 +2548,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fa0065fb-c9a8-452c-a316-ee022968e7c5">
@@ -2372,6 +2561,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4f5b7df0-ac0c-497a-a665-bb3b62aca0b0">
@@ -2384,6 +2574,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="28846a30-9752-4163-bda1-b4f3e56765fe">
@@ -2396,6 +2587,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c86b5074-fad0-41b8-9c63-d9e84104be4a">
@@ -2408,6 +2600,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="051ed228-1c15-47f5-a18c-6057ff1bc67f">
@@ -2420,6 +2613,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1f70e912-5616-4443-831f-692d69e016f7">
@@ -2432,6 +2626,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ccf8896b-7903-43fb-b7ef-efe672c1fa93">
@@ -2444,6 +2639,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="47f1c3de-9364-40f2-8f03-7465c160518c">
@@ -2456,6 +2652,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f84e2c9b-262f-442c-a6b7-c3133bd83d5e">
@@ -2468,6 +2665,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c914ca6c-5ef8-4f40-8997-b5c6aec07c40">
@@ -2480,6 +2678,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c88e1d0e-db4a-4738-b810-3795a2e85316">
@@ -2492,6 +2691,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ed51b70c-efff-440c-9e29-fe6815b45862">
@@ -2504,6 +2704,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ddcb1e1e-b82f-4c0c-bb8b-0731c93c6570">
@@ -2516,6 +2717,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="564c3d9b-1d08-4094-a3a5-dc95d4b6db3d">
@@ -2528,6 +2730,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7b5c9d6f-1598-411c-a78d-d9e761951d9c">
@@ -2540,6 +2743,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Для движений по регистру "Себестоимость товаров"</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9062bcec-0f28-43ba-9446-fcd2f34fbf8f">
@@ -2552,6 +2756,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Для движений по регистру "Себестоимость товаров"</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="203553b7-44f7-4261-9cc0-6bad4f7b0eea">
@@ -2564,6 +2769,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9de12bca-f157-4e50-a819-479d8173258d">
@@ -2576,6 +2782,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="20010ee0-da3e-4d9a-b8c2-f17ebac48d59">
@@ -2588,6 +2795,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ef701abe-73b6-42bd-a583-11234d333452">
@@ -2600,6 +2808,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="db07c948-7157-4970-be3b-7820904c5b6f">
@@ -2612,6 +2821,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a76fdb3b-91dc-43cd-84ef-d5cec9d169fa">
@@ -2624,6 +2834,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="685fa7a8-9c8e-419d-8f34-92f70af746d0">
@@ -2636,6 +2847,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fa119fff-3cef-46c4-97da-7f5da5a66736">
@@ -2648,6 +2860,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="27d15f25-1938-4fa3-8239-8fa999ccc6ca">
@@ -2660,6 +2873,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e04953b-3a94-4894-a88c-537227ca40cf">
@@ -2672,6 +2886,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4dce8bb8-4087-4a0b-922a-ffca6ea52273">
@@ -2684,6 +2899,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="26caefe6-3e76-4d73-9387-208213b91b67">
@@ -2696,6 +2912,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="872a467e-404f-407b-a118-2e84c569f9d2">
@@ -2708,6 +2925,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0fae2637-d89b-46b1-988a-5b05f6d8e24f">
@@ -2720,6 +2938,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c89cfc05-3d8b-4809-9775-d96b96c1befb">
@@ -2732,6 +2951,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c5718917-70eb-45ed-8147-7ede09e4567e">
@@ -2744,6 +2964,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="955ac7a2-906a-4d2b-9be1-a41ee11cec54">
@@ -2756,6 +2977,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cf9080e5-5441-49f6-a10e-4099f02fc5cd">
@@ -2768,6 +2990,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="be85d9cc-2632-45bb-a18a-01558fe3b7eb">
@@ -2780,6 +3003,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b8abc27e-582c-40df-9d7d-bb95cc14a781">
@@ -2792,6 +3016,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6982524e-4873-4f26-b5f2-355851663d52">
@@ -2804,6 +3029,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="78471237-507c-44d6-90c4-a109b35de36d">
@@ -2816,6 +3042,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b75b4a7c-04a4-42bc-806a-5263ddcebf39">
@@ -2828,6 +3055,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a52a5aca-aa86-429b-b461-dbd79e1dbe24">
@@ -2840,6 +3068,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7512207c-c53f-4c94-9c6d-70057ef0ebe0">
@@ -2852,6 +3081,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c8cae29b-ba90-4b79-9584-2f9e9971dd25">
@@ -2864,6 +3094,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0eec1c7a-4e84-488a-a0de-5ddf74b27a9c">
@@ -2876,6 +3107,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1bb79011-c289-448f-889f-5ac6333aee40">
@@ -2888,6 +3120,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="09a0e75a-6511-441b-a87b-e73420e3cc45">
@@ -2900,6 +3133,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d7b7e76e-b277-4933-82cb-ac80176eae3a">
@@ -2912,6 +3146,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6093c8f4-2828-43c3-b233-e74c781aacf6">
@@ -2924,6 +3159,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="94bf0c17-d08b-43c1-b13d-5eee21917e44">
@@ -2936,6 +3172,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="96926e0e-2581-4525-ab18-42f3e0508223">
@@ -2948,6 +3185,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="91071b17-acdd-4a7f-98cf-c848f6b765d2">
@@ -2960,6 +3198,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Зачет комиссионного вознаграждения оплатой долга комиссионера</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c266994c-a806-4254-bf15-9b0bc232683d">
@@ -2972,6 +3211,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Зачет комиссионного вознаграждения оплатой долга поставщику</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ae81722c-0745-4c8c-ac3b-75a337fcc408">
@@ -2984,6 +3224,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="428b886d-6ea6-47ac-a176-687faefc9d1b">
@@ -2996,6 +3237,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="598f5f45-222e-4540-9b8c-e7675e2ef8cc">
@@ -3008,6 +3250,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e7bfd69b-c463-49ff-a646-054c5626f6db">
@@ -3020,6 +3263,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4b78ff6a-41fd-4a8d-a98e-53dea3a2c3c3">
@@ -3032,6 +3276,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5f7eb6d1-363b-47d6-ba78-e03579933828">
@@ -3044,6 +3289,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="638a5a76-53ff-4c98-b9f5-7bdd36b170bd">
@@ -3056,6 +3302,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="695b08ea-3c7d-4275-b7a4-12e5fd8fdf8e">
@@ -3068,6 +3315,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="41176d44-eae3-4c17-bce8-8f3ecd793bed">
@@ -3080,6 +3328,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="55b26e27-c38a-4599-8a26-f283470970fe">
@@ -3092,6 +3341,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="dfe87e9f-a027-4d27-baf9-d6e910d74e82">
@@ -3104,6 +3354,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="100415ba-3184-4e76-b702-4597c996cf58">
@@ -3116,6 +3367,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cde05d07-2224-4996-8ae4-8900766f303c">
@@ -3128,6 +3380,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="733f6f7b-41d3-4dab-b377-7a75c0b96762">
@@ -3140,6 +3393,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="152b8bed-134d-4870-9062-5240085c3e8f">
@@ -3152,6 +3406,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="370920d3-5b6f-4d45-8024-ad2c5855ead4">
@@ -3164,6 +3419,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6c6136a7-d658-49e8-8efe-68e0aa48ffbd">
@@ -3176,6 +3432,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="83663419-872f-41bc-be9b-b9463c2bade6">
@@ -3188,6 +3445,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4d304724-1136-4280-a312-bff6e26ea389">
@@ -3200,6 +3458,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="12bca8a3-64c1-4a2e-985b-87d9caf60995">
@@ -3212,6 +3471,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fa6b8425-ffb8-4992-9872-26e0bdb7b989">
@@ -3224,6 +3484,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e4ede6e6-03f0-489e-b8df-17d994eaede8">
@@ -3236,6 +3497,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1afc9b96-7a18-4d75-8912-9830fbaacbac">
@@ -3248,6 +3510,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f89a1dbf-8882-4ccf-9046-a828375b3808">
@@ -3260,6 +3523,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2d80c4af-cbb8-4dcb-8d22-06b132b2b804">
@@ -3272,6 +3536,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ddac3357-fb93-4113-abce-8fc58d52269e">
@@ -3284,6 +3549,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="07697ae9-e4ec-4a56-86cb-b4759db5730e">
@@ -3296,6 +3562,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3146beff-5328-4505-b465-b466bdbf60ac">
@@ -3308,6 +3575,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ee73b1bb-5238-4bef-9836-907aa3ff298e">
@@ -3320,6 +3588,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a9b50314-e70e-4385-8756-41c0ce4ffd13">
@@ -3332,6 +3601,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="927672df-54c8-44a0-b037-5c1d0f117548">
@@ -3344,6 +3614,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f941b971-7111-4d25-9220-a2df763a6795">
@@ -3356,6 +3627,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="620e39de-aab0-42a4-8219-eb58111ca660">
@@ -3368,6 +3640,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="01d6b015-5e94-4379-b570-978600c8713f">
@@ -3380,6 +3653,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0057540f-476c-4eb6-8c3d-d544a90f2a91">
@@ -3392,6 +3666,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5378e85b-b5ef-4819-816d-7cff3ed3291f">
@@ -3404,6 +3679,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="dadac293-8e2e-4daa-ba9a-ab167dca3f46">
@@ -3416,6 +3692,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5e6e1996-6318-4628-978f-d01a157d9a55">
@@ -3428,6 +3705,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d1308d15-47bd-43fc-b617-d50bd38aa876">
@@ -3440,6 +3718,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="86ab0ad9-2072-4b2f-9b2c-5670c303f250">
@@ -3452,6 +3731,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="96a840bc-fd01-4cbc-845a-151a9f2eaff5">
@@ -3464,6 +3744,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="753428a5-46b7-4b59-abfc-bfd2383a01ca">
@@ -3476,6 +3757,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="da785c97-98fb-4ee6-8990-f175fe8496ef">
@@ -3488,6 +3770,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="12d1eb23-3568-4bc2-a8de-47a6d49bfa3a">
@@ -3500,6 +3783,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d2f437d5-b870-468f-b6b2-80aa07bcb7c1">
@@ -3512,6 +3796,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="de71f9d8-39a8-45cf-ad3f-0e7a17f4d22f">
@@ -3524,6 +3809,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="109fa0e4-f9de-4733-bd55-bb592cf3db8f">
@@ -3536,6 +3822,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="009a4c40-51f5-45e3-8fa7-cddc1609cffe">
@@ -3548,6 +3835,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ef6e7458-4b08-4a30-ab41-11558c864490">
@@ -3560,6 +3848,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ff43857e-1164-461d-9387-f98153b4d30e">
@@ -3572,6 +3861,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="793a366f-5743-4b21-b2dc-ff71d7570722">
@@ -3584,6 +3874,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5146fe84-964e-40a1-b681-4b2001451496">
@@ -3596,6 +3887,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ff72ce10-d09f-4872-8e5c-60b9f4ed7c07">
@@ -3608,6 +3900,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="15c46c2c-15a1-40a5-a28f-782fb1b1f833">
@@ -3620,6 +3913,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cdd1df02-1790-440b-a882-bcd0579eaebd">
@@ -3632,6 +3926,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5f684dcd-e416-4eed-a1c0-933d8d7e3fc0">
@@ -3644,6 +3939,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3dc2c520-bfa1-41b2-9bfd-e7f1c2efca55">
@@ -3656,6 +3952,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="97ecda8f-f5ea-46f4-a56d-6ebe542edcfb">
@@ -3668,6 +3965,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ea1805c7-8a38-409a-9c4d-583e9cb111c4">
@@ -3680,6 +3978,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fe1b979c-08cf-4ee8-97ed-c71aa2e54960">
@@ -3692,6 +3991,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d180afbd-ff2c-461c-ae68-ad22a0fb0f8c">
@@ -3704,6 +4004,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ece27a8e-a1f6-4943-80e0-0a11cb1500cf">
@@ -3716,6 +4017,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="25dbb632-d2cc-4849-b580-b5b34dd542ad">
@@ -3728,6 +4030,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="63acc8d0-3206-497a-b7cc-098d50049f93">
@@ -3740,6 +4043,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f638aeb2-498b-4811-baaa-8e5c58452857">
@@ -3752,6 +4056,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="672b97a1-f5bc-4599-bcec-dc0cadb0302a">
@@ -3764,6 +4069,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="32e79541-da51-429d-9900-397c1d7ddd15">
@@ -3776,6 +4082,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0aed0150-5265-4d05-8f27-47dc59557996">
@@ -3788,6 +4095,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4b4617e0-0dda-4a1f-82b4-4615031de998">
@@ -3800,6 +4108,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b4c4f184-22e0-4601-ace4-8c38ccf6bb87">
@@ -3812,6 +4121,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a2dd77c9-9310-4329-8b8f-ba8cc48bdcbe">
@@ -3824,6 +4134,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3c06635b-93e4-4a26-bca2-a6f8d7299e56">
@@ -3836,6 +4147,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="25278b5c-ee1e-400d-bef0-ba4fc7c5ecad">
@@ -3848,6 +4160,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e3edf98a-63c0-4c34-935b-a182bfe721b6">
@@ -3860,6 +4173,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b75e1316-a550-4359-8f49-17447560ec1c">
@@ -3872,6 +4186,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ad2a83c7-9593-4a75-9182-63be2d826934">
@@ -3884,6 +4199,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="51d07d3e-4168-4409-8d45-3ff3fdf7d47f">
@@ -3896,6 +4212,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7b9064ef-836f-4d1b-8978-9c387eeee23a">
@@ -3908,6 +4225,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="178a63f0-c99a-40e9-bd9d-7b24fa8561d9">
@@ -3920,6 +4238,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="902570ef-ccd2-498c-b5cc-eca4b0e67199">
@@ -3932,6 +4251,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9835aabe-6cda-4268-8c6b-0b7b4c0eafcb">
@@ -3944,6 +4264,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d609bdf7-ca0a-44bd-a7c6-21c86df83f21">
@@ -3956,6 +4277,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="934af66a-1bed-4110-881c-feb0ef6cb570">
@@ -3968,6 +4290,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8590a00f-eea6-4d0a-81a7-02a1b6ad03ac">
@@ -3980,6 +4303,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ff90c2e4-cdfc-4682-b66a-6d1901bb100b">
@@ -3992,6 +4316,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6b08e236-9829-4431-8d22-1f9e5c7c3048">
@@ -4004,6 +4329,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="756dbecc-76d6-4b9b-9e5a-f48e94b0ae29">
@@ -4016,6 +4342,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="902e7308-2b25-4fef-8c48-8c848b53b137">
@@ -4028,6 +4355,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="35b26d58-d32f-4d9a-a8a9-afdba9cb1d7a">
@@ -4040,6 +4368,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2c33ce68-5418-4953-9690-1eec2a4e06d5">
@@ -4052,6 +4381,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="899c8b5a-e371-4c15-a6a2-212328e82005">
@@ -4064,6 +4394,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="01ba4ffb-7102-4966-85b9-620c23b4e1ea">
@@ -4076,6 +4407,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d8278d02-1710-4789-ab03-7601e9fdf235">
@@ -4088,6 +4420,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="64c68307-5684-4f25-9b30-70b7c05b1d83">
@@ -4100,6 +4433,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a9628707-4982-463c-8fc7-67f75108bbb5">
@@ -4112,6 +4446,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c4fad751-ca4f-49b5-aa88-cfdf13eaa753">
@@ -4124,6 +4459,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="23811db3-db59-4fa3-b74e-0a6862547cb2">
@@ -4136,6 +4472,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f3352324-d97f-4b95-8c6c-7819dafc4dcf">
@@ -4148,6 +4485,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0aaae62a-7c5e-4c3c-a9df-51ddd3833782">
@@ -4160,6 +4498,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="468fa55d-e4e1-4ffb-a79b-50c79c01bbdc">
@@ -4172,6 +4511,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a8b9b08c-f7ab-464d-85c6-9a1c8fda1b10">
@@ -4184,6 +4524,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="87f18021-5041-4b56-a088-ddd17f9a124f">
@@ -4196,6 +4537,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="42099ec3-dcf6-4e8e-9ac3-966251902d33">
@@ -4208,6 +4550,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d9dabc47-0865-4966-b74d-40e5afb18bea">
@@ -4220,6 +4563,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="712350a1-0f36-493b-8324-cefc4bd7ab69">
@@ -4232,6 +4576,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2361ff42-29ae-4506-9c70-795512cb37f6">
@@ -4244,6 +4589,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="014a4bc3-d9cc-445e-a1a4-2e733b470acd">
@@ -4256,6 +4602,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="41b4acc2-e850-40f3-9d67-401d26d2d439">
@@ -4268,6 +4615,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="65caa905-3d28-4321-bf8a-6f03ce896b40">
@@ -4280,6 +4628,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="447a2f9b-5feb-42d1-84d3-722a4d8dbd93">
@@ -4292,6 +4641,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="54732dc3-df83-4df0-86b4-fa2183e5abcd">
@@ -4304,6 +4654,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3f2a0090-57e2-46a9-b1c2-8fa9519048cf">
@@ -4316,6 +4667,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7bc20f92-8798-437a-81e3-489e3d23322a">
@@ -4328,6 +4680,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="65b32d01-af26-41a5-aeee-96dd5ceeddac">
@@ -4340,6 +4693,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9267564a-b9af-4a1d-93bc-e4131fd91f2e">
@@ -4352,6 +4706,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="db6f81d8-205d-4d09-86e2-6e5d27c9e0a6">
@@ -4364,6 +4719,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e3f3d991-c70f-44c0-90e5-6ec88cb912d5">
@@ -4376,6 +4732,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="380baaf5-1ec7-442b-8e4e-89689bfe5b15">
@@ -4388,6 +4745,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e6f4243c-da4d-4972-bf7a-6f5b9780eb0a">
@@ -4400,6 +4758,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3bae7422-9385-45ff-96e2-dd1170af53fb">
@@ -4412,6 +4771,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6987523c-6cef-44f3-af2b-9d11c6011855">
@@ -4424,6 +4784,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6fa02828-5c96-444f-8b96-34a2fe1a49d5">
@@ -4436,6 +4797,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c71425ee-d451-4202-a24c-55a1e47b6b2c">
@@ -4448,6 +4810,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0ff93abf-250e-44bb-b8e8-d223f66ed804">
@@ -4460,6 +4823,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8a3b11bd-d290-4d6d-ad23-a99a9c54c3e5">
@@ -4472,6 +4836,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="042e23ef-98f3-4696-9597-afccb9fdd679">
@@ -4484,6 +4849,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9dc72130-a762-41d8-9fc0-2e4c5e2a465f">
@@ -4496,6 +4862,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="70bcf636-e497-44c0-b5be-eba5fe12c427">
@@ -4508,6 +4875,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Обесценение нематериальных активов по IAS 36</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="38e9b3bb-a3c7-470e-937d-ae48b99419cc">
@@ -4520,6 +4888,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Обесценение основных средств по IAS 36</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c1c32ad9-8f25-4df3-b76a-7ae21e844240">
@@ -4532,6 +4901,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="50268f38-df5c-44d6-9a14-6df43baddccf">
@@ -4544,6 +4914,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="15ce947b-5b8c-4087-b372-2f3f60dedd76">
@@ -4556,6 +4927,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f007f975-3b6d-4350-85fa-d8adcb173412">
@@ -4568,6 +4940,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2d6020cf-14c1-4e12-a762-3dc135bb0727">
@@ -4580,6 +4953,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="692215c8-f484-4e22-b24f-430cd2009fae">
@@ -4592,6 +4966,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="039b6102-9543-43be-8f74-40769772ac88">
@@ -4604,6 +4979,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="52f6582b-5b2c-499d-888c-e51341060517">
@@ -4616,6 +4992,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2d869152-e27f-4d56-a690-de6ac662ace2">
@@ -4628,6 +5005,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1923f574-7981-46df-b96d-b293c2f88d8c">
@@ -4640,6 +5018,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="431ef0e6-1609-45ba-a4c1-339cd9ddba70">
@@ -4652,6 +5031,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="374b5a69-cbb6-41e3-810d-c8d722ada8c8">
@@ -4664,6 +5044,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7d6cd197-5594-4bc2-a06e-be7e06a9b03d">
@@ -4676,6 +5057,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="082b6f6b-dd5f-4064-b297-974158e03be3">
@@ -4688,6 +5070,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5b00b0d8-5a37-4764-b36d-a1f10496f9db">
@@ -4700,6 +5083,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="770862cc-3f15-487f-9e9a-3a759645fca7">
@@ -4712,6 +5096,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b0487f64-b553-4ae4-a10e-f7c942efeb6f">
@@ -4724,6 +5109,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ab7bd20c-865e-4001-af8d-2c77d24566c9">
@@ -4736,6 +5122,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="14e12b00-8e62-443a-a25d-ed16ff3053ec">
@@ -4748,6 +5135,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="223ce30d-57a6-46d0-b55d-1e1b7469b82d">
@@ -4760,6 +5148,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a1fe7785-0a6e-4190-a3f0-66731c8b6507">
@@ -4772,6 +5161,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ca57af7e-6b4b-4f4e-b4a2-96979c90708f">
@@ -4784,6 +5174,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cca94046-1007-49d7-9f59-1198a45f010b">
@@ -4796,6 +5187,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c94c618d-f6d0-4662-bb92-2addb8b9b4af">
@@ -4808,6 +5200,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b6b10546-9b53-4c52-a7ca-e3616be4ba49">
@@ -4820,6 +5213,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d535ece0-c60b-4105-b2b5-396445792ef8">
@@ -4832,6 +5226,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="db7528a9-ea8d-4c24-8dc3-d24ca61feef1">
@@ -4844,6 +5239,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e0c72a27-2a24-413a-b7a0-c47f1b053d72">
@@ -4856,6 +5252,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4bcb8443-e87c-47af-abef-5109d20460fd">
@@ -4868,6 +5265,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cd92c38b-56a4-4e57-b522-4f97514a9e1d">
@@ -4880,6 +5278,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fe42f854-3c46-493b-af7d-5fb6be174b11">
@@ -4892,6 +5291,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="aee7bce9-5a97-46d9-b2c6-1736dcea7520">
@@ -4904,6 +5304,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ffacb2d1-d2b2-40e7-9cdf-4c0ddf13cee5">
@@ -4916,6 +5317,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="16d32456-c33d-41c9-a2b2-83e5a779534d">
@@ -4928,6 +5330,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bc979a10-9ef9-4a97-8823-2706089d4d09">
@@ -4940,6 +5343,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1b711b7f-c00b-438f-be36-c79914d80bc5">
@@ -4952,6 +5356,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8feaf43a-0b16-4c31-b79f-7e943eaae840">
@@ -4964,6 +5369,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="33abd602-6e49-4241-ba8b-bb6a04e85d98">
@@ -4976,6 +5382,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d1b4938b-a384-4cd5-8e02-4565f971bc8c">
@@ -4988,6 +5395,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="27b164e8-a84a-4755-9561-7c15cc79911e">
@@ -5000,6 +5408,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="afc9e429-f334-4795-a044-a0e4a638a326">
@@ -5012,6 +5421,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f0646186-0222-4009-a723-6bd238797777">
@@ -5024,6 +5434,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="486d5434-f48f-450f-993f-6c3c3f82a67d">
@@ -5036,6 +5447,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c59634e2-4d21-4932-9970-649bbf227dd3">
@@ -5048,6 +5460,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="25d76dbd-a5cc-4491-a24e-bcd847c25177">
@@ -5060,6 +5473,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bfab74e3-2730-4d6c-8a04-4f27a4015c18">
@@ -5072,6 +5486,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9c014b95-a185-4820-abd1-512983797eab">
@@ -5084,6 +5499,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4fd963af-49f2-456d-a557-a5944aca8b69">
@@ -5096,6 +5512,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3468c5b8-e725-4953-a28b-7f02249ac58e">
@@ -5108,6 +5525,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b3abf62b-3774-4900-9412-7b54d42d1ffd">
@@ -5120,6 +5538,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1c672c1e-1e44-4a0e-908b-61d1bf679173">
@@ -5132,6 +5551,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fe54849c-7977-4304-8e2f-99d17ecc732c">
@@ -5144,6 +5564,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="de8185fe-abb5-4995-9ad5-8d78df764363">
@@ -5156,6 +5577,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="983bf8dc-0c5c-49d0-94f1-ab637b2ccda7">
@@ -5168,6 +5590,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="889d45ff-4a62-4095-ae4e-9f7c367bbce1">
@@ -5180,6 +5603,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c906a76c-56d5-473f-abfc-6a7a3f56a1b2">
@@ -5192,6 +5616,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="64b48a75-969f-450c-a0a8-c5699cd6ab59">
@@ -5204,6 +5629,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0f5c0e09-1255-46f6-9f44-466e9e1066c6">
@@ -5216,6 +5642,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1f61a887-10f0-4014-85ea-07238ba3d51d">
@@ -5228,6 +5655,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e4fbe76-16f4-4c62-8f1c-8e8daada4c37">
@@ -5240,6 +5668,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="91322a04-dc85-4825-a73b-4ccaa15338fc">
@@ -5252,6 +5681,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f1c41126-cc50-4f4d-9639-177dd7afed9c">
@@ -5264,6 +5694,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8356bd5f-e1e2-421a-979f-12aa24f0ca1f">
@@ -5276,6 +5707,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4394b09e-11d7-4fea-9aae-76946565e6bb">
@@ -5288,6 +5720,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="25d2d9b6-b7fa-4a6b-b909-ab8362f398e5">
@@ -5300,6 +5733,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9bc25444-c31a-4d8e-b846-6500e9246555">
@@ -5312,6 +5746,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="07f68ec6-7513-4aee-ba03-3eb45dc1b1bc">
@@ -5324,6 +5759,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8d7a0ce3-0538-4570-b15b-09805e5f400d">
@@ -5336,6 +5772,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="41d9b9c1-9119-4d71-ad29-685c2b49663b">
@@ -5348,6 +5785,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="759367e5-1577-483f-8ac2-24b83d6c1c5d">
@@ -5360,6 +5798,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d0ea89d0-cb52-4ba9-95f0-c511b85739dc">
@@ -5372,6 +5811,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6ca99773-897c-437c-a307-54d51b8d9a9c">
@@ -5384,6 +5824,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="59bda26c-5af0-48f7-837f-6bfe60c08554">
@@ -5396,6 +5837,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="83f3da9d-79b4-4ad4-a7c0-c8c24731864c">
@@ -5408,6 +5850,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="17e794e2-3e7b-4f3d-bd74-7822d7685d24">
@@ -5420,6 +5863,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8a6f9f37-cc20-4399-bad3-1cdf89241b5d">
@@ -5432,6 +5876,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7854e5b2-aae0-4441-bcd9-a9c8367949e7">
@@ -5444,6 +5889,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="218306e7-1461-43a5-9f57-7162b6b3e74a">
@@ -5456,6 +5902,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="36dbd4d4-1a2b-4a23-ba55-106462273cb0">
@@ -5468,6 +5915,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9d6c6da9-abe1-4b09-adbc-13d7f6b48571">
@@ -5480,6 +5928,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9d87a84a-b1f7-4247-b3d8-1f752e128561">
@@ -5492,6 +5941,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c2bb0b2a-8e0d-4614-97a1-c48ad8a06fc9">
@@ -5504,6 +5954,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5c8c0e9d-d72c-404b-9d9c-e8c85afc72eb">
@@ -5516,6 +5967,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4a32e213-9288-426d-8a6a-162ba8772fb5">
@@ -5528,6 +5980,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f53b3b31-9cd3-4a9b-b293-626b3a525d66">
@@ -5540,6 +5993,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="889e8977-08be-4aa4-b9d7-0df860d997ab">
@@ -5552,6 +6006,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a606d3e5-4a59-4b2c-9d3d-5976f5c778cf">
@@ -5564,6 +6019,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="78509f7a-915a-43a7-86c1-17662de8fc3c">
@@ -5576,6 +6032,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="19509e5c-4a95-4439-9a08-356d3125cf87">
@@ -5588,6 +6045,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2d4a53a5-0341-415c-8d2c-28643983f690">
@@ -5600,6 +6058,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="af539695-7bf1-4480-85fa-d029bcbfda95">
@@ -5612,6 +6071,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0a317faf-5a1c-4f50-85c1-ae82f4199d0e">
@@ -5624,6 +6084,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="df8c8bea-ec4e-4927-9ac1-7e24247cc440">
@@ -5636,6 +6097,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="82c175ad-99c1-4f74-9ddb-eab46549ef7c">
@@ -5648,6 +6110,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b34f2768-cf67-403c-81be-1dc166c21c39">
@@ -5660,6 +6123,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="47d9047a-32d9-4db8-84c4-365833f513ab">
@@ -5672,6 +6136,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="692b931a-2177-40da-8d9e-8efdf0277057">
@@ -5684,6 +6149,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c31e69f6-2bbd-4901-9bfd-36469c368cbc">
@@ -5696,6 +6162,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="760b57d5-8846-455d-8a57-fa6dbfc8cc49">
@@ -5708,6 +6175,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="71866bc7-9cea-4a16-9cf9-614712f3eac9">
@@ -5720,6 +6188,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="18cc5e6e-d382-4a33-84c7-20f87eb6606c">
@@ -5732,6 +6201,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a0ec9a45-2672-4ed8-ac78-708456814e6b">
@@ -5744,6 +6214,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="637c550e-9b94-4e09-8793-69172c230bef">
@@ -5756,6 +6227,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4477177a-cf32-438e-a6c2-104c1600ac4a">
@@ -5768,6 +6240,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8017efc3-aad2-4964-b3c7-bbb4c5fa1d8a">
@@ -5780,6 +6253,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b8873278-cf3c-458f-a28c-04d5be6f9f11">
@@ -5792,6 +6266,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b751d0b2-8c14-451d-91f7-61fa70e67d47">
@@ -5804,6 +6279,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1a884f47-65ca-4d22-a774-009fdd7416ae">
@@ -5816,6 +6292,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="aefb78c6-3d6a-4967-8a25-ffa000b910cd">
@@ -5828,6 +6305,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8f8e5376-60a0-4a92-a86d-fbf33a87b0f9">
@@ -5840,6 +6318,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b4c5b270-41c1-421f-a590-e574d23ca8f0">
@@ -5852,6 +6331,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b1f5d109-32f9-46bb-b0ee-9929ed3b7b9a">
@@ -5864,6 +6344,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4d999aec-f01d-4373-bd5d-0a0c784f2020">
@@ -5876,6 +6357,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7ac8578d-b7a0-46f2-ab80-e04226709c18">
@@ -5888,6 +6370,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a4810a14-af64-4288-93c5-5dfc2080b4a3">
@@ -5900,6 +6383,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="72ef1e56-e185-4c9c-bfc2-3bf454380e18">
@@ -5912,6 +6396,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="153d0f2d-d227-484a-ac95-cff03c48fc02">
@@ -5924,6 +6409,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c311b1bb-919c-43e6-9e76-6df6b5349666">
@@ -5936,6 +6422,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="268af092-497d-4f16-92cc-66bf00ea8566">
@@ -5948,6 +6435,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="758d257f-7331-4da6-8e5d-1cf69f9143b1">
@@ -5960,6 +6448,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2836ed32-1d75-4bde-926c-3bd88d9717f2">
@@ -5972,6 +6461,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="858a77c1-9941-42ba-8b6c-30f292b3432f">
@@ -5984,6 +6474,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e735df79-3548-41de-83c1-abd2cf6ab14a">
@@ -5996,6 +6487,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1dfdfca3-6595-4afd-a12f-88601fce8c82">
@@ -6008,6 +6500,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f225cb28-e5ab-48fc-80a6-180753692cee">
@@ -6020,6 +6513,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f742f89b-54a3-4910-b699-80065d749cc9">
@@ -6032,6 +6526,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7c7c23d9-fa3a-4546-bf70-996fada90e4c">
@@ -6044,6 +6539,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3292928b-0685-4c5c-87c6-29ab5ee6655f">
@@ -6056,6 +6552,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d04f58af-7ec5-404b-9bf6-54046aa748c1">
@@ -6068,6 +6565,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cf5fddbf-8d18-49d8-a78c-a33bf71752d0">
@@ -6080,6 +6578,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2395b438-9ab3-4723-ad1e-37e39011b0eb">
@@ -6092,6 +6591,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fc4435b9-56bd-4a84-a797-cc3becd9f9c0">
@@ -6104,6 +6604,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="31ef3bd7-3f73-41ba-a38a-77992ae0e589">
@@ -6116,6 +6617,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7009f8a0-7f90-4b06-867d-3bfbe99feea4">
@@ -6128,6 +6630,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ced1b69f-66ab-440b-9b9a-37742b9c8c92">
@@ -6140,6 +6643,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ab1a0cb6-7756-49f2-9cdc-6ede93fbfef2">
@@ -6152,6 +6656,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="567ec167-1aa4-4e06-9fc3-f2b74e70cb64">
@@ -6164,6 +6669,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="70af7939-f685-40c1-afa9-2c23e796892e">
@@ -6176,6 +6682,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="538e4a2a-e7d2-4e8c-ab2a-dda2511bf3d8">
@@ -6188,6 +6695,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2b5706aa-941c-486c-892d-2a68b1a51c9f">
@@ -6200,6 +6708,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="06b505b7-69af-45a2-99e3-71de53241d8a">
@@ -6212,6 +6721,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5ebc330a-06a7-40df-889c-9797bad400b0">
@@ -6224,6 +6734,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b15f9bd4-7f4b-42fe-b507-e11088511ad4">
@@ -6236,6 +6747,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="06ec4e0d-35cd-49e2-997a-015f1047b1ce">
@@ -6248,6 +6760,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e6d05a90-a064-4c38-8be4-83b9372e2541">
@@ -6260,6 +6773,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0742a9c7-950b-40bd-9910-1c7aa8894819">
@@ -6272,6 +6786,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="18015f17-1f3c-4262-a153-3dd1296cc512">
@@ -6284,6 +6799,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2cbf3650-86c6-4ff1-bff4-01f784dc3633">
@@ -6296,6 +6812,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7cde7045-6b12-441c-a125-0d1e4d85863a">
@@ -6308,6 +6825,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="724a4888-0fa8-49f8-b337-0c06f2442007">
@@ -6320,6 +6838,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0c13989b-ca8f-489a-8360-61463934be3b">
@@ -6332,6 +6851,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3da73feb-6072-4e6f-9ac8-12374606d6fd">
@@ -6344,6 +6864,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="16cb9ff7-894a-4cd9-b362-b83c15853a5c">
@@ -6356,6 +6877,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3a678ead-a02e-4c54-a151-4dff0c3dbcb7">
@@ -6368,6 +6890,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f4defe4d-2b13-49df-8bbd-e7d1e5fb2cd7">
@@ -6380,6 +6903,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1e18177a-fe02-4999-a369-fb008fe9fd42">
@@ -6392,6 +6916,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f891b289-9e02-497b-bd51-ba552515b92e">
@@ -6404,6 +6929,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="572c15b7-b781-43a9-91fb-eecc7ecffee8">
@@ -6416,6 +6942,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1879ad4f-47e1-438b-9738-f1429bc3c780">
@@ -6428,6 +6955,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e8fb65b-3016-42bb-9012-7708af966533">
@@ -6440,6 +6968,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1e6ae39e-cc24-406f-911c-33366824b704">
@@ -6452,6 +6981,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="662947e1-36c2-481c-a2a3-cb611a4dec6e">
@@ -6464,6 +6994,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c458e6d8-a38d-43dc-b10d-a3f54d720b38">
@@ -6476,6 +7007,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="35b3d673-2e97-4aa8-9db2-98caa29794a2">
@@ -6488,6 +7020,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f14170fc-eef7-418e-a553-643e4255e072">
@@ -6500,6 +7033,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="29c2681f-21ab-4e2a-a0bf-2b3bee568c76">
@@ -6512,6 +7046,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="47be71ef-f8af-4e5f-ba28-70acb7ee8614">
@@ -6524,6 +7059,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f7f5b3b7-8515-4223-acd3-edbb2301e4ae">
@@ -6536,6 +7072,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e300f9b1-c1c0-44fa-b221-bb9f6ff979c4">
@@ -6548,6 +7085,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b617367a-b57f-43af-85a1-8f6286535076">
@@ -6560,6 +7098,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d6add2cf-6a8f-43d5-9398-2a8d0d1a079d">
@@ -6572,6 +7111,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="38c163d7-aff0-4617-a7d6-419c2d57d424">
@@ -6584,6 +7124,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3e89b124-0d1c-4bbe-98b6-6b0506d5f4ad">
@@ -6596,6 +7137,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0e04fccb-9061-491e-8dfc-0ccbbed443e7">
@@ -6608,6 +7150,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b3c7d601-6176-4ba3-b428-f0a1981742cc">
@@ -6620,6 +7163,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e2df1ef0-2228-49bb-a029-d6f65ad80791">
@@ -6632,6 +7176,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5cb9669e-543b-4d33-b9a2-c6dc788de898">
@@ -6644,6 +7189,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ede94309-26c0-471a-9b44-a339085fc49b">
@@ -6656,6 +7202,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3435e652-241f-4201-95c0-b78b8867303c">
@@ -6668,6 +7215,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="913fb9ea-952f-4bbd-88a0-ff4a1b271d21">
@@ -6680,6 +7228,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="39b63e72-b74f-41a5-8d5c-68908eab2196">
@@ -6692,6 +7241,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1cf8111d-9689-46b5-b048-01942b9c91aa">
@@ -6704,6 +7254,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e69e44b-cbbe-4982-8f26-1be872c32c8c">
@@ -6716,6 +7267,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f9500d19-47d4-45e9-b867-8546e73cc587">
@@ -6728,6 +7280,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a3a02f06-9e98-46a0-9f43-3b22273b464b">
@@ -6740,6 +7293,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6cfdda22-3e43-418f-8184-374c7ef553ff">
@@ -6752,6 +7306,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="eeb1bb2f-e486-4bd8-ad41-e45f34286664">
@@ -6764,6 +7319,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4cea7021-99a1-4ae8-b197-4a33688ff882">
@@ -6776,6 +7332,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b9fe55ec-e34e-456a-a063-8a1820ff6b8d">
@@ -6788,6 +7345,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1c023e8f-1b5a-4b35-97d4-60fe80d01b9d">
@@ -6800,6 +7358,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cb35926b-97a1-4c29-8337-0625b4332ef1">
@@ -6812,6 +7371,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8dd5fe15-f701-4bcc-a73c-2d71817e18e9">
@@ -6824,6 +7384,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="91d91649-7d72-4c71-9c5e-a7a28ddf9f7e">
@@ -6836,6 +7397,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="06b12a4e-7958-48ca-ae14-5a02943ce0ab">
@@ -6848,6 +7410,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8b139b54-8a50-4aa2-aaaf-92d8ca8ae637">
@@ -6860,6 +7423,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bd0d0ce6-c3bf-4084-a567-630a57c1bfd0">
@@ -6872,6 +7436,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bb144619-c3ab-4b98-9efd-32c118786f13">
@@ -6884,6 +7449,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="10db127e-a377-4878-8ead-955d0ff48e4d">
@@ -6896,6 +7462,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4eefadc1-b52a-4187-8a7a-a4de309e0c59">
@@ -6908,6 +7475,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9ff12120-7050-4660-86f3-140446414c52">
@@ -6920,6 +7488,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0c835595-f194-43ee-aa78-4b70fdb1e50a">
@@ -6932,6 +7501,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2a25cdf0-b526-4f5c-9b43-7105e97eaba6">
@@ -6944,6 +7514,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9203e315-f0a6-4d7a-a2d8-67aa1aa8410e">
@@ -6956,6 +7527,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d81896fc-496e-4b22-b8d0-482f4a2ceb31">
@@ -6968,6 +7540,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0d10d72d-687b-4d97-91b3-a4bd0463c3b9">
@@ -6980,6 +7553,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4c0c0d1e-1c8d-4923-acb0-3d8951618419">
@@ -6992,6 +7566,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="26ed1601-2261-4eb9-8346-5bbc55fc35f4">
@@ -7004,6 +7579,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8d5d2b99-fd12-43d3-8db3-e1dc4edda0a2">
@@ -7016,6 +7592,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="48208dc9-6e45-4cda-9766-24bc46261b43">
@@ -7028,6 +7605,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="171c294f-c32a-4e34-bfe9-b259831c2380">
@@ -7040,6 +7618,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="dd55f7c9-3edd-4c14-89ed-33e74258299e">
@@ -7052,6 +7631,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c76af8a5-ae4f-4dd7-af0f-08b1031cc27b">
@@ -7064,6 +7644,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d99aba8d-ecec-4e4b-b2e4-f5f92e2e29ec">
@@ -7076,6 +7657,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ba737490-2a7c-45fc-b087-3718625dc528">
@@ -7088,6 +7670,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="83a1acbe-9187-40b0-830f-b109c0825f30">
@@ -7100,6 +7683,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="76156fda-6b2e-4da7-871d-49dfc4840df3">
@@ -7112,6 +7696,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e46ad85d-8b38-4c69-800a-a5585af527ea">
@@ -7124,6 +7709,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5d81ff6f-2ae4-4836-b2d5-3b18b4232b94">
@@ -7136,6 +7722,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9e6485e6-6b49-420f-9cd2-3b553e17f751">
@@ -7148,6 +7735,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2519e2e4-ecef-427d-91b1-95af2546a944">
@@ -7160,6 +7748,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fb1bdbfd-4ed4-4107-b6ac-1d0c69e2975c">
@@ -7172,6 +7761,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1ce33471-977b-4859-b899-240c5ac45e88">
@@ -7184,6 +7774,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7130c257-6d2f-4b3e-b2aa-42f425b11934">
@@ -7196,6 +7787,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0c5f1625-d22b-4b79-88cd-1de1f79aa302">
@@ -7208,6 +7800,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="380f167b-5d7c-4327-bce7-625fb5ce8ab8">
@@ -7220,6 +7813,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="88068066-629e-4916-8df4-a03abee43225">
@@ -7232,6 +7826,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e18b1c48-3395-4b61-95d4-5e53d77503f5">
@@ -7244,6 +7839,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="503bd0c6-be8e-47e7-ad39-a4255ad379e7">
@@ -7256,6 +7852,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7dd94164-3652-452b-88b3-26438e5a29be">
@@ -7268,6 +7865,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8547f0c1-c590-4a78-9088-46b0ec8ba1d2">
@@ -7280,6 +7878,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="49fc88c7-1067-4a54-bdf4-e6b4ca74d765">
@@ -7292,6 +7891,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="db6afb1b-bf1a-4067-8cf5-10cd35550370">
@@ -7304,6 +7904,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2e0fea0b-dffa-4053-abdb-a0c1ec199d0a">
@@ -7316,6 +7917,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="398ac4c1-c1e2-4dc0-9cc4-d649dc941b95">
@@ -7328,6 +7930,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="db327bd8-0c31-4598-9cef-433a9cde7e00">
@@ -7340,6 +7943,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="85d7e6b9-4afb-43b9-ba4e-d443dcf86285">
@@ -7352,6 +7956,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3e18ae91-a597-4383-a73b-2ecf40c79e9f">
@@ -7364,6 +7969,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e4e2634a-25a4-436e-aed6-a4311a3c366f">
@@ -7376,6 +7982,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="52142ebf-74e6-4cb5-b37d-f36037dff2bc">
@@ -7388,6 +7995,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cfd86ddb-1a6c-4245-8a07-d7602190a62f">
@@ -7400,6 +8008,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5b6e8173-828a-4b74-914b-702217e5fb64">
@@ -7412,6 +8021,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2be244e2-ecf8-41c9-8ab5-aceae75c222c">
@@ -7424,6 +8034,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="693adf02-fccb-4cd9-a092-f9fa532b7983">
@@ -7436,6 +8047,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="beac199f-b1cf-4a8d-8446-cabc3e1b238a">
@@ -7448,6 +8060,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4ac85485-9869-40c0-8401-4c0baf1156e8">
@@ -7460,6 +8073,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="618709f8-cae2-4827-be62-feace13d39c9">
@@ -7472,6 +8086,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6de27476-cdcc-42ec-85a8-22f9e40508d5">
@@ -7484,6 +8099,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a952a339-19e9-4662-a0fe-6f0b6b67e318">
@@ -7496,6 +8112,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="70fdfb51-49e4-466e-9cf3-f7f0722b22bf">
@@ -7508,6 +8125,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7dbc7e14-c074-4831-83e7-67ff94272b54">
@@ -7520,6 +8138,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ad2322ce-9ed5-4e79-ace7-6f03b97d9445">
@@ -7532,6 +8151,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a73829bc-bd25-4919-9577-72082808e5fd">
@@ -7544,6 +8164,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f7c74a6f-4e2b-4de3-ba95-c3a1da5918f2">
@@ -7556,6 +8177,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f43b7627-2026-4d93-9d6c-54585634d292">
@@ -7568,6 +8190,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="49af460e-249c-400c-964e-c47085d67e8d">
@@ -7580,6 +8203,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="df701221-9767-48f7-ae06-e1e6190b939e">
@@ -7592,6 +8216,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3dff1c1d-731a-495b-8986-3e706dc2d1b5">
@@ -7604,6 +8229,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7d5ec357-27e9-42d4-aa7f-12506fe3766a">
@@ -7616,6 +8242,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2f2147c5-4310-4ebe-a6e8-b726f9ab0587">
@@ -7628,6 +8255,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5c157b3f-6569-4a69-b996-276e0ae57e0e">
@@ -7640,6 +8268,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e5d8eec-6abe-4e6a-950b-fa1c3064a5ac">
@@ -7652,6 +8281,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="15efe858-49c6-416c-8e70-f06928faf937">
@@ -7664,6 +8294,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="97d5a42a-b4b3-4fc4-96eb-b68cc6b221bc">
@@ -7676,6 +8307,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="aff0756f-7037-488a-a443-1006587a6f8e">
@@ -7688,6 +8320,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4412450a-0821-47a4-9342-2c738f4f11ed">
@@ -7700,6 +8333,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6b03771b-f653-4db5-a7f5-5675cb887e56">
@@ -7712,6 +8346,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="72b47d62-df16-4473-95f5-5225802b2693">
@@ -7724,6 +8359,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="288193f8-8870-4315-bf2b-3fd1938cdb76">
@@ -7736,6 +8372,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="257c130b-0c7c-4b40-a3d3-626200dd503c">
@@ -7748,6 +8385,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2428bbf5-baa7-414b-9681-44cd646da302">
@@ -7760,6 +8398,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0789d7c2-8020-4d52-a305-445f9faa9b76">
@@ -7772,6 +8411,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="99fac49d-a695-4a74-8754-ec3bdddf1f73">
@@ -7784,6 +8424,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f8e09dad-9010-4990-bbce-5b10dddde0f2">
@@ -7796,6 +8437,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4dec627e-3939-4191-a213-0cea734fc86c">
@@ -7808,6 +8450,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3299776f-a304-476e-a0d9-a9132b128869">
@@ -7820,6 +8463,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1ff37956-34fd-4665-95bc-1850a47cbe9a">
@@ -7832,6 +8476,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c9dc228c-2ae1-4d92-a78e-b5d17c7b5db6">
@@ -7844,6 +8489,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6a9d5958-0156-49af-81b9-c92bc962dd11">
@@ -7856,6 +8502,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cf567e92-e28d-4b9d-a54e-b81d80f41495">
@@ -7868,6 +8515,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="be73fd47-6a4b-4925-9270-ae12c6b11407">
@@ -7880,6 +8528,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="26c7e30c-f570-4794-8abe-2b7a605616bb">
@@ -7892,6 +8541,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="efbcb14f-4268-4994-b540-1ee54d3f0c4a">
@@ -7904,6 +8554,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d21c20b1-6da5-4694-a60b-50cfa00d3fba">
@@ -7916,6 +8567,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a0881d52-0cb7-496a-96d4-5bc74646e3de">
@@ -7928,6 +8580,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b2b01e97-1813-41c5-b0eb-6b83f051112e">
@@ -7940,6 +8593,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9e74087f-94b8-4800-9bfd-a5399aa36064">
@@ -7952,6 +8606,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8880d304-daf7-4345-ad8d-c81bc5d994b7">
@@ -7964,6 +8619,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f24e8e16-21ad-4eeb-a73d-06152c4d9a1e">
@@ -7976,6 +8632,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="316a5465-93b9-49a6-a3c1-936811d6889b">
@@ -7988,6 +8645,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9dc5ea7a-429d-4795-9731-75b99d6f2e59">
@@ -8000,6 +8658,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="eeaf0f22-85b9-4fe5-9ee5-a03665e4a97b">
@@ -8012,6 +8671,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2c11cf94-e7b4-467b-a2c6-9fd484889af0">
@@ -8024,6 +8684,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7885f9d9-8d36-44ed-a6ce-a6849997dc25">
@@ -8036,6 +8697,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ae267ec8-a5db-47b1-aeb8-d3bea828c467">
@@ -8048,6 +8710,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0d6027fa-bcd7-4d38-b8db-4ee76f94cae6">
@@ -8060,6 +8723,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e8c560e-66f4-4bb9-b0e1-7fc26ea5b941">
@@ -8072,6 +8736,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f42ccb40-ad08-4844-9e42-85d985f7e189">
@@ -8084,6 +8749,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="765972e5-c04c-4256-a7c3-b13f1b8a5016">
@@ -8096,6 +8762,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f9591cdc-96c6-45e8-a32b-4bcb64b9091e">
@@ -8108,6 +8775,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7ad1cf86-aafa-47a0-93c7-2019ea38ae5d">
@@ -8120,6 +8788,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f675a52b-940a-480e-8374-c64ff49e4478">
@@ -8132,6 +8801,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8ed431c8-e520-4853-99da-e30f78c67d3c">
@@ -8144,6 +8814,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3578498e-7df3-4303-bb77-c760931f8e05">
@@ -8156,6 +8827,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="316efa0d-d5f0-43a1-8ca8-5faf499fa16b">
@@ -8168,6 +8840,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="723e22f0-3500-4b33-b97c-ea6843a93556">
@@ -8180,6 +8853,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Изменение реквизита МетодОценкиСтоимостиТоваров в учетной политике организации</Comment>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b0cd3753-59f3-4880-83e3-aeb9c7301a80">
@@ -8192,6 +8866,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8c9b8e80-c92a-4c34-b988-6c0f52839684">
@@ -8204,6 +8879,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f0f8e19d-32d7-4ece-9dc1-7b5fa651d34f">
@@ -8216,6 +8892,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8ef3516c-2bae-4f56-9f3e-2cc88e3732e4">
@@ -8228,6 +8905,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="09249bd9-12ea-4994-a1b0-5cd4532e670f">
@@ -8240,6 +8918,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a47f1168-f8cc-4e97-9d6b-7d15d4b50639">
@@ -8252,6 +8931,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8dc71b17-7e0a-4c79-9eb0-3f5b173aac0f">
@@ -8264,6 +8944,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a8eaa96d-0722-48ff-b075-671dd65b442e">
@@ -8276,6 +8957,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ae5b97e9-6e3e-40da-af52-695ba210a200">
@@ -8288,6 +8970,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9756202c-f9bf-49b3-a536-c130c6b1cd27">
@@ -8300,6 +8983,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d94b2da5-a68e-4153-aefe-7fb603f5f268">
@@ -8312,6 +8996,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="99312ff4-25df-44b6-a95b-96562ca15f59">
@@ -8324,6 +9009,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="767b0f7d-20fc-4354-abaa-2db508c08398">
@@ -8336,6 +9022,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9ddcd895-e7c3-4e1c-8429-e731ba551b30">
@@ -8348,6 +9035,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1394ef07-ae1f-4bef-b0e3-190f37c20eb1">
@@ -8360,6 +9048,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9e38bcb7-8201-46f0-8642-3ed6f057c5e2">
@@ -8372,6 +9061,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="733cca42-63ac-4b08-87d9-90abec9c03ec">
@@ -8384,6 +9074,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="48b2576f-d9c3-479e-b877-d4046acfc30b">
@@ -8396,6 +9087,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="433ec016-2dbc-47f2-b9bf-013b8e7cc068">
@@ -8408,6 +9100,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3f6e411c-efcd-46df-af87-0504b2f0c6c9">
@@ -8420,6 +9113,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cd605ae9-9801-4fc3-a0fc-937f437fae24">
@@ -8432,6 +9126,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2c7c3f31-a6e1-4951-96fb-33592132b524">
@@ -8444,6 +9139,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bd10572f-ffa9-4a62-8d9a-56cfe5227612">
@@ -8456,6 +9152,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2b30727d-8b28-4e3f-9909-db211370f1b1">
@@ -8468,6 +9165,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1bba0b65-3c9e-42c6-8d35-e8e88e20a7f0">
@@ -8480,6 +9178,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="131bc658-d404-47a8-897d-06a658816dbd">
@@ -8492,6 +9191,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0ea908b1-5e9b-4aac-a886-e29a6bf5e381">
@@ -8504,6 +9204,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="537c44f1-f5f5-4858-bb73-304284904eba">
@@ -8516,6 +9217,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6ef7df2e-23f8-4188-a017-52769d9527e1">
@@ -8528,6 +9230,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0f3d86c1-a630-493a-a7f2-f57e3187c3eb">
@@ -8540,6 +9243,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5e704313-8cd4-4dfd-b4e6-27ee250d3728">
@@ -8552,6 +9256,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a0ec2160-7527-4973-843e-7e821ee8142c">
@@ -8564,6 +9269,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="401234f4-de00-4613-adf4-b0160eb0c02e">
@@ -8576,6 +9282,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bb049445-1e19-42c7-8874-54694bdf76c5">
@@ -8588,6 +9295,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b149af7f-b32a-4157-a051-b1acdddf7d29">
@@ -8600,6 +9308,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f98a6ab9-b94e-42dc-9482-47edebe3fb36">
@@ -8612,6 +9321,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9cd94463-c6d2-476d-a94e-0366e6a3b1d0">
@@ -8624,6 +9334,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ba89f734-0437-4274-9966-55f248e2c02c">
@@ -8636,6 +9347,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f6d76c82-ea81-477d-b703-fdc6425725d1">
@@ -8648,6 +9360,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e98e1c50-b579-491c-949b-4624b469711b">
@@ -8660,6 +9373,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8af0a12e-5f2a-4cc6-a39b-06bc91e2707a">
@@ -8672,6 +9386,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3ff3ffb5-e0c3-4e10-9adb-d2f037f8b118">
@@ -8684,6 +9399,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fa577230-49cf-4587-b4cd-18f905445208">
@@ -8696,6 +9412,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="050d4dbd-1143-43d7-b07a-7cc1f8a4fe85">
@@ -8708,6 +9425,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="da840927-85e1-4b90-86f0-91d922667eb4">
@@ -8720,6 +9438,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a6426f3c-6ba3-498a-8d49-274c0f6cd579">
@@ -8732,6 +9451,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="420eb3c3-d11f-4b27-86fe-3303a157a5b3">
@@ -8744,6 +9464,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f543b43a-00e8-4e87-8a7f-401b1f483b89">
@@ -8756,6 +9477,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b7766c29-7658-46e4-8b46-0d645c5b43b7">
@@ -8768,6 +9490,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5ff48440-48de-45fd-a1df-001aece9d9a1">
@@ -8780,6 +9503,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a28fc1cf-f4a7-489b-9335-2abcd5586c21">
@@ -8792,6 +9516,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9a3a81ac-9d40-4d1a-9f67-5edb803b0d8c">
@@ -8804,6 +9529,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8c9faa3a-04e4-4061-8d06-1768483621e6">
@@ -8816,6 +9542,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="25671309-13fe-4ef2-a480-e5b34257b81c">
@@ -8828,6 +9555,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f7587f10-7d5a-4a04-9d3a-f0f96d085628">
@@ -8840,6 +9568,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e6959e59-6a15-49f7-96ef-4b34fb8e7308">
@@ -8852,6 +9581,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ad8d94ae-d307-40b6-a724-4fdf09626db5">
@@ -8864,6 +9594,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="302d74bf-2158-421c-bcb4-057d3837c42c">
@@ -8876,6 +9607,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bf2f1434-44de-43d7-9169-d3328871cae8">
@@ -8888,6 +9620,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="44d0300e-b55b-47d3-b4b8-1a0cb58676fd">
@@ -8900,6 +9633,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="67f843fe-e747-4e69-ad4f-6da42e6fd73a">
@@ -8912,6 +9646,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c173f0db-6b01-4bd1-bb1f-b8641a7aea0c">
@@ -8924,6 +9659,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ae465980-d7c4-42a3-b50c-08fa3ba7d2ae">
@@ -8936,6 +9672,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="97fb53a9-5037-4fca-b8ba-ae888682ad69">
@@ -8948,6 +9685,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e68ca3ce-0ba6-41a5-8d43-e84d750d505a">
@@ -8960,6 +9698,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="42a4662f-ffc1-4441-b9a9-206b2ec3a2c1">
@@ -8972,6 +9711,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="beb27c4d-7163-4f40-a6c3-71b8c21cab7f">
@@ -8984,6 +9724,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fbcf6e04-afc6-4234-972e-d0b2bd42425a">
@@ -8996,6 +9737,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="82e6dbf8-d7ba-4382-9880-9e83d175a158">
@@ -9008,6 +9750,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4723878d-aab4-4b0d-84c4-998ea21454f5">
@@ -9020,6 +9763,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b752f67e-8e90-4478-ad17-1a46e069476d">
@@ -9032,6 +9776,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ea4e6c1e-d852-4039-b59e-5a33f25de855">
@@ -9044,6 +9789,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3c9c1627-0dde-4aec-b246-eac505a2b071">
@@ -9056,6 +9802,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="717ec3e4-b9f6-4e0a-aa4d-aa901179741e">
@@ -9068,6 +9815,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9991eecf-8c28-47ce-8956-d375fc42ae6a">
@@ -9080,6 +9828,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e0b1a9f2-456a-4ffc-8aa4-138c8722ec5e">
@@ -9092,6 +9841,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3f37339d-0052-4d23-acee-ff9666577709">
@@ -9104,6 +9854,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bbddfcfd-4dc3-45b0-85da-0194ea0d7223">
@@ -9116,6 +9867,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0911f2ec-22b7-4bd5-a49e-cfe91bff2741">
@@ -9128,6 +9880,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f3514421-8dbc-461a-9046-4944ce55158b">
@@ -9140,6 +9893,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9f7a8f36-9c5b-4f1f-94eb-1c44f384dbad">
@@ -9152,6 +9906,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5ece45fd-52ce-4ee3-9a8d-791b68493246">
@@ -9164,6 +9919,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9e1f470c-fd5c-4686-8d04-94447a651262">
@@ -9176,6 +9932,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d1599d5d-bcfb-4e2d-897d-4d9f59286332">
@@ -9188,6 +9945,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b3963c91-760a-4c0d-922f-96fb3e2ede33">
@@ -9200,6 +9958,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c66b15be-e30e-4e01-9d1e-4df1ed275b7b">
@@ -9212,6 +9971,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ebb026fa-93a9-480f-8094-23178eb361c3">
@@ -9224,6 +9984,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b2c02086-a3b3-4964-9748-01266bdd9e6c">
@@ -9236,6 +9997,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6b14f83c-cdb2-48f6-9159-5058b7c27185">
@@ -9248,6 +10010,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2186fa80-a244-4545-9e02-4284eb7fa57d">
@@ -9260,6 +10023,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7e88ce34-e0ad-48fa-a029-28c5cadebdf1">
@@ -9272,6 +10036,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="449765a3-76f2-4b3a-82f0-8bca9b790f84">
@@ -9284,6 +10049,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f4599ca4-a51c-4055-a936-93a3982aecae">
@@ -9296,6 +10062,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8cfcdf2d-b643-44fd-881a-522fb84fa481">
@@ -9308,6 +10075,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6163ae74-afee-4b78-8b5e-dc7230e483be">
@@ -9320,6 +10088,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9d25a47d-a2ce-4a9d-b6f8-73b4f60a4cc1">
@@ -9332,6 +10101,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4a220611-2af9-4002-bff0-9d96c4de11d8">
@@ -9344,6 +10114,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="74744529-c4c7-4b2b-b6b2-e5120d03c9fb">
@@ -9356,6 +10127,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="7bffc1fa-19cb-4de7-90e0-fb568f32d3b2">
@@ -9368,6 +10140,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="51cb1169-cc49-49b7-8a9d-6378446c46ca">
@@ -9380,6 +10153,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cb84c308-925b-4ee7-8ae9-3cb08842a39e">
@@ -9392,6 +10166,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3560d57f-f7d7-4377-a2e1-75071b3621ea">
@@ -9404,6 +10179,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="40c08dff-f883-48dd-8f6b-c7df8bf007e0">
@@ -9416,6 +10192,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="006a6d01-9b75-4423-945a-8c17c736f18e">
@@ -9428,6 +10205,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a8a6ddad-10bb-440f-9135-503b1daf2fde">
@@ -9440,6 +10218,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="20454763-62d9-4dbf-b796-d9108b65017c">
@@ -9452,6 +10231,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4fd15ef0-d570-446e-a5ff-5bb357a7c521">
@@ -9464,6 +10244,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2995c752-944a-41b8-a50a-6f785e526c58">
@@ -9476,6 +10257,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4bd4d3fb-8eb6-425c-9819-cf0c9c2f49e4">
@@ -9488,6 +10270,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bdb863e5-94f8-4442-b9ef-3a28f0bfc500">
@@ -9500,6 +10283,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1bdf61a5-66c7-4f92-8265-76a1c2d3d7f2">
@@ -9512,6 +10296,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9721ca02-7f8d-4c24-aea5-04874fbb1c63">
@@ -9524,6 +10309,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b6be92ab-cbab-4fd0-aa01-b1aeaa303045">
@@ -9536,6 +10322,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c47d0a33-e715-4e2e-9723-3d451da47121">
@@ -9548,6 +10335,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="08a21c19-c3b8-460b-a88e-c51197916b8b">
@@ -9560,6 +10348,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="542be857-b3c6-4158-b467-52dd95f313ec">
@@ -9572,6 +10361,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="199d2e57-2345-4c8b-a6dd-91107024c67c">
@@ -9584,6 +10374,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="b0ddc263-b78e-452b-a382-9e0343a4edec">
@@ -9596,6 +10387,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="bd5fcee6-d69a-4aaf-a222-c74ef4903627">
@@ -9608,6 +10400,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8e55223e-f1f2-45bc-a753-a0a53fe1e57d">
@@ -9620,6 +10413,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6f3e09da-68c8-4145-8f2a-ca16c7187930">
@@ -9632,6 +10426,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d0e5c47b-77a1-41cd-9f87-93c2b74afb5d">
@@ -9644,6 +10439,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f1a96a87-a253-43f8-8c82-b891a48b5711">
@@ -9656,6 +10452,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="654d408d-6a7a-4d60-a662-9bf769d0dd77">
@@ -9668,6 +10465,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="0507777e-fd8f-40d3-b43f-09e5196a41ec">
@@ -9680,6 +10478,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="146de006-3ffa-4876-b4ab-9db7f61c7f2c">
@@ -9692,6 +10491,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5a13eb09-ffbb-467b-80a2-a7e46d01c5ba">
@@ -9704,6 +10504,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1cbb6bb9-a118-41fa-8ce8-122570c40c63">
@@ -9716,6 +10517,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="71c539e9-89d3-43b9-a28a-782703137403">
@@ -9728,6 +10530,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="efd95015-2586-4340-9d24-4c2275b5bba8">
@@ -9740,6 +10543,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="238fb96c-1c1c-444e-a1f0-c2a06098c232">
@@ -9752,6 +10556,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="3cb68eb3-f16b-48b6-b1b4-bd5535129fe4">
@@ -9764,6 +10569,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="212ff42b-f12c-4290-85e8-ba10b4245f8a">
@@ -9776,6 +10582,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="2ff99453-278c-4a43-bd77-1d022cd34294">
@@ -9788,6 +10595,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4eb7c1bf-1316-4f19-a736-1b26efa45717">
@@ -9800,6 +10608,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e96c7a1d-d3ea-43a6-a00f-e4b5e76e2973">
@@ -9812,6 +10621,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ad4b73c9-6c41-4a7f-93ec-881c747c8d55">
@@ -9824,6 +10634,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="c297d97f-c60f-4dec-8fb8-0354131bb771">
@@ -9836,6 +10647,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a4565fd5-616f-42cb-813e-af17f1486d3b">
@@ -9848,6 +10660,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="73e2fbb0-6305-4b59-9827-6ec16e2fe1f3">
@@ -9860,6 +10673,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a317a1e9-4708-42f2-9d91-9b31b989407e">
@@ -9872,6 +10686,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fa54580f-38c4-4392-ad3e-4ef08795ade2">
@@ -9884,6 +10699,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
+					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
 			<Form>ФормаВыбораОперации</Form>

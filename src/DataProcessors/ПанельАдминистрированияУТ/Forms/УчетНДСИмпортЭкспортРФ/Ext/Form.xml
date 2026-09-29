@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -106,7 +106,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаУчетНДСРасширеннаяПодсказка" id="3563"/>
 			<ChildItems>
@@ -120,7 +120,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ФормироватьОтчетностьПоНДСКонтекстноеМеню" id="3565"/>
 					<ExtendedTooltip name="ФормироватьОтчетностьПоНДСРасширеннаяПодсказка" id="3566">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -146,7 +145,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПродажаТоваровОблагаемыхНДСУПокупателяКонтекстноеМеню" id="3560"/>
 					<ExtendedTooltip name="ПродажаТоваровОблагаемыхНДСУПокупателяРасширеннаяПодсказка" id="3561">
 						<AutoMaxWidth>false</AutoMaxWidth>
@@ -172,7 +170,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ПокупкаТоваровОблагаемыхНДСУПокупателяКонтекстноеМеню" id="3571"/>
 					<ExtendedTooltip name="ПокупкаТоваровОблагаемыхНДСУПокупателяРасширеннаяПодсказка" id="3572">
 						<Title formatted="false">
@@ -196,7 +193,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВестиОтдельнуюНумерациюСчетовФактурНаАвансыКонтекстноеМеню" id="3574"/>
 					<ExtendedTooltip name="ВестиОтдельнуюНумерациюСчетовФактурНаАвансыРасширеннаяПодсказка" id="3575">
 						<Title formatted="false">
@@ -266,7 +262,6 @@
 					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ИспользоватьПечатныеФормыСФ2_5КонтекстноеМеню" id="3622"/>
 					<ExtendedTooltip name="ИспользоватьПечатныеФормыСФ2_5РасширеннаяПодсказка" id="3623">
 						<Title formatted="false">
@@ -292,7 +287,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаКонтрольНомеровГТДРасширеннаяПодсказка" id="3526"/>
 			<ChildItems>
@@ -332,7 +327,6 @@
 									<v8:content>Отключать возможность использования торговли импортным товаром после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьИмпортныеТоварыКонтекстноеМеню" id="3311"/>
 							<ExtendedTooltip name="ИспользоватьИмпортныеТоварыРасширеннаяПодсказка" id="3312">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -391,7 +385,6 @@
 											<DataPath>НаборКонстант.ЗапретитьОформлениеОперацийСИмпортнымиТоварамиБезНомеровГТД</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗапретитьОформлениеОперацийСИмпортнымиТоварамиБезНомеровГТДКонтекстноеМеню" id="3019"/>
 											<ExtendedTooltip name="ЗапретитьОформлениеОперацийСИмпортнымиТоварамиБезНомеровГТДРасширеннаяПодсказка" id="3115">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -427,7 +420,6 @@
 											<DataPath>НаборКонстант.ЗапретитьПоступлениеТоваровБезНомеровГТД</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗапретитьПоступлениеТоваровБезНомеровГТДКонтекстноеМеню" id="3025"/>
 											<ExtendedTooltip name="ЗапретитьПоступлениеТоваровБезНомеровГТДРасширеннаяПодсказка" id="3119">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -484,7 +476,6 @@
 															<v8:content>Отключать использование учета прослеживаемых импортных товаров после начала работы с системой не рекомендуется</v8:content>
 														</v8:item>
 													</WarningOnEdit>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьУчетПрослеживаемыхИмпортныхТоваровКонтекстноеМеню" id="3602"/>
 													<ExtendedTooltip name="ИспользоватьУчетПрослеживаемыхИмпортныхТоваровРасширеннаяПодсказка" id="3603"/>
 													<Events>
@@ -635,7 +626,6 @@
 											<DataPath>НаборКонстант.ПроверятьЗаполнениеНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПути</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПроверятьЗаполнениеНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПутиКонтекстноеМеню" id="3581"/>
 											<ExtendedTooltip name="ПроверятьЗаполнениеНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПутиРасширеннаяПодсказка" id="3582">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -654,7 +644,6 @@
 											<DataPath>НаборКонстант.КонтролироватьОстаткиНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПути</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КонтролироватьОстаткиНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПутиКонтекстноеМеню" id="3595"/>
 											<ExtendedTooltip name="КонтролироватьОстаткиНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПутиРасширеннаяПодсказка" id="3596">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -673,7 +662,6 @@
 											<DataPath>НаборКонстант.КонтролироватьОстаткиНомеровГТДПриИмпортеПоСхемеТоварыВПути</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КонтролироватьОстаткиНомеровГТДПриИмпортеПоСхемеТоварыВПутиКонтекстноеМеню" id="3515"/>
 											<ExtendedTooltip name="КонтролироватьОстаткиНомеровГТДПриИмпортеПоСхемеТоварыВПутиРасширеннаяПодсказка" id="3516">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -753,7 +741,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаИмпортРасширеннаяПодсказка" id="3309"/>
 			<ChildItems>
@@ -792,7 +780,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьВвозТоваровИзТаможенногоСоюзаКонтекстноеМеню" id="3627"/>
 									<ExtendedTooltip name="ИспользоватьВвозТоваровИзТаможенногоСоюзаРасширеннаяПодсказка" id="3628">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -833,7 +820,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьИмпортныеЗакупкиКонтекстноеМеню" id="1694"/>
 									<ExtendedTooltip name="ИспользоватьИмпортныеЗакупкиРасширеннаяПодсказка" id="3110">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -877,7 +863,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонтролироватьОстаткиТоваровОрганизацийКОформлениюПоПоступлениямКонтекстноеМеню" id="3337"/>
 									<ExtendedTooltip name="КонтролироватьОстаткиТоваровОрганизацийКОформлениюПоПоступлениямРасширеннаяПодсказка" id="3338">
 										<Title formatted="false">
@@ -907,7 +892,7 @@
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаЭкспортРасширеннаяПодсказка" id="3539"/>
 			<ChildItems>
@@ -940,7 +925,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПродажиНаЭкспортНесырьевыхТоваровКонтекстноеМеню" id="3546"/>
 							<ExtendedTooltip name="ИспользоватьПродажиНаЭкспортНесырьевыхТоваровРасширеннаяПодсказка" id="3547">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -966,7 +950,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПродажиНаЭкспортСырьевыхТоваровУслугКонтекстноеМеню" id="3543"/>
 							<ExtendedTooltip name="ИспользоватьПродажиНаЭкспортСырьевыхТоваровУслугРасширеннаяПодсказка" id="3544">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -985,7 +968,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВестиУчетТаможенныхДекларацийНаЭкспортКонтекстноеМеню" id="3549"/>
 							<ExtendedTooltip name="ВестиУчетТаможенныхДекларацийНаЭкспортРасширеннаяПодсказка" id="3550">
 								<AutoMaxWidth>false</AutoMaxWidth>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -354,7 +354,6 @@
 								<CheckBoxField name="Клиент" id="50">
 									<DataPath>Объект.Клиент</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КлиентКонтекстноеМеню" id="51"/>
 									<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="202"/>
 									<Events>
@@ -364,7 +363,6 @@
 								<CheckBoxField name="Поставщик" id="17">
 									<DataPath>Объект.Поставщик</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоставщикКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="203"/>
 									<Events>
@@ -374,7 +372,6 @@
 								<CheckBoxField name="Конкурент" id="19">
 									<DataPath>Объект.Конкурент</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="КонкурентКонтекстноеМеню" id="20"/>
 									<ExtendedTooltip name="КонкурентРасширеннаяПодсказка" id="204"/>
 									<Events>
@@ -384,7 +381,6 @@
 								<CheckBoxField name="ПрочиеОтношения" id="21">
 									<DataPath>Объект.ПрочиеОтношения</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПрочиеОтношенияКонтекстноеМеню" id="22"/>
 									<ExtendedTooltip name="ПрочиеОтношенияРасширеннаяПодсказка" id="205"/>
 									<Events>
@@ -410,14 +406,12 @@
 								<CheckBoxField name="ОбслуживаетсяТорговымиПредставителями" id="137">
 									<DataPath>Объект.ОбслуживаетсяТорговымиПредставителями</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОбслуживаетсяТорговымиПредставителямиКонтекстноеМеню" id="138"/>
 									<ExtendedTooltip name="ОбслуживаетсяТорговымиПредставителямиРасширеннаяПодсказка" id="207"/>
 								</CheckBoxField>
 								<CheckBoxField name="Перевозчик" id="131">
 									<DataPath>Объект.Перевозчик</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПеревозчикКонтекстноеМеню" id="132"/>
 									<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="208"/>
 									<Events>
@@ -831,7 +825,6 @@
 										<CheckBoxField name="ИспользоватьОбщийВидЦен" id="300">
 											<DataPath>ИспользоватьОбщийВидЦен</DataPath>
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьОбщийВидЦенКонтекстноеМеню" id="301"/>
 											<ExtendedTooltip name="ИспользоватьОбщийВидЦенРасширеннаяПодсказка" id="302"/>
 											<Events>
@@ -884,7 +877,6 @@
 										<CheckBoxField name="ИспользоватьИндивидуальныйВидЦены" id="305">
 											<DataPath>ИспользоватьИндивидуальныйВидЦены</DataPath>
 											<TitleLocation>None</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьИндивидуальныйВидЦеныКонтекстноеМеню" id="306"/>
 											<ExtendedTooltip name="ИспользоватьИндивидуальныйВидЦеныРасширеннаяПодсказка" id="307"/>
 											<Events>

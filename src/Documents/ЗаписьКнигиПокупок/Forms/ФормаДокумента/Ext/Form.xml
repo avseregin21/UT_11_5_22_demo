@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -457,7 +457,6 @@
 										<CheckBoxField name="ЗаписьДополнительногоЛиста" id="22">
 											<DataPath>Объект.ЗаписьДополнительногоЛиста</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ЗаписьДополнительногоЛистаКонтекстноеМеню" id="23"/>
 											<ExtendedTooltip name="ЗаписьДополнительногоЛистаРасширеннаяПодсказка" id="173"/>
 											<Events>
@@ -560,6 +559,7 @@
 								<LabelField name="ЦенностиНомерСтроки" id="82">
 									<DataPath>Объект.Ценности.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ЦенностиНомерСтрокиКонтекстноеМеню" id="83"/>
@@ -571,6 +571,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ЦенностиНоменклатураКодКонтекстноеМеню" id="141"/>
 									<ExtendedTooltip name="ЦенностиНоменклатураКодРасширеннаяПодсказка" id="180"/>
@@ -581,6 +582,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ЦенностиНоменклатураАртикулКонтекстноеМеню" id="143"/>
 									<ExtendedTooltip name="ЦенностиНоменклатураАртикулРасширеннаяПодсказка" id="181"/>
@@ -588,6 +590,7 @@
 								<InputField name="ЦенностиНоменклатура" id="133">
 									<DataPath>Объект.Ценности.Номенклатура</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ЦенностиНоменклатураКонтекстноеМеню" id="134"/>
 									<ExtendedTooltip name="ЦенностиНоменклатураРасширеннаяПодсказка" id="182"/>
@@ -598,6 +601,7 @@
 								<InputField name="ЦенностиВидЦенности" id="84">
 									<DataPath>Объект.Ценности.ВидЦенности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ContextMenu name="ЦенностиВидЦенностиКонтекстноеМеню" id="85"/>
 									<ExtendedTooltip name="ЦенностиВидЦенностиРасширеннаяПодсказка" id="183"/>
@@ -608,6 +612,7 @@
 								<InputField name="ЦенностиСобытие" id="161">
 									<DataPath>Объект.Ценности.Событие</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>16</Width>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ChoiceList>
@@ -642,6 +647,7 @@
 								<InputField name="ЦенностиКоличество" id="135">
 									<DataPath>Объект.Ценности.Количество</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ЦенностиКоличествоКонтекстноеМеню" id="136"/>
 									<ExtendedTooltip name="ЦенностиКоличествоРасширеннаяПодсказка" id="185"/>
@@ -683,6 +689,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ЦенностиСуммаКонтекстноеМеню" id="93"/>
 									<ExtendedTooltip name="ЦенностиСуммаРасширеннаяПодсказка" id="186"/>
@@ -693,6 +700,7 @@
 								<InputField name="ЦенностиСтавкаНДС" id="94">
 									<DataPath>Объект.Ценности.СтавкаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<OpenButton>false</OpenButton>
@@ -705,6 +713,7 @@
 								<InputField name="ЦенностиСуммаНДС" id="96">
 									<DataPath>Объект.Ценности.СуммаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<ContextMenu name="ЦенностиСуммаНДСКонтекстноеМеню" id="97"/>
 									<ExtendedTooltip name="ЦенностиСуммаНДСРасширеннаяПодсказка" id="188"/>
@@ -720,18 +729,23 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<ContextMenu name="ЦенностиСчетРеглУчетаКонтекстноеМеню" id="290"/>
 									<ExtendedTooltip name="ЦенностиСчетРеглУчетаРасширеннаяПодсказка" id="291"/>
 								</InputField>
 								<InputField name="ЦенностиНаправлениеДеятельности" id="309">
 									<DataPath>Объект.Ценности.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦенностиНаправлениеДеятельностиКонтекстноеМеню" id="310"/>
 									<ExtendedTooltip name="ЦенностиНаправлениеДеятельностиРасширеннаяПодсказка" id="311"/>
 								</InputField>
 								<InputField name="ЦенностиКодТНВЭД" id="322">
 									<DataPath>Объект.Ценности.КодТНВЭД</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ЦенностиКодТНВЭДКонтекстноеМеню" id="323"/>
 									<ExtendedTooltip name="ЦенностиКодТНВЭДРасширеннаяПодсказка" id="324"/>
@@ -742,6 +756,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -754,6 +769,7 @@
 										<xr:Common>false</xr:Common>
 									</UserVisible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ЦенностиНомерГТДСтранаПроисхожденияКонтекстноеМеню" id="101"/>
 									<ExtendedTooltip name="ЦенностиНомерГТДСтранаПроисхожденияРасширеннаяПодсказка" id="190"/>
 								</LabelField>
@@ -817,6 +833,7 @@
 								<LabelField name="ДокументыОплатыНомерСтроки" id="102">
 									<DataPath>Объект.ДокументыОплаты.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<ContextMenu name="ДокументыОплатыНомерСтрокиКонтекстноеМеню" id="103"/>
 									<ExtendedTooltip name="ДокументыОплатыНомерСтрокиРасширеннаяПодсказка" id="193"/>
@@ -824,6 +841,7 @@
 								<InputField name="ДокументыОплатыДатаОплаты" id="104">
 									<DataPath>Объект.ДокументыОплаты.ДатаОплаты</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<ContextMenu name="ДокументыОплатыДатаОплатыКонтекстноеМеню" id="105"/>
 									<ExtendedTooltip name="ДокументыОплатыДатаОплатыРасширеннаяПодсказка" id="194"/>
@@ -831,6 +849,7 @@
 								<InputField name="ДокументыОплатыДокументОплаты" id="106">
 									<DataPath>Объект.ДокументыОплаты.ДокументОплаты</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -929,7 +948,6 @@
 								<CheckBoxField name="ПредъявленСчетФактура" id="145">
 									<DataPath>Объект.ПредъявленСчетФактура</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПредъявленСчетФактураКонтекстноеМеню" id="146"/>
 									<ExtendedTooltip name="ПредъявленСчетФактураРасширеннаяПодсказка" id="200"/>
 									<Events>
@@ -1009,7 +1027,6 @@
 													<v8:content>Счет-фактура поставщика получен</v8:content>
 												</v8:item>
 											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПолученКонтекстноеМеню" id="156"/>
 											<ExtendedTooltip name="ПолученРасширеннаяПодсказка" id="206"/>
 											<Events>
@@ -1034,7 +1051,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПолученВЭлектронномВидеКонтекстноеМеню" id="160"/>
 											<ExtendedTooltip name="ПолученВЭлектронномВидеРасширеннаяПодсказка" id="208"/>
 										</CheckBoxField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -12,6 +12,7 @@
 	<CommandSet>
 		<ExcludedCommand>CustomizeForm</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
@@ -223,7 +224,7 @@
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<HeightInTableRows>3</HeightInTableRows>
 							<SelectionMode>SingleRow</SelectionMode>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -350,6 +351,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>31</Width>
 									<ChoiceButton>true</ChoiceButton>
 									<OpenButton>true</OpenButton>
@@ -375,6 +377,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>31</Width>
 									<ExtendedEdit>true</ExtendedEdit>
 									<ContextMenu name="ПользователиКомментарийКонтекстноеМеню" id="130"/>
@@ -842,7 +845,6 @@
 																										</v8:item>
 																									</Title>
 																									<TitleLocation>Right</TitleLocation>
-																									<CheckBoxType>Auto</CheckBoxType>
 																									<ContextMenu name="РазрешитьИзменениеДанныхДоДатыЗапретаКонтекстноеМеню" id="488"/>
 																									<ExtendedTooltip name="РазрешитьИзменениеДанныхДоДатыЗапретаРасширеннаяПодсказка" id="489"/>
 																									<Events>
@@ -928,7 +930,7 @@
 															<Representation>Tree</Representation>
 															<ChangeRowOrder>false</ChangeRowOrder>
 															<HeightInTableRows>3</HeightInTableRows>
-															<UseAlternationRowColor>true</UseAlternationRowColor>
+															<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 															<AutoInsertNewRow>true</AutoInsertNewRow>
 															<InitialTreeView>ExpandAllLevels</InitialTreeView>
 															<EnableStartDrag>true</EnableStartDrag>
@@ -1105,6 +1107,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>16</Width>
 																	<ChoiceButton>true</ChoiceButton>
 																	<TextEdit>false</TextEdit>
@@ -1126,6 +1129,9 @@
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<CellHyperlink>true</CellHyperlink>
+																	<AutoEditMode>true</AutoEditMode>
+																	<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+																	<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 																	<Width>16</Width>
 																	<ContextMenu name="ДатыЗапретаОписаниеДатыЗапретаПредставлениеКонтекстноеМеню" id="142"/>
 																	<ExtendedTooltip name="ДатыЗапретаОписаниеДатыЗапретаПредставлениеРасширеннаяПодсказка" id="395"/>
@@ -1139,6 +1145,7 @@
 																		</v8:item>
 																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
+																	<AutoEditMode>true</AutoEditMode>
 																	<Width>16</Width>
 																	<ClearButton>true</ClearButton>
 																	<ContextMenu name="ДатыЗапретаДатаЗапретаКонтекстноеМеню" id="136"/>
@@ -1161,7 +1168,7 @@
 												</v8:item>
 											</Title>
 											<Behavior>Collapsible</Behavior>
-											<ControlRepresentation>Picture</ControlRepresentation>
+											<ControlRepresentation>Button</ControlRepresentation>
 											<Representation>NormalSeparation</Representation>
 											<ExtendedTooltip name="ГруппаРасширенныеВозможностиРасширеннаяПодсказка" id="443"/>
 											<ChildItems>

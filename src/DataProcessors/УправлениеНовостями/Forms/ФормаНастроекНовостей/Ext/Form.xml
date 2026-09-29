@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -21,6 +21,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -151,7 +152,6 @@
 										</v8:item>
 									</ToolTip>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РазрешенаРаботаСНовостямиЧерезИнтернетКонтекстноеМеню" id="117"/>
 									<ExtendedTooltip name="РазрешенаРаботаСНовостямиЧерезИнтернетРасширеннаяПодсказка" id="151">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -836,7 +836,7 @@
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<RowSelectionMode>Row</RowSelectionMode>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокОбновляемыхДанных</DataPath>
 							<Title>
@@ -1068,7 +1068,7 @@
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<RowSelectionMode>Row</RowSelectionMode>
 							<HeaderHeight>2</HeaderHeight>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ЛентыНовостей</DataPath>
 							<RowPictureDataPath>ЛентыНовостей.DefaultPicture</RowPictureDataPath>
@@ -1279,7 +1279,6 @@
 новости</v8:content>
 										</v8:item>
 									</Title>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛентыНовостейОбязательныйКаналКонтекстноеМеню" id="13"/>
 									<ExtendedTooltip name="ЛентыНовостейОбязательныйКаналРасширеннаяПодсказка" id="189"/>
 								</CheckBoxField>
@@ -1424,7 +1423,6 @@
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЛентыНовостейЛокальнаяЛентаНовостейКонтекстноеМеню" id="138"/>
 									<ExtendedTooltip name="ЛентыНовостейЛокальнаяЛентаНовостейРасширеннаяПодсказка" id="202"/>
 								</CheckBoxField>
@@ -1780,7 +1778,7 @@
 							<CommandBarLocation>Top</CommandBarLocation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<Header>false</Header>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>НастройкиОтборовПользователями</DataPath>
 							<CommandSet>
@@ -1870,7 +1868,6 @@
 									<DataPath>НастройкиОтборовПользователями.РазрешенаНастройкаОтборов</DataPath>
 									<ShowInHeader>false</ShowInHeader>
 									<ShowInFooter>false</ShowInFooter>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НастройкиОтборовПользователямиРазрешенаНастройкаОтборовКонтекстноеМеню" id="111"/>
 									<ExtendedTooltip name="НастройкиОтборовПользователямиРазрешенаНастройкаОтборовРасширеннаяПодсказка" id="211"/>
 								</CheckBoxField>
@@ -1919,7 +1916,6 @@
 Если галочка отключена, то в журнал регистрации будут писаться только ошибки и предупреждения.</v8:content>
 										</v8:item>
 									</ToolTip>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЖурналРегистрации_ПодробнаяЗаписьКонтекстноеМеню" id="315"/>
 									<ExtendedTooltip name="ЖурналРегистрации_ПодробнаяЗаписьРасширеннаяПодсказка" id="316"/>
 									<Events>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -104,7 +104,7 @@
 			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаУправлениеСкладамиРасширеннаяПодсказка" id="3020"/>
@@ -152,7 +152,6 @@
 											<v8:content>Отключать возможность использования нескольких складов после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьНесколькоСкладовКонтекстноеМеню" id="2892"/>
 									<ExtendedTooltip name="ИспользоватьНесколькоСкладовРасширеннаяПодсказка" id="3014"/>
 									<Events>
@@ -259,7 +258,6 @@
 											<v8:content>Отключать ордерную схему после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОрдерныеСкладыКонтекстноеМеню" id="128"/>
 									<ExtendedTooltip name="ИспользоватьОрдерныеСкладыРасширеннаяПодсказка" id="3023">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -523,7 +521,6 @@
 									<v8:content>Отключать упаковочные листы после начала работы с системой не рекомендуется</v8:content>
 								</v8:item>
 							</WarningOnEdit>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьУпаковочныеЛистыКонтекстноеМеню" id="3185"/>
 							<ExtendedTooltip name="ИспользоватьУпаковочныеЛистыРасширеннаяПодсказка" id="3186">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -591,7 +588,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаУправлениеДоставкойРасширеннаяПодсказка" id="3374"/>
 			<ChildItems>
@@ -634,7 +631,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьУправлениеДоставкойКонтекстноеМеню" id="3380"/>
 									<ExtendedTooltip name="ИспользоватьУправлениеДоставкойРасширеннаяПодсказка" id="3381">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -705,7 +701,6 @@
 											<v8:content>Отключать использование заданий на перевозку для учета доставки силами перевозчика после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчикамиКонтекстноеМеню" id="3383"/>
 									<ExtendedTooltip name="ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчикамиРасширеннаяПодсказка" id="3384">
 										<Title formatted="false">
@@ -738,7 +733,6 @@
 									<DataPath>НаборКонстант.РедактироватьАдресаДоставкиТолькоВДиалоге</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РедактироватьАдресаДоставкиТолькоВДиалогеКонтекстноеМеню" id="3388"/>
 									<ExtendedTooltip name="РедактироватьАдресаДоставкиТолькоВДиалогеРасширеннаяПодсказка" id="3389">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -818,7 +812,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаПеремещениеТоваровРасширеннаяПодсказка" id="3028"/>
@@ -874,7 +868,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПеремещениеТоваровКонтекстноеМеню" id="2909"/>
 											<ExtendedTooltip name="ИспользоватьПеремещениеТоваровРасширеннаяПодсказка" id="3031">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -925,7 +918,6 @@
 											<DataPath>НаборКонстант.ПеремещатьТоварыДругихОрганизаций</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПеремещатьТоварыДругихОрганизацийКонтекстноеМеню" id="2992"/>
 											<ExtendedTooltip name="ПеремещатьТоварыДругихОрганизацийРасширеннаяПодсказка" id="3049">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -1039,7 +1031,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьЗаказыНаПеремещениеКонтекстноеМеню" id="2916"/>
 											<ExtendedTooltip name="ИспользоватьЗаказыНаПеремещениеРасширеннаяПодсказка" id="3034">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -1102,7 +1093,6 @@
 															</Title>
 															<TitleLocation>Right</TitleLocation>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НеЗакрыватьЗаказыНаПеремещениеБезПолнойОтгрузкиКонтекстноеМеню" id="3232"/>
 															<ExtendedTooltip name="НеЗакрыватьЗаказыНаПеремещениеБезПолнойОтгрузкиРасширеннаяПодсказка" id="3233">
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -1165,7 +1155,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьПеремещениеПоНесколькимЗаказамКонтекстноеМеню" id="2922"/>
 											<ExtendedTooltip name="ИспользоватьПеремещениеПоНесколькимЗаказамРасширеннаяПодсказка" id="3039">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -1206,7 +1195,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьАктыРасхожденийПослеПеремещенияКонтекстноеМеню" id="3266"/>
 											<ExtendedTooltip name="ИспользоватьАктыРасхожденийПослеПеремещенияРасширеннаяПодсказка" id="3267">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -1343,7 +1331,7 @@
 					</Title>
 					<Behavior>Collapsible</Behavior>
 					<Collapsed>true</Collapsed>
-					<ControlRepresentation>Picture</ControlRepresentation>
+					<ControlRepresentation>Button</ControlRepresentation>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСтатусыПеремещениеРасширеннаяПодсказка" id="3726"/>
@@ -1356,7 +1344,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИспользоватьСтатусыЗаказовНаПеремещениеРасширеннаяПодсказка" id="3728"/>
@@ -1371,7 +1359,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыЗаказовНаПеремещениеКонтекстноеМеню" id="3730"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыЗаказовНаПеремещениеРасширеннаяПодсказка" id="3731">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1412,7 +1399,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыПеремещенийТоваровКонтекстноеМеню" id="2965"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыПеремещенийТоваровРасширеннаяПодсказка" id="3043">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1451,7 +1437,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаВнутреннееПотреблениеРасширеннаяПодсказка" id="3411"/>
@@ -1508,7 +1494,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьВнутреннееПотреблениеКонтекстноеМеню" id="3081"/>
 											<ExtendedTooltip name="ИспользоватьВнутреннееПотреблениеРасширеннаяПодсказка" id="3082">
 												<HorizontalStretch>true</HorizontalStretch>
@@ -1546,7 +1531,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ИспользоватьЗаказыНаВнутреннееПотреблениеКонтекстноеМеню" id="3089"/>
 													<ExtendedTooltip name="ИспользоватьЗаказыНаВнутреннееПотреблениеРасширеннаяПодсказка" id="3090">
 														<HorizontalStretch>true</HorizontalStretch>
@@ -1612,7 +1596,6 @@
 															</Title>
 															<TitleLocation>Right</TitleLocation>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="НеЗакрыватьЗаказыНаВнутреннееПотреблениеБезПолнойОтгрузкиКонтекстноеМеню" id="3245"/>
 															<ExtendedTooltip name="НеЗакрыватьЗаказыНаВнутреннееПотреблениеБезПолнойОтгрузкиРасширеннаяПодсказка" id="3246">
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -1659,7 +1642,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьВнутреннееПотреблениеПоНесколькимЗаказамКонтекстноеМеню" id="3097"/>
 									<ExtendedTooltip name="ИспользоватьВнутреннееПотреблениеПоНесколькимЗаказамРасширеннаяПодсказка" id="3098">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1800,7 +1782,6 @@
 											<v8:content>Отключать статусы заказов на внутреннее потребление после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыЗаказовНаВнутреннееПотреблениеКонтекстноеМеню" id="3723"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыЗаказовНаВнутреннееПотреблениеРасширеннаяПодсказка" id="3724">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1846,7 +1827,6 @@
 											<v8:content>Отключать статусы внутренних потреблений после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыВнутреннихПотребленийКонтекстноеМеню" id="3622"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыВнутреннихПотребленийРасширеннаяПодсказка" id="3623">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -1889,7 +1869,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ИспользоватьПрочееОприходованиеТоваровКонтекстноеМеню" id="3177"/>
 							<ExtendedTooltip name="ИспользоватьПрочееОприходованиеТоваровРасширеннаяПодсказка" id="3178">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1946,7 +1925,6 @@
 											<v8:content>Отключать согласование заказов на внутреннее потребление после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСогласованиеЗаказовВнутреннегоПотребленияКонтекстноеМеню" id="3654"/>
 									<ExtendedTooltip name="ИспользоватьСогласованиеЗаказовВнутреннегоПотребленияРасширеннаяПодсказка" id="3655"/>
 									<Events>
@@ -2041,7 +2019,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаСборкаТоваровРасширеннаяПодсказка" id="3548"/>
@@ -2084,7 +2062,6 @@
 									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСборкуРазборкуКонтекстноеМеню" id="3107"/>
 									<ExtendedTooltip name="ИспользоватьСборкуРазборкуРасширеннаяПодсказка" id="3108">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -2122,7 +2099,6 @@
 											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ИспользоватьЗаказыНаСборкуКонтекстноеМеню" id="3115"/>
 											<ExtendedTooltip name="ИспользоватьЗаказыНаСборкуРасширеннаяПодсказка" id="3116">
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2186,7 +2162,6 @@
 													</Title>
 													<TitleLocation>Right</TitleLocation>
 													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="НеЗакрыватьЗаказыНаСборкуБезПолнойОтгрузкиКонтекстноеМеню" id="3258"/>
 													<ExtendedTooltip name="НеЗакрыватьЗаказыНаСборкуБезПолнойОтгрузкиРасширеннаяПодсказка" id="3259">
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2395,7 +2370,6 @@
 											<v8:content>Отключать статусы заказов на сборку / разборку после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыЗаказовНаСборкуКонтекстноеМеню" id="3735"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыЗаказовНаСборкуРасширеннаяПодсказка" id="3736">
 										<Title formatted="false">
@@ -2440,7 +2414,6 @@
 											<v8:content>Отключать статусы сборок / разборок после начала работы с системой не рекомендуется.</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьСтатусыСборокТоваровКонтекстноеМеню" id="3161"/>
 									<ExtendedTooltip name="ИспользоватьСтатусыСборокТоваровРасширеннаяПодсказка" id="3162">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -2477,7 +2450,7 @@
 			<Group>Vertical</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<Representation>NormalSeparation</Representation>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаОбеспечениеПотребностейРасширеннаяПодсказка" id="3296"/>
@@ -2526,7 +2499,6 @@
 											<v8:content>Отключать обособленное обеспечение заказов после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьОбособленноеОбеспечениеЗаказовКонтекстноеМеню" id="3302"/>
 									<ExtendedTooltip name="ИспользоватьОбособленноеОбеспечениеЗаказовРасширеннаяПодсказка" id="3303">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -2573,7 +2545,6 @@
 											<v8:content>Отключать возможность превышения обособленного обеспечения после начала работы с системой не рекомендуется</v8:content>
 										</v8:item>
 									</WarningOnEdit>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="РазрешитьОбособлениеТоваровСверхПотребностиКонтекстноеМеню" id="3627"/>
 									<ExtendedTooltip name="РазрешитьОбособлениеТоваровСверхПотребностиРасширеннаяПодсказка" id="3628">
 										<HorizontalStretch>true</HorizontalStretch>
@@ -3263,7 +3234,6 @@
 							<DataPath>НаборКонстант.КонтролироватьЗапасыТоваровПодлежащихРезервированиюПоМереПоступления</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="КонтролироватьЗапасыТоваровПодлежащихРезервированиюПоМереПоступленияКонтекстноеМеню" id="3691"/>
 							<ExtendedTooltip name="КонтролироватьЗапасыТоваровПодлежащихРезервированиюПоМереПоступленияРасширеннаяПодсказка" id="3692">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -3312,7 +3282,7 @@
 			</Title>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
+			<ControlRepresentation>Button</ControlRepresentation>
 			<ExtendedTooltip name="ГруппаПечатныеФормыРасширеннаяПодсказка" id="3696"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаВыводитьНаправлениеДеятельностиИГК" id="3697">
@@ -3340,7 +3310,6 @@
 							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыводитьНаправлениеДеятельностиИГККонтекстноеМеню" id="3700"/>
 							<ExtendedTooltip name="ВыводитьНаправлениеДеятельностиИГКРасширеннаяПодсказка" id="3701">
 								<AutoMaxWidth>false</AutoMaxWidth>

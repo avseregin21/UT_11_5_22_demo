@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Указание серии</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
 		<ExcludedCommand>Help</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -70,6 +71,7 @@
 								<InputField name="Номер" id="7">
 									<DataPath>Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -107,6 +109,7 @@
 						<InputField name="ГоденДо" id="3">
 							<DataPath>ГоденДо</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>14</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -232,7 +235,6 @@
 								<CheckBoxField name="RFIDМеткаНеЧитаемая" id="172">
 									<DataPath>RFIDМеткаНеЧитаемая</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="RFIDМеткаНеЧитаемаяКонтекстноеМеню" id="173"/>
 									<ExtendedTooltip name="RFIDМеткаНеЧитаемаяРасширеннаяПодсказка" id="174"/>
 									<Events>
@@ -382,7 +384,7 @@
 						<Table name="ОстаткиСерий" id="18">
 							<ChangeRowSet>false</ChangeRowSet>
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ОстаткиСерий</DataPath>
@@ -438,6 +440,7 @@
 									<DataPath>ОстаткиСерий.Номер</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>15</Width>
 									<ContextMenu name="ОстаткиСерийНомерКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="ОстаткиСерийНомерРасширеннаяПодсказка" id="43"/>
@@ -445,6 +448,7 @@
 								<InputField name="ОстаткиСерийДатаПроизводства" id="187">
 									<DataPath>ОстаткиСерий.ДатаПроизводства</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="ОстаткиСерийДатаПроизводстваКонтекстноеМеню" id="188"/>
 									<ExtendedTooltip name="ОстаткиСерийДатаПроизводстваРасширеннаяПодсказка" id="189"/>
@@ -453,6 +457,7 @@
 									<DataPath>ОстаткиСерий.ГоденДо</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="ОстаткиСерийГоденДоКонтекстноеМеню" id="31"/>
 									<ExtendedTooltip name="ОстаткиСерийГоденДоРасширеннаяПодсказка" id="44"/>
@@ -461,6 +466,7 @@
 									<DataPath>ОстаткиСерий.НомерКиЗГИСМ</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Mask>UU-UUUUUU-UUUUUUUUUU</Mask>
 									<ContextMenu name="ОстаткиСерийНомерКиЗГИСМКонтекстноеМеню" id="112"/>
 									<ExtendedTooltip name="ОстаткиСерийНомерКиЗГИСМРасширеннаяПодсказка" id="113"/>
@@ -468,30 +474,35 @@
 								<InputField name="ОстаткиСерийПроизводительЕГАИС" id="190">
 									<DataPath>ОстаткиСерий.ПроизводительЕГАИС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиСерийПроизводительЕГАИСКонтекстноеМеню" id="191"/>
 									<ExtendedTooltip name="ОстаткиСерийПроизводительЕГАИСРасширеннаяПодсказка" id="192"/>
 								</InputField>
 								<InputField name="ОстаткиСерийСправка2ЕГАИС" id="193">
 									<DataPath>ОстаткиСерий.Справка2ЕГАИС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиСерийСправка2ЕГАИСКонтекстноеМеню" id="194"/>
 									<ExtendedTooltip name="ОстаткиСерийСправка2ЕГАИСРасширеннаяПодсказка" id="195"/>
 								</InputField>
 								<InputField name="ОстаткиСерийПроизводительВЕТИС" id="205">
 									<DataPath>ОстаткиСерий.ПроизводительВЕТИС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиСерийПроизводительВЕТИСКонтекстноеМеню" id="206"/>
 									<ExtendedTooltip name="ОстаткиСерийПроизводительВЕТИСРасширеннаяПодсказка" id="207"/>
 								</InputField>
 								<InputField name="ОстаткиСерийЗаписьСкладскогоЖурналаВЕТИС" id="208">
 									<DataPath>ОстаткиСерий.ЗаписьСкладскогоЖурналаВЕТИС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиСерийЗаписьСкладскогоЖурналаВЕТИСКонтекстноеМеню" id="209"/>
 									<ExtendedTooltip name="ОстаткиСерийЗаписьСкладскогоЖурналаВЕТИСРасширеннаяПодсказка" id="210"/>
 								</InputField>
 								<InputField name="ОстаткиСерийИдентификаторПартииВЕТИС" id="214">
 									<DataPath>ОстаткиСерий.ИдентификаторПартииВЕТИС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="ОстаткиСерийИдентификаторПартииВЕТИСКонтекстноеМеню" id="215"/>
 									<ExtendedTooltip name="ОстаткиСерийИдентификаторПартииВЕТИСРасширеннаяПодсказка" id="216"/>
@@ -499,6 +510,7 @@
 								<InputField name="ОстаткиСерийМаксимальнаяРозничнаяЦенаМОТП" id="217">
 									<DataPath>ОстаткиСерий.МаксимальнаяРозничнаяЦенаМОТП</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиСерийМаксимальнаяРозничнаяЦенаМОТПКонтекстноеМеню" id="218"/>
 									<ExtendedTooltip name="ОстаткиСерийМаксимальнаяРозничнаяЦенаМОТПРасширеннаяПодсказка" id="219"/>
 								</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -265,7 +265,7 @@
 					<Representation>List</Representation>
 					<ChangeRowSet>false</ChangeRowSet>
 					<SelectionMode>SingleRow</SelectionMode>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -346,6 +346,7 @@
 						<InputField name="КОформлениюЗаПериодПериод" id="477">
 							<DataPath>КОформлениюЗаПериод.Период</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>9</Width>
 							<Format>
 								<v8:item>
@@ -365,6 +366,7 @@
 						<InputField name="КОформлениюЗаПериодОтправитель" id="480">
 							<DataPath>КОформлениюЗаПериод.Отправитель</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="КОформлениюЗаПериодОтправительКонтекстноеМеню" id="481"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодОтправительРасширеннаяПодсказка" id="482"/>
@@ -372,18 +374,21 @@
 						<InputField name="КОформлениюЗаПериодКонтрагент" id="569">
 							<DataPath>КОформлениюЗаПериод.Контрагент</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КОформлениюЗаПериодКонтрагентКонтекстноеМеню" id="570"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодКонтрагентРасширеннаяПодсказка" id="571"/>
 						</InputField>
 						<InputField name="КОформлениюЗаПериодДоговор" id="492">
 							<DataPath>КОформлениюЗаПериод.Договор</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КОформлениюЗаПериодДоговорКонтекстноеМеню" id="493"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодДоговорРасширеннаяПодсказка" id="494"/>
 						</InputField>
 						<InputField name="КОформлениюЗаПериодПолучатель" id="483">
 							<DataPath>КОформлениюЗаПериод.Получатель</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="КОформлениюЗаПериодПолучательКонтекстноеМеню" id="484"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодПолучательРасширеннаяПодсказка" id="485"/>
@@ -402,12 +407,14 @@
 									<DataPath>КОформлениюЗаПериод.МестоХраненияПартнер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОформлениюЗаПериодМестоХраненияПартнерКонтекстноеМеню" id="593"/>
 									<ExtendedTooltip name="КОформлениюЗаПериодМестоХраненияПартнерРасширеннаяПодсказка" id="594"/>
 								</InputField>
 								<InputField name="КОформлениюЗаПериодМестоХранения" id="587">
 									<DataPath>КОформлениюЗаПериод.МестоХранения</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="КОформлениюЗаПериодМестоХраненияКонтекстноеМеню" id="588"/>
 									<ExtendedTooltip name="КОформлениюЗаПериодМестоХраненияРасширеннаяПодсказка" id="589"/>
 								</InputField>
@@ -416,12 +423,14 @@
 						<InputField name="КОформлениюЗаПериодНалогообложениеНДС" id="572">
 							<DataPath>КОформлениюЗаПериод.НалогообложениеНДС</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КОформлениюЗаПериодНалогообложениеНДСКонтекстноеМеню" id="573"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодНалогообложениеНДСРасширеннаяПодсказка" id="574"/>
 						</InputField>
 						<InputField name="КОформлениюЗаПериодВидЦены" id="495">
 							<DataPath>КОформлениюЗаПериод.ВидЦены</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КОформлениюЗаПериодВидЦеныКонтекстноеМеню" id="496"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодВидЦеныРасширеннаяПодсказка" id="497"/>
 						</InputField>
@@ -431,12 +440,14 @@
 								<xr:Common>false</xr:Common>
 							</UserVisible>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КОформлениюЗаПериодВалютаКонтекстноеМеню" id="555"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодВалютаРасширеннаяПодсказка" id="556"/>
 						</InputField>
 						<InputField name="КОформлениюЗаПериодХозяйственнаяОперация" id="474">
 							<DataPath>КОформлениюЗаПериод.ХозяйственнаяОперация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>16</Width>
 							<ContextMenu name="КОформлениюЗаПериодХозяйственнаяОперацияКонтекстноеМеню" id="475"/>
 							<ExtendedTooltip name="КОформлениюЗаПериодХозяйственнаяОперацияРасширеннаяПодсказка" id="476"/>

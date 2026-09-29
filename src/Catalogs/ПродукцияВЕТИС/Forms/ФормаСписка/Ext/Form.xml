@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
 		<ExcludedCommand>CreateFolder</ExcludedCommand>
@@ -139,7 +139,7 @@
 						</UsualGroup>
 						<Table name="Список" id="3">
 							<Representation>Tree</Representation>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
@@ -692,6 +692,7 @@
 												<InputField name="НаименованияПродукцииНаименование" id="171">
 													<DataPath>НаименованияПродукции.Наименование</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииНаименованиеКонтекстноеМеню" id="172"/>
 													<ExtendedTooltip name="НаименованияПродукцииНаименованиеРасширеннаяПодсказка" id="173"/>
 												</InputField>
@@ -701,6 +702,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииUUIDКонтекстноеМеню" id="175"/>
 													<ExtendedTooltip name="НаименованияПродукцииUUIDРасширеннаяПодсказка" id="176"/>
 												</InputField>
@@ -710,6 +712,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииGUIDКонтекстноеМеню" id="178"/>
 													<ExtendedTooltip name="НаименованияПродукцииGUIDРасширеннаяПодсказка" id="179"/>
 												</InputField>
@@ -719,6 +722,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииСтатусКонтекстноеМеню" id="181"/>
 													<ExtendedTooltip name="НаименованияПродукцииСтатусРасширеннаяПодсказка" id="182"/>
 												</InputField>
@@ -728,6 +732,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииДатаСозданияКонтекстноеМеню" id="184"/>
 													<ExtendedTooltip name="НаименованияПродукцииДатаСозданияРасширеннаяПодсказка" id="185"/>
 												</InputField>
@@ -737,6 +742,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииДатаИзмененияКонтекстноеМеню" id="187"/>
 													<ExtendedTooltip name="НаименованияПродукцииДатаИзмененияРасширеннаяПодсказка" id="188"/>
 												</InputField>
@@ -746,7 +752,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииАктивностьКонтекстноеМеню" id="190"/>
 													<ExtendedTooltip name="НаименованияПродукцииАктивностьРасширеннаяПодсказка" id="191"/>
 												</CheckBoxField>
@@ -756,19 +762,21 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииАктуальностьКонтекстноеМеню" id="193"/>
 													<ExtendedTooltip name="НаименованияПродукцииАктуальностьРасширеннаяПодсказка" id="194"/>
 												</CheckBoxField>
 												<InputField name="НаименованияПродукцииGTIN" id="207">
 													<DataPath>НаименованияПродукции.GTIN</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииGTINКонтекстноеМеню" id="208"/>
 													<ExtendedTooltip name="НаименованияПродукцииGTINРасширеннаяПодсказка" id="209"/>
 												</InputField>
 												<InputField name="НаименованияПродукцииАртикул" id="273">
 													<DataPath>НаименованияПродукции.Артикул</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииАртикулКонтекстноеМеню" id="274"/>
 													<ExtendedTooltip name="НаименованияПродукцииАртикулРасширеннаяПодсказка" id="275"/>
 												</InputField>
@@ -792,7 +800,7 @@
 															<DataPath>НаименованияПродукции.СоответствуетГОСТ</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НаименованияПродукцииСоответствуетГОСТКонтекстноеМеню" id="199"/>
 															<ExtendedTooltip name="НаименованияПродукцииСоответствуетГОСТРасширеннаяПодсказка" id="200"/>
 														</CheckBoxField>
@@ -806,6 +814,7 @@
 															</Title>
 															<TitleLocation>Top</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НаименованияПродукцииГОСТКонтекстноеМеню" id="196"/>
 															<ExtendedTooltip name="НаименованияПродукцииГОСТРасширеннаяПодсказка" id="197"/>
 														</InputField>
@@ -814,6 +823,7 @@
 												<InputField name="НаименованияПродукцииПроизводитель" id="210">
 													<DataPath>НаименованияПродукции.Производитель</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииПроизводительКонтекстноеМеню" id="211"/>
 													<ExtendedTooltip name="НаименованияПродукцииПроизводительРасширеннаяПодсказка" id="212"/>
 												</InputField>
@@ -823,6 +833,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииСобственникТМКонтекстноеМеню" id="214"/>
 													<ExtendedTooltip name="НаименованияПродукцииСобственникТМРасширеннаяПодсказка" id="215"/>
 												</InputField>
@@ -832,6 +843,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииПроизводительХозяйствующийСубъектКонтекстноеМеню" id="220"/>
 													<ExtendedTooltip name="НаименованияПродукцииПроизводительХозяйствующийСубъектРасширеннаяПодсказка" id="221"/>
 												</InputField>
@@ -841,6 +853,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииПроизводительХозяйствующийСубъектИдентификаторКонтекстноеМеню" id="217"/>
 													<ExtendedTooltip name="НаименованияПродукцииПроизводительХозяйствующийСубъектИдентификаторРасширеннаяПодсказка" id="218"/>
 												</InputField>
@@ -850,6 +863,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииТипПродукцииКонтекстноеМеню" id="223"/>
 													<ExtendedTooltip name="НаименованияПродукцииТипПродукцииРасширеннаяПодсказка" id="224"/>
 												</InputField>
@@ -859,6 +873,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииВидПродукцииGUIDКонтекстноеМеню" id="202"/>
 													<ExtendedTooltip name="НаименованияПродукцииВидПродукцииGUIDРасширеннаяПодсказка" id="203"/>
 												</InputField>
@@ -868,6 +883,7 @@
 														<xr:Common>false</xr:Common>
 													</UserVisible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="НаименованияПродукцииПродукцияGUIDКонтекстноеМеню" id="226"/>
 													<ExtendedTooltip name="НаименованияПродукцииПродукцияGUIDРасширеннаяПодсказка" id="227"/>
 												</InputField>

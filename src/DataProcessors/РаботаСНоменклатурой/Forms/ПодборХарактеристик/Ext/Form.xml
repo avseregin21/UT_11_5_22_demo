@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -8,7 +8,7 @@
 	</Title>
 	<Width>65</Width>
 	<Height>40</Height>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -111,7 +111,7 @@
 							<DataPath>ОтборХарактеристик.Пометка</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОтборХарактеристикПометкаКонтекстноеМеню" id="57"/>
 							<ExtendedTooltip name="ОтборХарактеристикПометкаРасширеннаяПодсказка" id="58"/>
 							<Events>
@@ -127,12 +127,14 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОтборХарактеристикПредставлениеРеквизитаКонтекстноеМеню" id="60"/>
 							<ExtendedTooltip name="ОтборХарактеристикПредставлениеРеквизитаРасширеннаяПодсказка" id="61"/>
 						</InputField>
 						<InputField name="ОтборХарактеристикВидСравнения" id="70">
 							<DataPath>ОтборХарактеристик.ВидСравнения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОтборХарактеристикВидСравненияКонтекстноеМеню" id="71"/>
 							<ExtendedTooltip name="ОтборХарактеристикВидСравненияРасширеннаяПодсказка" id="72"/>
 						</InputField>
@@ -157,6 +159,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОтборХарактеристикЗначениеРеквизитаКонтекстноеМеню" id="65"/>
 									<ExtendedTooltip name="ОтборХарактеристикЗначениеРеквизитаРасширеннаяПодсказка" id="66"/>
 									<Events>
@@ -174,6 +177,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceButton>false</ChoiceButton>
 									<ContextMenu name="ОтборХарактеристикЗначениеРеквизитаДополнительноеКонтекстноеМеню" id="68"/>
 									<ExtendedTooltip name="ОтборХарактеристикЗначениеРеквизитаДополнительноеРасширеннаяПодсказка" id="69"/>
@@ -347,7 +351,7 @@
 									<DataPath>Характеристики.Пометка</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ХарактеристикиПометкаКонтекстноеМеню" id="21"/>
 									<ExtendedTooltip name="ХарактеристикиПометкаРасширеннаяПодсказка" id="22"/>
 									<Events>
@@ -368,6 +372,7 @@
 										<xr:Ref>CommonPicture.ИконкаБелыйФонРаботаСНоменклатурой</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ХарактеристикиПредставлениеХарактеристикиКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="ХарактеристикиПредставлениеХарактеристикиРасширеннаяПодсказка" id="19"/>
 								</InputField>
@@ -376,6 +381,9 @@
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<ContextMenu name="ХарактеристикиГиперссылкаЗапросаДанныхКонтекстноеМеню" id="80"/>
 									<ExtendedTooltip name="ХарактеристикиГиперссылкаЗапросаДанныхРасширеннаяПодсказка" id="81"/>
 								</InputField>

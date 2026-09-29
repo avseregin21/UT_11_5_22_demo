@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>CancelSearch</ExcludedCommand>
 		<ExcludedCommand>Change</ExcludedCommand>
@@ -132,7 +132,6 @@
 												<CheckBoxField name="НайтиНоменклатуруПоТочномуСоответствию" id="122">
 													<DataPath>НайтиНоменклатуруПоТочномуСоответствию</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="НайтиНоменклатуруПоТочномуСоответствиюКонтекстноеМеню" id="123"/>
 													<ExtendedTooltip name="НайтиНоменклатуруПоТочномуСоответствиюРасширеннаяПодсказка" id="186"/>
 													<Events>
@@ -298,7 +297,7 @@
 											<Representation>List</Representation>
 											<CommandBarLocation>None</CommandBarLocation>
 											<VerticalScrollBar>DontUse</VerticalScrollBar>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<SearchOnInput>DontUse</SearchOnInput>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -442,7 +441,7 @@
 								<Table name="СписокСтандартныйПоискНоменклатура" id="164">
 									<Representation>List</Representation>
 									<VerticalScrollBar>DontUse</VerticalScrollBar>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<SearchOnInput>Use</SearchOnInput>
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -744,7 +743,6 @@
 								<CheckBoxField name="ИспользоватьФильтры" id="85">
 									<DataPath>ИспользоватьФильтры</DataPath>
 									<TitleLocation>None</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользоватьФильтрыКонтекстноеМеню" id="86"/>
 									<ExtendedTooltip name="ИспользоватьФильтрыРасширеннаяПодсказка" id="223"/>
 									<Events>
@@ -1007,7 +1005,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
 											<VerticalScrollBar>DontUse</VerticalScrollBar>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
 											<FileDragMode>AsFile</FileDragMode>
@@ -1156,8 +1154,8 @@
 											<Representation>Tree</Representation>
 											<ChangeRowSet>false</ChangeRowSet>
 											<Header>false</Header>
-											<HorizontalLines>false</HorizontalLines>
-											<VerticalLines>false</VerticalLines>
+											<HorizontalLinesBWA>false</HorizontalLinesBWA>
+											<VerticalLinesBWA>false</VerticalLinesBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<InitialTreeView>ExpandAllLevels</InitialTreeView>
 											<FileDragMode>AsFile</FileDragMode>
@@ -1232,7 +1230,7 @@
 														<CheckBoxField name="ДеревоОтборовОтбор" id="53">
 															<DataPath>ДеревоОтборов.Отбор</DataPath>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДеревоОтборовОтборКонтекстноеМеню" id="54"/>
 															<ExtendedTooltip name="ДеревоОтборовОтборРасширеннаяПодсказка" id="247"/>
 															<Events>
@@ -1243,6 +1241,7 @@
 															<DataPath>ДеревоОтборов.Представление</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДеревоОтборовПредставлениеКонтекстноеМеню" id="62"/>
 															<ExtendedTooltip name="ДеревоОтборовПредставлениеРасширеннаяПодсказка" id="248"/>
 														</LabelField>
@@ -1252,6 +1251,9 @@
 													<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Width>15</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<TextColor>style:ГиперссылкаЦвет</TextColor>
@@ -1292,9 +1294,9 @@
 											<Representation>List</Representation>
 											<ChangeRowSet>false</ChangeRowSet>
 											<Header>false</Header>
-											<HorizontalLines>false</HorizontalLines>
-											<VerticalLines>false</VerticalLines>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<HorizontalLinesBWA>false</HorizontalLinesBWA>
+											<VerticalLinesBWA>false</VerticalLinesBWA>
+											<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>СписокКачества</DataPath>
@@ -1355,7 +1357,7 @@
 												<CheckBoxField name="СписокКачестваПометка" id="133">
 													<DataPath>СписокКачества.Check</DataPath>
 													<EditMode>EnterOnInput</EditMode>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="СписокКачестваПометкаКонтекстноеМеню" id="134"/>
 													<ExtendedTooltip name="СписокКачестваПометкаРасширеннаяПодсказка" id="253"/>
 													<Events>
@@ -1366,6 +1368,7 @@
 													<DataPath>СписокКачества.Value</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="СписокКачестваЗначениеКонтекстноеМеню" id="132"/>
 													<ExtendedTooltip name="СписокКачестваЗначениеРасширеннаяПодсказка" id="254"/>
 												</InputField>

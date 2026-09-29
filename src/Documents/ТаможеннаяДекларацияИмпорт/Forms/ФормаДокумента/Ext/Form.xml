@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -723,7 +723,6 @@
 								<CheckBoxField name="ОплатаЧерезЕдиныйЛицевойСчет" id="636">
 									<DataPath>Объект.ОплатаЧерезЕдиныйЛицевойСчет</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ОплатаЧерезЕдиныйЛицевойСчетКонтекстноеМеню" id="637"/>
 									<ExtendedTooltip name="ОплатаЧерезЕдиныйЛицевойСчетРасширеннаяПодсказка" id="638"/>
 									<Events>
@@ -1081,6 +1080,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыНомерСтрокиКонтекстноеМеню" id="114"/>
 											<ExtendedTooltip name="РазделыНомерСтрокиРасширеннаяПодсказка" id="349"/>
@@ -1088,6 +1088,7 @@
 										<InputField name="РазделыНомерРаздела" id="222">
 											<DataPath>Объект.Разделы.НомерРаздела</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыНомерРазделаКонтекстноеМеню" id="223"/>
 											<ExtendedTooltip name="РазделыНомерРазделаРасширеннаяПодсказка" id="350"/>
@@ -1098,6 +1099,7 @@
 										<InputField name="РазделыТаможеннаяСтоимость" id="115">
 											<DataPath>Объект.Разделы.ТаможеннаяСтоимость</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыТаможеннаяСтоимостьКонтекстноеМеню" id="116"/>
 											<ExtendedTooltip name="РазделыТаможеннаяСтоимостьРасширеннаяПодсказка" id="351"/>
@@ -1108,6 +1110,7 @@
 										<InputField name="РазделыСтавкаПошлины" id="117">
 											<DataPath>Объект.Разделы.СтавкаПошлины</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыСтавкаПошлиныКонтекстноеМеню" id="118"/>
 											<ExtendedTooltip name="РазделыСтавкаПошлиныРасширеннаяПодсказка" id="352"/>
@@ -1118,6 +1121,7 @@
 										<InputField name="РазделыСуммаПошлины" id="119">
 											<DataPath>Объект.Разделы.СуммаПошлины</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыСуммаПошлиныКонтекстноеМеню" id="120"/>
 											<ExtendedTooltip name="РазделыСуммаПошлиныРасширеннаяПодсказка" id="353"/>
@@ -1128,6 +1132,7 @@
 										<InputField name="РазделыСтавкаНДС" id="125">
 											<DataPath>Объект.Разделы.СтавкаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<OpenButton>false</OpenButton>
 											<ContextMenu name="РазделыСтавкаНДСКонтекстноеМеню" id="126"/>
@@ -1139,6 +1144,7 @@
 										<InputField name="РазделыСуммаНДС" id="127">
 											<DataPath>Объект.Разделы.СуммаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыСуммаНДСКонтекстноеМеню" id="128"/>
 											<ExtendedTooltip name="РазделыСуммаНДСРасширеннаяПодсказка" id="355"/>
@@ -1149,6 +1155,7 @@
 										<InputField name="РазделыСтранаПроисхождения" id="268">
 											<DataPath>Объект.Разделы.СтранаПроисхождения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="РазделыСтранаПроисхожденияКонтекстноеМеню" id="269"/>
 											<ExtendedTooltip name="РазделыСтранаПроисхожденияРасширеннаяПодсказка" id="356"/>
@@ -1165,6 +1172,7 @@
 										<InputField name="РазделыСклад" id="227">
 											<DataPath>Объект.Разделы.Склад</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1510,6 +1518,7 @@
 										<LabelField name="ТоварыНомерСтроки" id="132">
 											<DataPath>Объект.Товары.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>3</Width>
 											<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="133"/>
 											<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="376"/>
@@ -1517,6 +1526,7 @@
 										<InputField name="ТоварыНомерРаздела" id="224">
 											<DataPath>Объект.Товары.НомерРаздела</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ListChoiceMode>true</ListChoiceMode>
 											<Format>
@@ -1549,6 +1559,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>7</Width>
 											<ContextMenu name="ТоварыНоменклатураТипНоменклатурыКонтекстноеМеню" id="290"/>
 											<ExtendedTooltip name="ТоварыНоменклатураТипНоменклатурыРасширеннаяПодсказка" id="378"/>
@@ -1559,6 +1570,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ContextMenu name="ТоварыНоменклатураКодКонтекстноеМеню" id="298"/>
 											<ExtendedTooltip name="ТоварыНоменклатураКодРасширеннаяПодсказка" id="379"/>
@@ -1569,6 +1581,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<ContextMenu name="ТоварыНоменклатураАртикулКонтекстноеМеню" id="296"/>
 											<ExtendedTooltip name="ТоварыНоменклатураАртикулРасширеннаяПодсказка" id="380"/>
@@ -1576,6 +1589,7 @@
 										<InputField name="ТоварыНоменклатура" id="136">
 											<DataPath>Объект.Товары.Номенклатура</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="137"/>
 											<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="381"/>
@@ -1586,6 +1600,7 @@
 										<InputField name="ТоварыХарактеристика" id="138">
 											<DataPath>Объект.Товары.Характеристика</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыХарактеристикаКонтекстноеМеню" id="139"/>
 											<ExtendedTooltip name="ТоварыХарактеристикаРасширеннаяПодсказка" id="382"/>
@@ -1596,6 +1611,7 @@
 										<InputField name="ТоварыСерия" id="299">
 											<DataPath>Объект.Товары.Серия</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>16</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1616,6 +1632,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="184"/>
 											<ExtendedTooltip name="ТоварыКоличествоУпаковокРасширеннаяПодсказка" id="384"/>
@@ -1638,6 +1655,7 @@
 													<DataPath>Объект.Товары.Упаковка</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>1</Width>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1657,6 +1675,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>1</Width>
 													<ContextMenu name="ТоварыНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="188"/>
 													<ExtendedTooltip name="ТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="387"/>
@@ -1697,6 +1716,7 @@
 										<InputField name="ТоварыТаможеннаяСтоимость" id="142">
 											<DataPath>Объект.Товары.ТаможеннаяСтоимость</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыТаможеннаяСтоимостьКонтекстноеМеню" id="143"/>
 											<ExtendedTooltip name="ТоварыТаможеннаяСтоимостьРасширеннаяПодсказка" id="388"/>
@@ -1715,6 +1735,7 @@
 										<InputField name="ТоварыСуммаПошлины" id="144">
 											<DataPath>Объект.Товары.СуммаПошлины</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыСуммаПошлиныКонтекстноеМеню" id="145"/>
 											<ExtendedTooltip name="ТоварыСуммаПошлиныРасширеннаяПодсказка" id="389"/>
@@ -1735,6 +1756,7 @@
 										<InputField name="ТоварыСуммаНДС" id="148">
 											<DataPath>Объект.Товары.СуммаНДС</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыСуммаНДСКонтекстноеМеню" id="149"/>
 											<ExtendedTooltip name="ТоварыСуммаНДСРасширеннаяПодсказка" id="390"/>
@@ -1745,6 +1767,7 @@
 										<InputField name="ТоварыСтранаПроисхождения" id="253">
 											<DataPath>Объект.Товары.СтранаПроисхождения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыСтранаПроисхожденияКонтекстноеМеню" id="254"/>
 											<ExtendedTooltip name="ТоварыСтранаПроисхожденияРасширеннаяПодсказка" id="391"/>
@@ -1772,6 +1795,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1786,6 +1810,7 @@
 										<InputField name="ТоварыСклад" id="230">
 											<DataPath>Объект.Товары.Склад</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -1799,6 +1824,7 @@
 										<InputField name="ТоварыДокументПоступления" id="489">
 											<DataPath>Объект.Товары.ДокументПоступления</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1814,6 +1840,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ТоварыЗакупкаПодДеятельностьКонтекстноеМеню" id="596"/>
 											<ExtendedTooltip name="ТоварыЗакупкаПодДеятельностьРасширеннаяПодсказка" id="597"/>
 										</InputField>
@@ -1823,6 +1850,7 @@
 												<xr:Common>false</xr:Common>
 											</UserVisible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ТоварыВидЗапасовКонтекстноеМеню" id="141"/>
 											<ExtendedTooltip name="ТоварыВидЗапасовРасширеннаяПодсказка" id="396"/>

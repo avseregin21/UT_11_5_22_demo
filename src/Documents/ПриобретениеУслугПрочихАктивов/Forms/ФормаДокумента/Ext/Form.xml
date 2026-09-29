@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -516,7 +516,6 @@
 												<CheckBoxField name="ОперацияССамозанятым" id="823">
 													<DataPath>Объект.ОперацияССамозанятым</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОперацияССамозанятымКонтекстноеМеню" id="824"/>
 													<ExtendedTooltip name="ОперацияССамозанятымРасширеннаяПодсказка" id="825"/>
 													<Events>
@@ -834,6 +833,7 @@
 								<LabelField name="РасходыНомерСтроки" id="289">
 									<DataPath>Объект.Расходы.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыНомерСтрокиКонтекстноеМеню" id="290"/>
@@ -843,6 +843,7 @@
 									<DataPath>Объект.Расходы.Содержание</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoCellHeight>true</AutoCellHeight>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>30</Width>
 									<ContextMenu name="РасходыСодержаниеКонтекстноеМеню" id="294"/>
 									<ExtendedTooltip name="РасходыСодержаниеРасширеннаяПодсказка" id="472"/>
@@ -856,6 +857,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыКоличествоКонтекстноеМеню" id="296"/>
@@ -867,6 +869,7 @@
 								<InputField name="РасходыЦена" id="297">
 									<DataPath>Объект.Расходы.Цена</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыЦенаКонтекстноеМеню" id="298"/>
@@ -879,6 +882,7 @@
 									<DataPath>Объект.Расходы.Сумма</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыСуммаКонтекстноеМеню" id="300"/>
@@ -890,6 +894,7 @@
 								<InputField name="РасходыСтавкаНДС" id="301">
 									<DataPath>Объект.Расходы.СтавкаНДС</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<OpenButton>false</OpenButton>
@@ -904,6 +909,7 @@
 									<DataPath>Объект.Расходы.СуммаНДС</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыСуммаНДСКонтекстноеМеню" id="304"/>
@@ -916,6 +922,7 @@
 									<DataPath>Объект.Расходы.СуммаСНДС</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыСуммаСНДСКонтекстноеМеню" id="306"/>
@@ -925,6 +932,7 @@
 									<DataPath>Объект.Расходы.СуммаВзаиморасчетов</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасходыСуммаВзаиморасчетовКонтекстноеМеню" id="440"/>
@@ -936,12 +944,14 @@
 								<InputField name="РасходыПодразделение" id="552">
 									<DataPath>Объект.Расходы.Подразделение</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыПодразделениеКонтекстноеМеню" id="553"/>
 									<ExtendedTooltip name="РасходыПодразделениеРасширеннаяПодсказка" id="554"/>
 								</InputField>
 								<InputField name="РасходыНаправлениеДеятельности" id="754">
 									<DataPath>Объект.Расходы.НаправлениеДеятельности</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыНаправлениеДеятельностиКонтекстноеМеню" id="755"/>
 									<ExtendedTooltip name="РасходыНаправлениеДеятельностиРасширеннаяПодсказка" id="756"/>
 								</InputField>
@@ -1015,6 +1025,7 @@
 											<DataPath>Объект.Расходы.АналитикаАктивовПассивов</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -1036,12 +1047,16 @@
 									<DataPath>Объект.Расходы.ПредставлениеОтраженияВРеглУчете</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<CellHyperlink>true</CellHyperlink>
+									<AutoEditMode>true</AutoEditMode>
+									<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+									<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 									<ContextMenu name="РасходыПредставлениеОтраженияВРеглУчетеКонтекстноеМеню" id="694"/>
 									<ExtendedTooltip name="РасходыПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="695"/>
 								</InputField>
 								<InputField name="РасходыНомерГТД" id="811">
 									<DataPath>Объект.Расходы.НомерГТД</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыНомерГТДКонтекстноеМеню" id="812"/>
 									<ExtendedTooltip name="РасходыНомерГТДРасширеннаяПодсказка" id="813"/>
 									<Events>
@@ -1052,6 +1067,7 @@
 								<InputField name="РасходыКодТНВЭД" id="814">
 									<DataPath>Объект.Расходы.КодТНВЭД</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыКодТНВЭДКонтекстноеМеню" id="815"/>
 									<ExtendedTooltip name="РасходыКодТНВЭДРасширеннаяПодсказка" id="816"/>
 								</InputField>
@@ -1068,6 +1084,7 @@
 										<InputField name="РасходыКоличествоПоРНПТ" id="808">
 											<DataPath>Объект.Расходы.КоличествоПоРНПТ</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="РасходыКоличествоПоРНПТКонтекстноеМеню" id="809"/>
 											<ExtendedTooltip name="РасходыКоличествоПоРНПТРасширеннаяПодсказка" id="810"/>
 										</InputField>
@@ -1081,6 +1098,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>8</Width>
 											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<ContextMenu name="РасходыКодТНВЭДЕдИзмКонтекстноеМеню" id="806"/>
@@ -1092,6 +1110,7 @@
 									<DataPath>Объект.Расходы.КомментарийРаспределения</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="РасходыКомментарийРаспределенияКонтекстноеМеню" id="609"/>
 									<ExtendedTooltip name="РасходыКомментарийРаспределенияРасширеннаяПодсказка" id="610"/>
 								</InputField>
@@ -1215,7 +1234,6 @@
 													<DataPath>Объект.ЦенаВключаетНДС</DataPath>
 													<TitleLocation>Right</TitleLocation>
 													<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ЦенаВключаетНДСКонтекстноеМеню" id="266"/>
 													<ExtendedTooltip name="ЦенаВключаетНДСРасширеннаяПодсказка" id="501"/>
 													<Events>

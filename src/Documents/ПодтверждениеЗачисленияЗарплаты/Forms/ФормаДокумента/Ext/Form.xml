@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
@@ -114,6 +114,7 @@
 								<InputField name="Дата" id="3">
 									<DataPath>Объект.Date</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="75"/>
@@ -121,6 +122,7 @@
 								<InputField name="Номер" id="1">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 									<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="76"/>
@@ -130,6 +132,7 @@
 						<InputField name="Организация" id="7">
 							<DataPath>Объект.Организация</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="70"/>
 							<Events>
@@ -140,6 +143,7 @@
 							<DataPath>Объект.ПервичныйДокумент</DataPath>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<DropListButton>false</DropListButton>
 							<ChoiceButton>true</ChoiceButton>
 							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -203,6 +207,7 @@
 								</v8:item>
 							</ToolTip>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks>
 								<xr:Link>
@@ -326,6 +331,7 @@
 				<LabelField name="СотрудникиНомерСтроки" id="41">
 					<DataPath>Объект.Сотрудники.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиНомерСтрокиКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="СотрудникиНомерСтрокиРасширеннаяПодсказка" id="79"/>
 				</LabelField>
@@ -335,24 +341,28 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиИдентификаторПлатежаКонтекстноеМеню" id="135"/>
 					<ExtendedTooltip name="СотрудникиИдентификаторПлатежаРасширеннаяПодсказка" id="136"/>
 				</LabelField>
 				<InputField name="СотрудникиФизическоеЛицо" id="43">
 					<DataPath>Объект.Сотрудники.ФизическоеЛицо</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиФизическоеЛицоКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="СотрудникиФизическоеЛицоРасширеннаяПодсказка" id="80"/>
 				</InputField>
 				<InputField name="СотрудникиНомерЛицевогоСчета" id="45">
 					<DataPath>Объект.Сотрудники.НомерЛицевогоСчета</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиНомерЛицевогоСчетаКонтекстноеМеню" id="46"/>
 					<ExtendedTooltip name="СотрудникиНомерЛицевогоСчетаРасширеннаяПодсказка" id="81"/>
 				</InputField>
 				<InputField name="СотрудникиБИКБанкаСчета" id="137">
 					<DataPath>Объект.Сотрудники.БИКБанкаСчета</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиБИКБанкаСчетаКонтекстноеМеню" id="138"/>
 					<ExtendedTooltip name="СотрудникиБИКБанкаСчетаРасширеннаяПодсказка" id="139"/>
 				</InputField>
@@ -366,6 +376,7 @@
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<FooterDataPath>Объект.Сотрудники.TotalСумма</FooterDataPath>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>12</Width>
 					<ContextMenu name="СотрудникиСуммаКонтекстноеМеню" id="52"/>
 					<ExtendedTooltip name="СотрудникиСуммаРасширеннаяПодсказка" id="82"/>
@@ -376,12 +387,14 @@
 				<InputField name="СотрудникиКомиссия" id="140">
 					<DataPath>Объект.Сотрудники.Комиссия</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиКомиссияКонтекстноеМеню" id="141"/>
 					<ExtendedTooltip name="СотрудникиКомиссияРасширеннаяПодсказка" id="142"/>
 				</InputField>
 				<InputField name="СотрудникиСтатьяДвиженияДенежныхСредств" id="156">
 					<DataPath>Объект.Сотрудники.СтатьяДвиженияДенежныхСредств</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="157"/>
 					<ExtendedTooltip name="СотрудникиСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="158"/>
 				</InputField>
@@ -394,6 +407,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>20</Width>
 					<ContextMenu name="СотрудникиРезультатЗачисленияЗарплатыКонтекстноеМеню" id="48"/>
 					<ExtendedTooltip name="СотрудникиРезультатЗачисленияЗарплатыРасширеннаяПодсказка" id="83"/>
@@ -412,7 +426,7 @@
 							<DataPath>Объект.Сотрудники.ЛицевойСчетУдовлетворяетТребованиям</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInFooter>false</ShowInFooter>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СотрудникиЛицевойСчетУдовлетворяетТребованиямКонтекстноеМеню" id="148"/>
 							<ExtendedTooltip name="СотрудникиЛицевойСчетУдовлетворяетТребованиямРасширеннаяПодсказка" id="149"/>
 						</CheckBoxField>
@@ -420,6 +434,7 @@
 							<DataPath>Объект.Сотрудники.НомерСчетаУдовлетворяющегоТребованиям</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInFooter>false</ShowInFooter>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СотрудникиНомерСчетаУдовлетворяющегоТребованиямКонтекстноеМеню" id="151"/>
 							<ExtendedTooltip name="СотрудникиНомерСчетаУдовлетворяющегоТребованиямРасширеннаяПодсказка" id="152"/>
 						</InputField>
@@ -427,6 +442,7 @@
 							<DataPath>Объект.Сотрудники.БИКСчетаУдовлетворяющегоТребованиям</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInFooter>false</ShowInFooter>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СотрудникиБИКСчетаУдовлетворяющегоТребованиямКонтекстноеМеню" id="154"/>
 							<ExtendedTooltip name="СотрудникиБИКСчетаУдовлетворяющегоТребованиямРасширеннаяПодсказка" id="155"/>
 						</InputField>
@@ -441,6 +457,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="СотрудникиКомментарийРезультатаКонтекстноеМеню" id="50"/>
 					<ExtendedTooltip name="СотрудникиКомментарийРезультатаРасширеннаяПодсказка" id="84"/>
 				</InputField>
@@ -463,6 +480,7 @@
 					<DataPath>Объект.Комментарий</DataPath>
 					<TitleLocation>Left</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<VerticalStretch>false</VerticalStretch>
 					<MultiLine>false</MultiLine>
@@ -473,6 +491,7 @@
 				<InputField name="Ответственный" id="54">
 					<DataPath>Объект.Ответственный</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="55"/>
 					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="77"/>
 				</InputField>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -481,7 +482,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>NormalSeparation</Representation>
 									<ExtendedTooltip name="ГруппаОбновлениеПодробноРасширеннаяПодсказка" id="481"/>
 									<ChildItems>
@@ -506,7 +507,6 @@
 												<CheckBoxField name="ОбновитьКонфигурацию" id="486">
 													<DataPath>ОбновитьКонфигурацию</DataPath>
 													<TitleLocation>None</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОбновитьКонфигурациюКонтекстноеМеню" id="487"/>
 													<ExtendedTooltip name="ОбновитьКонфигурациюРасширеннаяПодсказка" id="488"/>
 													<Events>
@@ -572,7 +572,6 @@
 												<CheckBoxField name="УстановитьИсправления" id="767">
 													<DataPath>УстановитьИсправления</DataPath>
 													<TitleLocation>None</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="УстановитьИсправленияКонтекстноеМеню" id="768"/>
 													<ExtendedTooltip name="УстановитьИсправленияРасширеннаяПодсказка" id="769"/>
 													<Events>
@@ -650,7 +649,6 @@
 																		</v8:item>
 																	</ToolTip>
 																	<ToolTipRepresentation>Button</ToolTipRepresentation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ЗагружатьИУстанавливатьИсправленияАвтоматическиКонтекстноеМеню" id="798"/>
 																	<ExtendedTooltip name="ЗагружатьИУстанавливатьИсправленияАвтоматическиРасширеннаяПодсказка" id="799"/>
 																	<Events>
@@ -701,7 +699,6 @@
 												<CheckBoxField name="ОбновитьПлатформу" id="489">
 													<DataPath>ОбновитьПлатформу</DataPath>
 													<TitleLocation>None</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОбновитьПлатформуКонтекстноеМеню" id="490"/>
 													<ExtendedTooltip name="ОбновитьПлатформуРасширеннаяПодсказка" id="491"/>
 													<Events>
@@ -785,7 +782,7 @@
 															<Group>Vertical</Group>
 															<Behavior>Collapsible</Behavior>
 															<Collapsed>true</Collapsed>
-															<ControlRepresentation>Picture</ControlRepresentation>
+															<ControlRepresentation>Button</ControlRepresentation>
 															<Representation>None</Representation>
 															<ExtendedTooltip name="ГруппаПараметрыУстановкиКомпонентаПлатформаРасширеннаяПодсказка" id="514"/>
 															<ChildItems>
@@ -845,7 +842,6 @@
 																		<CheckBoxField name="СохранятьДистрибутивыКомпонентаПлатформыВКаталог" id="523">
 																			<DataPath>СохранятьДистрибутивыПлатформыВКаталог</DataPath>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="СохранятьДистрибутивыКомпонентаПлатформыВКаталогКонтекстноеМеню" id="524"/>
 																			<ExtendedTooltip name="СохранятьДистрибутивыКомпонентаПлатформыВКаталогРасширеннаяПодсказка" id="525"/>
 																			<Events>
@@ -1080,7 +1076,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<ExtendedTooltip name="ГруппаПараметрыУстановкиПлатформыРасширеннаяПодсказка" id="533"/>
 									<ChildItems>
 										<RadioButtonField name="РежимУстановкиПлатформы" id="534">
@@ -1139,7 +1135,6 @@
 												<CheckBoxField name="СохранятьДистрибутивыКомпонентаПлатформыВКаталог1" id="542">
 													<DataPath>СохранятьДистрибутивыПлатформыВКаталог</DataPath>
 													<TitleLocation>Right</TitleLocation>
-													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="СохранятьДистрибутивыКомпонентаПлатформыВКаталог1КонтекстноеМеню" id="543"/>
 													<ExtendedTooltip name="СохранятьДистрибутивыКомпонентаПлатформыВКаталог1РасширеннаяПодсказка" id="544"/>
 													<Events>
@@ -1275,7 +1270,6 @@
 								<CheckBoxField name="СоздатьРезервнуюКопиюУстановлено" id="378">
 									<DataPath>СоздатьРезервнуюКопию</DataPath>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СоздатьРезервнуюКопиюУстановленоКонтекстноеМеню" id="379"/>
 									<ExtendedTooltip name="СоздатьРезервнуюКопиюУстановленоРасширеннаяПодсказка" id="380"/>
 									<Events>
@@ -2006,7 +2000,6 @@
 										<CheckBoxField name="СоздатьРезервнуюКопию" id="375">
 											<DataPath>СоздатьРезервнуюКопию</DataPath>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="СоздатьРезервнуюКопиюКонтекстноеМеню" id="376"/>
 											<ExtendedTooltip name="СоздатьРезервнуюКопиюРасширеннаяПодсказка" id="377"/>
 											<Events>
@@ -2094,7 +2087,6 @@
 						<CheckBoxField name="ПерезапуститьПрограмму" id="786">
 							<DataPath>ПерезапуститьПрограмму</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПерезапуститьПрограммуКонтекстноеМеню" id="787"/>
 							<ExtendedTooltip name="ПерезапуститьПрограммуРасширеннаяПодсказка" id="788"/>
 						</CheckBoxField>
@@ -2389,7 +2381,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПередачаСведенийВЦентрМониторингаФайловыйРежимКонтекстноеМеню" id="831"/>
 											<ExtendedTooltip name="ПередачаСведенийВЦентрМониторингаФайловыйРежимРасширеннаяПодсказка" id="832"/>
 										</CheckBoxField>
@@ -2644,7 +2635,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыслатьОтчетНаПочтуКонтекстноеМеню" id="700"/>
 															<ExtendedTooltip name="ВыслатьОтчетНаПочтуРасширеннаяПодсказка" id="701"/>
 															<Events>
@@ -2904,7 +2894,6 @@
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПередачаСведенийВЦентрМониторингаСерверныйРежимКонтекстноеМеню" id="834"/>
 											<ExtendedTooltip name="ПередачаСведенийВЦентрМониторингаСерверныйРежимРасширеннаяПодсказка" id="835"/>
 										</CheckBoxField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Write</ExcludedCommand>
 		<ExcludedCommand>WriteAndClose</ExcludedCommand>
@@ -174,6 +174,7 @@
 					<DataPath>Объект.Используется</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<CheckBoxType>CheckBox</CheckBoxType>
 					<ContextMenu name="ИспользуетсяКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="ИспользуетсяРасширеннаяПодсказка" id="211"/>
@@ -182,7 +183,7 @@
 					<DataPath>Объект.Утвержден</DataPath>
 					<TitleLocation>Right</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
-					<CheckBoxType>Auto</CheckBoxType>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="УтвержденКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="УтвержденРасширеннаяПодсказка" id="212"/>
 				</CheckBoxField>
@@ -211,6 +212,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="ВладелецКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="197"/>
 					<Events>
@@ -243,6 +245,7 @@
 		<InputField name="Наименование" id="3">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
 			<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
 			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
@@ -379,7 +382,7 @@
 					<ChildItems>
 						<Table name="Транши" id="139">
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -448,6 +451,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТраншиПериодКонтекстноеМеню" id="143"/>
 									<ExtendedTooltip name="ТраншиПериодРасширеннаяПодсказка" id="217"/>
 								</InputField>
@@ -456,12 +460,14 @@
 									<Visible>false</Visible>
 									<Enabled>false</Enabled>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТраншиВариантГрафикаКонтекстноеМеню" id="145"/>
 									<ExtendedTooltip name="ТраншиВариантГрафикаРасширеннаяПодсказка" id="218"/>
 								</InputField>
 								<InputField name="ТраншиСумма" id="146">
 									<DataPath>ГрафикТраншей.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТраншиСуммаКонтекстноеМеню" id="147"/>
 									<ExtendedTooltip name="ТраншиСуммаРасширеннаяПодсказка" id="219"/>
 								</InputField>
@@ -470,6 +476,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТраншиОтступКонтекстноеМеню" id="330"/>
 									<ExtendedTooltip name="ТраншиОтступРасширеннаяПодсказка" id="331"/>
 								</InputField>
@@ -489,7 +496,7 @@
 					<ChildItems>
 						<Table name="Оплаты" id="125">
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -560,6 +567,7 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInFooter>false</ShowInFooter>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыПериодКонтекстноеМеню" id="129"/>
 									<ExtendedTooltip name="ОплатыПериодРасширеннаяПодсказка" id="223"/>
 								</InputField>
@@ -568,6 +576,7 @@
 									<Visible>false</Visible>
 									<Enabled>false</Enabled>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыВариантГрафикаКонтекстноеМеню" id="131"/>
 									<ExtendedTooltip name="ОплатыВариантГрафикаРасширеннаяПодсказка" id="224"/>
 								</InputField>
@@ -575,18 +584,21 @@
 									<DataPath>ГрафикОплат.Сумма</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<FooterDataPath>СуммаОплаты</FooterDataPath>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыСуммаКонтекстноеМеню" id="133"/>
 									<ExtendedTooltip name="ОплатыСуммаРасширеннаяПодсказка" id="225"/>
 								</InputField>
 								<InputField name="ОплатыПроценты" id="134">
 									<DataPath>ГрафикОплат.Проценты</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыПроцентыКонтекстноеМеню" id="135"/>
 									<ExtendedTooltip name="ОплатыПроцентыРасширеннаяПодсказка" id="226"/>
 								</InputField>
 								<InputField name="ОплатыКомиссия" id="136">
 									<DataPath>ГрафикОплат.Комиссия</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыКомиссияКонтекстноеМеню" id="137"/>
 									<ExtendedTooltip name="ОплатыКомиссияРасширеннаяПодсказка" id="227"/>
 								</InputField>
@@ -595,6 +607,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОплатыОтступКонтекстноеМеню" id="333"/>
 									<ExtendedTooltip name="ОплатыОтступРасширеннаяПодсказка" id="334"/>
 								</InputField>
@@ -614,7 +627,7 @@
 					<ChildItems>
 						<Table name="Начисления" id="149">
 							<ChangeRowOrder>false</ChangeRowOrder>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -684,6 +697,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НачисленияПериодКонтекстноеМеню" id="153"/>
 									<ExtendedTooltip name="НачисленияПериодРасширеннаяПодсказка" id="231"/>
 								</InputField>
@@ -692,12 +706,14 @@
 									<Visible>false</Visible>
 									<Enabled>false</Enabled>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НачисленияВариантГрафикаКонтекстноеМеню" id="155"/>
 									<ExtendedTooltip name="НачисленияВариантГрафикаРасширеннаяПодсказка" id="232"/>
 								</InputField>
 								<InputField name="НачисленияПроценты" id="156">
 									<DataPath>ГрафикНачислений.Проценты</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НачисленияПроцентыКонтекстноеМеню" id="157"/>
 									<ExtendedTooltip name="НачисленияПроцентыРасширеннаяПодсказка" id="233"/>
 								</InputField>
@@ -705,6 +721,7 @@
 									<DataPath>ГрафикНачислений.Комиссия</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НачисленияКомиссияКонтекстноеМеню" id="159"/>
 									<ExtendedTooltip name="НачисленияКомиссияРасширеннаяПодсказка" id="234"/>
 								</InputField>
@@ -713,6 +730,7 @@
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInHeader>false</ShowInHeader>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="НачисленияОтступКонтекстноеМеню" id="336"/>
 									<ExtendedTooltip name="НачисленияОтступРасширеннаяПодсказка" id="337"/>
 								</InputField>
@@ -922,6 +940,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>12</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ДатаИзмененияКонтекстноеМеню" id="12"/>
@@ -937,6 +956,7 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<ContextMenu name="АвторИзмененияКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="АвторИзмененияРасширеннаяПодсказка" id="250"/>
 				</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Delete</ExcludedCommand>
 		<ExcludedCommand>Write</ExcludedCommand>
@@ -261,6 +261,7 @@
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>28</MaxWidth>
 									<BackColor>style:ЦветФонаВыделения</BackColor>
@@ -342,6 +343,7 @@
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>13</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДатаРассылкиКонтекстноеМеню" id="8"/>
@@ -357,6 +359,7 @@
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>12</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДатаАктуальностиКонтекстноеМеню" id="11"/>
@@ -391,6 +394,7 @@
 							</Title>
 							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>68</MaxWidth>
 							<ContextMenu name="ТемаПисьмаКонтекстноеМеню" id="26"/>
@@ -604,6 +608,7 @@
 											<DataPath>Объект.ТекстSMS</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Height>1</Height>
 											<ContextMenu name="ТекстSMSКонтекстноеМеню" id="35"/>
 											<ExtendedTooltip name="ТекстSMSРасширеннаяПодсказка" id="36"/>
@@ -620,7 +625,6 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОтправлятьВТранслитеКонтекстноеМеню" id="119"/>
 											<ExtendedTooltip name="ОтправлятьВТранслитеРасширеннаяПодсказка" id="120"/>
 											<Events>
@@ -799,6 +803,7 @@
 															<DataPath>Объект.ТекстПисьма</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<Height>2</Height>
 															<ContextMenu name="ТекстПисьмаКонтекстноеМеню" id="29"/>
 															<ExtendedTooltip name="ТекстПисьмаРасширеннаяПодсказка" id="30"/>
@@ -953,6 +958,7 @@
 																	<DataPath>Вложения.ИндексКартинки</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<VerticalStretch>false</VerticalStretch>
 																	<ValuesPicture>
 																		<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
@@ -966,6 +972,7 @@
 																	<DataPath>Вложения.ИмяФайла</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ShowInHeader>false</ShowInHeader>
+																	<AutoEditMode>true</AutoEditMode>
 																	<TextEdit>false</TextEdit>
 																	<ContextMenu name="ВложенияИмяФайлаКонтекстноеМеню" id="150"/>
 																	<ExtendedTooltip name="ВложенияИмяФайлаРасширеннаяПодсказка" id="151"/>
@@ -976,6 +983,7 @@
 															<DataPath>Вложения.РазмерПредставление</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<Width>15</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<TextEdit>false</TextEdit>
@@ -1035,7 +1043,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>NormalSeparation</Representation>
 							<TitleDataPath>ЗаголовокФильтрАдресатов</TitleDataPath>
 							<ExtendedTooltip name="ГруппаОтборАдресатовРасширеннаяПодсказка" id="171"/>
@@ -1117,7 +1125,7 @@
 							<Group>Vertical</Group>
 							<Behavior>Collapsible</Behavior>
 							<Collapsed>true</Collapsed>
-							<ControlRepresentation>Picture</ControlRepresentation>
+							<ControlRepresentation>Button</ControlRepresentation>
 							<Representation>NormalSeparation</Representation>
 							<TitleDataPath>Объект.ДополнительныеПолучатели.RowsCount</TitleDataPath>
 							<ExtendedTooltip name="ГруппаДополнительныеПолучателиРасширеннаяПодсказка" id="173"/>
@@ -1172,12 +1180,14 @@
 										<LabelField name="ДополнительныеПолучателиНомерСтроки" id="44">
 											<DataPath>Объект.ДополнительныеПолучатели.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДополнительныеПолучателиНомерСтрокиКонтекстноеМеню" id="45"/>
 											<ExtendedTooltip name="ДополнительныеПолучателиНомерСтрокиРасширеннаяПодсказка" id="46"/>
 										</LabelField>
 										<InputField name="ДополнительныеПолучателиКонтакт" id="47">
 											<DataPath>Объект.ДополнительныеПолучатели.Контакт</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ДополнительныеПолучателиКонтактКонтекстноеМеню" id="48"/>
 											<ExtendedTooltip name="ДополнительныеПолучателиКонтактРасширеннаяПодсказка" id="49"/>
 											<Events>
@@ -1187,6 +1197,7 @@
 										<InputField name="ДополнительныеПолучателиКонтактнаяИнформация" id="50">
 											<DataPath>Объект.ДополнительныеПолучатели.КонтактнаяИнформация</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>true</DropListButton>
 											<ContextMenu name="ДополнительныеПолучателиКонтактнаяИнформацияКонтекстноеМеню" id="51"/>
 											<ExtendedTooltip name="ДополнительныеПолучателиКонтактнаяИнформацияРасширеннаяПодсказка" id="52"/>

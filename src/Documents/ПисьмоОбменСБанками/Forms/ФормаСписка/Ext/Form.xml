@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -16,6 +16,7 @@
 		<ExcludedCommand>Delete</ExcludedCommand>
 		<ExcludedCommand>Refresh</ExcludedCommand>
 	</CommandSet>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -447,6 +448,7 @@
 													<DataPath>ДеревоДействий.НомерКартинки</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<PictureSize>ByFontSize</PictureSize>
 													<ValuesPicture>
 														<xr:Ref>CommonPicture.ПапкиПисемОбменСБанками</xr:Ref>
@@ -459,6 +461,7 @@
 												<InputField name="ДеревоДействийПредставление" id="25">
 													<DataPath>ДеревоДействий.Представление</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДеревоДействийПредставлениеКонтекстноеМеню" id="26"/>
 													<ExtendedTooltip name="ДеревоДействийПредставлениеРасширеннаяПодсказка" id="27"/>
 												</InputField>
@@ -543,6 +546,7 @@
 													<DataPath>БыстрыеОтборы.ПредставлениеПараметра</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -566,6 +570,7 @@
 													<DataPath>БыстрыеОтборы.Параметр</DataPath>
 													<Visible>false</Visible>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="БыстрыеОтборыПараметрКонтекстноеМеню" id="152"/>
 													<ExtendedTooltip name="БыстрыеОтборыПараметрРасширеннаяПодсказка" id="153"/>
 												</InputField>
@@ -591,7 +596,7 @@
 								<Table name="Письма" id="92">
 									<DefaultItem>true</DefaultItem>
 									<VerticalScrollBar>UseAlways</VerticalScrollBar>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 									<EnableStartDrag>true</EnableStartDrag>
 									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Письма</DataPath>
@@ -997,12 +1002,14 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ПрисоединенныеФайлыТаблицаНаименованиеКонтекстноеМеню" id="212"/>
 											<ExtendedTooltip name="ПрисоединенныеФайлыТаблицаНаименованиеРасширеннаяПодсказка" id="213"/>
 										</LabelField>
 										<InputField name="ПрисоединенныеФайлыТаблицаРазмерПредставление" id="441">
 											<DataPath>ПрисоединенныеФайлыТаблица.РазмерПредставление</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ПрисоединенныеФайлыТаблицаРазмерПредставлениеКонтекстноеМеню" id="442"/>
 											<ExtendedTooltip name="ПрисоединенныеФайлыТаблицаРазмерПредставлениеРасширеннаяПодсказка" id="443"/>

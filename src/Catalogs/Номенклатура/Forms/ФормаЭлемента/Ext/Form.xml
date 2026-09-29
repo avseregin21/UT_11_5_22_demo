@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -905,7 +905,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаКартинкаОписаниеРасширеннаяПодсказка" id="298"/>
 													<ChildItems>
 														<UsualGroup name="ГруппаФайлКартинки" id="304">
@@ -974,6 +974,7 @@
 																	<TextColor>style:ЦветТекстаНевыбраннойКартинки</TextColor>
 																	<Font ref="sys:DefaultGUIFont" height="12" kind="WindowsFont"/>
 																	<FileDragMode>AsFile</FileDragMode>
+																	<PictureColor>style:ЦветТекстаНевыбраннойКартинки</PictureColor>
 																	<ContextMenu name="ФайлКартинкиКонтекстноеМеню" id="319">
 																		<Autofill>false</Autofill>
 																		<ChildItems>
@@ -1100,7 +1101,6 @@
 																				</v8:item>
 																			</Title>
 																			<TitleLocation>Right</TitleLocation>
-																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ВестиУчетСертификатовНоменклатурыКонтекстноеМеню" id="48"/>
 																			<ExtendedTooltip name="ВестиУчетСертификатовНоменклатурыРасширеннаяПодсказка" id="49"/>
 																			<Events>
@@ -1137,7 +1137,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="535"/>
 													<ChildItems>
 														<UsualGroup name="ГруппаДополнительныеРеквизиты" id="1177">
@@ -1164,7 +1164,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаСведенияОПроизводителеРасширеннаяПодсказка" id="121"/>
 													<ChildItems>
 														<InputField name="ПроизводительИмпортерКонтрагент" id="355">
@@ -1281,7 +1281,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаПланированиеИМаркетингРасширеннаяПодсказка" id="1098"/>
 													<ChildItems>
 														<InputField name="ТоварнаяКатегория" id="403">
@@ -1367,13 +1367,12 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаОбеспечениеРасширеннаяПодсказка" id="43"/>
 													<ChildItems>
 														<CheckBoxField name="ОбособленнаяЗакупкаПродажа" id="44">
 															<DataPath>Объект.ОбособленнаяЗакупкаПродажа</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОбособленнаяЗакупкаПродажаКонтекстноеМеню" id="45"/>
 															<ExtendedTooltip name="ОбособленнаяЗакупкаПродажаРасширеннаяПодсказка" id="46"/>
 														</CheckBoxField>
@@ -1481,7 +1480,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаЦеныРасширеннаяПодсказка" id="384"/>
 													<ChildItems>
 														<InputField name="ЦеноваяГруппа" id="391">
@@ -1563,7 +1562,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаШаблоныРасширеннаяПодсказка" id="1412"/>
 													<ChildItems>
 														<UsualGroup name="ГруппаШаблонЭтикетки" id="1413">
@@ -1856,7 +1855,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаОсновныеПараметрыУчетаРасширеннаяПодсказка" id="2"/>
 													<ChildItems>
 														<InputField name="ВидНоменклатуры" id="3">
@@ -2138,7 +2137,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаЕдиницыИзмеренияРасширеннаяПодсказка" id="523"/>
 													<ChildItems>
 														<CheckBoxField name="ИспользоватьУпаковки" id="1179">
@@ -2150,7 +2149,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ИспользоватьУпаковкиКонтекстноеМеню" id="1180"/>
 															<ExtendedTooltip name="ИспользоватьУпаковкиРасширеннаяПодсказка" id="1181"/>
 															<Events>
@@ -2394,7 +2392,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПоставляетсяВМногооборотнойТареКонтекстноеМеню" id="158"/>
 																	<ExtendedTooltip name="ПоставляетсяВМногооборотнойТареРасширеннаяПодсказка" id="159"/>
 																	<Events>
@@ -2538,7 +2535,6 @@
 																<CheckBoxField name="ВесИспользовать" id="173">
 																	<DataPath>Объект.ВесИспользовать</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ВесИспользоватьКонтекстноеМеню" id="174"/>
 																	<ExtendedTooltip name="ВесИспользоватьРасширеннаяПодсказка" id="175"/>
 																	<Events>
@@ -2679,7 +2675,6 @@
 																<CheckBoxField name="ОбъемИспользовать" id="200">
 																	<DataPath>Объект.ОбъемИспользовать</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ОбъемИспользоватьКонтекстноеМеню" id="201"/>
 																	<ExtendedTooltip name="ОбъемИспользоватьРасширеннаяПодсказка" id="202"/>
 																	<Events>
@@ -2828,7 +2823,6 @@
 																<CheckBoxField name="ДлинаИспользовать" id="254">
 																	<DataPath>Объект.ДлинаИспользовать</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ДлинаИспользоватьКонтекстноеМеню" id="255"/>
 																	<ExtendedTooltip name="ДлинаИспользоватьРасширеннаяПодсказка" id="256"/>
 																	<Events>
@@ -2971,7 +2965,6 @@
 																<CheckBoxField name="ПлощадьИспользовать" id="227">
 																	<DataPath>Объект.ПлощадьИспользовать</DataPath>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПлощадьИспользоватьКонтекстноеМеню" id="228"/>
 																	<ExtendedTooltip name="ПлощадьИспользоватьРасширеннаяПодсказка" id="229"/>
 																	<Events>
@@ -3181,7 +3174,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаФинансовыйУчетРасширеннаяПодсказка" id="851"/>
 													<ChildItems>
 														<InputField name="ГруппаАналитическогоУчета" id="397">
@@ -3231,7 +3224,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаРегламентированныйУчетРасширеннаяПодсказка" id="1532"/>
 													<ChildItems>
 														<CheckBoxField name="ВестиУчетПоГТД" id="39">
@@ -3243,7 +3236,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВестиУчетПоГТДКонтекстноеМеню" id="40"/>
 															<ExtendedTooltip name="ВестиУчетПоГТДРасширеннаяПодсказка" id="41"/>
 															<Events>
@@ -3260,7 +3252,6 @@
 																</v8:item>
 															</ToolTip>
 															<ToolTipRepresentation>Button</ToolTipRepresentation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПрослеживаемыйТоварКонтекстноеМеню" id="1548"/>
 															<ExtendedTooltip name="ПрослеживаемыйТоварРасширеннаяПодсказка" id="1549"/>
 															<Events>
@@ -3300,7 +3291,6 @@
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
-																	<CheckBoxType>Auto</CheckBoxType>
 																	<ContextMenu name="ПереноситьРНПТМатериалаКонтекстноеМеню" id="1559"/>
 																	<ExtendedTooltip name="ПереноситьРНПТМатериалаРасширеннаяПодсказка" id="1560"/>
 																	<Events>
@@ -3312,21 +3302,18 @@
 														<CheckBoxField name="ПодакцизныйТовар" id="36">
 															<DataPath>Объект.ПодакцизныйТовар</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПодакцизныйТоварКонтекстноеМеню" id="37"/>
 															<ExtendedTooltip name="ПодакцизныйТоварРасширеннаяПодсказка" id="38"/>
 														</CheckBoxField>
 														<CheckBoxField name="ПродаетсяПоРазрешению" id="1566">
 															<DataPath>Объект.ПродаетсяПоРазрешению</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ПродаетсяПоРазрешениюКонтекстноеМеню" id="1567"/>
 															<ExtendedTooltip name="ПродаетсяПоРазрешениюРасширеннаяПодсказка" id="1568"/>
 														</CheckBoxField>
 														<CheckBoxField name="ОблагаетсяНДСУПокупателя" id="1481">
 															<DataPath>Объект.ОблагаетсяНДСУПокупателя</DataPath>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ОблагаетсяНДСУПокупателяКонтекстноеМеню" id="1482"/>
 															<ExtendedTooltip name="ОблагаетсяНДСУПокупателяРасширеннаяПодсказка" id="1483"/>
 															<Events>
@@ -3415,12 +3402,14 @@
 																		<LabelField name="ДрагоценныеМатериалыНомерСтроки" id="1513">
 																			<DataPath>Объект.ДрагоценныеМатериалы.LineNumber</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДрагоценныеМатериалыНомерСтрокиКонтекстноеМеню" id="1514"/>
 																			<ExtendedTooltip name="ДрагоценныеМатериалыНомерСтрокиРасширеннаяПодсказка" id="1515"/>
 																		</LabelField>
 																		<InputField name="ДрагоценныеМатериалыДрагоценныйМатериал" id="1516">
 																			<DataPath>Объект.ДрагоценныеМатериалы.ДрагоценныйМатериал</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДрагоценныеМатериалыДрагоценныйМатериалКонтекстноеМеню" id="1517"/>
 																			<ExtendedTooltip name="ДрагоценныеМатериалыДрагоценныйМатериалРасширеннаяПодсказка" id="1518"/>
 																			<Events>
@@ -3430,24 +3419,28 @@
 																		<InputField name="ДрагоценныеМатериалыКоличество" id="1519">
 																			<DataPath>Объект.ДрагоценныеМатериалы.Количество</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДрагоценныеМатериалыКоличествоКонтекстноеМеню" id="1520"/>
 																			<ExtendedTooltip name="ДрагоценныеМатериалыКоличествоРасширеннаяПодсказка" id="1521"/>
 																		</InputField>
 																		<InputField name="ДрагоценныеМатериалыЕдиницаИзмерения" id="1522">
 																			<DataPath>Объект.ДрагоценныеМатериалы.ЕдиницаИзмерения</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДрагоценныеМатериалыЕдиницаИзмеренияКонтекстноеМеню" id="1523"/>
 																			<ExtendedTooltip name="ДрагоценныеМатериалыЕдиницаИзмеренияРасширеннаяПодсказка" id="1524"/>
 																		</InputField>
 																		<InputField name="ДрагоценныеМатериалыРасположение" id="1525">
 																			<DataPath>Объект.ДрагоценныеМатериалы.Расположение</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДрагоценныеМатериалыРасположениеКонтекстноеМеню" id="1526"/>
 																			<ExtendedTooltip name="ДрагоценныеМатериалыРасположениеРасширеннаяПодсказка" id="1527"/>
 																		</InputField>
 																		<InputField name="ДрагоценныеМатериалыКомментарий" id="1528">
 																			<DataPath>Объект.ДрагоценныеМатериалы.Комментарий</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
+																			<AutoEditMode>true</AutoEditMode>
 																			<ContextMenu name="ДрагоценныеМатериалыКомментарийКонтекстноеМеню" id="1529"/>
 																			<ExtendedTooltip name="ДрагоценныеМатериалыКомментарийРасширеннаяПодсказка" id="1530"/>
 																		</InputField>
@@ -3467,7 +3460,7 @@
 													<HorizontalStretch>true</HorizontalStretch>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаАлкогольРасширеннаяПодсказка" id="349"/>
 													<ChildItems>
 														<InputField name="ВидАлкогольнойПродукции" id="352">
@@ -3531,7 +3524,6 @@
 															<DataPath>Объект.АлкогольнаяПродукцияВоВскрытойТаре</DataPath>
 															<TitleLocation>Right</TitleLocation>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="АлкогольнаяПродукцияВоВскрытойТареКонтекстноеМеню" id="1477"/>
 															<ExtendedTooltip name="АлкогольнаяПродукцияВоВскрытойТареРасширеннаяПодсказка" id="1478">
 																<HorizontalStretch>true</HorizontalStretch>
@@ -3639,7 +3631,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаКиЗРасширеннаяПодсказка" id="1388"/>
 													<ChildItems>
 														<InputField name="КиЗГИСМВид" id="1389">
@@ -3697,7 +3689,7 @@
 													</Title>
 													<Group>Vertical</Group>
 													<Behavior>Collapsible</Behavior>
-													<ControlRepresentation>Picture</ControlRepresentation>
+													<ControlRepresentation>Button</ControlRepresentation>
 													<ExtendedTooltip name="СворачиваемаяГруппаКлассификаторыРасширеннаяПодсказка" id="448"/>
 													<ChildItems>
 														<InputField name="КодОКВЭД" id="1210">

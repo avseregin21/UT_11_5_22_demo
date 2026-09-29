@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoURL>false</AutoURL>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<ReportFormType>Settings</ReportFormType>
 	<AutoShowState>Auto</AutoShowState>
 	<ReportResultViewMode>Auto</ReportResultViewMode>
@@ -157,8 +158,8 @@
 							<CommandBarLocation>Top</CommandBarLocation>
 							<ChoiceMode>true</ChoiceMode>
 							<RowInputMode>AfterCurrentRow</RowInputMode>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoAddIncomplete>false</AutoAddIncomplete>
 							<AutoMarkIncomplete>false</AutoMarkIncomplete>
 							<SearchOnInput>DontUse</SearchOnInput>
@@ -314,7 +315,7 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставГруппировкиИспользованиеКонтекстноеМеню" id="660"/>
 											<ExtendedTooltip name="СоставГруппировкиИспользованиеРасширеннаяПодсказка" id="661"/>
 											<Events>
@@ -331,6 +332,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ContextMenu name="СоставГруппировкиПолеКонтекстноеМеню" id="663"/>
 											<ExtendedTooltip name="СоставГруппировкиПолеРасширеннаяПодсказка" id="664"/>
@@ -355,6 +357,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставГруппировкиТипГруппировкиКонтекстноеМеню" id="666"/>
 											<ExtendedTooltip name="СоставГруппировкиТипГруппировкиРасширеннаяПодсказка" id="667"/>
 											<Events>
@@ -370,6 +373,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СоставГруппировкиТипДополненияКонтекстноеМеню" id="815"/>
 											<ExtendedTooltip name="СоставГруппировкиТипДополненияРасширеннаяПодсказка" id="816"/>
 											<Events>
@@ -441,7 +445,7 @@
 									<Group>Vertical</Group>
 									<Behavior>Collapsible</Behavior>
 									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Picture</ControlRepresentation>
+									<ControlRepresentation>Button</ControlRepresentation>
 									<Representation>NormalSeparation</Representation>
 									<ExtendedTooltip name="ДополнительноРасширеннаяПодсказка" id="1232"/>
 									<ChildItems>
@@ -481,7 +485,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыводитьЗаголовокКонтекстноеМеню" id="1146"/>
 															<ExtendedTooltip name="ВыводитьЗаголовокРасширеннаяПодсказка" id="1147"/>
 															<Events>
@@ -497,7 +500,6 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыводитьФильтрыКонтекстноеМеню" id="1149"/>
 															<ExtendedTooltip name="ВыводитьФильтрыРасширеннаяПодсказка" id="1150"/>
 															<Events>
@@ -518,8 +520,8 @@
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<ChoiceMode>true</ChoiceMode>
 							<RowInputMode>AfterCurrentRow</RowInputMode>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<AutoAddIncomplete>false</AutoAddIncomplete>
 							<AutoMarkIncomplete>false</AutoMarkIncomplete>
@@ -1161,7 +1163,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОтборыИспользованиеКонтекстноеМеню" id="1174"/>
 											<ExtendedTooltip name="ОтборыИспользованиеРасширеннаяПодсказка" id="1175"/>
 											<Events>
@@ -1178,6 +1180,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ListChoiceMode>true</ListChoiceMode>
@@ -1199,6 +1202,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ОтборыПараметрКонтекстноеМеню" id="1213"/>
 											<ExtendedTooltip name="ОтборыПараметрРасширеннаяПодсказка" id="1214"/>
@@ -1213,6 +1217,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>1</Width>
 											<ContextMenu name="ОтборыТипГруппыКонтекстноеМеню" id="1210"/>
 											<ExtendedTooltip name="ОтборыТипГруппыРасширеннаяПодсказка" id="1211"/>
@@ -1228,6 +1233,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="ОтборыВидСравненияКонтекстноеМеню" id="1186"/>
 									<ExtendedTooltip name="ОтборыВидСравненияРасширеннаяПодсказка" id="1187"/>
@@ -1253,6 +1259,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ОтборыЗначениеКонтекстноеМеню" id="1189"/>
 											<ExtendedTooltip name="ОтборыЗначениеРасширеннаяПодсказка" id="1190"/>
@@ -1270,6 +1277,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>10</Width>
 											<ContextMenu name="ОтборыПравоеЗначениеКонтекстноеМеню" id="1221"/>
 											<ExtendedTooltip name="ОтборыПравоеЗначениеРасширеннаяПодсказка" id="1222"/>
@@ -1294,6 +1302,7 @@
 										<xr:Ref>CommonPicture.БыстрыйДоступ</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ValuesPicture>
@@ -1313,6 +1322,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ClearButton>true</ClearButton>
 									<ContextMenu name="ОтборыПредставлениеПользовательскойНастройкиКонтекстноеМеню" id="1207"/>
@@ -1402,8 +1412,8 @@
 									<ChoiceMode>true</ChoiceMode>
 									<RowInputMode>AfterCurrentRow</RowInputMode>
 									<Header>false</Header>
-									<HorizontalLines>false</HorizontalLines>
-									<VerticalLines>false</VerticalLines>
+									<HorizontalLinesBWA>false</HorizontalLinesBWA>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
 									<AutoAddIncomplete>false</AutoAddIncomplete>
 									<AutoMarkIncomplete>false</AutoMarkIncomplete>
 									<SearchOnInput>DontUse</SearchOnInput>
@@ -1813,7 +1823,7 @@
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
-													<CheckBoxType>Auto</CheckBoxType>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВыбранныеПоляИспользованиеКонтекстноеМеню" id="260"/>
 													<ExtendedTooltip name="ВыбранныеПоляИспользованиеРасширеннаяПодсказка" id="261"/>
 													<Events>
@@ -1830,6 +1840,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВыбранныеПоляПолеКонтекстноеМеню" id="263"/>
 													<ExtendedTooltip name="ВыбранныеПоляПолеРасширеннаяПодсказка" id="264"/>
 												</InputField>
@@ -1845,6 +1856,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ВыбранныеПоляИндикаторФормулыКонтекстноеМеню" id="1406"/>
 											<ExtendedTooltip name="ВыбранныеПоляИндикаторФормулыРасширеннаяПодсказка" id="1407"/>
 										</PictureField>
@@ -1919,8 +1931,8 @@
 											<RowInputMode>AfterCurrentRow</RowInputMode>
 											<Header>false</Header>
 											<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-											<HorizontalLines>false</HorizontalLines>
-											<VerticalLines>false</VerticalLines>
+											<HorizontalLinesBWA>false</HorizontalLinesBWA>
+											<VerticalLinesBWA>false</VerticalLinesBWA>
 											<AutoAddIncomplete>false</AutoAddIncomplete>
 											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<SearchOnInput>DontUse</SearchOnInput>
@@ -2281,7 +2293,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
-															<CheckBoxType>Auto</CheckBoxType>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СортировкаИспользованиеКонтекстноеМеню" id="774"/>
 															<ExtendedTooltip name="СортировкаИспользованиеРасширеннаяПодсказка" id="775"/>
 															<Events>
@@ -2298,6 +2310,7 @@
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="СортировкаПолеКонтекстноеМеню" id="156"/>
 															<ExtendedTooltip name="СортировкаПолеРасширеннаяПодсказка" id="157"/>
 														</InputField>
@@ -2314,6 +2327,9 @@
 													<EditMode>EnterOnInput</EditMode>
 													<FixingInTable>Right</FixingInTable>
 													<CellHyperlink>true</CellHyperlink>
+													<AutoEditMode>true</AutoEditMode>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 													<Width>12</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Hiperlink>true</Hiperlink>
@@ -2390,8 +2406,8 @@
 							<Representation>Tree</Representation>
 							<CommandBarLocation>Top</CommandBarLocation>
 							<RowInputMode>AfterCurrentRow</RowInputMode>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<InitialTreeView>ExpandAllLevels</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
@@ -2628,7 +2644,7 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОформлениеИспользованиеКонтекстноеМеню" id="892"/>
 											<ExtendedTooltip name="ОформлениеИспользованиеРасширеннаяПодсказка" id="893"/>
 											<Events>
@@ -2644,6 +2660,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ОформлениеЗаголовокКонтекстноеМеню" id="895"/>
 											<ExtendedTooltip name="ОформлениеЗаголовокРасширеннаяПодсказка" id="896"/>
@@ -2664,6 +2681,7 @@
 										<xr:Ref>CommonPicture.БыстрыйДоступ</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</xr:Ref>
@@ -2741,8 +2759,8 @@
 							<ChoiceMode>true</ChoiceMode>
 							<RowInputMode>AfterCurrentRow</RowInputMode>
 							<SelectionMode>SingleRow</SelectionMode>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<InitialTreeView>ExpandAllLevels</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
@@ -3338,7 +3356,7 @@
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СтруктураВариантаИспользованиеКонтекстноеМеню" id="495"/>
 											<ExtendedTooltip name="СтруктураВариантаИспользованиеРасширеннаяПодсказка" id="496"/>
 											<Events>
@@ -3355,6 +3373,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="СтруктураВариантаПредставлениеКонтекстноеМеню" id="498"/>
 											<ExtendedTooltip name="СтруктураВариантаПредставлениеРасширеннаяПодсказка" id="499"/>
@@ -3370,6 +3389,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ClearButton>true</ClearButton>
 									<ContextMenu name="СтруктураВариантаЗаголовокКонтекстноеМеню" id="555"/>
 									<ExtendedTooltip name="СтруктураВариантаЗаголовокРасширеннаяПодсказка" id="556"/>
@@ -3398,6 +3418,7 @@
 										<xr:Ref>CommonPicture.Отборы</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
@@ -3430,6 +3451,7 @@
 										<xr:Ref>CommonPicture.ПоляИСортировки</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
@@ -3462,6 +3484,7 @@
 										<xr:Ref>CommonPicture.Оформление</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>2</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
@@ -4039,7 +4062,6 @@
 							<v8:content>Флажок</v8:content>
 						</v8:item>
 					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="Флажок1КонтекстноеМеню" id="1358"/>
 					<ExtendedTooltip name="Флажок1РасширеннаяПодсказка" id="1359"/>
 					<Events>
@@ -4054,7 +4076,6 @@
 							<v8:content>Флажок</v8:content>
 						</v8:item>
 					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="Флажок2КонтекстноеМеню" id="1361"/>
 					<ExtendedTooltip name="Флажок2РасширеннаяПодсказка" id="1362"/>
 					<Events>
@@ -4066,8 +4087,8 @@
 					<CommandBarLocation>None</CommandBarLocation>
 					<Height>3</Height>
 					<Header>false</Header>
-					<HorizontalLines>false</HorizontalLines>
-					<VerticalLines>false</VerticalLines>
+					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<DataPath>Список1</DataPath>
 					<RowPictureDataPath>Список1.Picture</RowPictureDataPath>
@@ -4130,7 +4151,6 @@
 										</v8:item>
 									</Title>
 									<EditMode>Directly</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Список1ПометкаКонтекстноеМеню" id="1277"/>
 									<ExtendedTooltip name="Список1ПометкаРасширеннаяПодсказка" id="1278"/>
 									<Events>
@@ -4146,6 +4166,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="Список1ЗначениеКонтекстноеМеню" id="1272"/>
 									<ExtendedTooltip name="Список1ЗначениеРасширеннаяПодсказка" id="1273"/>
 									<Events>
@@ -4162,8 +4183,8 @@
 					<CommandBarLocation>None</CommandBarLocation>
 					<Height>3</Height>
 					<Header>false</Header>
-					<HorizontalLines>false</HorizontalLines>
-					<VerticalLines>false</VerticalLines>
+					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<DataPath>Список2</DataPath>
 					<RowPictureDataPath>Список2.Picture</RowPictureDataPath>
@@ -4226,7 +4247,6 @@
 										</v8:item>
 									</Title>
 									<EditMode>Directly</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Список2ПометкаКонтекстноеМеню" id="1298"/>
 									<ExtendedTooltip name="Список2ПометкаРасширеннаяПодсказка" id="1299"/>
 									<Events>
@@ -4242,6 +4262,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="Список2ЗначениеКонтекстноеМеню" id="1295"/>
 									<ExtendedTooltip name="Список2ЗначениеРасширеннаяПодсказка" id="1296"/>
 									<Events>
@@ -4258,8 +4279,8 @@
 					<CommandBarLocation>None</CommandBarLocation>
 					<Height>3</Height>
 					<Header>false</Header>
-					<HorizontalLines>false</HorizontalLines>
-					<VerticalLines>false</VerticalLines>
+					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<DataPath>Список3</DataPath>
 					<RowPictureDataPath>Список3.Picture</RowPictureDataPath>
@@ -4322,7 +4343,6 @@
 										</v8:item>
 									</Title>
 									<EditMode>Directly</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Список3ПометкаКонтекстноеМеню" id="1319"/>
 									<ExtendedTooltip name="Список3ПометкаРасширеннаяПодсказка" id="1320"/>
 									<Events>
@@ -4338,6 +4358,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="Список3ЗначениеКонтекстноеМеню" id="1316"/>
 									<ExtendedTooltip name="Список3ЗначениеРасширеннаяПодсказка" id="1317"/>
 									<Events>
@@ -4354,8 +4375,8 @@
 					<CommandBarLocation>None</CommandBarLocation>
 					<Height>3</Height>
 					<Header>false</Header>
-					<HorizontalLines>false</HorizontalLines>
-					<VerticalLines>false</VerticalLines>
+					<HorizontalLinesBWA>false</HorizontalLinesBWA>
+					<VerticalLinesBWA>false</VerticalLinesBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<DataPath>Список4</DataPath>
 					<RowPictureDataPath>Список4.Picture</RowPictureDataPath>
@@ -4418,7 +4439,6 @@
 										</v8:item>
 									</Title>
 									<EditMode>Directly</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="Список4ПометкаКонтекстноеМеню" id="1340"/>
 									<ExtendedTooltip name="Список4ПометкаРасширеннаяПодсказка" id="1341"/>
 									<Events>
@@ -4434,6 +4454,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="Список4ЗначениеКонтекстноеМеню" id="1337"/>
 									<ExtendedTooltip name="Список4ЗначениеРасширеннаяПодсказка" id="1338"/>
 									<Events>

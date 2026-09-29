@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -230,6 +230,7 @@
 								<InputField name="Номер" id="80">
 									<DataPath>Объект.Number</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>10</MaxWidth>
 									<ContextMenu name="НомерКонтекстноеМеню" id="81"/>
@@ -244,6 +245,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="84"/>
@@ -260,6 +262,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ContextMenu name="ДатаБлокировкиКонтекстноеМеню" id="196"/>
 							<ExtendedTooltip name="ДатаБлокировкиРасширеннаяПодсказка" id="197"/>
@@ -267,6 +270,7 @@
 						<InputField name="ДатаНачалаДействия" id="10">
 							<DataPath>Объект.ДатаНачалаДействия</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>10</Width>
 							<ContextMenu name="ДатаНачалаДействияКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ДатаНачалаДействияРасширеннаяПодсказка" id="12"/>
@@ -290,6 +294,7 @@
 						<InputField name="ТоварнаяКатегория" id="22">
 							<DataPath>Объект.ТоварнаяКатегория</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<BackColor>style:ЦветФонаВыделения</BackColor>
@@ -303,6 +308,7 @@
 							<DataPath>Объект.Реквизит</DataPath>
 							<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>28</MaxWidth>
 							<DropListButton>true</DropListButton>
@@ -474,12 +480,14 @@
 										<LabelField name="НормативыПоРеквизитамНомерСтроки" id="157">
 											<DataPath>Объект.НормативыПоРеквизитам.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="НормативыПоРеквизитамНомерСтрокиКонтекстноеМеню" id="158"/>
 											<ExtendedTooltip name="НормативыПоРеквизитамНомерСтрокиРасширеннаяПодсказка" id="159"/>
 										</LabelField>
 										<InputField name="НормативыПоРеквизитамЗначение" id="160">
 											<DataPath>Объект.НормативыПоРеквизитам.Значение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<OpenButton>true</OpenButton>
 											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 											<ChooseType>false</ChooseType>
@@ -492,6 +500,7 @@
 										<InputField name="НормативыПоРеквизитамДоляРаспределения" id="163">
 											<DataPath>Объект.НормативыПоРеквизитам.ДоляРаспределения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="НормативыПоРеквизитамДоляРаспределенияКонтекстноеМеню" id="164"/>
@@ -609,12 +618,14 @@
 										<LabelField name="НормативыПоСвойствамНомерСтроки" id="174">
 											<DataPath>Объект.НормативыПоСвойствам.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="НормативыПоСвойствамНомерСтрокиКонтекстноеМеню" id="175"/>
 											<ExtendedTooltip name="НормативыПоСвойствамНомерСтрокиРасширеннаяПодсказка" id="176"/>
 										</LabelField>
 										<InputField name="НормативыПоСвойствамЗначение" id="177">
 											<DataPath>Объект.НормативыПоСвойствам.Значение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -624,6 +635,7 @@
 										<InputField name="НормативыПоСвойствамДоляРаспределения" id="180">
 											<DataPath>Объект.НормативыПоСвойствам.ДоляРаспределения</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="НормативыПоСвойствамДоляРаспределенияКонтекстноеМеню" id="181"/>
 											<ExtendedTooltip name="НормативыПоСвойствамДоляРаспределенияРасширеннаяПодсказка" id="182"/>
 										</InputField>
@@ -653,6 +665,7 @@
 					<DataPath>Объект.Ответственный</DataPath>
 					<TitleLocation>Left</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>30</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
@@ -662,6 +675,7 @@
 					<DataPath>Объект.Комментарий</DataPath>
 					<TitleLocation>Left</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Height>1</Height>
 					<VerticalStretch>false</VerticalStretch>
 					<ChoiceButton>true</ChoiceButton>

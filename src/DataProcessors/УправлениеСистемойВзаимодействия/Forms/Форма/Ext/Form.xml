@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
@@ -109,9 +110,9 @@
 							<ChangeRowOrder>false</ChangeRowOrder>
 							<SelectionMode>SingleRow</SelectionMode>
 							<RowSelectionMode>Row</RowSelectionMode>
-							<HorizontalLines>false</HorizontalLines>
-							<VerticalLines>false</VerticalLines>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<HorizontalLinesBWA>false</HorizontalLinesBWA>
+							<VerticalLinesBWA>false</VerticalLinesBWA>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -229,12 +230,14 @@
 										<InputField name="СвязиПриложенийПриложение1" id="28">
 											<DataPath>СвязиПриложений.Приложение1</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СвязиПриложенийПриложение1КонтекстноеМеню" id="29"/>
 											<ExtendedTooltip name="СвязиПриложенийПриложение1РасширеннаяПодсказка" id="30"/>
 										</InputField>
 										<InputField name="СвязиПриложенийПриложение2" id="31">
 											<DataPath>СвязиПриложений.Приложение2</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СвязиПриложенийПриложение2КонтекстноеМеню" id="32"/>
 											<ExtendedTooltip name="СвязиПриложенийПриложение2РасширеннаяПодсказка" id="33"/>
 										</InputField>
@@ -267,6 +270,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СвязиПриложенийПредставлениеСопоставленияПользователейКонтекстноеМеню" id="37"/>
 											<ExtendedTooltip name="СвязиПриложенийПредставлениеСопоставленияПользователейРасширеннаяПодсказка" id="38"/>
 										</InputField>
@@ -280,7 +284,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СвязиПриложенийСопоставлениеОбсужденийКонтекстноеМеню" id="40"/>
 											<ExtendedTooltip name="СвязиПриложенийСопоставлениеОбсужденийРасширеннаяПодсказка" id="41"/>
 										</CheckBoxField>
@@ -449,6 +453,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиИмяПользователяКонтекстноеМеню" id="72"/>
 									<ExtendedTooltip name="ПользователиИмяПользователяРасширеннаяПодсказка" id="73"/>
 								</InputField>
@@ -461,6 +466,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиПолноеИмяКонтекстноеМеню" id="75"/>
 									<ExtendedTooltip name="ПользователиПолноеИмяРасширеннаяПодсказка" id="76"/>
 								</InputField>
@@ -473,7 +479,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиЭтоПользовательИБКонтекстноеМеню" id="78"/>
 									<ExtendedTooltip name="ПользователиЭтоПользовательИБРасширеннаяПодсказка" id="79"/>
 								</CheckBoxField>
@@ -486,14 +492,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиЭтоПользовательСистемыВзаимодействияКонтекстноеМеню" id="81"/>
 									<ExtendedTooltip name="ПользователиЭтоПользовательСистемыВзаимодействияРасширеннаяПодсказка" id="82"/>
 								</CheckBoxField>
 								<CheckBoxField name="ПользователиЗаблокирован" id="83">
 									<DataPath>ТаблицаПользователей.Заблокирован</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ПользователиЗаблокированКонтекстноеМеню" id="84"/>
 									<ExtendedTooltip name="ПользователиЗаблокированРасширеннаяПодсказка" id="85"/>
 								</CheckBoxField>
@@ -591,12 +597,14 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаСопоставленияПользовательИБКонтекстноеМеню" id="181"/>
 									<ExtendedTooltip name="ТаблицаСопоставленияПользовательИБРасширеннаяПодсказка" id="182"/>
 								</InputField>
 								<InputField name="ТаблицаСопоставленияПользовательСервиса" id="183">
 									<DataPath>ТаблицаСопоставления.ПользовательСервиса</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ChoiceButton>true</ChoiceButton>
 									<ClearButton>true</ClearButton>
 									<TextEdit>false</TextEdit>
@@ -611,6 +619,7 @@
 									<DataPath>ТаблицаСопоставления.КлючСопоставления</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаСопоставленияКлючСопоставленияКонтекстноеМеню" id="187"/>
 									<ExtendedTooltip name="ТаблицаСопоставленияКлючСопоставленияРасширеннаяПодсказка" id="188"/>
 								</InputField>

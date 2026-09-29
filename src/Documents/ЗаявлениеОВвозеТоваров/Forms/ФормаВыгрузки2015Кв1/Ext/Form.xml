@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -324,7 +325,6 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИмпортерСовпадаетСОтправителемКонтекстноеМеню" id="339"/>
 									<ExtendedTooltip name="ИмпортерСовпадаетСОтправителемРасширеннаяПодсказка" id="340"/>
 									<Events>
@@ -1039,6 +1039,7 @@
 													<DataPath>ДокументыПоступления.ДокументПоступления</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДокументПоступленияКонтекстноеМеню" id="192"/>
 													<ExtendedTooltip name="ДокументПоступленияРасширеннаяПодсказка" id="193"/>
 												</InputField>
@@ -1051,6 +1052,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
 													<ContextMenu name="ДатаПринятияНаУчетКонтекстноеМеню" id="198"/>
 													<ExtendedTooltip name="ДатаПринятияНаУчетРасширеннаяПодсказка" id="199"/>
@@ -1058,6 +1060,7 @@
 												<InputField name="ВидТранспорта" id="194">
 													<DataPath>ДокументыПоступления.ВидТранспорта</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>26</Width>
 													<ListChoiceMode>true</ListChoiceMode>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -1079,6 +1082,7 @@
 															<DataPath>ДокументыПоступления.НомерСчетаФактуры</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НомерСчетаФактурыКонтекстноеМеню" id="201"/>
 															<ExtendedTooltip name="НомерСчетаФактурыРасширеннаяПодсказка" id="202"/>
 														</InputField>
@@ -1086,6 +1090,7 @@
 															<DataPath>ДокументыПоступления.ДатаСчетаФактуры</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДатаСчетаФактурыКонтекстноеМеню" id="204"/>
 															<ExtendedTooltip name="ДатаСчетаФактурыРасширеннаяПодсказка" id="205"/>
 														</InputField>
@@ -1106,6 +1111,7 @@
 															<DataPath>ДокументыПоступления.СерияНомерТСД</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="НомерТСДКонтекстноеМеню" id="207"/>
 															<ExtendedTooltip name="НомерТСДРасширеннаяПодсказка" id="208"/>
 														</InputField>
@@ -1113,6 +1119,7 @@
 															<DataPath>ДокументыПоступления.ДатаТСД</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
+															<AutoEditMode>true</AutoEditMode>
 															<ContextMenu name="ДатаТСДКонтекстноеМеню" id="210"/>
 															<ExtendedTooltip name="ДатаТСДРасширеннаяПодсказка" id="211"/>
 														</InputField>
@@ -1217,7 +1224,6 @@
 						<CheckBoxField name="ПечатьИВыгрузкаСводноПоНоменклатуре" id="416">
 							<DataPath>ПечатьИВыгрузкаСводноПоНоменклатуре</DataPath>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПечатьИВыгрузкаСводноПоНоменклатуреКонтекстноеМеню" id="417"/>
 							<ExtendedTooltip name="ПечатьИВыгрузкаСводноПоНоменклатуреРасширеннаяПодсказка" id="418"/>
 						</CheckBoxField>
@@ -1278,12 +1284,14 @@
 										<InputField name="СпецификацииДатаСпецификации" id="77">
 											<DataPath>Спецификации.ДатаСпецификации</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СпецификацииДатаСпецификацииКонтекстноеМеню" id="78"/>
 											<ExtendedTooltip name="СпецификацииДатаСпецификацииРасширеннаяПодсказка" id="79"/>
 										</InputField>
 										<InputField name="СпецификацииНомерСпецификации" id="80">
 											<DataPath>Спецификации.НомерСпецификации</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СпецификацииНомерСпецификацииКонтекстноеМеню" id="81"/>
 											<ExtendedTooltip name="СпецификацииНомерСпецификацииРасширеннаяПодсказка" id="82"/>
 										</InputField>
@@ -1348,6 +1356,7 @@
 								<InputField name="УчастникиСделкиТипГражданскоПравовыхОтношений" id="324">
 									<DataPath>УчастникиСделки.ТипГражданскоПравовыхОтношений</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="УчастникиСделкиТипГражданскоПравовыхОтношенийКонтекстноеМеню" id="325"/>
 									<ExtendedTooltip name="УчастникиСделкиТипГражданскоПравовыхОтношенийРасширеннаяПодсказка" id="326"/>
 									<Events>
@@ -1368,6 +1377,7 @@
 											<DataPath>УчастникиСделки.РольПродавца</DataPath>
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ListChoiceMode>true</ListChoiceMode>
 											<ChoiceList>
@@ -1445,6 +1455,7 @@
 										<InputField name="УчастникиСделкиПродавец" id="8">
 											<DataPath>УчастникиСделки.Продавец</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="УчастникиСделкиПродавецКонтекстноеМеню" id="9"/>
 											<ExtendedTooltip name="УчастникиСделкиПродавецРасширеннаяПодсказка" id="10"/>
@@ -1465,6 +1476,7 @@
 											<DataPath>УчастникиСделки.РольПокупателя</DataPath>
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ListChoiceMode>true</ListChoiceMode>
 											<ChoiceList>
@@ -1539,6 +1551,7 @@
 										<InputField name="УчастникиСделкиПокупатель" id="14">
 											<DataPath>УчастникиСделки.Покупатель</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
 											<ContextMenu name="УчастникиСделкиПокупательКонтекстноеМеню" id="15"/>
 											<ExtendedTooltip name="УчастникиСделкиПокупательРасширеннаяПодсказка" id="16"/>
@@ -1564,6 +1577,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="УчастникиСделкиНомерДоговораКонтекстноеМеню" id="18"/>
 											<ExtendedTooltip name="УчастникиСделкиНомерДоговораРасширеннаяПодсказка" id="19"/>
@@ -1571,6 +1585,7 @@
 										<InputField name="УчастникиСделкиДатаДоговора" id="20">
 											<DataPath>УчастникиСделки.ДатаДоговора</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="УчастникиСделкиДатаДоговораКонтекстноеМеню" id="21"/>
 											<ExtendedTooltip name="УчастникиСделкиДатаДоговораРасширеннаяПодсказка" id="22"/>
 										</InputField>
@@ -1595,6 +1610,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>15</Width>
 											<ContextMenu name="УчастникиСделкиНомерСпецификацииКонтекстноеМеню" id="24"/>
 											<ExtendedTooltip name="УчастникиСделкиНомерСпецификацииРасширеннаяПодсказка" id="25"/>
@@ -1602,6 +1618,7 @@
 										<InputField name="УчастникиСделкиДатаСпецификации" id="26">
 											<DataPath>УчастникиСделки.ДатаСпецификации</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="УчастникиСделкиДатаСпецификацииКонтекстноеМеню" id="27"/>
 											<ExtendedTooltip name="УчастникиСделкиДатаСпецификацииРасширеннаяПодсказка" id="28"/>
 										</InputField>
@@ -1659,18 +1676,21 @@
 								<InputField name="ТаблицаДокументыНаименование" id="407">
 									<DataPath>СведенияОДокументах.Наименование</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаДокументыНаименованиеКонтекстноеМеню" id="408"/>
 									<ExtendedTooltip name="ТаблицаДокументыНаименованиеРасширеннаяПодсказка" id="409"/>
 								</InputField>
 								<InputField name="ТаблицаДокументыНомер" id="410">
 									<DataPath>СведенияОДокументах.Номер</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаДокументыНомерКонтекстноеМеню" id="411"/>
 									<ExtendedTooltip name="ТаблицаДокументыНомерРасширеннаяПодсказка" id="412"/>
 								</InputField>
 								<InputField name="ТаблицаДокументыДата" id="413">
 									<DataPath>СведенияОДокументах.Дата</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ТаблицаДокументыДатаКонтекстноеМеню" id="414"/>
 									<ExtendedTooltip name="ТаблицаДокументыДатаРасширеннаяПодсказка" id="415"/>
 								</InputField>

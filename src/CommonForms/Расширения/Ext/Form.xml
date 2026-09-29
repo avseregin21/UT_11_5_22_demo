@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoURL>false</AutoURL>
 	<CommandBarLocation>Top</CommandBarLocation>
+	<ShowCommandBar>true</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -422,7 +423,7 @@
 						<Table name="СписокРасширений" id="19">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>СписокРасширений</DataPath>
@@ -564,7 +565,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийОбщееКонтекстноеМеню" id="169"/>
 									<ExtendedTooltip name="СписокРасширенийОбщееРасширеннаяПодсказка" id="170"/>
 								</CheckBoxField>
@@ -589,7 +590,7 @@
 										<xr:Ref>CommonPicture.РасширениеКонфигурацииИзГлавногоУзла</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийПолученоИзГлавногоУзлаРИБКонтекстноеМеню" id="172"/>
 									<ExtendedTooltip name="СписокРасширенийПолученоИзГлавногоУзлаРИБРасширеннаяПодсказка" id="173"/>
 								</CheckBoxField>
@@ -613,7 +614,7 @@
 										<xr:Ref>StdPicture.CheckAll</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийПодключатьКонтекстноеМеню" id="175"/>
 									<ExtendedTooltip name="СписокРасширенийПодключатьРасширеннаяПодсказка" id="176"/>
 									<Events>
@@ -640,6 +641,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СостоянияРасширенийКонфигурации</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -658,6 +660,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>42</Width>
 											<ContextMenu name="СписокРасширенийСинонимКонтекстноеМеню" id="54"/>
 											<ExtendedTooltip name="СписокРасширенийСинонимРасширеннаяПодсказка" id="55"/>
@@ -674,6 +677,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>10</Width>
 									<ContextMenu name="СписокРасширенийВерсияКонтекстноеМеню" id="39"/>
 									<ExtendedTooltip name="СписокРасширенийВерсияРасширеннаяПодсказка" id="40"/>
@@ -694,6 +698,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийНазначениеКонтекстноеМеню" id="157"/>
 									<ExtendedTooltip name="СписокРасширенийНазначениеРасширеннаяПодсказка" id="158"/>
 								</InputField>
@@ -717,7 +722,7 @@
 										<xr:Ref>StdPicture.ExchangePlan</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
-									<CheckBoxType>Auto</CheckBoxType>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийПередаватьВПодчиненныеУзлыРИБКонтекстноеМеню" id="166"/>
 									<ExtendedTooltip name="СписокРасширенийПередаватьВПодчиненныеУзлыРИБРасширеннаяПодсказка" id="167"/>
 									<Events>
@@ -755,7 +760,7 @@
 												<xr:Ref>CommonPicture.ЗначокЩита</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СписокРасширенийБезопасныйРежимФлагКонтекстноеМеню" id="51"/>
 											<ExtendedTooltip name="СписокРасширенийБезопасныйРежимФлагРасширеннаяПодсказка" id="52"/>
 											<Events>
@@ -776,6 +781,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<Width>7</Width>
 											<Format>
 												<v8:item>
@@ -807,6 +813,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийСостояниеПодключенияКонтекстноеМеню" id="195"/>
 									<ExtendedTooltip name="СписокРасширенийСостояниеПодключенияРасширеннаяПодсказка" id="196"/>
 								</InputField>
@@ -823,6 +830,7 @@
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="СписокРасширенийКонтрольнаяСуммаКонтекстноеМеню" id="99"/>
 									<ExtendedTooltip name="СписокРасширенийКонтрольнаяСуммаРасширеннаяПодсказка" id="100"/>
 								</InputField>
@@ -841,6 +849,7 @@
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>45</Width>
 									<ContextMenu name="СписокРасширенийОтветственныйКонтекстноеМеню" id="257"/>
 									<ExtendedTooltip name="СписокРасширенийОтветственныйРасширеннаяПодсказка" id="258"/>
@@ -868,6 +877,7 @@
 										<xr:Ref>CommonPicture.Комментарий</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</HeaderPicture>
+									<AutoEditMode>true</AutoEditMode>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.Комментарий</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>

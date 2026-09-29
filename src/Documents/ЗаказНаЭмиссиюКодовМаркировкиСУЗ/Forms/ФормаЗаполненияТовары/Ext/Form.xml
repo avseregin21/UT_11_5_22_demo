@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Параметры остатков</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -97,7 +97,6 @@
 									<v8:content>Код ТНВЭД</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьКодТНВЭДКонтекстноеМеню" id="78"/>
 							<ExtendedTooltip name="ЗаполнятьКодТНВЭДРасширеннаяПодсказка" id="79"/>
 							<Events>
@@ -133,7 +132,6 @@
 									<v8:content>Наименование</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьНаименованиеКонтекстноеМеню" id="70"/>
 							<ExtendedTooltip name="ЗаполнятьНаименованиеРасширеннаяПодсказка" id="71"/>
 							<Events>
@@ -164,7 +162,6 @@
 									<v8:content>Целевой пол</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьЦелевойПолКонтекстноеМеню" id="4"/>
 							<ExtendedTooltip name="ЗаполнятьЦелевойПолРасширеннаяПодсказка" id="5"/>
 							<Events>
@@ -196,7 +193,6 @@
 									<v8:content>Возрастная категория</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьВозрастнаяКатегорияКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="ЗаполнятьВозрастнаяКатегорияРасширеннаяПодсказка" id="46"/>
 							<Events>
@@ -227,7 +223,6 @@
 									<v8:content>Способ ввода в оборот</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьСпособВводаВОборотКонтекстноеМеню" id="10"/>
 							<ExtendedTooltip name="ЗаполнятьСпособВводаВОборотРасширеннаяПодсказка" id="11"/>
 							<Events>
@@ -279,7 +274,6 @@
 									<v8:content>Модель</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьМодельКонтекстноеМеню" id="53"/>
 							<ExtendedTooltip name="ЗаполнятьМодельРасширеннаяПодсказка" id="54"/>
 							<Events>
@@ -310,7 +304,6 @@
 									<v8:content>Товарный знак</v8:content>
 								</v8:item>
 							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЗаполнятьТоварныйЗнакКонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="ЗаполнятьТоварныйЗнакРасширеннаяПодсказка" id="60"/>
 							<Events>
@@ -343,7 +336,6 @@
 							<v8:content>Вид упаковки</v8:content>
 						</v8:item>
 					</Title>
-					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗаполнятьШаблонКонтекстноеМеню" id="86"/>
 					<ExtendedTooltip name="ЗаполнятьШаблонРасширеннаяПодсказка" id="87"/>
 					<Events>

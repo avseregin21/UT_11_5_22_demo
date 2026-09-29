@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -26,6 +26,7 @@
 				<InputField name="Наименование" id="3">
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>30</Width>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
@@ -34,6 +35,7 @@
 				<InputField name="Родитель" id="5">
 					<DataPath>Объект.Parent</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="35"/>
@@ -48,6 +50,7 @@
 				<InputField name="Телефоны" id="13">
 					<DataPath>Объект.Телефоны</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>20</Width>
 					<ContextMenu name="ТелефоныКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="ТелефоныРасширеннаяПодсказка" id="37"/>
@@ -105,7 +108,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ДеятельностьБанкаПрекращенаКонтекстноеМеню" id="18"/>
 							<ExtendedTooltip name="ДеятельностьБанкаПрекращенаРасширеннаяПодсказка" id="28"/>
 						</CheckBoxField>
@@ -155,6 +157,7 @@
 								<InputField name="Код" id="1">
 									<DataPath>Объект.Code</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
@@ -165,6 +168,7 @@
 						<InputField name="КоррСчет" id="7">
 							<DataPath>Объект.КоррСчет</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>24</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="КоррСчетКонтекстноеМеню" id="8"/>
@@ -175,6 +179,7 @@
 				<InputField name="Город" id="9">
 					<DataPath>Объект.Город</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>30</Width>
 					<ContextMenu name="ГородКонтекстноеМеню" id="10"/>
 					<ExtendedTooltip name="ГородРасширеннаяПодсказка" id="34"/>
@@ -182,6 +187,7 @@
 				<InputField name="Адрес" id="11">
 					<DataPath>Объект.Адрес</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
 					<Width>30</Width>
 					<ContextMenu name="АдресКонтекстноеМеню" id="12"/>
 					<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="36"/>

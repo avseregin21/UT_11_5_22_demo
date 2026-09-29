@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
 			<v8:content>Заполнение вида номенклатуры</v8:content>
 		</v8:item>
 	</Title>
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -229,6 +229,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<OpenButton>false</OpenButton>
 											<ContextMenu name="ОсновныеРеквизитыПредставлениеРеквизитаКонтекстноеМеню" id="150"/>
 											<ExtendedTooltip name="ОсновныеРеквизитыПредставлениеРеквизитаРасширеннаяПодсказка" id="151"/>
@@ -241,7 +242,7 @@
 												<xr:Ref>StdPicture.Change</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</HeaderPicture>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОсновныеРеквизитыНоменклатурыПометкаКонтекстноеМеню" id="153"/>
 											<ExtendedTooltip name="ОсновныеРеквизитыНоменклатурыПометкаРасширеннаяПодсказка" id="154"/>
 										</CheckBoxField>
@@ -254,12 +255,14 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОсновныеРеквизитыПредставлениеЗначенияСервисаКонтекстноеМеню" id="156"/>
 											<ExtendedTooltip name="ОсновныеРеквизитыПредставлениеЗначенияСервисаРасширеннаяПодсказка" id="157"/>
 										</InputField>
 										<InputField name="ОсновныеРеквизитыТекущееЗначение" id="158">
 											<DataPath>ОсновныеРеквизиты.ТекущееЗначение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="ОсновныеРеквизитыТекущееЗначениеКонтекстноеМеню" id="159"/>
 											<ExtendedTooltip name="ОсновныеРеквизитыТекущееЗначениеРасширеннаяПодсказка" id="160"/>
 										</InputField>
@@ -454,6 +457,7 @@
 												<xr:Ref>StdPicture.Catalog</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</HeaderPicture>
+											<AutoEditMode>true</AutoEditMode>
 											<DropListButton>true</DropListButton>
 											<ClearButton>true</ClearButton>
 											<OpenButton>true</OpenButton>
@@ -485,6 +489,7 @@
 													<DataPath>ДополнительныеРеквизиты.РеквизитКатегории</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ДополнительныеРеквизитыРеквизитКатегорииКонтекстноеМеню" id="194"/>
 													<ExtendedTooltip name="ДополнительныеРеквизитыРеквизитКатегорииРасширеннаяПодсказка" id="195"/>
 												</InputField>
@@ -492,6 +497,7 @@
 													<DataPath>ДополнительныеРеквизиты.ТипРеквизитаКатегории</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<TextColor>style:ПоясняющийТекст</TextColor>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
 													<ContextMenu name="ДополнительныеРеквизитыТипРеквизитаКатегорииКонтекстноеМеню" id="197"/>
@@ -504,6 +510,9 @@
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
+											<AutoEditMode>true</AutoEditMode>
+											<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+											<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
 											<ContextMenu name="ДополнительныеРеквизитыСопоставленоЗначенийКонтекстноеМеню" id="200"/>
 											<ExtendedTooltip name="ДополнительныеРеквизитыСопоставленоЗначенийРасширеннаяПодсказка" id="201"/>
 										</InputField>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -52,7 +52,7 @@
 			<ExtendedTooltip name="ГруппаСкладыРасширеннаяПодсказка" id="18"/>
 			<ChildItems>
 				<Table name="Склады" id="1">
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
 					<DataPath>Склады</DataPath>
@@ -210,27 +210,28 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СотрудникКонтекстноеМеню" id="65"/>
 							<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="66"/>
 						</InputField>
 						<CheckBoxField name="Диспетчер" id="67">
 							<DataPath>Сотрудники.Диспетчер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ДиспетчерКонтекстноеМеню" id="68"/>
 							<ExtendedTooltip name="ДиспетчерРасширеннаяПодсказка" id="69"/>
 						</CheckBoxField>
 						<CheckBoxField name="Сборщик" id="70">
 							<DataPath>Сотрудники.Сборщик</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="СборщикКонтекстноеМеню" id="71"/>
 							<ExtendedTooltip name="СборщикРасширеннаяПодсказка" id="72"/>
 						</CheckBoxField>
 						<CheckBoxField name="Курьер" id="73">
 							<DataPath>Сотрудники.Курьер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="КурьерКонтекстноеМеню" id="74"/>
 							<ExtendedTooltip name="КурьерРасширеннаяПодсказка" id="75"/>
 						</CheckBoxField>
@@ -251,7 +252,7 @@
 			<ExtendedTooltip name="ГруппаСотрудникиРасширеннаяПодсказка" id="86"/>
 			<ChildItems>
 				<Table name="Сотрудники2" id="87">
-					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
 					<DataPath>Сотрудники2</DataPath>
@@ -379,27 +380,28 @@
 						<InputField name="Склады2Склад" id="116">
 							<DataPath>Склады2.Склад</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Склады2СкладКонтекстноеМеню" id="117"/>
 							<ExtendedTooltip name="Склады2СкладРасширеннаяПодсказка" id="118"/>
 						</InputField>
 						<CheckBoxField name="Склады2Диспетчер" id="119">
 							<DataPath>Склады2.Диспетчер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Склады2ДиспетчерКонтекстноеМеню" id="120"/>
 							<ExtendedTooltip name="Склады2ДиспетчерРасширеннаяПодсказка" id="121"/>
 						</CheckBoxField>
 						<CheckBoxField name="Склады2Сборщик" id="122">
 							<DataPath>Склады2.Сборщик</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Склады2СборщикКонтекстноеМеню" id="123"/>
 							<ExtendedTooltip name="Склады2СборщикРасширеннаяПодсказка" id="124"/>
 						</CheckBoxField>
 						<CheckBoxField name="Склады2Курьер" id="125">
 							<DataPath>Склады2.Курьер</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<CheckBoxType>Auto</CheckBoxType>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="Склады2КурьерКонтекстноеМеню" id="126"/>
 							<ExtendedTooltip name="Склады2КурьерРасширеннаяПодсказка" id="127"/>
 						</CheckBoxField>

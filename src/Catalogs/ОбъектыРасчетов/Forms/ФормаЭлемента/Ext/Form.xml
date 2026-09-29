@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -45,6 +45,7 @@
 								</v8:item>
 							</Title>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="ТипРасчетовКонтекстноеМеню" id="38"/>
 							<ExtendedTooltip name="ТипРасчетовРасширеннаяПодсказка" id="39"/>
 						</InputField>
@@ -105,6 +106,7 @@
 											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="СсылкаНаОбъектРасчетовКонтекстноеМеню" id="2"/>
 											<ExtendedTooltip name="СсылкаНаОбъектРасчетовРасширеннаяПодсказка" id="3"/>
 										</InputField>
@@ -124,6 +126,7 @@
 												<InputField name="Номер" id="19">
 													<DataPath>Объект.Номер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>10</Width>
 													<ContextMenu name="НомерКонтекстноеМеню" id="20"/>
 													<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="21"/>
@@ -137,6 +140,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>14</Width>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="23"/>
 													<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="24"/>
@@ -165,6 +169,7 @@
 												<InputField name="Сумма" id="31">
 													<DataPath>Объект.Сумма</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="СуммаКонтекстноеМеню" id="32"/>
 													<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="33"/>
 												</InputField>
@@ -172,6 +177,7 @@
 													<DataPath>Объект.Валюта</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ContextMenu name="ВалютаКонтекстноеМеню" id="35"/>
 													<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="36"/>
 												</InputField>
@@ -258,6 +264,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>13</Width>
 													<ContextMenu name="НомерВходящегоДокументаКонтекстноеМеню" id="26"/>
 													<ExtendedTooltip name="НомерВходящегоДокументаРасширеннаяПодсказка" id="27"/>
@@ -271,6 +278,7 @@
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<Width>9</Width>
 													<ContextMenu name="ДатаВходящегоДокументаКонтекстноеМеню" id="29"/>
 													<ExtendedTooltip name="ДатаВходящегоДокументаРасширеннаяПодсказка" id="30"/>
@@ -325,6 +333,7 @@
 													<DataPath>Объект.Организация</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>29</MaxWidth>
 													<ContextMenu name="ОрганизацияКонтекстноеМеню" id="50"/>
@@ -333,6 +342,7 @@
 												<InputField name="Контрагент" id="52">
 													<DataPath>Объект.Контрагент</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>29</MaxWidth>
 													<ContextMenu name="КонтрагентКонтекстноеМеню" id="53"/>
@@ -341,6 +351,7 @@
 												<InputField name="Партнер" id="46">
 													<DataPath>Объект.Партнер</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>29</MaxWidth>
 													<ContextMenu name="ПартнерКонтекстноеМеню" id="47"/>
@@ -349,6 +360,7 @@
 												<InputField name="Договор" id="55">
 													<DataPath>Объект.Договор</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>29</MaxWidth>
 													<ContextMenu name="ДоговорКонтекстноеМеню" id="56"/>
@@ -357,6 +369,7 @@
 												<InputField name="НаправлениеДеятельности" id="58">
 													<DataPath>Объект.НаправлениеДеятельности</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>29</MaxWidth>
 													<ContextMenu name="НаправлениеДеятельностиКонтекстноеМеню" id="59"/>
@@ -418,6 +431,7 @@
 										<InputField name="ГруппаФинансовогоУчета" id="7">
 											<DataPath>Объект.ГруппаФинансовогоУчета</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<ContextMenu name="ГруппаФинансовогоУчетаКонтекстноеМеню" id="8"/>
@@ -426,6 +440,7 @@
 										<InputField name="Подразделение" id="13">
 											<DataPath>Объект.Подразделение</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<ContextMenu name="ПодразделениеКонтекстноеМеню" id="14"/>
@@ -433,13 +448,13 @@
 										</InputField>
 										<CheckBoxField name="ОплатаВВалюте" id="75">
 											<DataPath>Объект.ОплатаВВалюте</DataPath>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОплатаВВалютеКонтекстноеМеню" id="76"/>
 											<ExtendedTooltip name="ОплатаВВалютеРасширеннаяПодсказка" id="77"/>
 										</CheckBoxField>
 										<InputField name="ИдентификаторПлатежа" id="16">
 											<DataPath>Объект.ИдентификаторПлатежа</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>27</MaxWidth>
 											<ContextMenu name="ИдентификаторПлатежаКонтекстноеМеню" id="17"/>
@@ -448,6 +463,7 @@
 										<InputField name="Менеджер" id="10">
 											<DataPath>Объект.Менеджер</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>29</MaxWidth>
 											<ContextMenu name="МенеджерКонтекстноеМеню" id="11"/>
@@ -462,19 +478,16 @@
 										</InputField>
 										<CheckBoxField name="ТолькоОстатки" id="314">
 											<DataPath>Объект.ТолькоОстатки</DataPath>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ТолькоОстаткиКонтекстноеМеню" id="315"/>
 											<ExtendedTooltip name="ТолькоОстаткиРасширеннаяПодсказка" id="316"/>
 										</CheckBoxField>
 										<CheckBoxField name="ОперацияССамозанятым" id="317">
 											<DataPath>Объект.ОперацияССамозанятым</DataPath>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ОперацияССамозанятымКонтекстноеМеню" id="321"/>
 											<ExtendedTooltip name="ОперацияССамозанятымРасширеннаяПодсказка" id="319"/>
 										</CheckBoxField>
 										<CheckBoxField name="КонтролироватьОстаткиАвансов" id="318">
 											<DataPath>Объект.КонтролироватьОстаткиАвансов</DataPath>
-											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="КонтролироватьОстаткиАвансовКонтекстноеМеню" id="320"/>
 											<ExtendedTooltip name="КонтролироватьОстаткиАвансовРасширеннаяПодсказка" id="322"/>
 										</CheckBoxField>
